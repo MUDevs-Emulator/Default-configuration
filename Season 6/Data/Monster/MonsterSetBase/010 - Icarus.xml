@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="77" Range="30" PositionX="34" PositionY="238" Direction="1" Element="0" /> <!-- "Phoenix of Darkness" -->
+		<Config Class="70" Range="30" PositionX="66" PositionY="68" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="85" PositionY="88" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="80" PositionY="76" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="73" Range="30" PositionX="45" PositionY="72" Direction="-1" Element="0" /> <!-- "Drakan" -->
+		<Config Class="72" Range="30" PositionX="41" PositionY="113" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="72" Range="30" PositionX="42" PositionY="135" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="74" Range="30" PositionX="29" PositionY="104" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="74" Range="30" PositionX="38" PositionY="103" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="74" Range="30" PositionX="35" PositionY="94" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="74" Range="30" PositionX="32" PositionY="87" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="73" Range="30" PositionX="35" PositionY="69" Direction="-1" Element="0" /> <!-- "Drakan" -->
+		<Config Class="73" Range="30" PositionX="26" PositionY="74" Direction="-1" Element="0" /> <!-- "Drakan" -->
+		<Config Class="73" Range="30" PositionX="36" PositionY="79" Direction="-1" Element="0" /> <!-- "Drakan" -->
+		<Config Class="74" Range="30" PositionX="39" PositionY="85" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="72" Range="30" PositionX="51" PositionY="126" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="71" Range="30" PositionX="88" PositionY="70" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="72" Range="30" PositionX="53" PositionY="138" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="72" Range="30" PositionX="44" PositionY="148" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="72" Range="30" PositionX="33" PositionY="119" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="74" Range="30" PositionX="33" PositionY="111" Direction="-1" Element="0" /> <!-- "Alpha Crust" -->
+		<Config Class="71" Range="30" PositionX="84" PositionY="47" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="79" PositionY="33" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="58" PositionY="42" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="70" Range="30" PositionX="89" PositionY="38" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="71" Range="30" PositionX="70" PositionY="43" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="64" PositionY="30" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="53" PositionY="27" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="70" Range="30" PositionX="91" PositionY="59" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="72" Range="30" PositionX="41" PositionY="157" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="69" Range="30" PositionX="44" PositionY="27" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="12" PositionY="27" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="13" PositionY="38" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="48" PositionY="40" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="72" Range="30" PositionX="42" PositionY="122" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="69" Range="30" PositionX="28" PositionY="28" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="71" Range="30" PositionX="93" PositionY="47" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="72" Range="30" PositionX="53" PositionY="150" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="75" Range="30" PositionX="50" PositionY="162" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="52" PositionY="174" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="55" PositionY="181" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="44" PositionY="212" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="72" Range="30" PositionX="38" PositionY="216" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="75" Range="30" PositionX="47" PositionY="189" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="59" PositionY="190" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="48" PositionY="200" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="57" PositionY="200" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="27" PositionY="220" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="69" Range="30" PositionX="66" PositionY="37" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="80" PositionY="41" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="75" Range="30" PositionX="43" PositionY="238" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="72" Range="30" PositionX="44" PositionY="221" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="69" Range="30" PositionX="40" PositionY="34" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="31" PositionY="37" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="18" PositionY="31" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="71" Range="30" PositionX="57" PositionY="34" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="71" PositionY="33" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="72" Range="30" PositionX="36" PositionY="226" Direction="-1" Element="0" /> <!-- "Phantom Knight" -->
+		<Config Class="75" Range="30" PositionX="48" PositionY="228" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="70" Range="30" PositionX="84" PositionY="36" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="90" PositionY="48" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="95" PositionY="56" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="74" PositionY="84" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="74" PositionY="72" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="57" PositionY="71" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="73" Range="30" PositionX="28" PositionY="67" Direction="-1" Element="0" /> <!-- "Drakan" -->
+		<Config Class="71" Range="30" PositionX="50" PositionY="33" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="59" PositionY="27" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="71" Range="30" PositionX="74" PositionY="38" Direction="-1" Element="0" /> <!-- "Mega Crust" -->
+		<Config Class="69" Range="30" PositionX="36" PositionY="29" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="37" PositionY="41" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="26" PositionY="41" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="69" Range="30" PositionX="21" PositionY="24" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="75" Range="30" PositionX="32" PositionY="231" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="45" PositionY="173" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="59" PositionY="163" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="75" Range="30" PositionX="52" PositionY="168" Direction="-1" Element="0" /> <!-- "Great Drakan" -->
+		<Config Class="69" Range="30" PositionX="21" PositionY="36" Direction="-1" Element="0" /> <!-- "Alquamos" -->
+		<Config Class="70" Range="30" PositionX="64" PositionY="84" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+		<Config Class="70" Range="30" PositionX="69" PositionY="77" Direction="-1" Element="0" /> <!-- "Queen Rainier" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

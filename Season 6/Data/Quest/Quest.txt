@@ -1,0 +1,13 @@
+//Index   StartType   MonsterClass   RequireMinLevel   RequireMaxLevel	DW      DK      FE      MG      DL      SU      RF	Comment
+0	  2	      235	     150	       *		1	1   	1   	0   	0   	1   	0 	//Locate the Scroll of the Emperor!
+1	  2	      235	     150	       *		1	1   	1   	0   	0   	1   	0 	//The Three Treasures of Mu
+2	  2	      229	     150	       *		2	2   	2   	0   	0   	2   	0 	//Achieve 'Hero Status!'
+3	  2	      229	     150	       *		0	2   	0   	0   	0   	0   	0 	//Secret of the 'Dark Stone'
+4	  2	      406	     150	       *		2	2   	2   	1   	1   	2   	1 	//Prove Your Strength
+5	  2	      406	     150	       *		2	2   	2   	1   	1   	2   	1 	//Infiltrate the Barracks of Balgass
+6	  2	      406	     150	       *		2	2   	2   	1   	1   	2   	1 	//Into the Realm of 'Darkness"
+end
+
+
+
+

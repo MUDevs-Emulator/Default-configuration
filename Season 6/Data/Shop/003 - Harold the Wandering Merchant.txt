@@ -1,0 +1,14 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Option	Exc	Name
+// ----------------------------------------------------------------------------------
+0	5	3	0	1	1	1	0	// Blade
+0	6	3	0	1	1	1	0	// Gladius
+8	0	3	0	0	1	1	0	// Bronze Armor
+7	0	3	0	0	1	1	0	// Bronze Helm
+9	0	3	0	0	1	1	0	// Bronze Pants
+10	0	3	0	0	1	1	0	// Bronze Gloves
+11	0	3	0	0	1	1	0	// Bronze Boots
+12	21	0	0	0	0	0	0	// Fire Burst
+12	24	0	0	0	0	0	0	// Electric Stark
+12	35	0	0	0	0	0	0	// Fire Scream	
+end						

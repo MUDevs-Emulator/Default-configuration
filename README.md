@@ -1,1 +1,1 @@
-# Default-configuration
+Base MUDevs emulator settings.

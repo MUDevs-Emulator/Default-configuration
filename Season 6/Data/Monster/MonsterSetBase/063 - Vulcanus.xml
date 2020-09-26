@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="479" Range="0" PositionX="122" PositionY="135" Direction="1" Element="0" /> <!-- "Doorkeeper Titus" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="481" Range="30" BeginPosX="64" BeginPosY="54" EndPosX="124" EndPosY="89" Direction="-1" Quantity="3" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="481" Range="30" BeginPosX="65" BeginPosY="12" EndPosX="105" EndPosY="47" Direction="-1" Quantity="3" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="481" Range="30" BeginPosX="22" BeginPosY="10" EndPosX="64" EndPosY="98" Direction="-1" Quantity="4" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="483" Range="30" BeginPosX="21" BeginPosY="128" EndPosX="77" EndPosY="186" Direction="-1" Quantity="4" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="483" Range="30" BeginPosX="28" BeginPosY="189" EndPosX="105" EndPosY="232" Direction="-1" Quantity="4" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="485" Range="30" BeginPosX="123" BeginPosY="186" EndPosX="174" EndPosY="219" Direction="-1" Quantity="2" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="485" Range="30" BeginPosX="172" BeginPosY="215" EndPosX="230" EndPosY="234" Direction="-1" Quantity="2" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="485" Range="30" BeginPosX="175" BeginPosY="171" EndPosX="238" EndPosY="194" Direction="-1" Quantity="2" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="485" Range="30" BeginPosX="203" BeginPosY="195" EndPosX="243" EndPosY="214" Direction="-1" Quantity="1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="488" Range="30" BeginPosX="198" BeginPosY="106" EndPosX="226" EndPosY="148" Direction="-1" Quantity="3" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="488" Range="30" BeginPosX="228" BeginPosY="107" EndPosX="248" EndPosY="133" Direction="-1" Quantity="1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="488" Range="30" BeginPosX="168" BeginPosY="101" EndPosX="198" EndPosY="131" Direction="-1" Quantity="1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="491" Range="30" BeginPosX="143" BeginPosY="8" EndPosX="178" EndPosY="63" Direction="-1" Quantity="2" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="491" Range="30" BeginPosX="182" BeginPosY="13" EndPosX="210" EndPosY="70" Direction="-1" Quantity="2" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="491" Range="30" BeginPosX="211" BeginPosY="39" EndPosX="244" EndPosY="72" Direction="-1" Quantity="1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="480" Range="30" PositionX="107" PositionY="60" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="115" PositionY="60" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="115" PositionY="67" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="73" PositionY="78" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="78" PositionY="85" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="85" PositionY="81" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="112" PositionY="84" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="118" PositionY="82" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="117" PositionY="88" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="88" PositionY="59" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="91" PositionY="66" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="95" PositionY="26" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="100" PositionY="30" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="79" PositionY="44" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="85" PositionY="43" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="73" PositionY="20" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="79" PositionY="23" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="41" PositionY="18" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="50" PositionY="14" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="33" PositionY="44" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="35" PositionY="38" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="32" PositionY="62" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="37" PositionY="61" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="33" PositionY="81" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="39" PositionY="88" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="33" PositionY="91" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="55" PositionY="64" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="65" PositionY="68" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="100" PositionY="80" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="99" PositionY="72" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="46" PositionY="42" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="55" PositionY="39" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="68" PositionY="58" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="97" PositionY="20" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="482" Range="30" PositionX="79" PositionY="78" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="110" PositionY="65" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="99" PositionY="24" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="81" PositionY="40" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="72" PositionY="24" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="38" PositionY="42" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="28" PositionY="59" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="31" PositionY="86" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="57" PositionY="68" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="62" PositionY="63" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="76" PositionY="63" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="92" PositionY="60" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="82" PositionY="18" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="47" PositionY="54" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="40" PositionY="73" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="44" PositionY="24" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="48" PositionY="19" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="53" PositionY="22" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="27" PositionY="139" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="55" PositionY="145" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="63" PositionY="139" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="64" PositionY="159" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="90" PositionY="180" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="29" PositionY="175" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="36" PositionY="198" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="67" PositionY="185" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="50" PositionY="159" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="484" Range="30" PositionX="29" PositionY="132" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="35" PositionY="141" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="33" PositionY="178" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="35" PositionY="172" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="34" PositionY="155" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="56" PositionY="138" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="60" PositionY="143" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="63" PositionY="165" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="69" PositionY="161" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="68" PositionY="169" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="72" PositionY="144" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="97" PositionY="182" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="93" PositionY="177" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="59" PositionY="179" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="84" PositionY="165" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="35" PositionY="221" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="44" PositionY="227" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="46" PositionY="218" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="41" PositionY="202" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="59" PositionY="210" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="69" PositionY="215" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="82" PositionY="217" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="80" PositionY="200" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="84" PositionY="207" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="86" PositionY="199" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="94" PositionY="216" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="101" PositionY="220" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="72" PositionY="223" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="37" PositionY="204" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="32" PositionY="205" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="64" PositionY="202" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="73" PositionY="177" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="140" PositionY="215" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="147" PositionY="195" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="165" PositionY="195" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="179" PositionY="183" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="190" PositionY="184" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="182" PositionY="227" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="208" PositionY="225" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="229" PositionY="196" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="232" PositionY="210" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="218" PositionY="227" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="222" PositionY="179" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="486" Range="30" PositionX="137" PositionY="202" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="154" PositionY="204" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="148" PositionY="214" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="133" PositionY="213" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="156" PositionY="188" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="176" PositionY="193" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="185" PositionY="173" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="193" PositionY="178" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="201" PositionY="190" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="228" PositionY="182" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="232" PositionY="191" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="236" PositionY="203" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="226" PositionY="203" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="174" PositionY="228" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="178" PositionY="223" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="189" PositionY="224" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="207" PositionY="219" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="211" PositionY="231" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="218" PositionY="221" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="208" PositionY="208" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="173" PositionY="111" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="179" PositionY="108" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="193" PositionY="125" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="198" PositionY="113" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="199" PositionY="107" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="209" PositionY="132" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="215" PositionY="113" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="234" PositionY="118" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="241" PositionY="126" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="204" PositionY="143" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="178" PositionY="115" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="195" PositionY="106" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="204" PositionY="124" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="216" PositionY="127" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="218" PositionY="116" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="240" PositionY="119" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="236" PositionY="122" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="202" PositionY="134" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="185" PositionY="123" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="219" PositionY="136" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="489" Range="30" PositionX="178" PositionY="73" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="152" PositionY="56" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="160" PositionY="50" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="157" PositionY="31" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="150" PositionY="18" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="188" PositionY="15" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="196" PositionY="12" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="194" PositionY="25" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="207" PositionY="28" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="214" PositionY="26" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="212" PositionY="51" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="217" PositionY="44" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="234" PositionY="50" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="237" PositionY="66" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="233" PositionY="61" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="211" PositionY="66" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="222" PositionY="66" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="183" PositionY="63" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="186" PositionY="39" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="175" PositionY="46" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="170" PositionY="27" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="143" PositionY="78" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="152" PositionY="89" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="184" PositionY="70" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="195" PositionY="61" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="193" PositionY="19" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="209" PositionY="23" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="216" PositionY="50" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="237" PositionY="52" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="235" PositionY="58" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="205" PositionY="66" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="174" PositionY="68" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="161" PositionY="57" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="154" PositionY="52" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="151" PositionY="12" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="162" PositionY="32" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="191" PositionY="42" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="215" PositionY="61" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="490" Range="30" PositionX="164" PositionY="78" Direction="-1" Element="0" /> <!-- "Ruthless Lava Giant" -->
+		<Config Class="484" Range="30" PositionX="106" PositionY="228" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="143" PositionY="224" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="199" PositionY="226" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="184" PositionY="180" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="480" Range="30" PositionX="65" PositionY="49" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="27" PositionY="98" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="38" PositionY="55" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="97" PositionY="35" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="104" PositionY="77" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="89" PositionY="87" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="71" PositionY="90" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="52" PositionY="57" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="60" PositionY="76" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="73" PositionY="43" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="61" PositionY="38" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="47" PositionY="85" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="82" PositionY="64" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="480" Range="30" PositionX="121" PositionY="72" Direction="-1" Element="0" /> <!-- "Zombie Fighter" -->
+		<Config Class="482" Range="30" PositionX="35" PositionY="132" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="35" PositionY="149" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="51" PositionY="152" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="59" PositionY="132" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="80" PositionY="152" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="53" PositionY="175" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="45" PositionY="164" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="33" PositionY="212" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="39" PositionY="230" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="482" Range="30" PositionX="57" PositionY="203" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+		<Config Class="484" Range="30" PositionX="144" PositionY="206" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="166" PositionY="203" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="486" Range="30" PositionX="138" PositionY="195" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="218" PositionY="200" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="211" PositionY="149" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="489" Range="30" PositionX="179" PositionY="56" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="195" PositionY="47" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="166" PositionY="42" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="165" PositionY="11" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="154" PositionY="64" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="489" Range="30" PositionX="158" PositionY="86" Direction="-1" Element="0" /> <!-- "Burning Lava Giant" -->
+		<Config Class="487" Range="30" PositionX="198" PositionY="129" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="205" PositionY="118" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="486" Range="30" PositionX="230" PositionY="125" Direction="-1" Element="0" /> <!-- "Blood Assassin" -->
+		<Config Class="484" Range="30" PositionX="100" PositionY="213" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="484" Range="30" PositionX="75" PositionY="218" Direction="-1" Element="0" /> <!-- "Ash Slaughterer" -->
+		<Config Class="487" Range="30" PositionX="225" PositionY="189" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="487" Range="30" PositionX="213" PositionY="183" Direction="-1" Element="0" /> <!-- "Cruel Blood Assassin" -->
+		<Config Class="482" Range="30" PositionX="91" PositionY="12" Direction="-1" Element="0" /> <!-- "Resurrected Gladiator" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

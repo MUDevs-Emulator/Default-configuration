@@ -1,0 +1,18 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exc	Anc	Name
+// ----------------------------------------------------------------------------------
+7	11	3	0	0	1	1	0	// Vine Helm
+8	11	3	0	0	1	1	0	// Vine Armor
+9	11	3	0	0	1	1	0	// Vine Pants
+10	11	3	0	0	1	1	0	// Vine Gloves
+11	11	3	0	0	1	1	0	// Vine Boots
+4	1	3	0	1	1	1	0	// Short Bow
+12	8	0	0	0	0	0	0	// Healing Orb
+12	9	0	0	0	0	0	0	// Greater Defence
+12	10	0	0	0	0	0	0	// Greater Damage
+12      11      2       0       0       0       0       0      	// Goblin Summon Orb
+12      11      3       0       0       0       0       0      	// Goblin Summon Orb
+12      11      4       0       0       0       0       0      	// Goblin Summon Orb		
+4       15      3       200     0       0       0       0      	// Arrows
+4       7       3       200     0       0       0       0      	// Bolts
+end

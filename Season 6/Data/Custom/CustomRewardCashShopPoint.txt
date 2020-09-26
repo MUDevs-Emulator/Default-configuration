@@ -1,0 +1,20 @@
+//Events ID
+// BattleSoccer ID = 0		//Desactivado
+// Blood Casttle ID = 1
+// Castle Deep ID = 2
+// Chaos Castle ID = 3
+// Crywolf ID = 4
+// DevilSqueare ID = 5
+// Double Goer ID = 6
+// Ilusion Temple ID = 7
+// Imperial Guardian ID = 8
+// Kalima ID = 9		//Desactivado
+// Kanturu ID = 10		//Desactivado
+// Raklion ID = 11
+// Castle Siege ID = 17
+
+
+0
+// EventID	Active	WCoinC	WCoinP	GoblinPoint
+//1		1	1	2	3
+end

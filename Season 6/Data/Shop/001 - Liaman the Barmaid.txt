@@ -1,0 +1,17 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exc	Name
+// ----------------------------------------------------------------------------------	
+14      9       0       0       0       0       0	0       // Fernet Branca
+14      9       1       0       0       0       0	0       // Coca Cola
+14      10      0       0       0       0       0	0       // Town Portal Scroll
+14      0       0       0       0       0       0	0       // Apple
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      8       0       3     	0       0       0       0       // Antidote
+14      3       0       3     	0       0       0       0       // Large Healing Potion
+14      6       0       3     	0       0       0       0       // Large Mana Potion
+4       7       3       200     0       0       0       0       // Bolts
+4       15      3       200     0       0       0       0       // Arrows
+14      8       0       200     0       0       0       0       // Antidote
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+end

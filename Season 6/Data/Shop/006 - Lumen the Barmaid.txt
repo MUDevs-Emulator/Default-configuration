@@ -1,0 +1,49 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Option	Exc	Name
+// ---------------------------------------------------------------------------------		
+13      16      1       0       0       0       0	0       // Scroll of Archangel +1	
+13      16      2       0       0       0       0	0       // Scroll of Archangel +2	
+13      16      3       0       0       0       0	0       // Scroll of Archangel +3	
+13      16      4       0       0       0       0	0       // Scroll of Archangel +4	
+13      16      5       0       0       0       0	0       // Scroll of Archangel +5	
+13      16      6       0       0       0       0	0       // Scroll of Archangel +6	
+13      16      7       0       0       0       0	0       // Scroll of Archangel +7	
+13      16      8       0       0       0       0	0       // Scroll of Archangel +8		
+13      17      1       0       0       0       0	0       // Blood Bone +1	
+13      17      2       0       0       0       0	0       // Blood Bone +2	
+13      17      3       0       0       0       0	0       // Blood Bone +3	
+13      17      4       0       0       0       0	0       // Blood Bone +4	
+13      17      5       0       0       0       0	0       // Blood Bone +5	
+13      17      6       0       0       0       0	0       // Blood Bone +6	
+13      17      7       0       0       0       0	0       // Blood Bone +7	
+13      17      8       0       0       0       0	0       // Blood Bone +8	
+14      17      1       0       0       0       0	0       // Devil Eye +1	
+14      17      2       0       0       0       0	0       // Devil Eye +2	
+14      17      3       0       0       0       0	0       // Devil Eye +3	
+14      17      4       0       0       0       0	0       // Devil Eye +4	
+14      17      5       0       0       0       0	0       // Devil Eye +5	
+14      17      6       0       0       0       0	0       // Devil Eye +6	
+14      17      7       0       0       0       0	0       // Devil Eye +7	
+14      17      8       0       0       0       0	0       // Devil Eye +8		
+14      18      1       0       0       0       0	0       // Devil Key +1	
+14      18      2       0       0       0       0	0       // Devil Key +2	
+14      18      3       0       0       0       0	0       // Devil Key +3	
+14      18      4       0       0       0       0	0       // Devil Key +4	
+14      18      5       0       0       0       0	0       // Devil Key +5	
+14      18      6       0       0       0       0	0       // Devil Key +6	
+14      18      7       0       0       0       0	0       // Devil Key +7	
+14      18      8       0       0       0       0	0       // Devil Key +8
+13      50      1       0       0       0       0	0       // Illusion Sorcerer Covenant +1
+13      50      2       0       0       0       0	0       // Illusion Sorcerer Covenant +2
+13      50      3       0       0       0       0	0       // Illusion Sorcerer Covenant +3
+13      50      4       0       0       0       0	0       // Illusion Sorcerer Covenant +4
+13      50      5       0       0       0       0	0       // Illusion Sorcerer Covenant +5
+13      50      6       0       0       0       0	0       // Illusion Sorcerer Covenant +6
+13      29      0       0       0       0       0	0       // Armor of Guardian
+13      49      1       0       0       0       0	0       // Old Scroll +1
+13      49      2       0       0       0       0	0       // Old Scroll +2
+13      49      3       0       0       0       0	0       // Old Scroll +3
+13      49      4       0       0       0       0	0       // Old Scroll +4
+13      49      5       0       0       0       0	0       // Old Scroll +5
+13      49      6       0       0       0       0	0       // Old Scroll +6
+end

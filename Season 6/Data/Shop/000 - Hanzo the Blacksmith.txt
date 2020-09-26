@@ -1,0 +1,12 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exc	Name
+// ----------------------------------------------------------------------------------
+8	5	3	0	0	1	1	0	// Leather Armor
+7	5	3	0	0	1	1	0	// Leather Helm
+9	5	3	0	0	1	1	0	// Leather Pants
+10	5	3	0	0	1	1	0	// Leather Gloves
+11	5	3	0	0	1	1	0	// Leather Boots
+0	3	3	0	1	1	1	0	// Katana
+0	4	3	0	1	1	1	0	// Sword of Assasin
+6	0	3	0	1	1	1	0	// Small Shield
+end

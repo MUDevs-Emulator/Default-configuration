@@ -1,0 +1,120 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Option	Exc	Name
+// ----------------------------------------------------------------------------------
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple			
+14      0       0       0       0       0       0	0       // Apple
+
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+14      20      0       0       0       0       0       0       // Remedy Of Love
+
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+14      8       0       200     0       0       0       0       // Antidote
+
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      1       0       200     0       0       0       0       // Small Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      2       0       200     0       0       0       0       // Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+14      3       0       200     0       0       0       0       // Large Healing Potion
+
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      4       0       200     0       0       0       0       // Small Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      5       0       200     0       0       0       0       // Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+14      6       0       200     0       0       0       0       // Large Mana Potion
+
+//14      10      0       0       0       0       0       0       // Town Portal Scroll
+
+
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+14      9       0       0       0       0       0       0       // Ale
+
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+14      9       1       0       0       0       0       0       // Olive
+
+
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+4       7       3       200     0       0       0       0       // Bolts
+
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+4       15      3       200     0       0       0       0       // Arrows
+end

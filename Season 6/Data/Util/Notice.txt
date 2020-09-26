@@ -1,0 +1,3 @@
+//Message                                                            Type   Count   Opacity   Delay   Red   Green   Blue   Speed   RepeatTime
+"Season 6 - MUDevs"                                                  0      0       0         0       0     0       0      0       60
+end

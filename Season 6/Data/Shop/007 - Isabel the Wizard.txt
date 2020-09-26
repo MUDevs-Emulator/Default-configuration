@@ -1,0 +1,17 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Option	Exc	Name
+// ----------------------------------------------------------------------------------	
+7	4	3	0	0	1	1	0	// Bone Helm
+8	4	3	0	0	1	1	0	// Bone Armor
+9	4	3	0	0	1	1	0	// Bone Pants
+10	4	3	0	0	1	1	0	// Bone Gloves
+11	4	3	0	0	1	1	0	// Bone Boots
+6	1	3	0	0	1	1	0	// Horn Shield
+5	1	3	0	0	1	1	0	// Angelic Staff
+15      1       0       0       0       0       0       0       // Meteorite	
+15      4       0       0       0       0       0       0       // Flame
+15      7       0       0       0       0       0       0       // Twister
+15      8       0       0       0       0       0       0       // Evil Spirit
+15      9       0       0       0       0       0       0       // HellFire
+15      11      0       0       0       0       0       0       // Aqua Beam
+end

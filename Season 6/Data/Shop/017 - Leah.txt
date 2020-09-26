@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------------------
+//Type	Index	Level	Dur	Skill	Luck	Option	Exc	Name
+// ----------------------------------------------------------------------------------
+7	39	3	0	0	1	1	0	// Violent Helm
+8	39	3	0	0	1	1	0	// Violent Armor
+9	39	3	0	0	1	1	0	// Violent Pants
+10	39	3	0	0	1	1	0	// Violent Gloves
+11	39	3	0	0	1	1	0	// Violent Boots
+5	14	3	0	0	1	1	0	// Mistery Stick
+15      3       0       0       0       0       0       0       // Fire Ball
+15      10      0       0       0       0       0       0       // Power Wave
+15      1       0       0       0       0       0       0       // Meteorite
+end
