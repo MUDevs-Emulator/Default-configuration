@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### LabyrinthOfDimension::Schedule ###
+//	EndDay: Day of month of end of league cycle, 1-30
+//
+// ### LabyrinthOfDimension::Schedule::Week ###
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ The league must be configured within 5 consecutive weeks, where last one is reward week
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Number: Number of week of the league cycle, starting from 1-5
+//
+// ### LabyrinthOfDimension::Schedule::Week::Day ###
+//	Number: Day of month of league stages can be played
+//	Type: Play type:
+//		~ 0: Start of the league in specific week, should always present as first in during during the week and be used once only
+//		~ 1: Regular play
+//		~ 2: Reward play, should be used once only dueing last week (5)
+//
+// ### LabyrinthOfDimension::WinningPoint ###
+//	KillGoblin: Points for killing goblin monster (757) during the event
+//	FirstPlay: Bonus points for first time play in the event
+//	FastFinish: Maximum number of points to apply for fast completion of the maze level
+//	FastFinishMaxTime: Maximum time of completion maze level to apply fast finish points, seconds
+//		Formula:
+//			~ PointDecrease = TimeMazeLevelWasCleared * 100 / FastFinishMaxTime;
+//			~ FastFinishPoints = FastFinish - (FastFinish * PointDecrease / 100);
+//
+// ### LabyrinthOfDimension::WinningPoint::Event ###
+//	Level: Floor level of the event, cannot be increased or decreased, 1-41
+//	First: Points for first time play in specified floor
+//	Repeat: Points for each subsequent play in the same floor 
+//
+// ### LabyrinthOfDimension::RewardInfo::FloorClear::Event ###
+//	Level: Floor level of the event, cannot be increased or decreased, 1-41
+//	ProbabilityRate1: Probability rate of getting level 1 box (14,403) for labyrinth floor completion, n/10000
+//	ProbabilityRate2: Probability rate of getting level 2 box (14,404) for labyrinth floor completion, n/10000
+//	ProbabilityRate3: Probability rate of getting level 3 box (14,405) for labyrinth floor completion, n/10000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all three probability rates per floor must be equal to 10000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### LabyrinthOfDimension::RewardInfo::LeagueWinner::League ###
+//	Level: Floor level of the event, cannot be increased or decreased, 1-41
+//	ItemCat: League winner item category number, see ItemList.xml
+//	ItemIndex: League winner item index number, see ItemList.xml
+//	ItemCount: Number of reward items	
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<LabyrinthOfDimension> 
+	<Schedule EndDay="29">
+		<Week Number="1">
+			<Day Number="1" Type="0" />
+			<Day Number="2" Type="1" />
+			<Day Number="3" Type="1" />
+			<Day Number="4" Type="1" />
+			<Day Number="5" Type="1" />
+			<Day Number="6" Type="1" />
+			<Day Number="7" Type="1" />
+		</Week>
+		<Week Number="2">
+			<Day Number="8" Type="0" />
+			<Day Number="9" Type="1" />
+			<Day Number="10" Type="1" />
+			<Day Number="11" Type="1" />
+			<Day Number="12" Type="1" />
+			<Day Number="13" Type="1" />
+			<Day Number="14" Type="1" />
+		</Week>
+		<Week Number="3">
+			<Day Number="15" Type="0" />
+			<Day Number="16" Type="1" />
+			<Day Number="17" Type="1" />
+			<Day Number="18" Type="1" />
+			<Day Number="19" Type="1" />
+			<Day Number="20" Type="1" />
+			<Day Number="21" Type="1" />
+		</Week>
+		<Week Number="4">
+			<Day Number="22" Type="0" />
+			<Day Number="23" Type="1" />
+			<Day Number="24" Type="1" />
+			<Day Number="25" Type="1" />
+			<Day Number="26" Type="1" />
+			<Day Number="27" Type="1" />
+			<Day Number="28" Type="1" />
+		</Week>
+		<Week Number="5">
+			<Day Number="29" Type="2" />
+		</Week>
+	</Schedule>
+
+	<WinningPoint KillGoblin="2000" FirstPlay="1000" FastFinish="250" FastFinishMaxTime="1200" >
+		<Event Floor="1" First="50" Repeat="25" />
+		<Event Floor="2" First="100" Repeat="50" />
+		<Event Floor="3" First="150" Repeat="75" />
+		<Event Floor="4" First="200" Repeat="100" />
+		<Event Floor="5" First="250" Repeat="125" />
+		<Event Floor="6" First="300" Repeat="150" />
+		<Event Floor="7" First="350" Repeat="175" />
+		<Event Floor="8" First="400" Repeat="200" />
+		<Event Floor="9" First="450" Repeat="225" />
+		<Event Floor="10" First="500" Repeat="250" />
+		<Event Floor="11" First="550" Repeat="275" />
+		<Event Floor="12" First="600" Repeat="300" />
+		<Event Floor="13" First="650" Repeat="325" />
+		<Event Floor="14" First="700" Repeat="350" />
+		<Event Floor="15" First="750" Repeat="375" />
+		<Event Floor="16" First="800" Repeat="400" />
+		<Event Floor="17" First="850" Repeat="425" />
+		<Event Floor="18" First="900" Repeat="450" />
+		<Event Floor="19" First="950" Repeat="475" />
+		<Event Floor="20" First="1000" Repeat="500" />
+		<Event Floor="21" First="1050" Repeat="525" />
+		<Event Floor="22" First="1100" Repeat="550" />
+		<Event Floor="23" First="1150" Repeat="575" />
+		<Event Floor="24" First="1200" Repeat="600" />
+		<Event Floor="25" First="1250" Repeat="625" />
+		<Event Floor="26" First="1300" Repeat="650" />
+		<Event Floor="27" First="1350" Repeat="675" />
+		<Event Floor="28" First="1400" Repeat="700" />
+		<Event Floor="29" First="1450" Repeat="725" />
+		<Event Floor="30" First="1500" Repeat="750" />
+		<Event Floor="31" First="1550" Repeat="775" />
+		<Event Floor="32" First="1600" Repeat="800" />
+		<Event Floor="33" First="1650" Repeat="825" />
+		<Event Floor="34" First="1700" Repeat="850" />
+		<Event Floor="35" First="1750" Repeat="875" />
+		<Event Floor="36" First="1800" Repeat="900" />
+		<Event Floor="37" First="1850" Repeat="925" />
+		<Event Floor="38" First="1900" Repeat="950" />
+		<Event Floor="39" First="1950" Repeat="975" />
+		<Event Floor="40" First="2000" Repeat="1000" />
+		<Event Floor="41" First="2050" Repeat="1025" />
+	</WinningPoint>
+	
+	<RewardInfo>
+		<FloorClear>
+			<Event Floor="1" ProbabilityRate1="10000" ProbabilityRate2="0" ProbabilityRate3="0" />
+			<Event Floor="2" ProbabilityRate1="10000" ProbabilityRate2="0" ProbabilityRate3="0" />
+			<Event Floor="3" ProbabilityRate1="10000" ProbabilityRate2="0" ProbabilityRate3="0" />
+			<Event Floor="4" ProbabilityRate1="10000" ProbabilityRate2="0" ProbabilityRate3="0" />
+			<Event Floor="5" ProbabilityRate1="10000" ProbabilityRate2="0" ProbabilityRate3="0" />
+			<Event Floor="6" ProbabilityRate1="9000" ProbabilityRate2="1000" ProbabilityRate3="0" />
+			<Event Floor="7" ProbabilityRate1="9000" ProbabilityRate2="1000" ProbabilityRate3="0" />
+			<Event Floor="8" ProbabilityRate1="9000" ProbabilityRate2="1000" ProbabilityRate3="0" />
+			<Event Floor="9" ProbabilityRate1="9000" ProbabilityRate2="1000" ProbabilityRate3="0" />
+			<Event Floor="10" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="11" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="12" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="13" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="14" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="15" ProbabilityRate1="8000" ProbabilityRate2="2000" ProbabilityRate3="0" />
+			<Event Floor="16" ProbabilityRate1="7000" ProbabilityRate2="3000" ProbabilityRate3="0" />
+			<Event Floor="17" ProbabilityRate1="7000" ProbabilityRate2="3000" ProbabilityRate3="0" />
+			<Event Floor="18" ProbabilityRate1="7000" ProbabilityRate2="3000" ProbabilityRate3="0" />
+			<Event Floor="19" ProbabilityRate1="7000" ProbabilityRate2="3000" ProbabilityRate3="0" />
+			<Event Floor="20" ProbabilityRate1="7000" ProbabilityRate2="3000" ProbabilityRate3="0" />
+			<Event Floor="21" ProbabilityRate1="5000" ProbabilityRate2="5000" ProbabilityRate3="0" />
+			<Event Floor="22" ProbabilityRate1="5000" ProbabilityRate2="5000" ProbabilityRate3="0" />
+			<Event Floor="23" ProbabilityRate1="5000" ProbabilityRate2="5000" ProbabilityRate3="0" />
+			<Event Floor="24" ProbabilityRate1="5000" ProbabilityRate2="5000" ProbabilityRate3="0" />
+			<Event Floor="25" ProbabilityRate1="5000" ProbabilityRate2="5000" ProbabilityRate3="0" />
+			<Event Floor="26" ProbabilityRate1="3000" ProbabilityRate2="6000" ProbabilityRate3="1000" />
+			<Event Floor="27" ProbabilityRate1="3000" ProbabilityRate2="6000" ProbabilityRate3="1000" />
+			<Event Floor="28" ProbabilityRate1="3000" ProbabilityRate2="6000" ProbabilityRate3="1000" />
+			<Event Floor="29" ProbabilityRate1="3000" ProbabilityRate2="6000" ProbabilityRate3="1000" />
+			<Event Floor="30" ProbabilityRate1="3000" ProbabilityRate2="6000" ProbabilityRate3="1000" />
+			<Event Floor="31" ProbabilityRate1="1000" ProbabilityRate2="6000" ProbabilityRate3="3000" />
+			<Event Floor="32" ProbabilityRate1="1000" ProbabilityRate2="6000" ProbabilityRate3="3000" />
+			<Event Floor="33" ProbabilityRate1="1000" ProbabilityRate2="6000" ProbabilityRate3="3000" />
+			<Event Floor="34" ProbabilityRate1="1000" ProbabilityRate2="6000" ProbabilityRate3="3000" />
+			<Event Floor="35" ProbabilityRate1="1000" ProbabilityRate2="6000" ProbabilityRate3="3000" />
+			<Event Floor="36" ProbabilityRate1="0" ProbabilityRate2="5000" ProbabilityRate3="5000" />
+			<Event Floor="37" ProbabilityRate1="0" ProbabilityRate2="5000" ProbabilityRate3="5000" />
+			<Event Floor="38" ProbabilityRate1="0" ProbabilityRate2="5000" ProbabilityRate3="5000" />
+			<Event Floor="39" ProbabilityRate1="0" ProbabilityRate2="5000" ProbabilityRate3="5000" />
+			<Event Floor="40" ProbabilityRate1="0" ProbabilityRate2="5000" ProbabilityRate3="5000" />
+			<Event Floor="41" ProbabilityRate1="0" ProbabilityRate2="3000" ProbabilityRate3="7000" />
+		</FloorClear>
+
+		<LeagueWinner>
+			<League Level="1" ItemCat="14" ItemIndex="405" ItemCount="2" />
+			<League Level="2" ItemCat="14" ItemIndex="405" ItemCount="5" />
+			<League Level="3" ItemCat="14" ItemIndex="405" ItemCount="10" />
+		</LeagueWinner>
+	</RewardInfo>
+</LabyrinthOfDimension>

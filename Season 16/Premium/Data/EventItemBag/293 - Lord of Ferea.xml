@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="5" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="5" Section="5" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="6" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="500" RuudMax="1000"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="6346" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Lorencia Knights' Iron Shield"/>
+		<ItemEx Section="6" Index="6349" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Brave Hero Elixir"/>
+		<ItemEx Section="6" Index="6351" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Merciless Gladiator's Dagger"/>
+		<ItemEx Section="6" Index="6352" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Kundun's Madness Blade"/>
+		<ItemEx Section="6" Index="6354" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Empire Guardians' Stronghold"/>
+		<ItemEx Section="6" Index="6355" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Ancient Icarus Scroll"/>
+		<ItemEx Section="6" Index="6356" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Arca's Prophecy"/>
+		<ItemEx Section="6" Index="6357" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="25" Attribute="0" Duration="0" Name="Antonia's Sword"/>
+		<ItemEx Section="6" Index="6365" Level="4" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="6" Index="6375" Level="4" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="6" Index="6395" Level="4" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="6" Index="3682" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Knight Helm"/>
+		<ItemEx Section="6" Index="4194" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Knight Armor"/>
+		<ItemEx Section="6" Index="4706" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Knight Pants"/>
+		<ItemEx Section="6" Index="5218" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Knight Gloves"/>
+		<ItemEx Section="6" Index="5730" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Knight Boots"/>
+		<ItemEx Section="6" Index="3683" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Wizard Helm"/>
+		<ItemEx Section="6" Index="4195" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Wizard Armor"/>
+		<ItemEx Section="6" Index="4707" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Wizard Pants"/>
+		<ItemEx Section="6" Index="5219" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Wizard Gloves"/>
+		<ItemEx Section="6" Index="5731" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Wizard Boots"/>
+		<ItemEx Section="6" Index="3684" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Elf Helm"/>
+		<ItemEx Section="6" Index="4196" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Elf Armor"/>
+		<ItemEx Section="6" Index="4708" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Elf Pants"/>
+		<ItemEx Section="6" Index="5220" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Elf Gloves"/>
+		<ItemEx Section="6" Index="5732" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Elf Boots"/>
+		<ItemEx Section="6" Index="3685" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Summoner Helm"/>
+		<ItemEx Section="6" Index="4197" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Summoner Armor"/>
+		<ItemEx Section="6" Index="4709" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Summoner Pants"/>
+		<ItemEx Section="6" Index="5221" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Summoner Gloves"/>
+		<ItemEx Section="6" Index="5733" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Summoner Boots"/>
+		<ItemEx Section="6" Index="3687" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lord Helm"/>
+		<ItemEx Section="6" Index="4199" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lord Armor"/>
+		<ItemEx Section="6" Index="4711" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lord Pants"/>
+		<ItemEx Section="6" Index="5223" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lord Gloves"/>
+		<ItemEx Section="6" Index="5735" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lord Boots"/>
+		<ItemEx Section="6" Index="4198" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Magic Armor"/>
+		<ItemEx Section="6" Index="4710" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Magic Pants"/>
+		<ItemEx Section="6" Index="5222" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Magic Gloves"/>
+		<ItemEx Section="6" Index="5734" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Magic Boots"/>
+		<ItemEx Section="6" Index="3688" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Fighter Helm"/>
+		<ItemEx Section="6" Index="4200" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Fighter Armor"/>
+		<ItemEx Section="6" Index="4712" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Fighter Pants"/>
+		<ItemEx Section="6" Index="5736" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Fighter Boots"/>
+		<ItemEx Section="6" Index="3689" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lancer Helm"/>
+		<ItemEx Section="6" Index="4201" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lancer Armor"/>
+		<ItemEx Section="6" Index="4713" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lancer Pants"/>
+		<ItemEx Section="6" Index="5225" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lancer Gloves"/>
+		<ItemEx Section="6" Index="5737" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Lancer Boots"/>
+		<ItemEx Section="6" Index="3706" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Rune Mage Helm"/>
+		<ItemEx Section="6" Index="4218" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Rune Mage Armor"/>
+		<ItemEx Section="6" Index="4730" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Rune Mage Pants"/>
+		<ItemEx Section="6" Index="5242" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Rune Mage Gloves"/>
+		<ItemEx Section="6" Index="5754" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Rune Mage Boots"/>
+		<ItemEx Section="6" Index="3764" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Slayer Helm"/>
+		<ItemEx Section="6" Index="4276" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Slayer Armor"/>
+		<ItemEx Section="6" Index="4788" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Slayer Pants"/>
+		<ItemEx Section="6" Index="5300" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Slayer Gloves"/>
+		<ItemEx Section="6" Index="5812" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Bloodangel Slayer Boots"/>
+		<ItemEx Section="6" Index="3796" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Blood Angel Gun Crusher Helmet"/>
+		<ItemEx Section="6" Index="4308" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Blood Angel Gun Crusher Armor"/>
+		<ItemEx Section="6" Index="4820" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Blood Angel Gun Crusher Pants"/>
+		<ItemEx Section="6" Index="5332" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Blood Angel Gun Crusher Gloves"/>
+		<ItemEx Section="6" Index="5844" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="14" Option6="0" Attribute="0" Duration="0" Name="Blood Angel Gun Crasher Boots"/>
+	</BagItemsEx>
+</ItemBag>

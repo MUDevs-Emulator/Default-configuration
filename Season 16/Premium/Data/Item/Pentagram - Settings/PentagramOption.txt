@@ -1,0 +1,45 @@
+0
+//Index   Option0   Option1   Option1   Comment
+6344      0         0         0		//Muren's Book of Magic
+6345      0         0         0		//Scroll of Etramu
+6346      0         0         0		//Lorencia Knights' Iron Shield
+6347      2         0         0		//Iron Shield of the Magic
+6348      0         0         0		//Hero Elixir
+6349      3         0         0		//Brave Hero Elixir
+6350      0         0         0		//Gladiator's Dagger
+6351      1         0         0		//Merciless Gladiator's Dagger
+6352      4         3         0		//Kundun's Madness Blade
+6353      5         3         0		//Kundun's Magic Spell Scroll
+6354      4         6         0		//Empire Guardians' Stronghold
+6355      5         6         0		//Ancient Icarus Scroll
+6356      7         3         0		//Arca's Prophecy
+6357      7         4         0		//Antonia's Sword
+6358      7         5         0		//Kundun's Seal Scroll
+6359      8         0         0         //Pentagram for Beginners
+6360      2         0         0         //Iron Shield (Bound)
+6361      9         0         0         //Thoughtful Sage's Jewel
+6450      10        11        12        //Runedil's Goldentune Harp
+6451      10        13        14        //Lemuria's Orb
+6452      15        16        17        //Norrwen's Bloodstring Lyra
+end
+
+1
+//Index   Name                                 Value   Type0   Rank0   Level0   Type1   Rank1   Level1   Type2   Rank2   Level2   Type3   Rank3   Level3   Type4   Rank4   Level4
+1         "Mul Pentagram Damage"               10      0       1       0        *       *       *        *       *       *        *       *       *        *       *       * 
+2         "Mul Pentagram Defense"              10      0       1       0        *       *       *        *       *       *        *       *       *        *       *       *
+3         "Add Elemental Critical D. Rate"     10      0       1       0        *       *       *        *       *       *        *       *       *        *       *       *
+4         "Add Elemental D. Transfer Rate"     5       0       3       0        1       3       0        *       *       *        *       *       *        *       *       *
+5         "Add Elemental A. Transfer Rate"     1       0       3       0        1       3       0        *       *       *        *       *       *        *       *       *
+6         "Add Elemental Resist Strong Rate"   5       1       2       0        2       1       7        *       *       *        *       *       *        *       *       *
+7         "Add Elemental Resist Rate"          5       1       3       6        2       3       6        3       3       6        *       *       *        *       *       *
+8         "Mul Pentagram Damage Defense"       5       0       1       0        1       1       0        2       1       0        3       1       0        *       *       *
+9         "Add Elemental Defense"              35      0       1       0        1       1       0        *       *       *        *       *       *        *       *       *
+10        "Mul Pentagram Damage Defense"       5       0       1       7        1       1       7        4       1       7        *       *       *        *       *       *
+11        "Mul Pentagram Damage"               10      0       2       0        2       2       0        *       *       *        *       *       *        *       *       * 
+12        "Add Elemental Damage"               30      0       3       0        2       3       0        *       *       *        *       *       *        *       *       *
+13        "Mul Pentagram Defense"              10      0       2       0        2       2       0        *       *       *        *       *       *        *       *       *
+14        "Add Elemental Defense"              30      0       3       0        2       3       0        *       *       *        *       *       *        *       *       *
+15        "Add Elemental Critical D. Rate"     5       1       1       7        *       *       *        *       *       *        *       *       *        *       *       *
+16        "Add Elemental Critical D. Rate"     10      0       2       3        *       *       *        *       *       *        *       *       *        *       *       *
+17        "Add Elemental Critical D. Rate"     25      0       3       0        1       3       0        *       *       *        *       *       *        *       *       *
+end

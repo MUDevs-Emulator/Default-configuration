@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="1"/>
+		<Config Index="1" DropRate="10000" EqualAttributes="1"/>
+		<Config Index="2" DropRate="10000" EqualAttributes="1"/>
+		<Config Index="3" DropRate="10000" EqualAttributes="1"/>
+		<Config Index="4" DropRate="10000" EqualAttributes="1"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="1" Section="7" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="2" Section="8" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="3" Section="9" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="4" Section="10" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="6359" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="25" Attribute="0" Duration="0" Name="Pentagram for Beginners"/>
+		<ItemEx Section="7" Index="6366" Level="1" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Attribute="0" Duration="0" Name="eginners Errtel of Anger"/>
+		<ItemEx Section="8" Index="6376" Level="1" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Attribute="0" Duration="0" Name="Beginners Errtel of Blessing"/>
+		<ItemEx Section="9" Index="6386" Level="1" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Attribute="0" Duration="0" Name="Beginners Errtel of Integrit"/>
+		<ItemEx Section="10" Index="6396" Level="1" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Attribute="0" Duration="0" Name="Beginners Errtel of Divinity"/>
+	</BagItemsEx>
+</ItemBag>

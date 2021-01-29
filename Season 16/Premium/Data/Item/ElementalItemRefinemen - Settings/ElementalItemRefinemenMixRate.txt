@@ -1,0 +1,54 @@
+//--------------------------------------------
+// Selection (0) -> Rank Config
+// Selection (1) -> Level UP Config
+// Selection (2) -> Special mode 3 lvl upgrade (Only up to lvl 7)
+// Index -> Rank or Level
+// Mix Money -> Amount of money required to make the mix
+// Mix Rate -> Probability of success for different types of ranks (MixRate0 =Rank 0, MixRate1 = Rank 1 Etc)
+// MixElementalRune -> Amount of elemental rune needed to level up (MixElementalRune0 =Rank 0, MixElementalRune1 = Rank 1 Etc)
+
+0
+//Index    MixMoney
+0	   0
+1          100000
+2          100000
+3          150000
+4          0
+end
+
+1
+//Index   MixMoney   MixRate0  MixElementalRune0  MixRate1  MixElementalRune1  MixRate2  MixElementalRune2  MixRate3  MixElementalRune3  MixRate4  MixElementalRune4
+//0         100000     90        1  		  90        1		       80        3 		    80        5			 0	   0
+//1         100000     80        1  		  80        1		       80        3        	    80        5			 0	   0
+//2         150000     70        2  		  70        2 		       70        4        	    70        6			 0	   0
+//3         200000     70        2  		  70        2		       70        4        	    70        6			 0	   0
+//4         250000     60        3  		  60        3		       60        5       	    60        7			 0	   0
+//5         300000     60        3  		  60        3 		       60        5        	    60        7			 0	   0
+//6         350000     60        4  		  60        4 		       50        6        	    50        8			 0	   0
+//7         400000     50        5  		  50        5 		       50        7        	    50        9			 0	   0
+//8         450000     50        6 		  50        6 		       40        8        	    40        10		 0	   0
+//9         500000     50        7  		  50        7 		       40        9        	    40        11		 0	   0
+
+0         100000     100        1  		  100        1		       100        3 		    100        5			 0	   0
+1         100000     100        1  		  100        1		       100        3        	    100        5			 0	   0
+2         150000     100        2  		  100        2 		       100        4        	    100        6			 0	   0
+3         200000     100        2  		  100        2		       100        4        	    100        6			 0	   0
+4         250000     100        3  		  100        3		       100        5       	    100        7			 0	   0
+5         300000     100        3  		  100        3 		       100        5        	    100        7			 0	   0
+6         350000     100        4  		  100        4 		       100        6        	    100        8			 0	   0
+7         400000     100        5  		  100        5 		       100        7        	    100        9			 0	   0
+8         450000     100        6 		  100        6 		       100        8        	    100        10		 0	   0
+9         500000     100        7  		  100        7 		       100        9        	    100        11		 0	   0
+end
+
+2
+//Index    MixRate0	MixRate1	MixRate2	MixRate3	MixRate4
+0          100		100		100		100		100
+1          100		100		100		100		100
+2          100		100		100		100		100
+3          100		100		100		100		100
+4          100		100		100		100		100
+5          100		100		100		100		100
+6          100		100		100		100		100
+7          100		100		100		100		100
+end

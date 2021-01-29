@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="100" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="7" SectionRate="1500" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="8" SectionRate="1500" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="9" SectionRate="2500" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="10" SectionRate="500" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="11" SectionRate="10" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="6375" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="6" Index="6365" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="6" Index="6385" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="6" Index="6395" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="6" Index="6405" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Radiance"/>
+		<ItemEx Section="7" Index="7488" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Blessing of Spirit"/>
+		<ItemEx Section="8" Index="7477" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Fragment of Radiance slot (1)"/>
+		<ItemEx Section="8" Index="7478" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Fragment of Radiance slot (2)"/>
+		<ItemEx Section="8" Index="7479" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Fragment of Radiance slot (3)"/>
+		<ItemEx Section="8" Index="7480" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Fragment of Radiance slot (4)"/>
+		<ItemEx Section="8" Index="7484" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Expansion Scroll of Radiance slot"/>
+		<ItemEx Section="9" Index="6432" Level="0" Grade="0" Durability="3" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Rune"/>
+		<ItemEx Section="9" Index="6432" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Rune"/>
+		<ItemEx Section="9" Index="7458" Level="0" Grade="0" Durability="2" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Powder"/>
+		<ItemEx Section="9" Index="7458" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Powder"/>
+		<ItemEx Section="9" Index="7458" Level="0" Grade="0" Durability="10" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Powder"/>
+		<ItemEx Section="9" Index="7458" Level="0" Grade="0" Durability="15" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Powder"/>
+		<ItemEx Section="10" Index="6352" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="5" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Kundun's Madness Blade"/>
+		<ItemEx Section="10" Index="6353" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="5" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Kundun's Magic Spell Scroll"/>
+		<ItemEx Section="11" Index="6450" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="5" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Runedil's Goldentune Harp"/>
+		<ItemEx Section="11" Index="6451" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="5" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Lemuria's Orb"/>
+		<ItemEx Section="11" Index="6452" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="5" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Norrwen's Bloodstring Lyra"/>
+	</BagItemsEx>
+</ItemBag>

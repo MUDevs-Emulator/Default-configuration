@@ -1,0 +1,90 @@
+0
+//MapIndex	Name
+0	"Lorencia"																																																			
+3	"Noria"																																																		
+51	"Elbeland"																																																			
+2	"Devias"																																																			
+1	"Dungeon"																																																		
+7	"Atlans"																																																			
+4	"LostTower"																																																			
+8	"Tarkan"																																																		
+112	"Ferea"																																																		
+33	"Aida"																																																		
+10	"Icarus"																																																			
+37	"KanturuRuins"																																																			
+38	"KanturuRelics"																																																			
+80	"Karutan1"																																																			
+81	"Karutan2"																																																			
+57	"Raklion"																																																			
+113	"Nixies Lake"																																																			
+56	"SwampOfPeace"																																																			
+91	"Acheron"																																																		
+95	"Debenter"																																																			
+100	"Mt. Uruk"																																																			
+110	"Nars"																																																		
+63	"Vulcanus"																																																			
+24	"Kalima1"																																																			
+25	"Kalima2"																																																			
+26	"Kalima3"																																																			
+27	"Kalima4"																																																			
+28	"Kalima5"																																																			
+29	"Kalima6"																																																			
+36	"Kalima7"																																																			
+34	"Crywolf"																																																			
+31	"Land of Trials"																																																			
+114	"Dimensional Labyrinth"																																																				
+115	"Dimensional Labyrinth"																																																				
+116	"Deep Dungeon 1st Floor"																																																	
+117	"Deep Dungeon 2nd Floor"																																																	
+118	"Deep Dungeon 3rd Floor"																																																	
+119	"Deep Dungeon 4th Floor"																																																	
+120	"Deep Dungeon 5th Floor"																																																	
+122	"Swamp of Darkness"																																																	
+123	"Cubera Mines"																																																	
+124	"Cubera Mines"																																																	
+125	"Cubera Mines"																																																	
+126	"Cubera Mines"																																																	
+127	"Cubera Mines"																																																	
+128	"Atlans of Abyss 1F"																																																			
+129	"Atlans of Abyss 2F"																																																			
+130	"Atlans of Abyss 3F"																																																			
+131	"Scorched Canyon"																																																				
+132	"Crimson Icarus"																																																				
+133	"Arenil Temple"		
+end	
+	
+1	
+//MonsterClass
+413	
+463	
+466	
+476	
+647	
+648	
+649	
+650	
+652	
+653	
+654	
+655	
+656	
+657	
+674	
+675	
+676	
+677	
+681	
+690	
+691	
+692	
+693	
+694	
+726	
+727	
+728	
+729	
+739	
+740	
+741	
+742	
+end	

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageManager>
+	<Lang ID="0" FileName="English.xml" Enable="1"/>
+	<Lang ID="1" FileName="Spanish.xml" Enable="0"/>
+	<Lang ID="2" FileName="Portuguese.xml" Enable="0"/>
+	<Lang ID="3" FileName="Korean.xml" Enable="0"/>
+	<Lang ID="4" FileName="Chinese.xml" Enable="0"/>
+	<Lang ID="5" FileName="Vietnamese.xml" Enable="0"/>
+	<Lang ID="6" FileName="Russian.xml" Enable="0"/>
+</LanguageManager>

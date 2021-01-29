@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EarringOption>
+	<EarringInfo Index="0" Name="Increase Strength" Operator="1" />
+	<EarringInfo Index="1" Name="Increase Agility" Operator="1" />
+	<EarringInfo Index="2" Name="Increase Energy" Operator="1" />
+	<EarringInfo Index="3" Name="Increase Stamina" Operator="1" />
+	<EarringInfo Index="4" Name="Increase Command" Operator="1" />
+	<EarringInfo Index="5" Name="Increase Min. Damage" Operator="1" />
+	<EarringInfo Index="6" Name="Increase Max. Damage" Operator="1" />
+	<EarringInfo Index="7" Name="Increase Wizardry Damage" Operator="2" />
+	<EarringInfo Index="8" Name="Increase Damage" Operator="2" />
+	<EarringInfo Index="9" Name="Increase Attack Speed" Operator="1" />
+	<EarringInfo Index="10" Name="Increase Defense" Operator="1" />
+	<EarringInfo Index="11" Name="Increase Max. Life" Operator="1" />
+	<EarringInfo Index="12" Name="Increase Max. Mana" Operator="1" />
+	<EarringInfo Index="13" Name="Increase Maximum AG" Operator="1" />
+	<EarringInfo Index="14" Name="Increase AG Recovery Rate" Operator="1" />
+	<EarringInfo Index="15" Name="Increase Critical Damage Chance" Operator="2" />
+	<EarringInfo Index="16" Name="Increase Critical Damage" Operator="1" />
+	<EarringInfo Index="17" Name="Increase Excellent Damage Chance" Operator="2" />
+	<EarringInfo Index="18" Name="Increase Excellent Damage" Operator="1" />
+	<EarringInfo Index="19" Name="Increase Skill Damage" Operator="1" />
+	<EarringInfo Index="20" Name="Double Damage Chance" Operator="2" />
+	<EarringInfo Index="21" Name="Ignore Enemy's Defense" Operator="2" />
+	<EarringInfo Index="22" Name="Increase defense when using shield" Operator="2" />
+	<EarringInfo Index="23" Name="Increase Damage/Magical Damage" Operator="1" />
+	<EarringInfo Index="24" Name="Increase all stats" Operator="1" />
+	<EarringInfo Index="26" Name="Increase Damage" Operator="1" />
+	<EarringInfo Index="27" Name="Increase Magical Damage" Operator="1" />
+	<EarringInfo Index="28" Name="Increases Mastery DMG/Wizardry" Operator="1" />
+	<EarringInfo Index="29" Name="Increases Mastery Excellent DMG" Operator="1" />
+	<EarringInfo Index="30" Name="Increases Mastery Critical DMG" Operator="1" />
+</EarringOption>

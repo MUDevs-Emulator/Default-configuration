@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EventMapPointIntegration Enable="1">
+	<RuudBoxRewardConfig>
+		<BoxInfo ItemIndex="7450" MinPoint="100" MaxPoint="400" Name="Mastery Box(Minor)" />
+		<BoxInfo ItemIndex="7451" MinPoint="401" MaxPoint="800" Name="Mastery Box(Standard)" />
+		<BoxInfo ItemIndex="7452" MinPoint="801" MaxPoint="-1" Name="Mastery Box(Greater)"  />
+	</RuudBoxRewardConfig>
+
+	<ChaosCastle MonsterKillPoints="13" PlayerKillPoint="50" WinnerPoint="99" />
+	<BloodCastle MonsterKillPoints="5" BossKillPoint="20" DoorPoints="100" SaintStatuePoints="200" />
+	<DevilSquare MonsterKillPoints="1" Stage1="200" Stage2="150" Stage3="100" />
+	<ImperialGuardian MonsterKillPointsWeekdays="45" BossKillPointWeekdays="100" MonsterKillPointsSunday="22" BossKillPointSunday="100" />
+</EventMapPointIntegration>

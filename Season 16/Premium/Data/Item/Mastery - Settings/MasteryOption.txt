@@ -1,0 +1,20 @@
+0
+//Group   Index   Name                                 Value
+0         6       "Add Damage By Level"                0
+0         7       "Add Damage"                         1
+1         6       "Add HP"                             2
+1         7       "Add MP"                             3
+1         8       "Add Damage Decrease"                4
+1         9       "Add Money Amount Drop Rate"         5
+1         10      "Add Impenetrable Def. By Level"     6
+end
+
+1
+//Group   Index   Name                                 Value	
+0         1       "Add Stat All"                       10	
+0         2       "Add Stat All"                       25	
+0         3       "Add Stat All"                       40	
+1         1       "Add Damage Decrease"                25	
+1         2       "Add Damage Decrease"                50	
+1         3       "Add Damage Decrease"                75	
+end

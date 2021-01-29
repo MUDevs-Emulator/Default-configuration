@@ -1,0 +1,107 @@
+//-------------------------------------------------------------------------------------------------------
+// information about the classes
+//-------------------------------------------------------------------------------------------------------
+// Selection (0) -> Class DW 
+// Selection (1) -> Class DK
+// Selection (2) -> Class FE
+// Selection (3) -> Class MG
+// Selection (4) -> Class DL
+// Selection (5) -> Class SU
+// Selection (6) -> Class RF
+// Selection (7) -> Class GL
+// Selection (8) -> Class RW
+// Selection (9) -> Class SL
+// Selection (10)-> Class GC
+//-------------------------------------------------------------------------------------------------------
+// information about the bonuses
+//-------------------------------------------------------------------------------------------------------
+// STATS_SPECIALIZE_INCREASE_DAMAGE 			= 1
+// STATS_SPECIALIZE_INCREASE_ATTACK_SUCCESS_RATE_PVE 	= 2
+// STATS_SPECIALIZE_INCREASE_ATTACK_SUCCESS_RATE_PVP 	= 3
+// STATS_SPECIALIZE_INCREASE_DEFENSE			= 4
+// STATS_SPECIALIZE_INCREASE_ATTACK_SPEED 		= 5	// No Use
+// STATS_SPECIALIZE_INCREASE_DEFENSE_SUCCESS_RATE_PVE 	= 6
+// STATS_SPECIALIZE_INCREASE_DEFENSE_SUCCESS_RATE_PVP 	= 7
+// STATS_SPECIALIZE_INCREASE_LIFE 			= 8	// No Use
+// STATS_SPECIALIZE_INCREASE_MAGIC_DAMAGE 		= 9
+// STATS_SPECIALIZE_INCREASE_CURSE_DAMAGE	 	= 10
+// STATS_SPECIALIZE_INCREASE_MANA 			= 11	// No Use
+// STATS_SPECIALIZE_INCREASE_PET_DAMAGE 		= 12	// No Use
+//-------------------------------------------------------------------------------------------------------
+// Information about the bonus stats
+//-------------------------------------------------------------------------------------------------------
+// STATS_SPECIALIZE_BONIFICACION_STRENGTH   = 1
+// STATS_SPECIALIZE_BONIFICACION_DEXTERITY  = 2
+// STATS_SPECIALIZE_BONIFICACION_VITALITY   = 3
+// STATS_SPECIALIZE_BONIFICACION_ENERGY     = 4
+// STATS_SPECIALIZE_BONIFICACION_LEADERSHIP = 5
+//-------------------------------------------------------------------------------------------------------
+
+0
+//StatType	OptionIndex  	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+4		9	   	1500		10		2000		30		3000		45		*		*		*		*
+2		2	   	1500		10		2000		30		3000		45		*		*		*		*
+2		3	  	1500		10		2000		30		3000		45		*		*		*		*
+end
+
+1
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+2		4		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+2
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+2		1		1800		10		2100		30		3000		45		*		*		*		*
+2		6		1800		10		2100		30		3000		45		*		*		*		*
+2		7		1800		10		2100		30		3000		45		*		*		*		*
+end
+
+3
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+4		9		1800		10		2500		30		3000		45		*		*		*		*
+end
+
+4
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+2		4		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+5
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+4		9		1500		10		2000		30		3000		45		*		*		*		*
+4		10		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+6
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+7
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+2		4		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+8
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+4		9		1500		10		2000		30		3000		45		*		*		*		*
+2		2		1500		10		2000		30		3000		45		*		*		*		*
+2		3		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+9
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+1		1		1500		10		2000		30		3000		45		*		*		*		*
+2		6		1500		10		2000		30		3000		45		*		*		*		*
+end
+
+10
+//StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
+4		9	   	1500		10		2000		30		3000		45		*		*		*		*
+2		2	   	1500		10		2000		30		3000		45		*		*		*		*
+2		3	  	1500		10		2000		30		3000		45		*		*		*		*
+end

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="259" Range="0" PositionX="7" PositionY="19" Direction="2" Element="0" /> <!-- "Oracle Layla" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="185" Range="30" PositionX="30" PositionY="75" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="35" PositionY="21" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="28" PositionY="17" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="36" PositionY="11" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="51" PositionY="11" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="42" PositionY="12" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="45" PositionY="22" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="52" PositionY="24" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="53" PositionY="17" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="185" Range="30" PositionX="60" PositionY="9" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="186" Range="30" PositionX="67" PositionY="22" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="185" Range="30" PositionX="60" PositionY="22" Direction="-1" Element="0" /> <!-- "Aegis" -->
+		<Config Class="186" Range="30" PositionX="69" PositionY="9" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="74" PositionY="14" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="82" PositionY="8" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="81" PositionY="19" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="86" PositionY="13" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="92" PositionY="6" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="96" PositionY="16" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="99" PositionY="9" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="186" Range="30" PositionX="109" PositionY="19" Direction="-1" Element="0" /> <!-- "Rogue Centurion" -->
+		<Config Class="184" Range="30" PositionX="110" PositionY="9" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="184" Range="30" PositionX="118" PositionY="17" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="184" Range="30" PositionX="110" PositionY="35" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="184" Range="30" PositionX="121" PositionY="27" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="184" Range="30" PositionX="119" PositionY="35" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="184" Range="30" PositionX="114" PositionY="44" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="182" Range="30" PositionX="120" PositionY="50" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="182" Range="30" PositionX="105" PositionY="54" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="182" Range="30" PositionX="119" PositionY="57" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="182" Range="30" PositionX="110" PositionY="65" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="182" Range="30" PositionX="121" PositionY="67" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="184" Range="30" PositionX="108" PositionY="28" Direction="-1" Element="0" /> <!-- "Blood Soldier" -->
+		<Config Class="182" Range="30" PositionX="111" PositionY="72" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="182" Range="30" PositionX="105" PositionY="86" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="187" Range="30" PositionX="118" PositionY="84" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="182" Range="30" PositionX="118" PositionY="95" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="187" Range="30" PositionX="104" PositionY="101" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="115" PositionY="106" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="93" PositionY="96" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="93" PositionY="84" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="82" PositionY="85" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="82" PositionY="77" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="187" Range="30" PositionX="74" PositionY="76" Direction="-1" Element="0" /> <!-- "Necron" -->
+		<Config Class="183" Range="30" PositionX="87" PositionY="90" Direction="-1" Element="0" /> <!-- "Death Centurion" -->
+		<Config Class="183" Range="30" PositionX="68" PositionY="77" Direction="-1" Element="0" /> <!-- "Death Centurion" -->
+		<Config Class="183" Range="30" PositionX="63" PositionY="72" Direction="-1" Element="0" /> <!-- "Death Centurion" -->
+		<Config Class="183" Range="30" PositionX="58" PositionY="78" Direction="-1" Element="0" /> <!-- "Death Centurion" -->
+		<Config Class="182" Range="30" PositionX="120" PositionY="75" Direction="-1" Element="0" /> <!-- "Death Angel" -->
+		<Config Class="183" Range="30" PositionX="57" PositionY="71" Direction="-1" Element="0" /> <!-- "Death Centurion" -->
+		<Config Class="188" Range="30" PositionX="32" PositionY="50" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="42" PositionY="51" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="38" PositionY="58" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="29" PositionY="65" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="46" PositionY="66" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="42" PositionY="97" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="37" PositionY="109" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="47" PositionY="107" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="53" PositionY="93" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="188" Range="30" PositionX="35" PositionY="87" Direction="-1" Element="0" /> <!-- "Schriker" -->
+		<Config Class="189" Range="30" PositionX="26" PositionY="76" Direction="-1" Element="0" /> <!-- "Illusion of Kundun" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

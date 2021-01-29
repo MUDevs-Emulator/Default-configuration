@@ -1,0 +1,9 @@
+0
+//Enabled
+1
+end
+
+1
+// ServerCode	Enabled		Description
+19		0		//Game Server CS
+end

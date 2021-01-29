@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+//======================================================================================================================
+//~~ Changes to the file must be reflected in client side, section 0-2 and 4, 1LabyrinthOfDimensionInfo.txt (Lang.mpr)
+//======================================================================================================================
+//
+// ### LabyrinthOfDimension ###
+//	Enable: Deactivates or activates the event, 0/1
+//
+// ### LabyrinthOfDimension::EventMaps::Map ###
+//	ID: Unique, subsequent ID of map used to render labyrinth area
+//	Index: Map index, see MapList.xml
+//	StartX: Start X coordinate of the selected map
+//	StartY: Start Y coordinate of the selected map
+// 	EndX: End X coordinate of the selected map
+//	EndY: End Y coordinate of the selected map
+//	Name: Map name, use for description and logging purpose
+//
+// ### LabyrinthOfDimension::GoblinMonster ###
+//	Type: Goblin monster index, MonsterList.xml
+//	AppearanceRate: Chance rate of goblin monster appearance, n/10000
+//	MaxZoneOpen: Maximum number of discovered zones per floor to make the goblin appear
+//
+// ### LabyrinthOfDimension::MissionSettings::Mission ###
+//	AreaType: Type of area, refers to AreaIndex of LabyrinthOfDimension_Path.xml
+//		~ 0: None
+//		~ 1: Entrance
+//		~ 2: Normal
+//		~ 3: Trap
+//		~ 4: Main mission
+//
+//	AreaIndex: Index of area within specified maze floor the mission is active, refers to AreaIndex of LabyrinthOfDimension_Path.xml
+//		~ 0: Monster kill
+//		~ 1: Time limit
+//		~ 2: Accumulative damage
+//		~ 3: Helper time usage
+//		~ 4: Not use health potions
+//		~ 5: Not use mana potions
+//		~ 6: Exp, not in use currently
+//
+//	TypeX: Type of mission:
+//		~ -1: None
+//		~ 1: Monster kill
+//		~ 2: Time limit
+//		~ 3: Accumulative damage
+//		~ 4: Helper time usage
+//		~ 5: Not use health potions
+//		~ 6: Not use mana potions
+//		~ 7: Exp, not in use currently
+//
+//	ValueX: target value for specified event Type:
+//		Type = 1, number of monsters to kill
+//		Type = 2, time in minutes
+//		Type = 3, number of damage
+//		Type = 4, time in seconds
+//		Type = 5, time in minutes
+//		Type = 6, time in minutes
+//		Type = 7, number of exp
+//
+//	MonsterIndexX: Index of monster to spawn, see MonsterList.xml
+//	MonsterCountX: Number of monsters to spawn
+//
+// ### LabyrinthOfDimension::Event ###
+//	Floor: Floor level of the event, cannot be increased or decreased, 1-41
+//	HP: Monster HP multiplier
+//	DamageMin: Monster Minimum Damage multiplier
+//	DamageMax: Monster Maximum Damage multiplier
+//	Defense: Monster Defense multiplier
+//	Level: Monster level multiplier, not in use at the moment
+//	ExpLevel: Monster Exp Level multiplier
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<LabyrinthOfDimension Enable="1">
+	<EventMaps>	
+		<Map ID="0" Index="0" StartX="78" StartY="226" EndX="93" EndY="237" Name="Lorencia" />
+		<Map ID="1" Index="3" StartX="72" StartY="36" EndX="87" EndY="47" Name="Noria" />
+		<Map ID="2" Index="4" StartX="19" StartY="101" EndX="34" EndY="112" Name="Lost Tower" />
+		<Map ID="3" Index="8" StartX="149" StartY="208" EndX="164" EndY="219" Name="Tarkan" />
+		<Map ID="4" Index="112" StartX="25" StartY="108" EndX="40" EndY="117" Name="Ferea" />
+		<Map ID="5" Index="112" StartX="111" StartY="12" EndX="126" EndY="23" Name="Ferea" />
+		<Map ID="6" Index="33" StartX="131" StartY="15" EndX="146" EndY="26" Name="Aida" />
+		<Map ID="7" Index="37" StartX="165" StartY="158" EndX="180" EndY="169" Name="Kanturu Ruins" />
+		<Map ID="8" Index="80" StartX="34" StartY="79" EndX="49" EndY="88" Name="Karutan 1" />
+		<Map ID="9" Index="80" StartX="213" StartY="167" EndX="228" EndY="176" Name="Karutan 1" />
+		<Map ID="10" Index="81" StartX="57" StartY="135" EndX="72" EndY="144" Name="Karutan 2" />
+		<Map ID="11" Index="57" StartX="76" StartY="24" EndX="91" EndY="35" Name="Rakltion (Field)" />
+		<Map ID="12" Index="58" StartX="138" StartY="25" EndX="153" EndY="36" Name="Raklion (Boss Zone)" />
+		<Map ID="13" Index="56" StartX="224" StartY="195" EndX="239" EndY="206" Name="Swamp of Calmness" />
+		<Map ID="14" Index="56" StartX="226" StartY="72" EndX="241" EndY="83" Name="Swamp of Calmness" />
+		<Map ID="15" Index="56" StartX="212" StartY="25" EndX="226" EndY="36" Name="Swamp of Calmness" />
+		<Map ID="16" Index="56" StartX="24" StartY="178" EndX="39" EndY="189" Name="Swamp of Calmness" />
+		<Map ID="17" Index="91" StartX="71" StartY="27" EndX="86" EndY="38" Name="Acheron" />
+		<Map ID="18" Index="91" StartX="217" StartY="14" EndX="232" EndY="25" Name="Acheron" />
+		<Map ID="19" Index="95" StartX="74" StartY="25" EndX="89" EndY="36" Name="Debenter" />
+		<Map ID="20" Index="100" StartX="89" StartY="65" EndX="104" EndY="76" Name="Uruk Mountain" />
+		<Map ID="21" Index="100" StartX="86" StartY="24" EndX="101" EndY="35" Name="Uruk Mountain" />	
+		<Map ID="22" Index="63" StartX="38" StartY="11" EndX="53" EndY="22" Name="Vulcanus" />
+		<Map ID="23" Index="63" StartX="138" StartY="207" EndX="153" EndY="218" Name="Vulcanus" />	
+		<Map ID="24" Index="31" StartX="205" StartY="17" EndX="220" EndY="28" Name="Land of Trials (Siege Huntin Zone)" />
+		<Map ID="25" Index="113" StartX="181" StartY="132" EndX="198" EndY="143" Name="Nixie Lake" />
+		<Map ID="26" Index="112" StartX="108" StartY="187" EndX="123" EndY="199" Name="Ferea" />
+		<Map ID="27" Index="0" StartX="47" StartY="146" EndX="62" EndY="157" Name="Lorencia" />
+		<Map ID="28" Index="0" StartX="24" StartY="21" EndX="39" EndY="32" Name="Lorencia" />	
+		<Map ID="29" Index="0" StartX="205" StartY="48" EndX="220" EndY="59" Name="Lorencia" />	
+		<Map ID="30" Index="1" StartX="1" StartY="101" EndX="16" EndY="112" Name="Dungeon" />
+		<Map ID="31" Index="1" StartX="27" StartY="114" EndX="42" EndY="125" Name="Dungeon" />
+		<Map ID="32" Index="2" StartX="158" StartY="8" EndX="171" EndY="19" Name="Devias" />
+		<Map ID="33" Index="2" StartX="48" StartY="8" EndX="63" EndY="19" Name="Devias" />
+		<Map ID="34" Index="6" StartX="81" StartY="80" EndX="96" EndY="91" Name="Arena" />
+		<Map ID="35" Index="9" StartX="65" StartY="93" EndX="80" EndY="104" Name="Devil Square 1~4" />
+		<Map ID="36" Index="31" StartX="46" StartY="50" EndX="61" EndY="61" Name="Land of Trials (Siege Huntin Zone)" />
+		<Map ID="37" Index="31" StartX="53" StartY="218" EndX="68" EndY="229" Name="Land of Trials (Siege Huntin Zone)" />
+	</EventMaps>
+	
+	<GoblinMonster Type="757" AppearanceRate="2000" MaxZoneOpen="10" />
+	<MissionSettings>
+		<!-- No Moving Area -->
+		<Mission AreaType="0" AreaIndex="0" Type1="-1" Value1="-1" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="-1" MonsterCount1="-1" MonsterIndex2="-1" MonsterCount2="-1" MonsterIndex3="-1" MonsterCount3="-1" />
+		<!-- Entrance Area -->
+		<Mission AreaType="1" AreaIndex="0" Type1="-1" Value1="-1" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="-1" MonsterCount1="-1" MonsterIndex2="-1" MonsterCount2="-1" MonsterIndex3="-1" MonsterCount3="-1" />
+		<!-- General Area -->
+		<Mission AreaType="2" AreaIndex="0" Type1="-1" Value1="-1" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="-1" MonsterCount1="-1" MonsterIndex2="-1" MonsterCount2="-1" MonsterIndex3="-1" MonsterCount3="-1" />
+		<!-- Missions Area -->
+		<Mission AreaType="3" AreaIndex="0" Type1="1" Value1="70" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Kill monsters -->
+		<Mission AreaType="3" AreaIndex="1" Type1="2" Value1="65000" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Zen Collection -->
+		<Mission AreaType="3" AreaIndex="2" Type1="3" Value1="8000000" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Achieve Cumulative Damage -->
+		<Mission AreaType="3" AreaIndex="3" Type1="4" Value1="300000" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Achieve Exp (not used) -->
+		<Mission AreaType="3" AreaIndex="4" Type1="5" Value1="10000" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> 	<!-- Accumulated Damage -->
+		<Mission AreaType="3" AreaIndex="5" Type1="6" Value1="3" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Helper use time (seconds) -->
+		<Mission AreaType="3" AreaIndex="6" Type1="7" Value1="70" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Destroy target monster with no HP Potions used -->
+		<Mission AreaType="3" AreaIndex="7" Type1="8" Value1="70" Type2="-1" Value2="-1" Type3="-1" Value3="-1" Type4="-1" Value4="-1" Type5="-1" Value5="-1" Type6="-1" Value6="-1" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Destroy target monster with no Mana Potions used -->
+		<Mission AreaType="4" AreaIndex="0" Type1="1" Value1="3400" Type2="2" Value2="3500000" Type3="3" Value3="384000000" Type4="4" Value4="14400000" Type5="5" Value5="400000" Type6="6" Value6="144" MonsterIndex1="754" MonsterCount1="2" MonsterIndex2="755" MonsterCount2="2" MonsterIndex3="756" MonsterCount3="2" /> <!-- Final Quest -->
+	</MissionSettings>
+	
+	<MonsterAttributes>
+		<Event Floor="1" HP="1.0" DamageMin="1.1" DamageMax="1.1" Defense="1.0" ExpLevel="1.0" JewelOfBless="0.0010" />
+		<Event Floor="2" HP="1.1" DamageMin="1.2" DamageMax="1.2" Defense="1.3" ExpLevel="1.1" JewelOfBless="0.0035" />
+		<Event Floor="3" HP="1.3" DamageMin="1.4" DamageMax="1.4" Defense="1.5" ExpLevel="1.2" JewelOfBless="0.0040" />
+		<Event Floor="4" HP="1.5" DamageMin="1.6" DamageMax="1.6" Defense="1.7" ExpLevel="1.3" JewelOfBless="0.0050" />
+		<Event Floor="5" HP="1.7" DamageMin="1.8" DamageMax="1.8" Defense="1.9" ExpLevel="1.4" JewelOfBless="0.0065" />
+		<Event Floor="6" HP="1.9" DamageMin="2.2" DamageMax="2.2" Defense="2.5" ExpLevel="1.5" JewelOfBless="0.0070" />
+		<Event Floor="7" HP="2.5" DamageMin="2.7" DamageMax="2.7" Defense="3.0" ExpLevel="1.6" JewelOfBless="0.0075" />
+	</MonsterAttributes>
+	<EventReward>
+		<Event Floor="1" RuudMin="30" RuudMax="30" />
+		<Event Floor="2" RuudMin="70" RuudMax="70" />
+		<Event Floor="3" RuudMin="130" RuudMax="130" />
+		<Event Floor="4" RuudMin="170" RuudMax="170" />
+		<Event Floor="5" RuudMin="250" RuudMax="250" />
+		<Event Floor="6" RuudMin="350" RuudMax="350" />
+		<Event Floor="7" RuudMin="400" RuudMax="400" />
+	</EventReward>
+</LabyrinthOfDimension>

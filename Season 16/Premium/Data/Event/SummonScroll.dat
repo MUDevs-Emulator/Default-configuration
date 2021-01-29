@@ -1,0 +1,34 @@
+0
+//Index   ItemIndex   Comment
+0         7378        //Summon Scroll (Lv1)
+1         7379        //Summon Scroll (Lv2)
+2         7380        //Summon Scroll (Lv3)
+3         7381        //Summon Scroll (Lv4)
+4         7385        //Titan's Anger
+5         7386        //Tantalose's Punishment
+6         7387        //Erohim's Nightmare
+7         7388        //Hell Maine's Insanity
+8         7389        //Kundun's Greed
+9         7402        //Book of Monster Invocation
+end
+
+1
+//Index   Group   MonsterClass   CreateRate   Comment
+0         0       647            10000        //Green Snake (green)
+1         0       648            10000        //Yellow Snake (yellow)
+2         0       649            10000        //Purple Snake (purple)
+3         0       650            10000        //Red Snake (red)
+4         0       653            10000        //Golden Titan
+5         0       654            10000        //Golden Tantalose
+6         0       655            10000        //Golden Erohim
+7         0       656            10000        //Golden Hell Maine
+8         0       657            10000        //Golden Kundun
+8         1       654            10000        //Golden Tantalose
+8         2       654            10000        //Golden Tantalose
+8         3       654            10000        //Golden Tantalose
+8         4       654            10000        //Golden Tantalose
+9         0       674            3000         //Moon Rabbit
+9         0       675            3000         //Pouch of Blessing
+9         0       676            3000         //Fire Flame Ghost
+9         0       677            1000         //Golden Goblin
+end

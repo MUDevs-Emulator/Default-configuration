@@ -1,0 +1,185 @@
+//------------------------------------------------------------------------
+// Ruud System
+// [NPC Open Time] = Selection (0)
+// [All Class] = Selection (1)
+// [Dark Wizard] = Selection (2)
+// [Blade Knight] = Selection (3)
+// [Elf] = Selection (4)
+// [Magic Gladiator] = Selection (5)
+// [Dark Lord] = Selection (6)
+// [Summoner] = Selection (7)
+// [Rage Fighter] = Selection (8)
+// [Grow Lancer] = Selection (9)
+//------------------------------------------------------------------------
+0
+//Npc Open Time(Sec)
+60
+end
+
+1
+//Type	Selection  Count   Value    Description
+16      42	   0       75000    // Chicken (Evolved)
+14      341	   0       50000    // Sealed Stone Shard
+14      364	   0       5000     // Socket Upgrade Note
+14      384	   0       1000     // Sphere Upgrade Rune Capsule
+14      386	   0       100000   // Darkangel Anvil
+14      389	   0       50000    // Holyangel Spirit
+14      415	   0       50000    // Awakening
+14      416	   0       100000   // Anvil of Holy Angel
+12      407	   0       1000     // [Bound] The magic solution of Locke
+12      409	   0       75000    // [Bound] The magic solution of Condor
+14      390	   5       2500     // Elemental Nixie's Fragment x5
+14      450	   0       100000   // Soul Moru
+14      449	   0       50000    // Cold Marriage
+14      495	   0       50000    // Blue Eye Anvil 
+14      458	   0       25000    // Earring Up Item Season 2
+14      497	   0       25000    // Earring Up Item Season 3
+14      494	   0       50000    // Ancestral Spirit
+14      501        0       50000    // Manticore Soul
+14      502        0       50000    // Silver Heart Anvil
+14      498    	   1       50000    // Ice Dragon Seal
+14      460	   0       400      // [Level 1] Monster Soul Converter
+14      461	   0       500      // [Level 2] Monster Soul Converter
+14      462	   0       600      // [Level 3] Monster Soul Converter
+14      463	   0       700      // [Level 4] Monster Soul Converter
+14      464	   0       800      // [Level 5] Monster Soul Converter	
+end
+
+2
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13      359	   0       0       0         	0        	0         	50000	// Bloodangel Armor of Sealed Transcendence
+13      360	   0       0       0         	0         	0         	50000	// Bloodangel Helm of Sealed Transcendence
+13      361	   0       0       0         	0         	0         	50000	// Bloodangel Pants of Sealed Transcendence
+13	362 	   0       0       0         	0         	0         	50000	// Bloodangel Gloves of Sealed Transcendence
+5	41         0       0       35         	30        	2         	100000	// Bloodangel Staff
+12      290	   0       0       0         	0         	0         	1000	// Scroll of Meteor Strike
+12	291        0       0       0         	0         	0         	1000	// Scroll of Meteor Storm
+12	292	   0       0       0         	0         	0         	1000	// Scroll of Soul Seeker
+end
+
+3
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13      351	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Fury 
+13 	352	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Fury 
+13	353	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Fury 
+13	354	   0       0       0         	0         	0           	50000	// Bloodangel Gloves of Sealed Fury 
+0       42	   0       0       35         	30         	2           	100000	// Bloodangel Sword
+6       44	   0       0       35         	30         	2           	100000	// Blood Angel Shield
+12      289 	   0       0       0        	0         	0           	1000	// Orb of Fire Blow
+12	486	   0       0       0        	0         	0           	1000	// Orb of Sword Blow
+end
+
+4
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	363  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Flurry 
+13    	364 	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Flurry 
+13      365	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Flurry 
+13      366	   0       0       0         	0         	0           	50000	// Bloodangel Gloves of Sealed Flurry
+13      367	   0       0       0         	0         	0           	30000	// Sealed Saving Blood Angel Armor
+13      388	   0       0       0         	0         	0           	30000	// Sealed Saving Blood Angel Helm 
+13      369	   0       0       0         	0         	0           	30000	// Sealed Saving Blood Angel Pants 
+13      370	   0       0       0         	0         	0           	30000	// Sealed Saving Blood Angel Gloves 
+14	394  	   0       0       0         	0         	0           	30000	// Attack Elf Conversion Order
+14    	395	   0       0       0         	0         	0           	10000	// Support Elf Conversion Order
+4	28 	   0       0       35         	30        	2           	100000	// Bloodangel Bow
+4	34	   0       0       35         	30         	2           	100000	// Bloodangel Quiver
+12	293	   0       0       0         	0         	0           	1000	// Orb of Focus Shot
+14	394	   0       0       0         	0         	0           	30000	// Attacker Type Elf Transform Scroll
+14	395	   0       0       0         	0         	0           	10000	// Supporter Type Elf Transform Scroll
+end
+
+5
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	371  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Extremity 
+13     	372 	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Extremity 
+13      373 	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Extremity 
+13      374	   0       0       0         	0        	0           	50000	// Bloodangel Gloves of Sealed Extremity 
+13      375	   0       0       0         	0         	0           	30000	// Sealed Magical Blood Angel Armor
+13      376	   0       0       0         	0         	0           	30000	// Sealed Magical Blood Angel Helm 
+13      377	   0       0       0         	0         	0           	30000	// Sealed Magical Blood Angel Pants 
+13      378	   0       0       0         	0         	0           	30000	// Sealed Magical Blood Angel Gloves 
+5	41  	   0       0       35         	30        	2           	100000	// Bloodangel Staff
+0	44  	   0       0       35         	30         	2           	100000	// Bloodangel Magic Sword
+14	396  	   0       0       0         	0         	0           	30000	// Attack MG Conversion Order
+14	397  	   0       0       0         	0         	0           	10000	// Magic MG Conversion Order
+12	297  	   0       0       0         	0         	0           	1000	// Orb of Ice Blood
+12	298  	   0       0       0         	0         	0           	1000	// Orb of Fire Blood
+12	299  	   0       0       0         	0         	0           	1000	// Scroll of Dark Blast
+12	300  	   0       0       0         	0         	0           	1000	// Scroll of Meteor Strike
+14	396  	   0       0       0         	0         	0           	30000	// Gladiator Type Magic Knight Transform Scroll
+14	397  	   0       0       0         	0         	0           	10000	// Mage Type Magic Knight Transform Scroll
+end	
+
+6
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	379  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Conquest 
+13      380	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Conquest 
+13     	381	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Conquest 
+13     	382	   0       0       0         	0         	0           	50000	// Bloodangel Gloves of Sealed Conquest 
+2	22  	   0       0       35         	30         	2           	100000	// Bloodangel Scepter 
+12	303  	   0       0       0         	0         	0           	1000	// Scroll of Wind Soul
+end
+
+7
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	387  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Honor 
+13      388	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Honor 
+13     	389	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Honor 
+13     	390	   0       0       0         	0         	0           	50000	// Bloodangel Gloves of Sealed Honor 
+5	43  	   0       0       35         	30         	2           	100000	// Bloodangel Stick 
+12	295  	   0       0       0         	0         	0           	1000	// Parchment of Fire Beast
+12	296 	   0       0       0         	0         	0           	1000	// Parchment of Aqua Beast
+15      45         0       0       0            0               0               1000    // Death Scythe Parchment
+end
+
+8
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	391  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Destruction 
+13      392	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Destruction 
+13     	393	   0       0       0         	0         	0           	50000	// Bloodangel Pants of Sealed Destruction 
+13      394	   0       0       0         	0         	0           	50000	// Bloodangel Gloves of Sealed Destruction 
+0	46  	   0       0       35         	30         	2           	100000	// Bloodangel Claw 
+12	305  	   0       0       0         	0         	0           	1000	// Parchment of Dark Phoenix Shot
+end
+
+9	
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	399  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Tenacity 
+13      400	   0       0       0         	0         	0               50000	// Bloodangel Helm of Sealed Tenacity 
+13     	401 	   0       0       0         	0         	0               50000	// Bloodangel Pants of Sealed Tenacity 
+13     	402 	   0       0       0         	0        	0               50000	// Bloodangel Gloves of Sealed Tenacity 
+3	19  	   0       0       35         	30        	2               100000	// Bloodangel Lance
+end
+
+10
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	355  	   0       0       0         	0         	0           	50000	// Bloodangel Armor of Sealed Vengeance
+13      356	   0       0       0         	0         	0               50000	// Bloodangel Helm of Sealed Vengeance
+13     	357 	   0       0       0         	0         	0               50000	// Bloodangel Pants of Sealed Vengeance
+13     	358 	   0       0       0         	0        	0               50000	// Bloodangel Gloves of Sealed Vengeance
+2	32  	   0       0       35         	30        	2               100000	// Bloodangel Rune Mace
+15      39         0       0       0            0               0               1000    // Scroll of Lightning Storm
+end
+
+11
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	383  	   0       0       0         	0         	0           	50000	// Sealed Heartless Bloodangel Armor 
+13      384	   0       0       0         	0         	0               50000	// Sealed Heartless Bloodangel Helm 
+13     	385 	   0       0       0         	0         	0               50000	// Sealed Heartless Bloodangel Pants 
+13     	386 	   0       0       0         	0        	0               50000	// Sealed Heartless Bloodangel Gloves
+0	71  	   0       0       35         	30        	2               100000	// Bloodangel Short Sword
+12      477        0       0       0            0               0               1000    // Orb of Bat Flock
+12      478        0       0       0            0               0               1000    // Orb of Detection
+12      479        0       0       0            0               0               1000    // Orb of Pierce Attack
+end
+
+12
+//Type	Selection  Level   Count   LuckRate	OptionRate	OptionCount	Value	Description
+13	403  	   0       0       0         	0         	0           	50000	// Bloodangel Helm of Sealed Retribution
+13      404	   0       0       0         	0         	0               50000	// Bloodangel Armor of Sealed Retribution
+13     	405 	   0       0       0         	0         	0               50000	// Bloodangel Pants of Sealed Retribution
+13     	406 	   0       0       0         	0        	0               50000	// Bloodangel Gloves of Sealed Retribution
+4	48  	   0       0       35         	30        	2               100000	// Blood Angel Magic Gun
+12      493        0       0       0            0               0               1000    // Ice Blast Orb
+12      495        0       0       0            0               0               1000    // Busting Flare
+end

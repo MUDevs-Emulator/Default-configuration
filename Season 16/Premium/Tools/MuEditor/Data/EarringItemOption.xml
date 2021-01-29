@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EarringOptionInfo>
+	<EarringInfo Index="6593" Group="0" Idx1="19" Val1="1" Rate1="2000" Idx2="23" Val2="4" Rate2="2000" Idx3="18" Val3="6" Rate3="2000" Idx4="16" Val4="6" Rate4="2000" Idx5="11" Val5="0" Rate5="2000"  />
+	<EarringInfo Index="6594" Group="1" Idx1="19" Val1="1" Rate1="2000" Idx2="28" Val2="4" Rate2="2000" Idx3="29" Val3="6" Rate3="2000" Idx4="30" Val4="6" Rate4="2000" Idx5="11" Val5="0" Rate5="2000"  />
+	<EarringInfo Index="6595" Group="2" Idx1="19" Val1="1" Rate1="2000" Idx2="28" Val2="4" Rate2="2000" Idx3="29" Val3="6" Rate3="2000" Idx4="30" Val4="6" Rate4="2000" Idx5="11" Val5="0" Rate5="2000"  />
+	<EarringInfo Index="6601" Group="8" Idx1="9" Val1="5" Rate1="2000" Idx2="17" Val2="2" Rate2="2000" Idx3="15" Val3="2" Rate3="2000" Idx4="14" Val4="3" Rate4="2000" Idx5="12" Val5="0" Rate5="2000"  />
+	<EarringInfo Index="6602" Group="9" Idx1="9" Val1="5" Rate1="2000" Idx2="17" Val2="2" Rate2="2000" Idx3="15" Val3="2" Rate3="2000" Idx4="14" Val4="3" Rate4="2000" Idx5="12" Val5="0" Rate5="2000"  />
+	<EarringInfo Index="6603" Group="10" Idx1="9" Val1="5" Rate1="2000" Idx2="17" Val2="2" Rate2="2000" Idx3="15" Val3="2" Rate3="2000" Idx4="14" Val4="3" Rate4="2000" Idx5="12" Val5="0" Rate5="2000"  />
+</EarringOptionInfo>

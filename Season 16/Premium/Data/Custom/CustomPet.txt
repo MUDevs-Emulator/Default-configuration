@@ -1,0 +1,9 @@
+//Index		ItemIndex	LoseLifeValue	DamageRate	Comment
+0		6720		*		*		// Demon
+1		6721		*		*		// Spirit of Guardian
+2		6723		*		*		// Pet Rudol
+3		6736		*		*		// Pet Panda
+4		6762		*		*		// Pet Unicorn
+5		6779		*		*		// Pet Skeleton
+6		6801		2		30		// Pet Witch-Evo Custom
+end

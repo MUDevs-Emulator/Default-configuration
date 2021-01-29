@@ -1,0 +1,324 @@
+//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
+1         1       *           "Greater Damage"                     1      0      0      *       *        *        *        * 
+2         2       *           "Greater Defense"                    1      0      0      *       *        *        *        * 
+3         3       *           "Elf Buffer"                         1      0      0      *       *        *        *        * 
+4         4       *           "Mana Shield"                        1      0      0      *       *        *        *        * 
+5         5       *           "Greater Critical Damage"            1      0      0      *       *        *        *        * 
+6         6       *           "Infinity Arrrow"                    1      0      0      *       *        *        *        * 
+7         7       *           "BP Recovery"                        0      0      0      *       *        *        *        * 
+8         8       *           "Greater Life"                       1      0      0      *       *        *        *        * 
+9         9       *           "Greater Mana"                       1      0      0      *       *        *        *        * 
+10        10      *           "Bless Potion"                       1      0      0      *       *        *        *        * 
+11        11      *           "Soul Potion"                        1      0      0      *       *        *        *        * 
+12        12      *           "Disable Magic"                      0      0      0      *       *        *        *        * 
+13        13      *           "Castle Gate State"                  0      0      0      *       *        *        *        * 
+14        14      *           "Guild State 1"                      0      0      0      *       *        *        *        * 
+15        14      *           "Guild State 2"                      0      0      0      *       *        *        *        * 
+16        14      *           "Guild State 3"                      0      0      0      *       *        *        *        * 
+17        14      *           "Guild State 4"                      0      0      0      *       *        *        *        * 
+18        15      *           "Invisibility"                       0      0      0      *       *        *        *        * 
+19        16      *           "Guild State 5"                      0      0      0      *       *        *        *        * 
+20        17      *           "Guild State 6"                      0      0      0      *       *        *        *        * 
+21        18      *           "Crywolf State 1"                    0      0      0      *       *        *        *        * 
+22        18      *           "Crywolf State 2"                    0      0      0      *       *        *        *        * 
+23        18      *           "Crywolf State 3"                    0      0      0      *       *        *        *        * 
+24        18      *           "Crywolf State 4"                    0      0      0      *       *        *        *        * 
+25        18      *           "Crywolf State 5"                    0      0      0      *       *        *        *        * 
+26        18      *           "Crywolf State 6"                    0      0      0      *       *        *        *        * 
+27        19      *           "Crywolf State 7"                    0      0      0      *       *        *        *        * 
+28        20      *           "Game Master"                        0      1      0      *       *        *        *        * 
+29        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
+30        61      6700        "Seal of Wealth"                     1      2      0      1800    100      50       *        * 
+31        62      6701        "Seal of Sustenance"                 1      2      0      1800    *        *        *        * 
+32        22      *           "Order of Speed"                     0      0      0      *       *        *        *        * 
+33        22      *           "Order of Sublimation"               0      0      0      *       *        *        *        * 
+34        22      *           "Order of Protection"                0      0      0      *       *        *        *        * 
+35        23      7214        "Halloween 1"                        1      1      0      1800    10       *        *        * 
+36        23      7215        "Halloween 2"                        1      1      0      1800    25       *        *        * 
+37        23      7216        "Halloween 3"                        1      1      0      1800    100      *        *        * 
+38        23      7217        "Halloween 4"                        1      1      0      1800    500      *        *        * 
+39        23      7218        "Halloween 5"                        1      1      0      1800    600      *        *        * 
+40        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
+41        61      6700        "Seal of Wealth"                     1      2      0      1800    100      50       *        * 
+42        65      6701        "Seal of Sustenance"                 1      2      0      1800    *        *        *        * 
+43        57      6715        "Seal of Movement"                   1      2      0      1800    *        *        *        * 
+44        67      7240        "Scroll of Quick"                    1      2      0      1800    15       *        *        * 
+45        68      7241        "Scroll of Defense"                  1      2      0      1800    60       *        *        * 
+46        69      7242        "Scroll of Damage"                   1      2      0      1800    30       *        *        * 
+47        70      7243        "Scroll of Magic Damage"             1      2      0      1800    30       *        *        * 
+48        71      7244        "Scroll of Life"                     1      2      0      1800    200      *        *        * 
+49        72      7245        "Scroll of Mana"                     1      2      0      1800    300      *        *        * 
+50        26      7246        "Elixir of Strength"                 1      2      0      1800    50       *        *        * 
+51        26      7247        "Elixir of Dexterity"                1      2      0      1800    50       *        *        * 
+52        26      7248        "Elixir of Vitality"                 1      2      0      1800    50       *        *        * 
+53        26      7249        "Elixir of Energy"                   1      2      0      1800    50       *        *        * 
+54        26      7250        "Elixir of Leadership"               1      2      0      1800    50       *        *        * 
+55        27      *           "Poison"                             0      0      1      *       *        *        *        * 
+56        28      *           "Ice"                                0      0      1      *       *        *        *        * 
+57        29      *           "Ice Arrow"                          0      0      1      *       *        *        *        * 
+58        30      *           "Fire Slash"                         1      0      1      *       *        *        *        * 
+59        31      *           "Physi Damage Immunity"              0      0      0      *       *        *        *        * 
+60        32      *           "Magic Damage Immunity"              0      0      0      *       *        *        *        * 
+61        33      *           "Stern"                              0      0      1      *       *        *        *        * 
+62        34      *           "Magic Defense"                      0      0      0      *       *        *        *        * 
+63        35      *           "Monster Physi Damage Immunity"      0      0      0      *       *        *        *        * 
+64        36      *           "Monster Magic Damage Immunity"      0      0      0      *       *        *        *        * 
+65        37      *           "Order of Restraint"                 0      0      1      *       *        *        *        * 
+66        38      *           "Crywolf State 8"                    0      0      0      *       *        *        *        * 
+67        38      *           "Crywolf State 9"                    0      0      0      *       *        *        *        * 
+68        38      *           "Crywolf State 10"                   0      0      0      *       *        *        *        * 
+69        38      *           "Crywolf State 11"                   0      0      0      *       *        *        *        * 
+70        38      *           "Crywolf State 12"                   0      0      0      *       *        *        *        * 
+71        39      *           "Damage Reflect"                     1      0      0      *       *        *        *        * 
+72        40      *           "Sleep"                              0      0      1      *       *        *        *        * 
+73        40      *           "Blind"                              1      0      1      *       *        *        *        *
+74        41      *           "Neil"                               0      0      1      *       *        *        *        * 
+75        42      *           "Sahamutt"                           0      0      1      *       *        *        *        * 
+76        43      *           "Lesser Damage"                      1      0      1      *       *        *        *        * 
+77        44      *           "Lesser Defense"                     1      0      1      *       *        *        *        * 
+78        23      7253        "Cherry Blossom 1"                   1      1      0      1800    700      *        *        * 
+79        23      7254        "Cherry Blossom 2"                   1      1      0      1800    700      *        *        * 
+80        23      7255        "Cherry Blossom 3"                   1      1      0      1800    40       *        *        * 
+81        21      *           "Sword Power"                        1      0      0      *       *        *        *        * 
+82        45      *           "Magic Circle"                       1      0      0      *       *        *        *        * 
+83        46      *           "Sword Slash"                        0      0      1      *       *        *        *        * 
+84        47      *           "Lightning Storm"                    0      0      1      *       *        *        *        * 
+85        48      *           "Red Storm"                          0      0      1      *       *        *        *        * 
+86        49      *           "Frozen Stab"                        0      0      1      *       *        *        *        * 
+87        13      6718        "Seal of Life"                       1      2      0      1800    50       5        *        * 
+88        13      6719        "Seal of Mana"                       1      2      0      1800    50       5        *        * 
+89        73      7265        "Scroll of Battle"                   1      2      0      1800    20       *        *        * 
+90        74      7266        "Scroll of Strength"                 1      2      0      1800    20       *        *        * 
+91        23      *           "Christmas 1"                        1      1      0      1800    *        *        *        * 
+92        23      *           "Christmas 2"                        1      1      0      1800    500      *        *        * 
+93        23      *           "Christmas 3"                        1      1      0      1800    500      *        *        * 
+94        23      *           "Christmas 4"                        1      1      0      1800    30       *        *        * 
+95        23      *           "Christmas 5"                        1      1      0      1800    100      *        *        * 
+96        23      *           "Christmas 6"                        1      1      0      1800    15       *        *        * 
+97        23      *           "Christmas 7"                        1      1      0      1800    5        *        *        * 
+98        50      *           "Duel Arena Watch"                   0      0      0      *       *        *        *        * 
+99        52      6737        "Talisman of Guardian"               1      2      0      1800    *        *        *        * 
+100       53      6738        "Talisman of Protection"             1      2      0      1800    *        *        *        * 
+101       60      6749        "Master Seal of Ascension"           1      2      0      1800    50       *        *        * 
+102       61      6750        "Master Seal of Wealth"              1      2      0      1800    100      50       *        * 
+103       51      *           "Gladiator's Glory"                  1      1      0      *       *        *        *        * 
+//104	21	13	96	"Seal of Strength"	0	0	1	"Increases Attack Rate and Defense Rate"	0
+105       54      *           "Double Goer Delete"                 0      0      0      *       *        *        *        *
+//106	55	255	255	"PK Penalty"	1	0	1	"Warp Command Window access restricted for five minutes."	0
+//107	56	255	255	"You feel tired."	1	0	1	"50% EXP Gain /50% Item Drop Rate "	0
+//108	56	255	255	"You feel exhausted."	1	0	1	"50% EXP Gain /0% Item Drop Rate "	0
+112       24      6759        "Party Experience Bonus"             1      2      0      1800    90       10       *        *
+113       58      6760        "Max AG Boost Aura"                  1      2      0      1800    10       *        *        *
+114       58      6761        "Max SD Boost Aura"                  1      2      0      1800    10       *        *        *
+//115	56	13	117	"Minimum Vitality"	0	0	1	"100% EXP Gain/100% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time."	0
+//116	56	13	118	"Low Vitality"	0	0	1	"100% EXP Gain/100% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time."	0
+//117	56	13	119	"Medium Vitality"	0	0	1	"100% EXP Gain/100% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time."	0
+//118	56	13	120	"High Vitality"	0	0	1	"100% EXP Gain/100% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time."	0
+//119	66	13	116	"Seal of Wealth"	0	0	1	"Increases Item Drop Rate to 150%."	0
+//120	59	255	255	"Punishment for Illicit Software Use"	1	0	1	"50% EXP Gain /0% Item Drop Rate "	0
+121       75      7308        "Scroll of Healing"		   1      2      0      1800    3        100      *        * 
+122       76      6784        "Hawk Figurine"                      0      1      0      *       10       *        *        *
+123       76      6785        "Goat Figurine"                      0      1      0      *       10       *        *        *
+124       77      6786        "Oak Charm"                          0      1      0      *       50       *        *        *
+125       77      6787        "Maple Charm"                        0      1      0      *       50       *        *        *
+126       77      6788        "Golden Oak Charm"                   0      1      0      *       100      500      *        *
+127       77      6789        "Golden Maple Charm"                 0      1      0      *       150      50       *        *
+128       78      6790        "Worn Horseshoe"                     0      1      0      *       20       *        *        *
+129       79      *           "Greater Ignore Defense Rate"	   1      0      0      *       *        *        *        * 
+130       80      *           "Fitness"			           1      0      0      *       *        *        *        * 
+131       81      *           "Greater Defense Success Rate"	   1      0      0      *       *        *        *        * 
+132       82      *           "Phoenix Shot"                       1      0      1      *       *        *        *        *
+134       84      *           "Iron Defense"                       1      0      0      *       *        *        *        * 
+135       8       *           "Greater Life Enhanced"              1      0      0      *       *        *        *        *
+136       8       *           "Greater Life Mastered"              1      0      0      *       *        *        *        * 
+137       85      *           "Death Stab Enhanced"                0      0      1      *       *        *        *        * 
+138       45      *           "Magic Circle Improved"              1      0      0      *       *        *        *        * 
+139       45      *           "Magic Circle Enhanced"              1      0      0      *       *        *        *        *
+140       4       *           "Mana Shield Mastered"               1      0      0      *       *        *        *        * 
+141       86      *           "Frozen Stab Mastered"               0      0      1      *       *        *        *        * 
+142       87      *           "Bless"                              0      0      0      *       *        *        *        * 
+143       6       *           "Infinity Arrrow Improved"           1      0      0      *       *        *        *        * 
+144       88      *           "Blind Improved"                     1      0      1      *       *        *        *        * 
+145       89      *           "Drain Life Enhanced"                0      0      1      *       *        *        *        * 
+146       90      *           "Ice Storm Enhanced"                 0      0      1      *       *        *        *        * 
+147       91      *           "Earth Prison"                       0      0      1      *       *        *        *        * 
+148       5       *           "Greater Critical D. Mastered"       1      0      0      *       *        *        *        *
+149       5       *           "Greater Critical D. Extended"       1      0      0      *       *        *        *        *
+150       21      *           "Sword Power Improved"               1      0      0      *       *        *        *        * 
+151       21      *           "Sword Power Enhanced"               1      0      0      *       *        *        *        * 
+152       21      *           "Sword Power Mastered"               1      0      0      *       *        *        *        * 
+153       81      *           "Greater D. S. Rate Improved"	   1      0      0      *       *        *        *        * 
+154       81      *           "Greater D. S. Rate Enhanced"	   1      0      0      *       *        *        *        * 
+155       80      *           "Fitness Improved"	           1      0      0      *       *        *        *        * 
+//156	79	255	255	"Ignore Enemy's Defense"	0	1	1	"Increases defense ignore rate. If successful, a chance to ignore defense increase."	0
+157       92      *           "Dragon Lore Enhanced"               0      0      1      *       *        *        *        * 
+158       93      *           "Chain Driver Enhanced"              0      0      1      *       *        *        *        * 
+159       94      *           "Poison Arrow"                       0      0      1      *       *        *        *        * 
+160       94      *           "Poison Arrow Improved"              0      0      1      *       *        *        *        * 
+161       87      *           "Bless Improved"                     0      0      0      *       *        *        *        * 
+162       43      *           "Lesser Damage Improved"             1      0      1      *       *        *        *        * 
+163       44      *           "Lesser Defense Improved"            1      0      1      *       *        *        *        * 
+164       30      *           "Fire Slash Enhanced"                1      0      1      *       *        *        *        *
+165       84      *           "Iron Defense Improved"              1      0      0      *       *        *        *        * 
+166       95      *           "Blood Howling"                      1      0      0      *       *        *        *        *
+167       95      *           "Blood Howling Improved"             1      0      0      *       *        *        *        *
+//169	96	255	255	"Penetrate Armor"	1	1	1	"Decreases defense and defense success rate."	0
+174       98      *           "Pentagram Debuff Fire"              1      0      1      *       *        *        *        *
+175       99      *           "Pentagram Debuff Water"             1      0      1      *       *        *        *        *
+176       100     *           "Pentagram Debuff Earth"             1      0      1      *       *        *        *        *
+177       101     *           "Pentagram Debuff Wind"              1      0      1      *       *        *        *        *
+178       102     *           "Pentagram Debuff Dark"              1      0      1      *       *        *        *        *
+179       103     *           "Arca Battle Reward 1"               1      1      0      *       25       5        *        *
+180       104     *           "Arca Battle Reward 2"               1      1      0      *       50       5        *        *
+181       105     *           "Arca Battle Reward 3"               1      1      0      *       5        5        *        *
+182       106     *           "Arca Battle Reward 4"               1      1      0      *       30       5        *        *
+183       107     *           "Arca Battle Reward 5"               1      1      0      *       10       5        *        *
+184       108     *           "Arca Battle Penalty"                1      1      1      *       *        *        *        *
+//185	97	14	163	"Vault Expansion"	0	1	1	"Vault Expansion"	0
+186       109     *           "Pentagram Debuff Slow"              1      0      1      *       *        *        *        *
+187       255     *           "Arca Battle Reward 6"               1      1      0      *       20       10       *        *
+190       115     6833        "Talisman of Ascension 1"            0      1      0      *       50       *        *        *
+191       115     6834        "Talisman of Ascension 2"            0      1      0      *       100      *        *        *
+192       115     6835        "Talisman of Ascension 3"            0      1      0      *       200      *        *        *
+193       60      6836        "Seal of Ascension"                  1      2      0      1800    100      *        *        *
+194       60      6837        "Master Seal of Ascension"           1      2      0      1800    100      *        *        *
+195       116     7392        "Blessing of Light"                  1      1      0      1800    200      *        *        *
+196       68      7393        "Master Scroll of Defense"           1      2      0      1800    120      *        *        *
+197       70      7394        "Master Scroll of Magic Damage"      1      2      0      1800    60       *        *        *
+198       71      7395        "Master Scroll of Life"              1      2      0      1800    400      *        *        *
+199       72      7396        "Master Scroll of Mana"              1      2      0      1800    600      *        *        *
+200       69      7397        "Master Scroll of Damage"            1      2      0      1800    60       *        *        *
+201       75      7398        "Master Scroll of Healing"           1      2      0      1800    4        200      *        *
+202       74      7399        "Master Scroll of Battle"            1      2      0      1800    25       *        *        *
+203       74      7400        "Master Scroll of Strength"          1      2      0      1800    25       *        *        *
+204       67      7403        "Master Scroll of Quick"             1      2      0      1800    20       *        *        *
+205       117     6658        "Horn of Uniria"                     0      1      0      *       *        *        *        *
+206       117     6659        "Horn of Dinorant"                   0      1      0      *       *        *        *        *
+207       117     6660        "Horn of Dark Horse"                 0      1      0      *       *        *        *        *
+208       117     6693        "Horn of Fenrir"                     0      1      0      *       *        *        *        *
+209       118     *           "Paralyze"                           0      0      1      *       *        *        *        *
+210       118     *           "Paralyze Improved"                  0      0      1      *       *        *        *        *
+//211	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Access to Kalima/Accum. Gob. Pts."	0
+212       116     7431        "Blessing of Light"                  1      1      0      1800    50       *        *        *
+213       116     7432        "Blessing of Light"                  1      1      0      1800    100      *        *        *
+214       120     *           "Evasion"                            1      0      0      *       *        *        *        *
+//215	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Acesss to Kalima/Accum. Gob. Pts./Stam. Sys. Disabled"	0
+216       121     *           "Circle Shield"                      1      0      0      *       *        *        *        *
+217       122     *           "Obsidian"                           1      0      0      *       *        *        *        *
+218       123     *           "Wrath"                              1      0      0      *       *        *        *        *
+219       124     *           "Burst"                              1      0      0      *       *        *        *        *
+220       122     *           "Obsidian Improved"                  1      0      0      *       *        *        *        *
+221       121     *           "Circle Shield Improved"             1      0      0      *       *        *        *        *
+222       121     *           "Circle Shield Enhanced"             1      0      0      *       *        *        *        *
+223       123     *           "Wrath Improved"                     1      0      0      *       *        *        *        *
+224       123     *           "Wrath Enhanced"                     1      0      0      *       *        *        *        *
+225       123     *           "Wrath Mastered"                     1      0      0      *       *        *        *        *
+226       124     *           "Burst Improved"                     1      0      0      *       *        *        *        *
+227       125     *           "Evomon Success"                     0      0      0      *       *        *        *        *
+228       126     *           "Evomon Failure"                     0      0      0      *       *        *        *        *
+229       227     *           "Core Magriffy Berserker"            0      0      0      *       *        *        *        *
+230       228     *           "Core Magriffy Clone"                0      0      0      *       *        *        *        *
+231       229     *           "Core Magriffy Twist"                0      0      0      *       *        *        *        *
+232       230     6661        "Dark Raven"                         0      1      0      *       *        *        *        *
+//237	115	13	476	"hyesung"	0	0	1	"hyesung"	0
+238       235     *           "Bastion"                            1      0      0      *       *        *        *        *
+239       236     *           "Hemorrhage"                         0      0      1      *       *        *        *        *
+240       237     *           "Paralysis"                          0      0      1      *       *        *        *        *
+241       238     *           "Bondage"                            0      0      1      *       *        *        *        *
+242       239     *           "Blindness"                          0      0      1      *       *        *        *        *
+243       240     *           "Elemental Immunity"                 1      0      0      *       *        *        *        *
+244       240     *           "Debuff Immunity"                    1      0      0      *       *        *        *        *
+245       241     *           "Widened"                            1      0      0      *       *        *        *        *
+246       242     *           "Archangel Will"                     1      0      0      *       *        *        *        *
+247       243     *           "Ferea Party Experience Bonus"       1      1      0      *       10       5        *        *
+248       244     *           "Lunedil Blessing 1"                 1      1      0      1800    5        *        *        *
+249       244     *           "Lunedil Blessing 2"                 1      1      0      1800    10       *        *        *
+250       244     *           "Lunedil Blessing 3"                 1      1      0      1800    15       *        *        *
+251       244     *           "Lunedil Blessing 4"                 1      1      0      1800    25       *        *        *
+252       244     *           "Lunedil Blessing 5"                 1      1      0      1800    35       *        *        *
+253       116     7539        "Bless of Light"                     1      1      0      1800    200      *        *        *
+254       116     7540        "Bless of Light"                     1      1      0      1800    100      *        *        *
+255       116     7541        "Bless of Light"                     1      1      0      1800    50       *        *        *
+256       246     7600        "Medicine of Life"                   0      0      0      1800    700      *        *        *
+257       246     7601        "Medicine of Mana"                   0      0      0      1800    700      *        *        *
+258       246     7602        "Medicine of Speed"                  0      0      0      1800    10       *        *        *
+259       247     7603        "Medicine of Physi Damage"           0      0      0      1800    40       *        *        *
+260       247     7604        "Medicine of Magic Damage"           0      0      0      1800    40       *        *        *
+261       247     7605        "Medicine of Defense"                0      0      0      1800    100      *        *        *
+262       247     7606        "Medicine of Critical Damage"        0      0      0      1800    85       *        *        *
+263       247     7607        "Medicine of Excellent Damage"       0      0      0      1800    85       *        *        *
+//264	256	255	255	"Enhance Greater Fortitude HP Boost Effect"	0	0	1	"Enhance Greater Fortitude HP Boost Effect"	0
+//265	257	255	255	"Increase Soul Barrier DMG Reduction"	0	0	1	"Increase Soul Barrier DMG Reduction"	0
+//266	258	255	255	"Enhance Berserker DMG Increase"	0	0	1	"Enhance Berserker DMG Increase"	0
+//267	259	255	255	"Remove Berserker DEF Reduction Effect"	0	0	1	"Remove Berserker DEF Reduction Effect"	0
+//268	260	255	255	"Enhance Health Boost Skill Effect"	0	0	1	"Enhance Health Boost Skill Effect"	0
+//269	261	255	255	"Enhance Wrath"	0	0	1	"Enhance Wrath"	0
+//270	262	255	255	"Decrease Wrath DEF Reduction Effect"	0	0	1	"Decrease Wrath DEF Reduction Effect"	0
+//271	263	255	255	"Decrease SD Ratio"	0	0	1	"Decrease SD Ratio"	0
+//272	264	255	255	"Increase SD"	0	0	1	"Increase SD"	0
+273       265     *           "Toxic"                              0      0      1      *       *        *        *        *
+274       266     *           "Chill"                              0      0      1      *       *        *        *        *
+275       267     *           "Bleed"                              0      0      1      *       *        *        *        *
+276       268     *           "Shock"                              0      0      1      *       *        *        *        *
+277       269     *           "Toxic Improved"                     0      0      1      *       *        *        *        *
+278       270     *           "Chill Improved"                     0      0      1      *       *        *        *        *
+279       271     *           "Bleed Improved"                     0      0      1      *       *        *        *        *
+280       272     *           "Shock Improved"                     0      0      1      *       *        *        *        *
+//281	273	255	255	"Increase SD Reduction"	0	0	1	"Increase SD Reduction"	0
+//282	274	255	255	"Increase Max HP"	0	0	1	"Increase Max HP"	0
+283       275     *           "Ext Stat Point"                     1      1      0      *       *        *        *        *
+//284	276	255	255	"Increase Basic DEF"	0	0	1	"Increase Basic DEF"	0
+//285	277	255	255	"Increase 4th Wings DMG"	0	0	1	"Increase 4th Wings DMG"	0
+//286	278	255	255	"Increase DMG"	0	0	1	"Increase DMG"	0
+//287	279	255	255	"Increase Magic"	0	0	1	"Increase Magic"	0
+288       280     *           "Ext Stat Point"                     1      1      0      *       *        *        *        *
+//289	281	255	255	"Increase Skill DMG"	0	0	1	"Increase Skill DMG"	0
+//290	282	255	255	"Increase 4th Wings DMG"	0	0	1	"Increase 4th Wings DMG"	0
+//291	283	255	255	"Increase DMG / Magic"	0	0	1	"Increase DMG / Magic"	0
+292       284     7621        "Switch Mode"                        1      1      0      *       *        *        *        *
+293       285     *           "Might"                              1      0      0      *       *        *        *        *
+294       286     *           "Haste"                              1      0      0      *       *        *        *        *
+295       285     *           "Might Improved"                     1      0      0      *       *        *        *        *
+296       285     *           "Might Enhanced"                     1      0      0      *       *        *        *        *
+298       286     *           "Haste Improved"                     1      0      0      *       *        *        *        *
+299       286     *           "Haste Enhanced"                     1      0      0      *       *        *        *        *
+301       288     *           "Darkness"                           1      0      0      *       *        *        *        *
+302       288     *           "Darkness Improved"                  1      0      0      *       *        *        *        *
+303       288     *           "Darkness Enhanced"                  1      0      0      *       *        *        *        *
+304       43      *           "Lesser Damage Enhanced"             1      0      1      *       *        *        *        * 
+305       44      *           "Lesser Defense Enhanced"            1      0      1      *       *        *        *        * 
+306       289     *           "Death Scythe"                       0      0      0      *       *        *        *        * 
+307       290     6615        "Horn of Ghost Horse"                0      1      0      *       *        *        *        *
+//308	291	255	255	"Increases Move Speed"	0	0	1	"Exclusive Guardian Mount Skill"	0
+309       292     *           "Elite Monster - Bleeding"           0      0      0      *       *        *        *        *
+310       293     *           "Elite Monster - Poisoning"          0      0      0      *       *        *        *        *
+311       294     *           "Elite Monster - Dec Atk"            0      0      0      *       *        *        *        *
+312       295     *           "Elite Monster - Dec Atk Speed"      0      0      0      *       *        *        *        *
+313       296     *           "Elite Monster - Dec Def"            0      0      0      *       *        *        *        *
+//314	283	255	255	"Increases Wizardry/Curse"	1	0	1	"Increases Wizardry/Curse"	0
+315       297     *           "Bat Flock"                          0      0      1      *       *        *        *        *
+316       298     *           "Detection"                          1      0      0      *       *        *        *        *
+317       299     *           "Demolish"                           1      0      0      *       *        *        *        *
+318       298     *           "Detection Improved"                 1      0      0      *       *        *        *        *
+319       299     *           "Demolish Improved"                  1      0      0      *       *        *        *        *
+320       299     *           "Demolish Enhanced"                  1      0      0      *       *        *        *        *
+321       300     *           "Demolish Drain BP"                  1      0      0      *       *        *        *        *
+322       290     6627        "Ice Dragon"                	   0      1      0      *       *        *        *        *
+323       290     6628        "Ice Dragon Rare"                    0      1      0      *       *        *        *        *
+//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
+324       301     *           "Sword's Fury"                       0      0      0      *       *        *        *        *
+325       302     *           "Strong Conviction"                  0      0      0      *       *        *        *        *
+326       303     *           "Solid protection"                   0      0      0      *       *        *        *        *
+327       301     *           "Sword Fury Improved"                0      0      0      *       *        *        *        *
+328       301     *           "Sword Fury Enhanced"                0      0      0      *       *        *        *        *
+329       303     *           "Solid protection Improved"          0      0      0      *       *        *        *        *	
+330       303     *           "Solid protection Enhanced"          0      0      0      *       *        *        *        *
+331       303     *           "Solid protection Unk"               0      0      0      *       *        *        *        *	
+332       303     *           "Solid protection Mastery"           0      0      0      *       *        *        *        *
+//--
+333       304     *           "Solid protection"                   0      0      0      *       *        *        *        *	//333	304	255	255	"Solid protection effect"	0	1	1	"Black Knight's Protection Effect"	0
+335       304     *           "Solid protection"                   0      0      0      *       *        *        *        *	//335	303	255	255	"Enhancement of solid protection skills"	0	1	1	"Increases the attack power and magic power of the party member, absorbs the party member's HP, and takes part of the damage instead."	0
+//---
+334       302     *           "Strong Conviction Enhanced"         0      0      0      *       *        *        *        *
+336       302     *           "Strong Conviction Improved"         0      0      0      *       *        *        *        *
+end
