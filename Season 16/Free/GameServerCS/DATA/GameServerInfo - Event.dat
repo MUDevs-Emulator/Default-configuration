@@ -1,5 +1,11 @@
 [GameServerInfo]
 ;==================================================
+; Arca Battle Event Settings
+;==================================================
+ArcaBattleEvent = 0
+ArcaBattleGuildMinUser = 1
+
+;==================================================
 ; Blood Castle Event Settings
 ;==================================================
 BloodCastleEvent = 1
@@ -70,7 +76,7 @@ DevilSquareMaxUser = 15
 ;==================================================
 ; Double Goer Event Settings
 ;==================================================
-DoubleGoerEvent = 0
+DoubleGoerEvent = 1
 DoubleGoerDifficultRate = 100
 
 ;==================================================

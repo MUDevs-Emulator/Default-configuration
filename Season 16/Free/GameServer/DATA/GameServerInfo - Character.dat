@@ -6,6 +6,7 @@ DuelDamageRate = 60
 GensDamageRate = 60
 CustomArenaDamageRate = 50
 ChaosCastleDamageRate = 50
+ChaosCastleSurvivalDamageRate = 50
 IllusionTempleDamageRate = 50
 CastleSiegeDamageRate1 = 40
 CastleSiegeDamageRate2 = 0
@@ -577,6 +578,7 @@ SLPhysiSpeedConstA = 15
 SLMagicSpeedConstA = 20
 GCPhysiSpeedConstA = 20
 GCMagicSpeedConstA = 10
+DisableAttackSpeedLimit = 0
 
 ;==================================================
 ; Character Defense Success Rate Settings

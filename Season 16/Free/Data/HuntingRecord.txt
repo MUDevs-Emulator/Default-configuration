@@ -1,5 +1,4 @@
 0
-
 //MapIndex	Name
 0	"Lorencia"																																																			
 3	"Noria"																																																		
@@ -51,41 +50,41 @@
 130	"Atlans of Abyss 3F"																																																			
 131	"Scorched Canyon"																																																				
 132	"Crimson Icarus"																																																				
-133	"Arenil Temple"	
+133	"Arenil Temple"		
 end	
 	
 1	
-//MonsterIndex	MonsterName																																																			
-413	//Moon Rabbit																																																				
-463	//Fire Flame Ghost																																																				
-466	//Cursed Goblin																																																				
-476	//Cursed Santa																																																				
-647	//Green Snake (green)																																																				
-648	//Yellow Snake (yellow)																																																				
-649	//Purple Snake (purple)																																																				
-650	//Red Snake (red)																																																				
-652	//Golden Goblin																																																				
-653	//Golden Titan																																																			
-654	//Golden Tantalose																																																			
-655	//Golden Erohim																																																			
-656	//Golden Hell Maine																																																			
-657	//Golden Kundun																																																			
-674	//Moon Rabbit																																																				
-675	//Pouch of Blessing																																																			
-676	//Fire Flame Ghost																																																				
-677	//Golden Goblin																																																			
-681	//Evomon																																																				
-690	//Special Evomon																																																				
-691	//New Year Horse (Green)																																																				
-692	//New Year Horse (Yellow																																																				
-693	//New Year Horse (Brown)																																																			
-694	//New Year Horse (Blue)																																																				
-726	//Green Sheep																																																			
-727	//White Sheep																																																				
-728	//Purple Sheep																																																				
-729	//Red Sheep																																																			
-739	//Green Monkey																																																				
-740	//White Monkey																																																			
-741	//Purple Monkey																																																			
-742	//Red Monkey
+//MonsterClass
+413	
+463	
+466	
+476	
+647	
+648	
+649	
+650	
+652	
+653	
+654	
+655	
+656	
+657	
+674	
+675	
+676	
+677	
+681	
+690	
+691	
+692	
+693	
+694	
+726	
+727	
+728	
+729	
+739	
+740	
+741	
+742	
 end	

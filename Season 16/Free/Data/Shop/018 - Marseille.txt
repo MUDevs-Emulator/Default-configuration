@@ -1,11 +1,7 @@
 //Section   Type   Level   Dur   Skill   Luck   Option   Excellent
-15			1		0		0		0		0		0		0			//Scroll of Meteorite
-15			10		0		0		0		0		0		0			//Scroll of Power Wave
-15			1		0		0		0		0		0		0			//Scroll of Meteorite
-15			6		0		0		0		0		0		0			//Scroll of Ice
-15			20		0		0		0		0		0		0			//Drain Life Parchment
-15			42		0		0		0		0		0		0			//Explosion Parchment
-15			43		0		0		0		0		0		0			//Requiem Parchment
-15			44		0		0		0		0		0		0			//Pollution Parchment
-15			46		0		0		0		0		0		0			//Darkness Parchment
+15          3      0       0     0       0      0        0
+15          10     0       0     0       0      0        0
+15          1      0       0     0       0      0        0
+15          6      0       0     0       0      0        0
+15          20     0       0     0       0      0        0
 end

@@ -9,12 +9,12 @@ ServerPort = 55901
 ServerVersion = 1.04.05
 ServerSerial = TbYehR2hFUPBKgZj
 ServerMaxUserNumber = 50
-MaxPacketPerSecond = 500
+MaxPacketPerSecond = 800
 
 ;==================================================
 ; Server Types
 ;==================================================
-IsArcaWarServer = 1
+IsArcaWarServer = 0
 IsMarketServer = 0
 IsBattleCoreServer = 0
 BattleCoreNotice = 0
@@ -295,7 +295,12 @@ RFDisableClass = 0
 GLDisableClass = 0
 RWDisableClass = 0
 SLDisableClass = 0 
-GCDisableClass = 0 
+GCDisableClass = 0
+
+;==================================================
+; Disable Options Settings
+;==================================================
+EarringFullDisableBlockSell = 1
 
 ;==================================================
 ; Shield Gauge Settings

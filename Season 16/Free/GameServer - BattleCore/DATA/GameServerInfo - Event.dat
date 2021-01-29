@@ -1,5 +1,11 @@
 [GameServerInfo]
 ;==================================================
+; Arca Battle Event Settings
+;==================================================
+ArcaBattleEvent = 0
+ArcaBattleGuildMinUser = 1
+
+;==================================================
 ; Blood Castle Event Settings
 ;==================================================
 BloodCastleEvent = 0
@@ -9,7 +15,7 @@ BloodCastleNeedCloakToOpenInterface = 1
 ;==================================================
 ; Bonus Manager Settings
 ;==================================================
-BonusManagerSwitch = 1
+BonusManagerSwitch = 0
 
 ;==================================================
 ; Castle Deep Event Settings
@@ -84,33 +90,33 @@ IllusionTempleRewardFenrirRate = 5
 ;==================================================
 ; Imperial Guardian Event Settings
 ;==================================================
-ImperialGuardianEvent = 1
+ImperialGuardianEvent = 0
 ImperialGuardianDifficultRate = 100
 
 ;==================================================
 ; Invasion Manager Settings
 ;==================================================
-InvasionManagerSwitch = 1
+InvasionManagerSwitch = 0
 
 ;==================================================
 ; Kanturu Event Settings
 ;==================================================
-KanturuEvent = 1
+KanturuEvent = 0
 
 ;==================================================
 ; Moss Merchant Event Settings
 ;==================================================
-MossMerchantEvent = 1
+MossMerchantEvent = 0
 MossMerchantEventTime = 120
 
 ;==================================================
 ; Raklion Event Settings
 ;==================================================
-RaklionEvent = 1
+RaklionEvent = 0
 
 ;==================================================
 ; Evolution Monster Event Settings
 ;==================================================
-EvolutionMonsterEventOnOff = 1
+EvolutionMonsterEventOnOff = 0
 EvolutionMonsterEventType = 2
 EvoMonEventItemDropRate = 30

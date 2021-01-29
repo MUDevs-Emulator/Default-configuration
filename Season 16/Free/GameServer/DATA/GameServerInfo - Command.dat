@@ -584,7 +584,7 @@ CommandGremoryCaseGMGifSwitch = 1
 CommandGremoryCaseGMGifGameMasterLevel = 32
 
 ;==================================================
-; Set Ruud Settings
+; Sey Ruud Settings
 ;==================================================
 CommandSetRuudSwitch = 1
 CommandSetRuudGameMasterLevel = 32

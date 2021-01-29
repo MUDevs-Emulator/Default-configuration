@@ -5,8 +5,10 @@
 // == www.mudevs.com
 // == (C) 2020 MuDevs (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// == By TheHerous
+// == By Oliveira
 // ============================================================
+//
+//~~ 
 -->
 <ItemBag>
 	<BagConfig Name="Silver Chest" DropZen="1000" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>

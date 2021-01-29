@@ -78,14 +78,15 @@ EventMapPointIntegration=Event\\EventMapPointIntegration.xml
 DngPvp=Event\\DngPvp.dat
 EventEntryLimit=Event\\EventEntryLimit.dat
 EventTimmer=Event\\EventTimmer.dat
+FereaBoss=Event\\WorldBoss\\FereaBoss.xml
+NixiesLakeBoss=Event\\WorldBoss\\NixiesLakeBoss.xml
 EvolutionMonsterEvent=Event\\EvolutionMonster\\EvolutionMonsterEvent.txt
 EvolutionMonsterMapLevel=Event\\EvolutionMonster\\EvolutionMonsterMapLevel.txt
 EvolutionMonsterBox=Event\\EvolutionMonster\\EvolutionMonsterBox.txt
 Labyrinth=Event\\LabyrinthOfDimension\\LabyrinthOfDimension.xml
 LabyrinthPath=Event\\LabyrinthOfDimension\\LabyrinthOfDimension_Path.xml
-FereaBoss=Event\\WorldBoss\\FereaBoss.xml
-NixiesLakeBoss=Event\\WorldBoss\\NixiesLakeBoss.xml
-MonsterDropManager=Item\\MonsterDropManager\\
+ArcaBattle=Event\\ArcaBattle.dat
+
 ;==================================================
 ; Event Item Bag Settings
 ;==================================================
@@ -107,6 +108,7 @@ ItemStack=Item\\ItemStack.txt
 ItemValue=Item\\ItemValue.txt
 JewelOfHarmonyOption=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyOption.txt
 JewelOfHarmonyType=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyType.txt
+HarmonyRefinement=Item\\JewelOfHarmony - Settings\\HarmonyRefinementOption.xml
 LuckyItem=Item\\Lucky Item - Settings\\LuckyItem.txt
 MuunOption=Item\\Muun - Settings\\MuunOption.txt
 MuunExchange=Item\\Muun - Settings\\MuunExchange.txt
@@ -134,6 +136,9 @@ PeriodExtendableItem=Item\\PeriodExtendableItem.txt
 ItemGradeOption=Item\\ItemGradeOption.txt
 GuardianMix=Item\\Guardian - Settings\\GuardianMix.txt
 GuardianOption=Item\\Guardian - Settings\\GuardianOption.txt
+ElementalUpdrade=Item\\ElementalItemRefinemen - Settings\\ElementalUpgrade.xml
+ErrtelMastery=Item\\Pentagram - Settings\\ErrtelMastery.xml
+MonsterDropManager=Item\\MonsterDropManager\\
 
 ;==================================================
 ; Lang Settings
@@ -164,7 +169,7 @@ EliteMonster=Monster\\EliteMonster.txt
 ;==================================================
 ; Move Settings
 ;==================================================
-Gate=Move\\Gate.txt
+Gate=Move\\Gate.xml
 Move=Move\\Move.txt
 MoveSummon=Move\\MoveSummon.txt
 FreeChannelSwitch=Move\\FreeChannelSwitch.txt
@@ -210,4 +215,11 @@ Filter=Util\\Filter.txt
 GameMaster=Util\\GameMaster.txt
 Notice=Util\\Notice.txt
 ResetTable=Util\\ResetTable.txt
-	
+
+;==================================================
+; Script Lua Settings
+;==================================================
+LuaDefine=Scripts\\%s
+LuaSkill=Scripts\\Skill\\SkillDamageCalc.lua
+LuaCharacter=Scripts\\Character\\CharacterCalc.lua
+

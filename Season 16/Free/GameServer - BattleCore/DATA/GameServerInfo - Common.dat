@@ -14,7 +14,7 @@ MaxPacketPerSecond = 500
 ;==================================================
 ; Server Types
 ;==================================================
-IsArcaWarServer = 1
+IsArcaWarServer = 0
 IsMarketServer = 1
 IsBattleCoreServer = 1
 BattleCoreNotice = 1

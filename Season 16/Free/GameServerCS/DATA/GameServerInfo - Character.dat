@@ -6,6 +6,7 @@ DuelDamageRate = 60
 GensDamageRate = 60
 CustomArenaDamageRate = 50
 ChaosCastleDamageRate = 50
+ChaosCastleSurvivalDamageRate = 50
 IllusionTempleDamageRate = 50
 CastleSiegeDamageRate1 = 40
 CastleSiegeDamageRate2 = 0

@@ -376,6 +376,50 @@ PentagramDecompositeMixRate_AL2 = 50
 PentagramDecompositeMixRate_AL3 = 50
 
 ;==================================================
+; Arca Battle Trophies of Battle Mix Settings
+;==================================================
+TrophiesOfBattleMixRate_10_AL0 = 55
+TrophiesOfBattleMixRate_10_AL1 = 55
+TrophiesOfBattleMixRate_10_AL2 = 55
+TrophiesOfBattleMixRate_10_AL3 = 55
+TrophiesOfBattleMixRate_20_AL0 = 55
+TrophiesOfBattleMixRate_20_AL1 = 55
+TrophiesOfBattleMixRate_20_AL2 = 55
+TrophiesOfBattleMixRate_20_AL3 = 55
+TrophiesOfBattleMixRate_30_AL0 = 55
+TrophiesOfBattleMixRate_30_AL1 = 55
+TrophiesOfBattleMixRate_30_AL2 = 55
+TrophiesOfBattleMixRate_30_AL3 = 55
+TrophiesOfBattleMixRate_40_AL0 = 55
+TrophiesOfBattleMixRate_40_AL1 = 55
+TrophiesOfBattleMixRate_40_AL2 = 55
+TrophiesOfBattleMixRate_40_AL3 = 55
+TrophiesOfBattleMixRate_50_AL0 = 50
+TrophiesOfBattleMixRate_50_AL1 = 50
+TrophiesOfBattleMixRate_50_AL2 = 50
+TrophiesOfBattleMixRate_50_AL3 = 50
+TrophiesOfBattleMixRate_60_AL0 = 50
+TrophiesOfBattleMixRate_60_AL1 = 50
+TrophiesOfBattleMixRate_60_AL2 = 50
+TrophiesOfBattleMixRate_60_AL3 = 50
+TrophiesOfBattleMixRate_70_AL0 = 50
+TrophiesOfBattleMixRate_70_AL1 = 50
+TrophiesOfBattleMixRate_70_AL2 = 50
+TrophiesOfBattleMixRate_70_AL3 = 50
+TrophiesOfBattleMixRate_80_AL0 = 45
+TrophiesOfBattleMixRate_80_AL1 = 45
+TrophiesOfBattleMixRate_80_AL2 = 45
+TrophiesOfBattleMixRate_80_AL3 = 45
+TrophiesOfBattleMixRate_90_AL0 = 45
+TrophiesOfBattleMixRate_90_AL1 = 45
+TrophiesOfBattleMixRate_90_AL2 = 45
+TrophiesOfBattleMixRate_90_AL3 = 45
+TrophiesOfBattleMixRate_100_AL0 = 45
+TrophiesOfBattleMixRate_100_AL1 = 45
+TrophiesOfBattleMixRate_100_AL2 = 45
+TrophiesOfBattleMixRate_100_AL3 = 45
+
+;==================================================
 ; Absolute Archangel Mix Settings
 ;==================================================
 AbsoluteArchangelMixRate_AL0 = 100

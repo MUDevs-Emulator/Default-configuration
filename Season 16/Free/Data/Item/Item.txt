@@ -2125,7 +2125,7 @@ end
 4 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Small Mana Potion"				10 	 10 	 
 5 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Mana Potion"					20 	 25 	 
 6 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Large Mana Potion"				30 	 40 	 
-7 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Siege Potion"					30 	 0 	 
+7 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Siege Potion"					30 	 0 	 
 8 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Antidote"					10 	 10 	 
 9 	 * 	 0 	 1 	 2 		 1 		 1 		 1 		 "Ale"						30 	 15 	 
 10 	 * 	 0 	 1 	 2 		 1 		 1 		 1 		 "Town Portal Scroll"				30 	 30 	 
@@ -2529,7 +2529,14 @@ end
 499 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Attack type"					0 	 0 	 
 500 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Defensive"					0 	 0 	 
 501 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Manticore Soul"				0 	 0 	 
-502 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Silver Heart Anvil"				0 	 0 	 
+502 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Silver Heart Anvil"				0 	 0 	
+
+503 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Level"				150 	 25 
+504 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Skill"				150 	 25 
+505 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Luck"				150 	 25 
+506 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Additional"				150 	 25 
+507 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Excellent"				150 	 25 
+508 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Socket"				150 	 25 
 end
 
 15 

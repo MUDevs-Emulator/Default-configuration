@@ -1,2 +1,20 @@
 //Account         Name          Level
+yolaxd		  "YolaxD"		32
+yolaxd		  "TestSM"		32
+yolaxd		  "TestBK"		32
+yolaxd		  "TestELF"		32
+yolaxd		  "TestSUM"		32
+yolaxd		  "TestRF"		32
+yolaxd		  "TestMG"		32
+yolaxd		  "TestDL"		32
+yolaxd		  "TestGL"		32
+yolaxd		  "TestSL"		32
+yolaxd		  "TestRW"		32
+yolaxd		  "TestGC"		32
+yolaxd1		  "Queue"		32
+yolaxd		  "GunCrasher"		32
+yolaxd1		  "QuestTest"		32
+yolaxd1		  "TEEE"		32
+yolaxd2		  "Testa"		32
+yolaxd2		  "TestSM"		32
 end

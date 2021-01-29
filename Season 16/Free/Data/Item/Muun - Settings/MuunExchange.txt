@@ -27,10 +27,11 @@ end
 
 3
 //ItemBagIndex	Selection	Type	EvoItemSelection	EvoItemType	MinLevel	MaxLevel	Skill	Luck	Option	Exc
-0		16		211	16			270		0		0		0	0	0	0
-1		16		211	16			272		0		0		0	0	0	0
-2		16		211	16			274		0		0		0	0	0	0
-3		16		211	16			278		0		0		0	0	0	0
-4		16		211	16			280		0		0		0	0	0	0
-5		16		211	16			282		0		0		0	0	0	0
+0		16		211	16			459		0		0		0	0	0	0 // Maple
+1		16		211	16			461		0		0		0	0	0	0 // Ginkgo
+2		16		211	16			 32		0		0		0	0	0	0 // Tiger
+3		16		211	16			326		0		0		0	0	0	0 // Repen
+4		16		211	16			328		0		0		0	0	0	0 // Pon
+5		16		211	16			282		0		0		0	0	0	0 // Griffs
+6		16		211	16			231		0		0		0	0	0	0 // Tibetton
 end

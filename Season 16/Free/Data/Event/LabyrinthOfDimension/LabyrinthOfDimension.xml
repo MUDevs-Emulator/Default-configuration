@@ -135,47 +135,13 @@
 	</MissionSettings>
 	
 	<MonsterAttributes>
-		<Event Floor="1" HP="1.0" DamageMin="1.1" DamageMax="1.1" Defense="1.0" Level="1.0" ExpLevel="0.0" />
-		<Event Floor="2" HP="1.1" DamageMin="1.2" DamageMax="1.2" Defense="1.3" Level="1.1" ExpLevel="0.0" />
-		<Event Floor="3" HP="1.2" DamageMin="1.4" DamageMax="1.4" Defense="1.6" Level="1.2" ExpLevel="0.0" />
-		<Event Floor="4" HP="1.3" DamageMin="1.6" DamageMax="1.6" Defense="1.9" Level="1.3" ExpLevel="0.0" />
-		<Event Floor="5" HP="1.4" DamageMin="1.8" DamageMax="1.8" Defense="2.2" Level="1.4" ExpLevel="0.0" />
-		<Event Floor="6" HP="1.5" DamageMin="2.2" DamageMax="2.2" Defense="2.5" Level="1.5" ExpLevel="0.0" />
-		<Event Floor="7" HP="1.6" DamageMin="2.7" DamageMax="2.7" Defense="2.8" Level="1.6" ExpLevel="0.0" />
-		<Event Floor="8" HP="1.7" DamageMin="2.9" DamageMax="2.9" Defense="3.1" Level="1.7" ExpLevel="0.0" />
-		<Event Floor="9" HP="1.8" DamageMin="3.1" DamageMax="3.1" Defense="3.4" Level="1.8" ExpLevel="0.0" />
-		<Event Floor="10" HP="1.9" DamageMin="3.3" DamageMax="3.3" Defense="3.7" Level="1.9" ExpLevel="0.0" />
-		<Event Floor="11" HP="2.0" DamageMin="3.5" DamageMax="3.5" Defense="4.0" Level="2.0" ExpLevel="0.0" />
-		<Event Floor="12" HP="2.1" DamageMin="3.7" DamageMax="3.7" Defense="4.3" Level="2.1" ExpLevel="0.0" />
-		<Event Floor="13" HP="2.2" DamageMin="3.9" DamageMax="3.9" Defense="4.6" Level="2.2" ExpLevel="0.0" />
-		<Event Floor="14" HP="2.3" DamageMin="4.1" DamageMax="4.1" Defense="4.9" Level="2.3" ExpLevel="0.0" />
-		<Event Floor="15" HP="2.4" DamageMin="4.3" DamageMax="4.3" Defense="5.2" Level="2.4" ExpLevel="0.0" />
-		<Event Floor="16" HP="2.5" DamageMin="4.5" DamageMax="4.5" Defense="5.5" Level="2.5" ExpLevel="0.0" />
-		<Event Floor="17" HP="2.6" DamageMin="4.7" DamageMax="4.7" Defense="5.8" Level="2.6" ExpLevel="0.0" />
-		<Event Floor="18" HP="2.7" DamageMin="4.9" DamageMax="4.9" Defense="6.1" Level="2.7" ExpLevel="0.0" />
-		<Event Floor="19" HP="2.8" DamageMin="5.1" DamageMax="5.1" Defense="6.4" Level="2.8" ExpLevel="0.0" />
-		<Event Floor="20" HP="2.9" DamageMin="5.3" DamageMax="5.3" Defense="6.7" Level="2.9" ExpLevel="0.0" />
-		<Event Floor="21" HP="2.0" DamageMin="5.5" DamageMax="5.5" Defense="7.0" Level="2.0" ExpLevel="0.0" />
-		<Event Floor="22" HP="3.1" DamageMin="5.7" DamageMax="5.7" Defense="7.2" Level="3.1" ExpLevel="0.0" />
-		<Event Floor="23" HP="3.2" DamageMin="5.9" DamageMax="5.9" Defense="7.4" Level="3.2" ExpLevel="0.0" />
-		<Event Floor="24" HP="3.3" DamageMin="6.1" DamageMax="6.1" Defense="7.6" Level="3.3" ExpLevel="0.0" />
-		<Event Floor="25" HP="3.4" DamageMin="6.3" DamageMax="6.3" Defense="7.8" Level="3.4" ExpLevel="0.0" />
-		<Event Floor="26" HP="3.5" DamageMin="6.5" DamageMax="6.5" Defense="8.0" Level="3.5" ExpLevel="0.0" />
-		<Event Floor="27" HP="3.6" DamageMin="6.7" DamageMax="6.7" Defense="8.2" Level="3.6" ExpLevel="0.0" />
-		<Event Floor="28" HP="3.7" DamageMin="6.9" DamageMax="6.9" Defense="8.4" Level="3.7" ExpLevel="0.0" />
-		<Event Floor="29" HP="3.8" DamageMin="7.1" DamageMax="7.1" Defense="8.6" Level="3.8" ExpLevel="0.0" />
-		<Event Floor="30" HP="3.9" DamageMin="7.3" DamageMax="7.3" Defense="8.8" Level="3.9" ExpLevel="0.0" />
-		<Event Floor="31" HP="3.0" DamageMin="7.5" DamageMax="7.5" Defense="9.0" Level="3.0" ExpLevel="0.0" />
-		<Event Floor="32" HP="4.1" DamageMin="7.7" DamageMax="7.7" Defense="9.1" Level="4.1" ExpLevel="0.0" />
-		<Event Floor="33" HP="4.2" DamageMin="7.9" DamageMax="7.9" Defense="9.2" Level="4.2" ExpLevel="0.0" />
-		<Event Floor="34" HP="4.3" DamageMin="8.1" DamageMax="8.1" Defense="9.3" Level="4.3" ExpLevel="0.0" />
-		<Event Floor="35" HP="4.4" DamageMin="8.3" DamageMax="8.3" Defense="9.4" Level="4.4" ExpLevel="0.0" />
-		<Event Floor="36" HP="4.5" DamageMin="8.5" DamageMax="8.5" Defense="9.5" Level="4.5" ExpLevel="0.0" />
-		<Event Floor="37" HP="4.6" DamageMin="8.7" DamageMax="8.7" Defense="9.6" Level="4.6" ExpLevel="0.0" />
-		<Event Floor="38" HP="4.7" DamageMin="8.9" DamageMax="8.9" Defense="9.7" Level="4.7" ExpLevel="0.0" />
-		<Event Floor="39" HP="4.8" DamageMin="9.1" DamageMax="9.1" Defense="9.8" Level="4.8" ExpLevel="0.0" />
-		<Event Floor="40" HP="4.9" DamageMin="9.3" DamageMax="9.3" Defense="9.9" Level="4.9" ExpLevel="0.0" />
-		<Event Floor="41" HP="5.0" DamageMin="9.5" DamageMax="9.5" Defense="10.0" Level="5.0" ExpLevel="0.0" />
+		<Event Floor="1" HP="1.0" DamageMin="1.1" DamageMax="1.1" Defense="1.0" ExpLevel="1.0" JewelOfBless="0.0010" />
+		<Event Floor="2" HP="1.1" DamageMin="1.2" DamageMax="1.2" Defense="1.3" ExpLevel="1.1" JewelOfBless="0.0035" />
+		<Event Floor="3" HP="1.3" DamageMin="1.4" DamageMax="1.4" Defense="1.5" ExpLevel="1.2" JewelOfBless="0.0040" />
+		<Event Floor="4" HP="1.5" DamageMin="1.6" DamageMax="1.6" Defense="1.7" ExpLevel="1.3" JewelOfBless="0.0050" />
+		<Event Floor="5" HP="1.7" DamageMin="1.8" DamageMax="1.8" Defense="1.9" ExpLevel="1.4" JewelOfBless="0.0065" />
+		<Event Floor="6" HP="1.9" DamageMin="2.2" DamageMax="2.2" Defense="2.5" ExpLevel="1.5" JewelOfBless="0.0070" />
+		<Event Floor="7" HP="2.5" DamageMin="2.7" DamageMax="2.7" Defense="3.0" ExpLevel="1.6" JewelOfBless="0.0075" />
 	</MonsterAttributes>
 	<EventReward>
 		<Event Floor="1" RuudMin="30" RuudMax="30" />

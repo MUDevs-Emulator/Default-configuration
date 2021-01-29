@@ -8,8 +8,8 @@ ServerLock = 0
 ServerPort = 55919
 ServerVersion = 1.04.05
 ServerSerial = TbYehR2hFUPBKgZj
-ServerMaxUserNumber = 100
-MaxPacketPerSecond = 500
+ServerMaxUserNumber = 50
+MaxPacketPerSecond = 800
 
 ;==================================================
 ; Server Types
@@ -18,7 +18,7 @@ IsArcaWarServer = 0
 IsMarketServer = 0
 IsBattleCoreServer = 0
 BattleCoreNotice = 0
-IsInstanceServer = 1
+IsInstanceServer = 0
 
 ;==================================================
 ; DB Settings
