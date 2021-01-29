@@ -62,7 +62,7 @@ CheckAutoComboHackTolerance = 0
 ;==================================================
 ; Common Settings
 ;==================================================
-MaxItemOption = 7
+MaxItemOption = 4
 MaxIpConnection = 10
 PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 0
@@ -213,6 +213,11 @@ TradeItemBlockExc = 0
 TradeItemBlockSet = 0
 TradeItemBlockHarmony = 0
 TradeItemBlockSell = 0
+
+;==================================================
+; Disable Options Settings
+;==================================================
+EarringFullDisableBlockSell = 1
 
 ;==================================================
 ; Level Up Settings
