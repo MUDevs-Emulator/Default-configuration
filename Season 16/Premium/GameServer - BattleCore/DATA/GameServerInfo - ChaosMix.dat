@@ -42,27 +42,27 @@ DevilSquareMixRate7_AL3 = 70
 ;==================================================
 ; Plus Item Mix Settings
 ;==================================================
-PlusItemLevelMixRate1_AL0 = 60
+PlusItemLevelMixRate1_AL0 = 100
 PlusItemLevelMixRate1_AL1 = 60
 PlusItemLevelMixRate1_AL2 = 60
 PlusItemLevelMixRate1_AL3 = 60
-PlusItemLevelMixRate2_AL0 = 60
+PlusItemLevelMixRate2_AL0 = 100
 PlusItemLevelMixRate2_AL1 = 60
 PlusItemLevelMixRate2_AL2 = 60
 PlusItemLevelMixRate2_AL3 = 60
-PlusItemLevelMixRate3_AL0 = 50
+PlusItemLevelMixRate3_AL0 = 100
 PlusItemLevelMixRate3_AL1 = 50
 PlusItemLevelMixRate3_AL2 = 50
 PlusItemLevelMixRate3_AL3 = 50
-PlusItemLevelMixRate4_AL0 = 50
+PlusItemLevelMixRate4_AL0 = 100
 PlusItemLevelMixRate4_AL1 = 50
 PlusItemLevelMixRate4_AL2 = 50
 PlusItemLevelMixRate4_AL3 = 50
-PlusItemLevelMixRate5_AL0 = 40
+PlusItemLevelMixRate5_AL0 = 100
 PlusItemLevelMixRate5_AL1 = 40
 PlusItemLevelMixRate5_AL2 = 40
 PlusItemLevelMixRate5_AL3 = 40
-PlusItemLevelMixRate6_AL0 = 40
+PlusItemLevelMixRate6_AL0 = 100
 PlusItemLevelMixRate6_AL1 = 40
 PlusItemLevelMixRate6_AL2 = 40
 PlusItemLevelMixRate6_AL3 = 40
@@ -376,6 +376,50 @@ PentagramDecompositeMixRate_AL2 = 50
 PentagramDecompositeMixRate_AL3 = 50
 
 ;==================================================
+; Arca Battle Trophies of Battle Mix Settings
+;==================================================
+TrophiesOfBattleMixRate_10_AL0 = 55
+TrophiesOfBattleMixRate_10_AL1 = 55
+TrophiesOfBattleMixRate_10_AL2 = 55
+TrophiesOfBattleMixRate_10_AL3 = 55
+TrophiesOfBattleMixRate_20_AL0 = 55
+TrophiesOfBattleMixRate_20_AL1 = 55
+TrophiesOfBattleMixRate_20_AL2 = 55
+TrophiesOfBattleMixRate_20_AL3 = 55
+TrophiesOfBattleMixRate_30_AL0 = 55
+TrophiesOfBattleMixRate_30_AL1 = 55
+TrophiesOfBattleMixRate_30_AL2 = 55
+TrophiesOfBattleMixRate_30_AL3 = 55
+TrophiesOfBattleMixRate_40_AL0 = 55
+TrophiesOfBattleMixRate_40_AL1 = 55
+TrophiesOfBattleMixRate_40_AL2 = 55
+TrophiesOfBattleMixRate_40_AL3 = 55
+TrophiesOfBattleMixRate_50_AL0 = 50
+TrophiesOfBattleMixRate_50_AL1 = 50
+TrophiesOfBattleMixRate_50_AL2 = 50
+TrophiesOfBattleMixRate_50_AL3 = 50
+TrophiesOfBattleMixRate_60_AL0 = 50
+TrophiesOfBattleMixRate_60_AL1 = 50
+TrophiesOfBattleMixRate_60_AL2 = 50
+TrophiesOfBattleMixRate_60_AL3 = 50
+TrophiesOfBattleMixRate_70_AL0 = 50
+TrophiesOfBattleMixRate_70_AL1 = 50
+TrophiesOfBattleMixRate_70_AL2 = 50
+TrophiesOfBattleMixRate_70_AL3 = 50
+TrophiesOfBattleMixRate_80_AL0 = 45
+TrophiesOfBattleMixRate_80_AL1 = 45
+TrophiesOfBattleMixRate_80_AL2 = 45
+TrophiesOfBattleMixRate_80_AL3 = 45
+TrophiesOfBattleMixRate_90_AL0 = 45
+TrophiesOfBattleMixRate_90_AL1 = 45
+TrophiesOfBattleMixRate_90_AL2 = 45
+TrophiesOfBattleMixRate_90_AL3 = 45
+TrophiesOfBattleMixRate_100_AL0 = 45
+TrophiesOfBattleMixRate_100_AL1 = 45
+TrophiesOfBattleMixRate_100_AL2 = 45
+TrophiesOfBattleMixRate_100_AL3 = 45
+
+;==================================================
 ; Absolute Archangel Mix Settings
 ;==================================================
 AbsoluteArchangelMixRate_AL0 = 100
@@ -390,3 +434,11 @@ EnhanceEarringsMixRate_AL0 = 60
 EnhanceEarringsMixRate_AL1 = 60
 EnhanceEarringsMixRate_AL2 = 60
 EnhanceEarringsMixRate_AL3 = 60
+EnhanceEarringsMixMoney_AL0=1000000
+EnhanceEarringsMixMoney_AL1=1000000
+EnhanceEarringsMixMoney_AL2=1000000
+EnhanceEarringsMixMoney_AL3=1000000
+EnhanceEarringsMixAddLevelMoney_AL0=500000
+EnhanceEarringsMixAddLevelMoney_AL1=500000
+EnhanceEarringsMixAddLevelMoney_AL2=500000
+EnhanceEarringsMixAddLevelMoney_AL3=500000

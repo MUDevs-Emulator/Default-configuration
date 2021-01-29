@@ -588,3 +588,11 @@ CommandGremoryCaseGMGifGameMasterLevel = 32
 ;==================================================
 CommandSetRuudSwitch = 1
 CommandSetRuudGameMasterLevel = 32
+
+;==================================================
+; Readd Command Settings
+;==================================================
+CommandReaddEnable_AL0=1
+CommandReaddEnable_AL1=1
+CommandReaddEnable_AL2=1
+CommandReaddEnable_AL3=1

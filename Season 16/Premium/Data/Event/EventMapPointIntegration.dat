@@ -1,0 +1,38 @@
+//-----------------------------------------------------------------------
+// Selection (1) -> Configure Max And Min Points To Adquiere Box Types
+// Selection (2) -> Configure Chaos Castle Points Adquiere
+// Selection (3) -> Configure Blood Castle Points Adquiere
+// Selection (4) -> Configure Devil Square Points Adquiere
+// Selection (5) -> Configure Imperial Guardian Points Adquiere
+//-----------------------------------------------------------------------
+0
+// EnabledRewardBox
+1
+end
+
+1			
+//Min Points	Max points	Description	
+100		400		// Mastery Box(Minor)
+401		800		// Mastery Box(Standard)
+801		*		// Mastery Box(Greater)
+end
+
+2
+//MonsterKillPoints	PlayerKillPoint		WinnerPoint
+13			50			99	
+end
+
+3
+//MonsterKillPoints	BossKillPoint		DoorPoints	SaintStatuePoints
+5			20			100		200
+end
+
+4
+//MonsterKillPoints	Etape1	Etape2	Etape3
+1			200	150	100
+end
+
+5
+//MonsterKillPoints(weekdays)	BossKillPoint(weekdays)		MonsterKillPoints(Sunday)	BossKillPoint(Sunday)	
+45 				100				22 				100
+end

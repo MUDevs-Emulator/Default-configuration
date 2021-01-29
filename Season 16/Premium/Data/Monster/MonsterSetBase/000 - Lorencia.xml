@@ -45,6 +45,8 @@
 		<Config Class="7" Range="30" BeginPosX="8" BeginPosY="11" EndPosX="60" EndPosY="80" Direction="-1" Quantity="15" Element="0" /> <!-- "Giant" -->
 
 		<Config Class="7" Range="10" BeginPosX="173" BeginPosY="128" EndPosX="173" EndPosY="129" Direction="-1" Quantity="70" Element="0" /> <!-- "Spider" -->
+
+		<Config Class="3" Range="10" BeginPosX="193" BeginPosY="158" EndPosX="194" EndPosY="159" Direction="-1" Quantity="10" Element="0" /> <!-- "Spider" -->
 	</SPOT>
 <!-- ================================================================================================================================================================================================================================================================================= -->
 	<MONSTER>

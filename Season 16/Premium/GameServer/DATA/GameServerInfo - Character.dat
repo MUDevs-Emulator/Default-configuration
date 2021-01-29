@@ -578,6 +578,7 @@ SLPhysiSpeedConstA = 15
 SLMagicSpeedConstA = 20
 GCPhysiSpeedConstA = 20
 GCMagicSpeedConstA = 10
+DisableAttackSpeedLimit = 0
 
 ;==================================================
 ; Character Defense Success Rate Settings

@@ -150,7 +150,6 @@
 148       *           *           675            *              //Pouch of Blessing
 149       *           *           676            *              //Fire Flame Ghost
 150       *           *           677            *              //Golden Goblin
-//-----------------------------------------------------------------------------------------
 151       *           *           *              58             //Mu Rummy 1
 152       *           *           *              59             //Mu Rummy 2
 153       *           *           *              60             //Arca Battle Trophy 10
@@ -294,19 +293,21 @@
 291       *           *           *              81             //Monster Soul Converter Accessory
 292       6625        *           *              *              //Special Muun Egg
 293       *           *           734            *              //Lord of Ferea
-294       9728        *           *              *              //Pandora Box
-295       9729        *           *              *              //Red Card
-296       9730        *           *              *              //Blue Card
-297       9731        *           *              *              //Premium Muun Box
-298       9732        *           *              *              //1st Lucky Armor Ticket (Lv. 0)
-299       9733        *           *              *              //1st Lucky Pants Ticket (Lv. 0)
-300       9734        *           *              *              //1st Lucky Helm Ticket (Lv. 0)
-301       9735        *           *              *              //1st Lucky Gloves Ticket (Lv. 0)
-302       9736        *           *              *              //1st Lucky Boots Ticket (Lv. 0)
-303       9737        *           *              *              //2nd Lucky Armor Ticket (Lv. 0)
-304       9738        *           *              *              //2nd Lucky Pants Ticket (Lv. 0)
-305       9739        *           *              *              //2nd Lucky Helm Ticket (Lv. 0)
-306       9740        *           *              *              //2nd Lucky Gloves Ticket (Lv. 0)
-307       9741        *           *              *              //2nd Lucky Boots Ticket (Lv. 0)
-308       9742        *           *              *              //Red Card(Elemental)
+394       *           *           746            *              //Nix
+395       *           *           794            *              //God of Darkness
+296       9728        *           *              *              //Pandora Box
+297       9729        *           *              *              //Red Card
+298       9730        *           *              *              //Blue Card
+299       9731        *           *              *              //Premium Muun Box
+300       9732        *           *              *              //1st Lucky Armor Ticket (Lv. 0)
+301       9733        *           *              *              //1st Lucky Pants Ticket (Lv. 0)
+302       9734        *           *              *              //1st Lucky Helm Ticket (Lv. 0)
+303       9735        *           *              *              //1st Lucky Gloves Ticket (Lv. 0)
+304       9736        *           *              *              //1st Lucky Boots Ticket (Lv. 0)
+305       9737        *           *              *              //2nd Lucky Armor Ticket (Lv. 0)
+306       9738        *           *              *              //2nd Lucky Pants Ticket (Lv. 0)
+307       9739        *           *              *              //2nd Lucky Helm Ticket (Lv. 0)
+308       9740        *           *              *              //2nd Lucky Gloves Ticket (Lv. 0)
+309       9741        *           *              *              //2nd Lucky Boots Ticket (Lv. 0)
+310       9742        *           *              *              //Red Card(Elemental)
 end

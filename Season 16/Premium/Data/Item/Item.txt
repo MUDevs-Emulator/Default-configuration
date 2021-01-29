@@ -1766,9 +1766,9 @@ end
 93 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Master Seal of Ascension"			0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
 94 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Master Seal of Wealth"			0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
 95 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Gladiator's Honor"				0 	 255 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
-97 	 10 	 0 	 1 	 1 		 1 		 1 		 1 		 "Magic Gladiator Card"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
-98 	 10 	 0 	 1 	 1 		 1 		 1 		 1 		 "Dark Lord Character Card"			0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
-99 	 10 	 0 	 1 	 1 		 1 		 1 		 1 		 "Character Slot Key"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
+97 	 10 	 0 	 1 	 1 		 1 		 1 		 0 		 "Magic Gladiator Card"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
+98 	 10 	 0 	 1 	 1 		 1 		 1 		 0 		 "Dark Lord Character Card"			0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
+99 	 10 	 0 	 1 	 1 		 1 		 1 		 0 		 "Character Slot Key"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
 103 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Party EXP Scroll"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
 109 	 10 	 0 	 1 	 1 		 1 		 1 		 0 		 "Sapphire Ring"				0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
 110 	 10 	 0 	 1 	 1 		 1 		 1 		 0 		 "Ruby Ring"					0 	 0 		 0 		 0 		 0 		 0 		 0 		 0 		 0 		1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 	 1 
@@ -2125,7 +2125,7 @@ end
 4 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Small Mana Potion"				10 	 10 	 
 5 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Mana Potion"					20 	 25 	 
 6 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Large Mana Potion"				30 	 40 	 
-7 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Siege Potion"					30 	 0 	 
+7 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Siege Potion"					30 	 0 	 
 8 	 * 	 0 	 1 	 1 		 1 		 1 		 1 		 "Antidote"					10 	 10 	 
 9 	 * 	 0 	 1 	 2 		 1 		 1 		 1 		 "Ale"						30 	 15 	 
 10 	 * 	 0 	 1 	 2 		 1 		 1 		 1 		 "Town Portal Scroll"				30 	 30 	 
@@ -2529,7 +2529,14 @@ end
 499 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Attack type"					0 	 0 	 
 500 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Defensive"					0 	 0 	 
 501 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Manticore Soul"				0 	 0 	 
-502 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Silver Heart Anvil"				0 	 0 	 
+502 	 * 	 0 	 2 	 2 		 1 		 1 		 0 		 "Silver Heart Anvil"				0 	 0 	
+
+503 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Level"				150 	 25 
+504 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Skill"				150 	 25 
+505 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Luck"				150 	 25 
+506 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Additional"				150 	 25 
+507 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Excellent"				150 	 25 
+508 	 * 	 0 	 1 	 1 		 1 		 1 		 0 		 "Jewel of Socket"				150 	 25 
 end
 
 15 

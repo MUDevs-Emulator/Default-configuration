@@ -1,24 +1,22 @@
 0
-//State   Year   Month   Day   DoW   Hour   Minute   Second
-1         *      *       *     *     0      0        0
-2         *      *       *     *     2      0        0
-3         *      *       *     *     4      0        0
-4         *      *       *     *     6      0        0
-5         *      *       *     *     8      0        0
-6         *      *       *     *     10     0        0
-7         *      *       *     *     12     0        0
-8         *      *       *     *     14     0        0
-9         *      *       *     *     16     0        0
+//MasterRegTime		MemberRegTime	ProgressWait	PartyWait	Duration	ChannelClose
+//10			10		3		5		30		10
+2			2		2		2		5		10
 end
 
 1
-//Group   MonsterClass   MapNum   MapX   MapY   CommonLife   OccupyLife
-0         598            92       89     41     500000       300000
-1         598            92       188    101    500000       300000
-2         598            96       162    54     500000       300000
+//Year   Month   Day   DoW   Hour   Minute   Second
+*      	 *       *     *     15     18        0
 end
 
 2
+//Group   MonsterClass   MapNum   MapX   MapY   CommonLife   OccupyLife	RegenTime	 Description
+0         598            92       89     41     500000       300000	20000	 	 // Fire Tower(Alkmaar Area)
+1         598            92       188    101    500000       300000	20000		 // Fire Tower(Ubaid Area)
+2         598            96       162    54     500000       300000	20000		 // Fire Tower(Debenter Area)
+end
+
+3
 //Group   Index   MapNum   MapX   MapY
 0         0       92       89     58
 0         1       92       84     30
@@ -29,4 +27,65 @@ end
 2         0       96       154    60
 2         1       96       162    45
 2         2       96       165    67
+end
+
+4
+//Group	MapNum	Count 	RegenTime	Description
+0	92	10	10		// Alkmaar Area
+1	92	10	10		// Ubaid Area
+2	96	10	10		// Debenter Area
+end
+
+5
+//Group	StartX	StartY	EndX	EndY
+0	77	31	87	38
+0	84	43	98	45
+0	90	39	97	45
+0	87	48	98	55
+1	178	101	190	100
+1	188	94	201	98
+1	173	101	188	105
+1	186	89	195	99
+2	152	58	156	62
+2	161	43	164	46
+2	164	65	167	68
+2	160	52	164	56
+end
+
+6
+//Group	MonsterClass	Description
+0	592		// Undine
+0	593		// Salamander
+0	594		// Sylphid
+0	595		// Gnome
+0	596		// Hellraiser
+1	592		// Undine
+1	593		// Salamander
+1	594		// Sylphid
+1	595		// Gnome
+1	596		// Hellraiser
+2	611		// Sellihoden
+2	612		// Ukanva
+2	613		// Silla
+2	614		// Normus
+2	615		// Muff
+end
+
+7
+//Group	Map	StartY	StartY	EndX	EnxY	Description
+0	92	77	118	87	130	// To the left of the road
+0	92	110	153	123	163	// Entrance 
+0	92	133	145	145	150	// Right Side
+0	92	169	179	179	45	// Bottom-Right
+0	92	12	25	25	34	// Bottom-Left
+1	92	237	42	246	53	// Bottom-Right
+1	92	207	205	218	214	// Top-Right Corner
+1	92	167	199	175	211	// Right in the Middle
+1	92	151	198	156	200	// Entrance
+1	92	185	148	194	157	// Center
+2	96	57	80	77	94	// Debenter Entrance
+2	96	109	47	126	64	// Debenter Top-Left
+2	96	60	26	84	37	// Debenter Bottom-Left
+2	96	143	89	163	104	// Debenter Bottom-Middle
+2	96	169	15	187	28	// Debenter Bottom-Right
 end

@@ -595,7 +595,86 @@
 		<Msg ID="780" Text="Event Inventory is cleared" />
 		<Msg ID="781" Text= "/readd" />		
 		<Msg ID="782" Text= "You cannot use this command at this time" />		
-		<Msg ID="783" Text= "Stats successfully reset" />		
+		<Msg ID="783" Text= "Stats successfully reset" />	
+		<Msg ID="784" Text= "[ArcaBattle] Registration has started" />	
+		<Msg ID="785" Text= "[ArcaBattle] Guild Master Registration to Arca War is available for %d minutes." />
+		<Msg ID="786" Text= "Registration to Arca War of guild members is open for %d minutes." />
+		<Msg ID="787" Text= "%d remaining seconds to warp to the Arca War Please wait in a safe area." />
+		<Msg ID="788" Text= "Arca War is now accessible through the NPC named Lord Lesnar." />
+		<Msg ID="789" Text= "Arca war has ended!" />
+		<Msg ID="790" Text= "I'm sorry. The registration period has ended. Please try again next time." />
+		<Msg ID="791" Text= "[ArcaBattle] You can party only with your members of your guild" />
+		<Msg ID="792" Text= "Cannot register guild during Arca War" />
+		<Msg ID="793" Text= "You cannot make a party with other guild guild members in Arca War." />
+		<Msg ID="794" Text= "A crystal ball was created in Feria Boss Zone." />
+		<Msg ID="795" Text= "The Feria boss fight has failed. After 12 hours, a crystal ball is generated randomly." />
+		<Msg ID="796" Text= "%s killed Feria Lord." />
+		<Msg ID="797" Text= "%s put the item %s +15" />
+		<Msg ID="798" Text= "[%s] will close in %d minute(s)" />
+		<Msg ID="799" Text= "[%s] closed" />
+		<Msg ID="800" Text= "[%s] will start in %d minute(s)" />
+		<Msg ID="801" Text= "[%s] started" />
+		<Msg ID="802" Text= "[%s] finished" />
+		<Msg ID="803" Text= "[%s] %s is the winner" />
+		<Msg ID="804" Text= "[%s] You got in the %d position with %d points" />
+		<Msg ID="805" Text= "You can not enter the arena" />
+		<Msg ID="806" Text= "This arena is not currently open" />
+		<Msg ID="807" Text= "Exceeded maximum number of players" />
+		<Msg ID="808" Text= "You must be at least Level %d" />
+		<Msg ID="809" Text= "You must be a maximum of Level %d" />
+		<Msg ID="810" Text= "You must be at least Master Level %d" />
+		<Msg ID="811" Text= "You must be at most Master Level %d" />
+		<Msg ID="812" Text= "You must be at least %d Resets" />
+		<Msg ID="813" Text= "You need to have a maximum of %d Resets" />
+		<Msg ID="814" Text= "You must be at least %d Master Resets" />
+		<Msg ID="815" Text= "You need to have a maximum of %d Master Resets" />
+		<Msg ID="816" Text= "His class is not allowed in the arena" />
+		<Msg ID="817" Text= "[%s] will start in %d minute(s)" />
+		<Msg ID="818" Text= "[%s] started" />
+		<Msg ID="819" Text= "[%s] finished" />
+		<Msg ID="820" Text= "/store" />
+		<Msg ID="821" Text= "bless" />
+		<Msg ID="822" Text= "soul" />
+		<Msg ID="823" Text= "chaos" />
+		<Msg ID="824" Text= "wcc" />
+		<Msg ID="825" Text= ".::BLESS STORE::." />
+		<Msg ID="826" Text= ".::SOUL STORE::." />
+		<Msg ID="827" Text= ".::CHAOS STORE::." />
+		<Msg ID="828" Text= ".::WCC STORE::." />
+		<Msg ID="829" Text= ".::WCP STORE::." />
+		<Msg ID="830" Text= ".::WCG STORE::." />
+		<Msg ID="830" Text= "You do not have permission to use /store" />
+		<Msg ID="831" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="832" Text= "Personal Shop is empty or items are without price" />
+		<Msg ID="833" Text= "ATTENTION!! All items in this store are sold for Jewel of Bless" />
+		<Msg ID="834" Text= "ATTENTION!! All items in this store are sold for Jewel of Soul" />
+		<Msg ID="835" Text= "ATTENTION!! All items in this store are sold for Jewel of Chaos" />
+		<Msg ID="836" Text= "ATTENTION!! All items in this store are sold for WCoinC" />
+		<Msg ID="837" Text= "ATTENTION!! All items in this store are sold for WCoinP" />
+		<Msg ID="838" Text= "ATTENTION!! All items in this store are sold for Goblin Point" />
+		<Msg ID="839" Text= "You must be at least Level %d to use /store" />
+		<Msg ID="840" Text= "You must be at least %d Resets to use /store" />
+		<Msg ID="841" Text= "/offstore" />
+		<Msg ID="842" Text= "You do not have permission to use the /offstore" />
+		<Msg ID="843" Text= "You need to open the Personal Store before" />
+		<Msg ID="844" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="845" Text= "You must be at least Level %d to use the /offstore" />
+		<Msg ID="846" Text= "You must be at least %d Resets to use the /offstore" />
+		<Msg ID="847" Text= "/offattack" />
+		<Msg ID="848" Text= "You are not enabled to use /offattack" />
+		<Msg ID="849" Text= "You need at least %d level to use the command" />
+		<Msg ID="850" Text= "You need at least %d reset to use the command" />
+		<Msg ID="851" Text= "You need at least %d money to use the command" />
+		<Msg ID="852" Text= "You need to enable automatic attack first" />
+		<Msg ID="853" Text= "You can't use the command in this location" />
+		<Msg ID="854" Text= "You need to enable Helper first" />
+		<Msg ID="855" Text= "Master Skill Reset Successfully, please relogin." />
+		<Msg ID="856" Text= "Master Skill Reset Failed" />
+		<Msg ID="857" Text= "You must first reset your skill tree Enhance." />
+		<Msg ID="858" Text= "wcp" />
+		<Msg ID="859" Text= "wcg" />
+		<Msg ID="860" Text= "ruud" />
+		<Msg ID="861" Text= ".::RUUD STORE::." />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />

@@ -1,11 +1,5 @@
 [GameServerInfo]
 ;==================================================
-; Customer Settings
-;==================================================
-CustomerName = YOUR CUSTOMER
-CustomerHardwareId = YOUR HID
-
-;==================================================
 ; Server Settings
 ;==================================================
 ServerName = MuDevs
@@ -14,9 +8,9 @@ ServerLock = 0
 ServerPort = 55919
 ServerVersion = 1.04.05
 ServerSerial = TbYehR2hFUPBKgZj
-ServerMaxUserNumber = 100
-MaxPacketPerSecond = 500
-UseControlIP=1
+ServerMaxUserNumber = 50
+MaxPacketPerSecond = 800
+
 ;==================================================
 ; Server Types
 ;==================================================
@@ -25,6 +19,11 @@ IsMarketServer = 0
 IsBattleCoreServer = 0
 BattleCoreNotice = 0
 IsInstanceServer = 0
+
+;==================================================
+; DB Settings
+;==================================================
+GameServerODBC = MuOnline
 
 ;==================================================
 ; Connection Settings
@@ -39,13 +38,13 @@ ConnectServerPort = 55557
 ;==================================================
 ; Log Settings
 ;==================================================
-WriteChatLog = 1
-WriteCommandLog = 1
-WriteTradeLog = 1
+WriteChatLog = 0
+WriteCommandLog = 0
+WriteTradeLog = 0
 WriteConnectLog = 1
 WriteHackLog = 1
-WriteCashShopLog = 1
-WriteChaosMixLog = 1
+WriteCashShopLog = 0
+WriteChaosMixLog = 0
 WriteAntiHackLog = 1
 
 ;==================================================
@@ -55,10 +54,10 @@ CheckSpeedHack = 0
 CheckSpeedHackTolerance = 0
 CheckLatencyHack = 0
 CheckLatencyHackTolerance = 0
-CheckAutoPotionHack = 1
-CheckAutoPotionHackTolerance = 400
-CheckAutoComboHack = 1
-CheckAutoComboHackTolerance = 800
+CheckAutoPotionHack = 0
+CheckAutoPotionHackTolerance = 0
+CheckAutoComboHack = 0
+CheckAutoComboHackTolerance = 0
 
 ;==================================================
 ; Common Settings

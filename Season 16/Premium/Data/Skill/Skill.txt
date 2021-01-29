@@ -227,7 +227,7 @@
 392	"Add Nova Improved"				17	198	49	6	6	0	1	0	0		0		0		0		0		-1		-1		-1		-1		0		160			0		  3	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
 393	"Add Ice Storm Enhanced"			22	110	5	6	4	0	2	56	0		0		0		0		0		4		90		-1		-1		0		115			0		  3	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
 394	"Add Meteorite Enhanced"			1	14	0	6	0	0	3	0	0		0		0		0		0		4		45		-1		-1		0		190			0		  3	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
-395	"Nova Cast Strengthener"			22	198	49	6	0	0	1	0	100		1052		0		0		0		-1		-1		-1		-1		0		160			0		  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+395	"Nova Cast Strengthener"			22	198	49	6	0	0	1	0	0		1052		0		0		0		-1		-1		-1		-1		0		160			0		  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
 397	"Add One Hand Staff Damage"			22	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  0	  0	  3	  0	  0	  0	  0	  0	  0	  0
 398	"Add Two Hand Staff Damage"			42	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  0	  0	  3	  0	  0	  0	  0	  0	  0	  0
 399	"Add Shield Defense"				10	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
@@ -535,7 +535,7 @@
 744	"Add Phoenix Shot Improved"			22	30	0	4	3	1200	4	132	0		0		0		0		0		3		200		-1		-1		0		125			0		  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
 745	"Add Phoenix Shot Enhanced"			1	30	0	4	3	1200	4	132	0		0		0		0		0		3		200		-1		-1		0		125			0		  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
 746	"Add Elemental Defense"				162	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  3	  3	  3	  3	  3	  3	  3	  3	  3	  3
-747	"Pentagram Elemental Defense Increase"		163	0	0	0	0	0	0	0	160		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  3	  3	  3	  3	  3	  3	  3	  3	  3	  0
+747	"Pentagram Elemental Defense Increase"		163	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  3	  3	  3	  3	  3	  3	  3	  3	  3	  3	  0
 748	"Add Magic Arrow Improved"			22	35	12	8	8	0	5	0	0		0		0		0		0		4		500		-1		-1		0		100			0		  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
 749	"Add Magic Arrow Enhanced"			22	42	18	8	8	0	5	0	0		0		0		0		0		4		500		-1		-1		0		100			0		  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
 750	"Add Plasma Ball Improved"			22	130	45	8	4	4000	5	0	0		0		0		0		0		4		200		-1		-1		0		110			0		  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0
@@ -590,7 +590,7 @@
 809	"Frozen Stab Enhanced"				234	30	24	5	4	0	2	0	0		0		0		0		0		4		150		-1		-1		0		135			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
 810	"Strengthen strong Conviction"			22	80	25	0	0	0	0	336	0		1040		0		0		0		-1		-1		-1		-1		1		100			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
 811	"Add Twisting Slash Improved"			40	10	10	2	3	0	4	0	0		0		0		0		0		1		40		-1		-1		0		150			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
-812	"Add Rageful Blow Improved"			22	25	22	3	4	0	3	0	170		0		0		0		0		1		150		-1		-1		0		125			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
+812	"Add Rageful Blow Improved"			22	25	22	3	4	0	3	0	0		0		0		0		0		1		150		-1		-1		0		125			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
 813	"Rush"						178	200	200	7	0	1000	4	0	0		0		0		0		0		1		100		-1		-1		0		150			0		  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0
 814	"Energy stat increase"				245	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
 815	"Heal stat increase"				246	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
@@ -755,27 +755,27 @@
 1199	"Add Toxic Explosion Effect"			100	40	30	6	0	1000	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1200	"Add Bleed Explosion Effect"			100	40	30	6	0	1000	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1201	"Add Chill Explosion Effect"			100	40	30	6	0	1000	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
-1202	"Destruction Strike Enhancement Skill"		120	30	24	5	4	0	2	0	160		0		0		0		0		4		150		-1		-1		0		135			0		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
-1203	"Sword Blow Enhancement Skill"			30	19	17	5	7	0	2	0	150		0		0		0		0		-1		-1		-1		-1		0		105			1		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
-1204	"Solid protection enhancement skill"		120	65	20	0	0	0	0	332	160		1052		0		0		0		-1		-1		-1		-1		1		100			0		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1202	"Destruction Strike Enhancement Skill"		120	30	24	5	4	0	2	0	0		0		0		0		0		4		150		-1		-1		0		135			0		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1203	"Sword Blow Enhancement Skill"			30	19	17	5	7	0	2	0	0		0		0		0		0		-1		-1		-1		-1		0		105			1		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1204	"Solid protection enhancement skill"		120	65	20	0	0	0	0	332	0		1052		0		0		0		-1		-1		-1		-1		1		100			0		  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0
 1205	"Solid Protection Enhancement Max HP"		0	0	0	0	0	0	0	332	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1206	"Solid Protection Enhancement Party Damage"	0	0	0	0	0	0	0	332	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1207	"Solid Protection Enhancement HP Convert Rate"	0	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1208	"Solid Protection Enhancement Dmg Convert Rate"	0	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1209	"Solid Protection Enhancement Defense Party"	0	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
 1210	"Solid Protection Enhancement Defense"		0	0	0	0	0	0	0	0	0		0		0		0		0		-1		-1		-1		-1		0		100			0		  4	  4	  4	  4	  4	  4	  4	  4	  4	  4	  4
-1211	"Dark Plasma Enhancement Skill"			100	19	15	6	5	5000	0	0	100		200		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
-1212	"Ice Blast Enhancement Skill"			100	14	10	6	6	0	2	0	150		1000		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
-1213	"Busting Flare Enhancement Skill"		100	14	13	6	0	0	1	0	150		800		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
+1211	"Dark Plasma Enhancement Skill"			100	19	15	6	5	5000	0	0	0		200		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
+1212	"Ice Blast Enhancement Skill"			100	14	10	6	6	0	2	0	0		1000		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
+1213	"Busting Flare Enhancement Skill"		100	14	13	6	0	0	1	0	0		800		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
 //Index  Name						Damage  MP      BP      Range   Radio   Delay   Type	Effect	ReqLevel	ReqEnergy	ReqLeadership	ReqKillCount	ReqGuildStatus	DivisionStat1	DivisionValue1	DivisionStat2	DivisionValue2	SkillDamageType	ElementImprintBonus	AddDamageOption   DW      DK      FE      MG      DL      SU      RF      GL      RW      SL	 GC
-1500	"Sword's Fury"					0	21	17	0	0	0	0	324	120		0		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
-1501	"Sword Blow"					30	19	17	5	7	0	2	0	150		0		0		0		0		-1		-1		-1		-1		0		105			1		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
-1502	"Strong belief"					0	80	25	0	0	0	0	325	120		1040		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
-1503	"Solid protection"				0	65	20	0	0	0	0	326	120		1052		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
-2001	"Dark Plasma"					30	22	10	6	5	5000	0	0	130		0		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
-2002	"Ice break"					180	7	1	6	6	0	2	0	50		295		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
-2003	"Ice Blast"					140	13	10	6	6	400	2	0	160		1000		0		0		0		-1		-1		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
-2004	"Death Fire"					160	5	1	6	6	0	1	0	50		100		0		0		0		4		80		-1		-1		0		105			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
-2005	"Bursting flare"				70	10	13	6	0	0	1	0	160		800		0		0		0		-1		-1		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
-2006	"Death Ice"					160	5	1	6	6	0	2	0	50		100		0		0		0		4		80		-1		-1		0		105			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+1500	"Sword's Fury"					0	21	17	0	0	0	0	324	0		0		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1501	"Sword Blow"					30	19	17	5	7	0	2	0	0		0		0		0		0		-1		-1		-1		-1		0		105			1		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1502	"Strong belief"					0	80	25	0	0	0	0	325	0		1040		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
+1503	"Solid protection"				0	65	20	0	0	0	0	326	0		1052		0		0		0		-1		-1		-1		-1		1		100			0		  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0
+2001	"Dark Plasma"					30	22	10	6	5	5000	0	0	0		0		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+2002	"Ice break"					180	7	1	6	6	0	2	0	0		295		0		0		0		4		80		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+2003	"Ice Blast"					140	13	10	6	6	400	2	0	0		1000		0		0		0		-1		-1		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+2004	"Death Fire"					160	5	1	6	6	0	1	0	0		100		0		0		0		4		80		-1		-1		0		105			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+2005	"Bursting flare"				70	10	13	6	0	0	1	0	0		800		0		0		0		-1		-1		-1		-1		0		105			1		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+2006	"Death Ice"					160	5	1	6	6	0	2	0	0		100		0		0		0		4		80		-1		-1		0		105			0		  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
 end

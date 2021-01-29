@@ -1,5 +1,11 @@
 [GameServerInfo]
 ;==================================================
+; Arca Battle Event Settings
+;==================================================
+ArcaBattleEvent = 0
+ArcaBattleGuildMinUser = 1
+
+;==================================================
 ; Blood Castle Event Settings
 ;==================================================
 BloodCastleEvent = 0
