@@ -1,0 +1,40 @@
+0
+//HPLevel1	HPLevel2	HPLevel3	HPLevel4	HPLevel5	
+90		70		50		30		0
+end
+
+1						
+//SummonbeginX	SummonbeginY	SummonendX	SummonendY
+27		115		35		125
+end	
+
+2
+//group		monsterIndex	Count		Attr
+0		730		1		0
+0		731		2		0
+0		732		2		0
+1		730		2		0
+1		731		2		0
+1		732		3		0
+2		730		3		0
+2		731		3		0
+2		732		4		0
+3		730		3		0
+3		731		3		0
+3		732		4		0
+end
+
+3
+//RefillLifeValue
+70000
+end
+
+4
+//Wheelwind(%)	Wheelwindcoverage	Landmines(%)	Lord'sroarcoverage
+80		3			95		6	
+end
+
+5
+//MaxSummon
+25
+end

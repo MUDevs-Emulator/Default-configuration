@@ -1,0 +1,68 @@
+0
+//Index   ItemIndex   RankNumber   RankOption   RankOptionRate   Name                                 Value0   Value1   Value2   Value3   Value4   Value5   Value6   Value7   Value8   Value9   Value10
+0         6365        1            1            10000            "Add Elemental Damage"               30       33       38       45       54       65       78       93       113      138      168
+10        6365        2            1            2000             "Mul Elemental Damage Vs Fire"       5        6        7        8        9        10       12       14       16       18       20
+11        6365        2            2            2000             "Mul Elemental Damage Vs Water"      5        6        7        8        9        10       12       14       16       18       20
+12        6365        2            3            2000             "Mul Elemental Damage Vs Earth"      5        6        7        8        9        10       12       14       16       18       20
+13        6365        2            4            2000             "Mul Elemental Damage Vs Wind"       5        6        7        8        9        10       12       14       16       18       20
+14        6365        2            5            2000             "Mul Elemental Damage Vs Dark"       5        6        7        8        9        10       12       14       16       18       20
+20        6365        3            1            5000             "Add Elemental Damage PvP"           30       35       43       54       66       80       97       117      142      172      207
+21        6365        3            2            5000             "Add Elemental Damage PvM"           30       35       43       54       66       80       97       117      142      172      207
+30        6365        4            1            5000             "Mul Elemental Damage PvP"           5        6        7        8        10       12       14       17       20       23       27
+31        6365        4            2            5000             "Mul Elemental Damage PvM"           5        6        7        8        10       12       14       17       20       23       27
+40        6365        5            1            10000            "Mul Elemental Damage"               3        4        5        6        8        10       12       15       18       21       25
+50        6375        1            1            10000            "Add Elemental Defense"              10       13       17       22       28       35       43       52       62       73       85
+60        6375        2            1            2000             "Mul Elemental Defense Vs Fire"      5        6        7        8        9        10       12       14       16       18       20
+61        6375        2            2            2000             "Mul Elemental Defense Vs Water"     5        6        7        8        9        10       12       14       16       18       20
+62        6375        2            3            2000             "Mul Elemental Defense Vs Earth"     5        6        7        8        9        10       12       14       16       18       20
+63        6375        2            4            2000             "Mul Elemental Defense Vs Wind"      5        6        7        8        9        10       12       14       16       18       20
+64        6375        2            5            2000             "Mul Elemental Defense Vs Dark"      5        6        7        8        9        10       12       14       16       18       20
+70        6375        3            1            5000             "Add Elemental Defense PvP"          10       13       17       22       28       35       43       52       62       73       85
+71        6375        3            2            5000             "Add Elemental Defense PvM"          10       13       17       22       28       35       43       52       62       73       85
+80        6375        4            1            5000             "Add Elemental D. R. PvP"            5        6        7        8        10       12       14       17       20       23       27
+81        6375        4            2            5000             "Add Elemental D. R. PvM"            5        6        7        8        10       12       14       17       20       23       27
+90        6375        5            1            10000            "Add Elemental D. R."                3        4        5        6        8        10       12       15       18       21       25
+100       6385        1            1            10000            "Mul Elemental A. S. Rate"           5        6        7        8        9        10       12       14       16       18       20
+110       6385        2            1            2000             "Mul Elemental Damage Vs Fire"       5        6        7        8        9        10       12       14       16       18       20
+111       6385        2            2            2000             "Mul Elemental Damage Vs Water"      5        6        7        8        9        10       12       14       16       18       20
+112       6385        2            3            2000             "Mul Elemental Damage Vs Earth"      5        6        7        8        9        10       12       14       16       18       20
+113       6385        2            4            2000             "Mul Elemental Damage Vs Wind"       5        6        7        8        9        10       12       14       16       18       20
+114       6385        2            5            2000             "Mul Elemental Damage Vs Dark"       5        6        7        8        9        10       12       14       16       18       20
+120       6385        3            1            5000             "Add Elemental Damage PvP"           30       35       43       54       66       80       97       117      142      172      207
+121       6385        3            2            5000             "Add Elemental Damage PvM"           30       35       43       54       66       80       97       117      142      172      207
+130       6385        4            1            5000             "Add Elemental A. S. Rate PvP"       270      300      330      360      410      460      510      570      630      690      800
+131       6385        4            2            5000             "Add Elemental A. S. Rate PvM"       270      300      330      360      410      460      510      570      630      690      800
+140       6385        5            1            10000            "Add Elemental A. S. Rate"           150      170      190      210      240      270      300      340      380      420      500
+150       6395        1            1            10000            "Mul Elemental D. S. Rate"           5        6        7        8        9        10       12       14       16       18       20
+160       6395        2            1            2000             "Mul Elemental Defense Vs Fire"      5        6        7        8        9        10       12       14       16       18       20
+161       6395        2            2            2000             "Mul Elemental Defense Vs Water"     5        6        7        8        9        10       12       14       16       18       20
+162       6395        2            3            2000             "Mul Elemental Defense Vs Earth"     5        6        7        8        9        10       12       14       16       18       20
+163       6395        2            4            2000             "Mul Elemental Defense Vs Wind"      5        6        7        8        9        10       12       14       16       18       20
+164       6395        2            5            2000             "Mul Elemental Defense Vs Dark"      5        6        7        8        9        10       12       14       16       18       20
+170       6395        3            1            5000             "Add Elemental Defense PvP"          10       13       17       22       28       35       43       52       62       73       85
+171       6395        3            2            5000             "Add Elemental Defense PvM"          10       13       17       22       28       35       43       52       62       73       85
+180       6395        4            1            5000             "Add Elemental D. S. Rate PvP"       270      300      330      360      410      460      510      570      630      690      800
+181       6395        4            2            5000             "Add Elemental D. S. Rate PvM"       270      300      330      360      410      460      510      570      630      690      800
+190       6395        5            1            10000            "Add Elemental D. S. Rate"           150      170      190      210      240      270      300      340      380      420      500
+200       6405        1            1            1666             "Add Elemental Damage"               33       48       63       78       95       112      129      148      167      186      209
+201       6405        1            2            1666             "Add Elemental Defense"              13       21       29       37       46       55       64       74       84       94       107
+202       6405        1            3            1666             "Add Elemental A. S. Rate"           150      173      196      219      252      285      318      361      404      447      605
+203       6405        1            4            1666             "Add Elemental D. S. Rate"           150      173      196      219      252      285      318      361      404      447      605
+204       6405        1            5            1666             "Add Elemental Damage"               33       52       71       90       120      141      162      191      213      235      261
+205       6405        1            6            1666             "Add Elemental Defense"              13       23       33       43       54       65       76       90       104      118      135
+210       6405        2            1            3333             "Add Elemental SD Absorb Rate"       1        2        3        4        5        6        7        8        9        10       11
+211       6405        2            2            3333             "Add Elemental HP Absorb Rate"       1        2        3        4        5        6        7        8        9        10       11
+212       6405        2            3            3333             "Add Bastion Effect"                 3        4        5        6        8        10       12       15       18       21       25
+220       6405        3            1            2000             "Add Hemorrhage Effect"              100      140      180      220      260      300      340      380      420      460      500
+221       6405        3            2            2000             "Add Paralysis Effect"               13       14       15       16       18       20       22       25       28       31       35
+222       6405        3            3            2000             "Add Bondage Effect"                 13       14       15       16       18       20       22       25       28       31       35
+223       6405        3            4            2000             "Add Punish Effect"                  6        7        8        9        10       11       12       13       14       15       16
+224       6405        3            5            2000             "Add Blindness Effect"               50       52       54       56       59       62       65       69       73       77       85
+230       6405        4            1            5000             "Add Elemental Immunity Skill"       13       14       15       16       18       20       22       25       28       31       35
+231       6405        4            2            5000             "Add Debuff Immunity Skill"          13       14       15       16       18       20       22       25       28       31       35
+240       6405        5            1            10000            "Add Berserker Skill"                13       14       15       16       18       20       22       25       28       31       35
+250       6366        1            14           10000            "Add Elemental Damage"               1        0        0        0        0        0        0        0        0        0        0
+251       6376        1            14           10000            "Add Elemental Defense"              1        0        0        0        0        0        0        0        0        0        0
+252       6386        1            14           10000            "Mul Elemental A. S. Rate"           1        0        0        0        0        0        0        0        0        0        0
+253       6396        1            14           10000            "Mul Elemental D. S. Rate"           1        0        0        0        0        0        0        0        0        0        0
+end

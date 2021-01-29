@@ -1,0 +1,57 @@
+///////////////////////////////////////////////
+//GMO Official by OMEGA
+///////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Info
+///////////////////////////////////////////////
+13			16		1		0		0		0		0		0			//Scroll of Archangel
+13			16		2		0		0		0		0		0			//Scroll of Archangel
+13			16		3		0		0		0		0		0			//Scroll of Archangel
+13			16		4		0		0		0		0		0			//Scroll of Archangel
+13			16		5		0		0		0		0		0			//Scroll of Archangel
+13			16		6		0		0		0		0		0			//Scroll of Archangel
+13			16		7		0		0		0		0		0			//Scroll of Archangel
+13			17		1		0		0		0		0		0			//Blood Bone
+13			17		2		0		0		0		0		0			//Blood Bone
+13			17		3		0		0		0		0		0			//Blood Bone
+13			17		4		0		0		0		0		0			//Blood Bone
+13			17		5		0		0		0		0		0			//Blood Bone
+13			17		6		0		0		0		0		0			//Blood Bone
+13			17		7		0		0		0		0		0			//Blood Bone
+14			17		1		0		0		0		0		0			//Devils Eye
+14			17		2		0		0		0		0		0			//Devils Eye
+14			17		3		0		0		0		0		0			//Devils Eye
+14			17		4		0		0		0		0		0			//Devils Eye
+14			17		5		0		0		0		0		0			//Devils Eye
+14			17		6		0		0		0		0		0			//Devils Eye
+14			17		7		0		0		0		0		0			//Devils Eye
+14			18		1		0		0		0		0		0			//Devils Key
+14			18		2		0		0		0		0		0			//Devils Key
+14			18		3		0		0		0		0		0			//Devils Key
+14			18		4		0		0		0		0		0			//Devils Key
+14			18		5		0		0		0		0		0			//Devils Key
+14			18		6		0		0		0		0		0			//Devils Key
+14			18		7		0		0		0		0		0			//Devils Key
+13			29		0		0		0		0		0		0			//Armor of Guardsman
+14			9		0		0		0		0		0		0			//Ale
+14			10		0		0		0		0		0		0			//Town Portal Scroll
+14			1		0		3		0		0		0		0			//Small Healing Potion
+14			2		0		3		0		0		0		0			//Healing Potion
+14			3		0		3		0		0		0		0			//Large Healing Potion
+14			4		0		3		0		0		0		0			//Small Mana Potion
+14			5		0		3		0		0		0		0			//Mana Potion
+14			6		0		3		0		0		0		0			//Large Mana Potion
+14			8		0		1		0		0		0		0			//Antidote
+14			8		0		3		0		0		0		0			//Antidote
+14			1		1		3		0		0		0		0			//Small Healing Potion
+14			2		1		3		0		0		0		0			//Healing Potion
+14			3		1		3		0		0		0		0			//Large Healing Potion
+4			7		0		255	    0		0		0		0			//Bolt
+4			7		1		255	    0		0		0		0			//Bolt
+4			7		2		255	    0		0		0		0			//Bolt
+4			7		3		255	    0		0		0		0			//Bolt
+4			15		0		255	    0		0		0		0			//Arrow
+4			15		1		255	    0		0		0		0			//Arrow
+4			15		2		255	    0		0		0		0			//Arrow
+4			15		3		255	    0		0		0		0			//Arrow
+12			70		0		0		0		0		0		0			//Empty Sphere lvl 1
+end

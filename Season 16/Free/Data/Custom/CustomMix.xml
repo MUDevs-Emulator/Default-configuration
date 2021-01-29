@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//~~ Changes to this file may require modification appropriate mix configuration in Mix.bmd
+//
+// ### CustomMix::CombinationMaterials:Material ###
+//	ID: Unique, in-file material ID
+//	Cat: Material item category, see ItemList.xml
+//	Index: Material item index, see ItemList.xml
+//	MinLevel: Minimum level of material item, 0-15
+//	MaxLevel: Maximum level of material item, 0-15
+//	Option: Minimum option value of material item, 0-7 (+4 to +28)
+//	Durability: Durability value of material item
+//	Type:
+//		~ 0: Non-exc item
+//		~ 1: Exc item
+//		~ 2: Set item
+//
+//	Name: material name, used for in-file and description purpose
+//
+// ### CustomMix::CombinationResult:Mix ###
+//	ID: Mix head ID, refers to HeadCode of mix.bmd
+//	Cat: Mix result item category, see ItemList.xml
+//	Index: Mix result item index, see ItemList.xml
+//	Level: Result item level, 0-15
+//	Name: Result item name
+//	OptKeepType: Determins a way of managing options on result items, bits sum
+//		~ 1: Keep exc options
+//		~ 2: Keep luck
+//		~ 4: Keep set options
+//		~ 8: Generate new set option
+//		~ 16: Generate new JoL option (+4 to +16), works with option 8 only, e.g. 16+8=24
+//		~ 128: Copy all options from main material item, including item level and durability
+//
+//	SuccessRate: Maximum successs rate of the mix
+//	MaterialID1: Main material ID to use for the mix, -1 if not applies
+//	MaterialCnt1: Count of main materials
+//	MaterialID2: Material 2 for the mix, -1 if not applies
+//	MaterialCnt2: Count of material 2
+//	MaterialID3: Material 3 for the mix, -1 if not applies
+//	MaterialCnt3: Count of material 3
+//	MaterialID4: Material 4 for the mix, -1 if not applies
+//	MaterialCnt4: Count of material 4
+//	MaterialID5: Material 5 for the mix, -1 if not applies
+//	MaterialCnt5: Count of material 5
+//	MaterialID6: Material 6 for the mix, -1 if not applies
+//	MaterialCnt6: Count of material 6
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ For material IDs refer to see CombinationMaterials section
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	Money: Mix cost in Zen, not used at the moment
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+// 
+-->
+
+<MasteryItemMix>
+	<CombinationMaterials>							
+		<!-- <Material ID="0" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="1" Type="0" Name="Jewel of Bless" /> -->
+	</CombinationMaterials>
+	<CombinationResult>
+		<!-- <Mix ID="78" Cat="8" Index="98" Level="0" Name="Bloodangel Knight Armor" OptKeepType="24" SuccessRate="100" MaterialID1="78" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" /> -->
+	</CombinationResult>																	
+</MasteryItemMix>

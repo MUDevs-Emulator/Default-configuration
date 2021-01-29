@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="1" SectionRate="5000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="1" Index="6593" Level="0" Grade="0" Durability="0" Option0="22" Option1="0" Option2="0" Option3="22" Option4="0" Option5="2" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="1210000" Name="Earring of Wrath (Left)"/>
+		<ItemEx Section="1" Index="6594" Level="0" Grade="0" Durability="0" Option0="22" Option1="0" Option2="0" Option3="22" Option4="0" Option5="2" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="1210000" Name="Earring of Forefathers (Left)"/>
+		<ItemEx Section="1" Index="6595" Level="0" Grade="0" Durability="0" Option0="22" Option1="0" Option2="0" Option3="22" Option4="0" Option5="2" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="1210000" Name="Earring of Honor (Left)"/>
+	</BagItemsEx>
+</ItemBag>

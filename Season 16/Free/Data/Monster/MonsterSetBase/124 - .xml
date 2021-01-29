@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="810" Range="2" BeginPosX="234" BeginPosY="9" EndPosX="241" EndPosY="15" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="3" BeginPosX="182" BeginPosY="111" EndPosX="189" EndPosY="120" Direction="-1" Quantity="3" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="3" BeginPosX="158" BeginPosY="60" EndPosX="165" EndPosY="71" Direction="-1" Quantity="3" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="4" BeginPosX="165" BeginPosY="29" EndPosX="174" EndPosY="38" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="811" Range="2" BeginPosX="232" BeginPosY="13" EndPosX="239" EndPosY="21" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="4" BeginPosX="198" BeginPosY="85" EndPosX="211" EndPosY="92" Direction="-1" Quantity="3" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" BeginPosX="141" BeginPosY="4" EndPosX="152" EndPosY="13" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="812" Range="4" BeginPosX="121" BeginPosY="90" EndPosX="132" EndPosY="98" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="812" Range="6" BeginPosX="114" BeginPosY="52" EndPosX="134" EndPosY="58" Direction="-1" Quantity="4" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="812" Range="6" BeginPosX="137" BeginPosY="31" EndPosX="145" EndPosY="40" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="812" Range="4" BeginPosX="127" BeginPosY="71" EndPosX="137" EndPosY="81" Direction="-1" Quantity="3" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="813" Range="4" BeginPosX="109" BeginPosY="70" EndPosX="116" EndPosY="80" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Driller" -->
+		<Config Class="813" Range="4" BeginPosX="218" BeginPosY="41" EndPosX="229" EndPosY="51" Direction="-1" Quantity="4" Element="2" /> <!-- "Mine Driller" -->
+		<Config Class="813" Range="4" BeginPosX="176" BeginPosY="33" EndPosX="184" EndPosY="40" Direction="-1" Quantity="2" Element="2" /> <!-- "Mine Driller" -->
+		<Config Class="813" Range="4" BeginPosX="97" BeginPosY="58" EndPosX="111" EndPosY="62" Direction="-1" Quantity="3" Element="2" /> <!-- "Mine Driller" -->
+		<Config Class="814" Range="4" BeginPosX="89" BeginPosY="55" EndPosX="101" EndPosY="62" Direction="-1" Quantity="2" Element="2" /> <!-- "Dead Digger" -->
+		<Config Class="814" Range="6" BeginPosX="164" BeginPosY="76" EndPosX="172" EndPosY="84" Direction="-1" Quantity="2" Element="2" /> <!-- "Dead Digger" -->
+		<Config Class="814" Range="4" BeginPosX="148" BeginPosY="94" EndPosX="159" EndPosY="104" Direction="-1" Quantity="3" Element="2" /> <!-- "Dead Digger" -->
+		<Config Class="815" Range="4" BeginPosX="191" BeginPosY="23" EndPosX="203" EndPosY="28" Direction="-1" Quantity="3" Element="2" /> <!-- "Dead Shoveler" -->
+		<Config Class="815" Range="3" BeginPosX="210" BeginPosY="25" EndPosX="221" EndPosY="30" Direction="-1" Quantity="3" Element="2" /> <!-- "Dead Shoveler" -->
+		<Config Class="815" Range="4" BeginPosX="146" BeginPosY="30" EndPosX="163" EndPosY="33" Direction="-1" Quantity="3" Element="2" /> <!-- "Dead Shoveler" -->
+		<Config Class="815" Range="6" BeginPosX="141" BeginPosY="67" EndPosX="155" EndPosY="71" Direction="-1" Quantity="3" Element="2" /> <!-- "Dead Shoveler" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="810" Range="6" PositionX="186" PositionY="87" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="6" PositionX="225" PositionY="26" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="6" PositionX="229" PositionY="23" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="6" PositionX="215" PositionY="39" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="6" PositionX="214" PositionY="34" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="810" Range="6" PositionX="186" PositionY="30" Direction="-1" Element="2" /> <!-- "Mine Digger" -->
+		<Config Class="811" Range="6" PositionX="166" PositionY="57" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="172" PositionY="46" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="168" PositionY="21" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="157" PositionY="8" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="167" PositionY="11" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="192" PositionY="68" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="187" PositionY="77" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="176" PositionY="80" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="135" PositionY="68" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="134" PositionY="64" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="811" Range="6" PositionX="161" PositionY="90" Direction="-1" Element="2" /> <!-- "Mine Carrier" -->
+		<Config Class="812" Range="6" PositionX="111" PositionY="57" Direction="-1" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="812" Range="6" PositionX="112" PositionY="66" Direction="-1" Element="2" /> <!-- "Mine Porter" -->
+		<Config Class="816" Range="6" PositionX="89" PositionY="51" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="87" PositionY="56" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="86" PositionY="52" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="102" PositionY="81" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="106" PositionY="82" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="140" PositionY="8" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+		<Config Class="816" Range="6" PositionX="120" PositionY="94" Direction="-1" Element="2" /> <!-- "Dead Porter" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

@@ -1,0 +1,69 @@
+///////////////////////////////////////////////
+//GMO Official 
+///////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Info
+///////////////////////////////////////////////
+14			0		0		1		0		0		0		0			//Apple
+14			1		0		1		0		0		0		0			//Small Healing Potion
+14			2		0		1		0		0		0		0			//Healing Potion
+14			3		0		1		0		0		0		0			//Large Healing Potion
+14			4		0		1		0		0		0		0			//Small Mana Potion
+14			5		0		1		0		0		0		0			//Mana Potion
+14			6		0		1		0		0		0		0			//Large Mana Potion
+14			8		0		1		0		0		0		0			//Antidote
+14			0		0		3		0		0		0		0			//Apple
+14			1		0		3		0		0		0		0			//Small Healing Potion
+14			2		0		3		0		0		0		0			//Healing Potion
+14			3		0		3		0		0		0		0			//Large Healing Potion
+14			4		0		3		0		0		0		0			//Small Mana Potion
+14			5		0		3		0		0		0		0			//Mana Potion
+14			6		0		3		0		0		0		0			//Large Mana Potion
+14			8		0		3		0		0		0		0			//Antidote
+14			0		1		1		0		0		0		0			//Apple
+14			1		1		1		0		0		0		0			//Small Healing Potion
+14			2		1		1		0		0		0		0			//Healing Potion
+14			3		1		1		0		0		0		0			//Large Healing Potion
+14			0		1		3		0		0		0		0			//Apple
+14			1		1		3		0		0		0		0			//Small Healing Potion
+14			2		1		3		0		0		0		0			//Healing Potion
+14			3		1		3		0		0		0		0			//Large Healing Potion
+12			8		0		0		0		0		0		0			//Healing Orb
+12			9		0		0		0		0		0		0			//Orb of Greater Fortitude
+12			10		0		0		0		0		0		0			//Orb of Greater Damage
+12			11		0		0		0		0		0		0			//Orb of Summoning
+12			11		1		0		0		0		0		0			//Orb of Summoning
+12			11		2		0		0		0		0		0			//Orb of Summoning
+12			11		3		0		0		0		0		0			//Orb of Summoning
+12			11		4		0		0		0		0		0			//Orb of Summoning
+12			11		5		0		0		0		0		0			//Orb of Summoning
+12			11		6		0		0		0		0		0			//Orb of Summoning
+15			1		0		0		0		0		0		0			//Scroll of Meteorite
+7			10		0		22		0		1		1		0			//Vine Helm
+8			10		0		22		0		1		1		0			//Vine Armor
+14			10		0		0		0		0		0		0			//Town Portal Scroll
+9			10		0		22		0		1		1		0			//Vine Pants
+10			10		0		22		0		1		1		0			//Vine Gloves
+11			10		0		22		0		1		1		0			//Vine Boots
+7			11		2		28		0		1		1		0			//Silk Helm
+8			11		2		28		0		1		1		0			//Silk Armor
+9			11		2		28		0		1		1		0			//Silk Pants
+10			11		2		28		0		1		1		0			//Silk Gloves
+11			11		2		28		0		1		1		0			//Silk Boots
+7			12		3		35		0		1		0		0			//Wind Helm
+8			12		3		35		0		1		0		0			//Wind Armor
+9			12		3		35		0		1		0		0			//Wind Pants
+10			12		3		35		0		1		0		0			//Wind Gloves
+11			12		3		35		0		1		0		0			//Wind Boots
+13			29		0		0		0		0		0		0			//Armor of Guardsman
+4			7		0		255	0		0		0		0			//Bolt
+4			7		1		255	0		0		0		0			//Bolt
+4			7		2		255	0		0		0		0			//Bolt
+4			7		3		255	0		0		0		0			//Bolt
+4			15		0		255	0		0		0		0			//Arrow
+4			15		1		255	0		0		0		0			//Arrow
+4			15		2		255	0		0		0		0			//Arrow
+4			15		3		255	0		0		0		0			//Arrow
+13			239	0		0		0		0		0		0			//ミューンエナジー変換機(Muun Energy Converter)
+12			288	0		0		0		0		0		0			//エレメンタルルーン(Elemental Rune)
+12			70		0		0		0		0		0		0			//Empty Sphere lvl 1
+end

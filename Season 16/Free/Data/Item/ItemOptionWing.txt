@@ -1,0 +1,81 @@
+//Index   DefenseA   IncDamageA   IncDamageB   DecDamageA   DecDamageB   RequireLevelA   Comment
+6144      3          12           2            12           2            4               //Wings of Elf
+6145      3          12           2            12           2            4               //Wings of Heaven
+6146      3          12           2            12           2            4               //Wings of Satan
+6147      2          32           1            25           2            5               //Wings of Spirits
+6148      2          32           1            25           2            5               //Wings of Soul
+6149      2          32           1            25           2            5               //Wings of Dragon
+6150      2          32           1            25           2            5               //Wings of Darkness
+6180      4          39           2            39           2            0               //Wings of Storm
+6181      4          39           2            39           2            0               //Wings of Eternal
+6182      4          39           2            39           2            0               //Wings of Illusion
+6183      4          39           2            39           2            0               //Wings of Ruin
+6184      4          39           2            24           2            0               //Cloak of Emperor
+6185      3          12           2            12           2            4               //Wings of Curse
+6186      2          32           1            25           2            5               //Wings of Despair
+6187      4          39           2            39           2            0               //Wings of Dimension
+6193      2          20           2            10           2            5               //Cloak of Fighter
+6194      4          39           2            39           2            0               //Cloak of Overrule
+6274      2          12           2            12           2            0               //Small Cloak of Lord
+6275      2          12           2            12           2            0               //Small Wings of Curse
+6276      2          12           2            12           2            0               //Small Wings of Elf
+6277      2          12           2            12           2            0               //Small Wings of Heaven
+6278      2          12           2            12           2            0               //Small Wings of Satan
+6279      2          12           2            12           2            0               //Small Cloak of Fighter
+6406      3          21           1            13           2            4               //Cloak of Death
+6407      3          33           1            30           2            4               //Wings of Chaos
+6408      3          35           1            29           2            4               //Wings of Magic
+6409      3          35           1            29           2            4               //Wings of Life
+6410      3          71           0            71           0            0               //Wings of Conqueror
+6411      3          60           1            60           1            0               //Wings of Angel and Devil
+6412      3          71           0            71           0            0               //Wings of Conqueror
+6413      2          20           2            10           2            5               //Cloak of Limit
+6414      4          39           2            39           2            0               //Cloak of Transcendence
+6422      2          12           2            12           2            0               //Small Cloak of Limit
+6423      3          21           1            13           2            4               //Cloak of Death (Bound)
+6424      3          33           1            30           2            4               //Wings of Chaos (Bound)
+6425      3          35           1            29           2            4               //Wings of Magic (Bound)
+6426      3          35           1            29           2            4               //Wings of Life (Bound)
+6558      0          55           1            43           2            0               //Wings of Heaven
+6559      0          55           1            43           2            0               //Wings of Flame God
+6560      0          55           1            43           2            0               //Wings of Celestial Body
+6561      0          55           1            43           2            0               //Wings of Annihilation
+6562      0          55           1            37           2            0               //Cloak of Dominator
+6563      0          55           1            43           2            0               //Wings of Other World
+6564      0          55           1            43           2            0               //Cloak of Judgment
+6565      0          55           1            43           2            0               //Cloak of Isolation
+6566      2          32           1            25           2            5               //[Bound]Wings of Soul
+6567      2          32           1            25           2            5               //[Bound]Wings of Dragon
+6568      2          32           1            25           2            5               //[Bound]Wings of Spirits
+6569      2          32           1            25           2            5               //[Bound]Wings of Darkness
+6570      2          20           2            10           1            5               //[Bound]Cloak of Lord
+6571      2          32           1            25           2            5               //[Bound]Wings of Despair
+6572      2          20           2            10           2            5               //[Bound]Cloak of Fighter
+6573      2          20           2            10           2            5               //[Bound]Cloak of Limit
+6574      4          39           2            39           2            0               //[Bound]Wings of Eternal
+6575      4          39           2            39           2            0               //[Bound]Wings of Storm
+6576      4          39           2            39           2            0               //[Bound]Wings of Illusion
+6577      4          39           2            39           2            0               //[Bound]Wings of Ruin
+6578      4          39           2            24           2            0               //[Bound]Cloak of Emperor
+6579      4          39           2            39           2            0               //[Bound]Wings of Dimension
+6580      4          39           2            39           2            0               //[Bound]Cloak of Overrule
+6581      4          39           2            39           2            0               //[Bound]Cloak of Transcendence
+6582      0          55           1            43           2            0               //[Bound]Angel Wings
+6583      0          55           1            43           2            0               //[Bound]Devil Wings
+6584      0          55           1            43           2            0               //[Bound]Genius Wings
+6585      0          55           1            43           2            0               //[Bound]Destruction Wings
+6586      0          55           1            37           2            0               //[Bound]Control Wings
+6587      0          55           1            43           2            0               //[Bound]Eternal Wings
+6588      0          55           1            43           2            0               //[Bound]Judgment Cloak
+6589      0          55           1            43           2            0               //[Bound]Eternity Cloak
+6611      4          39           2            39           2            0               //Wings of Disillusion
+6612      4          39           2            39           2            0               //[Bound]Wings of Disillusion
+6613      0          55           1            43           2            0               //Wings of Fate
+6686      2          20           2            10           1            5               //Cloak of Lord
+6616      4          39           2            39           2            0               //Wings of Silence
+6617      4          39           2            39           2            0               //[Bound]Wings of Silence
+6618      0          55           1            43           2            0               //Wings of Condemnation
+6624      0          65           0            65           0            0               //Wing of Power
+6633      4          39           2            39           2            0               //Wings of Hit
+6640      4          39           2            39           2            0               //[Bound]Wings of Hit
+end

@@ -1,0 +1,41 @@
+//Section   Type   Level   Dur   Skill   Luck   Option   Excellent
+14			0		0		1		0		0		0		0			//Apple
+14			1		0		1		0		0		0		0			//Small Healing Potion
+14			2		0		1		0		0		0		0			//Healing Potion
+14			3		0		1		0		0		0		0			//Large Healing Potion
+14			4		0		1		0		0		0		0			//Small Mana Potion
+14			5		0		1		0		0		0		0			//Mana Potion
+14			6		0		1		0		0		0		0			//Large Mana Potion
+14			8		0		1		0		0		0		0			//Antidote
+14			0		0		3		0		0		0		0			//Apple
+14			1		0		3		0		0		0		0			//Small Healing Potion
+14			2		0		3		0		0		0		0			//Healing Potion
+14			3		0		3		0		0		0		0			//Large Healing Potion
+14			4		0		3		0		0		0		0			//Small Mana Potion
+14			5		0		3		0		0		0		0			//Mana Potion
+14			6		0		3		0		0		0		0			//Large Mana Potion
+14			8		0		3		0		0		0		0			//Antidote
+14			0		1		1		0		0		0		0			//Apple
+14			1		1		1		0		0		0		0			//Small Healing Potion
+14			2		1		1		0		0		0		0			//Healing Potion
+14			3		1		1		0		0		0		0			//Large Healing Potion
+14			0		1		3		0		0		0		0			//Apple
+14			1		1		3		0		0		0		0			//Small Healing Potion
+14			2		1		3		0		0		0		0			//Healing Potion
+14			3		1		3		0		0		0		0			//Large Healing Potion
+4			7		0		255	0		0		0		0			//Bolt
+4			7		1		255	0		0		0		0			//Bolt
+4			7		2		255	0		0		0		0			//Bolt
+4			7		3		255	0		0		0		0			//Bolt
+4			15		0		255	0		0		0		0			//Arrow
+4			15		1		255	0		0		0		0			//Arrow
+4			15		2		255	0		0		0		0			//Arrow
+4			15		3		255	0		0		0		0			//Arrow
+13			7		0		1		0		0		0		0			//コマンドアーチャー(Archer)
+13			7		1		1		0		0		0		0			//コマンドスピアー(Spear)
+14			10		0		1		0		0		0		0			//Town portal
+13			29		0		0		0		0		0		0			//近衛兵の鎧(Armor of Guardsman)
+13			239	0		0		0		0		0		0			//ミューンエナジー変換機(Muun Energy Converter)
+12			288	0		0		0		0		0		0			//エレメンタルルーン(Elemental Rune)
+12			70		0		0		0		0		0		0			//Empty Sphere lvl 1
+end

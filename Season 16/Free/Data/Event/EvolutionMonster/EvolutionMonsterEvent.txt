@@ -1,0 +1,37 @@
+//==================================================================================================================================
+// Event type
+// Event type Classification number Event type
+// 0 Event Type 1
+// 1 event type 3
+// 2 Event Type 3 (Hard)
+//==================================================================================================================================
+
+0 	// Evomon event time setting
+// Event type Classification 	Waiting time (sec) 	Success / failure notification time (sec) 	Monster regen time (sec)
+0				10			13						15
+1				2			3						4
+2				2			3						4															
+end
+
+1 	// Awakening mode type designation
+//EventType 	ClassificationFieldAppeared	EvomonAwakeningMode	PartialMemoryAwakeningLevelOfEvomon
+0		1				1			0
+1		0				0			0
+2		3				3			0															
+end
+
+2	// Evomon ability value and awakening probability setting
+// Evomon Event Type 0 Evolution Probability Formula : changePro*255/SQRT(Level to awaken-1)*Pro_V
+// Evomon Event Type 1, 2 Evolution probability formula : changePro-(Level to awaken*Pro_V )
+// EventType	monsterIndex	specialMon	HP_p	HP_m	Dmg_V	Def_p	Def_m	AttackR_v	SuccessB_v	skillLv1	skillLv2	skillLv3	changePro	pro_V	disTime	disTime_v	startTime	endTime
+0		681		690		21	1.05	10	2	1.01	8		3.4		20		67		124		48		0.7	300	10		1		22
+1		681		690		21	1.05	10	2	1.01	8		3.4		20		67		124		100		0.6	300	10		1		22
+2		681		690		21	1.05	10	2	1.01	8		3.4		20		67		124		100		0.64	300	10		1		22
+end		
+
+3	// Specify event score criteria	
+// Event type	TargetMonsterNumber	ScoreStandard
+0		681			0
+1		681			0
+2		681			0																
+end	

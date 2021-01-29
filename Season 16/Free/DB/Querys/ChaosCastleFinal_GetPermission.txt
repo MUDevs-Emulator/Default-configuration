@@ -1,0 +1,62 @@
+
+/****** Object:  StoredProcedure [dbo].[ChaosCastleFinal_GetPermission]    Script Date: 12/09/2020 05:36:41 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+
+CREATE PROC [dbo].[ChaosCastleFinal_GetPermission]
+	@mName			VARCHAR(10),
+	@mCCFType		TINYINT
+AS
+    SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	DECLARE	 
+				 @aRowCnt		INT
+				,@aErrNo		INT
+				,@Result		TINYINT
+				,@mRank			INT
+	SELECT		 
+				 @aRowCnt = 0
+				,@aErrNo = 0
+				,@Result = 1
+				,@mRank = 0
+
+	SELECT @mRank = mRank
+	FROM dbo.IGC_ChaosCastleFinal_Ranking
+	WHERE mCCFType = @mCCFType AND mName = @mName
+
+	SELECT @aErrNo = @@ERROR, @aRowCnt = @@ROWCOUNT
+	IF @mCCFType = 1
+	BEGIN
+		IF ( @mRank > 20 OR @aRowCnt = 0)
+		BEGIN
+			SET @Result = 1
+			SELECT @Result
+			RETURN
+		END
+	END
+	ELSE IF @mCCFType = 2
+	BEGIN
+		IF ( @mRank > 10 OR @aRowCnt = 0)
+		BEGIN
+			SET @Result = 1
+			SELECT @Result
+			RETURN
+		END
+	END
+
+	SET @Result = 0
+	SELECT @Result
+	RETURN
+
+
+
+GO
+
+

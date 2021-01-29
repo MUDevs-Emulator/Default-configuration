@@ -1,0 +1,49 @@
+0
+//Index   MainSection   MainType   MainLevel   MainDurability   MSection1   MType1   MDurability1   MSection2   MType2   MDurability2   MSection3   MType3   MDurability3   MSection4   MType4   MDurability4   MSection5   MType5   MDurability5   ReqMoney   MixSuccessRate   ResultSection   ResultType   ResultDurability5
+0	  13	        31	   0	       0		14	    13	     5		    14		14	 5		14	    22	     1		    12		15	 1		*	    *	     *		    5000000    500000		13		4	     0
+1	  13	        31	   1	       0	        14	    13	     2	            14	        14	 2	        14	    22	     1	            12	        15	 1	        *	    *	     *	 	    1000000    500000		13		5	     0	
+end
+
+1
+//Index   MainSection   MainType   MainLevel   MainDurability   MSection1   MType1   MDurability1   MSection2   MType2   MDurability2   MSection3   MType3   MDurability3   MSection4   MType4   MDurability4   MSection5   MType5   MDurability5   ReqMoney   MixSuccessRate   ResultSection   ResultType   ResultDurability5
+0	  14	        477	   0	       1	        14	    466	     10	            14	        13	 5	        *	    *	     *	            *	        *	 *	        *	    *	     *	            1000000    1000000	        12	        471	     0	
+end
+
+2
+//ReqLevel   MSection1   MType1   MDurability1   MSection2   MType2   MDurability2   MSection3   MType3   MDurability3   MSection4   MType4   MDurability4   MSection5   MType5   MDurability5   ReqMoney   MixSuccessRate   FailType
+0	     14	         467	  1	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 150000	    700000	     0							
+1	     14	         467	  3	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 300000	    700000	     1							
+2	     14	         467	  5	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 450000	    700000	     1							
+3	     14	         467	  7	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 600000	    700000	     1							
+4	     14	         467	  9	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 750000	    700000	     1							
+5	     14	         467	  11	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 900000	    700000	     1							
+6	     14	         467	  13	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 1050000    700000	     1							
+7	     14	         467	  15	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 1200000    700000	     1							
+8	     14	         467	  15	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 1350000    700000	     1							
+9	     14	         467	  15	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 1500000    700000	     1							
+10	     14	         468	  1	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 1750000    700000	     2							
+11	     14	         468	  2	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 2000000    700000	     2							
+12	     14	         468	  3	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 2250000    700000	     2							
+13	     14	         468	  4	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 2500000    700000	     2							
+14	     14	         468	  5	         14	     16	      1		     *		 *	  *		*	     *	      *		     *		 *	  *		 3000000    700000	     2		
+end
+
+3
+//GuardianID   MaterialSection   MaterialType
+1	       14	         470																				
+2	       14	         470
+end
+
+4
+//Index   MainSection   MainType   MainLevel   MainDurability   MSection1   MType1   MDurability1   MSection2   MType2   MDurability2   MSection3   MType3   MDurability3   MSection4   MType4   MDurability4   MSection5   MType5   MDurability5   ReqMoney   MixSuccessRate   ResultSection   ResultType   ResultDurability5
+0	  12		471	   11	       1		14	    498	     1		    14		13	 20		14	    14	     20		    12		15	 1		14	    22	     1		    0	       600000		12		483	     0	
+1	  12		471	   12	       1		14	    498	     1		    14		13	 20		14	    14	     20		    12		15	 1		14	    22	     1		    0	       700000		12		483	     0	
+2	  12		471	   13	       1		14	    498	     1		    14		13	 20		14	    14	     20		    12		15	 1		14	    22	     1		    0	       800000		12		483	     0	
+3	  12		471	   14	       1		14	    498	     1		    14		13	 20		14	    14	     20		    12		15	 1		14	    22	     1		    0	       900000		12		483	     0	
+4	  12		471	   15	       1		14	    498	     1		    14		13	 20		14	    14	     20		    12		15	 1		14	    22	     1		    0	       1000000		12		483	     0	
+end
+
+5
+//GuardianID	ResultSection   ResultType   MixSuccessRate
+2		12		484	     100
+end

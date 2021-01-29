@@ -1,0 +1,59 @@
+///////////////////////////////////////////////
+//GMO Official
+///////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Info
+///////////////////////////////////////////////
+14			0		0		1		0		0		0		0			//Apple
+14			1		0		1		0		0		0		0			//Small Healing Potion
+14			2		0		1		0		0		0		0			//Healing Potion
+14			3		0		1		0		0		0		0			//Large Healing Potion
+14			4		0		1		0		0		0		0			//Small Mana Potion
+14			5		0		1		0		0		0		0			//Mana Potion
+14			6		0		1		0		0		0		0			//Large Mana Potion
+14			8		0		1		0		0		0		0			//Antidote
+14			0		0		3		0		0		0		0			//Apple
+14			1		0		3		0		0		0		0			//Small Healing Potion
+14			2		0		3		0		0		0		0			//Healing Potion
+14			3		0		3		0		0		0		0			//Large Healing Potion
+14			4		0		3		0		0		0		0			//Small Mana Potion
+14			5		0		3		0		0		0		0			//Mana Potion
+14			6		0		3		0		0		0		0			//Large Mana Potion
+14			8		0		3		0		0		0		0			//Antidote
+14			0		1		1		0		0		0		0			//Apple
+14			1		1		1		0		0		0		0			//Small Healing Potion
+14			2		1		1		0		0		0		0			//Healing Potion
+14			3		1		1		0		0		0		0			//Large Healing Potion
+14			0		1		3		0		0		0		0			//Apple
+14			1		1		3		0		0		0		0			//Small Healing Potion
+14			2		1		3		0		0		0		0			//Healing Potion
+14			3		1		3		0		0		0		0			//Large Healing Potion
+7			3		3		45		0		1		1		0			//Legendary Helm
+8			3		3		45		0		1		1		0			//Legendary Armor
+9			3		3		45		0		1		1		0			//Legendary Pants
+10			3		3		45		0		1		1		0			//Legendary Gloves
+11			3		3		45		0		1		1		0			//Legendary Boots
+7			118  	3		45		0		1		1		0			//Legendary Rune Helm
+8			118  	3		45		0		1		1		0			//Legendary Rune Armor
+9			118  	3		45		0		1		1		0			//Legendary Rune Pants
+10			118  	3		45		0		1		1		0			//Legendary Rune Gloves
+11			118  	3		45		0		1		1		0			//Legendary Rune Boots
+13			29		0		0		0		0		0		0			//Armor of Guardsman
+14			10		0		0		0		0		0		0			//Town Portal Scroll
+4			7		0		255     0		0		0		0			//Bolt
+4			7		1		255     0		0		0		0			//Bolt
+4			7		2		255     0		0		0		0			//Bolt
+4			7		3		255     0		0		0		0			//Bolt
+4			15		0		255     0		0		0		0			//Arrow
+4			15		1		255     0		0		0		0			//Arrow
+4			15		2		255     0		0		0		0			//Arrow
+4			15		3		255     0		0		0		0			//Arrow
+5			4		3		68		0		1		1		0			//Gorgon Staff
+5			5		3		69		0		1		1		0			//Legendary Staff
+2			29		3		88		0		1		1		0			//Skull Staff
+6			14		3		53		0		1		1		0			//Legendary Shield
+6			42		3		68		0		1		1		0			//El Haz Shield
+13			239	    0		0		0		0		0		0			//Muun Energy Converter
+12			288	    0		0		0		0		0		0			//Elemental Rune
+12			70		0		0		0		0		0		0			//Empty Sphere lvl 1
+
+end

@@ -1,0 +1,27 @@
+//-------------------------------------------------------------------------------------------------------
+// If the item is not specified, it takes the default system (itemCount = 1 or % deffault = 50 itemcount)
+//-------------------------------------------------------------------------------------------------------
+// Selection (0) -> Probability default and Probability Special Reward (50)
+// Selection (1) -> Disassembly Item Need (Only Pentagram Jewel and Set Item Except Ring And Pendants)
+// Selection (2) -> Disassembly Item Reward
+//-------------------------------------------------------------------------------------------------------
+// SystemActive -> Enable(1) or disable(0) System
+// ProbabilityDefault -> Probability for items that do not have a custom configuration
+// Probability Special Reward -> Probability to get the special reward for items that do not have a custom configuration
+// Section -> Item Section (Item.txt)
+// Type -> Item Type (Item.txt)
+// DisassembleRate -> Probability of success when disassembling
+// RewardSection -> Item Type (Item.txt)
+// RewardCountMin -> Minimum number of possible rewards
+// RewardCountMax -> Maximum amount of possible rewards
+//-------------------------------------------------------------------------------------------------------
+
+0
+//SystemActive	ProbabilityDefault	ProbabilitySpecialReward
+1		100			5
+end
+
+1
+//Section	Type	RewardCountMin	RewardCountMax	DisassembleRate
+12		221	5		50		100
+end

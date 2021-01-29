@@ -1,0 +1,94 @@
+//Index   MaxStack   CreateIndex   MultiSplitStatus     Comment
+2055      255        *             *			//Bolt
+2063      255        *             *			//Arrow
+6159      50         *             1			//Jewel of Chaos
+6288      5          6289          *			//Mithril Fragment
+6290      5          *             *			//Elixir Fragment
+6432      30         *             *			//Elemental Rune
+6545      30         *             *			//Sphere Upgrade Rune
+6548      50         *             *			//Lower Magic Stone
+6549      50         *             *			//Medium Magic Stone
+6550      50         *             *			//Higher Magic Stone
+6590      50         *             *			//Loch Magic Bubble
+6591      50         *             *			//Condor Magic Bubble
+6688      20         *             *			//Splinter of Armor
+6689      20         *             *			//Bless of Guardian
+6690      10         *             *			//Claw of Beast
+6801      5          6802          *			//Spirit Map Fragment
+6803      10         *             *			//Trophies of Battle
+7124      50         *             *			//Golden Crest
+7166      50         *             *			//Three Vacancies
+7168      255        *             *			//Apple
+7169      255        *             *			//Small Healing Potion
+7170      255        *             *			//Healing Potion
+7171      255        *             *			//Large Healing Potion
+7172      255        *             *			//Small Mana Potion
+7173      255        *             *			//Mana Potion
+7174      255        *             *			//Large Mana Potion
+7175      255        *             *			//Siege Potion
+7176      255        *             *			//Antidote
+7181      50         *             1			//Jewel of Bless
+7182      50         *             1			//Jewel of Soul
+7184      50         *             1			//Jewel of Life
+7189      255        *             *			//Rena
+7190      50         *             1			//Jewel of Creation
+7197      5          7196          *			//Symbol of Kundun
+7199      50         *             1			//Jewel of Guardian
+7203      255        *             *			//Small SD Potion
+7204      255        *             *			//SD Potion
+7205      255        *             *			//Large SD Potion
+7206      255        *             *			//Small Complex Potion
+7207      255        *             *			//Complex Potion
+7208      255        *             *			//Large Complex Potion
+7209      50         *             1			//Gemstone
+7210      50         *             1			//Jewel of Harmony
+7211      50         *             1			//Lower refining stone
+7212      50         *             1			//Higher refining stone
+7214      3          *             *			//Jack O'Lantern Blessings
+7215      3          *             *			//Jack O'Lantern Wrath
+7216      3          *             *			//Jack O'Lantern Cry
+7217      3          *             *			//Jack O'Lantern Food
+7218      3          *             *			//Jack O'Lantern Drink
+7238      255        *             *			//Elite Healing Potion
+7239      255        *             *			//Elite Mana Potion
+7253      3          *             *			//Cherry Blossom Wine
+7254      3          *             *			//Cherry Blossom Rice Cake
+7255      3          *             *			//Cherry Blossom Flower Petal
+7256      10         *             *			//White Cherry Blossom Branch
+7257      30         *             *			//Red Cherry Blossom Branch
+7258      255        *             *			//Golden Cherry Blossom Branch
+7268      255        *             *			//Lucky Coin
+7269      5          7270          *			//Suspicious Scrap of Paper
+7278      5          7279          *			//Sign of Dimensions
+7301      255        *             *			//Elite SD Potion
+7383      24         7384          *			//Card Piece
+7392      10         *             *			//Bless of Light (Greater)
+7431      10         *             *			//Bless of Light (Low)
+7432      10         *             *			//Bless of Light (Middle)
+7445      100        *             *			//Special Card
+7446      25         7412          *			//Piece of Summoning Scroll
+7458      50         7461          *			//Elemental Powder
+7510      10         *             *			//Steel of Heaven
+7514      30         *             *			//Fire Symbol
+7515      30         *             *			//Water Symbol
+7516      30         *             *			//Earth Symbol
+7517      30         *             *			//Wind Symbol
+7518      30         *             *			//Darkness Symbol
+7539      10         *             *			//[Bound] Bless of Light (Greater)
+7540      10         *             *			//[Bound] Bless of Light (Middle)
+7541      10         *             *			//[Bound] Bless of Light (Low)
+7558      5          *             *			//Spirit Nixie's Shard
+7581	  255	     *		   *			//Coin of Miracle
+7634      10         *             *			//Fragment of Resurrection
+7166      50         *             *			//Lapidary Stone
+7328      10         *             *			//Jewel of Extension
+7635      50         *             *            	//Upgrade Stone
+7636      50         *             *           	 	//Elite Upgrade Stone
+10283     5          10290         *			//Blood Angel Chaos Combination Amulet Fragment (Bound)
+10284     5          10291         *			//Dark Angel Chaos Guild Charm Fragment (Bound)
+10285     5          10292         *			//Holy Angel Chaos Combination Charm Fragment (Bound)
+10286     5          10293         *			//Soul Chaos Guild Charm Fragment (Bound)
+10287     5          10294         *			//Blue Eye Chaos Combination Amulet Fragment (Bound)
+10288     5          10295         *			//Silver Heart Chaos Combination Charm Fragment (Bound)
+10289     5          10296         *			//Manticore Chaos Combination Charm Fragment (Bound)
+end

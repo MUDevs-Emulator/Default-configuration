@@ -1,0 +1,544 @@
+0
+//Index   Group   Value   Comment
+42        0       0       //Bloodangel Sword
+44        0       0       //Bloodangel Magic Sword
+46        0       0       //Bloodangel Claws
+54        0       1       //Darkangel Sword
+55        0       1       //Darkangel Magic Sword
+56        0       1       //Darkangel Claws
+57        0       2       //Holyangel Sword
+58        0       2       //Holyangel Magic Sword
+59        0       2       //Holyangel Claws
+62        0       3       //Soul Sword
+63        0       3       //Soul Magic Sword
+64        0       3       //Soul Claws
+71        0       0       //Bloodangel Short Sword
+72        0       1       //Darkangel Short Sword
+73        0       2       //Holyangel Short Sword
+78        0       4       //Blue Eye Sword
+79        0       4       //Blue Eye Magic Sword
+80        0       4       //Blue Eye Claw
+81        0       5       //Silver Heart Sword
+82        0       5       //Silver Heart Magic Sword
+83        0       5       //Silver Heart Claw
+84        0       5       //Silver Heart Short Sword
+1046      0       0       //Bloodangel Scepter
+1050      0       1       //Darkangel Scepter
+1051      0       2       //Holyangel Scepter
+1056      0       0       //Bloodangel Runic Mace
+1057      0       1       //Darkangel Runic Mace
+1060      0       3       //Soul Scepter
+1062      0       2       //Holyangel Rune Mace
+1064      0       4       //Blue Eye Scepter
+1065      0       4       //Blue Eye Mace
+1066      0       5       //Silver Heart Scepter
+1067      0       5       //Silver Heart Rune Mace
+1555      0       0       //Bloodangel Lance
+1560      0       1       //Darkangel Lance
+1561      0       2       //Holyangel Lance
+1564      0       3       //Soul Lance
+1565	  0	  4	  //Blue Eye Lance
+1566	  0	  5	  //Silver Heart Lance
+2076      0       0       //Bloodangel Bow
+2079      0       1       //Darkangel Bow
+2082      0       0       //Bloodangel Quiver
+2083      0       1       //Darkangel Quiver
+2084      0       2       //Holyangel Bow
+2085      0       2       //Holyangel Quiver
+2086      0       3       //Soul Bow
+2087      0       3       //Soul Quiver
+2088      0       4       //Blue Eye Bow
+2089      0       4       //Blue Eye Quiver
+2096      0       0       //Blood Angel Magic Gun
+2096      0       1       //Dark Angel Magic Gun
+2096      0       2       //Holy Angel Magic Gun
+2096      0       3       //Soul Magic Gun
+2096      0       5       //Silver Heart Bow
+2096      0       5       //Silver Heart Quiver
+2601      0       0       //Bloodangel Staff
+2603      0       0       //Bloodangel Stick
+2611      0       1       //Darkangel Staff
+2612      0       1       //Darkangel Stick
+2613      0       2       //Holyangel Staff
+2614      0       2       //Holyangel Stick
+2615      0       3       //Soul Staff
+2616      0       3       //Soul Stick
+2617      0       0       //Book of Bloodangel
+2618      0       1       //Book of Darkangel
+2619      0       2       //Book of Holyangel
+2620      0       3       //Book of Soul
+2621      0       4       //Blue Eye Staff
+2622      0       4       //Blue Eye Stick
+2623      0       4       //Blue Eye Book
+2624      0       5       //Silver Heart Staff
+2625      0       5       //Silver Heart Stick
+2626      0       5       //Silver Heart Book
+3116	  1	  0	  //Blood Angel Shield
+3117	  1	  1	  //Dark Angel Shield
+3118	  1	  2	  //Holy Angel Shield
+3119	  1	  3	  //Soul Shield
+3120	  1	  4	  //Blue Eye Shield
+3121	  1	  5	  //Silver Heart Shield
+3682      1       0       //Bloodangel Knight Helm
+3683      1       0       //Bloodangel Wizard Helm
+3684      1       0       //Bloodangel Elf Helm (A)
+3685      1       0       //Bloodangel Summoner Helm
+3687      1       0       //Bloodangel Lord Helm
+3688      1       0       //Bloodangel Fighter Helm
+3689      1       0       //Bloodangel Lancer Helm
+3690      1       3       //Awakening Soul Knight Helm
+3691      1       3       //Awakening Soul Wizard Helm
+3692      1       3       //Awakening Soul Elf Helm (A)
+3693      1       3       //Awakening Soul Summoner Helm
+3695      1       3       //Awakening Soul Lord Helm
+3696      1       3       //Awakening Soul Fighter Helm
+3697      1       3       //Awakening Soul Lancer Helm
+3698      1       3       //Awakening Soul Elf Helm (B)
+3706      1       0       //Bloodangel Runist Helm
+3707      1       1       //Darkangel Runist Helm
+3711      1       2       //Holyangel Runist Helm
+3712      1       3       //Awakening Soul Runist Helm
+3713      1       4       //Blue Eye Runist Helm
+3722      1       1       //Darkangel Knight Helm
+3723      1       1       //Darkangel Wizard Helm
+3724      1       1       //Darkangel Elf Helm (A)
+3725      1       1       //Darkangel Summoner Helm
+3727      1       1       //Darkangel Lord Helm
+3728      1       1       //Darkangel Fighter Helm
+3729      1       1       //Darkangel Lancer Helm
+3734      1       2       //Holyangel Knight Helm
+3735      1       2       //Holyangel Wizard Helm
+3736      1       2       //Holyangel Elf Helm (A)
+3737      1       2       //Holyangel Summoner Helm
+3739      1       2       //Holyangel Lord Helm
+3740      1       2       //Holyangel Fighter Helm
+3741      1       2       //Holyangel Lancer Helm
+3742      1       0       //Bloodangel Elf Helm (B)
+3743      1       1       //Darkangel Elf Helm (B)
+3744      1       2       //Holyangel Elf Helm (B)
+3748      1       4       //Blue Eye Knight Helm
+3749      1       4       //Blue Eye Wizard Helm
+3750      1       4       //Blue Eye Elf Helm (A)
+3751      1       4       //Blue Eye Summoner Helm
+3753      1       4       //Blue Eye Lord Helm
+3754      1       4       //Blue Eye Fighter Helm
+3755      1       4       //Blue Eye Lancer Helmet
+3756      1       4       //Blue Eye Elf Helm (B)
+3764      1       0       //Bloodangel Slayer Helm
+3765      1       1       //Darkangel Slayer Helm
+3766      1       2       //Holyangel Slayer Helm
+3767      1       3       //Soul Slayer Helm
+3768	  1	  4	  //Blue Eye Slayer Helm	
+3769	  1	  5	  //Silverheart Slayer Helm	
+3773      1       5       //Silverheart Knight Helm
+3774      1       5       //Silver Heart Wizard Helm
+3775      1       5       //Silverheart Elf Helm (A)
+3776      1       5       //Silverheart Summoner Helm
+3778      1       5       //Silverheart Lord Helm
+3779      1       5       //Silverheart Fighter Helm
+3780      1       5       //Silverheart Lancer Helm
+3781      1       5       //Silverheart Elf Helm (B)
+3783      1       5       //Silverheart Runist Helm
+3784	  1	  0	  //Blood Angel Knight Helm (C)	
+3784	  1	  1	  //Dark Angel Knight Helm (C)	
+3784	  1	  2	  //Holy Angel Knight Helm (C)	
+3784	  1	  3	  //Soul Knight Helm (C)	
+3784	  1	  4	  //Blue Eye Knight Helm (C)	
+3784	  1	  5	  //Silverheart Knight Helm (C)	
+3796	  1	  0	  //Blood Angel Gun Crusher Helm
+3797	  1	  1	  //Dark Angel Gun Crusher Helm
+3798	  1	  2	  //Holy Angel Gun Crusher Helm
+3799	  1	  3	  //Soul Gun Crusher Helm
+3805	  1	  6	  //Manticore Knight Helm
+3806	  1	  6	  //Manticore Wizard Helmet
+3807	  1	  6	  //Manticore Elf Helmet
+3808	  1	  6	  //Manticore Summoner Helmet
+3810	  1	  6	  //Manticore Lord Helmet
+3811	  1	  6	  //Manticore Fighter Helmet
+3812	  1	  6	  //Manticore Lancer Helmet
+3813	  1	  6	  //Manticore Elf Helmet
+3815	  1	  6	  //Manticore Rune Wizard Helm
+3816	  1	  6	  //Manticore Slayer Helmet
+3817	  1	  6	  //Manticore Knight Helm (Conviction)
+4194      1       0       //Bloodangel Knight Armor
+4195      1       0       //Bloodangel Wizard Armor
+4196      1       0       //Bloodangel Elf Armor (A)
+4197      1       0       //Bloodangel Summoner Armor
+4198      1       0       //Bloodangel Magic Armor (A)
+4199      1       0       //Bloodangel Lord Armor
+4200      1       0       //Bloodangel Fighter Armor
+4201      1       0       //Bloodangel Lancer Armor
+4202      1       3       //Awakening Soul Knight Armor
+4203      1       3       //Awakening Soul Wizard Armor
+4204      1       3       //Awakening Soul Elf Armor (A)
+4205      1       3       //Awakening Soul Summoner Armor
+4206      1       3       //Awakening Soul Magic Armor (A)
+4207      1       3       //Awakening Soul Lord Armor
+4208      1       3       //Awakening Soul Fighter Armor
+4209      1       3       //Awakening Soul Lancer Armor
+4210      1       3       //Awakening Soul Elf Armor (B)
+4211      1       3       //Awakening Soul Magic Armor (B)
+4218      1       0       //Bloodangel Runist Armor
+4219      1       1       //Darkangel Runist Armor
+4223      1       2       //Holyangel Runist Armor
+4224      1       3       //Awakening Soul Runist Armor
+4225      1       4       //Blue Eye Runist Armor
+4234      1       1       //Darkangel Knight Armor
+4235      1       1       //Darkangel Wizard Armor
+4236      1       1       //Darkangel Elf Armor (A)
+4237      1       1       //Darkangel Summoner Armor
+4238      1       1       //Darkangel Magic Armor (A)
+4239      1       1       //Darkangel Lord Armor
+4240      1       1       //Darkangel Fighter Armor
+4241      1       1       //Darkangel Lancer Armor
+4246      1       2       //Holyangel Knight Armor
+4247      1       2       //Holyangel Wizard Armor
+4248      1       2       //Holyangel Elf Armor (A)
+4249      1       2       //Holyangel Summoner Armor
+4250      1       2       //Holyangel Magic Armor (A)
+4251      1       2       //Holyangel Lord Armor
+4252      1       2       //Holyangel Fighter Armor
+4253      1       2       //Holyangel Lancer Armor
+4254      1       0       //Bloodangel Elf Armor (B)
+4255      1       1       //Darkangel Elf Armor (B)
+4256      1       2       //Holyangel Elf Armor (B)
+4257      1       0       //Bloodangel Magic Armor (B)
+4258      1       1       //Darkangel Magic Armor (B)
+4259      1       2       //Holyangel Magic Armor (B)
+4260      1       4       //Blue Eye Knight Armor
+4261      1       4       //Blue Eye Wizard Armor
+4262      1       4       //Blue Eye Elf Armor (A)
+4263      1       4       //Blue Eye Summoner Armor
+4264      1       4       //Blue Eye Magic Armor (A)
+4265      1       4       //Blue Eye Lord Armor
+4266      1       4       //Blue Eye Fighter Armor
+4267      1       4       //Blue Eye Lancer Armor
+4268      1       4       //Blue Eye Elf Armor  (B)
+4269      1       4       //Blue Eye Magic Armor (B)
+4276      1       0       //Bloodangel Slayer Armor
+4277      1       1       //Darkangel Slayer Armor
+4278      1       2       //Holyangel Slayer Armor
+4279      1       3       //Soul Slayer Armor
+4280	  1	  4	  //Blue Eye Slayer Armor	
+4281	  1	  5	  //Silverheart Slayer Amor
+4285      1       5       //Silverheart Knight Armor
+4286      1       5       //Silverheart Wizard Armor
+4287      1       5       //Silverheart Elf Armor (A)
+4288      1       5       //Silverheart Summoner Armor
+4289      1       5       //Silverheart Magic Armor (A)
+4290      1       5       //Silverheart Lord Armor
+4291      1       5       //Silverheart Fighter Armor
+4292      1       5       //Silverheart Lancer Armor
+4293      1       5       //Silverheart Elf Armor (B)
+4294      1       5       //Silverheart Magic Armor (B)
+4295      1       5       //Silverheart Runist Armor
+4296	  1	  0	  //Blood Angel Knight Amor (C)	
+4297	  1	  1	  //Dark Angel Knight Amor (C)	
+4298	  1	  2	  //Holy Angel Knight Amor (C)	
+4299	  1	  3	  //Soul Knight Amor (C)	
+4300	  1	  4	  //Blue Eye Knight Amor (C)	
+4301	  1	  5	  //Silverheart Knight Amor (C)	
+4308	  1	  0	  //Blood Angel Gun Crusher Amor
+4309	  1	  1	  //Dark Angel Gun Crusher Amor
+4310	  1	  2	  //Holy Angel Gun Crusher Amor
+4311	  1	  3	  //Soul Gun Crusher Amor
+4317	  1	  6	  //Manticore Wizard Amor
+4318	  1	  6	  //Manticore Elf Amor
+4319	  1	  6	  //Manticore Summoner Amor
+4320	  1	  6	  //Manticore Magic Amor
+4321	  1	  6	  //Manticore Lord Amor
+4322	  1	  6	  //Manticore Fighter Amor
+4323	  1	  6	  //Manticore Lancer Amor
+4324	  1	  6	  //Manticore Elf Amor
+4325	  1	  6	  //Manticore Magic Amor
+4326	  1	  6	  //Manticore Rune Wizard Amor
+4327	  1	  6	  //Manticore Slayer Amor
+4328	  1	  6	  //Manticore Knight Amor (Conviction)
+4706      1       0       //Bloodangel Knight Pants
+4707      1       0       //Bloodangel Wizard Pants
+4708      1       0       //Bloodangel Elf Pants (A)
+4709      1       0       //Bloodangel Summoner Pants
+4710      1       0       //Bloodangel Magic Pants (A)
+4711      1       0       //Bloodangel Lord Pants
+4712      1       0       //Bloodangel Fighter Pants
+4713      1       0       //Bloodangel Lancer Pants
+4714      1       3       //Awakening Soul Knight Pants
+4715      1       3       //Awakening Soul Wizard Pants
+4716      1       3       //Awakening Soul Elf Pants (A)
+4717      1       3       //Awakening Soul Summoner Pants
+4718      1       3       //Awakening Soul Magic Pants (A)
+4719      1       3       //Awakening Soul Lord Pants
+4720      1       3       //Awakening Soul Fighter Pants
+4721      1       3       //Awakening Soul Lancer Pants
+4722      1       3       //Awakening Soul Elf Pants (B)
+4723      1       3       //Awakening Soul Magic Pants (B)
+4730      1       0       //Bloodangel Runist Pants
+4731      1       1       //Darkangel Runist Pants
+4735      1       2       //Holyangel Runist Pants
+4736      1       3       //Awakening Soul Runist Pants
+4737      1       4       //Blue Eye Runist Pants
+4746      1       1       //Darkangel Knight Pants
+4747      1       1       //Darkangel Wizard Pants
+4748      1       1       //Darkangel Elf Pants (A)
+4749      1       1       //Darkangel Summoner Pants
+4750      1       1       //Darkangel Magic Pants (A)
+4751      1       1       //Darkangel Lord Pants
+4752      1       1       //Darkangel Fighter Pants
+4753      1       1       //Darkangel Lancer Pants
+4758      1       2       //Holyangel Knight Pants
+4759      1       2       //Holyangel Wizard Pants
+4760      1       2       //Holyangel Elf Pants (A)
+4761      1       2       //Holyangel Summoner Pants
+4762      1       2       //Holyangel Magic Pants (A)
+4763      1       2       //Holyangel Lord Pants
+4764      1       2       //Holyangel Fighter Pants
+4765      1       2       //Holyangel Lancer Pants
+4766      1       0       //Bloodangel Elf Pants (B)
+4767      1       1       //Darkangel Elf Pants (B)
+4768      1       2       //Holyangel Elf Pants (B)
+4769      1       0       //Bloodangel Magic Pants (B)
+4770      1       1       //Darkangel Magic Pants (B)
+4771      1       2       //Holyangel Magic Pants (B)
+4772      1       4       //Blue Eye Knight Pants
+4773      1       4       //Blue Eye Wizard Pants
+4774      1       4       //Blue Eye Elf Pants (A)
+4775      1       4       //Blue Eye Summoner Pants
+4776      1       4       //Blue Eye Magic Pants (A)
+4777      1       4       //Blue Eye Lord Pants
+4778      1       4       //Blue Eye Fighter Pants
+4779      1       4       //Blue Eye Lancer Pants
+4780      1       4       //Blue Eye Elf Pants (B)
+4781      1       4       //Blue Eye Magic Pants (B)
+4788      1       0       //Bloodangel Slayer Pants
+4789      1       1       //Darkangel Slayer Pants
+4790      1       2       //Holyangel Slayer Pants
+4791      1       3       //Soul Slayer Pants
+4792	  1	  4	  //Blue Eye Slayer Pants
+4793	  1	  5	  //Silverheart Slayer Pants
+4797      1       5       //Silverheart Knight Pants
+4798      1       5       //Silverheart Wizard Pants
+4799      1       5       //Silverheart Elf Pants (A)
+4800      1       5       //Silverheart Summoner Pants
+4801      1       5       //Silverheart Magic Pants (A)
+4802      1       5       //Silverheart Lord Pants
+4803      1       5       //Silverheart Fighter Pants
+4804      1       5       //Silverheart LancerPants
+4805      1       5       //Silverheart Elf Pants (B)
+4806      1       5       //Silverheart Magic Pants (B)
+4807      1       5       //Silverheart Runist Pants
+4808	  1	  0	  //Blood Angel Knight Pants (C)	
+4809	  1	  1	  //Dark Angel Knight Pants (C)	
+4810	  1	  2	  //Holy Angel Knight Pants (C)	
+4811	  1	  3	  //Soul Knight Pants (C)	
+4812	  1	  4	  //Blue Eye Knight Pants (C)	
+4813	  1	  5	  //Silverheart Knight Pants (C)	
+4820	  1	  0	  //Blood Angel Gun Crusher Pants 
+4821	  1	  1	  //Dark Angel Gun Crusher Pants 
+4822	  1	  2	  //Holy Angel Gun Crusher Pants 
+4823	  1	  3	  //Soul Gun Crusher Pants 
+4829	  1	  6	  //Manticore Knight Pants 
+4830	  1	  6	  //Manticore Wizard Pants 
+4831	  1	  6	  //Manticore Elf Pants 
+4832	  1	  6	  //Manticore Summoner Pants 
+4833	  1	  6	  //Manticore Lord Pants 
+4834	  1	  6	  //Manticore Fighter Pants 
+4835	  1	  6	  //Manticore Lancer Pants 
+4836	  1	  6	  //Manticore Elf Pants 
+4837	  1	  6	  //Manticore Rune Wizard Pants 
+4838	  1	  6	  //Manticore Slayer Pants 
+4839	  1	  6	  //Manticore Knight Pants (Conviction)
+4829	  1	  6	  //Manticore Wizard Amor
+4830	  1	  6	  //Manticore Elf Amor
+4831	  1	  6	  //Manticore Summoner Amor
+4832	  1	  6	  //Manticore Magic Amor
+4833	  1	  6	  //Manticore Lord Amor
+4834	  1	  6	  //Manticore Fighter Amor
+4835	  1	  6	  //Manticore Lancer Amor
+4836	  1	  6	  //Manticore Elf Amor
+4837	  1	  6	  //Manticore Magic Amor
+4838	  1	  6	  //Manticore Rune Wizard Amor
+4839	  1	  6	  //Manticore Slayer Amor
+4840	  1	  6	  //Manticore Knight Amor (Conviction)
+5218      1       0       //Bloodangel Knight Gloves
+5219      1       0       //Bloodangel Wizard Gloves
+5220      1       0       //Bloodangel Elf Gloves (A)
+5221      1       0       //Bloodangel Summoner Gloves
+5222      1       0       //Bloodangel Magic Gloves (A)
+5223      1       0       //Bloodangel Lord Gloves
+5225      1       0       //Bloodangel Lancer Gloves
+5226      1       3       //Awakening Soul Knight Gloves
+5227      1       3       //Awakening Soul Wizard Gloves
+5228      1       3       //Awakening Soul Elf Gloves (A)
+5229      1       3       //Awakening Soul Summoner Gloves
+5230      1       3       //Awakening Soul Magic Gloves (A)
+5231      1       3       //Awakening Soul Lord Gloves
+5233      1       3       //Awakening Soul Lancer Gloves
+5234      1       3       //Awakening Soul Elf Gloves (B)
+5235      1       3       //Awakening Soul Magic Gloves (B)
+5242      1       0       //Bloodangel Runist Glove
+5243      1       1       //Darkangel Runist Gloves
+5247      1       2       //Holyangel Runist Gloves
+5248      1       3       //Awakening Soul Runist Gloves
+5249      1       4       //Blue Eye Runist Gloves
+5258      1       1       //Darkangel Knight Gloves
+5259      1       1       //Darkangel Wizard Gloves
+5260      1       1       //Darkangel Elf Gloves (A)
+5261      1       1       //Darkangel Summoner Gloves
+5262      1       1       //Darkangel Magic Gloves (A)
+5263      1       1       //Darkangel Lord Gloves
+5265      1       1       //Darkangel Lancer Gloves
+5270      1       2       //Holyangel Knight Gloves
+5271      1       2       //Holyangel Wizard Gloves
+5272      1       2       //Holyangel Elf Gloves (A)
+5273      1       2       //Holyangel Summoner Gloves
+5274      1       2       //Holyangel Magic Gloves (A)
+5275      1       2       //Holyangel Lord Gloves
+5277      1       2       //Holyangel Lancer Gloves
+5278      1       0       //Bloodangel Elf Gloves (B)
+5279      1       1       //Darkangel Elf Gloves (B)
+5280      1       2       //Holyangel Elf Gloves (B)
+5281      1       0       //Bloodangel Magic Gloves (B)
+5282      1       1       //Darkangel Magic Gloves (B)
+5283      1       2       //Holyangel Magic Gloves (B)
+5284      1       4       //Blue Eye Knight Gloves
+5285      1       4       //Blue Eye Wizard Gloves
+5286      1       4       //Blue Eye Elf Gloves (A)
+5287      1       4       //Blue Eye Summoner Gloves
+5288      1       4       //Blue Eye Magic Gloves (A)
+5289      1       4       //Blue Eye Lord Gloves
+5291      1       4       //Blue Eye Lancer Gloves
+5292      1       4       //Blue Eye Elf Gloves (B)
+5293      1       4       //Blue Eye Magic Gloves (B)
+5300      1       0       //Bloodangel Slayer Gloves
+5301      1       1       //Darkangel Slayer Gloves
+5302      1       2       //Holyangel Slayer Gloves
+5303      1       3       //Soul Slayer Gloves
+5304	  1	  4	  //Blue Eye Slayer Gloves
+5305	  1	  5	  //Silverheart Slayer Gloves
+5309      1       5       //Silverheart Knight Gloves
+5310      1       5       //Silverheart Wizard Gloves
+5311      1       5       //Silverheart Elf Gloves (A)
+5312      1       5       //Silverheart Summoner Gloves
+5313      1       5       //Silverheart Magic Gloves (A)
+5314      1       5       //Silverheart Lord Gloves
+5316      1       5       //Silverheart Lancer Gloves
+5317      1       5       //Silverheart Elf Gloves (B)
+5318      1       5       //Silverheart Magic Gloves (B)
+5319      1       5       //Silverheart Runist Gloves
+5320	  1	  0	  //Blood Angel Knight Gloves (C)	
+5321	  1	  1	  //Dark Angel Knight Gloves (C)	
+5322	  1	  2	  //Holy Angel Knight Gloves (C)	
+5323	  1	  3	  //Soul Knight Gloves (C)	
+5324	  1	  4	  //Blue Eye Knight Gloves (C)	
+5325	  1	  5	  //Silverheart Knight Gloves (C)	
+5332	  1	  0	  //Blood Angel Gun Crusher Gloves
+5333	  1	  1	  //Dark Angel Gun Crusher Gloves
+5334	  1	  2	  //Holy Angel Gun Crusher Gloves
+5335	  1	  3	  //Soul Gun Crusher Gloves
+5341	  1	  6	  //Manticore Wizard Gloves
+5342	  1	  6	  //Manticore Elf Gloves
+5343	  1	  6	  //Manticore Summoner Gloves
+5344	  1	  6	  //Manticore Magic Gloves
+5345	  1	  6	  //Manticore Lord Gloves
+5346	  1	  6	  //Manticore Fighter Gloves
+5347	  1	  6	  //Manticore Lancer Gloves
+5348	  1	  6	  //Manticore Elf Gloves
+5349	  1	  6	  //Manticore Magic Gloves
+5350	  1	  6	  //Manticore Rune Wizard Gloves
+5351	  1	  6	  //Manticore Slayer Gloves
+4852	  1	  6	  //Manticore Knight Gloves(Conviction)
+5730      1       0       //Bloodangel Knight Boots
+5731      1       0       //Bloodangel Wizard Boots
+5732      1       0       //Bloodangel Elf Boots (A)
+5733      1       0       //Bloodangel Summoner Boots
+5734      1       0       //Bloodangel Magic Boots (A)
+5735      1       0       //Bloodangel Lord Boots
+5736      1       0       //Bloodangel Fighter Boots
+5737      1       0       //Bloodangel Lancer Boots
+5738      1       3       //Awakening Soul Knight Boots
+5739      1       3       //Awakening Soul Wizard Boots
+5740      1       3       //Awakening Soul Elf Boots (A)
+5741      1       3       //Awakening Soul Summoner Boots
+5742      1       3       //Awakening Soul Magic Boots (A)
+5743      1       3       //Awakening Soul Lord Boots
+5744      1       3       //Awakening Soul Fighter Boots
+5745      1       3       //Awakening Soul Lancer Boots
+5746      1       3       //Awakening Soul Elf Boots (B)
+5747      1       3       //Awakening Soul Magic Boots (B)
+5754      1       0       //Bloodangel Runist Boots
+5755      1       1       //Darkangel Runist Boots
+5759      1       2       //Holyangel Runist Boots
+5760      1       3       //Awakening Soul Runist Boots
+5761      1       4       //Blue Eye Runist Boots
+5770      1       1       //Darkangel Knight Boots
+5771      1       1       //Darkangel Wizard Boots
+5772      1       1       //Darkangel Elf Boots (A)
+5773      1       1       //Darkangel Summoner Boots
+5774      1       1       //Darkangel Magic Boots (A)
+5775      1       1       //Darkangel Lord Boots
+5776      1       1       //Darkangel Fighter Boots
+5777      1       1       //Darkangel Lancer Boots
+5782      1       2       //Holyangel Knight Boots
+5783      1       2       //Holyangel Wizard Boots
+5784      1       2       //Holyangel Elf Boots (A)
+5785      1       2       //Holyangel Summoner Boots
+5786      1       2       //Holyangel Magic Boots (A)
+5787      1       2       //Holyangel Lord Boots
+5788      1       2       //Holyangel Fighter Boots
+5789      1       2       //Holyangel Lancer Boots
+5790      1       0       //Bloodangel Elf Boots (B)
+5791      1       1       //Darkangel Elf Boots (B)
+5792      1       2       //Holyangel Elf Boots (B)
+5793      1       0       //Bloodangel Magic Boots (B)
+5794      1       1       //Darkangel Magic Boots (B)
+5795      1       2       //Holyangel Magic Boots (B)
+5796      1       4       //Blue Eye Knight Boots
+5797      1       4       //Blue Eye Wizard Boots
+5798      1       4       //Blue Eye Elf Boots (A)
+5799      1       4       //Blue Eye Summoner Boots
+5800      1       4       //Blue Eye Magic Boots (A)
+5801      1       4       //Blue Eye Lord Boots
+5802      1       4       //Blue Eye Fighter Boots
+5803      1       4       //Blue Eye Lancer Boots
+5804      1       4       //Blue Eye Elf Boots (B)
+5805      1       4       //Blue Eye Magic Boots (B)
+5812      1       0       //Bloodangel Slayer Boots
+5813      1       1       //Darkangel Slayer Boots
+5814      1       2       //Holyangel Slayer Boots
+5815      1       3       //Soul Slayer Boots
+5816	  1	  4	  //Blue Eye Slayer Boots
+5816	  1	  5	  //Silverheart Slayer Boots
+5821      1       5       //Silverheart Knight Boots
+5822      1       5       //Silverheart Wizard Boots
+5823      1       5       //Silverheart Elf Boots (A)
+5824      1       5       //Silverheart Summoner Boots
+5825      1       5       //Silverheart Magic Boots (A)
+5826      1       5       //Silverheart Lord Boots
+5827      1       5       //Silverheart Fighter Boots
+5828      1       5       //Silverheart Lancer Boots
+5829      1       5       //Silverheart Elf Boots (B)
+5830      1       5       //Silverheart Magic Boots (B)
+5831      1       5       //Silverheart Runist Boots
+5832	  1	  0	  //Blood Angel Knight Boots (C)	
+5833	  1	  1	  //Dark Angel Knight Boots (C)	
+5834	  1	  2	  //Holy Angel Knight Boots (C)	
+5835	  1	  3	  //Soul Knight Boots (C)	
+5836	  1	  4	  //Blue Eye Knight Boots (C)	
+5837	  1	  5	  //Silverheart Knight Boots (C)	
+5844	  1	  0	  //Blood Angel Gun Crusher Boots
+5845	  1	  1	  //Dark Angel Gun Crusher Boots
+5846	  1	  2	  //Holy Angel Gun Crusher Boots
+5847	  1	  3	  //Soul Gun Crusher Boots
+5853	  1	  6	  //Manticore Wizard Boots
+5854	  1	  6	  //Manticore Elf Boots
+5855	  1	  6	  //Manticore Summoner Boots
+5856	  1	  6	  //Manticore Magic Boots
+5857	  1	  6	  //Manticore Lord Boots
+5858	  1	  6	  //Manticore Fighter Boots
+5859	  1	  6	  //Manticore Lancer Boots
+5860	  1	  6	  //Manticore Elf Boots
+5861	  1	  6	  //Manticore Magic Boots
+5862	  1	  6	  //Manticore Rune Wizard Boots
+5863	  1	  6	  //Manticore Slayer Boots
+5864	  1	  6	  //Manticore Knight Boots (Conviction)
+end

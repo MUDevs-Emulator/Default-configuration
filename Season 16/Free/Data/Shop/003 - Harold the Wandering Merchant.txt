@@ -1,0 +1,31 @@
+///////////////////////////////////////////////
+//GMO Official by OMEGA
+///////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Info
+///////////////////////////////////////////////
+7			5		0		30		0		1		1		0			//Leather Helm
+8			5		0		30		0		1		1		0			//Leather Armor
+9			5		0		30		0		1		1		0			//Leather Pants
+10			5		0		30		0		1		1		0			//Leather Gloves
+11			5		0		30		0		1		1		0			//Leather Boots
+7			0		2		36		0		1		1		0			//Bronze Helm
+8			0		2		36		0		1		1		0			//Bronze Armor
+9			0		2		36		0		1		1		0			//Bronze Pants
+10			0		2		36		0		1		1		0			//Bronze Gloves
+11			0		2		36		0		1		1		0			//Bronze Boots
+7			6		3		43		0		1		1		0			//Scale Helm
+8			6		3		43		0		1		1		0			//Scale Armor
+9			6		3		43		0		1		1		0			//Scale Pants
+10			6		3		43		0		1		1		0			//Scale Gloves
+11			6		3		43		0		1		1		0			//Scale Boots
+7			8		3		47		0		1		1		0			//Brass Helm
+8			8		3		47		0		1		1		0			//Brass Armor
+9			8		3		47		0		1		1		0			//Brass Pants
+10			8		3		47		0		1		1		0			//Brass Gloves
+11			8		3		47		0		1		1		0			//Brass Boots
+7			9		3		53		0		1		1		0			//Plate Helm
+8			9		3		53		0		1		1		0			//Plate Armor
+9			9		3		53		0		1		1		0			//Plate Pants
+10			9		3		53		0		1		1		0			//Plate Gloves
+11			9		3		53		0		1		1		0			//Plate Boots
+end

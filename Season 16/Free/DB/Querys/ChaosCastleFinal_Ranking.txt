@@ -1,0 +1,28 @@
+/****** Object:  Table [dbo].[ChaosCastleFinal_Ranking]    Script Date: 12/09/2020 05:35:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[ChaosCastleFinal_Ranking](
+	[mRank] [int] NOT NULL,
+	[mName] [varchar](10) NOT NULL,
+	[mCCFType] [tinyint] NOT NULL,
+	[mClass] [int] NOT NULL,
+	[mPoint] [int] NOT NULL,
+	[mDate] [smalldatetime] NOT NULL,
+ CONSTRAINT [NC_PK_ChaosCastleFinal_Ranking] PRIMARY KEY NONCLUSTERED 
+(
+	[mName] ASC,
+	[mCCFType] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO

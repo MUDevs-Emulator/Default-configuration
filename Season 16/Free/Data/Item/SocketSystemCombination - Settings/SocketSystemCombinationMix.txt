@@ -1,0 +1,65 @@
+//-------------------------------------------------------------------------------------------------------
+// Selection (0) -> configuration for the Socket System Item Upgrade
+// Selection (1) -> configuration for the Socket System UnSocket Seed
+// Selection (2) -> configuration for the Socket System Combine Seed Sphere
+// Selection (3) -> configuration for the Socket System Seed Sphere Application
+// Selection (4) -> configuration for the Socket System Unsocket Seed Sphere
+// Selection (6) -> configuration for the Socket System Seed Sphere Enhance
+// Selection (7) -> configuration for the Socket System Socket Decrease
+//-------------------------------------------------------------------------------------------------------
+
+0
+// AccountLevel		MixMoney	MixRate		CreateType	SkillRate	LuckRate
+0			10000000	80		0		0		0
+1			10000000	80		0		0		0
+2			10000000	80		0		0		0
+3			10000000	80		0		0		0
+end
+
+1
+// AccountLevel		MixMoney	MixRate
+0			10000000	100
+1			10000000	100
+2			10000000	100
+3			10000000	100
+end
+
+2
+// AccountLevel		MixMoney	MixRate
+0			10000000	100
+1			10000000	100
+2			10000000	100
+3			10000000	100
+end
+
+3
+// AccountLevel		MixMoney	MixRate
+0			10000000	100
+1			10000000	100
+2			10000000	100
+3			10000000	100
+end
+
+4
+// AccountLevel		MixMoney	MixRate
+0			10000000	90
+1			10000000	90
+2			10000000	90
+3			10000000	90
+end
+
+5
+// AccountLevel		MixMoney1    Rune1   MixRate1  MixMoney2    Rune2   MixRate2  MixMoney3    Rune3   MixRate3  MixMoney4    Rune4   MixRate4  MixMoney5    Rune5   MixRate5   MixMoney6    Rune6   MixRate6   MixMoney7    Rune7   MixRate7  MixMoney8    Rune8   MixRate8   MixMoney9    Rune9   MixRate9
+0			10000000     4       100       13000000     5       100       16000000     5       100       19000000     5       100       22000000     6       100        25000000     7       100        28000000     8       100       31000000     9       100        34000000     10      100
+1			13000000     4       100       13000000     5       100       16000000     5       100       19000000     5       100       22000000     6       100        25000000     7       100        28000000     8       100       31000000     9       100        34000000     10      100
+2			13000000     4       100       13000000     5       100       16000000     5       100       19000000     5       100       22000000     6       100        25000000     7       100        28000000     8       100       31000000     9       100        34000000     10      100
+3			13000000     4       100       13000000     5       100       16000000     5       100       19000000     5       100       22000000     6       100        25000000     7       100        28000000     8       100       31000000     9       100        34000000     10      100
+end
+
+6
+// AccountLevel		MixMoney	MixRate
+0			10000000	100
+1			10000000	100
+2			10000000	100
+3			10000000	100
+end

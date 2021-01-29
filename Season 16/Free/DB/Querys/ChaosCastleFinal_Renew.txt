@@ -1,0 +1,43 @@
+
+/****** Object:  StoredProcedure [dbo].[ChaosCastleFinal_Renew]    Script Date: 12/09/2020 05:36:56 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+
+CREATE PROC [dbo].[ChaosCastleFinal_Renew]
+	@mCCFType		TINYINT
+AS
+    SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	DELETE FROM dbo.ChaosCastleFinal_Ranking WHERE mCCFType = @mCCFType;
+
+	DECLARE @mTbl TABLE (
+		mRank INT IDENTITY (1,1)	NOT NULL
+	,	mName		VARCHAR(10)		NOT NULL
+	,	mCCFType	TINYINT			NOT NULL
+	,	mClass		INT				NOT NULL
+	,	mPoint		INT				NOT NULL
+	) 
+	INSERT INTO @mTbl (
+	mName,mCCFType,mClass,mPoint	)
+	SELECT 
+		mName,@mCCFType,mCharClass,mPoint
+	FROM ChaosCastleFinal_Scores
+	WHERE mCCFType = @mCCFType
+	ORDER BY mPoint DESC, mCharLevel ASC, mCharExperience ASC
+
+    INSERT INTO dbo.ChaosCastleFinal_Ranking WITH(TABLOCK)
+        ( mRank, mName, mCCFType, mClass, mPoint, mDate )
+	SELECT mRank, mName, mCCFType, mClass, mPoint, GETDATE() FROM @mTbl
+
+
+
+
+
+GO

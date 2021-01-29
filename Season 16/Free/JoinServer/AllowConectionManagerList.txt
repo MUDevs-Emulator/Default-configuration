@@ -1,0 +1,12 @@
+0
+// Max HID Limit
+5
+end
+
+1 
+// ServerCode	Type(0=ServerLimit | 1=FreeServer)
+20		0
+21		0
+22		0
+19		0
+end

@@ -1,0 +1,11 @@
+0
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+end
+
+1
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption
+end
+
+2
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption
+end
