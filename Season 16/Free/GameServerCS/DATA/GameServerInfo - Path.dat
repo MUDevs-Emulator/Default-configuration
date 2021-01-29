@@ -169,7 +169,7 @@ EliteMonster=Monster\\EliteMonster.txt
 ;==================================================
 ; Move Settings
 ;==================================================
-Gate=Move\\Gate.txt
+Gate=Move\\Gate.xml
 Move=Move\\Move.txt
 MoveSummon=Move\\MoveSummon.txt
 FreeChannelSwitch=Move\\FreeChannelSwitch.txt
@@ -215,4 +215,11 @@ Filter=Util\\Filter.txt
 GameMaster=Util\\GameMaster.txt
 Notice=Util\\Notice.txt
 ResetTable=Util\\ResetTable.txt
-	
+
+;==================================================
+; Script Lua Settings
+;==================================================
+LuaDefine=Scripts\\%s
+LuaSkill=Scripts\\Skill\\SkillDamageCalc.lua
+LuaCharacter=Scripts\\Character\\CharacterCalc.lua
+
