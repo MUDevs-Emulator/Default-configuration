@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="256" Range="0" PositionX="37" PositionY="241" Direction="1" Element="0" /> <!-- "Lahap" -->
+		<Config Class="415" Range="0" PositionX="44" PositionY="229" Direction="1" Element="0" /> <!-- "Silvia" -->
+		<Config Class="416" Range="0" PositionX="29" PositionY="236" Direction="2" Element="0" /> <!-- "Rhea" -->
+		<Config Class="417" Range="0" PositionX="36" PositionY="219" Direction="2" Element="0" /> <!-- "Marce" -->
+		<Config Class="257" Range="0" PositionX="43" PositionY="191" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="257" Range="0" PositionX="57" PositionY="232" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="257" Range="0" PositionX="73" PositionY="220" Direction="1" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="240" Range="0" PositionX="50" PositionY="229" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="385" Range="0" PositionX="55" PositionY="243" Direction="1" Element="0" /> <!-- "Mirage" -->
+		<Config Class="568" Range="0" PositionX="55" PositionY="199" Direction="1" Element="0" /> <!-- "Wandering Merchant Zyro" -->
+		<Config Class="452" Range="0" PositionX="46" PositionY="243" Direction="1" Element="0" /> <!-- "Seed Master" -->
+		<Config Class="540" Range="0" PositionX="49" PositionY="216" Direction="2" Element="0" /> <!-- "Lugard" -->
+		<Config Class="579" Range="0" PositionX="20" PositionY="214" Direction="3" Element="0" /> <!-- "David" -->
+		<Config Class="682" Range="0" PositionX="24" PositionY="229" Direction="2" Element="0" /> <!-- "Monica" -->
+		<Config Class="725" Range="0" PositionX="32" PositionY="239" Direction="1" Element="0" /> <!-- "Priest James" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="3" Range="30" BeginPosX="13" BeginPosY="125" EndPosX="56" EndPosY="168" Direction="-1" Quantity="15" Element="0" /> <!-- "Spider" -->
+		<Config Class="3" Range="30" BeginPosX="102" BeginPosY="194" EndPosX="142" EndPosY="238" Direction="-1" Quantity="15" Element="0" /> <!-- "Spider" -->
+		<Config Class="418" Range="30" BeginPosX="54" BeginPosY="131" EndPosX="88" EndPosY="180" Direction="-1" Quantity="10" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" BeginPosX="84" BeginPosY="178" EndPosX="142" EndPosY="212" Direction="-1" Quantity="10" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="421" Range="30" BeginPosX="87" BeginPosY="90" EndPosX="125" EndPosY="170" Direction="-1" Quantity="10" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" BeginPosX="118" BeginPosY="130" EndPosX="164" EndPosY="172" Direction="-1" Quantity="10" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="419" Range="30" BeginPosX="118" BeginPosY="87" EndPosX="160" EndPosY="141" Direction="-1" Quantity="20" Element="0" /> <!-- "Hideous Rabbit" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="425" Range="30" PositionX="205" PositionY="16" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="200" PositionY="54" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="219" PositionY="74" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="423" Range="30" PositionX="230" PositionY="143" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="196" PositionY="171" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="420" Range="30" PositionX="74" PositionY="81" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="102" PositionY="106" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="424" Range="30" PositionX="169" PositionY="124" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="419" Range="30" PositionX="93" PositionY="117" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="423" Range="30" PositionX="202" PositionY="193" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="184" PositionY="194" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="422" Range="30" PositionX="135" PositionY="89" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="419" Range="30" PositionX="139" PositionY="141" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="129" PositionY="119" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="130" PositionY="132" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="115" PositionY="109" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="418" Range="30" PositionX="45" PositionY="160" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="31" PositionY="157" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="50" PositionY="149" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="24" PositionY="144" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="421" Range="30" PositionX="68" PositionY="137" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="122" PositionY="189" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="133" PositionY="213" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="33" PositionY="130" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="425" Range="30" PositionX="205" PositionY="16" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="219" PositionY="74" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="423" Range="30" PositionX="230" PositionY="143" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="196" PositionY="171" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="420" Range="30" PositionX="74" PositionY="81" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="423" Range="30" PositionX="202" PositionY="193" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="184" PositionY="194" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="425" Range="30" PositionX="185" PositionY="20" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="419" Range="30" PositionX="139" PositionY="141" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="129" PositionY="119" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="130" PositionY="132" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="418" Range="30" PositionX="45" PositionY="160" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="31" PositionY="157" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="50" PositionY="149" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="24" PositionY="144" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="421" Range="30" PositionX="68" PositionY="137" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="122" PositionY="189" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="93" PositionY="117" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="119" PositionY="139" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="419" Range="30" PositionX="135" PositionY="89" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="169" PositionY="124" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="422" Range="30" PositionX="118" PositionY="49" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="423" Range="30" PositionX="228" PositionY="130" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="419" Range="30" PositionX="150" PositionY="110" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="423" Range="30" PositionX="226" PositionY="149" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="425" Range="30" PositionX="202" PositionY="57" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="205" PositionY="53" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="424" Range="30" PositionX="176" PositionY="68" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="425" Range="30" PositionX="176" PositionY="38" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="419" Range="30" PositionX="111" PositionY="127" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="425" Range="30" PositionX="196" PositionY="38" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="212" PositionY="20" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="230" PositionY="48" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="226" PositionY="45" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="226" PositionY="51" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="214" PositionY="52" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="173" PositionY="34" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="423" Range="30" PositionX="171" PositionY="175" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="174" PositionY="180" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="192" PositionY="144" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="190" PositionY="150" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="195" PositionY="149" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="223" PositionY="143" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="424" Range="30" PositionX="186" PositionY="75" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="180" PositionY="75" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="184" PositionY="79" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="420" Range="30" PositionX="45" PositionY="77" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="425" Range="30" PositionX="168" PositionY="24" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="424" Range="30" PositionX="195" PositionY="33" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="193" PositionY="88" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="192" PositionY="93" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="152" PositionY="51" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="425" Range="30" PositionX="177" PositionY="33" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="419" Range="30" PositionX="151" PositionY="156" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="155" PositionY="147" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="422" Range="30" PositionX="115" PositionY="89" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="421" Range="30" PositionX="135" PositionY="195" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="418" Range="30" PositionX="75" PositionY="173" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="421" Range="30" PositionX="75" PositionY="154" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="419" Range="30" PositionX="102" PositionY="139" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="422" Range="30" PositionX="121" PositionY="23" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="420" Range="30" PositionX="68" PositionY="30" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="422" Range="30" PositionX="125" PositionY="38" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="424" Range="30" PositionX="182" PositionY="98" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="173" PositionY="94" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="160" PositionY="81" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="152" PositionY="76" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="154" PositionY="80" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="418" Range="30" PositionX="123" PositionY="227" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="109" PositionY="217" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="424" Range="30" PositionX="150" PositionY="55" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="156" PositionY="52" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="154" PositionY="56" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="163" PositionY="69" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="173" PositionY="80" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="189" PositionY="90" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="423" Range="30" PositionX="212" PositionY="150" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="425" Range="30" PositionX="202" PositionY="19" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="207" PositionY="20" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="212" PositionY="24" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="423" Range="30" PositionX="200" PositionY="157" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="177" PositionY="175" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="208" PositionY="125" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="214" PositionY="135" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="423" Range="30" PositionX="227" PositionY="118" Direction="-1" Element="0" /> <!-- "Totem Golem" -->
+		<Config Class="424" Range="30" PositionX="167" PositionY="91" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="424" Range="30" PositionX="171" PositionY="90" Direction="-1" Element="0" /> <!-- "Grizzly" -->
+		<Config Class="425" Range="30" PositionX="199" PositionY="35" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="194" PositionY="46" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="196" PositionY="50" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="198" PositionY="47" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="218" PositionY="38" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="425" Range="30" PositionX="207" PositionY="38" Direction="-1" Element="0" /> <!-- "Captain Grizzly" -->
+		<Config Class="422" Range="30" PositionX="104" PositionY="67" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="104" PositionY="30" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="102" PositionY="32" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="419" Range="30" PositionX="137" PositionY="103" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="421" Range="30" PositionX="115" PositionY="163" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="421" Range="30" PositionX="82" PositionY="138" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="419" Range="30" PositionX="150" PositionY="129" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="419" Range="30" PositionX="151" PositionY="126" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="418" Range="30" PositionX="105" PositionY="201" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="106" PositionY="187" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="418" Range="30" PositionX="97" PositionY="190" Direction="-1" Element="0" /> <!-- "Strange Rabbit" -->
+		<Config Class="419" Range="30" PositionX="128" PositionY="169" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="420" Range="30" PositionX="72" PositionY="32" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="422" Range="30" PositionX="87" PositionY="39" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="420" Range="30" PositionX="92" PositionY="58" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="421" Range="30" PositionX="118" PositionY="155" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+		<Config Class="422" Range="30" PositionX="76" PositionY="15" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="80" PositionY="16" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="419" Range="30" PositionX="97" PositionY="105" Direction="-1" Element="0" /> <!-- "Hideous Rabbit" -->
+		<Config Class="420" Range="30" PositionX="69" PositionY="59" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="72" PositionY="60" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="70" PositionY="63" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="46" PositionY="82" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="57" PositionY="91" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="52" PositionY="69" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="65" PositionY="75" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="420" Range="30" PositionX="73" PositionY="84" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="422" Range="30" PositionX="127" PositionY="40" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="135" PositionY="28" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="135" PositionY="25" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="96" PositionY="45" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="420" Range="30" PositionX="83" PositionY="57" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="422" Range="30" PositionX="104" PositionY="49" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="422" Range="30" PositionX="104" PositionY="63" Direction="-1" Element="0" /> <!-- "Cursed Lich" -->
+		<Config Class="420" Range="30" PositionX="84" PositionY="42" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="421" Range="30" PositionX="132" PositionY="209" Direction="-1" Element="0" /> <!-- "Polluted Butterfly" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

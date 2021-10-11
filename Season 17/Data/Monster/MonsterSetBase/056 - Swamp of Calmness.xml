@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="605" Range="5" PositionX="139" PositionY="113" Direction="-1" Element="0" /> <!-- "Mining Area (Small)		" -->
+		<Config Class="605" Range="5" PositionX="145" PositionY="109" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="143" PositionY="99" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="135" PositionY="100" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="130" PositionY="111" Direction="-1" Element="0" /> <!-- "Mining Area (Small)	" -->
+		<Config Class="606" Range="5" PositionX="134" PositionY="105" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)" -->
+		<Config Class="606" Range="5" PositionX="142" PositionY="105" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)" -->
+		<Config Class="606" Range="5" PositionX="138" PositionY="109" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)" -->
+		<Config Class="606" Range="5" PositionX="137" PositionY="101" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)" -->
+		<Config Class="607" Range="5" PositionX="141" PositionY="105" Direction="-1" Element="0" /> <!-- "Mining Area (Large)" -->
+		<Config Class="607" Range="5" PositionX="145" PositionY="119" Direction="-1" Element="0" /> <!-- "Mining Area (Large)" -->
+		<Config Class="607" Range="5" PositionX="142" PositionY="109" Direction="-1" Element="0" /> <!-- "Mining Area (Large)" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="441" Range="5" PositionX="198" PositionY="198" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="207" PositionY="202" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="198" PositionY="208" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="198" PositionY="214" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="173" PositionY="215" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="173" PositionY="222" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="442" Range="5" PositionX="210" PositionY="196" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="220" PositionY="192" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="220" PositionY="217" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="224" PositionY="217" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="216" PositionY="177" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="230" PositionY="173" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="218" PositionY="171" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="227" PositionY="169" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="441" Range="5" PositionX="220" PositionY="184" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="226" PositionY="184" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="442" Range="5" PositionX="231" PositionY="197" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="189" PositionY="226" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="201" PositionY="228" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="447" Range="5" PositionX="195" PositionY="222" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="180" PositionY="218" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="177" PositionY="223" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="190" PositionY="233" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="199" PositionY="234" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="442" Range="5" PositionX="207" PositionY="234" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="447" Range="5" PositionX="214" PositionY="234" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="224" PositionY="234" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="231" PositionY="235" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="238" PositionY="233" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="236" PositionY="238" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="447" Range="5" PositionX="239" PositionY="227" Direction="-1" Element="0" /> <!-- "Thunder Napin" -->
+		<Config Class="441" Range="5" PositionX="203" PositionY="198" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="233" PositionY="204" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="229" PositionY="202" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="236" PositionY="201" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="442" Range="5" PositionX="228" PositionY="194" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="442" Range="5" PositionX="235" PositionY="194" Direction="-1" Element="0" /> <!-- "Sapi-Duo" -->
+		<Config Class="441" Range="5" PositionX="226" PositionY="210" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="441" Range="5" PositionX="237" PositionY="210" Direction="-1" Element="0" /> <!-- "Sapi-Unus" -->
+		<Config Class="557" Range="30" PositionX="215" PositionY="150" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="218" PositionY="142" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="222" PositionY="152" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="212" PositionY="137" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="205" PositionY="131" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="197" PositionY="127" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="191" PositionY="150" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="200" PositionY="145" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="201" PositionY="153" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="558" Range="30" PositionX="218" PositionY="136" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="210" PositionY="148" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="226" PositionY="151" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="215" PositionY="133" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="177" PositionY="142" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="178" PositionY="123" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="180" PositionY="130" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="186" PositionY="113" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="195" PositionY="108" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="202" PositionY="113" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="190" PositionY="112" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="198" PositionY="110" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="182" PositionY="124" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="176" PositionY="129" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="181" PositionY="143" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="178" PositionY="136" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="189" PositionY="144" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="558" Range="30" PositionX="181" PositionY="139" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="180" PositionY="127" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="213" PositionY="147" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="223" PositionY="148" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="444" Range="5" PositionX="222" PositionY="10" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="228" PositionY="10" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="224" PositionY="14" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="217" PositionY="24" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="229" PositionY="27" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="209" PositionY="29" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="206" PositionY="39" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="236" PositionY="56" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="236" PositionY="68" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="236" PositionY="80" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="232" PositionY="88" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="221" PositionY="88" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="217" PositionY="82" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="445" Range="5" PositionX="234" PositionY="9" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="232" PositionY="15" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="237" PositionY="14" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="232" PositionY="21" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="225" PositionY="28" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="213" PositionY="27" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="205" PositionY="33" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="206" PositionY="44" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="236" PositionY="63" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="236" PositionY="74" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="236" PositionY="86" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="216" PositionY="86" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="448" Range="5" PositionX="206" PositionY="49" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="232" PositionY="68" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="231" PositionY="82" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="221" PositionY="84" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="236" PositionY="90" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="220" PositionY="27" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="210" PositionY="34" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="445" Range="5" PositionX="230" PositionY="74" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="448" Range="5" PositionX="233" PositionY="77" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="445" Range="5" PositionX="220" PositionY="80" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="226" PositionY="89" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="444" Range="5" PositionX="232" PositionY="11" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="206" PositionY="30" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="444" Range="5" PositionX="233" PositionY="72" Direction="-1" Element="0" /> <!-- "Shadow Pawn" -->
+		<Config Class="557" Range="30" PositionX="195" PositionY="41" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="175" PositionY="41" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="162" PositionY="41" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="558" Range="30" PositionX="153" PositionY="39" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="157" PositionY="36" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="157" PositionY="38" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="141" PositionY="45" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="145" PositionY="46" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="151" PositionY="14" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="144" PositionY="44" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="558" Range="30" PositionX="155" PositionY="14" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="165" PositionY="28" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="134" PositionY="34" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="128" PositionY="29" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="132" PositionY="28" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="152" PositionY="17" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="131" PositionY="31" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="557" Range="30" PositionX="121" PositionY="21" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="123" PositionY="19" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="123" PositionY="22" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="163" PositionY="28" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="164" PositionY="25" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="167" PositionY="26" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="151" PositionY="43" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="148" PositionY="26" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="145" PositionY="23" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="158" PositionY="17" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="443" Range="5" PositionX="36" PositionY="44" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="41" PositionY="44" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="36" PositionY="51" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="40" PositionY="49" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="24" PositionY="49" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="10" PositionY="44" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="10" PositionY="50" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="13" PositionY="47" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="50" PositionY="44" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="52" PositionY="11" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="51" PositionY="27" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="58" PositionY="20" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="68" PositionY="15" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="69" PositionY="23" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="39" PositionY="20" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="41" PositionY="26" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="445" Range="5" PositionX="27" PositionY="53" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="32" PositionY="53" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="29" PositionY="43" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="9" PositionY="47" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="8" PositionY="34" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="9" PositionY="22" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="12" PositionY="11" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="19" PositionY="11" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="27" PositionY="23" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="33" PositionY="23" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="54" PositionY="15" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="55" PositionY="24" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="42" PositionY="14" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="445" Range="5" PositionX="62" PositionY="16" Direction="-1" Element="0" /> <!-- "Shadow Knight" -->
+		<Config Class="446" Range="5" PositionX="16" PositionY="15" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="24" PositionY="10" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="27" PositionY="11" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="20" PositionY="30" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="13" PositionY="32" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="18" PositionY="45" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="45" PositionY="27" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="52" PositionY="20" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="446" Range="5" PositionX="23" PositionY="23" Direction="-1" Element="0" /> <!-- "Shadow Look" -->
+		<Config Class="557" Range="30" PositionX="12" PositionY="87" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="14" PositionY="85" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="21" PositionY="128" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="23" PositionY="126" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="23" PositionY="102" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="26" PositionY="97" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="37" PositionY="120" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="40" PositionY="117" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="53" PositionY="109" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="52" PositionY="75" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="558" Range="30" PositionX="15" PositionY="89" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="26" PositionY="100" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="12" PositionY="112" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="21" PositionY="124" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="24" PositionY="121" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="23" PositionY="112" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="41" PositionY="123" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="43" PositionY="118" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="35" PositionY="114" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="57" PositionY="108" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="53" PositionY="104" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="60" PositionY="78" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="54" PositionY="113" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="45" PositionY="97" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="42" PositionY="82" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="52" PositionY="79" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="56" PositionY="77" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="44" PositionY="123" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="41" PositionY="111" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="57" PositionY="105" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="558" Range="30" PositionX="15" PositionY="127" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="11" PositionY="118" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="18" PositionY="112" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="26" PositionY="116" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="14" PositionY="104" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="13" PositionY="93" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="443" Range="5" PositionX="68" PositionY="192" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="68" PositionY="202" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="68" PositionY="215" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="67" PositionY="235" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="86" PositionY="220" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="46" PositionY="203" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="42" PositionY="229" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="52" PositionY="232" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="42" PositionY="218" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="443" Range="5" PositionX="68" PositionY="224" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="448" Range="5" PositionX="57" PositionY="203" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="34" PositionY="231" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="48" PositionY="227" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="57" PositionY="237" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="68" PositionY="230" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="82" PositionY="223" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="41" PositionY="200" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="29" PositionY="235" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="26" PositionY="226" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="448" Range="5" PositionX="34" PositionY="192" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="449" Range="5" PositionX="12" PositionY="182" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="19" PositionY="182" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="10" PositionY="192" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="14" PositionY="224" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="20" PositionY="233" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="30" PositionY="186" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="25" PositionY="209" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="46" PositionY="234" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="448" Range="5" PositionX="83" PositionY="219" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="449" Range="5" PositionX="20" PositionY="211" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="30" PositionY="230" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="85" PositionY="223" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="23" PositionY="212" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="23" PositionY="205" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="20" PositionY="207" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="28" PositionY="188" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="449" Range="5" PositionX="28" PositionY="183" Direction="-1" Element="0" /> <!-- "Blaze Napin" -->
+		<Config Class="448" Range="5" PositionX="33" PositionY="184" Direction="-1" Element="0" /> <!-- "Ghost Napin" -->
+		<Config Class="443" Range="5" PositionX="50" PositionY="202" Direction="-1" Element="0" /> <!-- "Sapi-Tres" -->
+		<Config Class="558" Range="30" PositionX="107" PositionY="224" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="109" PositionY="219" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="557" Range="30" PositionX="110" PositionY="210" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="134" PositionY="232" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="133" PositionY="225" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="132" PositionY="186" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="129" PositionY="164" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="99" PositionY="167" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="111" PositionY="170" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="102" PositionY="168" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="108" PositionY="231" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="108" PositionY="229" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="106" PositionY="191" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="557" Range="30" PositionX="108" PositionY="188" Direction="-1" Element="0" /> <!-- "Sapi Queen" -->
+		<Config Class="558" Range="30" PositionX="111" PositionY="231" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="105" PositionY="230" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="110" PositionY="190" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="110" PositionY="185" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="112" PositionY="166" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="109" PositionY="167" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="132" PositionY="165" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="134" PositionY="189" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="558" Range="30" PositionX="135" PositionY="229" Direction="-1" Element="0" /> <!-- "Ice Napin" -->
+		<Config Class="559" Range="30" PositionX="129" PositionY="229" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="136" PositionY="223" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="134" PositionY="210" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="136" PositionY="185" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="130" PositionY="183" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="129" PositionY="169" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="134" PositionY="169" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="100" PositionY="170" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="112" PositionY="213" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+		<Config Class="559" Range="30" PositionX="107" PositionY="213" Direction="-1" Element="0" /> <!-- "Shadow Master" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

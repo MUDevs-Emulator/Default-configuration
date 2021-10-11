@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="0" EqualAttributes="0"/>
+		<Config Index="1" DropRate="1" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="1" SectionRate="100" MoneyAmount="100000" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="1" Section="2" SectionRate="1000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="2" Index="16" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Sword of Destruction"/>
+		<ItemEx Section="2" Index="1034" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Scepter"/>
+		<ItemEx Section="2" Index="1546" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Spear"/>
+		<ItemEx Section="2" Index="2064" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Saint Crossbow"/>
+		<ItemEx Section="2" Index="2065" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Celestial Bow"/>
+		<ItemEx Section="2" Index="2568" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Staff of Destruction"/>
+		<ItemEx Section="2" Index="2569" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Soul Staff"/>
+		<ItemEx Section="2" Index="3605" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Dragon Helm"/>
+		<ItemEx Section="2" Index="3606" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Soul Helm"/>
+		<ItemEx Section="2" Index="3608" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Red Spirit Helm"/>
+		<ItemEx Section="2" Index="3612" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Master Mask"/>
+		<ItemEx Section="2" Index="4117" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Dragon Armor"/>
+		<ItemEx Section="2" Index="4118" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Soul Armor"/>
+		<ItemEx Section="2" Index="4119" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Hurricane Armor"/>
+		<ItemEx Section="2" Index="4120" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Red Sprit Armor"/>
+		<ItemEx Section="2" Index="4124" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Master Armor"/>
+		<ItemEx Section="2" Index="4629" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Dragon Pants"/>
+		<ItemEx Section="2" Index="4630" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Soul Pants"/>
+		<ItemEx Section="2" Index="4631" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Hurricane Pants"/>
+		<ItemEx Section="2" Index="4632" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Red Spirit Pants"/>
+		<ItemEx Section="2" Index="4636" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Master Pants"/>
+		<ItemEx Section="2" Index="5141" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Dragon Gloves"/>
+		<ItemEx Section="2" Index="5142" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Soul Gloves"/>
+		<ItemEx Section="2" Index="5143" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Hurricane Gloves"/>
+		<ItemEx Section="2" Index="5144" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Red Spirit Gloves"/>
+		<ItemEx Section="2" Index="5148" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Master Gloves"/>
+		<ItemEx Section="2" Index="5653" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Dragon Boots"/>
+		<ItemEx Section="2" Index="5654" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Soul Boots"/>
+		<ItemEx Section="2" Index="5655" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Hurricane Boots"/>
+		<ItemEx Section="2" Index="5656" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Red Spirit Boots"/>
+		<ItemEx Section="2" Index="5660" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Master Boots"/>
+		<ItemEx Section="2" Index="3600" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Black Dragon Helm"/>
+		<ItemEx Section="2" Index="3602" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Grand Soul Helm"/>
+		<ItemEx Section="2" Index="3603" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Holy Spirit Helm"/>
+		<ItemEx Section="2" Index="3611" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Steel Mask"/>
+		<ItemEx Section="2" Index="4112" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Black Dragon Armor"/>
+		<ItemEx Section="2" Index="4114" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Grand Soul Armor"/>
+		<ItemEx Section="2" Index="4115" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Holy Spirit Armor"/>
+		<ItemEx Section="2" Index="4116" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Thunder Hawk Armor"/>
+		<ItemEx Section="2" Index="4123" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Steel Armor"/>
+		<ItemEx Section="2" Index="4624" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Black Dragon Pants"/>
+		<ItemEx Section="2" Index="4626" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Grand Soul Pants"/>
+		<ItemEx Section="2" Index="4627" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Holy Spirit Pants"/>
+		<ItemEx Section="2" Index="4628" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Thunder Hawk Pants"/>
+		<ItemEx Section="2" Index="4635" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Steel Pants"/>
+		<ItemEx Section="2" Index="5136" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Black Dragon Gloves"/>
+		<ItemEx Section="2" Index="5138" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Grand Soul Gloves"/>
+		<ItemEx Section="2" Index="5139" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Holy Spirit Gloves"/>
+		<ItemEx Section="2" Index="5140" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Thunder Hawk Gloves"/>
+		<ItemEx Section="2" Index="5147" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Steel Gloves"/>
+		<ItemEx Section="2" Index="5648" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Black Dragon Boots"/>
+		<ItemEx Section="2" Index="5650" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Grand Soul Boots"/>
+		<ItemEx Section="2" Index="5651" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Holy Spirit Boots"/>
+		<ItemEx Section="2" Index="5652" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Thunder Hawk Boots"/>
+		<ItemEx Section="2" Index="5659" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Steel Boots"/>
+	</BagItemsEx>
+</ItemBag>

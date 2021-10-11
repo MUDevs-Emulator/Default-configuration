@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfig Name="Gold Medal" DropZen="1000" ItemDropRate="1000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
+	<BagItems>
+		<Item Section="0" Type="11" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Legendary Sword"/>
+		<Item Section="0" Type="13" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Double Blade"/>
+		<Item Section="1" Type="7" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Larkan Axe"/>
+		<Item Section="2" Type="3" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Great Hammer"/>
+		<Item Section="3" Type="0" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Light Spear"/>
+		<Item Section="3" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Serpent Spear"/>
+		<Item Section="4" Type="11" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Light Crossbow"/>
+		<Item Section="4" Type="3" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Battle Bow"/>
+		<Item Section="5" Type="2" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Serpent Staff"/>
+		<Item Section="5" Type="3" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Thunder Staff"/>
+		<Item Section="6" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Skull Shield"/>
+		<Item Section="6" Type="5" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Dragon Slayer Shield"/>
+		<Item Section="7" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Helm"/>
+		<Item Section="8" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Armor"/>
+		<Item Section="9" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Pants"/>
+		<Item Section="10" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Gloves"/>
+		<Item Section="11" Type="6" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Boots"/>
+		<Item Section="7" Type="8" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Brass Helm"/>
+		<Item Section="8" Type="8" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Brass Armor"/>
+		<Item Section="9" Type="8" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Brass Pants"/>
+		<Item Section="10" Type="8" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Brass Gloves"/>
+		<Item Section="11" Type="8" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Brass Boots"/>
+		<Item Section="7" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bone Helm"/>
+		<Item Section="8" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bone Armor"/>
+		<Item Section="9" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bone Pants"/>
+		<Item Section="10" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bone Gloves"/>
+		<Item Section="11" Type="4" MinLevel="0" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bone Boots"/>
+		<Item Section="13" Type="0" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Guardian Angel"/>
+		<Item Section="13" Type="1" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Imp"/>
+		<Item Section="13" Type="2" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Horn of Uniria"/>
+		<Item Section="13" Type="8" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Ring of Ice"/>
+		<Item Section="13" Type="9" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Ring of Poison"/>
+		<Item Section="13" Type="12" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Pendant of Lighting"/>
+		<Item Section="13" Type="13" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Pendant of Fire"/>
+		<Item Section="14" Type="13" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Jewel of Bless"/>
+		<Item Section="14" Type="14" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Jewel of Soul"/>
+		<Item Section="12" Type="15" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Jewel of Chaos"/>
+	</BagItems>
+</ItemBag>

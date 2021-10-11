@@ -1,0 +1,109 @@
+[GameServerInfo]
+;==================================================
+; Announce Chaos Mix Settings
+;==================================================
+AnnounceChaosMix = 0
+
+;==================================================
+; Custom Arena Settings
+;==================================================
+CustomArenaSwitch = 1
+CustomArenaVictimScoreDecrease = 0
+CustomArenaKillerScoreIncrease = 100
+
+;==================================================
+; Custom Event Drop Settings
+;==================================================
+CustomEventDropSwitch = 0
+
+;==================================================
+; Custom Store Settings
+;==================================================
+CustomStoreSwitch = 1
+CustomStoreMapZone = -1
+CustomStoreEnable_AL0 = 1
+CustomStoreEnable_AL1 = 1
+CustomStoreEnable_AL2 = 1
+CustomStoreEnable_AL3 = 1
+CustomStoreRequireLevel_AL0 = 0
+CustomStoreRequireLevel_AL1 = 0
+CustomStoreRequireLevel_AL2 = 0
+CustomStoreRequireLevel_AL3 = 0
+CustomStoreRequireReset_AL0 = 0
+CustomStoreRequireReset_AL1 = 0
+CustomStoreRequireReset_AL2 = 0
+CustomStoreRequireReset_AL3 = 0
+
+;==================================================
+; Custom Store Offline Settings
+;==================================================
+CustomStoreOfflineSwitch = 1
+CustomStoreOfflineGPGain = 0
+CustomStoreOfflineMapZone = -1
+CustomStoreOfflineEnable_AL0 = 1
+CustomStoreOfflineEnable_AL1 = 1
+CustomStoreOfflineEnable_AL2 = 1
+CustomStoreOfflineEnable_AL3 = 1
+CustomStoreOfflineRequireLevel_AL0 = 0
+CustomStoreOfflineRequireLevel_AL1 = 0
+CustomStoreOfflineRequireLevel_AL2 = 0
+CustomStoreOfflineRequireLevel_AL3 = 0
+CustomStoreOfflineRequireReset_AL0 = 0
+CustomStoreOfflineRequireReset_AL1 = 0
+CustomStoreOfflineRequireReset_AL2 = 0
+CustomStoreOfflineRequireReset_AL3 = 0
+
+;==================================================
+; Custom Attack Settings
+;==================================================
+CustomAttackSwitch = 1
+CustomAttackEnable_AL0 = 1
+CustomAttackEnable_AL1 = 0
+CustomAttackEnable_AL2 = 0
+CustomAttackEnable_AL3 = 0
+CustomAttackRequireLevel_AL0 = 0
+CustomAttackRequireLevel_AL1 = 0
+CustomAttackRequireLevel_AL2 = 0
+CustomAttackRequireLevel_AL3 = 0
+CustomAttackRequireReset_AL0 = 0
+CustomAttackRequireReset_AL1 = 0
+CustomAttackRequireReset_AL2 = 0
+CustomAttackRequireReset_AL3 = 0
+CustomAttackRequireMoney_AL0 = 0
+CustomAttackRequireMoney_AL1 = 0
+CustomAttackRequireMoney_AL2 = 0
+CustomAttackRequireMoney_AL3 = 0
+CustomAttackMaxUsingTime_AL0 = 60
+CustomAttackMaxUsingTime_AL1 = 60
+CustomAttackMaxUsingTime_AL2 = 60
+CustomAttackMaxUsingTime_AL3 = 60
+
+;==================================================
+; Custom Attack Offline Settings
+;==================================================
+CustomAttackOfflineSwitch = 1
+CustomAttackOfflineGPGain = 0
+CustomAttackOfflineEnable_AL0 = 1
+CustomAttackOfflineEnable_AL1 = 1
+CustomAttackOfflineEnable_AL2 = 1
+CustomAttackOfflineEnable_AL3 = 1
+CustomAttackOfflineRequireLevel_AL0 = 0
+CustomAttackOfflineRequireLevel_AL1 = 0
+CustomAttackOfflineRequireLevel_AL2 = 0
+CustomAttackOfflineRequireLevel_AL3 = 0
+CustomAttackOfflineRequireReset_AL0 = 0
+CustomAttackOfflineRequireReset_AL1 = 0
+CustomAttackOfflineRequireReset_AL2 = 0
+CustomAttackOfflineRequireReset_AL3 = 0
+CustomAttackOfflineRequireMoney_AL0 = 0
+CustomAttackOfflineRequireMoney_AL1 = 0
+CustomAttackOfflineRequireMoney_AL2 = 0
+CustomAttackOfflineRequireMoney_AL3 = 0
+CustomAttackOfflineMaxUsingTime_AL0 = 60
+CustomAttackOfflineMaxUsingTime_AL1 = 60
+CustomAttackOfflineMaxUsingTime_AL2 = 60
+CustomAttackOfflineMaxUsingTime_AL3 = 60
+CustomAttackOfflinePotDelay_AL0 = 100
+CustomAttackOfflinePotDelay_AL1 = 100
+CustomAttackOfflinePotDelay_AL2 = 100
+CustomAttackOfflinePotDelay_AL3 = 100

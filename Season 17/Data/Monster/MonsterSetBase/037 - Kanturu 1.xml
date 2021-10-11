@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="554" Range="30" BeginPosX="70" BeginPosY="167" EndPosX="70" EndPosY="167" Direction="-1" Quantity="2" Element="0" /> <!-- "Spider" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="352" Range="30" PositionX="207" PositionY="187" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="350" Range="30" PositionX="188" PositionY="11" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="351" Range="30" PositionX="188" PositionY="218" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="350" Range="30" PositionX="151" PositionY="11" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="351" Range="30" PositionX="159" PositionY="232" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="350" Range="30" PositionX="154" PositionY="41" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="351" Range="30" PositionX="36" PositionY="234" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="42" PositionY="235" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="118" PositionY="232" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="55" PositionY="228" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="75" PositionY="231" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="69" PositionY="238" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="174" PositionY="196" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="94" PositionY="234" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="100" PositionY="240" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="114" PositionY="239" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="135" PositionY="223" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="143" PositionY="239" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="151" PositionY="206" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="155" PositionY="196" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="180" PositionY="225" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="172" PositionY="215" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="352" Range="30" PositionX="187" PositionY="205" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="172" PositionY="205" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="207" PositionY="195" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="198" PositionY="179" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="180" PositionY="164" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="174" PositionY="170" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="185" PositionY="148" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="165" PositionY="157" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="165" PositionY="165" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="175" PositionY="150" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="214" PositionY="143" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="217" PositionY="145" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="204" PositionY="137" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="195" PositionY="156" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="195" PositionY="148" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="236" PositionY="135" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="223" PositionY="132" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="212" PositionY="125" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="352" Range="30" PositionX="222" PositionY="113" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="353" Range="30" PositionX="217" PositionY="141" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="226" PositionY="154" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="218" PositionY="164" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="213" PositionY="165" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="195" PositionY="152" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="193" PositionY="181" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="166" PositionY="162" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="182" PositionY="150" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="233" PositionY="123" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="234" PositionY="132" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="236" PositionY="91" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="231" PositionY="96" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="234" PositionY="101" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="220" PositionY="155" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="178" PositionY="168" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="225" PositionY="86" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="224" PositionY="82" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="230" PositionY="82" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="229" PositionY="58" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="226" PositionY="68" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="206" PositionY="38" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="354" Range="30" PositionX="204" PositionY="35" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="353" Range="30" PositionX="213" PositionY="44" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="214" PositionY="35" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="215" PositionY="37" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="353" Range="30" PositionX="224" PositionY="43" Direction="-1" Element="0" /> <!-- "Satyros" -->
+		<Config Class="354" Range="30" PositionX="221" PositionY="47" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="207" PositionY="40" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="189" PositionY="14" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="187" PositionY="7" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="350" Range="30" PositionX="150" PositionY="56" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="354" Range="30" PositionX="175" PositionY="10" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="350" Range="30" PositionX="158" PositionY="57" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="355" Range="30" PositionX="176" PositionY="41" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="350" Range="30" PositionX="165" PositionY="50" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="355" Range="30" PositionX="181" PositionY="15" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="153" PositionY="15" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="354" Range="30" PositionX="148" PositionY="19" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="155" PositionY="18" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="350" Range="30" PositionX="92" PositionY="34" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="354" Range="30" PositionX="164" PositionY="22" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="355" Range="30" PositionX="163" PositionY="33" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="181" PositionY="27" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="354" Range="30" PositionX="165" PositionY="40" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="167" PositionY="43" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="152" PositionY="59" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="156" PositionY="59" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="148" PositionY="51" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="350" Range="30" PositionX="137" PositionY="47" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="354" Range="30" PositionX="134" PositionY="39" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="138" PositionY="39" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="142" PositionY="41" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="355" Range="30" PositionX="137" PositionY="42" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="136" PositionY="51" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="117" PositionY="26" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="354" Range="30" PositionX="120" PositionY="28" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="126" PositionY="18" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="124" PositionY="25" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="116" PositionY="43" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="354" Range="30" PositionX="122" PositionY="44" Direction="-1" Element="0" /> <!-- "Blade Hunter" -->
+		<Config Class="355" Range="30" PositionX="119" PositionY="55" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="115" PositionY="65" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="76" PositionY="53" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="72" PositionY="62" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="355" Range="30" PositionX="87" PositionY="71" Direction="-1" Element="0" /> <!-- "Kentauros" -->
+		<Config Class="350" Range="30" PositionX="85" PositionY="61" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="356" Range="30" PositionX="87" PositionY="36" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="350" Range="30" PositionX="85" PositionY="21" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="356" Range="30" PositionX="77" PositionY="28" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="350" Range="30" PositionX="61" PositionY="31" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="356" Range="30" PositionX="66" PositionY="21" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="350" Range="30" PositionX="71" PositionY="20" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="356" Range="30" PositionX="59" PositionY="40" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="350" Range="30" PositionX="46" PositionY="34" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="356" Range="30" PositionX="90" PositionY="39" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="357" Range="30" PositionX="37" PositionY="59" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="356" Range="30" PositionX="41" PositionY="37" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="356" Range="30" PositionX="51" PositionY="32" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="357" Range="30" PositionX="45" PositionY="70" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="35" PositionY="69" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="63" PositionY="101" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="350" Range="30" PositionX="64" PositionY="97" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="66" PositionY="99" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="357" Range="30" PositionX="35" PositionY="55" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="32" PositionY="76" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="58" PositionY="104" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="58" PositionY="92" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="357" Range="30" PositionX="46" PositionY="102" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="350" Range="30" PositionX="48" PositionY="103" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="31" PositionY="87" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="357" Range="30" PositionX="47" PositionY="54" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="350" Range="30" PositionX="50" PositionY="49" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="357" Range="30" PositionX="44" PositionY="44" Direction="-1" Element="0" /> <!-- "Genocider" -->
+		<Config Class="356" Range="30" PositionX="77" PositionY="19" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="356" Range="30" PositionX="68" PositionY="28" Direction="-1" Element="0" /> <!-- "Gigantis" -->
+		<Config Class="350" Range="30" PositionX="55" PositionY="104" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="38" PositionY="51" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="56" PositionY="44" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="65" PositionY="35" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="101" PositionY="68" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="122" PositionY="22" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="129" PositionY="19" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="137" PositionY="26" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="117" PositionY="40" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="350" Range="30" PositionX="145" PositionY="47" Direction="-1" Element="0" /> <!-- "Berserker" -->
+		<Config Class="351" Range="30" PositionX="42" PositionY="227" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="170" PositionY="224" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="157" PositionY="204" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="351" Range="30" PositionX="189" PositionY="211" Direction="-1" Element="0" /> <!-- "Splinter Wolf" -->
+		<Config Class="352" Range="30" PositionX="225" PositionY="141" Direction="-1" Element="0" /> <!-- "Iron Rider" -->
+		<Config Class="553" Range="30" PositionX="68" PositionY="164" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="77" PositionY="157" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="79" PositionY="166" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="554" Range="30" PositionX="74" PositionY="162" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="96" PositionY="156" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="102" PositionY="150" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="136" PositionY="161" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="133" PositionY="127" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="89" PositionY="124" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="553" Range="30" PositionX="60" PositionY="156" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="58" PositionY="135" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="104" PositionY="157" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="124" PositionY="165" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="93" PositionY="118" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="131" PositionY="119" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="110" PositionY="140" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="98" PositionY="137" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="553" Range="30" PositionX="69" PositionY="158" Direction="-1" Element="0" /> <!-- "Berserker Warrior" -->
+		<Config Class="554" Range="30" PositionX="61" PositionY="131" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="52" PositionY="153" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="94" PositionY="128" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="115" PositionY="162" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="140" PositionY="152" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="555" Range="30" PositionX="120" PositionY="160" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="141" PositionY="159" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="128" PositionY="130" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="81" PositionY="125" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="107" PositionY="103" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="115" PositionY="104" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="126" PositionY="109" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="134" PositionY="107" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="142" PositionY="127" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="556" Range="30" PositionX="145" PositionY="133" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="148" PositionY="129" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="167" PositionY="114" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="171" PositionY="106" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="191" PositionY="96" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="187" PositionY="87" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="131" PositionY="81" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="119" PositionY="87" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="181" PositionY="109" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="177" PositionY="89" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="141" PositionY="89" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="556" Range="30" PositionX="151" PositionY="87" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+		<Config Class="555" Range="30" PositionX="145" PositionY="91" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="167" PositionY="90" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="175" PositionY="113" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="129" PositionY="114" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="112" PositionY="98" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="555" Range="30" PositionX="145" PositionY="153" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="554" Range="30" PositionX="86" PositionY="119" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="91" PositionY="164" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="49" PositionY="140" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="132" PositionY="111" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="171" PositionY="111" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="145" PositionY="87" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="554" Range="30" PositionX="141" PositionY="133" Direction="-1" Element="0" /> <!-- "Kentauros Warrior" -->
+		<Config Class="555" Range="30" PositionX="110" PositionY="106" Direction="-1" Element="0" /> <!-- "Gigantis Warrior" -->
+		<Config Class="556" Range="30" PositionX="115" PositionY="98" Direction="-1" Element="0" /> <!-- "Genocider Warrior" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

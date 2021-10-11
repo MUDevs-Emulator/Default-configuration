@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="1000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="1" SectionRate="50" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="2" SectionRate="105" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="3" SectionRate="80" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="4" SectionRate="255" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="5" SectionRate="15" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="6" SectionRate="60" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="7" SectionRate="200" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="8" SectionRate="40" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="9" SectionRate="120" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="10" SectionRate="50" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="0" Section="11" SectionRate="30" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="11" Index="6722" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Invitation to Santa Village"/>
+		<ItemEx Section="1" Index="16" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Sword of Destruction"/>
+		<ItemEx Section="1" Index="31" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Rune Blade"/>
+		<ItemEx Section="1" Index="17" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Dark Breaker"/>
+		<ItemEx Section="1" Index="33" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Holy Storm Claws"/>
+		<ItemEx Section="1" Index="34" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Piercing Blade Glove"/>
+		<ItemEx Section="1" Index="1034" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Great Scepter"/>
+		<ItemEx Section="1" Index="1035" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Lord Scepter"/>
+		<ItemEx Section="1" Index="1025" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Morning Star"/>
+		<ItemEx Section="1" Index="1553" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Prickle Lance"/>
+		<ItemEx Section="1" Index="2065" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Celestial Bow"/>
+		<ItemEx Section="1" Index="2070" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Albatross Bow"/>
+		<ItemEx Section="1" Index="2568" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Staff of Destruction"/>
+		<ItemEx Section="1" Index="2569" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Dragon Soul Staff"/>
+		<ItemEx Section="1" Index="2577" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Stick"/>
+		<ItemEx Section="1" Index="2578" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Demonic Stick"/>
+		<ItemEx Section="2" Index="4111" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Crow Armor"/>
+		<ItemEx Section="2" Index="4623" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Crow Pants"/>
+		<ItemEx Section="2" Index="5135" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Crow Gloves"/>
+		<ItemEx Section="2" Index="5647" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Crow Boots"/>
+		<ItemEx Section="2" Index="3600" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Black Dragon Helm"/>
+		<ItemEx Section="2" Index="4112" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Black Dragon Armor"/>
+		<ItemEx Section="2" Index="4624" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Black Dragon Pants"/>
+		<ItemEx Section="2" Index="5136" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Black Dragon Gloves"/>
+		<ItemEx Section="2" Index="5648" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Black Dragon Boots"/>
+		<ItemEx Section="2" Index="3602" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Grand Soul Helm"/>
+		<ItemEx Section="2" Index="4114" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Grand Soul Armor"/>
+		<ItemEx Section="2" Index="4626" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Grand Soul Pants"/>
+		<ItemEx Section="2" Index="5138" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Grand Soul Gloves"/>
+		<ItemEx Section="2" Index="5650" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Grand Soul Boots"/>
+		<ItemEx Section="2" Index="3610" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Adamantine Mask"/>
+		<ItemEx Section="2" Index="4122" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Adamantine Armor"/>
+		<ItemEx Section="2" Index="4634" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Adamantine Pants"/>
+		<ItemEx Section="2" Index="5146" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Adamantine Gloves"/>
+		<ItemEx Section="2" Index="5658" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Adamantine Boots"/>
+		<ItemEx Section="2" Index="3620" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Iris Helm"/>
+		<ItemEx Section="2" Index="4132" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Iris Armor"/>
+		<ItemEx Section="2" Index="4644" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Iris Pants"/>
+		<ItemEx Section="2" Index="5156" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Iris Gloves"/>
+		<ItemEx Section="2" Index="5668" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Iris Boots"/>
+		<ItemEx Section="2" Index="3625" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Helm"/>
+		<ItemEx Section="2" Index="4137" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Armor"/>
+		<ItemEx Section="2" Index="4649" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Pants"/>
+		<ItemEx Section="2" Index="5161" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Gloves"/>
+		<ItemEx Section="2" Index="5673" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Ancient Boots"/>
+		<ItemEx Section="2" Index="3644" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Jahad Helm"/>
+		<ItemEx Section="2" Index="4156" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Jahad Armor"/>
+		<ItemEx Section="2" Index="4668" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Jahad Pants"/>
+		<ItemEx Section="2" Index="5692" Level="0" Grade="0" Durability="0" Option0="33" Option1="0" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Storm Jahad Boots"/>
+		<ItemEx Section="3" Index="3" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Katana"/>
+		<ItemEx Section="3" Index="5" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Blade"/>
+		<ItemEx Section="3" Index="11" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Legendary Sword"/>
+		<ItemEx Section="3" Index="515" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Tomahawk"/>
+		<ItemEx Section="3" Index="1025" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Morning Star"/>
+		<ItemEx Section="3" Index="2057" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Golden Crossbow"/>
+		<ItemEx Section="3" Index="2059" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Crossbow"/>
+		<ItemEx Section="3" Index="2560" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Skull Staff"/>
+		<ItemEx Section="3" Index="2562" Level="0" Grade="0" Durability="0" Option0="28" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Serpent Staff"/>
+		<ItemEx Section="4" Index="3589" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Leather Helm"/>
+		<ItemEx Section="4" Index="4101" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Leather Armor"/>
+		<ItemEx Section="4" Index="4613" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Leather Pants"/>
+		<ItemEx Section="4" Index="5125" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Leather Gloves"/>
+		<ItemEx Section="4" Index="5637" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Leather Boots"/>
+		<ItemEx Section="4" Index="3594" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Vine Helm"/>
+		<ItemEx Section="4" Index="4106" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Vine Armor"/>
+		<ItemEx Section="4" Index="4618" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Vine Pants"/>
+		<ItemEx Section="4" Index="5130" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Vine Gloves"/>
+		<ItemEx Section="4" Index="5642" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Vine Boots"/>
+		<ItemEx Section="4" Index="3586" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pad Helm"/>
+		<ItemEx Section="4" Index="4098" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pad Armor"/>
+		<ItemEx Section="4" Index="4610" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pad Pants"/>
+		<ItemEx Section="4" Index="5122" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pad Gloves"/>
+		<ItemEx Section="4" Index="5634" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pad Boots"/>
+		<ItemEx Section="4" Index="3590" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Scale Helm"/>
+		<ItemEx Section="4" Index="4102" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Scale Armor"/>
+		<ItemEx Section="4" Index="4614" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Scale Pants"/>
+		<ItemEx Section="4" Index="5126" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Scale Gloves"/>
+		<ItemEx Section="4" Index="5638" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Scale Boots"/>
+		<ItemEx Section="4" Index="3595" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Silk Helm"/>
+		<ItemEx Section="4" Index="4107" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Silk Armor"/>
+		<ItemEx Section="4" Index="4619" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Silk Pants"/>
+		<ItemEx Section="4" Index="5131" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Silk Gloves"/>
+		<ItemEx Section="4" Index="5643" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Silk Boots"/>
+		<ItemEx Section="4" Index="3588" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Bone Helm"/>
+		<ItemEx Section="4" Index="4100" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Bone Armor"/>
+		<ItemEx Section="4" Index="4612" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Bone Pants"/>
+		<ItemEx Section="4" Index="5124" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Bone Gloves"/>
+		<ItemEx Section="4" Index="5636" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Bone Boots"/>
+		<ItemEx Section="4" Index="3609" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Plate Mask"/>
+		<ItemEx Section="4" Index="4121" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Plate Armor"/>
+		<ItemEx Section="4" Index="4633" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Plate Pants"/>
+		<ItemEx Section="4" Index="5145" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Plate Gloves"/>
+		<ItemEx Section="4" Index="5657" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Light Plate Boots"/>
+		<ItemEx Section="4" Index="3081" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Plate Shield"/>
+		<ItemEx Section="4" Index="3075" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Elven Shield"/>
+		<ItemEx Section="4" Index="3078" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Skull Shield"/>
+		<ItemEx Section="4" Index="3083" Level="0" Grade="0" Durability="0" Option0="28" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Serpent Shield"/>
+		<ItemEx Section="5" Index="6668" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pendant of Lighting"/>
+		<ItemEx Section="5" Index="6669" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pendant of Fire"/>
+		<ItemEx Section="5" Index="6681" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pendant of Ice"/>
+		<ItemEx Section="5" Index="6682" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pendant of Wind"/>
+		<ItemEx Section="5" Index="6683" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Pendant of Water"/>
+		<ItemEx Section="6" Index="7238" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Elite Healing Potion"/>
+		<ItemEx Section="6" Index="7239" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Elite Mana Potion"/>
+		<ItemEx Section="7" Index="7253" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="[Boost]Cherry Blossom Wine"/>
+		<ItemEx Section="7" Index="7254" Level="0" Grade="0" Durability="5" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="[Boost]Cherry Blossom Rice Cake"/>
+		<ItemEx Section="8" Index="7181" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Bless"/>
+		<ItemEx Section="9" Index="7182" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Soul"/>
+		<ItemEx Section="9" Index="7184" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Life"/>
+		<ItemEx Section="9" Index="7190" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Creation"/>
+		<ItemEx Section="9" Index="7210" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Harmony"/>
+		<ItemEx Section="10" Index="6159" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" Duration="0" Name="Jewel of Chaos"/>
+	</BagItemsEx>
+</ItemBag>

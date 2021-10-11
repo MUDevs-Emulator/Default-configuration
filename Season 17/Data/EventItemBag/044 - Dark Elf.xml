@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="0" EqualAttributes="0"/>
+		<Config Index="1" DropRate="1" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="1" SectionRate="100" MoneyAmount="100000" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+		<DropInfo Index="1" Section="2" SectionRate="1000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="2" Index="17" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dark Breaker"/>
+		<ItemEx Section="2" Index="18" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Thunder Blade"/>
+		<ItemEx Section="2" Index="1036" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Lord Scepter"/>
+		<ItemEx Section="2" Index="2067" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Great Reign Crossbow"/>
+		<ItemEx Section="2" Index="2569" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Soul Staff"/>
+		<ItemEx Section="2" Index="3085" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Shield"/>
+		<ItemEx Section="2" Index="3088" Level="0" Grade="0" Durability="0" Option0="33" Option1="1" Option2="1" Option3="1" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elemental Shield"/>
+		<ItemEx Section="2" Index="2566" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Staff of Resurrection"/>
+		<ItemEx Section="2" Index="1028" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Crystal Morning Star"/>
+		<ItemEx Section="2" Index="1033" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Master Scepter"/>
+		<ItemEx Section="2" Index="1029" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Crystal Sword"/>
+		<ItemEx Section="2" Index="2062" Level="0" Grade="0" Durability="0" Option0="0" Option1="1" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Aquagold Crossbow"/>
+		<ItemEx Section="2" Index="3585" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Helm"/>
+		<ItemEx Section="2" Index="3587" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Legendary Helm"/>
+		<ItemEx Section="2" Index="3598" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Helm"/>
+		<ItemEx Section="2" Index="4097" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Armor"/>
+		<ItemEx Section="2" Index="4099" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Legendary Armor"/>
+		<ItemEx Section="2" Index="4110" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Armor"/>
+		<ItemEx Section="2" Index="4609" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Pants"/>
+		<ItemEx Section="2" Index="4611" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Legendary Pants"/>
+		<ItemEx Section="2" Index="4622" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Pants"/>
+		<ItemEx Section="2" Index="5121" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Gloves"/>
+		<ItemEx Section="2" Index="5123" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Legendary Gloves"/>
+		<ItemEx Section="2" Index="5134" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Gloves"/>
+		<ItemEx Section="2" Index="5633" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Dragon Boots"/>
+		<ItemEx Section="2" Index="5635" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Legendary Boots"/>
+		<ItemEx Section="2" Index="5646" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="1" Option3="1" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Boots"/>
+		<ItemEx Section="2" Index="6692" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Broken Horn"/>
+		<ItemEx Section="2" Index="6674" Level="0" Grade="0" Durability="0" Option0="35" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Invisibility Cloak"/>
+		<ItemEx Section="2" Index="6684" Level="0" Grade="0" Durability="0" Option0="35" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Ability"/>
+		<ItemEx Section="2" Index="6675" Level="0" Grade="0" Durability="0" Option0="35" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Absolute Weapon of Archangel"/>
+	</BagItemsEx>
+</ItemBag>

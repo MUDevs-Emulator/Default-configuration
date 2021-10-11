@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest>
+	<QuestData Index="0" StartType="2" MonsterClass="235" RequireMinLevel="150" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="1" BK="1" FE="1" MG="0" DL="0" SU="1" RF="0" GL="0" RW="1" SL="1" GC="1" Name="Locate the Scroll of the Emperor!"  />
+	<QuestData Index="1" StartType="2" MonsterClass="235" RequireMinLevel="150" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="1" BK="1" FE="1" MG="0" DL="0" SU="1" RF="0" GL="0" RW="1" SL="1" GC="1" Name="The Three Treasures of Mu"  />
+	<QuestData Index="2" StartType="2" MonsterClass="229" RequireMinLevel="220" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="2" BK="2" FE="2" MG="0" DL="0" SU="2" RF="0" GL="0" RW="2" SL="2" GC="2" Name="Achieve 'Hero Status!'"  />
+	<QuestData Index="3" StartType="2" MonsterClass="229" RequireMinLevel="150" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="0" BK="2" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="2" GC="0" Name="Secret of the 'Dark Stone'"/>
+	<QuestData Index="4" StartType="2" MonsterClass="406" RequireMinLevel="380" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="2" BK="2" FE="2" MG="1" DL="1" SU="2" RF="1" GL="1" RW="2" SL="2" GC="2" Name="Prove Your Strength"  />
+	<QuestData Index="5" StartType="2" MonsterClass="406" RequireMinLevel="400" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="2" BK="2" FE="2" MG="1" DL="1" SU="2" RF="1" GL="1" RW="2" SL="2" GC="2" Name="Infiltrate the Barracks of Balgass"  />
+	<QuestData Index="6" StartType="2" MonsterClass="406" RequireMinLevel="400" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="2" BK="2" FE="2" MG="1" DL="1" SU="2" RF="1" GL="1" RW="2" SL="2" GC="2" Name="Into the Realm of 'Darkness"  />
+	<QuestData Index="7" StartType="2" MonsterClass="766" RequireMinLevel="800" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="3" BK="3" FE="3" MG="3" DL="3" SU="3" RF="3" GL="3" RW="3" SL="3" GC="3" Name="4th Class Upgrade - Eligibility Test"  />
+	<QuestData Index="8" StartType="2" MonsterClass="766" RequireMinLevel="800" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="3" BK="3" FE="3" MG="3" DL="3" SU="3" RF="3" GL="3" RW="3" SL="3" GC="3" Name="4th Class Upgrade - New Battle"  />
+	<QuestData Index="9" StartType="2" MonsterClass="766" RequireMinLevel="800" RequireMaxLevel="-1" RequireMinReset="-1" RequireMaxReset="-1" DW="3" BK="3" FE="3" MG="3" DL="3" SU="3" RF="3" GL="3" RW="3" SL="3" GC="3" Name="4th Class Upgrade - New Battle (2)"  />
+</Quest>

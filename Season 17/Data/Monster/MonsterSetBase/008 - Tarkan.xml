@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="605" Range="5" PositionX="188" PositionY="54" Direction="-1" Element="0" /> <!-- "Mining Area (Small)		" -->
+		<Config Class="605" Range="5" PositionX="198" PositionY="64" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="206" PositionY="72" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="206" PositionY="55" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="605" Range="5" PositionX="186" PositionY="60" Direction="-1" Element="0" /> <!-- "Mining Area (Small)" -->
+		<Config Class="606" Range="5" PositionX="164" PositionY="58" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)		" -->
+		<Config Class="606" Range="5" PositionX="197" PositionY="57" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)		" -->
+		<Config Class="606" Range="5" PositionX="192" PositionY="73" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)		" -->
+		<Config Class="606" Range="5" PositionX="203" PositionY="65" Direction="-1" Element="0" /> <!-- "Mining Area (Medium)		" -->
+		<Config Class="607" Range="5" PositionX="205" PositionY="59" Direction="-1" Element="0" /> <!-- "Mining Area (Large)		" -->
+		<Config Class="607" Range="5" PositionX="201" PositionY="70" Direction="-1" Element="0" /> <!-- "Mining Area (Large)		" -->
+		<Config Class="607" Range="5" PositionX="199" PositionY="56" Direction="-1" Element="0" /> <!-- "Mining Area (Large)" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="58" Range="5" BeginPosX="99" BeginPosY="142" EndPosX="99" EndPosY="143" Direction="-1" Quantity="10" Element="0" /> <!-- "Spider" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="61" Range="30" PositionX="7" PositionY="205" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="5" PositionY="214" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="8" PositionY="219" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="6" PositionY="228" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="59" Range="30" PositionX="11" PositionY="241" Direction="-1" Element="0" /> <!-- "Zaikan" -->
+		<Config Class="58" Range="30" PositionX="18" PositionY="238" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="62" Range="30" PositionX="146" PositionY="53" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="61" Range="30" PositionX="72" PositionY="167" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="83" PositionY="176" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="63" PositionY="173" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="62" Range="30" PositionX="148" PositionY="43" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="155" PositionY="40" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="134" PositionY="57" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="151" PositionY="34" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="149" PositionY="28" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="141" PositionY="74" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="142" PositionY="68" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="61" Range="30" PositionX="11" PositionY="234" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="62" Range="30" PositionX="141" PositionY="24" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="137" PositionY="20" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="132" PositionY="15" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="60" Range="30" PositionX="148" PositionY="66" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="62" Range="30" PositionX="134" PositionY="82" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="135" PositionY="89" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="136" PositionY="96" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="148" PositionY="91" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="157" PositionY="89" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="158" PositionY="80" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="154" PositionY="73" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="162" PositionY="101" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="161" PositionY="110" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="171" PositionY="116" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="180" PositionY="112" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="190" PositionY="112" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="197" PositionY="108" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="205" PositionY="105" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="186" PositionY="120" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="60" Range="30" PositionX="181" PositionY="123" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="62" Range="30" PositionX="173" PositionY="129" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="169" PositionY="136" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="162" PositionY="141" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="159" PositionY="148" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="151" PositionY="155" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="152" PositionY="147" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="152" PositionY="133" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="162" PositionY="129" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="152" PositionY="125" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="152" PositionY="116" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="171" PositionY="106" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="151" PositionY="101" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="142" PositionY="100" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="140" PositionY="37" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="62" Range="30" PositionX="133" PositionY="65" Direction="-1" Element="0" /> <!-- "Mutant" -->
+		<Config Class="60" Range="30" PositionX="134" PositionY="72" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="128" PositionY="74" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="57" Range="30" PositionX="123" PositionY="73" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="60" Range="30" PositionX="115" PositionY="86" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="121" PositionY="87" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="128" PositionY="98" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="121" PositionY="99" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="108" PositionY="95" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="104" PositionY="87" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="107" PositionY="80" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="109" PositionY="64" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="108" PositionY="55" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="118" PositionY="42" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="126" PositionY="42" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="133" PositionY="44" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="125" PositionY="26" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="113" PositionY="34" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="105" PositionY="33" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="108" PositionY="43" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="103" PositionY="49" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="97" PositionY="46" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="88" PositionY="41" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="95" PositionY="26" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="96" PositionY="36" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="96" PositionY="56" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="102" PositionY="61" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="104" PositionY="70" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="96" PositionY="78" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="60" Range="30" PositionX="97" PositionY="66" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="57" Range="30" PositionX="81" PositionY="63" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="70" PositionY="57" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="65" PositionY="64" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="64" PositionY="71" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="56" PositionY="75" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="46" PositionY="71" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="38" PositionY="71" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="35" PositionY="62" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="27" PositionY="75" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="34" PositionY="78" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="25" PositionY="83" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="21" PositionY="92" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="58" Range="30" PositionX="38" PositionY="87" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="57" Range="30" PositionX="38" PositionY="98" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="48" PositionY="99" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="55" PositionY="100" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="62" PositionY="91" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="70" PositionY="92" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="79" PositionY="89" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="85" PositionY="91" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="60" Range="30" PositionX="91" PositionY="86" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="57" Range="30" PositionX="89" PositionY="71" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="57" Range="30" PositionX="90" PositionY="50" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+		<Config Class="58" Range="30" PositionX="69" PositionY="120" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="61" PositionY="121" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="54" PositionY="120" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="43" PositionY="121" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="35" PositionY="121" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="24" PositionY="120" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="18" PositionY="127" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="25" PositionY="127" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="32" PositionY="132" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="29" PositionY="98" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="42" PositionY="134" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="35" PositionY="141" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="26" PositionY="149" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="26" PositionY="160" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="33" PositionY="157" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="40" PositionY="150" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="52" PositionY="138" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="61" PositionY="134" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="60" Range="30" PositionX="74" PositionY="81" Direction="-1" Element="0" /> <!-- "Bloody wolf" -->
+		<Config Class="58" Range="30" PositionX="75" PositionY="133" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="81" PositionY="126" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="87" PositionY="120" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="77" PositionY="118" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="96" PositionY="123" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="107" PositionY="119" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="112" PositionY="124" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="119" PositionY="139" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="107" PositionY="139" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="105" PositionY="130" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="107" PositionY="149" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="86" PositionY="131" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="73" PositionY="125" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="76" PositionY="145" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="69" PositionY="139" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="60" PositionY="143" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="52" PositionY="157" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="52" PositionY="165" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="45" PositionY="175" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="33" PositionY="168" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="35" PositionY="175" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="42" PositionY="164" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="64" PositionY="164" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="131" PositionY="178" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="79" PositionY="156" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="93" PositionY="137" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="115" PositionY="154" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="124" PositionY="152" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="129" PositionY="141" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="125" PositionY="129" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="124" PositionY="161" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="115" PositionY="168" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="120" PositionY="177" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="127" PositionY="171" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="127" PositionY="188" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="121" PositionY="196" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="123" PositionY="208" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="121" PositionY="217" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="106" PositionY="225" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="109" PositionY="217" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="102" PositionY="212" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="98" PositionY="207" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="88" PositionY="208" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="80" PositionY="207" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="78" PositionY="198" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="88" PositionY="189" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="83" PositionY="185" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="98" PositionY="193" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="73" PositionY="179" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="71" PositionY="184" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="161" PositionY="188" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="114" PositionY="209" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="153" PositionY="187" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="166" PositionY="190" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="159" PositionY="195" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="172" PositionY="195" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="179" PositionY="194" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="183" PositionY="201" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="177" PositionY="207" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="176" PositionY="214" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="173" PositionY="221" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="160" PositionY="203" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="63" Range="30" PositionX="161" PositionY="225" Direction="-1" Element="0" /> <!-- "Death Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="161" PositionY="218" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="157" PositionY="214" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="153" PositionY="209" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="150" PositionY="203" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="167" PositionY="225" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="93" PositionY="150" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="169" PositionY="204" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="44" PositionY="213" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="39" PositionY="210" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="31" PositionY="207" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="24" PositionY="212" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="27" PositionY="229" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="31" PositionY="236" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="29" PositionY="245" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="36" PositionY="225" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="42" PositionY="244" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="61" Range="30" PositionX="50" PositionY="241" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="50" PositionY="230" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="43" PositionY="222" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="29" PositionY="220" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="15" PositionY="218" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="19" PositionY="205" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="11" PositionY="246" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="6" PositionY="240" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="157" PositionY="224" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="61" Range="30" PositionX="85" PositionY="141" Direction="-1" Element="0" /> <!-- "Beam Knight" -->
+		<Config Class="58" Range="30" PositionX="22" PositionY="244" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="52" PositionY="204" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="58" Range="30" PositionX="165" PositionY="219" Direction="-1" Element="0" /> <!-- "Tantalos" -->
+		<Config Class="57" Range="30" PositionX="114" PositionY="78" Direction="-1" Element="0" /> <!-- "Iron Wheel" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

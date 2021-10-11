@@ -1,0 +1,66 @@
+//====================================================================================//
+//= OMEGA - SummonScroll.dat - 26/12/2020
+//= Add: Monkey / Rooster / Puppy / Pig / Mouse 
+//====================================================================================//
+0
+//Index   ItemIndex   Comment
+0         7378        //Summon Scroll (Lv1)
+1         7379        //Summon Scroll (Lv2)
+2         7380        //Summon Scroll (Lv3)
+3         7381        //Summon Scroll (Lv4)
+4         7385        //Titan's Anger
+5         7386        //Tantalose's Punishment
+6         7387        //Erohim's Nightmare
+7         7388        //Hell Maine's Insanity
+8         7389        //Kundun's Greed
+9         7402        //Book of Monster Invocation
+end
+
+1
+//Index   Group   MonsterClass   CreateRate   Comment
+0         0       647            10000        //Green Snake (Green)
+0         0       691            5000         //New Year Horse (Green)
+0         0       726            5000         //Goat (Green)
+0         0       739            5000         //Monkey (Green) 
+0         0       759            5000         //Rooster (Green)
+0         0       795            5000         //Puppy (Green) 
+0         0       817            5000         //Pig (Green) 
+0         0       855            5000         //Mouse (Green)
+1         0       648            10000        //Yellow Snake (Yellow)
+1         0       692            5000         //New Year Horse (Yellow)
+1         0       727            5000         //Goat (White)
+1         0       740            5000         //Monkey (White)
+1         0       760            5000         //Rooster (White) 
+1         0       796            5000         //Puppy (White) 
+1         0       818            5000         //Pig (Blue) 
+1         0       856            5000         //Mouse (Blue)
+2         0       649            10000        //Purple Snake (Purple)
+2         0       693            5000         //New Year Horse (Brown)
+2         0       728            10000        //Goat (Purple)
+2         0       741            10000        //Monkey (Purple) 
+2         0       761            10000        //Rooster (Purple) 
+2         0       797            10000        //Puppy (Purple) 
+2         0       819            10000        //Pig (Purple)
+2         0       857            10000        //Mouse (Purple)
+3         0       650            10000        //Red Snake (Red)
+3         0       694            5000         //New Year Horse (Blue)
+3         0       729            5000         //Goat (Red)
+3         0       742            5000         //Monkey (Red) 
+3         0       762            5000         //Rooster (Red) 
+3         0       798            5000         //Puppy (Yellow) 
+3         0       820            5000         //Pig (Red) 
+3         0       858            5000         //Mouse (Red)
+4         0       653            10000        //Golden Titan
+5         0       654            10000        //Golden Tantalose
+6         0       655            10000        //Golden Erohim
+7         0       656            10000        //Golden Hell Maine
+8         0       657            10000        //Golden Kundun
+8         1       654            10000        //Golden Tantalose
+8         2       654            10000        //Golden Tantalose
+8         3       654            10000        //Golden Tantalose
+8         4       654            10000        //Golden Tantalose
+9         0       674            3000         //Moon Rabbit
+9         0       675            3000         //Pouch of Blessing
+9         0       676            3000         //Fire Flame Ghost
+9         0       677            1000         //Golden Goblin
+end

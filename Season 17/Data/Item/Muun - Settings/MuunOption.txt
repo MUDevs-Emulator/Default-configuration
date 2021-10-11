@@ -1,0 +1,442 @@
+0
+//Index 	 Group 	 Type 	 Rank 	 EvolutionIndex 	 Comment 
+8192 		 42 	 1 	 4 	 8193 			 // Pinocchio
+8193 		 43 	 1 	 4 	 * 			 // Pinocchio (Evolved)
+8194 		 38 	 1 	 2 	 8195 			 // Geppetto 
+8195 		 38 	 1 	 2 	 * 			 // Geppetto (Evolved)
+8196 		 25 	 1 	 2 	 8197 			 // Blue Fairy 
+8197 		 25 	 1 	 2 	 * 			 // Blue Fairy (Evolved)
+8198 		 40 	 1 	 4 	 8199 			 // Papa Bear
+8199 		 41 	 1 	 4 	 * 			 // Papa Bear (Evolved)
+8200 		 57 	 1 	 2 	 8201 			 // Baby Bear 
+8201 		 57 	 1 	 2 	 * 			 // Baby Bear (Evolved)
+8202 		 28 	 1 	 2 	 8203 			 // Mama Bear 
+8203 		 28	 1 	 2 	 * 			 // Mama Bear (Evolved)
+8204 		 42 	 1 	 4 	 8205 			 // Woody 
+8205 		 43 	 1 	 4 	 * 			 // Woody (Evolved)
+8206 		 38 	 1 	 2 	 8207 			 // Treasure Chest 
+8207 		 38 	 1 	 2 	 * 			 // Treasure Chest (Evolved)
+8208 		 28 	 1 	 2 	 8209 			 // Treasure Hunter 
+8209 		 28	 1 	 2 	 * 			 // Treasure Hunter (Evolved)
+8210 		 40 	 1 	 4 	 8211 			 // Tree Elf 
+8211 		 41 	 1 	 4 	 * 			 // Tree Elf (Evolved)
+8212 		 23 	 1 	 2 	 8213 			 // Grass Fairy 
+8213 		 23 	 1 	 2 	 * 			 // Grass Fairy (Evolved)
+8214 		 54 	 1 	 2 	 8215 			 // Leaf Mage 
+8215 		 54 	 1 	 2 	 * 			 // Leaf Mage (Evolved)
+8216 		 50 	 1 	 4 	 8217 			 // Samba Girl
+8217 		 51 	 1 	 4 	 * 			 // Samba Girl (Evolved)
+8218 		 48 	 1 	 2 	 8219 			 // Rio 
+8219 		 48 	 1 	 2 	 * 			 // Rio (Evolved)
+8220 		 54 	 1 	 2 	 8221 			 // Bateria
+8221 		 54 	 1 	 2 	 * 			 // Bateria (Evolved)
+8222 		 61 	 1 	 3 	 * 			 // Reporter
+8223 		 41 	 1 	 4 	 * 			 // Dragon Articles
+8224 		 40 	 1 	 4 	 8225 			 // Tiger
+8225 		 41 	 1 	 4 	 * 			 // Tiger(Evolved)
+8226 		 42 	 1 	 4 	 8227 			 // Libra (Evolved)
+8227 		 43 	 1 	 4 	 * 			 // Libra 
+8228 		 50 	 1 	 4 	 8229 			 // Scorpio (Evolved)
+8229 		 51 	 1 	 4 	 * 			 // Scorpio (Evolved)
+8230 		 42 	 1 	 4 	 8231 			 // Meowstrong 
+8231 		 43 	 1 	 4 	 * 			 // Meowstrong (Evolved)
+8232 		 68 	 1 	 3 	 * 			 // Dotto
+8233 		 40 	 1 	 4 	 8234 			 // Chicken
+8234 		 41 	 1 	 4 	 * 			 // Chicken (Evolved)
+8235 		 38 	 1 	 2 	 8236 			 // Chick
+8236 		 38 	 1 	 2 	 * 			 // Chick (Evolved)
+8237 		 25 	 1 	 2 	 8238 			 // Angry Rooster
+8238 		 25	 1 	 2 	 * 			 // Angry Rooster (Evolved)
+8239 		 32 	 1 	 4 	 8240 			 // Lion Mask 
+8240 		 51 	 1 	 4 	 * 			 // Lion Mask (Evolved)
+8241 		 * 	 1 	 4 	 8242 			 // Knight Instructor
+8242 		 * 	 1 	 4 	 * 			 // Knight Instructor (Evolved)
+8243 		 * 	 1 	 4 	 8244 			 // Black Leopard
+8244 		 * 	 1 	 4 	 * 			 // Black Leopard (Evolved)
+8245 		 * 	 1 	 4 	 8246 			 // Toy Robot
+8246 		 * 	 1 	 4 	 * 			 // Toy Robot (Evolved)
+8247 		 50	 1       4       8248             	 //Adventure cat
+8248 		 51	 1       4       *                	 //Adventure cat (Evolved)
+8249 		 40	 1       4       8250             	 //Dike
+8250 		 41	 1       4       *                	 //Dike (Evolved)
+8251 		 50	 1       4       8252             	 //Rainy Girl
+8252 		 51	 1       4       *                	 //Rainy Girl (Evolved)
+8253 		 42	 1       4       8254             	 //Scarecrow
+8254 		 43	 1       4       *                	 //Scarecrow (Evolved)
+8255 		 40	 1       4       8256             	 //Zombie Articles
+8256 		 41	 1       4       *                	 //Zombie Articles (Evolved)
+8257 		 50	 1       4       8258             	 //Mr. Fishing King
+8258 		 51	 1       4       *                	 //Mr. Fishing King (Evolved)
+8259 		 42	 1       4       8260             	 //Snow Fairy
+8260 		 43	 1       4       *                	 //Snow Fairy (Evolved)
+8261 		 69	 5       4       *                	 //Prince
+8262 		 72	 5       4       *                	 //Rex Millon
+8263 		 50	 1       4       8264             	 //Dodo Poodle
+8264 		 51	 1       4       *                	 //Dodo Poodle (Evolved)
+8265 		 23	 1       2       8266             	 //Shinan Beagle
+8266 		 23	 1       2       *                	 //Shinan Beagle (Evolved)
+8267 		 39	 1       2       8268             	 //Angry Bulldog
+8268 		 39	 1       2       *                	 //Angry Bulldog (Evolved)
+8269 		 40	 1       4       8270             	 //Skier
+8270 		 41	 1       4       *                	 //Scythe (Evolved)
+8271 		 70	 1       2       8272             	 //Figure Queen
+8272 		 70	 1       2       *                	 //Figure Queen (Evolved)
+8273 		 25	 1       2       8274             	 //Hockey Bear
+8274 		 25	 1       2       *                	 //Hockey Bear (Evolved)
+8275 		 42	 1       4       8276             	 //Pilot
+8276 		 43	 1       4       *                	 //Pilot (Evolved)
+8277 		 50	 1       4       8278             	 //Super Panda
+8278 		 51	 1       4       *                	 //Super Panda (Evolved)
+8279 		 42	 1       4       8280             	 //Belly Dancer
+8280 		 43	 1       4       *                	 //Belly Dancer (Evolved)
+8281 		 40	 1       4       8282             	 //Strong Captain
+8282 		 41	 1       4       *                	 //Strong Captain (Evolved)
+8283 		 71	 1       2       8284             	 //Strong Keeper
+8284 		 71	 1       2       *                	 //Strong Keeper (Evolved)
+8285 		 25	 1       2       8286             	 //Supreme Referee
+8286 		 25	 1       2       *                	 //Supreme Referee (Evolved)
+8287 		 50	 1       4       8288             	 //Hip-Hop Dino
+8288 		 51	 1       4       *                	 //Hip-Hop Dino (Evolved)
+8289 		 42	 1       4       8290             	 //Beach Girl
+8290 		 43	 1       4       *                	 //Beach Girl (Evolved)
+8291 		 50	 1       4       8292             	 //Bead Master
+8292 		 51	 1       4       *                	 //Bead Master (Evolved)
+8293 		 40	 1       4       8294             	 //Hangul King
+8294 		 41	 1       4       *                	 //Hangul (Evolved)
+8295 		 50	 1       4       8296             	 //Apple Sword
+8296 		 51	 1       4       *                	 //Apple Sword (Evolved)
+8297 		 42	 1       4       8298             	 //Flying Bread
+8298 		 43	 1       4       *                	 //Flying Bread (Evolved)
+8299 		 69	 5       4       *                	 //The Great Fairy Kara
+8300 		 72	 5       4       *                	 //Great Wizard Eithamu
+8301 		 43	 1       4       *                	 //Bell
+8302 		 50	 1       4       8303             	 //Lapa
+8303 		 51	 1       4       *                	 //Lapa (Evolved)
+8304 		 40	 1       4       8305             	 //Knicks
+8305 		 41	 1       4       *                	 //Knicks (Evolved)
+8306 		 50	 1       4       8307             	 //Serufan
+8307 		 51	 1       4       *                	 //Serufan (Evolved)
+8308 		 42	 1       4       8309             	 //Medusa
+8309 		 43	 1       4       *                	 //Medusa (Evolved)
+8310 		 50	 1       4       8311             	 //Balrog
+8311 		 51	 1       4       *                	 //Balrog (Evolved)
+8312 		 40	 1       4       8313             	 //Hellmine
+8313 		 41	 1       4       *                	 //Hellmine (Evolved)
+8314 		 50	 1       4       8315             	 //Kundun
+8315 		 51	 1       4       *                	 //Kundun (Evolved)
+8316 		 42	 1       4       8317             	 //Hydra
+8317 		 43	 1       4       *                	 //Hydra (Evolved)
+8318 		 50	 1       4       8319             	 //Death Beam Knight
+8319 		 51	 1       4       *                	 //Death Beam Knight (Evolved)
+8320 		 40	 1       4       8321             	 //Nightmare
+8321 		 41	 1       4       *                	 //Nightmare (Evolved)
+8322 		 42	 1       4       8323             	 //Phoenix of Darkness
+8323 		 43	 1       4       *                	 //Phoenix of Darkness (Evolved)
+8324 		 50	 1       4       8325             	 //Kairuku
+8325 		 51	 1       4       *                	 //Kairuku (Evolved)
+8326 		 51	 1       4       *                	 //Legendary Warlock
+8327 		 41	 1       4       *                	 //The Fairy of the Guardian
+8328 		 73	 1       3       8329             	 //Desmodus
+8329 		 73	 1       3       *                	 //Desmodus (Evolved)
+8330 		 69	 5       4       *                	 //Fairy Queen Runedil
+8331 		 72	 5       4       *                	 //Marshal Gaion Carin
+8332 		 50	 1       4       8333             	 //Mouse in Boots
+8333 		 51	 1       4       *                	 //Mouse in Boots (Evolved)
+8334 		 50	 1       4       8334             	 //Blossoming Rhea
+8335 		 51	 1       4       *                	 //Blossoming Rhea (Evolved)
+8336 		 50	 1       4       8337             	 //Shadow Phantom
+8337 		 51	 1       4       *                	 //Shadow Phantom (Evolved)
+8338 		 50	 1       4       8339             	 //WareHouse Guardian
+8339 		 51	 1       4       *                	 //WareHouse Guardian (Evolved)
+8340 		 50	 1       4       8341             	 //Fairy Lara
+8341 		 51	 1       4       *                	 //Fairy Lara (Evolved)
+8342 		 28 	 5 	 4 	 * 			 // Tablet's Elpis
+8343 		 72 	 5 	 4 	 * 			 // Muren Rexmillon
+8344 		 50 	 1 	 4 	 8345 			 // Uma king
+8345 		 51 	 1 	 4 	 * 			 // Uma King (Evolution)
+8346 		 50 	 1 	 4 	 8347 			 // Dandelion fairy
+8347 		 51 	 1 	 4 	 * 			 // Dandelion Fairy (Evolution)
+8348 		 50 	 1 	 4 	 8349 			 // Sea lifeguard
+8349 		 51 	 1 	 4 	 * 			 // Sea lifeguard (Evolution)
+8350 		 50 	 1 	 4 	 8351 			 // Chestnut Fairy
+8351 		 51 	 1 	 4 	 * 			 // Chestnut Fairy (Evolution)
+8352 		 50 	 1 	 4 	 8353 			 // Snowboarder
+8353 		 51 	 1 	 4 	 * 			 // Snowboarder (Evolution)
+8404 		 0 	 1 	 3 	 8405 			 // Luki 
+8405 		 0 	 1 	 3 	 * 			 // Luki (Evolved)
+8406 		 9 	 1 	 3 	 8407 			 // Tony 
+8407 		 9 	 1 	 3 	 * 			 // Tony (Evolved)
+8408 		 1 	 1 	 2 	 8409 			 // Nymph (Evolved)
+8409 		 1 	 1 	 2 	 * 			 // Nymph (Evolved)
+8410 		 2 	 1 	 1 	 8411 			 // Safi
+8411 		 2 	 1 	 1 	 * 			 // Safi (Evolved)
+8415 		 3 	 1 	 4 	 8416 			 // William 
+8416 		 3 	 1 	 4 	 * 			 // William (Evolved)
+8417 		 4 	 1 	 2 	 8418 			 // Paul 
+8418 		 4 	 1 	 2 	 * 			 // Paul (Evolved)
+8419 		 5 	 1 	 2 	 8420 			 // Chiron 
+8420 		 5 	 1 	 2 	 * 			 // Chiron (Evolved)
+8421 		 14 	 1 	 4 	 8422 			 // Wooparoo 
+8422 		 14 	 1 	 4 	 * 			 // Wooparoo (Evolved)
+8423 		 11 	 4 	 3 	 8424 			 // Tibetton 
+8424 		 11 	 4 	 3 	 * 			 // Tibetton (Evolved)
+8425 		 6 	 1 	 4 	 8426 			 // Witch 
+8426 		 6 	 1 	 4 	 * 			 // Witch (Evolved)
+8427 		 7 	 1 	 2 	 8428 			 // Skull 
+8428 		 7 	 1 	 2 	 * 			 // Skull (Evolved)
+8429 		 8 	 1 	 2 	 8430 			 // Pumpkie 
+8430 		 8 	 1 	 2 	 * 			 // Pumpkie (Evolved)
+8433 		 10 	 1 	 4 	 8434 			 // Savath 
+8434 		 10	 1 	 4 	 * 			 // Savath (Evolved)	
+8435 		 13 	 1 	 2 	 8436 			 // Lycan 
+8436 		 13	 1 	 2 	 * 			 // Lycan (Evolved)
+8437 		 12 	 1 	 2 	 8438 			 // Torby 
+8438 		 12 	 1 	 2 	 * 			 // Torby (Evolved)	
+8444 		 15 	 1 	 2 	 8445 			 // Seiren 
+8445 		 15	 1 	 2 	 * 			 // Seiren (Evolved)
+8446 		 16 	 1 	 2 	 8447 			 // Behemoth
+8447 		 16 	 1 	 2 	 * 			 // Behemoth (Evolved)
+8448 		 24 	 1 	 4 	 8449 			 // Loggle 
+8449 		 24 	 1 	 4 	 * 			 // Loggle (Evolved)	
+8450 		 23 	 1 	 2 	 8451 			 // Mino 
+8451 		 23 	 1 	 2 	 * 			 // Mino (Evolved)
+8452 		 25 	 1 	 2 	 8453 			 // Hound
+8453 		 25 	 1 	 2 	 * 			 // Hound (Evolved)	
+8454 		 17 	 1 	 4 	 8455 			 // Trive
+8455 		 17 	 1 	 4 	 * 			 // Trive (Evolved)
+8456 		 19 	 1 	 2 	 8457 			 // Vogan 
+8457 		 19	 1 	 2 	 * 			 // Vogan (Evolved)	
+8458 		 18 	 1 	 2 	 8459 			 // Cyclop 
+8459 		 18 	 1 	 2 	 * 			 // Cyclop (Evolved)	
+8462 		 20 	 1 	 4 	 8463 			 // Bonf 
+8463 		 20 	 1 	 4 	 * 			 // Bonf (Evolved)
+8464 		 21 	 1 	 2 	 8465 			 // Hawk 
+8465 		 21 	 1 	 2 	 * 			 // Hawk (Evolved)
+8466 		 22 	 1 	 2 	 8467 			 // Muty 
+8467 		 22 	 1 	 2 	 * 			 // Muty (Evolved)
+8470 		 20 	 1 	 4 	 8471 			 // Mantis 
+8471 		 20 	 1 	 4 	 * 			 // Mantis (Evolved)
+8472 		 27 	 1 	 2 	 8473 			 // Scolpy
+8473 		 27 	 1 	 2 	 * 			 // Scolpy (Evolved)	
+8474 		 28 	 1 	 2 	 8475 			 // Chafer 
+8475 		 28	 1 	 2 	 * 			 // Chafer (Evolved)
+//8476 		 29 	 1 	 4 	 8477			 // Shogun 
+//8477 		 29	 1 	 4 	 * 			 // Shogun (Evolved)	
+//8478 		 30 	 1 	 2 	 8479 			 // Ninja 
+//8479 		 30 	 1 	 2 	 * 			 // Ninja (Evolved)	
+//8480 		 31 	 1 	 2 	 8481 			 // Samurai 
+//8481 		 31 	 1 	 2 	 * 			 // Samurai (Evolved)
+8482 		 32 	 1 	 4 	 8483 			 // Cosplay Girl 
+8483 		 32 	 1 	 4 	 * 			 // Cosplay Girl (Evolved)
+8484 		 33 	 1 	 2 	 8485 			 // Cheer Girl
+8485 		 33 	 1 	 2 	 * 			 // Cheer Girl (Evolved)
+8486 		 34 	 1 	 2 	 8487 			 // Sporty Girl 
+8487 		 34 	 1 	 2 	 * 			 // Sporty Girl (Evolved)
+8488 		 24 	 1 	 2 	 8489 			 // Baal 
+8489 		 24 	 1 	 2 	 * 			 // Baal (Evolved)
+8490 		 35 	 1 	 2 	 8491 			 // Gaap 
+8491 		 35 	 1 	 2 	 * 			 // Gaap (Evolved)
+8492 		 25	 1 	 4 	 8493			 // Taaf 
+8493 		 25 	 1 	 4 	 * 			 // Taaf (Evolved)
+8494 		 28 	 1 	 4 	 8495 			 // Frozen 
+8495 		 28 	 1 	 4 	 * 			 // Frozen (Evolved)
+8496 		 36 	 1 	 2 	 8497 			 // Lure 
+8497 		 36 	 1 	 2 	 * 			 // Lure (Evolved)	
+8498 		 26 	 1 	 2 	 8499 			 // Fur Seal
+8499 		 26	 1 	 2 	 * 			 // Fur Seal (Evolved)
+8500 		 32 	 1 	 4 	 8501 			 // Lucky Rabbit 
+8501 		 32 	 1 	 4 	 * 			 // Lucky Rabbit (Evolved)	
+8502 		 37 	 1 	 2 	 8503 			 // Mooncake Rabbit (Evolved)
+8503 		 37 	 1 	 2 	 * 			 // Mooncake Rabbit (Evolved)
+8504 		 28 	 1 	 2 	 8505 			 // Mortar Rabbit 
+8505 		 28 	 1 	 2 	 * 			 // Mortar Rabbit (Evolved)
+8506 		 40 	 1 	 4 	 8507			 // Tarius
+8507 		 41 	 1 	 4 	 * 			 // Tarius (Evolved)
+8508 		 38 	 1 	 2 	 8509			 // Rainer 
+8509 		 38	 1 	 2 	 * 			 // Rainer (Evolved)	
+8510 		 39 	 1 	 2 	 8511 			 // Alkamo 
+8511 		 39 	 1 	 2 	 * 			 // Alkamo (Evolved)	
+8512 		 42 	 4 	 3 	 8513 			 // Glacuse 
+8513 		 43 	 4 	 3 	 * 			 // Glacuse (Evolved)	
+8514 		 44 	 4 	 3 	 8515 			 // Kenturion
+8515 		 44 	 4 	 3 	 * 			 // Kenturion (Evolved)
+8516 		 34 	 4 	 3 	 8517 			 // Rocka 
+8517 		 34 	 4 	 3 	 * 			 // Rocka (Evolved)	
+8518 		 45 	 1 	 4 	 8519 			 // Repen (Evolved)
+8519 		 45 	 1 	 4 	 * 			 // Repen (Evolved)
+8520 		 46 	 1 	 2 	 8521 			 // Pawn 
+8521 		 46 	 1 	 2 	 * 			 // Pawn (Evolved)	
+8522 		 47 	 1 	 2 	 8523 			 // Griffs 
+8523 		 47 	 1 	 2 	 * 			 // Griffs (Evolved)	
+8524 		 40 	 1 	 4 	 8525			 // Polar Bear
+8525 		 40 	 1 	 4 	 * 			 // Polar Bear (Evolved)
+8526 		 48	 1 	 2 	 8527			 // Present 
+8527 		 48 	 1 	 2 	 * 			 // Present (Evolved)
+8528 		 25 	 1 	 2 	 8529 			 // Rocking Horse 
+8529 		 25 	 1 	 2 	 * 			 // Rocking Horse (Evolved)	
+8530 		 50 	 1 	 4 	 8531 			 // Aries 
+8531 		 51 	 1 	 4 	 * 			 // Aries (Evolved)	
+8532 		 49 	 1 	 2 	 8533 			 // Lester 
+8533 		 49 	 1 	 2 	 * 			 // Lester (Evolved)
+8534 		 39 	 1 	 2 	 8535 			 // Merino 
+8535 		 39 	 1 	 2 	 * 			 // Merino (Evolved)	
+8536 		 40 	 1 	 4 	 8538  			 // Splinter 
+8537 		 41	 1 	 4 	 * 			 // Splinter (Evolved)	
+8538 		 52 	 1 	 2 	 8539 			 // Mutation 
+8539 		 52 	 1 	 2 	 * 			 // Mutation (Evolved)	
+8540 		 28 	 1 	 2 	 8541			 // Fighter
+8541 		 28 	 1 	 2 	 * 			 // Fighter (Evolved)
+8601 		 42 	 1 	 4 	 8602 			 // Heywood 
+8602 		 43 	 1 	 4 	 * 			 // Heywood (Evolved)	
+8603 		 53 	 1 	 2 	 8604			 // Branch 
+8604 		 53 	 1 	 2 	 * 			 // Branch (Evolved)	
+8605 		 54 	 1 	 2 	 8606 			 // Hook 
+8606 		 54 	 1 	 2 	 * 			 // Hook (Evolved)	
+8607 		 50 	 1 	 4 	 8608 			 // Carnifle
+8608 		 51 	 1 	 4 	 * 			 // Carnifle (Evolved)	
+8609 		 55 	 1 	 2 	 8610			 // Mandora 
+8610 		 55 	 1 	 2 	 * 			 // Mandora (Evolved)	
+8611 		 25 	 1 	 2 	 8612			 // Treat 
+8612 		 25 	 1 	 2 	 * 			 // Treat (Evolved)	
+8613 		 42 	 1 	 4 	 8614 			 // Rose Spirit 
+8614 		 43 	 1 	 4 	 * 			 // Rose Spirit (Evolved)
+8615 		 57 	 1 	 2 	 8616  			 // Freesia Spirit 
+8616 		 57 	 1 	 2 	 * 			 // Freesia Spirit (Evolved)	
+8617 		 39 	 1 	 2 	 8618 			 // Cherry Blossom Spirit
+8618 		 39 	 1 	 2 	 * 			 // Cherry Blossom Spirit (Evolved)	
+8619 		 40 	 1 	 4 	 8620 			 // Gigantes 
+8620 		 41 	 1 	 4 	 * 			 // Gigantes (Evolved)	
+8621 		 48 	 1 	 2 	 8622 			 // Mammoth 
+8622 		 48 	 1 	 2 	 * 			 // Mammoth (Evolved) 
+8623 		 25 	 1 	 2 	 8624 			 // Walker 
+8624 		 25 	 1 	 2 	 * 			 // Walker (Evolved)	
+8625 		 42 	 1 	 4 	 8626 			 // Surfing Girl 
+8626 		 43 	 1 	 4 	 * 			 // Surfing Girl (Evolved)
+8627 		 44 	 1 	 2 	 8628 			 // Swim Tube Girl 
+8628 		 44 	 1 	 2 	 * 			 // Swim Tube Girl (Evolved)	
+8629 		 34 	 1 	 2 	 8630 			 // Snorkeling Girl (Evolved)
+8630 		 34 	 1 	 2 	 * 			 // Snorkeling Girl (Evolved)
+8631 		 50 	 1 	 4 	 8632 			 // Commander
+8632 		 51 	 1 	 4 	 * 			 // Commander (Evolved)	
+8633 		 36 	 1 	 2 	 8634 			 // Lance Soldier
+8634 		 36 	 1 	 2 	 * 			 // Lance Soldier (Evolved)	
+8635 		 28 	 1 	 2 	 8637 			 // Bow Soldier 
+8636 		 28 	 1 	 2 	 * 			 // Bow Soldier (Evolved)	
+8637 		 42 	 1 	 4 	 8639 			 // Hammer 
+8638 		 43 	 1 	 4 	 * 			 // Hammer (Evolved)	
+8639 		 58 	 1 	 2 	 8640 			 // Refear 
+8640 		 58 	 1 	 2 	 * 			 // Refear (Evolved)
+8641 		 25 	 1 	 2 	 8642 			 // Axer 
+8642 		 25	 1 	 2 	 * 			 // Axer (Evolved)
+8643 		 50 	 1 	 4 	 8644 			 // Pumpkin Girl 
+8644 		 51 	 1 	 4 	 * 			 // Pumpkin Girl (Evolved)	
+8645 		 7 	 1 	 2 	 8646 			 // Ghost 
+8646 		 7 	 1 	 2 	 * 			 // Ghost (Evolved)	
+8647		 54 	 1 	 2 	 8648 			 // Mummy Boy 
+8648 		 54	 1 	 2 	 * 			 // Mummy Boy (Evolved)	
+8649 		 50 	 1 	 2 	 8650 			 // Chrysanthemum 
+8650 		 51 	 1 	 2 	 * 			 // Chrysanthemum (Evolved)
+8651 		 23 	 1 	 4 	 8652 			 // Maple 
+8652 		 23 	 1 	 4 	 * 			 // Maple (Evolved)	
+8653 		 39 	 1 	 4 	 8654 			 // Ginkgo 
+8654 		 39	 1 	 2 	 * 			 // Ginkgo (Evolved)
+8655 		 7 	 1 	 2 	 * 			 // Ghost (Evolved)
+8656 		 54 	 1 	 2 	 * 			 // Mummy Boy (Evolved)
+8669 		 56 	 1 	 4 	 * 			 //[PC Cafe] Orris
+8672 		 42 	 1 	 2 	 8673 			 // Toy Soldier 
+8673 		 43 	 1 	 4 	 * 			 // Toy Soldier (Evolved)
+8674 		 59 	 1 	 4 	 8675 			 // Christmas Tree
+8676 		 59 	 1 	 2 	 * 			 // Christmas Tree (Evolved)
+8677 		 54 	 1 	 2 	 8678 			 // Snowman 
+8678 		 54	 1 	 2 	 * 			 // Snowman (Evolved)
+8679 		 50 	 1 	 2 	 8679 			 // Busker Monkey 
+8679 		 51	 1 	 4 	 * 			 // Busker Monkey (Evolved)
+8680 		 38 	 1 	 4 	 8681 			 // DJ Monkey 
+8681 		 38	 1 	 2 	 * 			 // DJ Monkey (Evolved)
+8682 		 25 	 1 	 2 	 8683 			 // Space Monkey 
+8683 		 25 	 1 	 2 	 * 			 // Space Monkey (Evolved)
+8684 		 40 	 1 	 2 	 8685 			 // Little Cupid 
+8685 		 41 	 1 	 4 	 * 			 // Little Cupid (Evolved)
+8686 		 49 	 1 	 4 	 8687 			 // Chocolate Cookie 
+8687 		 49 	 1 	 2 	 * 			 // Chocolate Cookie (Evolved)
+8688 		 34 	 1 	 2 	 8689 			 // Heart Girl
+8689 		 34 	 1 	 2 	 * 			 // Heart Girl (Evolved)
+8690 		 50 	 1 	 2 	 8691 			 // Candy Girl 
+8691 		 51 	 1 	 2 	 * 			 // Candy Girl (Evolved)
+8692 		 57 	 1 	 2 	 8693 			 // Lollipop Mama 
+8693 		 57 	 1 	 2 	 * 			 // Lollipop Mama (Evolved)
+8694 		 28 	 1 	 2 	 8695 			 // Sweet Muscle Man 
+8695 		 28 	 1 	 2 	 * 			 // Sweet Muscle Man (Evolved)
+end
+
+1
+//Group   OptionIndex   Value0   Value1   Value2   Value3   Value4   MaxValue   SpecialIndex   SpecialValue   MapZone   PlayTime   DayOfWeek   MinHour   MaxHour   MinLevel   MaxLevel
+0         4      	22       26       30       34       0        38         0              10             *         *          *           6         12        *          *
+1         1      	2        4        6        0        0        8          0              5              56        *          *           *         *         *          *
+2         7      	2        4        0        0        0        6          0              5              *         *          *           *         *         1          200
+3         1      	14       16       18       20       22       24         0              20             *         *          113         *         *         *          *
+4         5      	4        6        8        0        0        10         0              5              *         *          *           1         12        *          *
+5         5      	2        4        6        0        0        8          0              5              *         *          *           1         12        *          *
+6         11      	14       16       18       20       22       24         0              20             *         *          113         *         *         *          *
+7         7      	2        4        6        0        0        8          0              5              *         *          *           *         *         601        *
+8         7      	2        4        6        0        0        8          0              5              *         *          *           *         *         1          200
+9         5      	9        12       15       18       0        21         0              15             *         *          14          *         *         *          *
+10        5      	23       26       29       32       35       38         0              20             *         *          113         *         *         *          *
+11        1      	6        8        10       12       0        14         0              15             *         *          *           1         12        *          *
+12        4      	2        6        10       0        0        14         0              5              *         *          *           *         *         1	      200
+13        9      	4        6        8        0        0        10         1              2              *         *          *           1         12        *          *
+14        1      	14       16       18       20       22       24         0              20             *         *          113         *         *         *          *
+15        11      	2        4        6        0        0        8          0              5              *         *          *           *         *         1          300
+16        9      	4        6        8        0        0        10         1              2              *         *          14          *         *         *          *
+17        11     	14       16       18       20       22       24         0              20             *         *          113         *         *         *          *
+18        9      	4        6        8        0        0        10         1              2              *         *          *           *         *         601        *
+19        1      	2        4        0        0        0        8          0              5              *         *          14          *         *         *          *
+20        14      	9        11       13       15       17       19         0              20             *         *          113         *         *         *          *
+21        14      	2        4        6        0        0        8          0              5              *         *          14          *         *         *          *
+22        9      	4        6        8        0        0        10         1              2              *         *          *           1         12        *          *
+23        6      	2        4        6        0        0        8          0              5              *         *          30          *         *         *          *
+24        2      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+25        10      	4        6        8        0        0        10         1              2              *         *          *           *         *         601        *
+26        12      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+27        12      	2        4        6        0        0        8          0              5              *         *          *           1         12        *          *
+28        10      	4        6        8        0        0        10         1              2              *         *          30          *         *         *          *
+29        1      	14       16       18       20       22       24         0              10             *         *          30          *         *         *          *
+30        14      	9        11       13       15       0        17         0              10             *         *          113         *         *         *          *
+31        5      	23       26       29       32       0        35         0              10             *         *          *           1         12        *          *
+32        15      	9        11       13       15       17       19         0              20             *         *          121         *         *         *          *
+33        8      	2        4        6        0        0        8          0              5              *         *          *           *         *         601        *
+34        10      	4        6        8        0        0        10         1              2              *         *          *           1         12        *          *
+35        8      	2        4        6        0        0        8          0              5              *         *          30          *         *         *          *
+36        15      	2        4        6        0        0        8          0              5              *         *          *           1         12        *          *
+37        17      	2        4        6        0        0        8          0              5              *         300        *           *         *         *          *
+38        19      	1        2        3        0        0        4          0              5              *         *          *           1         12        *          *
+39        10      	4        6        8        0        0        10         1              2              *         300        *           *         *         *          *
+40        2      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+41        1      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+42        12      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+43        11      	14       16       18       20       22       24         0              20             *         *          121         *         *         *          *
+44        4      	2         6       10       0        0        14         0              5              *         *          30          *         *         *          *
+45        17      	6         8       10       12       0        14         0              15             *         *          *           1         12        *          *
+46        18      	3         5       7        9        0        11         0              15             *         *          *           1         12        *          *
+47        1      	6         8       10       12       0        14         0              15             *         *          *           1         12        *          *
+48        2      	2         4       6        0        0        8          0              5              *         *          30          *         *         *          *
+49        6      	2         4       6        0        0        8          0              5              *         *          *           *         *         601        *
+50        15      	9         11      13       15       17       19         0              20             *         *          121         *         *         *          *
+51        14      	9         11      13       15       17       19         0              20             *         *          121         *         *         *          *
+52        12      	2         4       6        0        0        8          0              5              *         *          *           1         12        *          *
+53        15      	2         4       6        0        0        8          0              5              *         *          *           *         *         20         *
+54        10      	4         6       8        0        0        10         1              2              *         *          *           1         12        *          *
+55        19      	1         2       3        0        0        4          0              5              *         *          30          *         *         *          *
+56        15      	0         0       0        0        0        0          *              *              *         *          *           *         *         *          *
+57        8      	2         4       6        0        0        8          0              5              *         *          *           1         12        *          *
+58        4      	2         6       10       0        0        14         0              5              *         *          *           6         12        *          *
+59        4      	2         6       10       0        0        14         0              5              *         *          113         *         *         *          *
+60        15      	9         11      13       15       17       19         0              20             *         *          *           *         *         *          *
+61        21      	2         6       10       0        0        14         0              10             *         *          *           1         12        *          *
+68        2      	3         5       7        9        0        12         0              10             *         *          *           *         *         *          *
+69        15      	15        15      15       15       15       15         0              *              *         *          30          *         *         *          *
+70        15	    	2         4       6        0        0        8          0              *              *         *          30          *         *         *          *
+71        *      	2         6       10       0        0        14         0              *              *         *          *           *         *         *          *
+72        *      	10        10      10       10       0        10         0              *              *         *          *           *         *         *          *
+73        10      	25        27      29       31       0        40         0              *              *         *          *           *         *         *          *
+end

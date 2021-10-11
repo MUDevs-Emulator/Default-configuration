@@ -1,0 +1,23 @@
+[MUDevs Emulator S16.2-2 - Update 0 (FULL Package)]
+
+Install VC_redist.x64.exe located in Runtime INSTALL!!
+
+;==================================================
+; Change to =1 if hosted in Europe/Asia. Replace in all configuration files: ChatServer.ini, ConnectServer.ini DataServer.ini JoinServer.ini GameServer/DATA/GameServerInfo - Common.dat 
+;==================================================
+EuropeLicenseServer=0
+
+
+Steps to install:
+1 - Create two empty database in your SQL Server, name: MuOnline and BattleCore.
+2 - Execute scripts MuServer/DB
+3 - Configure CustomerName in all configuration files: ChatServer.ini, ConnectServer.ini DataServer.ini JoinServer.ini GameServer/DATA/GameServerInfo - Common.dat 
+4 - Configure your IP in: 
+	ConnectServer/ServerList.dat 
+	DataServer/Dataserver.ini (ChatServerAddress = XXX)
+	Data/MapServerInfo (Example: S192.168.1.1 (NO delete S))
+
+5 - Download updated main in https://www.mudevs.com/main.php 
+6 - Paste downloaded main in your base client and execute game.
+
+Enjoy.

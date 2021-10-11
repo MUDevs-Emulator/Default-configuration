@@ -1,0 +1,35 @@
+//ELITE_MONSTER_DEBUFF_TYPE_BLEEDING = 0,				
+//ELITE_MONSTER_DEBUFF_TYPE_POISONING = 1,				
+//ELITE_MONSTER_DEBUFF_TYPE_DECREASE_ATTACK = 2,			
+//ELITE_MONSTER_DEBUFF_TYPE_DECREASE_ATTACK_SPEED = 3,	
+//ELITE_MONSTER_DEBUFF_TYPE_DECREASE_DEFENSE = 4,	
+
+0
+//Effect	EffectA		EffectB		EffectC		EffectD		EffectTime	EffectRate
+0		17		12000		*		*		13		100	//10000
+2		10		*		*		*		15		100	//10000
+end
+
+1
+//Effect	EffectA		EffectB		EffectC		EffectD		EffectTime	EffectRate
+1		*		2		3		*		13		100	//10000
+2		10		*		*		*		15		100	//10000
+end
+
+2
+//Effect	EffectA		EffectB		EffectC		EffectD		EffectTime	EffectRate
+0		17		12000		*		*		13		100	//10000
+3		10		*		*		*		15		100	//10000
+end
+
+3
+//Effect	EffectA		EffectB		EffectC		EffectD		EffectTime	EffectRate
+1		*		2		3		*		13		100	//10000
+4		20		*		*		*		15		100	//10000
+end
+
+4
+//Effect	EffectA		EffectB		EffectC		EffectD		EffectTime	EffectRate
+0		17		12000		*		*		13		100	//10000
+3		10		*		*		*		15		100	//10000
+end
