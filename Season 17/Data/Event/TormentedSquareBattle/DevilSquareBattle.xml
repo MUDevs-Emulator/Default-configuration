@@ -44,7 +44,7 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
-<TormentedSquareBattle Enable="1">
+<TormentedSquareBattle>
 	<Time StartIn="5" WaitingArea="1" Round="2" AfterRound="10" AfterBossRound="20" TownSpawn="10" />
 
 	<EventSchedule>

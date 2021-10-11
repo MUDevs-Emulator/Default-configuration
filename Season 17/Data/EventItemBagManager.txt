@@ -323,4 +323,9 @@
 321       *           *           *              90             //Monster Soul Converter Ruud #5
 322       *           *           *              91             //Monster Soul Converter Jewel #5
 323       *           *           *              92             //Monster Soul Converter Option #5
+
+419       6221        *           *              *              //Roomy Reward Box (Lower)
+420       6222        *           *              *              //Roomy Reward Box (Medium)
+421       6223        *           *              *              //Roomy Reward Box (Higher)
+422       6224        *           *              *              //Roomy Reward Box (Special)
 end

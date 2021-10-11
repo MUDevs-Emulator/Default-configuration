@@ -697,6 +697,9 @@
 		<Msg ID="881" Text="you do not have enough money to buy this item." />
 		<Msg ID="882" Text="%s has made the Golden Evomon appear." />
 		<Msg ID="883" Text="%s succeeded in hunting the golden Evomon." />
+		<Msg ID="884" Text="The party is already in the game." />
+		<Msg ID="885" Text="The zone is being run by another party." />
+		<Msg ID="886" Text="The limit on the number of people allowed to enter the zone has been exceeded." />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -833,14 +836,18 @@
 		<Msg ID="5" Text="Invasion of rabbits started!" />
 		<Msg ID="6" Text="Invasion of summer started!" />
 		<Msg ID="7" Text="Christmas invasion has begun!" />
-		<Msg ID="8" Text="Player %s defeated Skeleton King!" />
-		<Msg ID="9" Text="Player %s defeated Red Dragon!" />
-		<Msg ID="10" Text="Player %s defeated Golden Great Dragon!" />
-		<Msg ID="11" Text="Player %s defeated White Wizard!" />
-		<Msg ID="12" Text="Player %s defeated Cursed Santa!" />
+		<Msg ID="8" Text="Invasion of Medusa began!" />
+		<Msg ID="9" Text="Invasion of invoking Demons started!" />
+		<Msg ID="10" Text="Invasion of eggs Event started!" />
+		<Msg ID="11" Text="Player %s defeated Skeleton King!" />
+		<Msg ID="12" Text="Player %s defeated Red Dragon!" />
+		<Msg ID="13" Text="Player %s defeated Golden Great Dragon!" />
+		<Msg ID="14" Text="Player %s defeated White Wizard!" />
+		<Msg ID="15" Text="Player %s defeated Cursed Santa!" />
+		<Msg ID="16" Text="Player %s defeated Medusa!" />
 	</InvacionMsg>
 	<Notice>
-		<Msg ID="0" Text="MuDevs Ex1622" />
+		<Msg ID="0" Text="MuDevs Ex1701" />
 	</Notice>
 	<NoticeSystem>
 		<Tags>

@@ -22,6 +22,10 @@
 6277      2          12           2            12           2            0               //Small Wings of Heaven
 6278      2          12           2            12           2            0               //Small Wings of Satan
 6279      2          12           2            12           2            0               //Small Cloak of Fighter
+6298      2          12           2            12           2            0               //Small Pure White Cloak
+6299      3          12           2            12           2            4               //Pure White Cloak
+6300      2          32           1            25           2            5               //Cloack of Innocence
+6301      2          32           1            25           2            5               //Cloack of Innocence (Bound)
 6406      3          21           1            13           2            4               //Cloak of Death
 6407      3          33           1            30           2            4               //Wings of Chaos
 6408      3          35           1            29           2            4               //Wings of Magic

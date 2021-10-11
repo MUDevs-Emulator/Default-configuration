@@ -18,6 +18,16 @@ ReflectDamageRatePvM = 100
 AddDamageSuccessRate = 5
 
 ;==================================================
+; Character Special Rate Settings
+;==================================================
+SpecialRateLimitSwitch = 1
+MaxDamageReductionRate = 60
+MaxDamageReflectionRate = 70
+MaxExcellentDamageRate = 70
+MaxCriticalDamageRate = 70
+MaxMulShielDefenceRate = 1800
+
+;==================================================
 ; Character Class Damage Rate Settings
 ;==================================================
 DWDamageRatePvP = 100
@@ -31,6 +41,8 @@ GLDamageRatePvP = 100
 RWDamageRatePvP = 100
 SLDamageRatePvP = 100
 GCDamageRatePvP = 100
+KMDamageRatePvP = 100
+LMDamageRatePvP = 100
 DWDamageRatePvM = 100
 DKDamageRatePvM = 100
 FEDamageRatePvM = 100
@@ -42,6 +54,9 @@ GLDamageRatePvM = 100
 RWDamageRatePvM = 100
 SLDamageRatePvM = 100
 GCDamageRatePvM = 100
+KMDamageRatePvM = 100
+LMDamageRatePvM = 100
+
 
 ;==================================================
 ; Character Class x Class Damage Rate Settings
@@ -57,6 +72,9 @@ DWDamageRateToGL = 100
 DWDamageRateToRW = 100
 DWDamageRateToSL = 100
 DWDamageRateToGC = 100
+DWDamageRateToKM = 100
+DWDamageRateToLM = 100
+
 DKDamageRateToDW = 100
 DKDamageRateToDK = 100
 DKDamageRateToFE = 100
@@ -68,6 +86,9 @@ DKDamageRateToGL = 100
 DKDamageRateToRW = 100
 DKDamageRateToSL = 100
 DKDamageRateToGC = 100
+DKDamageRateToKM = 100
+DKDamageRateToLM = 100
+
 FEDamageRateToDW = 100
 FEDamageRateToDK = 100
 FEDamageRateToFE = 100
@@ -79,6 +100,9 @@ FEDamageRateToGL = 100
 FEDamageRateToRW = 100
 FEDamageRateToSL = 100
 FEDamageRateToGC = 100
+DKDamageRateToKM = 100
+DKDamageRateToLM = 100
+
 MGDamageRateToDW = 100
 MGDamageRateToDK = 100
 MGDamageRateToFE = 100
@@ -86,10 +110,13 @@ MGDamageRateToMG = 100
 MGDamageRateToDL = 100
 MGDamageRateToSU = 100
 MGDamageRateToRF = 100
-MGDamageRateToRF = 100
+MGDamageRateToGL = 100
 MGDamageRateToRW = 100
 MGDamageRateToSL = 100
 MGDamageRateToGC = 100
+MGDamageRateToKM = 100
+MGDamageRateToLM = 100
+
 DLDamageRateToDW = 100
 DLDamageRateToDK = 100
 DLDamageRateToFE = 100
@@ -101,6 +128,9 @@ DLDamageRateToGL = 100
 DLDamageRateToRW = 100
 DLDamageRateToSL = 100
 DLDamageRateToGC = 100
+DLDamageRateToKM = 100
+DLDamageRateToLM = 100
+
 SUDamageRateToDW = 100
 SUDamageRateToDK = 100
 SUDamageRateToFE = 100
@@ -112,6 +142,9 @@ SUDamageRateToGL = 100
 SUDamageRateToRW = 100
 SUDamageRateToSL = 100
 SUDamageRateToGC = 100
+SUDamageRateToKM = 100
+SUDamageRateToLM = 100
+
 RFDamageRateToDW = 100
 RFDamageRateToDK = 100
 RFDamageRateToFE = 100
@@ -123,6 +156,9 @@ RFDamageRateToGL = 100
 RFDamageRateToRW = 100
 RFDamageRateToSL = 100
 RFDamageRateToGC = 100
+RFDamageRateToKM = 100
+RFDamageRateToLM = 100
+
 GLDamageRateToDW = 100
 GLDamageRateToDK = 100
 GLDamageRateToFE = 100
@@ -134,6 +170,9 @@ GLDamageRateToGL = 100
 GLDamageRateToRW = 100
 GLDamageRateToSL = 100
 GLDamageRateToGC = 100
+GLDamageRateToKM = 100
+GLDamageRateToLM = 100
+
 RWDamageRateToDW = 100
 RWDamageRateToDK = 100
 RWDamageRateToFE = 100
@@ -145,6 +184,9 @@ RWDamageRateToGL = 100
 RWDamageRateToRW = 100
 RWDamageRateToSL = 100
 RWDamageRateToGC = 100
+RWDamageRateToKM = 100
+RWDamageRateToLM = 100
+
 SLDamageRateToDW = 100
 SLDamageRateToDK = 100
 SLDamageRateToFE = 100
@@ -156,6 +198,9 @@ SLDamageRateToGL = 100
 SLDamageRateToRW = 100
 SLDamageRateToSL = 100
 SLDamageRateToGC = 100
+SLDamageRateToKM = 100
+SLDamageRateToLM = 100
+
 GCDamageRateToDW = 100
 GCDamageRateToDK = 100
 GCDamageRateToFE = 100
@@ -167,6 +212,36 @@ GCDamageRateToGL = 100
 GCDamageRateToRW = 100
 GCDamageRateToSL = 100
 GCDamageRateToGC = 100
+GCDamageRateToKM = 100
+GCDamageRateToLM = 100
+
+KMDamageRateToDW = 100
+KMDamageRateToDK = 100
+KMDamageRateToFE = 100
+KMDamageRateToMG = 100
+KMDamageRateToDL = 100
+KMDamageRateToSU = 100
+KMDamageRateToRF = 100
+KMDamageRateToGL = 100
+KMDamageRateToRW = 100
+KMDamageRateToSL = 100
+KMDamageRateToGC = 100
+KMDamageRateToKM = 100
+KMDamageRateToLM = 100
+
+LMDamageRateToDW = 100
+LMDamageRateToDK = 100
+LMDamageRateToFE = 100
+LMDamageRateToMG = 100
+LMDamageRateToDL = 100
+LMDamageRateToSU = 100
+LMDamageRateToRF = 100
+LMDamageRateToGL = 100
+LMDamageRateToRW = 100
+LMDamageRateToSL = 100
+LMDamageRateToGC = 100
+LMDamageRateToKM = 100
+LMDamageRateToLM = 100
 
 ;==================================================
 ; Character Stuck Rate Settings
@@ -182,6 +257,8 @@ GLDamageStuckRate = 0
 RWDamageStuckRate = 0
 SLDamageStuckRate = 0
 GCDamageStuckRate = 0
+KMDamageStuckRate = 0
+LMDamageStuckRate = 0
 
 ;==================================================
 ; Character Damage Multiplier Settings
@@ -299,6 +376,8 @@ GLHPRecoveryRate = 0
 RWHPRecoveryRate = 0
 SLHPRecoveryRate = 0
 GCHPRecoveryRate = 0
+KMHPRecoveryRate = 0
+LMHPRecoveryRate = 0
 
 ;==================================================
 ; Character MP Recovery Settings
@@ -314,6 +393,8 @@ GLMPRecoveryRate = 4
 RWMPRecoveryRate = 4
 SLMPRecoveryRate = 4
 GCMPRecoveryRate = 4
+KMMPRecoveryRate = 4
+LMMPRecoveryRate = 4
 
 ;==================================================
 ; Character BP Recovery Settings
@@ -329,6 +410,8 @@ GLBPRecoveryRate = 3
 RWBPRecoveryRate = 3
 SLBPRecoveryRate = 3
 GCBPRecoveryRate = 3
+KMBPRecoveryRate = 3
+LMBPRecoveryRate = 3
 
 ;==================================================
 ; Character SD Recovery Settings
@@ -344,6 +427,9 @@ GLSDRecoveryRate = 4
 RWSDRecoveryRate = 4
 SLSDRecoveryRate = 4
 GCSDRecoveryRate = 4
+KMSDRecoveryRate = 4
+LMSDRecoveryRate = 4
+SDRecoveryOnSafeZone = 1
 
 ;==================================================
 ; Character Plasma Storm Skill Damage Settings
@@ -393,6 +479,14 @@ GCPlasmaStormDamageConstA = 5
 GCPlasmaStormDamageConstB = 5
 GCPlasmaStormDamageConstC = 7
 GCPlasmaStormDamageConstD = 3
+LMPlasmaStormDamageConstA = 5
+LMPlasmaStormDamageConstB = 5
+LMPlasmaStormDamageConstC = 7
+LMPlasmaStormDamageConstD = 3
+KMPlasmaStormDamageConstA = 5
+KMPlasmaStormDamageConstB = 5
+KMPlasmaStormDamageConstC = 7
+KMPlasmaStormDamageConstD = 3
 
 ;==================================================
 ; Character Damage Settings
@@ -673,6 +767,8 @@ GLElementalDamageRatePvP = 100
 RWElementalDamageRatePvP = 100
 SLElementalDamageRatePvP = 100
 GCElementalDamageRatePvP = 100
+KMElementalDamageRatePvP = 100
+LMElementalDamageRatePvP = 100
 DWElementalDamageRatePvM = 100
 DKElementalDamageRatePvM = 100
 FEElementalDamageRatePvM = 100
@@ -684,6 +780,8 @@ GLElementalDamageRatePvM = 100
 RWElementalDamageRatePvM = 100
 SLElementalDamageRatePvM = 100
 GCElementalDamageRatePvM = 100
+KMElementalDamageRatePvM = 100
+LMElementalDamageRatePvM = 100
 
 ;==================================================
 ; Character Class x Class Elemental Damage Rate Settings
@@ -699,6 +797,9 @@ DWElementalDamageRateToGL = 100
 DWElementalDamageRateToRW = 100
 DWElementalDamageRateToSL = 100
 DWElementalDamageRateToGC = 100
+DWElementalDamageRateToKM = 100
+DWElementalDamageRateToLM = 100
+
 DKElementalDamageRateToDW = 100
 DKElementalDamageRateToDK = 100
 DKElementalDamageRateToFE = 100
@@ -710,6 +811,9 @@ DKElementalDamageRateToGL = 100
 DKElementalDamageRateToRW = 100
 DKElementalDamageRateToSL = 100
 DKElementalDamageRateToGC = 100
+DKElementalDamageRateToKM = 100
+DKElementalDamageRateToLM = 100
+
 FEElementalDamageRateToDW = 100
 FEElementalDamageRateToDK = 100
 FEElementalDamageRateToFE = 100
@@ -721,6 +825,9 @@ FEElementalDamageRateToGL = 100
 FEElementalDamageRateToRW = 100
 FEElementalDamageRateToSL = 100
 FEElementalDamageRateToGC = 100
+FEElementalDamageRateToKM = 100
+FEElementalDamageRateToLM = 100
+
 MGElementalDamageRateToDW = 100
 MGElementalDamageRateToDK = 100
 MGElementalDamageRateToFE = 100
@@ -732,6 +839,9 @@ MGElementalDamageRateToGL = 100
 MGElementalDamageRateToRW = 100
 MGElementalDamageRateToSL = 100
 MGElementalDamageRateToGC = 100
+MGElementalDamageRateToKM = 100
+MGElementalDamageRateToLM = 100
+
 DLElementalDamageRateToDW = 100
 DLElementalDamageRateToDK = 100
 DLElementalDamageRateToFE = 100
@@ -743,6 +853,9 @@ DLElementalDamageRateToGL = 100
 DLElementalDamageRateToRW = 100
 DLElementalDamageRateToSL = 100
 DLElementalDamageRateToGC = 100
+DLElementalDamageRateToKM = 100
+DLElementalDamageRateToLM = 100
+
 SUElementalDamageRateToDW = 100
 SUElementalDamageRateToDK = 100
 SUElementalDamageRateToFE = 100
@@ -754,6 +867,9 @@ SUElementalDamageRateToGL = 100
 SUElementalDamageRateToRW = 100
 SUElementalDamageRateToSL = 100
 SUElementalDamageRateToGC = 100
+SUElementalDamageRateToKM = 100
+SUElementalDamageRateToLM = 100
+
 RFElementalDamageRateToDW = 100
 RFElementalDamageRateToDK = 100
 RFElementalDamageRateToFE = 100
@@ -765,6 +881,9 @@ RFElementalDamageRateToGL = 100
 RFElementalDamageRateToRW = 100
 RFElementalDamageRateToSL = 100
 RFElementalDamageRateToGC = 100
+RFElementalDamageRateToKM = 100
+RFElementalDamageRateToLM = 100
+
 GLElementalDamageRateToDW = 100
 GLElementalDamageRateToDK = 100
 GLElementalDamageRateToFE = 100
@@ -776,6 +895,9 @@ GLElementalDamageRateToGL = 100
 GLElementalDamageRateToRW = 100
 GLElementalDamageRateToSL = 100
 GLElementalDamageRateToGC = 100
+GLElementalDamageRateToKM = 100
+GLElementalDamageRateToLM = 100
+
 RWElementalDamageRateToDW = 100
 RWElementalDamageRateToDK = 100
 RWElementalDamageRateToFE = 100
@@ -787,6 +909,9 @@ RWElementalDamageRateToGL = 100
 RWElementalDamageRateToRW = 100
 RWElementalDamageRateToSL = 100
 RWElementalDamageRateToGC = 100
+RWElementalDamageRateToKM = 100
+RWElementalDamageRateToLM = 100
+
 SLElementalDamageRateToDW = 100
 SLElementalDamageRateToDK = 100
 SLElementalDamageRateToFE = 100
@@ -798,6 +923,9 @@ SLElementalDamageRateToGL = 100
 SLElementalDamageRateToRW = 100
 SLElementalDamageRateToSL = 100
 SLElementalDamageRateToGC = 100
+SLElementalDamageRateToKM = 100
+SLElementalDamageRateToLM = 100
+
 GCElementalDamageRateToDW = 100
 GCElementalDamageRateToDK = 100
 GCElementalDamageRateToFE = 100
@@ -809,7 +937,36 @@ GCElementalDamageRateToGL = 100
 GCElementalDamageRateToRW = 100
 GCElementalDamageRateToSL = 100
 GCElementalDamageRateToGC = 100
+GCElementalDamageRateToKM = 100
+GCElementalDamageRateToLM = 100
 
+KMElementalDamageRateToDW = 100
+KMElementalDamageRateToDK = 100
+KMElementalDamageRateToFE = 100
+KMElementalDamageRateToMG = 100
+KMElementalDamageRateToDL = 100
+KMElementalDamageRateToSU = 100
+KMElementalDamageRateToRF = 100
+KMElementalDamageRateToGL = 100
+KMElementalDamageRateToRW = 100
+KMElementalDamageRateToSL = 100
+KMElementalDamageRateToGC = 100
+KMElementalDamageRateToKM = 100
+KMElementalDamageRateToLM = 100
+
+LMElementalDamageRateToDW = 100
+LMElementalDamageRateToDK = 100
+LMElementalDamageRateToFE = 100
+LMElementalDamageRateToMG = 100
+LMElementalDamageRateToDL = 100
+LMElementalDamageRateToSU = 100
+LMElementalDamageRateToRF = 100
+LMElementalDamageRateToGL = 100
+LMElementalDamageRateToRW = 100
+LMElementalDamageRateToSL = 100
+LMElementalDamageRateToGC = 100
+LMElementalDamageRateToKM = 100
+LMElementalDamageRateToLM = 100
 
 ;==================================================
 ; Character Elemental Defense Settings

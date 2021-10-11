@@ -77,7 +77,10 @@ CustomAttackMaxUsingTime_AL0 = 60
 CustomAttackMaxUsingTime_AL1 = 60
 CustomAttackMaxUsingTime_AL2 = 60
 CustomAttackMaxUsingTime_AL3 = 60
-
+CustomAttackGPGain_AL0 = 0
+CustomAttackGPGain_AL1 = 0
+CustomAttackGPGain_AL2 = 0
+CustomAttackGPGain_AL3 = 0
 ;==================================================
 ; Custom Attack Offline Settings
 ;==================================================

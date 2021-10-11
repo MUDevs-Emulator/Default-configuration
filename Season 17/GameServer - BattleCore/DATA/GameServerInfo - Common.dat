@@ -53,19 +53,20 @@ JoinServerAddress = 127.0.0.1
 JoinServerPort = 55970
 ConnectServerAddress = 127.0.0.1
 ConnectServerPort = 55557
+CloseGameServerSaveData = 1
 
 ;==================================================
 ; Log Settings
 ;==================================================
-WriteChatLog = 0
-WriteCommandLog = 0
-WriteTradeLog = 0
+WriteChatLog = 1
+WriteCommandLog = 1
+WriteTradeLog = 1
 WriteConnectLog = 1
 WriteHackLog = 1
-WriteCashShopLog = 0
-WriteChaosMixLog = 0
-WriteAntiHackLog = 1
-
+WriteCashShopLog = 1
+WriteChaosMixLog = 1
+WriteAntiHackLog = 0
+AntiSpeedEnable = 1
 ;==================================================
 ; Hack Settings
 ;==================================================
@@ -78,9 +79,9 @@ CheckAutoComboHackTolerance = 700
 ; Common Settings
 ;==================================================
 MaxItemOption = 4
-MaxIpConnection = 10
+MaxIpConnection = 20
 PersonalCodeCheck = 0
-SetItemAcceptHarmonySwitch = 0
+SetItemAcceptHarmonySwitch = 1
 HappyNewYears = 0
 MerryChristmas = 0
 ConvertsSimpleModeStatus = 1
@@ -110,6 +111,7 @@ PKOpenStores = 0
 PkPartyOpenStores = 0
 PKMinPkOpenStores = 4
 PKMoveLorencia = 0
+PKPartyBlock = 0
 
 ;==================================================
 ; Trade Settings
@@ -160,14 +162,14 @@ ElfBufferDefenseConstB = 3
 ;==================================================
 ; Experience Settings
 ;==================================================
-AddExperienceRate_AL0 = 1000
-AddExperienceRate_AL1 = 1000
-AddExperienceRate_AL2 = 1000
-AddExperienceRate_AL3 = 1000
-AddMasterExperienceRate_AL0 = 1000
-AddMasterExperienceRate_AL1 = 1000
-AddMasterExperienceRate_AL2 = 1000
-AddMasterExperienceRate_AL3 = 1000
+AddExperienceRate_AL0 = 10
+AddExperienceRate_AL1 = 10
+AddExperienceRate_AL2 = 10
+AddExperienceRate_AL3 = 10
+AddMasterExperienceRate_AL0 = 20
+AddMasterExperienceRate_AL1 = 20
+AddMasterExperienceRate_AL2 = 20
+AddMasterExperienceRate_AL3 = 20
 MinMasterExperienceMonsterLevel_AL0 = 95
 MinMasterExperienceMonsterLevel_AL1 = 95
 MinMasterExperienceMonsterLevel_AL2 = 95
@@ -176,14 +178,14 @@ MinMasterExperienceExtMonsterLevel_AL0 = 160
 MinMasterExperienceExtMonsterLevel_AL1 = 160
 MinMasterExperienceExtMonsterLevel_AL2 = 160
 MinMasterExperienceExtMonsterLevel_AL3 = 160
-AddEventExperienceRate_AL0 = 100
-AddEventExperienceRate_AL1 = 100
-AddEventExperienceRate_AL2 = 100
-AddEventExperienceRate_AL3 = 100
-AddQuestExperienceRate_AL0 = 100
-AddQuestExperienceRate_AL1 = 100
-AddQuestExperienceRate_AL2 = 100
-AddQuestExperienceRate_AL3 = 100
+AddEventExperienceRate_AL0 = 5
+AddEventExperienceRate_AL1 = 5
+AddEventExperienceRate_AL2 = 5
+AddEventExperienceRate_AL3 = 5
+AddQuestExperienceRate_AL0 = 5
+AddQuestExperienceRate_AL1 = 5
+AddQuestExperienceRate_AL2 = 5
+AddQuestExperienceRate_AL3 = 5
 
 ;==================================================
 ; Item Drop Settings
@@ -214,6 +216,7 @@ PendantDurabilityRate = 100
 RingDurabilityRate = 100
 PetDurabilityRate = 100
 MuunDurabilityRate = 100
+GuardianMountDurabilityRate = 100
 
 ;==================================================
 ; Restore Sold Item Settings
@@ -250,6 +253,8 @@ GLLevelUpPoint = 7
 RWLevelUpPoint = 5
 SLLevelUpPoint = 5
 GCLevelUpPoint = 5
+KMLevelUpPoint = 5
+LMLevelUpPoint = 5
 PlusStatPoint = 1
 
 ;==================================================
@@ -264,6 +269,8 @@ GLCreateType = 0
 RWCreateType = 0
 SLCreateType = 0
 GCCreateType = 0
+LMCreateType = 0
+KMCreateType = 0
 MGCreateLevel_AL0 = 0
 MGCreateLevel_AL1 = 0
 MGCreateLevel_AL2 = 0
@@ -296,6 +303,14 @@ GCCreateLevel_AL0 = 0
 GCCreateLevel_AL1 = 0
 GCCreateLevel_AL2 = 0
 GCCreateLevel_AL3 = 0
+LMCreateLevel_AL0 = 0
+LMCreateLevel_AL1 = 0
+LMCreateLevel_AL2 = 0
+LMCreateLevel_AL3 = 0
+KMCreateLevel_AL0 = 0
+KMCreateLevel_AL1 = 0
+KMCreateLevel_AL2 = 0
+KMCreateLevel_AL3 = 0
 
 ;==================================================
 ; Disable Character Settings
@@ -310,7 +325,15 @@ RFDisableClass = 0
 GLDisableClass = 0
 RWDisableClass = 0
 SLDisableClass = 0 
-GCDisableClass = 0 
+GCDisableClass = 0
+KMDisableClass = 0
+LMDisableClass = 0
+
+;==================================================
+; Disable Options Settings
+;==================================================
+DisableAttackSpeedLimit = 1
+EarringFullDisableBlockSell = 1
 
 ;==================================================
 ; Shield Gauge Settings
@@ -320,13 +343,14 @@ ShieldGaugeConstA = 12
 ShieldGaugeConstB = 30
 ShieldGaugeAttackRate = 2
 ShieldGaugeAttackComboMiss = 0
+ShieldGaugeElementalRate = 90
 
 ;==================================================
 ; Master Skill Tree Settings
 ;==================================================
 MasterSkillTree = 1
 MasterSkillTreePoint = 1
-MasterSkillTreeMaxLevel = 950
+MasterSkillTreeMaxLevel = 400
 
 ;==================================================
 ; Enhance Skill Tree Settings
@@ -386,7 +410,7 @@ CashShopGoblinPointValue_AL3 = 1
 ; Event Inventory Settings
 ;==================================================
 EventInventorySwitch = 1
-EventInventoryExpireYear = 2015
+EventInventoryExpireYear = 2021
 EventInventoryExpireMonth = 12
 EventInventoryExpireDay = 31
 
@@ -397,6 +421,7 @@ MuRummySwitch = 1
 MuRummySpecialSwitch = 1
 MuRummyRewardScore1 = 250
 MuRummyRewardScore2 = 400
+MuRummyRewardScore3 = 500
 MuRummyRewardMoneyAmount = 500000
 
 ;==================================================
@@ -408,6 +433,18 @@ BombHuntSwitch = 1
 ; Jewel Bingo Settings
 ;==================================================
 JewelBingoSwitch = 1
+
+;==================================================
+; Balls And Cows Settings
+;==================================================
+BallsAndCowsSwitch = 1
+BallsAndCowsStrike = 40
+BallsAndCowsBalls = 10
+BallsAndCowsScoreA = 600
+BallsAndCowsScoreB = 500
+BallsAndCowsScoreC = 400
+BallsAndCowsScoreD = 320
+BallsAndCowsScoreE = 285
 
 ;==================================================
 ; Score Board Settings
@@ -428,7 +465,22 @@ PartySpecialExperience2 = 80
 PartySpecialExperience3 = 75
 PartySpecialExperience4 = 65
 PartySpecialExperience5 = 60
-PartyMaxLevelDiference = 150
+PartyMaxLevelDiference = 1150
+
+;==================================================
+; Party Exp Renewel Bonus Settings
+;==================================================
+PartyRenewelExpBonus = 1
+PartyGeneralRenewalExperiencie1 = 1.0
+PartyGeneralRenewalExperiencie2 = 1.3
+PartyGeneralRenewalExperiencie3 = 1.6
+PartyGeneralRenewalExperiencie4 = 1.9
+PartyGeneralRenewalExperiencie5 = 2.2
+PartySpecialRenewalExperiencie1 = 1.0
+PartySpecialRenewalExperiencie2 = 1.0
+PartySpecialRenewalExperiencie3 = 1.7
+PartySpecialRenewalExperiencie4 = 2.05
+PartySpecialRenewalExperiencie5 = 2.40
 
 ;==================================================
 ; Potion Settings

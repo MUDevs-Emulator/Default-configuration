@@ -73,17 +73,17 @@ end
 
 1
 //Index   RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime	Comment
-0         192              *                55          202           600		//Underworld
-1         193              *                42          203           600		//Red Dragon
-2         194              *                501         204           600		//Golden
-3         195              *                135         205           600		//White Wizard
-4         196              *                *           *             600		//New Year
-5         197              *                *           *             600		//Easter
-6         198              *                *           *             600		//Summer
-7         199              *                476         206           600		//Christmas
-8         200              *                561         207           600		//Medusa
-9         210              *                *           *             600		//Summon
-10        211              *                *           *             600		//Egg
+0         0                *                55          11            600		//Underworld
+1         1                *                42          12            600		//Red Dragon
+2         2                *                501         13            600		//Golden
+3         3                *                135         14            600		//White Wizard
+4         4                *                *           *             600		//New Year
+5         5                *                *           *             600		//Easter
+6         6                *                *           *             600		//Summer
+7         7                *                476         15            600		//Christmas
+8         8                *                561         16            600		//Medusa
+9         9                *                *           *             600		//Summon
+10        10               *                *           *             600		//Egg
 end
 
 2

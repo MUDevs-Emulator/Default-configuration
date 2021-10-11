@@ -228,6 +228,8 @@ CommandResetPointRateGL = 100
 CommandResetPointRateRW = 100
 CommandResetPointRateSL = 100
 CommandResetPointRateGC = 100
+CommandResetPointRateKM = 100
+CommandResetPointRateLM = 100
 
 ;==================================================
 ; Master Reset Command Settings
@@ -309,6 +311,8 @@ CommandMasterResetPointRateGL = 100
 CommandMasterResetPointRateRW = 100
 CommandMasterResetPointRateSL = 100
 CommandMasterResetPointRateGC = 100
+CommandMasterResetPointRateKM = 100
+CommandMasterResetPointRateLM = 100
 
 ;==================================================
 ; Enhance Reset Command Settings
@@ -390,6 +394,8 @@ CommandEnhanceResetPointRateGL = 100
 CommandEnhanceResetPointRateRW = 100
 CommandEnhanceResetPointRateSL = 100
 CommandEnhanceResetPointRateGC = 100
+CommandEnhanceResetPointRateKM = 100
+CommandEnhanceResetPointRateLM = 100
 
 ;==================================================
 ; Inventory Clear Command Settings

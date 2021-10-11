@@ -162,6 +162,29 @@
 5         110           5             6194           6194           *             *             *             4               //Mantle of Warrior
 6         111           5             6194           6194           *             *             *             8               //Mantle of Warrior
 2         97            7             6219           6220           *             *             *             *               //Pierce Ryan & rare
+1         84            5             6299           6299           *             1             *             *               //Pure White Clock
+2         80            4             6299           6299           *             *             1             *               //Pure White Clock
+3         100           5             6299           6299           *             *             *             1               //Pure White Clock
+4         101           5             6299           6299           *             *             *             2               //Pure White Clock
+5         102           3             6299           6299           *             *             *             4               //Pure White Clock
+6         103           50            6299           6299           *             *             *             8               //Pure White Clock
+7         97            5             6299           6299           *             *             *             16              //Pure White Clock
+1         84            5             6300           6300           *             1             *             *               //Cloak of Innocence
+2         85            1             6300           6300           *             *             1             *               //Cloak of Innocence
+2         80            4             6300           6300           *             *             1             16              //Cloak of Innocence
+2         83            4             6300           6300           *             *             1             32              //Cloak of Innocence
+3         102           5             6300           6300           *             *             *             1               //Cloak of Innocence
+4         109           5             6300           6300           *             *             *             2               //Cloak of Innocence
+5         110           5             6300           6300           *             *             *             4               //Cloak of Innocence
+6         111           5             6300           6300           *             *             *             8               //Cloak of Innocence
+1         84            5             6301           6301           *             1             *             *               //Cloak of Innocence (Bound)
+2         85            1             6301           6301           *             *             1             *               //Cloak of Innocence (Bound)
+2         80            4             6301           6301           *             *             1             16              //Cloak of Innocence (Bound)
+2         83            4             6301           6301           *             *             1             32              //Cloak of Innocence (Bound)
+3         102           5             6301           6301           *             *             *             1               //Cloak of Innocence (Bound)
+4         109           5             6301           6301           *             *             *             2               //Cloak of Innocence (Bound)
+5         110           5             6301           6301           *             *             *             4               //Cloak of Innocence (Bound)
+6         111           5             6301           6301           *             *             *             8               //Cloak of Innocence (Bound)
 1         84            5             6406           6406           *             1             *             *               //Cloak of Death
 2         85            1             6406           6406           *             *             1             *               //Cloak of Death
 2         80            4             6406           6406           *             *             1             16              //Cloak of Death

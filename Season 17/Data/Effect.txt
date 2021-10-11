@@ -316,12 +316,21 @@
 331       303     *           "Solid protection Unk"               0      0      0      *       *        *        *        *	
 332       303     *           "Solid protection Mastery"           0      0      0      *       *        *        *        *
 //--
-333       304     *           "Solid protection"                   0      0      0      *       *        *        *        *	//333	304	255	255	"Solid protection effect"	0	1	1	"Black Knight's Protection Effect"	0
-335       304     *           "Solid protection"                   0      0      0      *       *        *        *        *	//335	303	255	255	"Enhancement of solid protection skills"	0	1	1	"Increases the attack power and magic power of the party member, absorbs the party member's HP, and takes part of the damage instead."	0
+333       304     *           "Solid protection"                   0      0      0      *       *        *        *        *
+335       304     *           "Solid protection"                   0      0      0      *       *        *        *        *
 //---
 334       302     *           "Strong Conviction Enhanced"         0      0      0      *       *        *        *        *
 336       302     *           "Strong Conviction Improved"         0      0      0      *       *        *        *        *
 //Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
+339       310      *          "Bond - Inactive"         	   0      0      0      *       *        *        *        *
+340       310      *          "Bond"         	   		   0      0      0      *       30       *        *        *
+341       310      *          "Bond - party member"         	   0      0      0      *       15       *        *        *
+342       311      *          "Bondage"         	   	   0      0      1      *       *        *        *        *
+343       39      *           "Reflection Barrier"         	   0      0      0      *       *        *        *        *
+345       39      *           "Reflection Barrier Improved"       0      0      0      *       *        *        *        *
+346       1       *           "Beginner Greater Damage" 	   0      0      0      *       *        *        *        *
+347       2       *           "Beginner Greater Defense"  	   0      0      0      *       *        *        *        *
+348       87      *           "Beginner Bless"  	   	   0      0      0      *       *        *        *        *
 349       306     *           "20th Anniversary Event Level 0"     1      1      0      *       *        *        *        *
 350       306     *           "20th Anniversary Event Level 1"     1      1      0      *       *        *        *        *
 351       306     *           "20th Anniversary Event Level 2"     1      1      0      *       *        *        *        *
@@ -349,10 +358,13 @@
 373       307     *           "Elemental Charge Enhanced"          0      0      0      *       *        *        *        *
 374       290     6219        "Pierce Lion"                	   0      1      0      *       *        *        *        *
 375       290     6220        "Pierce Lion Rare"                   0      1      0      *       *        *        *        *
-377       316     *           "Blessing of Experience"             0      0      0      *       *        *        *        *
+376       313     *           "Exclusive Equipment - Pentagram"    1      0      0      *       *        *        *        *
+377       316     *           "Blessing of Experience"             1      0      0      *       *        *        *        *
 378       308     *           "Chaos Blade"          		   0      0      0      *       *        *        *        *
 379       308     *           "Havok Spear"          		   0      0      0      *       *        *        *        *
 380       308     *           "Fixed Fire"          		   0      0      0      *       *        *        *        *
 381       308     *           "Fixed Fire Improved"                0      0      0      *       *        *        *        *
 382       308     *           "Fixed Fire Enhanced"          	   0      0      0      *       *        *        *        *
+383       317     *           "Reflection Barrier"       	   1      0      0      *       *        *        *        *
+384       318     *           "Exclusive Equipment - Weapon"       1      0      0      *       *        *        *        *
 end

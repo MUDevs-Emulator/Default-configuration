@@ -107,7 +107,8 @@ EventItemBag=EventItemBag\\
 ;==================================================
 380ItemOption=Item\\380 Items - Setting\\380ItemOption.txt
 380ItemType=Item\\380 Items - Setting\\380ItemType.txt
-Item=Item\\Item.txt
+Item=Item\\item.txt
+ItemBmd=Item\\Item.bmd
 ItemDrop=Item\\ItemDrop.txt
 ItemMove=Item\\ItemMove.txt
 ItemOption=Item\\ItemOption.txt
@@ -148,6 +149,7 @@ GuardianOption=Item\\Guardian - Settings\\GuardianOption.txt
 ElementalUpdrade=Item\\ElementalItemRefinemen - Settings\\ElementalUpgrade.xml
 ErrtelMastery=Item\\Pentagram - Settings\\ErrtelMastery.xml
 MonsterDropManager=Item\\MonsterDropManager\\
+ItemEquipment=Item\\ItemEquipment.xml
 
 ;==================================================
 ; Lang Settings

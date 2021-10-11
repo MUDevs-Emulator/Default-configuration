@@ -86,10 +86,20 @@ function SkillDamageProc(aIndex,bIndex,skill,count,combo,InitDamage)
 	or skill == SKILL_BLOOD_STORM 
 	or skill == SKILL_SWORD_INERTIA 
 	or skill == SKILL_BAT_FLOCK 
-	or skill == SKILL_PIERCE_ATTACK) then
+	or skill == SKILL_PIERCE_ATTACK
+	or skill == SKILL_MAGICAL_SHOT
+	or skill == SKILL_SHININ_BRID
+	or skill == SKILL_DRAGON_VIOLENT
+	or skill == SKILL_SPEAR_STORM 
+	or skill == SKILL_REFLECTION_BARRIER
+	or skill == SKILL_MARVEL_BURST
+	or skill == SKILL_UNLEASH_MARVEL
+	or skill == SKILL_ULTIMATE_FORCE 
+	--or skill == SKILL_REFLECTIVE_BARRIER
+	) then
 	local MountIndex = GetObjectMountIndex(aIndex)
 		if((skill ~= SKILL_IMPALE) or MountIndex == CalcItemIndex(13, 2) or MountIndex == CalcItemIndex(13, 3) or MountIndex or CalcItemIndex(13, 37)) then
-			if(oClass == CLASS_DK or oClass == CLASS_SL) then
+			if(oClass == CLASS_DK or oClass == CLASS_SL or oClass == CLASS_KM or oClass == CLASS_LM) then
 				FinalDamage = (InitDamage*GetObjectMultiplierDamage(aIndex,oClass,0))/100
 			else
 				FinalDamage = (InitDamage*200)/100
@@ -266,6 +276,10 @@ function SkillManaShield(aIndex,bIndex,SkillIndex)	-- SKILL_MANA_SHIELD
 			Value1Rate = 100	--[[old ManaShieldRate(Class)]]
 		elseif(Class == CLASS_GC) then
 			Value1Rate = 100	--[[old ManaShieldRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			Value1Rate = 100	--[[old ManaShieldRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			Value1Rate = 100	--[[old ManaShieldRate(Class)]]
 		end
 	end	
 
@@ -332,6 +346,10 @@ function SkillGreaterDefense(aIndex,bIndex,SkillIndex)	-- SKILL_GREATER_DEFENSE
 			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
 		elseif(Class == CLASS_GC) then
 			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			Value1Rate = 100 --[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			Value1Rate = 100 --[[old GreaterDefenseRate(Class)]]
 		end
 	end	
 
@@ -387,6 +405,10 @@ function SkillGreaterDamage(aIndex,bIndex,SkillIndex)	-- SKILL_GREATER_DAMAGE
 			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
 		elseif(Class == CLASS_GC) then
 			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			Value1Rate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			Value1Rate = 100 --[[old GreaterDamageRate(Class)]]
 		end
 	end	
 
@@ -444,6 +466,10 @@ function SkillGreaterLife(aIndex,bIndex,SkillIndex)	-- SKILL_GREATER_LIFE
 				ValueRate = 100 --[[old GreaterLifeRate(Class)]]
 			elseif(Class == CLASS_GC) then
 				ValueRate = 100 --[[old GreaterLifeRate(Class)]]
+			elseif(Class == CLASS_KM) then
+				Value1Rate = 100 --[[old GreaterLifeRate(Class)]]
+			elseif(Class == CLASS_LM) then
+				Value1Rate = 100 --[[old GreaterLifeRate(Class)]]
 			end
 		end	
 		
@@ -493,6 +519,10 @@ function SkillGreaterLife(aIndex,bIndex,SkillIndex)	-- SKILL_GREATER_LIFE
 					ValueRate = 100 --[[old GreaterLifeRate(Class)]]
 				elseif(Class == CLASS_GC) then
 					ValueRate = 100 --[[old GreaterLifeRate(Class)]]
+				elseif(Class == CLASS_KM) then
+					Value1Rate = 100 --[[old GreaterLifeRate(Class)]]
+				elseif(Class == CLASS_LM) then
+					Value1Rate = 100 --[[old GreaterLifeRate(Class)]]
 				end
 			end	
 			
@@ -594,6 +624,10 @@ function SkillDamageReflect(aIndex,bIndex,SkillIndex) -- SKILL_DAMAGE_REFLECT
 			ValueRate = 100 --[[old ReflectDamageRate(Class)]]
 		elseif(Class == CLASS_GC) then
 			ValueRate = 100 --[[old ReflectDamageRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			Value1Rate = 100 --[[old ReflectDamageRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			Value1Rate = 100 --[[old ReflectDamageRate(Class)]]
 		end
 	end	
 
@@ -1156,7 +1190,7 @@ function SkillBatFlockEffect(aIndex,bIndex,SkillIndex,Damage) -- SKILL_BAT_FLOCK
 	
 	local EffectType = 2
 	
-	local BuffDamage = ((GetObjectLife(bIndex) * 3) / 100) + GetMasterSkillValue(lpObj, MASTER_SKILL_ADD_BAT_FLOCK_IMPROVED)
+	local BuffDamage = ((GetObjectLife(bIndex) * 3) / 100) + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_BAT_FLOCK_IMPROVED)
 	
 	AddEffect(bIndex, 0, GetSkillEffect(SkillIndex), count , aIndex, EffectType,SET_NUMBERHW(BuffDamage),SET_NUMBERLW(BuffDamage), 0, 0, 0, aIndex,-1)
 end
@@ -1200,13 +1234,13 @@ function SkillDemolish(aIndex,SkillIndex) -- SKILL_DEMOLISH
 			
 			if cIndex == aIndex then goto continue end
 			
-			if GetObjectMap(lpObj) ~= GetObjectMap(cIndex) then goto continue end
+			if GetObjectMap(aIndex) ~= GetObjectMap(cIndex) then goto continue end
 			
-			if gObjCalcDistance(lpObj, cIndex) >= 10 then goto continue end
+			if gObjCalcDistance(aIndex, cIndex) >= 10 then goto continue end
 			
 			AddEffect(cIndex, 0, GetSkillEffect(SkillIndex), count, value1, 0, 0, 0, 0, 0, value1, -1,-1);
 
-			GCSkillAttackSend(lpObj,SkillIndex,cIndex,1)
+			GCSkillAttackSend(aIndex,SkillIndex,cIndex,1)
 			
 			--LogAdd(LOG_RED,string.format('count: %d | value1:%d', count,value1))
 
@@ -1407,4 +1441,187 @@ function SkillFixedFire(aIndex,SkillIndex) -- SKILL_FIXED_FIRE
 	AddEffect(aIndex, 0, GetSkillEffect(SkillIndex), count, value1, value2, 0, 0, 0, -1, 0, -1,-1);
 
 	GCSkillAttackSend(aIndex, SkillIndex, aIndex, 1);
+end
+
+function ReflectionBarrier(aIndex,bIndex,SkillIndex) -- SKILL_REFLECTION_BARRIER
+	
+	local count = 60+(GetObjectStatByType(aIndex,POINT_ENERGY)/10) + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_REFLECTION_BARRIER_ENHANCED)
+	
+	local value1 = GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_REFLECTION_BARRIER_MASTERY)
+	
+	AddEffect(bIndex, 0, GetSkillEffect(SkillIndex), count, value1, 0, 0, 0, 0, -1, 0, -1,aIndex);
+	
+	LogAdd(LOG_RED,string.format('aIndex:%d - bIndex: %d - Effect: %d -SkillIndex: %d - count:%d', aIndex,bIndex, GetSkillEffect(SkillIndex),SkillIndex,count))
+
+	GCSkillAttackSend(aIndex, SkillIndex, bIndex, 1);
+end
+
+function SkillBeginnerCare(aIndex,bIndex,SkillIndex)	-- SKILL_BEGINNER_CARE
+
+	local value = 5 +(GetObjectStatByType(aIndex,POINT_ENERGY)/10);
+	
+	value = value + (value*GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_HEAL_IMPROVED))/100;
+
+	--LogAdd(LOG_RED,string.format('value: %d', value))
+	
+	return value
+end
+
+function SkillBeginnerRecover(aIndex,bIndex,SkillIndex,SkillLevel) -- SKILL_BEGINNER_RECOVERY
+
+	local value = ((SkillLevel+1)*2)+(GetObjectStatByType(aIndex,POINT_ENERGY)/12)
+	
+	--LogAdd(LOG_RED,string.format('value:%d | OK', value))
+	
+	return value
+end
+
+function SkillBeginnerGreaterDefense(aIndex,bIndex,SkillIndex)	-- SKILL_BEGGINER_GREATER_DEFENSE
+
+	local value = 2--[[old GreaterDefenseConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/16--[[old GreaterDefenseConstB]])
+
+	value = value+(value*GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DEFENSE_IMPROVED))/100
+
+	value = value+(value*GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DEFENSE_ENHANCED))/100
+	
+	local SetOptionGreaterDefence = GetObjectSetOptionGreaterDefence(aIndex)
+
+	if (SetOptionGreaterDefence > 0) then
+		value = value + (value * SetOptionGreaterDefence) / 100
+	end
+
+	local ValueRate = 100
+	
+	if(GetObjectType(bIndex) == OBJECT_USER) then
+		local Class = GetObjectClass(bIndex)
+		
+		if(Class == CLASS_DW) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_DK) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_FE) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_MG) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_DL) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_SU) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_RF) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_GL) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_RW) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_SL) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_GC) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			ValueRate = 100	--[[old GreaterDefenseRate(Class)]]
+		end
+	end	
+
+	value = (value*ValueRate)/100
+	
+	local count = 60 + GetMasterSkillLevel(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DEFENSE_ENHANCED)
+	
+	value = value * 2
+
+	--LogAdd(LOG_RED,string.format('value: %d | count: %d', value,count))
+	
+	return value ,count
+end
+
+function SkillBeginnerGreaterDamage(aIndex,bIndex,SkillIndex)	-- SKILL_BEGGINER_GREATER_DAMAGE
+
+	local value = 3+(GetObjectStatByType(aIndex,POINT_ENERGY)/14)
+
+	value = value+(value*GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DAMAGE_IMPROVED))/100
+
+	value = value+(value*GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DAMAGE_ENHANCED))/100
+	
+	local SetOptionGreaterDamage = GetObjectSetOptionGreaterDamage(aIndex)
+
+	if (SetOptionGreaterDamage > 0) then
+		value = value + (value * SetOptionGreaterDamage) / 100
+	end
+
+	local ValueRate = 100
+	
+	if(GetObjectType(bIndex) == OBJECT_USER) then
+		local Class = GetObjectClass(bIndex)
+		
+		if(Class == CLASS_DW) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_DK) then
+			ValueRate = 100	--[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_FE) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_MG) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_DL) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_SU) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_RF) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_GL) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_RW) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_SL) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_GC) then
+			ValueRate = 100 --[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_KM) then
+			ValueRate = 100	--[[old GreaterDamageRate(Class)]]
+		elseif(Class == CLASS_LM) then
+			ValueRate = 100	--[[old GreaterDamageRate(Class)]]
+		end
+	end	
+
+	value = (value*ValueRate)/100
+	
+	local count = 60 + GetMasterSkillLevel(aIndex,MASTER_SKILL_ADD_BEGINNER_GREATER_DAMAGE_ENHANCED)
+
+	--LogAdd(LOG_RED,string.format('value: %d | count: %d', value,count))
+	
+	return value ,count
+end
+
+function SkillBeginnerBless(aIndex,bIndex,SkillIndex) -- SKILL_BEGINNER_BLESS
+	
+	local value = GetObjectStatByType(aIndex,POINT_ENERGY)/200--[[old BlessConstA]];
+
+	value = value + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_BEGINNER_BLESS_IMPROVED);
+
+	local SetOptionBless = GetObjectSetOptionBless(aIndex)
+
+	if (SetOptionBless > 0) then
+		value = value + (value * SetOptionBless) / 100;
+	end
+
+	local count = 300;
+
+	AddEffect(bIndex,0,GetSkillEffect(SkillIndex),count,value,0,0,0, 0, 0, 0, aIndex, -1);
+	
+	--LogAdd(LOG_RED,string.format('value: %d | count:%d ', value,count))
+	
+	return value
+end
+
+function ReflectiveBarrierBondgage(aIndex,bIndex,effectIndex) -- EFFECT_REFLECTIVE_BARRIER_BONDAGE
+
+	local count = 10
+	
+	local EffectType = 2
+	
+	local BuffDamage = ((GetObjectLife(bIndex) * 3) / 100)
+	
+	AddEffect(bIndex, 0,effectIndex, count , aIndex, EffectType,SET_NUMBERHW(BuffDamage),SET_NUMBERLW(BuffDamage), 0, 0, 0, aIndex,-1)
+	
+	--LogAdd(LOG_RED,string.format('value: %d | BuffDamage: %d | count:%d ', effectIndex,BuffDamage,count))
 end

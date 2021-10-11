@@ -16,6 +16,8 @@ ManaShieldRateGL = 100
 ManaShieldRateRW = 100
 ManaShieldRateSL = 100
 ManaShieldRateGC = 100
+ManaShieldRateKM = 100
+ManaShieldRateLM = 100
 ManaShieldTimeConstA = 60
 ManaShieldTimeConstB = 40
 ManaShieldMaxRate = 50
@@ -48,6 +50,8 @@ GreaterDefenseRateGL = 100
 GreaterDefenseRateRW = 100
 GreaterDefenseRateSL = 100
 GreaterDefenseRateGC = 100
+GreaterDefenseRateKM = 100
+GreaterDefenseRateLM = 100
 GreaterDefenseTimeConstA = 60
 
 ;==================================================
@@ -66,6 +70,8 @@ GreaterDamageRateGL = 100
 GreaterDamageRateRW = 100
 GreaterDamageRateSL = 100
 GreaterDamageRateGC = 100
+GreaterDamageRateKM = 100
+GreaterDamageRateLM = 100
 GreaterDamageTimeConstA = 60
 
 ;==================================================
@@ -97,6 +103,8 @@ GreaterLifeRateGL = 100
 GreaterLifeRateRW = 100
 GreaterLifeRateSL = 100
 GreaterLifeRateGC = 100
+GreaterLifeRateKM = 100
+GreaterLifeRateLM = 100
 GreaterLifeTimeConstA = 60
 GreaterLifeTimeConstB = 10
 GreaterLifeMaxRate = 100
@@ -175,6 +183,8 @@ ReflectDamageRateGL = 100
 ReflectDamageRateRW = 100
 ReflectDamageRateSL = 100
 ReflectDamageRateGC = 100
+ReflectDamageRateKM = 100
+ReflectDamageRateLM = 100
 ReflectDamageTimeConstA = 30
 ReflectDamageTimeConstB = 25
 ReflectDamageMaxRate = 50
@@ -420,6 +430,12 @@ SolidProtectionConstB = 0
 SolidProtectionConstC = 30
 SolidProtectionConstD = 5
 SolidProtectionTimeConstA = 120
+
+;==================================================
+; Reflection Barrier Settings
+;==================================================
+ReflectionBarrierDamageRate = 20
+ReflectionBarrierRate = 50
 
 ;==================================================
 ; Apply Pentagram Absorb Settings

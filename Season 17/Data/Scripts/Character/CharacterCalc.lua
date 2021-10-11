@@ -243,6 +243,43 @@ function CharacterCalcBasicDamage(aIndex)
 			
 			MagicDamageMax = Energy / 4--[[old GCMagicDamageMaxConstA ]];
 		end
+
+	elseif(Class == CLASS_KM) then
+	
+		PhysiDamageMin = Strength / 8
+
+		PhysiDamageMax = Strength / 4
+		
+		MagicDamageMin = Energy / 5
+			
+		MagicDamageMax = Energy / 3
+		
+		local KMDamageMultiplierRate = 200 + (Energy / 50);
+		
+		if(KMDamageMultiplierRate > 500) then
+			KMDamageMultiplierRate = 500
+		end
+		
+		SetObjectMultiplierDamage(aIndex,Class,0,KMDamageMultiplierRate)
+		
+	elseif(Class == CLASS_LM) then
+	
+		PhysiDamageMin = Strength / 8
+
+		PhysiDamageMax = Strength / 4
+		
+		MagicDamageMin = Energy / 5
+			
+		MagicDamageMax = Energy / 3
+		
+		local LMDamageMultiplierRate = 140 + (Energy / 100);
+		
+		if(LMDamageMultiplierRate > 500) then
+			LMDamageMultiplierRate = 500
+		end
+		
+		SetObjectMultiplierDamage(aIndex,Class,0,LMDamageMultiplierRate)
+		
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] Class Unk :%d', Class))
 	end
@@ -324,6 +361,12 @@ function CharacterCalcBasicAttackRate(aIndex)
 	elseif(Class == CLASS_GC) then
 		AttackSuccessRate = (TotalLevel*5--[[old m_GCAttackSuccessRateConstA ]]) + ((Dexterity * 3--[[old m_GCAttackSuccessRateConstB ]]) / 2)--[[old m_GCAttackSuccessRateConstC ]] + (Strength / 4--[[old m_GCAttackSuccessRateConstD ]]);
 		AttackSuccessRatePvP = ((TotalLevel*3--[[old m_GCAttackSuccessRatePvPConstA ]]) / 1--[[old m_GCAttackSuccessRatePvPConstB ]]) + ((Dexterity * 4--[[old m_GCAttackSuccessRatePvPConstC ]]) / 1--[[old m_GCAttackSuccessRatePvPConstD ]]);
+	elseif(Class == CLASS_KM) then
+		AttackSuccessRate = (TotalLevel*5) + ((Dexterity * 3) / 2) + (Strength / 4);	-- currect
+		AttackSuccessRatePvP = ((TotalLevel*3) / 1) + ((Dexterity * 4) / 1);	-- currect
+	elseif(Class == CLASS_LM) then
+		AttackSuccessRate = (TotalLevel*5) + ((Dexterity * 3) / 2) + (Strength / 2);	-- currect
+		AttackSuccessRatePvP = ((TotalLevel*3) / 1) + ((Dexterity * 4) / 1);	-- currect
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicAttackRate] Class Unk :%d', Class))
 	end
@@ -376,6 +419,12 @@ function CharacterCalcBasicAttackSpeed(aIndex)
 	elseif(Class == CLASS_GC) then
 		PhysiSpeed = Dexterity / 20 --[[old m_GCPhysiSpeedConstA ]]
 		MagicSpeed = Dexterity / 10 --[[old m_GCMagicSpeedConstA ]]
+	elseif(Class == CLASS_KM) then
+		PhysiSpeed = Dexterity / 4
+		MagicSpeed = Dexterity / 10
+	elseif(Class == CLASS_LM) then
+		PhysiSpeed = Dexterity / 4
+		MagicSpeed = Dexterity / 10
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicAttackSpeed] Class Unk :%d', Class))
 	end
@@ -430,6 +479,12 @@ function CharacterCalcBasicDefenseSuccessRate(aIndex)
 	elseif(Class == CLASS_GC) then
 		DefenseSuccessRate = Dexterity / 3--[[old m_GCDefenseSuccessRateConstA ]]
 		DefenseSuccessRatePvP = ((TotalLevel * 2--[[old m_GCDefenseSuccessRatePvPConstA ]]) / 1--[[old m_GCDefenseSuccessRatePvPConstB ]]) + (Dexterity / 4--[[old m_GCDefenseSuccessRatePvPConstC ]]);
+	elseif(Class == CLASS_KM) then
+		DefenseSuccessRate = Dexterity / 3
+		DefenseSuccessRatePvP = ((TotalLevel * 2) / 1) + (Dexterity / 0.25);
+	elseif(Class == CLASS_LM) then
+		DefenseSuccessRate = Dexterity / 3
+		DefenseSuccessRatePvP = ((TotalLevel * 2) / 1) + (Dexterity / 0.25);
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDefenseSuccessRate] Class Unk :%d', Class))
 	end
@@ -477,6 +532,10 @@ function CharacterCalcBasicDefense(aIndex)
 		else
 			Defense = Dexterity / 4 --[[old m_GCDefenseConstA ]]
 		end
+	elseif(Class == CLASS_KM) then
+		Defense = Dexterity / 3
+	elseif(Class == CLASS_LM) then
+		Defense = Dexterity / 4
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDefense] Class Unk :%d', Class))
 	end
@@ -579,6 +638,18 @@ function CharacterCalcElemental(aIndex)
 		ElementalDamageMax = Energy / 6--[[old m_GCElementalDamageMaxConstA ]];
 		ElementalAttackSuccessRate = (TotalLevel * 5--[[old m_GCElementalAttackSuccessRateConstA ]]) + (Strength / 4--[[old m_GCElementalAttackSuccessRateConstB ]]) + ((Dexterity * 3--[[old m_GCElementalAttackSuccessRateConstC ]]) / 2--[[old m_GCElementalAttackSuccessRateConstD ]]);
 		ElementalDefenseSuccessRate = Dexterity / 3 --[[old m_GCElementalDefenseSuccessRateConstA ]]
+	elseif(Class == CLASS_KM) then
+		ElementalDefense = Dexterity / 4 
+		ElementalDamageMin = Energy / 9 
+		ElementalDamageMax = Energy / 6 
+		ElementalAttackSuccessRate = (TotalLevel * 5) + (Strength / 4 ) + ((Dexterity * 3 ) / 2);
+		ElementalDefenseSuccessRate = Dexterity / 3 
+	elseif(Class == CLASS_LM) then
+		ElementalDefense = Dexterity / 4 
+		ElementalDamageMin = Energy / 9 
+		ElementalDamageMax = Energy / 6 
+		ElementalAttackSuccessRate = (TotalLevel * 5) + (Strength / 4 ) + ((Dexterity * 3 ) / 2);
+		ElementalDefenseSuccessRate = Dexterity / 3 
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcElemental] Class Unk :%d', Class))
 	end
@@ -635,6 +706,10 @@ function CharacterCalcBP(aIndex)
 	elseif(Class == CLASS_SL) then
 		MaxBP = ((Strength*0.15)+(Dexterity*0.20)+(Vitality*0.30)+(Energy*1.00))
 	elseif(Class == CLASS_GC) then
+		MaxBP = ((Strength*0.20)+(Dexterity*0.40)+(Vitality*0.30)+(Energy*0.20))
+	elseif(Class == CLASS_KM) then
+		MaxBP = ((Strength*0.20)+(Dexterity*0.40)+(Vitality*0.30)+(Energy*0.20))
+	elseif(Class == CLASS_LM) then
 		MaxBP = ((Strength*0.20)+(Dexterity*0.40)+(Vitality*0.30)+(Energy*0.20))
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBP] Class Unk :%d', Class))
