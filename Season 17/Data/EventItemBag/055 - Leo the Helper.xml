@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Leo The Helper" DropZen="1000" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Leo The Helper" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
 	<BagItems>
 		<Item Section="0" Type="3" MinLevel="4" MaxLevel="6" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Katana"/>
 		<Item Section="0" Type="5" MinLevel="4" MaxLevel="6" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Blade"/>

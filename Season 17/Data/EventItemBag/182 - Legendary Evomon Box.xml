@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Legendary Evomon Box" DropZen="0" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Legendary Evomon Box" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
 	<BagItems>
 		<Item Section="0" Type="27" MinLevel="5" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="2" Excellent="1" SetOption="0" SocketOption="3" SocketProbalty1="80" SocketProbalty2="70" SocketProbalty3="60" SocketProbalty4="0" SocketProbalty5="0" Name="Sword Breaker"/>
 		<Item Section="0" Type="26" MinLevel="5" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="2" Excellent="1" SetOption="0" SocketOption="3" SocketProbalty1="80" SocketProbalty2="70" SocketProbalty3="60" SocketProbalty4="0" SocketProbalty5="0" Name="Flameberge"/>

@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Heart of Love FireCracker" DropZen="1000" ItemDropRate="1000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
+	<BagConfig Name="Heart of Love FireCracker" DropZen="1000" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
 	<BagItems>
 		<Item Section="0" Type="2" MinLevel="0" MaxLevel="5" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Rapier"/>
 		<Item Section="0" Type="4" MinLevel="0" MaxLevel="5" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Sword of Assassin"/>

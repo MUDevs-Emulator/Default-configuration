@@ -173,7 +173,9 @@
 3815	  1	  6	  //Manticore Rune Wizard Helm
 3816	  1	  6	  //Manticore Slayer Helmet
 3817	  1	  6	  //Manticore Knight Helm (Conviction)
-3818 	  1       6       //Manticore Gun Crusher Helmet											  
+3818 	  1       6       //Manticore Gun Crusher Helmet
+3825	  1	  0	  //Bloodangel White Wizard Helm
+3843	  1	  0	  //Bloodangel Mage Helm
 4194      1       0       //Bloodangel Knight Armor
 4195      1       0       //Bloodangel Wizard Armor
 4196      1       0       //Bloodangel Elf Armor (A)
@@ -272,6 +274,8 @@
 4328	  1	  6	  //Manticore Knight Amor (Conviction)
 4329 	  1 	  6 	  //Manticore Knight Armor (Belief)
 4330 	  1  	  6 	  //Manticore Gun Crusher Armor
+4337	  1	  0	  //Bloodangel White Wizard Armor
+4355	  1	  0	  //Bloodangel Mage Armor
 4706      1       0       //Bloodangel Knight Pants
 4707      1       0       //Bloodangel Wizard Pants
 4708      1       0       //Bloodangel Elf Pants (A)
@@ -370,6 +374,8 @@
 4840 	  1 	  6 	  //Manticore Slayer Pants
 4841 	  1 	  6 	  //Manticore Knight Pants (Belief)
 4842 	  1 	  6 	  //Manticore Gun Crusher Pants
+4849	  1	  0	  //Bloodangel White Wizard Pants
+4867	  1	  0	  //Bloodangel Mage Pants
 5218      1       0       //Bloodangel Knight Gloves
 5219      1       0       //Bloodangel Wizard Gloves
 5220      1       0       //Bloodangel Elf Gloves (A)
@@ -460,7 +466,9 @@
 5351	  1	  6	  //Manticore Rune Wizard Gloves
 5352	  1       6	  //Manticore Slayer Gloves
 5353 	  1 	  6 	  //Manticore Night Gloves (Belief)
-5354 	  1  	  6 	  //Manticore Gun Crusher Gloves											  
+5354 	  1  	  6 	  //Manticore Gun Crusher Gloves	
+5361	  1	  0	  //Bloodangel White Wizard Gloves
+5379	  1	  0	  //Bloodangel Mage Gloves
 5730      1       0       //Bloodangel Knight Boots
 5731      1       0       //Bloodangel Wizard Boots
 5732      1       0       //Bloodangel Elf Boots (A)

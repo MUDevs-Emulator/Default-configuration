@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Star Of Christmas" DropZen="1000" ItemDropRate="1000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Star Of Christmas" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
 	<BagItems>
 		<Item Section="0" Type="0" MinLevel="3" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Kris"/>
 		<Item Section="0" Type="2" MinLevel="3" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Rapier"/>

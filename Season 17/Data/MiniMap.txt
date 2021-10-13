@@ -20,6 +20,7 @@
 0         1       2      144    127    "Gens Duprian Steward"
 0         1       5      147    145    "Storage"
 0         1       2      114    132    "Lesnar"
+0         1       4      119    111    "Wizard Gillard"
 1         0       0      108    249    "Entrance to Lorencia"
 1         0       0      238    150    "Entrance to Dungeon2"
 1         0       0      232    128    "Entrance to Dungeon1"

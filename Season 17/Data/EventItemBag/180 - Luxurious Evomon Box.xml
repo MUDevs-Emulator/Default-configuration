@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Luxurious Evomon Box" DropZen="0" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Luxurious Evomon Box" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
 	<BagItems>
 	<Item Section="12" Type="200" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" 	SocketOption="3" SocketProbalty1="90" SocketProbalty2="90" SocketProbalty3="80" SocketProbalty4="50" SocketProbalty5="20" Name="Muren's Book of Magic"/>
 		<Item Section="12" Type="201" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="3" SocketProbalty1="90" SocketProbalty2="90" SocketProbalty3="80" SocketProbalty4="50" SocketProbalty5="20" Name="Scroll of Etramu"/>

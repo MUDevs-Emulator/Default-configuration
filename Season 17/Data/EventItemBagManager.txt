@@ -41,8 +41,8 @@
 39        7201        0           *              *              //Red Chocolate Box
 40        7202        0           *              *              //Blue Chocolate Box
 41        7200        1           *              *              //Purple Candy Box
-42        7201        1           *              *              //Red Candy Box
-43        7202        1           *              *              //Blue Candy Box
+42        7201        1           *              *              //Orange Candy Box
+43        7202        1           *              *              //Navi Candy Box
 44        *           *           340            *              //Dark Elf
 45        *           *           349            *              //Balgass
 46        *           *           362            *              //Maya Hand Left
@@ -89,7 +89,7 @@
 87        *           *           *              46             //Double Goer Golden Chest 5
 88        *           *           *              47             //Imperial Guardian Side Boss 1
 89        *           *           *              48             //Imperial Guardian Side Boss 2
-90        *           *           *              49             //Imperial Guardian Side Boss 3
+90        *           *           *              49             //Imperial Guardian Side Boss Day 3 - Kato 510
 91        *           *           *              50             //Imperial Guardian Side Boss 4
 92        *           *           *              51             //Imperial Guardian Side Boss 5
 93        *           *           *              52             //Imperial Guardian Main Boss 1
@@ -101,10 +101,10 @@
 99        7179        15          *              *              //Red Luck Pouch
 100       7291        *           *              *              //Golden Box
 101       7292        *           *              *              //Silver Box
-102       7309        *           *              *              //Shining Jewelry Case
-103       7310        *           *              *              //Elegant Jewelry Case
-104       7311        *           *              *              //Steel Jewelry Case
-105       7312        *           *              *              //Old Jewelry Case
+102       7309        *           *              *              //Shining Jewelry Case - Gens Reward - Grand Duke x30 ,Duke x20
+103       7310        *           *              *              //Elegant Jewelry Case - Gens Reward - Marquis x20, Count x10
+104       7311        *           *              *              //Steel Jewelry Case - Gens Reward - Viscount x10 , Baron x5
+105       7312        *           *              *              //Old Jewelry Case - Gens Reward - Knight Commander x5, Superior Knight x3
 106       *           *           561            *              //Medusa
 107       *           *           *              57             //Crywolf
 108       *           *           43             *              //Golden Budge Dragon
@@ -176,21 +176,21 @@
 174       *           *           727            *              //Sheep (White)
 175       *           *           728            *              //Sheep (Purple)
 176       *           *           729            *              //Sheep (Red)
-177	  7416	      *           *		 *	 	//Minor Evomon Box
-178	  7417	      *           *		 *		//Standard Evomon Box
-179	  7418	      *           *		 *		//Greater Evomon Box
-180	  7419	      *           *		 *		//Luxurious Evomon Box
-181	  7420	      *           *		 *		//Magnificent Evomon Box
-182	  7421	      *           *		 *		//Legendary Evomon Box
-183	  7422	      *           *		 *		//Gift of Henchmen
-184	  7423	      *           *		 *		//Gift of Knights
-185	  7424	      *           *		 *		//Gift of High Knights
-186	  7425	      *           *		 *		//Minor Devil’s Box
-187	  7426	      *           *		 *		//Devil’s Boxl
-188	  7427	      *           *		 *		//High Devil’s Box
-189       7428        *           *           	 *              //Guardsman’s Box
-190       7439        *           *           	 *              //Guardman Captain’s Box
-191       *	      *           *              76	 	//Core Magriffy
+177	  	  7416	      *           *				 *	 			//Minor Evomon Box
+178	  	  7417	      *           *				 *				//Standard Evomon Box
+179	  	  7418	      *           *				 *				//Greater Evomon Box
+180	  	  7419	      *           *				 *				//Luxurious Evomon Box
+181	  	  7420	      *           *				 *				//Magnificent Evomon Box
+182	  	  7421	      *           *				 *				//Legendary Evomon Box
+183	  	  7422	      *           *				 *				//Gift of Henchmen
+184	  	  7424	      *           *				 *				//Gift of Knights
+185	  	  7425	      *           *				 *				//Gift of High Knights
+186	  	  7426	      *           *				 *				//Minor Devil’s Box
+187	  	  7427	      *           *				 *				//Devil’s Boxl
+188	  	  7428	      *           *				 *				//High Devil’s Box
+189       7429        *           *           	 *              //Guardsman’s Box
+190       7430        *           *           	 *              //Guardman Captain’s Box
+191       *	      	  *           *              76	 			//Core Magriffy
 192       7433        *           *           	 *              //Goblin Treasure Box (Green)
 193       7434        *           *              *              //Goblin Treasure Box (Blue)
 194       7435        *           *              *              //Goblin Treasure Box (Red)
@@ -274,18 +274,18 @@
 272       7624        *           *              *              //Medium Gift Box
 273       7625        *           *              *              //Large Gift Box
 274       7646        *           *              *              //Moss' Treasure Box
-275       7648        *           *              *              //[Lv. 1]Monster Soul Converter Ruud Box
-276       7649        *           *              *              //[Lv. 2]Monster Soul Converter Ruud Box
-277       7650        *           *              *              //[Lv. 3]Monster Soul Converter Ruud Box
-278       7651        *           *              *              //[Lv. 4]Monster Soul Converter Ruud Box
-279       7652        *           *              *              //[Lv. 5]Monster Soul Converter Ruud Box
+275       7648        *           *              *              //[Lv. 1]Monster Soul Converter Ruud Box 14-480
+276       7649        *           *              *              //[Lv. 2]Monster Soul Converter Ruud Box 14-481
+277       7650        *           *              *              //[Lv. 3]Monster Soul Converter Ruud Box 14-482
+278       7651        *           *              *              //[Lv. 4]Monster Soul Converter Ruud Box 14-483
+279       7652        *           *              *              //[Lv. 5]Monster Soul Converter Ruud Box 14-484
 280       7653        *           *              *              //Ruud Box (500)
-281	  7654        *           *              *              //Ruud Box (1,500)
-282	  7657        *           *              *              //Ruud Box (400)
-283	  7658        *           *              *              //[TEST] Mastery Armor Chest
-284	  7659        *           *              *              //[TEST] Mastery Weapon Chest
-285	  7660        *           *              *              //Phantasmal Steed Capsule
-286	  7661        *           *              *              //Perishing Wing Box
+281	  	  7654        *           *              *              //Ruud Box (1,500)
+282	  	  7657        *           *              *              //Ruud Box (400)
+283	  	  7658        *           *              *              //[TEST] Mastery Armor Chest
+284	  	  7659        *           *              *              //[TEST] Mastery Weapon Chest
+285	  	  7660        *           *              *              //Phantasmal Steed Capsule
+286	  	  7661        *           *              *              //Perishing Wing Box
 287       *           *           *              77             //Golden Archer
 288       *           *           *              78             //Monster Soul Converter Ruud #1
 289       *           *           *              79             //Monster Soul Converter Jewel #1
@@ -293,39 +293,98 @@
 291       *           *           *              93             //Monster Soul Converter Accessory #5
 292       6625        *           *              *              //Special Muun Egg
 293       *           *           734            *              //Lord of Ferea
-394       *           *           746            *              //Nix
-395       *           *           794            *              //God of Darkness
-296       9728        *           *              *              //Pandora Box
-297       9729        *           *              *              //Red Card
-298       9730        *           *              *              //Blue Card
-299       9731        *           *              *              //Premium Muun Box
-300       9732        *           *              *              //1st Lucky Armor Ticket (Lv. 0)
-301       9733        *           *              *              //1st Lucky Pants Ticket (Lv. 0)
-302       9734        *           *              *              //1st Lucky Helm Ticket (Lv. 0)
-303       9735        *           *              *              //1st Lucky Gloves Ticket (Lv. 0)
-304       9736        *           *              *              //1st Lucky Boots Ticket (Lv. 0)
-305       9737        *           *              *              //2nd Lucky Armor Ticket (Lv. 0)
-306       9738        *           *              *              //2nd Lucky Pants Ticket (Lv. 0)
-307       9739        *           *              *              //2nd Lucky Helm Ticket (Lv. 0)
-308       9740        *           *              *              //2nd Lucky Gloves Ticket (Lv. 0)
-309       9741        *           *              *              //2nd Lucky Boots Ticket (Lv. 0)
-310       9742        *           *              *              //Red Card(Elemental)
-311       *           *           *              94             //Mu Rummy 3
-312       *           *           *              81             //Monster Soul Converter Ruud #2
-313       *           *           *              82             //Monster Soul Converter Jewel #2
-314       *           *           *              83             //Monster Soul Converter Option #2
-315       *           *           *              84             //Monster Soul Converter Ruud #3
-316       *           *           *              85             //Monster Soul Converter Jewel #3
-317       *           *           *              86             //Monster Soul Converter Option #3
-318       *           *           *              87             //Monster Soul Converter Ruud #4
-319       *           *           *              88             //Monster Soul Converter Jewel #4
-320       *           *           *              89             //Monster Soul Converter Option #4
-321       *           *           *              90             //Monster Soul Converter Ruud #5
-322       *           *           *              91             //Monster Soul Converter Jewel #5
-323       *           *           *              92             //Monster Soul Converter Option #5
-
+294       9728        *           *              *              //Pandora Box
+295       9729        *           *              *              //Red Card
+296       9730        *           *              *              //Blue Card
+297       9731        *           *              *              //Premium Muun Box
+298       9732        *           *              *              //1st Lucky Armor Ticket (Lv. 0)
+299       9733        *           *              *              //1st Lucky Pants Ticket (Lv. 0)
+300       9734        *           *              *              //1st Lucky Helm Ticket (Lv. 0)
+301       9735        *           *              *              //1st Lucky Gloves Ticket (Lv. 0)
+302       9736        *           *              *              //1st Lucky Boots Ticket (Lv. 0)
+303       9737        *           *              *              //2nd Lucky Armor Ticket (Lv. 0)
+304       9738        *           *              *              //2nd Lucky Pants Ticket (Lv. 0)
+305       9739        *           *              *              //2nd Lucky Helm Ticket (Lv. 0)
+306       9740        *           *              *              //2nd Lucky Gloves Ticket (Lv. 0)
+307       9741        *           *              *              //2nd Lucky Boots Ticket (Lv. 0)
+308       9742        *           *              *              //Red Card(Elemental)
+//========================================== MuDevastation ===============================================
+309       *           *           746            *              //Nix Boss
+310       *           *           794            *              //SwampDarkness Boss
+311       *           *           739            *              //Monkey (Green)
+312       *           *           740            *              //Monkey (White)
+313       *           *           741            *              //Monkey (Purple)
+314       *           *           742            *              //Monkey (Red)
+315       *           *           759            *              //Rooster (Green)
+316       *           *           760            *              //Rooster (White)
+317       *           *           761            *              //Rooster (Purple)
+318       *           *           762            *              //Rooster (Red)
+319       *           *           795            *              //Puppy (Green)
+320       *           *           796            *              //Puppy (White)
+321       *           *           797            *              //Puppy (Purple)
+322       *           *           798            *              //Puppy (Yellow)
+323       *           *           817            *              //Pig (Green)
+324       *           *           818            *              //Pig (Blue)
+325       *           *           819            *              //Pig (Purple)
+326       *           *           820            *              //Pig (Red)
+327       *           *           855            *              //Mouse (Green)
+328       *           *           856            *              //Mouse (Blue)
+329       *           *           857            *              //Mouse (Purple)
+330       *           *           858            *              //Mouse (Red)
+//==========================================  SEASON 16-3 ========================================
+331       *           *           *              94             //Mu Rummy 3
+332       7671        *           *              *              //Maple leaf box
+333       *           *           884            *              //Cow (Green)
+334       *           *           885            *              //Cow (Blue)
+335       *           *           886            *              //Cow (Purple)
+336       *           *           887            *              //Cow (Red)
+337       7673        *           *              *              //Luminous Errtel Capsule (Fire)
+338       7674        *           *              *              //Luminous Errtel Capsule (Water)
+339       7675        *           *              *              //Luminous Errtel Capsule (Earth)
+340       7676        *           *              *              //Luminous Errtel Capsule (Wind)
+341       7677        *           *              *              //Luminous Errtel Capsule (Darkness)
+342       7633        *           *              *              //Guardian Capsule
+343       7219        *           *              *              //Chistmas Star
+//========================================== NOVOS 23/05/2021============================================
+344       *           *           *              81             //Monster Soul Converter Ruud #2
+345       *           *           *              82             //Monster Soul Converter Jewel #2
+346       *           *           *              83             //Monster Soul Converter Option #2
+347       *           *           *              84             //Monster Soul Converter Ruud #3
+348       *           *           *              85             //Monster Soul Converter Jewel #3
+349       *           *           *              86             //Monster Soul Converter Option #3
+350       *           *           *              87             //Monster Soul Converter Ruud #4
+351       *           *           *              88             //Monster Soul Converter Jewel #4
+352       *           *           *              89             //Monster Soul Converter Option #4
+353       *           *           *              90             //Monster Soul Converter Ruud #5
+354       *           *           *              91             //Monster Soul Converter Jewel #5
+355       *           *           *              92             //Monster Soul Converter Option #5
+//========================================== MuDevastation ===============================================
+400       *           *           526            *              //Stone Statue 1 Impreriam Guardiam
+401       *           *           18             *              //Gorgon - Dungeon
+402       *           *           25             *              //Ice Queen - Devias
+403       *           *           67             *              //Metal Balrog - Losttower
+404       *           *           49             *              //Hydra - Atlans 
+405       *           *           778            *              //Deep Dungeon Gorgon
+406       *           *           59             *              //Zaikan - Tarkan
+//===========================================================================================================
+// S16.2-2
+407       10308       *           *              *              //Limited Wing Box
+408       10309       *           *              *              //Earring Box of Fury Left
+409       10310       *           *              *              //Earring Box of Anger Right
+410       10311       *           *              *              //Ghost Horse Capsule
+411       10312       *           *              *              //Bloodangel Helm Box 1
+412       10313       *           *              *              //Bloodangel Armor Box 2
+413       10314       *           *              *              //Bloodangel Pants Box 3
+414       10315       *           *              *              //Bloodangel Boots-Gloves Box 4
+415       10316       *           *              *              //Bloodangel Weapon Box
+416       7325        *           *              *              //Green Box
+417       7326        *           *              *              //Red Box
+418       7327        *           *              *              //Purple Box
+// S17
 419       6221        *           *              *              //Roomy Reward Box (Lower)
 420       6222        *           *              *              //Roomy Reward Box (Medium)
 421       6223        *           *              *              //Roomy Reward Box (Higher)
 422       6224        *           *              *              //Roomy Reward Box (Special)
+//Test
+//500       *           *           3             *              //Spider Test
 end

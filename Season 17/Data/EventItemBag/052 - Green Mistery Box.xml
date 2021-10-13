@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Green Mistery Box" DropZen="1000" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Green Mistery Box" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
 	<BagItems>
 		<Item Section="7" Type="6" MinLevel="6" MaxLevel="9" Durability="0" Skill="0" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Scale Helm"/>
 		<Item Section="7" Type="11" MinLevel="6" MaxLevel="9" Durability="0" Skill="0" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Silk Helm"/>
@@ -66,7 +66,5 @@
 		<Item Section="6" Type="3" MinLevel="6" MaxLevel="9" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elven Shield"/>
 		<Item Section="6" Type="6" MinLevel="6" MaxLevel="9" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Skull Shield"/>
 		<Item Section="6" Type="5" MinLevel="6" MaxLevel="9" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Dragon Slayer Shield"/>
-		<Item Section="14" Type="19" MinLevel="1" MaxLevel="2" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Devil's Invitation"/>
-		<Item Section="13" Type="18" MinLevel="1" MaxLevel="3" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Invisibility Cloak"/>
-	</BagItems>
+			</BagItems>
 </ItemBag>

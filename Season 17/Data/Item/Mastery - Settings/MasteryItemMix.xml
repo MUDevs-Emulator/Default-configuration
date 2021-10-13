@@ -14,6 +14,8 @@
 //		~ 0: Non-exc item
 //		~ 1: Exc item
 //		~ 2: Set item
+//		~ 3: Earrings
+//		~ 4: Set item Conversion AGI ENE
 //
 //	Name: material name, used for in-file and description purpose
 //
@@ -126,7 +128,7 @@
 		<Material ID="67" Cat="11" Index="142" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Darkangel Magic Boots (A)" />
 		<Material ID="68" Cat="11" Index="144" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Darkangel Fighter Boots" />
 		<Material ID="69" Cat="14" Index="389" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Holyangel Spirit" />									
-		<Material ID="70" Cat="14" Index="399" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="(Hero) Bloodangel Spirit" />
+		<Material ID="70" Cat="14" Index="399" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="(Hero) Bloodangel Spirit (SpeedServer)" />
 		<Material ID="71" Cat="13" Index="352" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Bloodangel Helm of Sealed Fury" />
 		<Material ID="72" Cat="13" Index="360" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Bloodangel Helm of Sealed Transcendence" />
 		<Material ID="73" Cat="13" Index="364" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Bloodangel Helm of Sealed Flurry" />
@@ -368,23 +370,29 @@
 		<Material ID="309" Cat="7" Index="113" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Awakening Soul Lancer Helm" />										
 		<Material ID="310" Cat="9" Index="113" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Awakening Soul Lancer Pants" />										
 		<Material ID="311" Cat="10" Index="113" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Awakening Soul Lancer Gloves" />
+		
 		<Material ID="312" Cat="8" Index="108" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Armor (A)" />										
 		<Material ID="313" Cat="7" Index="108" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Helm (A)" />										
 		<Material ID="314" Cat="9" Index="108" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Pants (A)" />										
 		<Material ID="315" Cat="10" Index="108" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Gloves (A)" />	
+		
 		<Material ID="316" Cat="8" Index="110" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Armor (A)" />										
 		<Material ID="317" Cat="9" Index="110" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Pants (A)" />										
 		<Material ID="318" Cat="10" Index="110" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Gloves (A)" />										
 		<Material ID="319" Cat="11" Index="110" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Boots (A)" />	
+		
 		<Material ID="320" Cat="8" Index="114" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Armor (B)" />										
 		<Material ID="321" Cat="7" Index="114" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Helm (B)" />										
 		<Material ID="322" Cat="9" Index="114" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Pants (B)" />										
 		<Material ID="323" Cat="10" Index="114" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Elf Gloves (B)" />
+		
 		<Material ID="324" Cat="8" Index="115" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Armor (B)" />										
 		<Material ID="325" Cat="9" Index="115" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Pants (B)" />										
 		<Material ID="326" Cat="10" Index="115" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Gloves (B)" />										
 		<Material ID="327" Cat="11" Index="115" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Awakening Soul Magic Boots (B)" />
+		
 		<Material ID="328" Cat="14" Index="449" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Cold Marriage" />
+		
 		<Material ID="329" Cat="0" Index="57" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Sword" />
 		<Material ID="330" Cat="0" Index="58" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Magic Sword" />
 		<Material ID="331" Cat="0" Index="59" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Claw" />
@@ -586,16 +594,16 @@
 		<Material ID="527" Cat="8" Index="184" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Slayer Armor" />
 		<Material ID="528" Cat="9" Index="184" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Slayer Pants" />
 		<Material ID="529" Cat="10" Index="184" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Slayer Gloves" />
-		<Material ID="530" Cat="12" Index="450" MinLevel="15" MaxLevel="15" Option="0" Durability="0" Type="3" Name="Ancestral Earring (L) +15" />
-		<Material ID="531" Cat="12" Index="458" MinLevel="15" MaxLevel="15" Option="0" Durability="0" Type="3" Name="Ancestral Earring (R) +15" />
-		<Material ID="532" Cat="12" Index="450" MinLevel="14" MaxLevel="14" Option="0" Durability="0" Type="3" Name="Ancestral Earring (L) +14" />
-		<Material ID="533" Cat="12" Index="458" MinLevel="14" MaxLevel="14" Option="0" Durability="0" Type="3" Name="Ancestral Earring (R) +14" />
-		<Material ID="534" Cat="12" Index="450" MinLevel="13" MaxLevel="13" Option="0" Durability="0" Type="3" Name="Ancestral Earring (L) +13" />
-		<Material ID="535" Cat="12" Index="458" MinLevel="13" MaxLevel="13" Option="0" Durability="0" Type="3" Name="Ancestral Earring (R) +13" />
-		<Material ID="536" Cat="12" Index="450" MinLevel="12" MaxLevel="12" Option="0" Durability="0" Type="3" Name="Ancestral Earring (L) +12" />
-		<Material ID="537" Cat="12" Index="458" MinLevel="12" MaxLevel="12" Option="0" Durability="0" Type="3" Name="Ancestral Earring (R) +12" />
-		<Material ID="538" Cat="12" Index="450" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Ancestral Earring (L) +11" />
-		<Material ID="539" Cat="12" Index="458" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Ancestral Earring (R) +11" />
+		<Material ID="530" Cat="12" Index="450" MinLevel="15" MaxLevel="15" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (L) +15" />
+		<Material ID="531" Cat="12" Index="458" MinLevel="15" MaxLevel="15" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (R) +15" />
+		<Material ID="532" Cat="12" Index="450" MinLevel="14" MaxLevel="14" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (L) +14" />
+		<Material ID="533" Cat="12" Index="458" MinLevel="14" MaxLevel="14" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (R) +14" />
+		<Material ID="534" Cat="12" Index="450" MinLevel="13" MaxLevel="13" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (L) +13" />
+		<Material ID="535" Cat="12" Index="458" MinLevel="13" MaxLevel="13" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (R) +13" />
+		<Material ID="536" Cat="12" Index="450" MinLevel="12" MaxLevel="12" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (L) +12" />
+		<Material ID="537" Cat="12" Index="458" MinLevel="12" MaxLevel="12" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (R) +12" />
+		<Material ID="538" Cat="12" Index="450" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (L) +11" />
+		<Material ID="539" Cat="12" Index="458" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Earring of Forefathers (R) +11" />
 		<Material ID="540" Cat="14" Index="497" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Honorary Frame" />
 		<Material ID="541" Cat="13" Index="395" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Bloodangel Knight Helm (E)" />
 		<Material ID="542" Cat="13" Index="396" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Bloodangel Knight Armor (E)" />
@@ -605,8 +613,7 @@
 		<Material ID="546" Cat="6" Index="45" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Darkangel Shield" />
 		<Material ID="547" Cat="6" Index="46" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Shield" />
 		<Material ID="548" Cat="6" Index="47" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Soul Shield" />
-		<Material ID="548" Cat="6" Index="48" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blue Eye Shield" />
-		
+  		
 		<Material ID="549" Cat="7" Index="200" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="4" Name="Bloodangel Knight Helm (Conviction)" />
 		<Material ID="550" Cat="8" Index="200" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="4" Name="Bloodangel Knight Armor (Conviction)" />
 		<Material ID="551" Cat="9" Index="200" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="4" Name="Bloodangel Knight Pants (Conviction)" />
@@ -859,7 +866,18 @@
 		<Material ID="752" Cat="12" Index="459" MinLevel="12" MaxLevel="12" Option="0" Durability="0" Type="3" Name="Earring of Honor (R) +12" />
 		<Material ID="753" Cat="12" Index="451" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Earring of Honor (L) +11" />
 		<Material ID="754" Cat="12" Index="459" MinLevel="11" MaxLevel="11" Option="0" Durability="0" Type="3" Name="Earring of Honor (R) +11" />
-		<Material ID="755" Cat="20" Index="77" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Bloodwork Frame" />		
+		<Material ID="755" Cat="20" Index="77" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Bloodwork Frame" />
+
+		<!-- S17 Bloodangel Sealed KM -->
+		<Material ID="756" Cat="20" Index="58" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Twilight Blood Angel Armor" />
+		<Material ID="757" Cat="20" Index="59" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Twilight Blood Angel Helm" />
+		<Material ID="758" Cat="20" Index="60" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Twilight Blood Angel Pants" />
+		<Material ID="759" Cat="20" Index="61" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Twilight Blood Angel Gloves" />
+		<!-- S17 Bloodangel Sealed LM -->
+		<Material ID="760" Cat="20" Index="62" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Armor" />
+		<Material ID="761" Cat="20" Index="63" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Helm" />
+		<Material ID="762" Cat="20" Index="64" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Pants" />
+		<Material ID="763" Cat="20" Index="65" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Liberation Blood Angel Gloves" />
 		
 	</CombinationMaterials>
 	<CombinationResult>
@@ -979,6 +997,7 @@
 		<Mix ID="205" Cat="4" Index="31" Level="0" Name="Darkangel Bow" OptKeepType="3" SuccessRate="100" MaterialID1="33" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="206" Cat="5" Index="51" Level="0" Name="Darkangel Staff" OptKeepType="3" SuccessRate="100" MaterialID1="34" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="207" Cat="5" Index="52" Level="0" Name="Darkangel Stick" OptKeepType="3" SuccessRate="100" MaterialID1="35" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />													
+		<!-- SpeedServer Hero Soul Mix-->
 		<Mix ID="208" Cat="7" Index="98" Level="11" Name="Bloodangel Knight Helm" OptKeepType="8" SuccessRate="100" MaterialID1="71" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="209" Cat="7" Index="99" Level="11" Name="Bloodangel Wizard Helm" OptKeepType="8" SuccessRate="100" MaterialID1="72" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="210" Cat="7" Index="100" Level="11" Name="Bloodangel Elf Helm (A)" OptKeepType="8" SuccessRate="100" MaterialID1="73" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
@@ -1018,7 +1037,7 @@
 		<Mix ID="244" Cat="8" Index="161" Level="11" Name="Bloodangel Magic Armor (B)" OptKeepType="8" SuccessRate="100" MaterialID1="107" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="245" Cat="9" Index="161" Level="11" Name="Bloodangel Magic Pants (B)" OptKeepType="8" SuccessRate="100" MaterialID1="108" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="246" Cat="10" Index="161" Level="11" Name="Bloodangel Magic Gloves (B)" OptKeepType="8" SuccessRate="100" MaterialID1="109" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="247" Cat="11" Index="161" Level="11" Name="Bloodangel Magic Boots (B)" OptKeepType="8" SuccessRate="100" MaterialID1="110" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />																
+		<Mix ID="247" Cat="11" Index="161" Level="1" Name="Bloodangel Magic Boots (B)" OptKeepType="8" SuccessRate="100" MaterialID1="110" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />																
 		<Mix ID="248" Cat="8" Index="158" Level="0" Name="Bloodangel Elf Armor (B)" OptKeepType="24" SuccessRate="100" MaterialID1="103" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="249" Cat="7" Index="158" Level="0" Name="Bloodangel Elf Helm (B)" OptKeepType="24" SuccessRate="100" MaterialID1="104" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="250" Cat="9" Index="158" Level="0" Name="Bloodangel Elf Pants (B)" OptKeepType="24" SuccessRate="100" MaterialID1="105" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
@@ -1141,6 +1160,7 @@
 		<Mix ID="367" Cat="4" Index="37" Level="0" Name="Holyangel Quiver" OptKeepType="3" SuccessRate="100" MaterialID1="270" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="368" Cat="5" Index="53" Level="0" Name="Holyangel Staff" OptKeepType="3" SuccessRate="100" MaterialID1="268" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />													
 		<Mix ID="369" Cat="5" Index="54" Level="0" Name="Holyangel Stick" OptKeepType="3" SuccessRate="100" MaterialID1="269" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<!-- Convert Awakening Soul -->
 		<Mix ID="370" Cat="7" Index="114" Level="0" Name="Awakening Soul Elf Helm (B)" OptKeepType="128" SuccessRate="100" MaterialID1="273" MaterialCnt1="1" MaterialID2="179" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="371" Cat="8" Index="114" Level="0" Name="Awakening Soul Elf Armor (B)" OptKeepType="128" SuccessRate="100" MaterialID1="272" MaterialCnt1="1" MaterialID2="179" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="372" Cat="9" Index="114" Level="0" Name="Awakening Soul Elf Pants (B)" OptKeepType="128" SuccessRate="100" MaterialID1="274" MaterialCnt1="1" MaterialID2="179" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
@@ -1157,11 +1177,13 @@
 		<Mix ID="383" Cat="9" Index="110" Level="0" Name="Awakening Soul Magic Pants (A)" OptKeepType="128" SuccessRate="100" MaterialID1="285" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="384" Cat="10" Index="110" Level="0" Name="Awakening Soul Magic Gloves (A)" OptKeepType="128" SuccessRate="100" MaterialID1="286" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="385" Cat="11" Index="110" Level="0" Name="Awakening Soul Magic Boots (A)" OptKeepType="128" SuccessRate="100" MaterialID1="287" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />																			
-		<!-- 386~429 -->
+		<!-- 386~429 Vazio Mix BMD-->
+		<!-- Bloodangel Sealed SpeedServer +11 -->	
 		<Mix ID="430" Cat="8" Index="122" Level="11" Name="Bloodangel Runist Armor" OptKeepType="8" SuccessRate="100" MaterialID1="182" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="431" Cat="7" Index="122" Level="11" Name="Bloodangel Runist Helm" OptKeepType="8" SuccessRate="100" MaterialID1="183" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="432" Cat="9" Index="122" Level="11" Name="Bloodangel Runist Pants" OptKeepType="8" SuccessRate="100" MaterialID1="184" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="433" Cat="10" Index="122" Level="11" Name="Bloodangel Runist Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="185" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
+		<!-- Bloodangel to Darkangel Upgrade -->																																																																																		
 		<Mix ID="434" Cat="7" Index="123" Level="0" Name="Darkangel Runist Helm" OptKeepType="6" SuccessRate="100" MaterialID1="187" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="7" MaterialCnt5="1" MaterialID6="8" MaterialCnt6="1" Money="0" />
 		<Mix ID="435" Cat="8" Index="123" Level="0" Name="Darkangel Runist Armor" OptKeepType="6" SuccessRate="100" MaterialID1="186" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="7" MaterialCnt5="1" MaterialID6="8" MaterialCnt6="1" Money="0" />
 		<Mix ID="436" Cat="9" Index="123" Level="0" Name="Darkangel Runist Pants" OptKeepType="6" SuccessRate="100" MaterialID1="188" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="7" MaterialCnt5="1" MaterialID6="8" MaterialCnt6="1" Money="0" />
@@ -1243,8 +1265,8 @@
 		<Mix ID="519" Cat="9" Index="168" Level="0" Name="Blue Eye Magic Pants (A)" OptKeepType="128" SuccessRate="100" MaterialID1="368" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
 		<Mix ID="520" Cat="10" Index="168" Level="0" Name="Blue Eye Magic Gloves (A)" OptKeepType="128" SuccessRate="100" MaterialID1="369" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
 		<Mix ID="521" Cat="11" Index="168" Level="0" Name="Blue Eye Magic Boots (A)" OptKeepType="128" SuccessRate="100" MaterialID1="370" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="6" MaterialCnt3="1" MaterialID4="7" MaterialCnt4="1" MaterialID5="8" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />			
-		<Mix ID="522" Cat="12" Index="450" Level="0" Name="Ancestral Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="371" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="523" Cat="12" Index="458" Level="0" Name="Ancestral Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="372" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="522" Cat="12" Index="450" Level="0" Name="Earring of Forefathers (L)" OptKeepType="2" SuccessRate="100" MaterialID1="371" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="523" Cat="12" Index="458" Level="0" Name="Earring of Forefathers (R)" OptKeepType="2" SuccessRate="100" MaterialID1="372" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="524" Cat="7" Index="129" Level="0" Name="Blue Eye Runist Helm" OptKeepType="6" SuccessRate="100" MaterialID1="387" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="525" Cat="8" Index="129" Level="0" Name="Blue Eye Runist Armor" OptKeepType="6" SuccessRate="100" MaterialID1="386" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
 		<Mix ID="526" Cat="9" Index="129" Level="0" Name="Blue Eye Runist Pants" OptKeepType="6" SuccessRate="100" MaterialID1="388" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
@@ -1252,15 +1274,16 @@
 		<Mix ID="528" Cat="5" Index="58" Level="0" Name="Book of Darkangel" OptKeepType="3" SuccessRate="100" MaterialID1="390" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />														
 		<Mix ID="529" Cat="5" Index="59" Level="0" Name="Book of Holyangel" OptKeepType="3" SuccessRate="100" MaterialID1="391" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
 		<Mix ID="530" Cat="5" Index="60" Level="0" Name="Book of Soul" OptKeepType="3" SuccessRate="100" MaterialID1="392" MaterialCnt1="1" MaterialID2="338" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />			
-		<Mix ID="531" Cat="12" Index="450" Level="0" Name="Ancestral Earring (L)" OptKeepType="2" SuccessRate="90" MaterialID1="373" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="532" Cat="12" Index="458" Level="0" Name="Ancestral Earring (R)" OptKeepType="2" SuccessRate="90" MaterialID1="374" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="533" Cat="12" Index="450" Level="0" Name="Ancestral Earring (L)" OptKeepType="2" SuccessRate="80" MaterialID1="375" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="534" Cat="12" Index="458" Level="0" Name="Ancestral Earring (R)" OptKeepType="2" SuccessRate="80" MaterialID1="376" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="535" Cat="12" Index="450" Level="0" Name="Ancestral Earring (L)" OptKeepType="2" SuccessRate="70" MaterialID1="377" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="536" Cat="12" Index="458" Level="0" Name="Ancestral Earring (R)" OptKeepType="2" SuccessRate="70" MaterialID1="378" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="537" Cat="12" Index="450" Level="0" Name="Ancestral Earring (L)" OptKeepType="2" SuccessRate="60" MaterialID1="379" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="538" Cat="12" Index="458" Level="0" Name="Ancestral Earring (R)" OptKeepType="2" SuccessRate="60" MaterialID1="380" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
+		<Mix ID="531" Cat="12" Index="450" Level="0" Name="Earring of Forefathers (L)" OptKeepType="2" SuccessRate="90" MaterialID1="373" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="532" Cat="12" Index="458" Level="0" Name="Earring of Forefathers (R)" OptKeepType="2" SuccessRate="90" MaterialID1="374" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="533" Cat="12" Index="450" Level="0" Name="Earring of Forefathers (L)" OptKeepType="2" SuccessRate="80" MaterialID1="375" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="534" Cat="12" Index="458" Level="0" Name="Earring of Forefathers (R)" OptKeepType="2" SuccessRate="80" MaterialID1="376" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="535" Cat="12" Index="450" Level="0" Name="Earring of Forefathers (L)" OptKeepType="2" SuccessRate="70" MaterialID1="377" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="536" Cat="12" Index="458" Level="0" Name="Earring of Forefathers (R)" OptKeepType="2" SuccessRate="70" MaterialID1="378" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="537" Cat="12" Index="450" Level="0" Name="Earring of Forefathers (L)" OptKeepType="2" SuccessRate="60" MaterialID1="379" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="538" Cat="12" Index="458" Level="0" Name="Earring of Forefathers (R)" OptKeepType="2" SuccessRate="60" MaterialID1="380" MaterialCnt1="1" MaterialID2="381" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
 		<!-- 539~542 -->
+		<!-- Bloodangel SpeedServer +11 -->	
 		<Mix ID="543" Cat="8" Index="180" Level="11" Name="Bloodangel Slayer Armor" OptKeepType="8" SuccessRate="100" MaterialID1="425" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="544" Cat="7" Index="180" Level="11" Name="Bloodangel Slayer Helm" OptKeepType="8" SuccessRate="100" MaterialID1="426" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="545" Cat="9" Index="180" Level="11" Name="Bloodangel Slayer Pants" OptKeepType="8" SuccessRate="100" MaterialID1="427" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
@@ -1319,12 +1342,14 @@
 		<Mix ID="598" Cat="10" Index="194" Level="0" Name="Silverheart Lord Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="444" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="599" Cat="10" Index="196" Level="0" Name="Silverheart Lancer Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="452" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="600" Cat="10" Index="197" Level="0" Name="Silverheart Elf Gloves (B)" OptKeepType="6" SuccessRate="100" MaterialID1="346" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="601" RandomID="0" Level="0" Name="Random Sealed Sculpture" OptKeepType="0" SuccessRate="100" MaterialID1="516" MaterialCnt1="1" MaterialID2="514" MaterialCnt2="1" MaterialID3="515" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="602" RandomID="1" Level="0" Name="Random Bloodangel Helmet" OptKeepType="8" SuccessRate="100" MaterialID1="517" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="603" RandomID="2" Level="0" Name="Random Bloodangel Armor" OptKeepType="8" SuccessRate="100" MaterialID1="518" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="604" RandomID="3" Level="0" Name="Random Bloodangel Pants" OptKeepType="8" SuccessRate="100" MaterialID1="519" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="605" RandomID="4" Level="0" Name="Random Bloodangel Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="520" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="606" RandomID="5" Level="0" Name="Random Bloodangel Boots" OptKeepType="8" SuccessRate="100" MaterialID1="521" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		
+		<Mix ID="601" RandomID="0" Level="0" Name="Random Sealed Armor Fragment" OptKeepType="0" SuccessRate="100" MaterialID1="516" MaterialCnt1="1" MaterialID2="514" MaterialCnt2="1" MaterialID3="515" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		<Mix ID="602" RandomID="1" Level="0" Name="Random Bloodangel Helm" OptKeepType="8" SuccessRate="100" MaterialID1="517" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		<Mix ID="603" RandomID="2" Level="0" Name="Random Bloodangel Armor" OptKeepType="8" SuccessRate="100" MaterialID1="518" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		<Mix ID="604" RandomID="3" Level="0" Name="Random Bloodangel Pants" OptKeepType="8" SuccessRate="100" MaterialID1="519" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		<Mix ID="605" RandomID="4" Level="0" Name="Random Bloodangel Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="520" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		<Mix ID="606" RandomID="5" Level="0" Name="Random Bloodangel Boots" OptKeepType="8" SuccessRate="100" MaterialID1="521" MaterialCnt1="1" MaterialID2="7" MaterialCnt2="1" MaterialID3="8" MaterialCnt3="1" MaterialID4="3" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="100000" />
+		
 		<Mix ID="1000" Cat="10" Index="198" Level="0" Name="Silverheart Magic Gloves (B)" OptKeepType="6" SuccessRate="100" MaterialID1="353" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1001" Cat="11" Index="189" Level="0" Name="Silverheart Knight Boots" OptKeepType="6" SuccessRate="100" MaterialID1="432" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1002" Cat="11" Index="193" Level="0" Name="Silverheart Magic Boots (A)" OptKeepType="6" SuccessRate="100" MaterialID1="350" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
@@ -1366,22 +1391,22 @@
 		<Mix ID="1038" Cat="9" Index="193" Level="0" Name="Silverheart Magic Pants (A)" OptKeepType="128" SuccessRate="100" MaterialID1="487" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1039" Cat="10" Index="193" Level="0" Name="Silverheart Magic Gloves (A)" OptKeepType="128" SuccessRate="100" MaterialID1="488" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1040" Cat="11" Index="193" Level="0" Name="Silverheart Magic Boots (A)" OptKeepType="128" SuccessRate="100" MaterialID1="489" MaterialCnt1="1" MaterialID2="178" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		<Mix ID="1041" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="530" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1042" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="531" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1043" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="90" MaterialID1="532" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1044" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="90" MaterialID1="533" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1045" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="80" MaterialID1="534" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1046" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="80" MaterialID1="535" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1047" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="70" MaterialID1="536" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1048" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="70" MaterialID1="537" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1049" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="60" MaterialID1="538" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1050" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="60" MaterialID1="539" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
-		
+		<Mix ID="1041" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" SuccessRate="100" MaterialID1="530" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1042" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" SuccessRate="100" MaterialID1="531" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1043" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" SuccessRate="90" MaterialID1="532" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1044" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" SuccessRate="90" MaterialID1="533" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1045" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" SuccessRate="80" MaterialID1="534" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1046" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" SuccessRate="80" MaterialID1="535" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1047" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" SuccessRate="70" MaterialID1="536" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1048" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" SuccessRate="70" MaterialID1="537" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1049" Cat="12" Index="451" Level="0" Name="Honor Earring (L)" OptKeepType="2" SuccessRate="60" MaterialID1="538" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1050" Cat="12" Index="459" Level="0" Name="Honor Earring (R)" OptKeepType="2" SuccessRate="60" MaterialID1="539" MaterialCnt1="1" MaterialID2="540" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
+		<!-- SpeedServer +11 mix -->
 		<Mix ID="1055" Cat="7" Index="200" Level="11" Name="Defensive Bloodangel Knight Helm (Conviction)" OptKeepType="8" SuccessRate="100" MaterialID1="541" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1056" Cat="8" Index="200" Level="11" Name="Defensive Bloodangel Knight Armor (Conviction)" OptKeepType="8" SuccessRate="100" MaterialID1="542" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1057" Cat="9" Index="200" Level="11" Name="Defensive Bloodangel Knight Pants (Conviction)" OptKeepType="8" SuccessRate="100" MaterialID1="543" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1058" Cat="11" Index="200" Level="11" Name="Defensive Bloodangel Knight Gloves (Conviction)" OptKeepType="8" SuccessRate="100" MaterialID1="544" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
-		
+		<!--  -->
 		<Mix ID="1059" Cat="6" Index="45" Level="0" Name="Darkangel Shield" OptKeepType="3" SuccessRate="100" MaterialID1="545" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1060" Cat="6" Index="46" Level="0" Name="Holyangel Shield" OptKeepType="3" SuccessRate="100" MaterialID1="546" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1061" Cat="6" Index="47" Level="0" Name="Soul Shield" OptKeepType="3" SuccessRate="100" MaterialID1="547" MaterialCnt1="1" MaterialID2="338" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
@@ -1486,8 +1511,7 @@
 		<Mix ID="1168" Cat="8" Index="212" Level="0" Name="Bloodangel Gun Crusher Armor" OptKeepType="24" SuccessRate="100" MaterialID1="523" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1169" Cat="9" Index="212" Level="0" Name="Bloodangel Gun Crusher Pants" OptKeepType="24" SuccessRate="100" MaterialID1="524" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="1170" Cat="11" Index="212" Level="0" Name="Bloodangel Gun Crusher Boots" OptKeepType="24" SuccessRate="100" MaterialID1="525" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />			
-		
-
+		<!-- SpeedServer +11 Mix-->
 		<Mix ID="1139" Cat="7" Index="212" Level="11" Name="Bloodangel Gun Crusher Helm" OptKeepType="24" SuccessRate="100" MaterialID1="522" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />			
 		<Mix ID="1140" Cat="8" Index="212" Level="11" Name="Bloodangel Gun Crusher Armor" OptKeepType="24" SuccessRate="100" MaterialID1="523" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />			
 		<Mix ID="1141" Cat="9" Index="212" Level="11" Name="Bloodangel Gun Crusher Pants" OptKeepType="24" SuccessRate="100" MaterialID1="524" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />			
@@ -1572,7 +1596,7 @@
 		<Mix ID="1213" Cat="10" Index="224" Level="0" Name="Manticore Summoner Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="688" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1214" Cat="10" Index="225" Level="0" Name="Manticore Magic Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="689" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1215" Cat="10" Index="226" Level="0" Name="Manticore Lord Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="690" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
-		<Mix ID="1216" Cat="10" Index="227" Level="0" Name="Manticore Lancer Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="691" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1216" Cat="10" Index="228" Level="0" Name="Manticore Lancer Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="691" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1217" Cat="10" Index="229" Level="0" Name="Manticore Noble Elf Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="692" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1218" Cat="10" Index="230" Level="0" Name="Manticore Magic Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="693" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1219" Cat="10" Index="231" Level="0" Name="Manticore Rune Wizard Gloves" OptKeepType="24" SuccessRate="100" MaterialID1="694" MaterialCnt1="1" MaterialID2="648" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
@@ -1633,16 +1657,16 @@
 		<Mix ID="1263" Cat="5" Index="66" Level="0" Name="Silver Heart Book" OptKeepType="3" SuccessRate="100" MaterialID1="738" MaterialCnt1="1" MaterialID2="726" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1264" Cat="6" Index="49" Level="0" Name="Silver Heart Shield" OptKeepType="3" SuccessRate="100" MaterialID1="739" MaterialCnt1="1" MaterialID2="726" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		
-		<Mix ID="1441" Cat="12" Index="452" Level="0" Name="Blood Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="745" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1442" Cat="12" Index="460" Level="0" Name="Blood Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="100" MaterialID1="746" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1443" Cat="12" Index="452" Level="0" Name="Blood Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="90" MaterialID1="747" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1444" Cat="12" Index="460" Level="0" Name="Blood Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="90" MaterialID1="748" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1445" Cat="12" Index="452" Level="0" Name="Blood Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="80" MaterialID1="749" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1446" Cat="12" Index="460" Level="0" Name="Blood Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="80" MaterialID1="750" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
-		<Mix ID="1447" Cat="12" Index="452" Level="0" Name="Blood Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="70" MaterialID1="751" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1448" Cat="12" Index="460" Level="0" Name="Blood Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="70" MaterialID1="752" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1449" Cat="12" Index="452" Level="0" Name="Blood Earring (L)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="60" MaterialID1="753" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
-		<Mix ID="1450" Cat="12" Index="460" Level="0" Name="Blood Earring (R)" OptKeepType="2" UpgradeOptMaxCnt="3" SuccessRate="60" MaterialID1="754" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
+		<Mix ID="1441" Cat="12" Index="452" Level="0" Name="Earring of Blood (L)" OptKeepType="2" SuccessRate="100" MaterialID1="745" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1442" Cat="12" Index="460" Level="0" Name="Earring of Blood (R)" OptKeepType="2" SuccessRate="100" MaterialID1="746" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1443" Cat="12" Index="452" Level="0" Name="Earring of Blood (L)" OptKeepType="2" SuccessRate="90" MaterialID1="747" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1444" Cat="12" Index="460" Level="0" Name="Earring of Blood (R)" OptKeepType="2" SuccessRate="90" MaterialID1="748" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1445" Cat="12" Index="452" Level="0" Name="Earring of Blood (L)" OptKeepType="2" SuccessRate="80" MaterialID1="749" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1446" Cat="12" Index="460" Level="0" Name="Earring of Blood (R)" OptKeepType="2" SuccessRate="80" MaterialID1="750" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" /> 
+		<Mix ID="1447" Cat="12" Index="452" Level="0" Name="Earring of Blood (L)" OptKeepType="2" SuccessRate="70" MaterialID1="751" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1448" Cat="12" Index="460" Level="0" Name="Earring of Blood (R)" OptKeepType="2" SuccessRate="70" MaterialID1="752" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1449" Cat="12" Index="452" Level="0" Name="Earring of Blood (L)" OptKeepType="2" SuccessRate="60" MaterialID1="753" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />
+		<Mix ID="1450" Cat="12" Index="460" Level="0" Name="Earring of Blood (R)" OptKeepType="2" SuccessRate="60" MaterialID1="754" MaterialCnt1="1" MaterialID2="755" MaterialCnt2="1" MaterialID3="14" MaterialCnt3="1" MaterialID4="15" MaterialCnt4="1" MaterialID5="3" MaterialCnt5="1" MaterialID6="6" MaterialCnt6="1" Money="0" />	
 		
 		<Mix ID="1451" Cat="0" Index="90" Level="0" Name="Darkangel Magic Two Hand Sword" OptKeepType="3" SuccessRate="100" MaterialID1="740" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1452" Cat="0" Index="91" Level="0" Name="Holyangel Magic Two Hand Sword" OptKeepType="3" SuccessRate="100" MaterialID1="741" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
@@ -1650,10 +1674,32 @@
 		<Mix ID="1454" Cat="0" Index="93" Level="0" Name="Blue Eye Magic Two Hand Sword" OptKeepType="3" SuccessRate="100" MaterialID1="743" MaterialCnt1="1" MaterialID2="453" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1455" Cat="0" Index="94" Level="0" Name="Silver Heart Magic Two Hand Sword" OptKeepType="3" SuccessRate="100" MaterialID1="744" MaterialCnt1="1" MaterialID2="726" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		
-	</CombinationResult>
+		<!-- S17 +0 Bloodangel Sealed (Bloodangel Soul + Sealed) KM -->
+		<Mix ID="1274" Cat="8" Index="241" Level="0" Name="Blood Angel White Wizard Armor" OptKeepType="8" SuccessRate="100" MaterialID1="756" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1275" Cat="7" Index="241" Level="0" Name="Blood Angel White Wizard Helm" OptKeepType="8" SuccessRate="100" MaterialID1="757" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1276" Cat="9" Index="241" Level="0" Name="Blood Angel White Wizard Pants" OptKeepType="8" SuccessRate="100" MaterialID1="758" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1277" Cat="10" Index="241" Level="0" Name="Blood Angel White Wizard Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="759" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
+		<!-- S17 +11 Bloodangel (Hero Bloodangel Soul + Sealed)  KM - Speed Server Mix -->
+		<Mix ID="1278" Cat="8" Index="241" Level="11" Name="+11 Blood Angel White Wizard Armor" OptKeepType="8" SuccessRate="100" MaterialID1="756" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1279" Cat="7" Index="241" Level="11" Name="+11 Blood Angel White Wizard Helm" OptKeepType="8" SuccessRate="100" MaterialID1="757" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1280" Cat="9" Index="241" Level="11" Name="+11 Blood Angel White Wizard Pants" OptKeepType="8" SuccessRate="100" MaterialID1="758" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1281" Cat="10" Index="241" Level="11" Name="+11 Blood Angel White Wizard Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="759" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
+		<!-- S17 +0 Bloodangel Sealed LM -->
+		<Mix ID="1315" Cat="8" Index="259" Level="0" Name="Blood Angel Mage Armor" OptKeepType="8" SuccessRate="100" MaterialID1="760" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1316" Cat="7" Index="259" Level="0" Name="Blood Angel Mage Helm" OptKeepType="8" SuccessRate="100" MaterialID1="761" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1317" Cat="9" Index="259" Level="0" Name="Blood Angel Mage Pants" OptKeepType="8" SuccessRate="100" MaterialID1="762" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1318" Cat="10" Index="259" Level="0" Name="Blood Angel Mage Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="763" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
+		<!-- S17 +11 Bloodangel (Hero Bloodangel Soul + Sealed)  LM - Speed Server Mix -->
+		<Mix ID="1319" Cat="8" Index="259" Level="11" Name="+11 Blood Angel Mage Armor" OptKeepType="8" SuccessRate="100" MaterialID1="760" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1320" Cat="7" Index="259" Level="11" Name="+11 Blood Angel Mage Helm" OptKeepType="8" SuccessRate="100" MaterialID1="761" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1321" Cat="9" Index="259" Level="11" Name="+11 Blood Angel Mage Pants" OptKeepType="8" SuccessRate="100" MaterialID1="762" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1322" Cat="10" Index="259" Level="11" Name="+11 Blood Angel Mage Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="763" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />	
+
+</CombinationResult>
+	
 	<RandomCombinationResult>
 		<Result ID="0">
-			<Item Cat="14" Index="472" Name="Scratched Bloodangel Helmet" Rate="1" />
+			<Item Cat="14" Index="472" Name="Scratched Bloodangel Helm" Rate="1" />
 			<Item Cat="14" Index="473" Name="Scratched Bloodangel Armor" Rate="1" />
 			<Item Cat="14" Index="474" Name="Scratched Bloodangel Pants" Rate="1" />
 			<Item Cat="14" Index="475" Name="Scratched Bloodangel Gloves" Rate="1" />
@@ -1670,7 +1716,9 @@
 			<Item Cat="7" Index="122" Name="Bloodangel Runist Helm" Rate="1" />
 			<Item Cat="7" Index="158" Name="Bloodangel Elf Helm (B)" Rate="1" />
 			<Item Cat="7" Index="180" Name="Bloodangel Slayer Helm" Rate="1" />
-			<Item Cat="7" Index="212" Name="Bloodangel Gun Crusher Helm" Rate="1" />
+			<Item Cat="7" Index="212" Name="Bloodangel Gunner Helm" Rate="1" />
+			<Item Cat="7" Index="241" Name="Bloodangel White Wizard Helm" Rate="1" />
+			<Item Cat="7" Index="259" Name="Bloodangel Mage Helm" Rate="1" />
 		</Result>
 		<Result ID="2">
 			<Item Cat="8" Index="98" Name="Bloodangel Knight Armor" Rate="1" />
@@ -1685,7 +1733,9 @@
 			<Item Cat="8" Index="158" Name="Bloodangel Elf Armor (B)" Rate="1" />
 			<Item Cat="8" Index="161" Name="Bloodangel Magic Armor (B)" Rate="1" />
 			<Item Cat="8" Index="180" Name="Bloodangel Slayer Armor" Rate="1" />
-			<Item Cat="8" Index="212" Name="Bloodangel Gun Crusher Armor" Rate="1" />
+			<Item Cat="8" Index="212" Name="Bloodangel Gunner Armor" Rate="1" />
+			<Item Cat="8" Index="241" Name="Bloodangel White Wizard Armor" Rate="1" />
+			<Item Cat="8" Index="259" Name="Bloodangel Mage Armor" Rate="1" />
 		</Result>
 		<Result ID="3">	
 			<Item Cat="9" Index="98" Name="Bloodangel Knight Pants" Rate="1" />
@@ -1700,10 +1750,11 @@
 			<Item Cat="9" Index="158" Name="Bloodangel Elf Pants (B)" Rate="1" />
 			<Item Cat="9" Index="161" Name="Bloodangel Magic Pants (B)" Rate="1" />
 			<Item Cat="9" Index="180" Name="Bloodangel Slayer Pants" Rate="1" />
-			<Item Cat="9" Index="212" Name="Bloodangel Gun Crusher Pants" Rate="1" />
+			<Item Cat="9" Index="212" Name="Bloodangel Gunner Pants" Rate="1" />
+			<Item Cat="9" Index="241" Name="Bloodangel White Wizard Pants" Rate="1" />
+			<Item Cat="9" Index="259" Name="Bloodangel Mage Pants" Rate="1" />
 		</Result>
 		<Result ID="4">	
-			<!-- <Item Cat="10" Index="98" Name="Bloodangel Knight Gloves" Rate="1" /> -->
 			<Item Cat="10" Index="99" Name="Bloodangel Wizard Gloves" Rate="1" />
 			<Item Cat="10" Index="100" Name="Bloodangel Elf Gloves (A)" Rate="1" />
 			<Item Cat="10" Index="101" Name="Bloodangel Summoner Gloves" Rate="1" />
@@ -1714,23 +1765,16 @@
 			<Item Cat="10" Index="158" Name="Bloodangel Elf Gloves (B)" Rate="1" />
 			<Item Cat="10" Index="161" Name="Bloodangel Magic Gloves (B)" Rate="1" />
 			<Item Cat="10" Index="180" Name="Bloodangel Slayer Gloves" Rate="1" />
-			<!-- <Item Cat="10" Index="212" Name="Bloodangel Gun Crusher Gloves" Rate="1" /> -->
+			<Item Cat="10" Index="241" Name="Bloodangel White Wizard Gloves" Rate="1" />
+			<Item Cat="10" Index="259" Name="Bloodangel Mage Gloves" Rate="1" />
 		</Result>
 		<Result ID="5">	
 			<Item Cat="11" Index="98" Name="Bloodangel Knight Boots" Rate="1" />
-			<!-- <Item Cat="11" Index="99" Name="Bloodangel Wizard Boots" Rate="1" /> -->
-			<!-- <Item Cat="11" Index="100" Name="Bloodangel Elf Boots (A)" Rate="1" /> -->
-			<!-- <Item Cat="11" Index="101" Name="Bloodangel Summoner Boots" Rate="1" /> -->
 			<Item Cat="11" Index="102" Name="Bloodangel Magic Boots (A)" Rate="1" />
-			<!-- <Item Cat="11" Index="103" Name="Bloodangel Lord Boots" Rate="1" /> -->
 			<Item Cat="11" Index="104" Name="Bloodangel Fighter Boots" Rate="1" />
-			<!-- <Item Cat="11" Index="105" Name="Bloodangel Lancer Boots" Rate="1" /> -->
-			<!-- <Item Cat="11" Index="122" Name="Bloodangel Runist Boots" Rate="1" /> -->
-			<!-- <Item Cat="11" Index="158" Name="Bloodangel Elf Boots (B)" Rate="1" /> -->
 			<Item Cat="11" Index="161" Name="Bloodangel Magic Boots (B)" Rate="1" />
-			<!-- <Item Cat="11" Index="180" Name="Bloodangel Slayer Boots" Rate="1" /> -->
-			<Item Cat="11" Index="212" Name="Bloodangel Gun Crusher Boots" Rate="1" />
-		</Result>
+			<Item Cat="11" Index="212" Name="Bloodangel Gunner Boots" Rate="1" />
+	</Result>
 	</RandomCombinationResult>															
 </MasteryItemMix>
 

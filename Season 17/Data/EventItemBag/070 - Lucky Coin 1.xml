@@ -11,7 +11,7 @@
 //~~ 
 -->
 <ItemBag>
-	<BagConfig Name="Lucky Coin 1" DropZen="1000" ItemDropRate="100" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagConfig Name="Lucky Coin 1" DropZen="1000" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
 	<BagItems>
 		<Item Section="0" Type="16" MinLevel="5" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Sword of Destruction"/>
 		<Item Section="0" Type="17" MinLevel="5" MaxLevel="7" Durability="0" Skill="1" Luck="1" Option="1" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Dark Breaker"/>
