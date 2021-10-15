@@ -5,22 +5,22 @@
 	  <Item Section="14" Type="23" Level="1" Name="Ring of Honor"/> 
 	  <Item Section="14" Type="24" Level="0" Name="Broken Sword"/>
 	  <Item Section="14" Type="24" Level="1" Name="Dark Stone"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Luck"/>
-	  <Item Section="14" Type="" Level="11" Name="Star of the Sacred Birth"/>
-	  <Item Section="14" Type="" Level="11" Name="Firecracker"/>
-	  <Item Section="14" Type="" Level="11" Name="Heart of Love"/>
-	  <Item Section="14" Type="" Level="11" Name="Olive of Love"/>
-	  <Item Section="14" Type="" Level="11" Name="Silver Medal"/>
-	  <Item Section="14" Type="" Level="11" Name="Golden Medal"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Heaven"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Kundun +1"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Kundun +2"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Kundun +3"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Kundun +4"/>
-	  <Item Section="14" Type="" Level="11" Name="Box of Kundun +5"/>
-	  <Item Section="14" Type="" Level="11" Name="Heart of a Dark Lord"/>
-	  <Item Section="14" Type="" Level="11" Name="Lucky Blue Pouch"/>
-	  <Item Section="14" Type="" Level="11" Name="Lucky Red Pouch"/>
+	  <Item Section="14" Type="11" Level="0" Name="Box of Luck"/>
+	  <Item Section="14" Type="11" Level="1" Name="Star of the Sacred Birth"/>
+	  <Item Section="14" Type="11" Level="2" Name="Firecracker"/>
+	  <Item Section="14" Type="11" Level="3" Name="Heart of Love"/>
+	  <Item Section="14" Type="11" Level="4" Name="Olive of Love"/>
+	  <Item Section="14" Type="11" Level="5" Name="Silver Medal"/>
+	  <Item Section="14" Type="11" Level="6" Name="Golden Medal"/>
+	  <Item Section="14" Type="11" Level="7" Name="Box of Heaven"/>
+	  <Item Section="14" Type="11" Level="8" Name="Box of Kundun +1"/>
+	  <Item Section="14" Type="11" Level="9" Name="Box of Kundun +2"/>
+	  <Item Section="14" Type="11" Level="10" Name="Box of Kundun +3"/>
+	  <Item Section="14" Type="11" Level="11" Name="Box of Kundun +4"/>
+	  <Item Section="14" Type="11" Level="12" Name="Box of Kundun +5"/>
+	  <Item Section="14" Type="11" Level="13" Name="Heart of a Dark Lord"/>
+	  <Item Section="14" Type="11" Level="14" Name="Lucky Blue Pouch"/>
+	  <Item Section="14" Type="11" Level="15" Name="Lucky Red Pouch"/>
 	  <Item Section="14" Type="10" Level="0" Name="Town Portal Scroll"/>
 	  <Item Section="14" Type="10" Level="1" Name="Lorencia Warp Scroll"/>
 	  <Item Section="14" Type="10" Level="2" Name="Noria Warp Scroll"/>

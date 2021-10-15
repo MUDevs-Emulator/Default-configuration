@@ -420,6 +420,7 @@ MuRummySpecialSwitch = 1
 MuRummyRewardScore1 = 250
 MuRummyRewardScore2 = 400
 MuRummyRewardScore3 = 500
+MuRummyRewardScore4 = 1500
 MuRummyRewardMoneyAmount = 500000
 
 ;==================================================

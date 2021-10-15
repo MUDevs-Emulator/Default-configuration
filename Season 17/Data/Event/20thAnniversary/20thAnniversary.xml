@@ -21,6 +21,7 @@
 		<Quest Index="17" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
 		<Quest Index="18" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
 		<Quest Index="19" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="20" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
 	</QuestStartInfo>
 	<QuestObjetiveInfo>								
 		<Objetive Index="0" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
@@ -43,6 +44,7 @@
 		<Objetive Index="17" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
 		<Objetive Index="18" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
 		<Objetive Index="19" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="20" Type="0" Count="1"	QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
 	</QuestObjetiveInfo>
 	<QuestRewardInfo>
 		<Reward Level="0" EffectIndex="349" ExpPercent="5" />

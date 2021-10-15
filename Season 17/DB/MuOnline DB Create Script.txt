@@ -10424,3 +10424,16 @@ SET XACT_ABORT OFF
 
 END
 GO
+
+
+CREATE TABLE [dbo].[PlayTimeEvent](
+	[account] [nchar](10) NULL,
+	[name] [nchar](10) NULL,
+	[roundPlay] [int] NULL,
+	[roundComplete] [int] NULL,
+	[accumulateTime] [int] NULL,
+	[rewardState] [int] NULL,
+	[datePlay] [smalldatetime] NULL
+) ON [PRIMARY]
+
+GO

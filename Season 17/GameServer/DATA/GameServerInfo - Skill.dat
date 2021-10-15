@@ -434,7 +434,7 @@ SolidProtectionTimeConstA = 120
 ;==================================================
 ; Reflection Barrier Settings
 ;==================================================
-ReflectionBarrierDamageRate = 20
+ReflectionBarrierDamageRate = 40
 ReflectionBarrierRate = 50
 
 ;==================================================
