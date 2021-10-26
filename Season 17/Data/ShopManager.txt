@@ -26,4 +26,5 @@
 24        578            //Bolo
 25        583            //Jin
 26        604            //Jin
+27        891            //Wizard Gillard
 end

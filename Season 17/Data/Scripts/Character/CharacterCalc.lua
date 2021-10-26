@@ -20,13 +20,19 @@ function CharacterCalcBasicDamage(aIndex)
 
 	local Leadership =  GetObjectStatByType(aIndex,POINT_COMMAND)
 	
-	local PhysiDamageMin = 0;
+	local PhysiDamageMin = 0
 	
-	local PhysiDamageMax = 0;
+	local PhysiDamageMax = 0
 	
-	local MagicDamageMin = 0;
+	local MagicDamageMin = 0
 	
-	local MagicDamageMax = 0;
+	local MagicDamageMax = 0
+	
+	local DamageMultiplierRate0 = 0
+	
+	local DamageMultiplierRate1 = 0
+	
+	local DamageMultiplierRate2 = 0
 	
 	if(Class == CLASS_DW) then
 	
@@ -55,14 +61,12 @@ function CharacterCalcBasicDamage(aIndex)
 		
 		MagicDamageMax = Energy / 4--[[old DKMagicDamageMaxConstA]]
 		
-		local DKDamageMultiplierRate = 200 + (Energy / 10 --[[old DKDamageMultiplierConstA]]);
+		DamageMultiplierRate0 = 200 + (Energy / 10 --[[old DKDamageMultiplierConstA]]);
 		
-		if(DKDamageMultiplierRate > 500 --[[old DKDamageMultiplierMaxRate]]) then
-			DKDamageMultiplierRate = 500 --[[old DKDamageMultiplierMaxRate]]
+		if(DamageMultiplierRate0 > 500 --[[old DKDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate0 = 500 --[[old DKDamageMultiplierMaxRate]]
 		end
 		
-		SetObjectMultiplierDamage(aIndex,Class,0,DKDamageMultiplierRate)
-
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d | DKDamageMultiplierRate:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,DKDamageMultiplierRate))
 		
 	elseif(Class == CLASS_FE) then
@@ -112,14 +116,12 @@ function CharacterCalcBasicDamage(aIndex)
 		
 		MagicDamageMax = Energy / 4--[[old DLMagicDamageMaxConstA ]];
 		
-		local DLDamageMultiplierRate = 200 + (Energy / 20 --[[old m_DLDamageMultiplierConstA ]]);
+		DamageMultiplierRate0 = 200 + (Energy / 20 --[[old m_DLDamageMultiplierConstA ]]);
 		
-		if(DLDamageMultiplierRate > 500--[[old DLDamageMultiplierMaxRate]]) then
-			DLDamageMultiplierRate = 500
+		if(DamageMultiplierRate0 > 500--[[old DLDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate0 = 500
 		end
 		
-		SetObjectMultiplierDamage(aIndex,Class,0,DLDamageMultiplierRate)
-
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
 	
 	elseif(Class == CLASS_SU) then
@@ -143,30 +145,24 @@ function CharacterCalcBasicDamage(aIndex)
 		
 		MagicDamageMax = Energy / 4--[[old RFMagicDamageMaxConstA ]];
 		
-		local RFDamageMultiplierRate0 = 50 + (Vitality / 10 --[[old RFDamageMultiplierConstB]]);
+		DamageMultiplierRate0 = 50 + (Vitality / 10 --[[old RFDamageMultiplierConstB]]);
 		
-		if(RFDamageMultiplierRate0 > 500--[[old RFDamageMultiplierMaxRate]]) then
-			RFDamageMultiplierRate0 = 500
+		if(DamageMultiplierRate0 > 500--[[old RFDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate0 = 500
 		end
 
-		local RFDamageMultiplierRate1 = 50 + (Energy / 10 --[[old RFDamageMultiplierConstC]]);
+		DamageMultiplierRate1 = 50 + (Energy / 10 --[[old RFDamageMultiplierConstC]]);
 
-		if(RFDamageMultiplierRate1 > 500--[[old RFDamageMultiplierMaxRate]]) then
-			RFDamageMultiplierRate1 = 500
+		if(DamageMultiplierRate1 > 500--[[old RFDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate1 = 500
 		end
 
-		local RFDamageMultiplierRate2 = 100 + (Dexterity / 8 --[[old RFDamageMultiplierConstA]]) + (Energy / 10--[[old RFDamageMultiplierConstC]]);
+		DamageMultiplierRate2 = 100 + (Dexterity / 8 --[[old RFDamageMultiplierConstA]]) + (Energy / 10--[[old RFDamageMultiplierConstC]]);
 
-		if(RFDamageMultiplierRate2 > 500--[[old RFDamageMultiplierMaxRate]]) then
-			RFDamageMultiplierRate2 = 500
+		if(DamageMultiplierRate2 > 500--[[old RFDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate2 = 500
 		end
-		
-		SetObjectMultiplierDamage(aIndex,Class,0,RFDamageMultiplierRate0)
-		
-		SetObjectMultiplierDamage(aIndex,Class,1,RFDamageMultiplierRate1)
-		
-		SetObjectMultiplierDamage(aIndex,Class,2,RFDamageMultiplierRate2)
-		
+	
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d | Mul:%d-%d-%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,RFDamageMultiplierRate0,RFDamageMultiplierRate1,RFDamageMultiplierRate2))
 		
 	elseif(Class == CLASS_GL) then
@@ -179,21 +175,17 @@ function CharacterCalcBasicDamage(aIndex)
 		
 		MagicDamageMax = Energy / 4--[[old GLPhysiDamageMaxConstB ]];
 		
-		local GLDamageMultiplierRate0 = 100 + (Strength / 10--[[old GLDamageMultiplierConstA ]]);
+		DamageMultiplierRate0 = 100 + (Strength / 10--[[old GLDamageMultiplierConstA ]]);
 		
-		if(GLDamageMultiplierRate0 > 500--[[old GLDamageMultiplierMaxRate]]) then
-			GLDamageMultiplierRate0 = 500
+		if(DamageMultiplierRate0 > 500--[[old GLDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate0 = 500
 		end
 
-		local GLDamageMultiplierRate1 = 100 + (Dexterity / 10 --[[old GLDamageMultiplierConstB ]]);
+		DamageMultiplierRate1 = 100 + (Dexterity / 10 --[[old GLDamageMultiplierConstB ]]);
 		
-		if(GLDamageMultiplierRate1 > 500--[[old GLDamageMultiplierMaxRate]]) then
-			GLDamageMultiplierRate1 = 500
+		if(DamageMultiplierRate1 > 500--[[old GLDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate1 = 500
 		end
-		
-		SetObjectMultiplierDamage(aIndex,Class,0,GLDamageMultiplierRate0)
-		
-		SetObjectMultiplierDamage(aIndex,Class,1,GLDamageMultiplierRate1)
 		
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d | Mul:%d-%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,GLDamageMultiplierRate0,GLDamageMultiplierRate1))
 	elseif(Class == CLASS_RW) then
@@ -218,14 +210,12 @@ function CharacterCalcBasicDamage(aIndex)
 		
 		MagicDamageMax = Energy / 4--[[old SLMagicDamageMaxConstA ]];
 		
-		local SLDamageMultiplierRate = 120 + (Strength / 8--[[old SLDamageMultiplierConstA ]]) + (Dexterity / 28--[[old SLDamageMultiplierConstB ]]);
+		DamageMultiplierRate0 = 120 + (Strength / 8--[[old SLDamageMultiplierConstA ]]) + (Dexterity / 28--[[old SLDamageMultiplierConstB ]]);
 		
-		if(SLDamageMultiplierRate > 500--[[old SLDamageMultiplierMaxRate]]) then
-			SLDamageMultiplierRate = 500
+		if(DamageMultiplierRate0 > 500--[[old SLDamageMultiplierMaxRate]]) then
+			DamageMultiplierRate0 = 500
 		end
 		
-		SetObjectMultiplierDamage(aIndex,Class,0,SLDamageMultiplierRate)
-	
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d | SLDamageMultiplierRate:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,SLDamageMultiplierRate))
 		
 	elseif(Class == CLASS_GC) then
@@ -254,13 +244,11 @@ function CharacterCalcBasicDamage(aIndex)
 			
 		MagicDamageMax = Energy / 3
 		
-		local KMDamageMultiplierRate = 200 + (Energy / 50);
+		DamageMultiplierRate0 = 200 + (Energy / 50);
 		
-		if(KMDamageMultiplierRate > 500) then
-			KMDamageMultiplierRate = 500
+		if(DamageMultiplierRate0 > 500) then
+			DamageMultiplierRate0 = 500
 		end
-		
-		SetObjectMultiplierDamage(aIndex,Class,0,KMDamageMultiplierRate)
 		
 	elseif(Class == CLASS_LM) then
 	
@@ -272,40 +260,19 @@ function CharacterCalcBasicDamage(aIndex)
 			
 		MagicDamageMax = Energy / 3
 		
-		local LMDamageMultiplierRate = 140 + (Energy / 100);
+		DamageMultiplierRate0 = 140 + (Energy / 100);
 		
-		if(LMDamageMultiplierRate > 500) then
-			LMDamageMultiplierRate = 500
+		if(DamageMultiplierRate0 > 500) then
+			DamageMultiplierRate0 = 500
 		end
-		
-		SetObjectMultiplierDamage(aIndex,Class,0,LMDamageMultiplierRate)
 		
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] Class Unk :%d', Class))
 	end
 	
-	--
-	
-	SetObjectPhysiDamageMinRight(aIndex,PhysiDamageMin)
-	
-	SetObjectPhysiDamageMaxRight(aIndex,PhysiDamageMax)
-	
-	SetObjectPhysiDamageMinLeft(aIndex,PhysiDamageMin)
-	
-	SetObjectPhysiDamageMaxLeft(aIndex,PhysiDamageMax)
-
-	--	
-	
-	SetObjectMagicDamageMin(aIndex,MagicDamageMin)
-	
-	SetObjectMagicDamageMax(aIndex,MagicDamageMax)
-
-	--	
-	
-	SetObjectCurseDamageMin(aIndex,MagicDamageMin)
-	
-	SetObjectCurseDamageMax(aIndex,MagicDamageMax)
-	
+	--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d ', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
+		
+	return PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,MagicDamageMin,MagicDamageMax,DamageMultiplierRate0,DamageMultiplierRate1,DamageMultiplierRate2
 end
 
 function CharacterCalcBasicAttackRate(aIndex)
@@ -371,9 +338,7 @@ function CharacterCalcBasicAttackRate(aIndex)
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicAttackRate] Class Unk :%d', Class))
 	end
 	
-	SetObjectAttackSuccessRate(aIndex,AttackSuccessRate)
-	
-	SetObjectAttackSuccessRatePvP(aIndex,AttackSuccessRatePvP)
+	return  AttackSuccessRate,AttackSuccessRatePvP
 end
 
 function CharacterCalcBasicAttackSpeed(aIndex)
@@ -429,9 +394,7 @@ function CharacterCalcBasicAttackSpeed(aIndex)
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicAttackSpeed] Class Unk :%d', Class))
 	end
 	
-	SetObjectPhysiSpeed(aIndex,PhysiSpeed)
-		
-	SetObjectMagicSpeed(aIndex,MagicSpeed)
+	return  PhysiSpeed,MagicSpeed
 end
 
 function CharacterCalcBasicDefenseSuccessRate(aIndex)
@@ -489,9 +452,7 @@ function CharacterCalcBasicDefenseSuccessRate(aIndex)
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDefenseSuccessRate] Class Unk :%d', Class))
 	end
 	
-	SetObjectDefenseSuccessRate(aIndex,DefenseSuccessRate)
-		
-	SetObjectDefenseSuccessRatePvP(aIndex,DefenseSuccessRatePvP)
+	return  DefenseSuccessRate,DefenseSuccessRatePvP
 end
 
 function CharacterCalcBasicDefense(aIndex)
@@ -540,8 +501,7 @@ function CharacterCalcBasicDefense(aIndex)
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDefense] Class Unk :%d', Class))
 	end
 	
-	SetObjectDefense(aIndex,Defense)
-
+	return Defense
 end
 
 function CharacterCalcElemental(aIndex)

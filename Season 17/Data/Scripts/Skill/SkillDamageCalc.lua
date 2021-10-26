@@ -241,6 +241,23 @@ function SkillDamageProc(aIndex,bIndex,skill,count,combo,InitDamage)
 	return FinalDamage
 end
 
+function GetSkillDamageTypeBYClass(aIndex,skill)
+
+	local Class = GetObjectClass(aIndex)
+
+	if(skill == SKILL_PLASMA_STORM) then
+		return SKILL_DAMAGE_FENRIR
+	elseif(Class == CLASS_SU and (skill == SKILL_SAHAMUTT or skill == SKILL_NEIL or skill == SKILL_GHOST_PHANTOM)) then
+		return SKILL_DAMAGE_CURSED
+	elseif(Class == CLASS_DW or Class == CLASS_MG or Class == CLASS_SU or Class == CLASS_RW or Class == CLASS_GC or Class == CLASS_KM or Class == CLASS_LM) then
+		if(skill ~= SKILL_NONE and skill ~= SKILL_FALLING_SLASH and skill ~= SKILL_LUNGE and skill ~= SKILL_UPPERCUT and skill ~= SKILL_CYCLONE and skill ~= SKILL_SLASH and skill ~= SKILL_TWISTING_SLASH and skill ~= SKILL_IMPALE and skill ~= SKILL_FIRE_SLASH and skill ~= SKILL_POWER_SLASH and skill ~= SKILL_SPIRAL_SLASH and skill ~= SKILL_SWORD_SLASH and skill ~= SKILL_BLOOD_STORM and skill ~= SKILL_CHAOS_BLADE) then
+			return SKILL_DAMAGE_WIZARD
+		end
+	end
+	
+	return SKILL_DAMAGE_PHYSI
+end 
+
 function SkillManaShield(aIndex,bIndex,SkillIndex)	-- SKILL_MANA_SHIELD
 
 	local value1 = (10--[[old ManaShieldConstA]]+(GetObjectStatByType(aIndex,POINT_DEXTERITY)/50--[[old ManaShieldConstB]])+(GetObjectStatByType(aIndex,POINT_ENERGY)/200--[[old ManaShieldConstC]])) + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_MANA_SHIELD_IMPROVED)
@@ -1451,7 +1468,7 @@ function ReflectionBarrier(aIndex,bIndex,SkillIndex) -- SKILL_REFLECTION_BARRIER
 	
 	AddEffect(bIndex, 0, GetSkillEffect(SkillIndex), count, value1, 0, 0, 0, 0, -1, 0, -1,aIndex);
 	
-	LogAdd(LOG_RED,string.format('aIndex:%d - bIndex: %d - Effect: %d -SkillIndex: %d - count:%d', aIndex,bIndex, GetSkillEffect(SkillIndex),SkillIndex,count))
+	--LogAdd(LOG_RED,string.format('aIndex:%d - bIndex: %d - Effect: %d -SkillIndex: %d - count:%d', aIndex,bIndex, GetSkillEffect(SkillIndex),SkillIndex,count))
 
 	GCSkillAttackSend(aIndex, SkillIndex, bIndex, 1);
 end

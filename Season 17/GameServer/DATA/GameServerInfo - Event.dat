@@ -147,5 +147,4 @@ PlayTimeEventMaxRound = 10
 PlayTimeEventMinLevel = 220
 PlayTimeEventPlayRoundHour = 20
 PlayTimeEventPlayMulHour = 1
-
-
+PlayTimeEventRewardType = 0

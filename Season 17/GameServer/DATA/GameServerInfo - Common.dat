@@ -51,6 +51,8 @@ JoinServerAddress = 127.0.0.1
 JoinServerPort = 55970
 ConnectServerAddress = 127.0.0.1
 ConnectServerPort = 55557
+EXDataServerAddress = 127.0.0.1
+EXDataServerPort = 55981
 
 CloseGameServerSaveData = 1
 ;==================================================

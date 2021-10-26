@@ -700,6 +700,10 @@
 		<Msg ID="884" Text="The party is already in the game." />
 		<Msg ID="885" Text="The zone is being run by another party." />
 		<Msg ID="886" Text="The limit on the number of people allowed to enter the zone has been exceeded." />
+		<Msg ID="887" Text="I have a party with %s." />
+		<Msg ID="888" Text="%s is already at the party." />
+		<Msg ID="889" Text="You have reached the maximum quest." />
+		<Msg ID="890" Text="The authentication server is offline please contact an administrator." />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -847,7 +851,7 @@
 		<Msg ID="16" Text="Player %s defeated Medusa!" />
 	</InvacionMsg>
 	<Notice>
-		<Msg ID="0" Text="MuDevs Ex1701" />
+		<Msg ID="0" Text="MUDevs Ex1701" />
 	</Notice>
 	<NoticeSystem>
 		<Tags>

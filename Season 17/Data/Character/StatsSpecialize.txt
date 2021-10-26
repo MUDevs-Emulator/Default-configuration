@@ -12,6 +12,8 @@
 // Selection (8) -> Class RW
 // Selection (9) -> Class SL
 // Selection (10)-> Class GC
+// Selection (11)-> Class KM
+// Selection (12)-> Class LM
 //-------------------------------------------------------------------------------------------------------
 // information about the bonuses
 //-------------------------------------------------------------------------------------------------------
@@ -106,17 +108,16 @@ end
 2		3	  	1500		10		2000		30		3000		45		*		*		*		*
 end
 
-
 11
 //StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
 4		9	   	1500		10		2000		30		3000		45		*		*		*		*
-2		2	   	1500		10		2000		30		3000		45		*		*		*		*
+2		6	   	1500		10		2000		30		3000		45		*		*		*		*
 2		3	  	1500		10		2000		30		3000		45		*		*		*		*
 end
 
 12
 //StatType	OptionIndex	StatSection1	StatValue1	StatSection2	StatValue2	StatSection3	StatValue3	StatSection4	StatValue4	StatSection5	StatValue5
 4		9	   	1500		10		2000		30		3000		45		*		*		*		*
-2		6		1800		10		2100		30		3000		45		*		*		*		*
-2		3	  	1500		10		2000		30		3000		45		*		*		*		*
+2		6		1500		10		2000		30		3000		45		*		*		*		*
+2		7	  	1500		10		2000		30		3000		45		*		*		*		*
 end

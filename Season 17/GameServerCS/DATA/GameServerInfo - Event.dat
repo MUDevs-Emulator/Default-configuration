@@ -129,3 +129,14 @@ LabyrinthSwitch = 1
 ; Labyrinth League Event Settings
 ;==================================================
 LabyrinthLeagueSwitch = 1
+
+
+;==================================================
+; Play Event Time Event Settings
+;==================================================
+PlayTimeEventSwitch = 1
+PlayTimeEventMaxRound = 10
+PlayTimeEventMinLevel = 220
+PlayTimeEventPlayRoundHour = 20
+PlayTimeEventPlayMulHour = 1
+PlayTimeEventRewardType = 0
