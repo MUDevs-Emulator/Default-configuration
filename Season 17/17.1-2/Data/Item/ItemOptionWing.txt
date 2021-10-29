@@ -6,6 +6,8 @@
 6148      2          32           1            25           2            5               //Wings of Soul
 6149      2          32           1            25           2            5               //Wings of Dragon
 6150      2          32           1            25           2            5               //Wings of Darkness
+6171      4          39           2            39           2            0               //Wings of Eternity
+6172      4          39           2            39           2            0               //Wings of Eternity Bound
 6180      4          39           2            39           2            0               //Wings of Storm
 6181      4          39           2            39           2            0               //Wings of Eternal
 6182      4          39           2            39           2            0               //Wings of Illusion
@@ -26,6 +28,8 @@
 6299      3          12           2            12           2            4               //Pure White Cloak
 6300      2          32           1            25           2            5               //Cloack of Innocence
 6301      2          32           1            25           2            5               //Cloack of Innocence (Bound)
+6302      4          39           2            39           2            0               //Cloak of Brilliance
+6303      4          39           2            39           2            0               //[Bound] Cloak of Brilliance
 6406      3          21           1            13           2            4               //Cloak of Death
 6407      3          33           1            30           2            4               //Wings of Chaos
 6408      3          35           1            29           2            4               //Wings of Magic

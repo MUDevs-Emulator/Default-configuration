@@ -88,6 +88,14 @@
 5         102           3             6150           6150           *             *             *             4               //Wings of Darkness
 6         103           50            6150           6150           *             *             *             8               //Wings of Darkness
 7         97            5             6150           6150           *             *             *             16              //Wings of Darkness
+1         84            5             6171           6172           *             1             *             *               //Wings of Eternity & Bound
+2         85            1             6171           6172           *             *             1             *               //Wings of Eternity & Bound
+2         80            4             6171           6172           *             *             1             16              //Wings of Eternity & Bound
+2         83            4             6171           6172           *             *             1             32              //Wings of Eternity & Bound
+3         102           5             6171           6172           *             *             *             1               //Wings of Eternity & Bound
+4         109           5             6171           6172           *             *             *             2               //Wings of Eternity & Bound
+5         110           5             6171           6172           *             *             *             4               //Wings of Eternity & Bound
+6         111           5             6171           6172           *             *             *             8               //Wings of Eternity & Bound
 1         84            5             6180           6180           *             1             *             *               //Wings of Storm
 2         85            1             6180           6180           *             *             1             *               //Wings of Storm
 2         80            4             6180           6180           *             *             1             16              //Wings of Storm
@@ -169,22 +177,28 @@
 5         102           3             6299           6299           *             *             *             4               //Pure White Clock
 6         103           50            6299           6299           *             *             *             8               //Pure White Clock
 7         97            5             6299           6299           *             *             *             16              //Pure White Clock
-1         84            5             6300           6300           *             1             *             *               //Cloak of Innocence
-2         85            1             6300           6300           *             *             1             *               //Cloak of Innocence
-2         80            4             6300           6300           *             *             1             16              //Cloak of Innocence
-2         83            4             6300           6300           *             *             1             32              //Cloak of Innocence
-3         102           5             6300           6300           *             *             *             1               //Cloak of Innocence
-4         109           5             6300           6300           *             *             *             2               //Cloak of Innocence
-5         110           5             6300           6300           *             *             *             4               //Cloak of Innocence
-6         111           5             6300           6300           *             *             *             8               //Cloak of Innocence
-1         84            5             6301           6301           *             1             *             *               //Cloak of Innocence (Bound)
-2         85            1             6301           6301           *             *             1             *               //Cloak of Innocence (Bound)
-2         80            4             6301           6301           *             *             1             16              //Cloak of Innocence (Bound)
-2         83            4             6301           6301           *             *             1             32              //Cloak of Innocence (Bound)
-3         102           5             6301           6301           *             *             *             1               //Cloak of Innocence (Bound)
-4         109           5             6301           6301           *             *             *             2               //Cloak of Innocence (Bound)
-5         110           5             6301           6301           *             *             *             4               //Cloak of Innocence (Bound)
-6         111           5             6301           6301           *             *             *             8               //Cloak of Innocence (Bound)
+
+1         84            5             6300           6301           *             1             *             *               //Cloak of Innocence & Bound
+2         85            1             6300           6301           *             *             1             *               //Cloak of Innocence & Bound
+2         80            4             6300           6301           *             *             1             16              //Cloak of Innocence & Bound
+2         83            4             6300           6301           *             *             1             32              //Cloak of Innocence & Bound
+3         102           5             6300           6301           *             *             *             1               //Cloak of Innocence & Bound
+4         109           5             6300           6301           *             *             *             2               //Cloak of Innocence & Bound
+5         110           5             6300           6301           *             *             *             4               //Cloak of Innocence & Bound
+6         111           5             6300           6301           *             *             *             8               //Cloak of Innocence & Bound
+
+
+1         84            5             6302           6303           *             1             *             *               //Cloak of Brilliance & Bound
+2         85            1             6302           6303           *             *             1             *               //Cloak of Brilliance & Bound
+2         80            4             6302           6303           *             *             1             16              //Cloak of Brilliance & Bound
+2         83            4             6302           6303           *             *             1             32              //Cloak of Brilliance & Bound
+3         102           5             6302           6303           *             *             *             1               //Cloak of Brilliance & Bound
+4         109           5             6302           6303           *             *             *             2               //Cloak of Brilliance & Bound
+5         110           5             6302           6303           *             *             *             4               //Cloak of Brilliance & Bound
+6         111           5             6302           6303           *             *             *             8               //Cloak of Brilliance & Bound
+
+
+
 1         84            5             6406           6406           *             1             *             *               //Cloak of Death
 2         85            1             6406           6406           *             *             1             *               //Cloak of Death
 2         80            4             6406           6406           *             *             1             16              //Cloak of Death
