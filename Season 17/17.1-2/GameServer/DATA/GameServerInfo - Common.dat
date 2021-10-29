@@ -357,7 +357,7 @@ MasterSkillTreeMaxLevel = 400
 ;==================================================
 EnhanceSkillTree = 1
 EnhanceSkillTreePoint = 1
-EnhanceSkillTreeMaxLevel = 500
+EnhanceSkillTreeMaxLevel = 600
 
 ;==================================================
 ; Gens System Settings

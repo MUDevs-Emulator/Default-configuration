@@ -110,4 +110,6 @@
 132  	"Crimson Icarus"
 133  	"Arenil Temple"
 134     "Ashen Aida"
+135     "Old Kethotum"
+136     "Burning Kethotum"
 end

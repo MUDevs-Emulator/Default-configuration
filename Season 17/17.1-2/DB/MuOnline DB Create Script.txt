@@ -2176,7 +2176,7 @@ CREATE TABLE [dbo].[T_LabyrinthLeagueReward](
 	[Account] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[Name] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[LeagueType] [int] NULL,
-	[LeagueScore] [bigint] NULL,
+	[LeagueScore] [int] NULL,
 	[RewardState] [int] NULL,
 	[RewardDate] [smalldatetime] NULL
 ) ON [PRIMARY]
@@ -2196,7 +2196,7 @@ CREATE TABLE [dbo].[T_LabyrinthLeague](
 	[Class] [int] NULL,
 	[LeagueType] [int] NULL,
 	[LeagueGroup] [int] NULL,
-	[LeagueScore] [bigint] NULL,
+	[LeagueScore] [int] NULL,
 	[FristPlay] [int] NULL,
 	[FloorFristPlay] [varbinary](41) NULL,
 	[LastPlayDate] [smalldatetime] NULL

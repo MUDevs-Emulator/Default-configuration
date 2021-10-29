@@ -258,6 +258,16 @@
 127       0       0      216    119    "Wind Gate (A)"
 127       0       0      227    130    "Darkness Gate (A)"
 134       0       0      125    027    "Entrance to Aida"
+33        0       0      213    239    "Entrance to Burning Kethotum"
+33        0       0      85     14     "Entrance to Old Kethotum"
+135       0       0      138    063    "Red Gate A"
+135       0       0      201    140    "Red Gate B"
+135       0       0      114    064    "Blue Gate A"
+135       0       0      099    159    "Blue Gate B"
+136       0       0      138    063    "Red Gate A"
+136       0       0      201    140    "Red Gate B"
+136       0       0      114    064    "Blue Gate A"
+136       0       0      099    159    "Blue Gate B" 
 end
 
 1
