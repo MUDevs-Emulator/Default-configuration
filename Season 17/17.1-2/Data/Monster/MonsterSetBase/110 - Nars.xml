@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<Config Class="714" Range="5" BeginPosX="87" BeginPosY="48" EndPosX="90" EndPosY="52" Direction="-1" Quantity="10" Element="25" /> <!-- "Core Magriffy" -->
+		<Config Class="716" Range="30" BeginPosX="147" BeginPosY="141" EndPosX="152" EndPosY="147" Direction="-1" Quantity="1" Element="6" /> <!-- "Core Magriffy" -->
+		<Config Class="713" Range="30" BeginPosX="23" BeginPosY="200" EndPosX="22" EndPosY="218" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="23" BeginPosY="200" EndPosX="22" EndPosY="218" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="23" BeginPosY="200" EndPosX="22" EndPosY="218" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="21" BeginPosY="158" EndPosX="30" EndPosY="168" Direction="-1" Quantity="2" Element="2" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="21" BeginPosY="158" EndPosX="30" EndPosY="168" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="15" BeginPosY="128" EndPosX="35" EndPosY="150" Direction="-1" Quantity="2" Element="2" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="15" BeginPosY="128" EndPosX="35" EndPosY="150" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="15" BeginPosY="128" EndPosX="35" EndPosY="150" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="11" BeginPosY="85" EndPosX="35" EndPosY="94" Direction="-1" Quantity="2" Element="2" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="11" BeginPosY="85" EndPosX="35" EndPosY="94" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="11" BeginPosY="85" EndPosX="35" EndPosY="94" Direction="-1" Quantity="1" Element="2" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="32" BeginPosY="69" EndPosX="40" EndPosY="82" Direction="-1" Quantity="2" Element="5" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="32" BeginPosY="69" EndPosX="40" EndPosY="82" Direction="-1" Quantity="1" Element="5" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="123" BeginPosY="50" EndPosX="119" EndPosY="86" Direction="-1" Quantity="2" Element="5" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="123" BeginPosY="50" EndPosX="119" EndPosY="86" Direction="-1" Quantity="2" Element="5" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="123" BeginPosY="50" EndPosX="119" EndPosY="86" Direction="-1" Quantity="1" Element="5" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="71" BeginPosY="50" EndPosX="96" EndPosY="21" Direction="-1" Quantity="2" Element="1" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="71" BeginPosY="50" EndPosX="96" EndPosY="21" Direction="-1" Quantity="1" Element="1" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="71" BeginPosY="50" EndPosX="96" EndPosY="21" Direction="-1" Quantity="1" Element="1" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="84" BeginPosY="27" EndPosX="104" EndPosY="30" Direction="-1" Quantity="3" Element="1" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="84" BeginPosY="27" EndPosX="104" EndPosY="30" Direction="-1" Quantity="3" Element="1" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="182" BeginPosY="13" EndPosX="198" EndPosY="20" Direction="-1" Quantity="2" Element="1" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="182" BeginPosY="13" EndPosX="198" EndPosY="20" Direction="-1" Quantity="1" Element="1" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="182" BeginPosY="13" EndPosX="198" EndPosY="20" Direction="-1" Quantity="1" Element="1" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="168" BeginPosY="43" EndPosX="186" EndPosY="51" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="168" BeginPosY="43" EndPosX="186" EndPosY="51" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="177" BeginPosY="73" EndPosX="192" EndPosY="76" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="177" BeginPosY="73" EndPosX="192" EndPosY="76" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="212" BeginPosY="102" EndPosX="222" EndPosY="109" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="212" BeginPosY="102" EndPosX="222" EndPosY="109" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="212" BeginPosY="102" EndPosX="222" EndPosY="109" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="229" BeginPosY="53" EndPosX="240" EndPosY="81" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="229" BeginPosY="53" EndPosX="240" EndPosY="81" Direction="-1" Quantity="1" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="229" BeginPosY="53" EndPosX="240" EndPosY="81" Direction="-1" Quantity="1" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="192" BeginPosY="37" EndPosX="207" EndPosY="43" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="192" BeginPosY="37" EndPosX="207" EndPosY="43" Direction="-1" Quantity="1" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="212" BeginPosY="29" EndPosX="236" EndPosY="35" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="212" BeginPosY="29" EndPosX="236" EndPosY="35" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="212" BeginPosY="29" EndPosX="236" EndPosY="35" Direction="-1" Quantity="2" Element="4" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="202" BeginPosY="134" EndPosX="215" EndPosY="39" Direction="-1" Quantity="1" Element="6" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="202" BeginPosY="134" EndPosX="215" EndPosY="39" Direction="-1" Quantity="1" Element="6" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="202" BeginPosY="134" EndPosX="215" EndPosY="39" Direction="-1" Quantity="2" Element="6" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="181" BeginPosY="43" EndPosX="193" EndPosY="53" Direction="-1" Quantity="1" Element="6" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="181" BeginPosY="43" EndPosX="193" EndPosY="53" Direction="-1" Quantity="1" Element="6" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="181" BeginPosY="43" EndPosX="193" EndPosY="53" Direction="-1" Quantity="2" Element="6" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="224" BeginPosY="182" EndPosX="232" EndPosY="186" Direction="-1" Quantity="2" Element="6" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="224" BeginPosY="182" EndPosX="232" EndPosY="186" Direction="-1" Quantity="1" Element="6" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="204" BeginPosY="234" EndPosX="215" EndPosY="241" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="204" BeginPosY="234" EndPosX="215" EndPosY="241" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="714" Range="30" BeginPosX="228" BeginPosY="235" EndPosX="240" EndPosY="238" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="228" BeginPosY="235" EndPosX="240" EndPosY="238" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="234" BeginPosY="206" EndPosX="245" EndPosY="222" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="234" BeginPosY="206" EndPosX="245" EndPosY="222" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="234" BeginPosY="206" EndPosX="245" EndPosY="222" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="177" BeginPosY="226" EndPosX="183" EndPosY="234" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="177" BeginPosY="226" EndPosX="183" EndPosY="234" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="714" Range="30" BeginPosX="139" BeginPosY="238" EndPosX="149" EndPosY="239" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="139" BeginPosY="238" EndPosX="149" EndPosY="239" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="114" BeginPosY="230" EndPosX="128" EndPosY="231" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="114" BeginPosY="230" EndPosX="128" EndPosY="231" Direction="-1" Quantity="1" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="114" BeginPosY="230" EndPosX="128" EndPosY="231" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="122" BeginPosY="194" EndPosX="132" EndPosY="202" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="122" BeginPosY="194" EndPosX="132" EndPosY="202" Direction="-1" Quantity="2" Element="3" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="122" BeginPosY="194" EndPosX="132" EndPosY="202" Direction="-1" Quantity="3" Element="3" /> <!-- "Nars Elemental Knight" -->
+		<Config Class="713" Range="30" BeginPosX="130" BeginPosY="151" EndPosX="160" EndPosY="143" Direction="-1" Quantity="5" Element="6" /> <!-- "Nars Devil Fairy" -->
+		<Config Class="714" Range="30" BeginPosX="130" BeginPosY="151" EndPosX="160" EndPosY="143" Direction="-1" Quantity="5" Element="6" /> <!-- "Nars Elemental Beast" -->
+		<Config Class="715" Range="30" BeginPosX="130" BeginPosY="151" EndPosX="160" EndPosY="143" Direction="-1" Quantity="5" Element="6" /> <!-- "Nars Elemental Knight" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

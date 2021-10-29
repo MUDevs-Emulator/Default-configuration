@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By OMEGA
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfig Name="Blue Card" DropZen="0" ItemDropRate="1000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagItems>
+		<Item Section="14" Type="113" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Gold Key"/>
+		<Item Section="14" Type="70" MinLevel="0" MaxLevel="0" Durability="255" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elite Healing Potion"/>
+		<Item Section="14" Type="71" MinLevel="0" MaxLevel="0" Durability="255" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elite Mana Potion"/>
+		<Item Section="14" Type="133" MinLevel="0" MaxLevel="0" Durability="255" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elite SD Potion"/>
+		<Item Section="14" Type="224" MinLevel="0" MaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bless of Light (Greater)"/>
+		<Item Section="14" Type="263" MinLevel="0" MaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bless of Light (Low Grade)"/>
+		<Item Section="14" Type="264" MinLevel="0" MaxLevel="0" Durability="30" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bless of Light (Middle Grade)"/>
+		<Item Section="14" Type="160" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Jewel of Extension"/>
+		<Item Section="14" Type="161" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Jewel of Elevation"/>
+		<Item Section="14" Type="209" MinLevel="0" MaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Tradeable Seal"/>
+		<Item Section="14" Type="53" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Talisman of Luck"/>
+		<Item Section="14" Type="112" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Silver Key"/>
+		<Item Section="14" Type="85" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="[Boost]Cherry Blossom Wine"/>
+		<Item Section="14" Type="86" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="[Boost]Cherry Blossom Rice Cake"/>
+		<Item Section="14" Type="87" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="[Reinforce]Cherry Blossom Flower Petal"/>
+	</BagItems>
+</ItemBag>

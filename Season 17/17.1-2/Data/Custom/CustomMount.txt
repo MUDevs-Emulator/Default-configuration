@@ -1,0 +1,3 @@
+//Index		ItemIndex		Comment
+0		6802			// Gosth Horse
+end

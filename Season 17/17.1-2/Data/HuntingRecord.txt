@@ -1,0 +1,110 @@
+0
+//MapIndex	Name
+0	"Lorencia"
+3	"Noria"
+51	"Elbeland"
+2	"Devias"
+1	"Dungeon"
+7	"Atlans"
+4	"Lost Tower"
+8	"Tarkan"
+112	"Ferea"
+33	"Aida"
+10	"Icarus"
+37	"Kanturu Ruins"
+38	"Kanturu Relics"
+80	"Karutan1"
+81	"Karutan2"
+57	"Raklion"
+113	"Nixie Lake"
+56	"Swamp of Calmness"
+91	"Acheron"
+95	"Debenter"
+100	"Uruk Mountain"
+110	"Nars"
+63	"Vulcanus"
+24	"Kalima1"
+25	"Kalima2"
+26	"Kalima3"
+27	"Kalima4"
+28	"Kalima5"
+29	"Kalima6"
+36	"Kalima7"
+34	"Crywolf"
+31	"Land of Trials"
+115 	"Labyrinth of Dimension"
+116	"Deep Dungeon 1"
+117	"Deep Dungeon 2"
+118	"Deep Dungeon 3"
+119	"Deep Dungeon 4"
+120	"Deep Dungeon 5" 
+122	"Swamp of Darkness"
+123	"Kubera Mine"
+124	"Kubera Mine"
+125	"Kubera Mine"
+126	"Kubera Mine"
+127	"Kubera Mine"
+128	"Abyssal Atlans 1"																																																				
+129	"Abyssal Atlans 2"																																																				
+130	"Abyssal Atlans 3"	
+131	"Scorched Canyon"
+132	"Red Smoke Icarus"	
+133	"Temple of Arnil"
+134	"Ashen Aida"
+end	
+	
+1	
+//MonsterIndex	MonsterName																																																			
+413	//Moon Rabbit																																																				
+463	//Fire Flame Ghost																																																				
+466	//Cursed Goblin																																																				
+476	//Cursed Santa																																																				
+647	//Green Snake (green)																																																				
+648	//Yellow Snake (yellow)																																																				
+649	//Purple Snake (purple)																																																				
+650	//Red Snake (red)																																																				
+652	//Golden Goblin																																																				
+653	//Golden Titan																																																			
+654	//Golden Tantalose																																																			
+655	//Golden Erohim																																																			
+656	//Golden Hell Maine																																																			
+657	//Golden Kundun																																																			
+674	//Moon Rabbit																																																				
+675	//Pouch of Blessing																																																			
+676	//Fire Flame Ghost																																																				
+677	//Golden Goblin																																																			
+681	//Evomon																																																				
+690	//Special Evomon																																																				
+691	//New Year Horse (Green)																																																				
+692	//New Year Horse (Yellow																																																				
+693	//New Year Horse (Brown)																																																			
+694	//New Year Horse (Blue)																																																				
+726	//Green Sheep																																																			
+727	//White Sheep																																																				
+728	//Purple Sheep																																																				
+729	//Red Sheep																																																			
+739	//Green Monkey																																																				
+740	//White Monkey																																																			
+741	//Purple Monkey																																																			
+742	//Red Monkey
+759 	//Green Rooster
+760 	//White Rooster
+761 	//Purple Rooster
+762 	//Red Rooster
+795 	//Puppy (Green)
+796 	//Puppy (White)
+797 	//Puppy (Purple)
+798 	//Puppy (Yellow)
+817	//Pig (Green)
+818	//Pig (Blue)
+819	//Pig (Purple)
+820	//Pig (Red)
+855 	//Mouse (Green)
+856 	//Mouse (Blue)	
+857 	//Mouse (Purple)
+858 	//Mouse (Red)
+884 	//Cow (Green)
+885 	//Cow (Blue)
+886 	//Cow (Purple)
+887 	//Cow (Red)
+end	

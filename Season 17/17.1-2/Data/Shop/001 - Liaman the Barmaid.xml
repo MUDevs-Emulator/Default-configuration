@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shop>
+	<TabInfo Index="1">
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" HarmonyOption="0" OptionEx="0" SocketOption0="-1" SocketOption1="-1" SocketOption2="-1" SocketOption3="-1" SocketOption4="-1" SocketOptionBonus="-1" SocketOptionEx0="-1" SocketOptionEx1="-1" SocketOptionEx2="-1" HarmonyOptionEx0="-1" HarmonyOptionEx1="-1" HarmonyOptionEx2="-1" Duration="1500" Name=""  />
+	</TabInfo>
+	<TabInfo Index="2">
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" HarmonyOption="0" OptionEx="0" SocketOption0="-1" SocketOption1="-1" SocketOption2="-1" SocketOption3="-1" SocketOption4="-1" SocketOptionBonus="-1" SocketOptionEx0="-1" SocketOptionEx1="-1" SocketOptionEx2="-1" HarmonyOptionEx0="-1" HarmonyOptionEx1="-1" HarmonyOptionEx2="-1" Duration="150" Name=""  />
+	</TabInfo>
+	
+</Shop>

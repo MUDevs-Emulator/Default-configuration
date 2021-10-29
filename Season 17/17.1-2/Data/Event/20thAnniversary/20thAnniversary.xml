@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anniversary>
+	<QuestStartInfo>								
+		<Quest Index="0" StartYear="2021" StartMonth="06" StartDay="02" EndYear="2021" EndMonth="07" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="1" StartYear="2021" StartMonth="01" StartDay="07" EndYear="2021" EndMonth="01" EndDay="20" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="2" StartYear="2021" StartMonth="02" StartDay="04" EndYear="2021" EndMonth="02" EndDay="18" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="3" StartYear="2021" StartMonth="03" StartDay="25" EndYear="2021" EndMonth="04" EndDay="07" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="4" StartYear="2021" StartMonth="04" StartDay="08" EndYear="2021" EndMonth="04" EndDay="22" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="5" StartYear="2021" StartMonth="04" StartDay="20" EndYear="2021" EndMonth="05" EndDay="10" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="6" StartYear="2021" StartMonth="05" StartDay="11" EndYear="2021" EndMonth="06" EndDay="03" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="7" StartYear="2021" StartMonth="05" StartDay="13" EndYear="2021" EndMonth="06" EndDay="10" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="8" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="9" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="10" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="11" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="12" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="13" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="14" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="15" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="16" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="17" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="18" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="19" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="20" StartYear="2021" StartMonth="12" StartDay="30" EndYear="2021" EndMonth="12" EndDay="31" Unk1="-1" Unk2="-1" MinLevel="400" MaxLevel="-1" />
+	</QuestStartInfo>
+	<QuestObjetiveInfo>								
+		<Objetive Index="0" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="1" Type="1" Count="100" QuestObjetive0="884" QuestUnk0="-1" QuestObjetive1="885" QuestUnk1="-1" QuestObjetive2="886" QuestUnk2="-1" QuestObjetive3="887" QuestUnk3="-1" />
+		<Objetive Index="2" Type="1" Count="100" QuestObjetive0="413" QuestUnk0="-1" QuestObjetive1="888" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="3" Type="1" Count="50" QuestObjetive0="652" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="4" Type="4" Count="5" QuestObjetive0="41" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="5" Type="6" Count="3" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="6" Type="7" Count="10" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="7" Type="8" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="8" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="9" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="10" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="11" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="12" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="13" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="14" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="15" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="16" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="17" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="18" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="19" Type="0" Count="1" QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+		<Objetive Index="20" Type="0" Count="1"	QuestObjetive0="-1" QuestUnk0="-1" QuestObjetive1="-1" QuestUnk1="-1" QuestObjetive2="-1" QuestUnk2="-1" QuestObjetive3="-1" QuestUnk3="-1" />
+	</QuestObjetiveInfo>
+	<QuestRewardInfo>
+		<Reward Level="0" EffectIndex="349" ExpPercent="5" />
+		<Reward Level="1" EffectIndex="350" ExpPercent="5" />
+		<Reward Level="2" EffectIndex="351" ExpPercent="5" />
+		<Reward Level="3" EffectIndex="352" ExpPercent="10" />
+		<Reward Level="4" EffectIndex="353" ExpPercent="10" />
+		<Reward Level="5" EffectIndex="354" ExpPercent="10" />
+		<Reward Level="6" EffectIndex="355" ExpPercent="15" />
+		<Reward Level="7" EffectIndex="356" ExpPercent="15" />
+		<Reward Level="8" EffectIndex="357" ExpPercent="15" />
+		<Reward Level="9" EffectIndex="358" ExpPercent="20" />
+		<Reward Level="10" EffectIndex="359" ExpPercent="20" />
+		<Reward Level="11" EffectIndex="360" ExpPercent="20" />
+		<Reward Level="12" EffectIndex="361" ExpPercent="20" />
+		<Reward Level="13" EffectIndex="362" ExpPercent="20" />
+		<Reward Level="14" EffectIndex="363" ExpPercent="20" />
+		<Reward Level="15" EffectIndex="364" ExpPercent="20" />
+	</QuestRewardInfo>			
+</Anniversary>	
+

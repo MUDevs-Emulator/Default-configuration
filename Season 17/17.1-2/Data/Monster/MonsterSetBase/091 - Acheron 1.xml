@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="581" Range="0" PositionX="29" PositionY="210" Direction="2" Element="0" /> <!-- "Deruvish" -->
+		<Config Class="582" Range="0" PositionX="38" PositionY="216" Direction="2" Element="0" /> <!-- "Adniel" -->
+		<Config Class="583" Range="0" PositionX="56" PositionY="202" Direction="2" Element="0" /> <!-- "Jin" -->
+		<Config Class="240" Range="0" PositionX="50" PositionY="184" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="586" Range="30" BeginPosX="152" BeginPosY="137" EndPosX="158" EndPosY="143" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="155" BeginPosY="135" EndPosX="159" EndPosY="146" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="152" BeginPosY="145" EndPosX="157" EndPosY="151" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="157" BeginPosY="146" EndPosX="162" EndPosY="153" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="47" BeginPosY="134" EndPosX="52" EndPosY="139" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="50" BeginPosY="131" EndPosX="57" EndPosY="137" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="52" BeginPosY="138" EndPosX="60" EndPosY="143" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="57" BeginPosY="131" EndPosX="65" EndPosY="140" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="31" BeginPosY="115" EndPosX="37" EndPosY="121" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="31" BeginPosY="109" EndPosX="37" EndPosY="115" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="34" BeginPosY="107" EndPosX="46" EndPosY="113" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="37" BeginPosY="112" EndPosX="47" EndPosY="119" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="47" BeginPosY="109" EndPosX="55" EndPosY="114" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="24" BeginPosY="81" EndPosX="31" EndPosY="87" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="28" BeginPosY="78" EndPosX="35" EndPosY="86" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="41" BeginPosY="86" EndPosX="48" EndPosY="91" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="31" BeginPosY="87" EndPosX="40" EndPosY="93" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="35" BeginPosY="79" EndPosX="43" EndPosY="90" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="44" BeginPosY="81" EndPosX="51" EndPosY="88" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="151" BeginPosY="71" EndPosX="159" EndPosY="76" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="150" BeginPosY="64" EndPosX="156" EndPosY="74" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="161" BeginPosY="61" EndPosX="167" EndPosY="70" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="154" BeginPosY="60" EndPosX="165" EndPosY="68" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="157" BeginPosY="68" EndPosX="164" EndPosY="74" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="20" BeginPosY="36" EndPosX="25" EndPosY="42" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="13" BeginPosY="29" EndPosX="22" EndPosY="37" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="19" BeginPosY="12" EndPosX="26" EndPosY="19" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="9" BeginPosY="24" EndPosX="18" EndPosY="32" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="17" BeginPosY="15" EndPosX="28" EndPosY="22" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="11" BeginPosY="19" EndPosX="23" EndPosY="26" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Knight" -->
+		<Config Class="587" Range="30" BeginPosX="138" BeginPosY="8" EndPosX="144" EndPosY="14" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="141" BeginPosY="14" EndPosX="149" EndPosY="18" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="141" BeginPosY="6" EndPosX="147" EndPosY="12" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="147" BeginPosY="8" EndPosX="152" EndPosY="16" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Knight" -->
+		<Config Class="587" Range="30" BeginPosX="167" BeginPosY="37" EndPosX="175" EndPosY="43" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="171" BeginPosY="35" EndPosX="176" EndPosY="45" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="175" BeginPosY="32" EndPosX="182" EndPosY="41" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="169" BeginPosY="43" EndPosX="177" EndPosY="49" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="208" BeginPosY="20" EndPosX="215" EndPosY="25" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="216" BeginPosY="21" EndPosX="222" EndPosY="27" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="219" BeginPosY="10" EndPosX="224" EndPosY="18" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="587" Range="30" BeginPosX="215" BeginPosY="18" EndPosX="225" EndPosY="24" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="225" BeginPosY="23" EndPosX="233" EndPosY="28" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="225" BeginPosY="14" EndPosX="230" EndPosY="20" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="230" BeginPosY="17" EndPosX="235" EndPosY="25" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="107" BeginPosY="154" EndPosX="113" EndPosY="160" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="109" BeginPosY="161" EndPosX="115" EndPosY="167" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="114" BeginPosY="154" EndPosX="121" EndPosY="159" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="115" BeginPosY="160" EndPosX="124" EndPosY="165" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="97" BeginPosY="144" EndPosX="105" EndPosY="150" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="105" BeginPosY="141" EndPosX="112" EndPosY="148" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="104" BeginPosY="134" EndPosX="109" EndPosY="143" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="110" BeginPosY="130" EndPosX="116" EndPosY="138" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="122" BeginPosY="119" EndPosX="128" EndPosY="125" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="117" BeginPosY="125" EndPosX="125" EndPosY="130" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="108" BeginPosY="124" EndPosX="118" EndPosY="133" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="108" BeginPosY="124" EndPosX="118" EndPosY="133" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="124" BeginPosY="152" EndPosX="131" EndPosY="160" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="131" BeginPosY="146" EndPosX="139" EndPosY="153" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="134" BeginPosY="140" EndPosX="141" EndPosY="147" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="139" BeginPosY="125" EndPosX="144" EndPosY="138" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="139" BeginPosY="148" EndPosX="147" EndPosY="154" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="132" BeginPosY="84" EndPosX="140" EndPosY="93" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="137" BeginPosY="95" EndPosX="142" EndPosY="103" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="140" BeginPosY="105" EndPosX="148" EndPosY="110" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="138" BeginPosY="114" EndPosX="146" EndPosY="121" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="143" BeginPosY="112" EndPosX="150" EndPosY="126" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="62" BeginPosY="118" EndPosX="67" EndPosY="125" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="58" BeginPosY="112" EndPosX="66" EndPosY="121" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="62" BeginPosY="102" EndPosX="68" EndPosY="107" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="58" BeginPosY="106" EndPosX="66" EndPosY="116" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="71" BeginPosY="120" EndPosX="78" EndPosY="125" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="81" BeginPosY="136" EndPosX="86" EndPosY="145" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="77" BeginPosY="119" EndPosX="87" EndPosY="126" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="79" BeginPosY="127" EndPosX="89" EndPosY="132" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="80" BeginPosY="132" EndPosX="87" EndPosY="138" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="87" BeginPosY="145" EndPosX="95" EndPosY="148" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="87" BeginPosY="118" EndPosX="97" EndPosY="122" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="95" BeginPosY="113" EndPosX="106" EndPosY="119" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="105" BeginPosY="110" EndPosX="109" EndPosY="122" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="586" Range="30" BeginPosX="106" BeginPosY="102" EndPosX="113" EndPosY="110" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="100" BeginPosY="88" EndPosX="107" EndPosY="94" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="106" BeginPosY="94" EndPosX="113" EndPosY="102" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="88" BeginPosY="81" EndPosX="97" EndPosY="85" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="68" BeginPosY="71" EndPosX="75" EndPosY="77" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="53" BeginPosY="74" EndPosX="58" EndPosY="79" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="57" BeginPosY="64" EndPosX="63" EndPosY="71" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="155" BeginPosY="27" EndPosX="160" EndPosY="32" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="171" BeginPosY="7" EndPosX="176" EndPosY="12" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="169" BeginPosY="19" EndPosX="176" EndPosY="24" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="185" BeginPosY="16" EndPosX="190" EndPosY="23" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="195" BeginPosY="26" EndPosX="202" EndPosY="31" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="176" BeginPosY="17" EndPosX="184" EndPosY="22" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="163" BeginPosY="24" EndPosX="168" EndPosY="28" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="63" BeginPosY="64" EndPosX="72" EndPosY="73" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="83" BeginPosY="83" EndPosX="91" EndPosY="87" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="41" BeginPosY="52" EndPosX="49" EndPosY="64" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="34" BeginPosY="38" EndPosX="41" EndPosY="48" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="43" BeginPosY="18" EndPosX="50" EndPosY="28" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="587" Range="30" BeginPosX="50" BeginPosY="19" EndPosX="55" EndPosY="32" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="39" BeginPosY="28" EndPosX="47" EndPosY="38" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="42" BeginPosY="43" EndPosX="49" EndPosY="52" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="50" BeginPosY="34" EndPosX="59" EndPosY="41" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="586" Range="30" BeginPosX="43" BeginPosY="39" EndPosX="54" EndPosY="47" Direction="-1" Quantity="1" Element="5" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="35" BeginPosY="52" EndPosX="42" EndPosY="62" Direction="-1" Quantity="1" Element="4" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="64" BeginPosY="35" EndPosX="74" EndPosY="44" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="70" BeginPosY="46" EndPosX="79" EndPosY="54" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="81" BeginPosY="54" EndPosX="90" EndPosY="64" Direction="-1" Quantity="1" Element="1" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="104" BeginPosY="28" EndPosX="113" EndPosY="38" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="105" BeginPosY="73" EndPosX="113" EndPosY="80" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="115" BeginPosY="76" EndPosX="126" EndPosY="83" Direction="-1" Quantity="1" Element="2" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="130" BeginPosY="59" EndPosX="136" EndPosY="69" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="139" BeginPosY="39" EndPosX="146" EndPosY="47" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="586" Range="30" BeginPosX="124" BeginPosY="24" EndPosX="134" EndPosY="32" Direction="-1" Quantity="1" Element="3" /> <!-- "Devilfairy" -->
+		<Config Class="587" Range="30" BeginPosX="129" BeginPosY="41" EndPosX="137" EndPosY="52" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="114" BeginPosY="65" EndPosX="124" EndPosY="72" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="96" BeginPosY="55" EndPosX="106" EndPosY="63" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="74" BeginPosY="20" EndPosX="83" EndPosY="28" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="587" Range="30" BeginPosX="80" BeginPosY="36" EndPosX="93" EndPosY="45" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Beast" -->
+		<Config Class="588" Range="30" BeginPosX="133" BeginPosY="32" EndPosX="144" EndPosY="42" Direction="-1" Quantity="1" Element="5" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="125" BeginPosY="71" EndPosX="134" EndPosY="80" Direction="-1" Quantity="1" Element="1" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="98" BeginPosY="40" EndPosX="108" EndPosY="47" Direction="-1" Quantity="1" Element="2" /> <!-- "Elemental Knight" -->
+		<Config Class="588" Range="30" BeginPosX="85" BeginPosY="18" EndPosX="95" EndPosY="30" Direction="-1" Quantity="1" Element="3" /> <!-- "Elemental Knight" -->
+		<Config Class="592" Range="30" BeginPosX="75" BeginPosY="30" EndPosX="108" EndPosY="47" Direction="-1" Quantity="1" Element="2" /> <!-- "Undine" -->
+		<Config Class="593" Range="30" BeginPosX="122" BeginPosY="29" EndPosX="142" EndPosY="39" Direction="-1" Quantity="1" Element="1" /> <!-- "Salamander" -->
+		<Config Class="588" Range="30" BeginPosX="107" BeginPosY="67" EndPosX="124" EndPosY="80" Direction="-1" Quantity="1" Element="4" /> <!-- "Elemental Knight" -->
+		<Config Class="589" Range="30" BeginPosX="183" BeginPosY="145" EndPosX="190" EndPosY="151" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="184" BeginPosY="152" EndPosX="191" EndPosY="158" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="191" BeginPosY="147" EndPosX="197" EndPosY="155" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="190" BeginPosY="156" EndPosX="195" EndPosY="162" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="236" BeginPosY="224" EndPosX="242" EndPosY="229" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="242" BeginPosY="226" EndPosX="247" EndPosY="235" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="233" BeginPosY="230" EndPosX="239" EndPosY="235" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="240" BeginPosY="231" EndPosX="246" EndPosY="237" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="235" BeginPosY="201" EndPosX="240" EndPosY="207" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="232" BeginPosY="209" EndPosX="238" EndPosY="215" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="242" BeginPosY="204" EndPosX="248" EndPosY="209" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="239" BeginPosY="197" EndPosX="247" EndPosY="205" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="238" BeginPosY="209" EndPosX="245" EndPosY="215" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="232" BeginPosY="167" EndPosX="239" EndPosY="173" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="230" BeginPosY="175" EndPosX="236" EndPosY="180" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="240" BeginPosY="163" EndPosX="246" EndPosY="170" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="589" Range="30" BeginPosX="236" BeginPosY="165" EndPosX="244" EndPosY="174" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="236" BeginPosY="175" EndPosX="242" EndPosY="180" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="195" BeginPosY="53" EndPosX="200" EndPosY="58" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="199" BeginPosY="48" EndPosX="206" EndPosY="52" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="202" BeginPosY="58" EndPosX="207" EndPosY="64" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="204" BeginPosY="53" EndPosX="211" EndPosY="59" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="200" BeginPosY="53" EndPosX="210" EndPosY="62" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="589" Range="30" BeginPosX="195" BeginPosY="53" EndPosX="200" EndPosY="58" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="199" BeginPosY="48" EndPosX="206" EndPosY="52" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="202" BeginPosY="58" EndPosX="207" EndPosY="64" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="204" BeginPosY="53" EndPosX="211" EndPosY="59" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="200" BeginPosY="53" EndPosX="210" EndPosY="62" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="227" BeginPosY="87" EndPosX="234" EndPosY="93" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="591" Range="30" BeginPosX="231" BeginPosY="77" EndPosX="237" EndPosY="85" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="591" Range="30" BeginPosX="241" BeginPosY="90" EndPosX="247" EndPosY="97" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="590" Range="30" BeginPosX="231" BeginPosY="85" EndPosX="239" EndPosY="92" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="238" BeginPosY="84" EndPosX="245" EndPosY="92" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="207" BeginPosY="209" EndPosX="212" EndPosY="217" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="212" BeginPosY="217" EndPosX="218" EndPosY="223" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="218" BeginPosY="210" EndPosX="226" EndPosY="213" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="212" BeginPosY="212" EndPosX="220" EndPosY="220" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="589" Range="30" BeginPosX="212" BeginPosY="205" EndPosX="219" EndPosY="211" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="213" BeginPosY="138" EndPosX="221" EndPosY="145" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="219" BeginPosY="151" EndPosX="227" EndPosY="155" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="225" BeginPosY="130" EndPosX="234" EndPosY="137" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="226" BeginPosY="145" EndPosX="233" EndPosY="152" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="217" BeginPosY="142" EndPosX="225" EndPosY="149" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="222" BeginPosY="137" EndPosX="233" EndPosY="145" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="590" Range="30" BeginPosX="201" BeginPosY="177" EndPosX="208" EndPosY="182" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="188" BeginPosY="182" EndPosX="195" EndPosY="188" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="589" Range="30" BeginPosX="188" BeginPosY="168" EndPosX="194" EndPosY="175" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="193" BeginPosY="176" EndPosX="200" EndPosY="180" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="210" BeginPosY="170" EndPosX="218" EndPosY="175" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="208" BeginPosY="178" EndPosX="214" EndPosY="185" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="153" BeginPosY="185" EndPosX="160" EndPosY="189" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="150" BeginPosY="190" EndPosX="155" EndPosY="195" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="150" BeginPosY="200" EndPosX="156" EndPosY="205" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="162" BeginPosY="203" EndPosX="169" EndPosY="208" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="165" BeginPosY="210" EndPosX="171" EndPosY="215" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="169" BeginPosY="201" EndPosX="175" EndPosY="206" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="168" BeginPosY="219" EndPosX="175" EndPosY="222" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="181" BeginPosY="215" EndPosX="187" EndPosY="220" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="183" BeginPosY="220" EndPosX="190" EndPosY="226" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="190" BeginPosY="217" EndPosX="196" EndPosY="222" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="176" BeginPosY="217" EndPosX="184" EndPosY="224" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="589" Range="30" BeginPosX="164" BeginPosY="174" EndPosX="170" EndPosY="179" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="172" BeginPosY="171" EndPosX="179" EndPosY="178" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="177" BeginPosY="164" EndPosX="186" EndPosY="170" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="158" BeginPosY="180" EndPosX="162" EndPosY="184" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="180" BeginPosY="183" EndPosX="186" EndPosY="191" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="589" Range="30" BeginPosX="173" BeginPosY="193" EndPosX="178" EndPosY="202" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="208" BeginPosY="195" EndPosX="212" EndPosY="202" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="201" BeginPosY="188" EndPosX="207" EndPosY="192" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="204" BeginPosY="172" EndPosX="214" EndPosY="177" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="204" BeginPosY="70" EndPosX="211" EndPosY="76" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="213" BeginPosY="70" EndPosX="218" EndPosY="75" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="219" BeginPosY="66" EndPosX="224" EndPosY="72" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="214" BeginPosY="54" EndPosX="220" EndPosY="58" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="221" BeginPosY="51" EndPosX="230" EndPosY="55" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="220" BeginPosY="56" EndPosX="224" EndPosY="64" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="209" BeginPosY="65" EndPosX="217" EndPosY="74" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="589" Range="30" BeginPosX="215" BeginPosY="98" EndPosX="220" EndPosY="103" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="221" BeginPosY="96" EndPosX="225" EndPosY="103" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="589" Range="30" BeginPosX="218" BeginPosY="105" EndPosX="228" EndPosY="111" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="591" Range="30" BeginPosX="227" BeginPosY="108" EndPosX="232" EndPosY="118" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="590" Range="30" BeginPosX="170" BeginPosY="92" EndPosX="178" EndPosY="98" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="166" BeginPosY="102" EndPosX="173" EndPosY="110" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="173" BeginPosY="116" EndPosX="182" EndPosY="121" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="183" BeginPosY="106" EndPosX="188" EndPosY="114" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="178" BeginPosY="81" EndPosX="185" EndPosY="88" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="188" BeginPosY="91" EndPosX="197" EndPosY="100" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="201" BeginPosY="111" EndPosX="210" EndPosY="119" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="199" BeginPosY="96" EndPosX="208" EndPosY="105" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="190" BeginPosY="109" EndPosX="199" EndPosY="116" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="590" Range="30" BeginPosX="193" BeginPosY="79" EndPosX="202" EndPosY="86" Direction="-1" Quantity="1" Element="5" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="179" BeginPosY="94" EndPosX="192" EndPosY="105" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="591" Range="30" BeginPosX="195" BeginPosY="120" EndPosX="205" EndPosY="128" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="591" Range="30" BeginPosX="202" BeginPosY="88" EndPosX="209" EndPosY="100" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="594" Range="30" BeginPosX="178" BeginPosY="180" EndPosX="196" EndPosY="189" Direction="-1" Quantity="1" Element="4" /> <!-- "Sylphid" -->
+		<Config Class="595" Range="30" BeginPosX="228" BeginPosY="110" EndPosX="234" EndPosY="133" Direction="-1" Quantity="1" Element="3" /> <!-- "Gnome" -->
+		<Config Class="596" Range="30" BeginPosX="179" BeginPosY="90" EndPosX="198" EndPosY="107" Direction="-1" Quantity="1" Element="5" /> <!-- "Hellraiser" -->
+		<Config Class="589" Range="30" BeginPosX="235" BeginPosY="46" EndPosX="242" EndPosY="56" Direction="-1" Quantity="1" Element="1" /> <!-- "Ubaid Devilfairy" -->
+		<Config Class="590" Range="30" BeginPosX="239" BeginPosY="52" EndPosX="246" EndPosY="57" Direction="-1" Quantity="1" Element="2" /> <!-- "Ubaid Elemental Beast" -->
+		<Config Class="591" Range="30" BeginPosX="237" BeginPosY="42" EndPosX="245" EndPosY="50" Direction="-1" Quantity="1" Element="3" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="591" Range="30" BeginPosX="242" BeginPosY="44" EndPosX="248" EndPosY="53" Direction="-1" Quantity="1" Element="4" /> <!-- "Ubaid Elemental Knight" -->
+		<Config Class="596" Range="30" BeginPosX="93" BeginPosY="7" EndPosX="246" EndPosY="188" Direction="-1" Quantity="1" Element="5" /> <!-- "Hellraiser" -->
+		<Config Class="595" Range="30" BeginPosX="56" BeginPosY="14" EndPosX="239" EndPosY="158" Direction="-1" Quantity="1" Element="3" /> <!-- "Gnome" -->
+		<Config Class="594" Range="30" BeginPosX="99" BeginPosY="10" EndPosX="248" EndPosY="248" Direction="-1" Quantity="1" Element="4" /> <!-- "Sylphid" -->
+		<Config Class="593" Range="30" BeginPosX="79" BeginPosY="5" EndPosX="248" EndPosY="183" Direction="-1" Quantity="1" Element="1" /> <!-- "Salamander" -->
+		<Config Class="592" Range="30" BeginPosX="14" BeginPosY="6" EndPosX="242" EndPosY="151" Direction="-1" Quantity="1" Element="2" /> <!-- "Undine" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

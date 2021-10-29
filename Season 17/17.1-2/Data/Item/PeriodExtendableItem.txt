@@ -1,0 +1,60 @@
+//Section	Type	//Description
+13		64	//Demon
+13		65	//Spirit of Guardian
+13		80	//Pet Panda
+13		106	//Pet Unicorn
+13		123	//Pet Skeleton
+13		113	//Ruby Necklace
+13		114	//Emerald Necklace
+13		115	//Sapphire Necklace
+13		20	//Wizards Ring
+13		39	//EliteTransfer Skeleton Ring
+13		76	//Panda Ring
+13		77	//Brown Panda Ring
+13		78	//Pink Panda Ring
+13		107	//Lethal Wizard's Ring
+13		109	//Sapphire Ring
+13		110	//Ruby Ring
+13		111	//Topaz Ring
+13		112	//Amethyst Ring
+13		122	//Skeleton Transformation Ring
+13		163	//Robot Knight Ring
+13		164	//Mini Robot Ring
+13		165	//Great Heavenly Mage Ring
+13		166	//Brown Panda Ring
+13		472	//[PC] Skeleton Transform Ring
+13		473	//[PC] Robot Knight Ring
+13		474	//[PC] Mini Robot Ring
+13		475	//[PC] Great Heavenly Mage Ring
+13		128	//Hawk Figurine
+13		129	//Goat Figurine
+13		130	//Oak Charm
+13		131	//Maple Charm
+13		132	//Golden Oak Charm
+13		133	//Golden Maple Charm
+13		134	//Worn Horseshoe
+13		177	//Talisman of Ascension I
+13		178	//Talisman of Ascension II
+13		179	//Talisman of Ascension III
+13		476	//[PC] Talisman of Ascension II
+12		267	//Wings of Angel and Devil
+12		266	//Wings of Conqueror
+12		130	//Small Cape of Lord
+12		131	//Small Wing of Curse
+12		132	//Small Wings of Elf
+12		133	//Small Wings of Heaven
+12		134	//Small Wings of Satan
+12		135	//Little Warrior's Cloak
+12		278	//Small Cloak of Limit
+12		283	//[PC] Wings of Angel and Devil
+12		284	//[PC] Cloak of Death
+12		285	//[PC] Wings of Chaos
+12		286	//[PC] Wings of Magic
+12		287	//[PC] Wings of Life
+13		469	//[PC] Panda Pet
+13		470	//[PC] Skeleton Pet
+13		268	//Dark Transformation Ring
+12		449	//Earring of Rage (L)
+12		449	//Earring of Rage (L)
+12		480	//Wings of Power
+end

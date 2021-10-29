@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### DoppelGanger::MonsterAttacksFirst ###
+//	DG: Monster (533) attacks first always, 0/1
+//	DW: Monster (534) attacks first always, 0/1
+//	DK: Monster (535) attacks first always, 0/1
+//	ELF: Monster (536) attacks first always, 0/1
+//	MG: Monster (537) attacks first always, 0/1
+//	DL: Monster (538) attacks first always, 0/1
+//	SU: Monster (539) attacks first always, 0/1
+//	RF: Monster (841) attacks first always, 0/1
+//	GL: Monster (842) attacks first always, 0/1
+//	RW: Monster (843) attacks first always, 0/1
+//	SLA: Monster (844) attacks first always, 0/1
+//	AttackFirstRate: Chance rate to get attacked by monster first (if 0 for any of above), n/10000
+//	
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Monster Indexes affected with settings below
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//		~ 529-539
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Do not modify Doppel Ganger event monsters settings via
+//~~ MonsterList.xml, use multipliers below. All values for
+//~~ the above defined indexes are set to 1 in MonsterList.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+// uzupelnij roomy i schedule na bazie ori pliku
+-->
+<DoppelGanger MinParty="2" MinUserInParty="5">
+<MonsterAttacksFirst DG="1" DW="0" DK="0" ELF="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SLA="0" AttackFirstRate="7000" />
+	<Schedule>
+		<Time NotifyHour="2" NotifyMin="20" ReadyHour="2" ReadyMin="27" StartHour="2" StartMin="30" />
+		<Time NotifyHour="12" NotifyMin="20" ReadyHour="12" ReadyMin="27" StartHour="12" StartMin="30" />
+		<Time NotifyHour="16" NotifyMin="20" ReadyHour="16" ReadyMin="27" StartHour="16" StartMin="30" />
+		<Time NotifyHour="18" NotifyMin="20" ReadyHour="18" ReadyMin="27" StartHour="18" StartMin="30" />
+		<Time NotifyHour="20" NotifyMin="20" ReadyHour="20" ReadyMin="27" StartHour="20" StartMin="30" />
+		<Time NotifyHour="22" NotifyMin="20" ReadyHour="22" ReadyMin="27" StartHour="22" StartMin="30" />
+		<Time NotifyHour="0" NotifyMin="20" ReadyHour="0" ReadyMin="27" StartHour="0" StartMin="30" />
+	</Schedule>
+
+	<EntryLevel>
+		<Room Number="0" MinLevel="50"  MaxLevel="399" />
+		<Room Number="1" MinLevel="400" MaxLevel="599" />
+		<Room Number="2" MinLevel="600" MaxLevel="699" />
+		<Room Number="3" MinLevel="700" MaxLevel="799" />
+		<Room Number="4" MinLevel="800" MaxLevel="899" />
+		<Room Number="5" MinLevel="900" MaxLevel="999" />
+		<Room Number="6" MinLevel="1000" MaxLevel="MAX" />
+	</EntryLevel>
+
+	<Room Number="0" RewardExp="60000">
+		<Monster LevelMultiplier="2.2" HPMultiplier="4.1" DamageMultiplier="1.43" DefenseMultiplier="1.8" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="5">
+			<Chest Number="1" SectionID="1" RewardRate="600000" />
+			<Chest Number="2" SectionID="5" RewardRate="600000" />
+			<Chest Number="3" SectionID="10" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="1" RewardExp="100000">
+		<Monster LevelMultiplier="3.93" HPMultiplier="13.2" DamageMultiplier="3.91" DefenseMultiplier="4.65" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="5">
+			<Chest Number="1" SectionID="2" RewardRate="600000" />
+			<Chest Number="2" SectionID="6" RewardRate="600000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="2" RewardExp="130000">
+		<Monster LevelMultiplier="5.25" HPMultiplier="22.8" DamageMultiplier="5.68" DefenseMultiplier="8" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="6">
+			<Chest Number="1" SectionID="3" RewardRate="600000" />
+			<Chest Number="2" SectionID="7" RewardRate="600000" />
+			<Chest Number="3" SectionID="10" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="3" RewardExp="160000">
+		<Monster LevelMultiplier="5.65" HPMultiplier="31.8" DamageMultiplier="7.38" DefenseMultiplier="9.8" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="6">
+			<Chest Number="1" SectionID="4" RewardRate="600000" />
+			<Chest Number="2" SectionID="8" RewardRate="600000" />
+			<Chest Number="3" SectionID="10" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="4" RewardExp="190000">
+		<Monster LevelMultiplier="6.79" HPMultiplier="38" DamageMultiplier="8.48" DefenseMultiplier="11.6" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="12" RewardRate="1000000" />
+			<Chest Number="2" SectionID="13" RewardRate="1000000" />
+			<Chest Number="3" SectionID="14" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="7">
+			<Chest Number="1" SectionID="4" RewardRate="600000" />
+			<Chest Number="2" SectionID="8" RewardRate="600000" />
+			<Chest Number="3" SectionID="13" RewardRate="100000" />
+			<Chest Number="4" SectionID="14" RewardRate="1000" />
+			<Chest Number="5" SectionID="13" RewardRate="100" />
+			<Chest Number="6" SectionID="14" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="5" RewardExp="210000">
+		<Monster LevelMultiplier="6.79" HPMultiplier="49" DamageMultiplier="11.38" DefenseMultiplier="16.7" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="7">
+			<Chest Number="1" SectionID="4" RewardRate="600000" />
+			<Chest Number="2" SectionID="8" RewardRate="600000" />
+			<Chest Number="3" SectionID="10" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+	<Room Number="6" RewardExp="240000">
+		<Monster LevelMultiplier="6.79" HPMultiplier="59" DamageMultiplier="13.82" DefenseMultiplier="21.2" />
+		<InterimChest ItemDropCount="1">
+			<Chest Number="1" SectionID="9" RewardRate="1000000" />
+			<Chest Number="2" SectionID="10" RewardRate="1000000" />
+			<Chest Number="3" SectionID="11" RewardRate="100000" />
+		</InterimChest>
+		<FinalChest ItemDropCount="7">
+			<Chest Number="1" SectionID="4" RewardRate="600000" />
+			<Chest Number="2" SectionID="8" RewardRate="600000" />
+			<Chest Number="3" SectionID="10" RewardRate="100000" />
+			<Chest Number="4" SectionID="11" RewardRate="1000" />
+			<Chest Number="5" SectionID="12" RewardRate="100" />
+			<Chest Number="6" SectionID="13" RewardRate="10" />
+		</FinalChest>
+	</Room>
+</DoppelGanger>

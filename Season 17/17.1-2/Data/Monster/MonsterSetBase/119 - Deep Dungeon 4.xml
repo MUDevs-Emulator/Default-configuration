@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="769" Range="4" BeginPosX="11" BeginPosY="5" EndPosX="25" EndPosY="9" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="135" BeginPosY="2" EndPosX="148" EndPosY="10" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="199" BeginPosY="23" EndPosX="209" EndPosY="40" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="157" BeginPosY="135" EndPosX="168" EndPosY="146" Direction="-1" Quantity="5" Element="4" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="177" BeginPosY="148" EndPosX="192" EndPosY="159" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="97" BeginPosY="21" EndPosX="104" EndPosY="30" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="180" BeginPosY="57" EndPosX="189" EndPosY="66" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="218" BeginPosY="39" EndPosX="231" EndPosY="49" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="238" BeginPosY="143" EndPosX="249" EndPosY="169" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="240" BeginPosY="230" EndPosX="250" EndPosY="247" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="99" BeginPosY="1" EndPosX="128" EndPosY="7" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="197" BeginPosY="2" EndPosX="208" EndPosY="13" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="195" BeginPosY="116" EndPosX="207" EndPosY="128" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="227" BeginPosY="132" EndPosX="237" EndPosY="146" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="62" BeginPosY="35" EndPosX="72" EndPosY="45" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="159" BeginPosY="12" EndPosX="170" EndPosY="22" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="211" BeginPosY="14" EndPosX="219" EndPosY="26" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="217" BeginPosY="115" EndPosX="227" EndPosY="129" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="144" BeginPosY="23" EndPosX="157" EndPosY="45" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="120" BeginPosY="58" EndPosX="133" EndPosY="67" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="192" BeginPosY="43" EndPosX="197" EndPosY="69" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="197" BeginPosY="138" EndPosX="221" EndPosY="154" Direction="-1" Quantity="5" Element="4" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="111" BeginPosY="87" EndPosX="123" EndPosY="97" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="140" BeginPosY="48" EndPosX="154" EndPosY="66" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="225" BeginPosY="12" EndPosX="242" EndPosY="28" Direction="-1" Quantity="6" Element="3" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="208" BeginPosY="110" EndPosX="214" EndPosY="138" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="216" BeginPosY="231" EndPosX="233" EndPosY="238" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="112" BeginPosY="11" EndPosX="123" EndPosY="18" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="6" BeginPosX="165" BeginPosY="85" EndPosX="170" EndPosY="105" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="8" BeginPosX="217" BeginPosY="179" EndPosX="224" EndPosY="204" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="769" Range="4" BeginPosX="20" BeginPosY="11" EndPosX="30" EndPosY="19" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Elite Skeleton War" -->
+		<Config Class="775" Range="8" BeginPosX="87" BeginPosY="26" EndPosX="98" EndPosY="42" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="175" BeginPosY="12" EndPosX="185" EndPosY="21" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="177" BeginPosY="90" EndPosX="189" EndPosY="101" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="174" BeginPosY="113" EndPosX="189" EndPosY="123" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="176" BeginPosY="128" EndPosX="191" EndPosY="140" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="111" BeginPosY="32" EndPosX="125" EndPosY="41" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="174" BeginPosY="30" EndPosX="182" EndPosY="43" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="157" BeginPosY="60" EndPosX="170" EndPosY="70" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="242" BeginPosY="65" EndPosX="250" EndPosY="86" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="232" BeginPosY="89" EndPosX="243" EndPosY="101" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="93" BeginPosY="74" EndPosX="104" EndPosY="85" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="106" BeginPosY="60" EndPosX="113" EndPosY="72" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="242" BeginPosY="35" EndPosX="249" EndPosY="55" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="196" BeginPosY="149" EndPosX="220" EndPosY="171" Direction="-1" Quantity="5" Element="5" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="115" BeginPosY="75" EndPosX="132" EndPosY="84" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="73" BeginPosY="2" EndPosX="94" EndPosY="7" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="201" BeginPosY="240" EndPosX="225" EndPosY="252" Direction="-1" Quantity="4" Element="5" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="82" BeginPosY="45" EndPosX="90" EndPosY="58" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="75" BeginPosY="32" EndPosX="79" EndPosY="45" Direction="-1" Quantity="2" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="147" BeginPosY="24" EndPosX="156" EndPosY="44" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="201" BeginPosY="61" EndPosX="209" EndPosY="73" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="44" BeginPosY="2" EndPosX="65" EndPosY="16" Direction="-1" Quantity="4" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="6" BeginPosX="224" BeginPosY="11" EndPosX="244" EndPosY="29" Direction="-1" Quantity="6" Element="3" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="233" BeginPosY="178" EndPosX="247" EndPosY="195" Direction="-1" Quantity="4" Element="5" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="93" BeginPosY="61" EndPosX="103" EndPosY="72" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="4" BeginPosX="206" BeginPosY="79" EndPosX="217" EndPosY="90" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Thunder Lich" -->
+		<Config Class="775" Range="8" BeginPosX="227" BeginPosY="202" EndPosX="241" EndPosY="223" Direction="-1" Quantity="4" Element="5" /> <!-- "Deep Dungeon Thunder Lich" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="774" Range="4" PositionX="46" PositionY="3" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="82" PositionY="4" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="87" PositionY="51" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="112" PositionY="52" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="147" PositionY="120" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="132" PositionY="31" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="164" PositionY="25" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="155" PositionY="65" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="157" PositionY="48" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="149" PositionY="83" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="214" PositionY="9" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="213" PositionY="23" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="196" PositionY="53" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="222" PositionY="52" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="6" PositionX="139" PositionY="33" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="6" PositionX="139" PositionY="20" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="167" PositionY="120" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="167" PositionY="111" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="233" PositionY="129" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="234" PositionY="112" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="62" PositionY="8" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="95" PositionY="13" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="109" PositionY="76" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="147" PositionY="89" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="133" PositionY="59" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="133" PositionY="17" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="161" PositionY="4" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="164" PositionY="40" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="190" PositionY="71" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="201" PositionY="7" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="238" PositionY="6" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="226" PositionY="6" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="237" PositionY="51" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="207" PositionY="84" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="6" PositionX="149" PositionY="19" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="248" PositionY="78" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="203" PositionY="136" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="194" PositionY="144" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="218" PositionY="161" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="202" PositionY="167" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="223" PositionY="191" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="244" PositionY="201" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="38" PositionY="17" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="76" PositionY="21" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="99" PositionY="51" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="115" PositionY="72" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="150" PositionY="97" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="142" PositionY="13" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="182" PositionY="52" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="160" PositionY="87" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="190" PositionY="5" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="180" PositionY="5" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="194" PositionY="65" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="193" PositionY="87" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="206" PositionY="98" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="192" PositionY="106" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="247" PositionY="99" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="237" PositionY="106" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="212" PositionY="121" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="211" PositionY="137" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="200" PositionY="111" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="230" PositionY="156" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="244" PositionY="112" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="243" PositionY="122" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="191" PositionY="153" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="8" PositionX="217" PositionY="127" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="26" PositionY="6" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="68" PositionY="20" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="95" PositionY="36" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="99" PositionY="67" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="137" PositionY="87" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="134" PositionY="108" Direction="-1" Element="1" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="135" PositionY="54" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="151" PositionY="11" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="171" PositionY="34" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="173" PositionY="18" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="174" PositionY="81" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="182" PositionY="75" Direction="-1" Element="2" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="220" PositionY="34" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="234" PositionY="35" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="174" PositionY="106" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="159" PositionY="106" Direction="-1" Element="3" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="225" PositionY="99" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="216" PositionY="107" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="178" PositionY="143" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="177" PositionY="137" Direction="-1" Element="4" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="247" PositionY="163" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="243" PositionY="134" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="250" PositionY="127" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+		<Config Class="774" Range="4" PositionX="220" PositionY="179" Direction="-1" Element="5" /> <!-- "Deep Dungeon Hell Spider" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>
