@@ -14,8 +14,8 @@ Steps to install:
 3 - Configure CustomerName in all configuration files: ChatServer.ini, ConnectServer.ini DataServer.ini JoinServer.ini GameServer/DATA/GameServerInfo - Common.dat 
 4 - Configure your IP in: 
 	ConnectServer/ServerList.dat 
-	DataServer/Dataserver.ini (ChatServerAddress = XXX)
 	Data/MapServerInfo (Example: S192.168.1.1 (NO delete S))
+	EXDataServer/EXDataServer.ini (ChatServerAddress = XXX)
 
 5 - Download updated main in https://www.mudevs.com/main.php 
 6 - Paste downloaded main in your base client and execute game.

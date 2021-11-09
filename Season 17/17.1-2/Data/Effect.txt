@@ -182,7 +182,7 @@
 192       115     6835        "Talisman of Ascension 3"            0      1      0      *       200      *        *        *
 193       60      6836        "Seal of Ascension"                  1      2      0      1800    100      *        *        *
 194       60      6837        "Master Seal of Ascension"           1      2      0      1800    100      *        *        *
-195       116     7392        "Blessing of Light"                  1      1      0      1800    200      *        *        *
+195       116     7392        "Blessing of Light"                  0      1      0      1800    200      *        *        *
 196       68      7393        "Master Scroll of Defense"           1      2      0      1800    120      *        *        *
 197       70      7394        "Master Scroll of Magic Damage"      1      2      0      1800    60       *        *        *
 198       71      7395        "Master Scroll of Life"              1      2      0      1800    400      *        *        *
@@ -199,8 +199,8 @@
 209       118     *           "Paralyze"                           0      0      1      *       *        *        *        *
 210       118     *           "Paralyze Improved"                  0      0      1      *       *        *        *        *
 //211	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Access to Kalima/Accum. Gob. Pts."	0
-212       116     7431        "Blessing of Light"                  1      1      0      1800    50       *        *        *
-213       116     7432        "Blessing of Light"                  1      1      0      1800    100      *        *        *
+212       116     7431        "Blessing of Light"                  0      1      0      1800    50       *        *        *
+213       116     7432        "Blessing of Light"                  0      1      0      1800    100      *        *        *
 214       120     *           "Evasion"                            1      0      0      *       *        *        *        *
 //215	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Acesss to Kalima/Accum. Gob. Pts./Stam. Sys. Disabled"	0
 216       121     *           "Circle Shield"                      1      0      0      *       *        *        *        *
@@ -236,9 +236,9 @@
 250       244     *           "Lunedil Blessing 3"                 1      1      0      1800    15       *        *        *
 251       244     *           "Lunedil Blessing 4"                 1      1      0      1800    25       *        *        *
 252       244     *           "Lunedil Blessing 5"                 1      1      0      1800    35       *        *        *
-253       116     7539        "Bless of Light"                     1      1      0      1800    200      *        *        *
-254       116     7540        "Bless of Light"                     1      1      0      1800    100      *        *        *
-255       116     7541        "Bless of Light"                     1      1      0      1800    50       *        *        *
+253       116     7539        "Bless of Light"                     0      1      0      1800    200      *        *        *
+254       116     7540        "Bless of Light"                     0      1      0      1800    100      *        *        *
+255       116     7541        "Bless of Light"                     0      1      0      1800    50       *        *        *
 256       246     7600        "Medicine of Life"                   0      0      0      1800    700      *        *        *
 257       246     7601        "Medicine of Mana"                   0      0      0      1800    700      *        *        *
 258       246     7602        "Medicine of Speed"                  0      0      0      1800    10       *        *        *
@@ -307,20 +307,18 @@
 323       290     6628        "Ice Dragon Rare"                    0      1      0      *       *        *        *        *
 //Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
 324       301     *           "Sword's Fury"                       0      0      0      *       *        *        *        *
-325       302     *           "Strong Conviction"                  0      0      0      *       *        *        *        *
-326       303     *           "Solid protection"                   0      0      0      *       *        *        *        *
-327       301     *           "Sword Fury Improved"                0      0      0      *       *        *        *        *
-328       301     *           "Sword Fury Enhanced"                0      0      0      *       *        *        *        *
-329       303     *           "Solid protection Improved"          0      0      0      *       *        *        *        *	
-330       303     *           "Solid protection Enhanced"          0      0      0      *       *        *        *        *
-331       303     *           "Solid protection Unk"               0      0      0      *       *        *        *        *	
-332       303     *           "Solid protection Mastery"           0      0      0      *       *        *        *        *
-//--
-333       304     *           "Solid protection"                   0      0      0      *       *        *        *        *
-335       304     *           "Solid protection"                   0      0      0      *       *        *        *        *
-//---
-334       302     *           "Strong Conviction Enhanced"         0      0      0      *       *        *        *        *
-336       302     *           "Strong Conviction Improved"         0      0      0      *       *        *        *        *
+325       302     *           "Firm Belief"                  	   0      0      0      *       *        *        *        *
+326       303     *           "Strong Blessing"                    0      0      0      *       *        *        *        *
+327       301     *           "Sword's Fury Strengthener"          0      0      0      *       *        *        *        *
+328       301     *           "Sword's Fury Mastery"               0      0      0      *       *        *        *        *
+329       303     *           "Strong Blessing Strengthener"       0      0      0      *       *        *        *        *	
+330       303     *           "Strong Blessing Proficiency"        0      0      0      *       *        *        *        *
+331       303     *           "Strong Blessing Mastery"            0      0      0      *       *        *        *        *	
+332       303     *           "Strong Blessing Mastery"            0      0      0      *       *        *        *        *
+333       304     *           "Strong Blessing Effect"             0      0      0      *       *        *        *        *
+334       302     *           "Firm Belief Skill Strengthener"     0      0      0      *       *        *        *        *
+335       303     *           "Strong Blessing Skill Strengthener" 0      0      0      *       *        *        *        *
+336       302     *           "Firm Belief Strengthener"           0      0      0      *       *        *        *        *
 //Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
 339       310      *          "Bond - Inactive"         	   0      0      0      *       *        *        *        *
 340       310      *          "Bond"         	   		   0      0      0      *       30       *        *        *

@@ -564,3 +564,8 @@ FruitSubPointSuccessRate_AL0 = -1
 FruitSubPointSuccessRate_AL1 = -1
 FruitSubPointSuccessRate_AL2 = -1
 FruitSubPointSuccessRate_AL3 = -1
+
+;==================================================
+; Ext Inventory Settings
+;==================================================
+MaxExtendedInventory = 2

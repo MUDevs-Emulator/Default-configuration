@@ -150,7 +150,7 @@
 8339	51	1	4	*         // WareHouse Guardian (Evolved)
 8340	50	1	4	8341      // Fairy Lara
 8341	51	1	4	*         // Fairy Lara (Evolved)
-8342	69	5	4	*	  	  // Tablet's Elpis
+8342	69	5	4	*	  // Tablet's Elpis
 8343	72	5	4	*         // Muren Rexmillon
 8344	50	1	4	8345      // Uma king
 8345	51	1	4	*         // Uma King (Evolution)
@@ -162,10 +162,10 @@
 8351	51	1	4	*         // Chestnut Fairy (Evolution)
 8352	50	1	4	8353      // Snowboarder
 8353	51	1	4	*         // Snowboarder (Evolution)
-8354	50	1	4	* 	      // Emphasizer        
+8354	50	1	4	* 	  // Emphasizer        
 8355	50	1	4	*         // Gargoyle
-8356    69  5   4   *         // Lemuria & Kundun
-8357    69  1   4   *         // Panda Tao 
+8356    69    	5    	4    	*         // Lemuria & Kundun
+8357    69    	1    	4    	*         // Panda Tao 
 8404	0	1	3	8405      // Luki 
 8405	0	1	3	*         // Luki (Evolved)
 8406	9	1	3	8407      // Tony 

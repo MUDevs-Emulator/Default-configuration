@@ -800,7 +800,7 @@ function SkillLesserDefense(aIndex) -- SKILL_LESSER_DEFENSE
 
 	count = count + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_LESSER_DEFENSE_IMPROVED)
 	
-	LogAdd(LOG_RED,string.format('rate:%d,value:%d,eValue:%d,count:%d | OK', rate,value,eValue,count))
+	--LogAdd(LOG_RED,string.format('rate:%d,value:%d,eValue:%d,count:%d | OK', rate,value,eValue,count))
 
 	return rate,value,eValue,count
 end
