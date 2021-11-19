@@ -704,6 +704,13 @@
 		<Msg ID="888" Text="%s is already at the party." />
 		<Msg ID="889" Text="You have reached the maximum quest." />
 		<Msg ID="890" Text="The authentication server is offline please contact an administrator." />
+		<Msg ID="891" Text="You don't have the territory." />		
+		<Msg ID="892" Text="You do not have enough WC:%d to pay the tax of this article." />
+		<Msg ID="893" Text="You do not have enough WP:%d to pay the tax of this article." />
+		<Msg ID="894" Text="You do not have enough GP:%d to pay the tax of this article." />
+		<Msg ID="895" Text="You have paid WC: %d taxe." />
+		<Msg ID="896" Text="You have paid WP: %d tax." />
+		<Msg ID="897" Text="You have paid GP: %d tax." />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -851,7 +858,7 @@
 		<Msg ID="16" Text="Player %s defeated Medusa!" />
 	</InvacionMsg>
 	<Notice>
-		<Msg ID="0" Text="MUDevs Ex1701" />
+		<Msg ID="0" Text="MuDevs Ex1702" />
 	</Notice>
 	<NoticeSystem>
 		<Tags>
