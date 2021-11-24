@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Language>
+	<Message>
+		<Msg ID="0" Text="Blood Castle will close in %d minute(s)" />
+		<Msg ID="1" Text="Blood Castle closed" />
+		<Msg ID="2" Text="Blood Castle %d will start in %d minute(s)" />
+		<Msg ID="3" Text="Blood Castle started" />
+		<Msg ID="4" Text="All monsters have been defeated" />
+		<Msg ID="5" Text="All boss monsters have been defeated" />
+		<Msg ID="6" Text="Blood Castle ended" />
+		<Msg ID="7" Text="You're not strong enough to enter Blood Castle" />
+		<Msg ID="8" Text="Player %s dropped weapon Angel" />
+		<Msg ID="9" Text="Player %s took angel's weapon" />
+		<Msg ID="10" Text="Player %s destroyed castle gate" />
+		<Msg ID="11" Text="Player %s destroyed statue" />
+		<Msg ID="16" Text="Chaos Castle will close in %d minute(s)" />
+		<Msg ID="17" Text="Chaos Castle closed" />
+		<Msg ID="18" Text="Chaos Castle %d will start in %d minute(s)" />
+		<Msg ID="19" Text="Chaos Castle started" />
+		<Msg ID="20" Text="Chaos Castle ended" />
+		<Msg ID="32" Text="/move" />
+		<Msg ID="33" Text="/post" />
+		<Msg ID="34" Text="/addstr" />
+		<Msg ID="35" Text="/addagi" />
+		<Msg ID="36" Text="/addvit" />
+		<Msg ID="37" Text="/addene" />
+		<Msg ID="38" Text="/addcmd" />
+		<Msg ID="39" Text="/pkclear" />
+		<Msg ID="40" Text="/money" />
+		<Msg ID="41" Text="/change" />
+		<Msg ID="42" Text="/ware" />
+		<Msg ID="43" Text="/reset" />
+		<Msg ID="44" Text="/gmmove" />
+		<Msg ID="45" Text="/gmpost" />
+		<Msg ID="46" Text="/track" />
+		<Msg ID="47" Text="/trace" />
+		<Msg ID="48" Text="/disconnect" />
+		<Msg ID="49" Text="/fireworks" />
+		<Msg ID="50" Text="/make" />
+		<Msg ID="51" Text="/skin" />
+		<Msg ID="52" Text="/setmoney" />
+		<Msg ID="53" Text="/notice" />
+		<Msg ID="54" Text="/mreset" />
+		<Msg ID="55" Text="/war" />
+		<Msg ID="56" Text="/soccer" />
+		<Msg ID="57" Text="/re" />
+		<Msg ID="58" Text="/hide" />
+		<Msg ID="64" Text="You do not have permission to use /post" />
+		<Msg ID="65" Text="You must be at least level %d to use /post" />
+		<Msg ID="66" Text="You must be at least %d resets to use /post" />
+		<Msg ID="67" Text="You must be at least %d Zen to use /post" />
+		<Msg ID="68" Text="You have to wait %d seconds to use /post" />
+		<Msg ID="69" Text="<FONT color='#C8C800'>[POST][%d]%s </FONT><BR>" />
+		<Msg ID="70" Text="You do not have permission to use /add" />
+		<Msg ID="71" Text="Exclusive Command Dark Lord" />
+		<Msg ID="72" Text="You do not have enough points to add" />
+		<Msg ID="73" Text="You must have at least %d Zen to use /add" />
+		<Msg ID="74" Text="You added %d points, remaining %d points to be distributed" />
+		<Msg ID="75" Text="You do not have permission to use /pkclear" />
+		<Msg ID="76" Text="You're not PK" />
+		<Msg ID="77" Text="You must have at least %d Zen to use /pkclear" />
+		<Msg ID="78" Text="You cleared your PK" />
+		<Msg ID="79" Text="You do not have permission to use /money" />
+		<Msg ID="80" Text="You entered an invalid value to add" />
+		<Msg ID="81" Text="You do not have permission to use /change" />
+		<Msg ID="82" Text="You must have at least %d Zen to use /change" />
+		<Msg ID="83" Text="You can not evolve more" />
+		<Msg ID="84" Text="You successfully evolved" />
+		<Msg ID="85" Text="You do not have permission to use /ware" />
+		<Msg ID="86" Text="You can not use /ware at moment" />
+		<Msg ID="87" Text="You have entered an invalid chest to change" />
+		<Msg ID="88" Text="You moved to chest %d successfully" />
+		<Msg ID="89" Text="You do not have permission to use /reset" />
+		<Msg ID="90" Text="You can not use /reset at time" />
+		<Msg ID="91" Text="You must be at least level %d to use /reset" />
+		<Msg ID="92" Text="You must have at least %d Zen to use /reset" />
+		<Msg ID="93" Text="You can not have more than %d resets" />
+		<Msg ID="94" Text="You can not reset with items equipped" />
+		<Msg ID="95" Text="You successfully reseted, and now have %d resets" />
+		<Msg ID="96" Text="You do not have permission to use /gmmove" />
+		<Msg ID="97" Text="You have entered an invalid target for /gmmove" />
+		<Msg ID="98" Text="You do not have permission to use /gmpost" />
+		<Msg ID="99" Text="You do not have permission to use /track" />
+		<Msg ID="100" Text="You have entered an invalid target for /track" />
+		<Msg ID="101" Text="You do not have permission to use /trace" />
+		<Msg ID="102" Text="You have entered an invalid target for /trace" />
+		<Msg ID="103" Text="You do not have permission to use /disconnect" />
+		<Msg ID="104" Text="You have entered an invalid target for /disconnect" />
+		<Msg ID="105" Text="You do not have permission to use /fireworks" />
+		<Msg ID="106" Text="You do not have permission to use /make" />
+		<Msg ID="107" Text="[%s] successfully created item" />
+		<Msg ID="108" Text="You do not have permission to use /skin" />
+		<Msg ID="109" Text="You have entered an invalid target for /skin" />
+		<Msg ID="110" Text="You do not have permission to use /setmoney" />
+		<Msg ID="111" Text="You have entered an invalid target for /setmoney" />
+		<Msg ID="112" Text="You entered an invalid value for /setmoney" />
+		<Msg ID="113" Text="You do not have permission to use /notice" />
+		<Msg ID="114" Text="Automatic points add: On (%d)" />
+		<Msg ID="115" Text="Automatic points add: Off" />
+		<Msg ID="116" Text="Automatic reset: On" />
+		<Msg ID="117" Text="Automatic Reset: Off" />
+		<Msg ID="118" Text="You do not have permission to use /mreset" />
+		<Msg ID="119" Text="You can not use /mreset at time" />
+		<Msg ID="120" Text="You must have at least %d levels to use /mreset" />
+		<Msg ID="121" Text="You must have at least %d resets to use /mreset" />
+		<Msg ID="122" Text="You must have at least %d Zen to use /mreset" />
+		<Msg ID="123" Text="You can not have more than %d master resets" />
+		<Msg ID="124" Text="You can not reset master with items equipped" />
+		<Msg ID="125" Text="Master successfully reseted, and now have %d master resets" />
+		<Msg ID="126" Text="Requests as received: Connected" />
+		<Msg ID="127" Text="Requests received: Off" />
+		<Msg ID="128" Text="Requests as received: Automatic" />
+		<Msg ID="129" Text="You can only reset %d times a day" />
+		<Msg ID="130" Text="You can only reset %d times a week" />
+		<Msg ID="131" Text="You can only reset %d times a month" />
+		<Msg ID="132" Text="You can only reset master %d times a day" />
+		<Msg ID="133" Text="You can only reset master %d times a week" />
+		<Msg ID="134" Text="You can only reset master %d times a month" />
+		<Msg ID="135" Text="You do not have permission to use /hide" />
+		<Msg ID="144" Text="Devil Square will close in %d minute(s)" />
+		<Msg ID="145" Text="Devil Square closed" />
+		<Msg ID="146" Text="Devil Square %d will start in %d minute(s)" />
+		<Msg ID="147" Text="Devil Square began" />
+		<Msg ID="148" Text="Devil Square ended" />
+		<Msg ID="149" Text="You're not strong enough to join Devil Square" />
+		<Msg ID="160" Text="Target player is not online" />
+		<Msg ID="161" Text="You can not duel at this time" />
+		<Msg ID="162" Text="Target player refused his duel application automatically" />
+		<Msg ID="163" Text="Have you ever asked or been asked to duel" />
+		<Msg ID="164" Text="Target player ever asked or been asked to duel" />
+		<Msg ID="165" Text="You can not duel being in Guild War" />
+		<Msg ID="166" Text="Target player can not duel in Guild War" />
+		<Msg ID="167" Text="You can not duel in this map" />
+		<Msg ID="168" Text="You can not duel during Castle Siege" />
+		<Msg ID="169" Text="Target player name is invalid" />
+		<Msg ID="170" Text="You can not duel with Self Defense" />
+		<Msg ID="171" Text="Player can not target duel Self Defense" />
+		<Msg ID="172" Text="Target player refused his request duel" />
+		<Msg ID="173" Text="All arenas are full at moment" />
+		<Msg ID="174" Text="Duel between %s and %s started!" />
+		<Msg ID="175" Text="Player %s won %s duel!" />
+		<Msg ID="176" Text="Illusion Temple will close in %d minute(s)" />
+		<Msg ID="177" Text="Illusion Temple closed" />
+		<Msg ID="178" Text="Illusion Temple %d will start in %d minute(s)" />
+		<Msg ID="179" Text="Illusion Temple started" />
+		<Msg ID="180" Text="Illusion Temple finished" />
+		<Msg ID="181" Text="You're not strong enough to enter Illusion Temple" />
+		<Msg ID="182" Text="You do not have required item to enter Illusion Temple" />
+		<Msg ID="183" Text="player %s dropped artifact" />
+		<Msg ID="184" Text="player %s picked up artifact" />
+		<Msg ID="192" Text="Skeleton King invasion has begun!" />
+		<Msg ID="193" Text="Invasion of Red Dragon started!" />
+		<Msg ID="194" Text="Invasion of Dourados started!" />
+		<Msg ID="195" Text="Invasion of White Wizard started!" />
+		<Msg ID="196" Text="New Year invasion has begun!" />
+		<Msg ID="197" Text="Invasion of rabbits started!" />
+		<Msg ID="198" Text="Invasion of summer started!" />
+		<Msg ID="199" Text="Christmas invasion has begun!" />
+		<Msg ID="200" Text="Invasion of Medusa began!" />
+		<Msg ID="202" Text="Player %s defeated Skeleton King!" />
+		<Msg ID="203" Text="Player %s defeated Red Dragon!" />
+		<Msg ID="204" Text="Player %s defeated Golden Great Dragon!" />
+		<Msg ID="205" Text="Player %s defeated White Wizard!" />
+		<Msg ID="206" Text="Player %s defeated Cursed Santa!" />
+		<Msg ID="207" Text="Player %s defeated Medusa!" />
+		<Msg ID="208" Text="Merchant Moss appeared!" />
+		<Msg ID="209" Text="Merchant Moss left!" />
+		<Msg ID="210" Text="Invasion of invoking Demons started!" />
+		<Msg ID="211" Text="Invasion of eggs Event started!" />
+		<Msg ID="224" Text="You must be at least level %d to move" />
+		<Msg ID="225" Text="You must be at least %d zen to move" />
+		<Msg ID="226" Text="You can not move at this time time" />
+		<Msg ID="227" Text="Assassins can not move" />
+		<Msg ID="228" Text="You do not have correct equipment to move" />
+		<Msg ID="229" Text="Only members of families of gens can move" />
+		<Msg ID="230" Text="You need to be max level %d to move" />
+		<Msg ID="231" Text="You must be at least %d resets to move" />
+		<Msg ID="232" Text="You need to have a maximum of %d resets to move" />
+		<Msg ID="240" Text="Senior is not currently active" />
+		<Msg ID="241" Text="Senior does not work during Castle Siege" />
+		<Msg ID="242" Text="You have to be in guild owner of castle to use Senior" />
+		<Msg ID="243" Text="You must be owner of guild to use Senior" />
+		<Msg ID="244" Text="Guardsman does not work during Castle Siege" />
+		<Msg ID="245" Text="You are already in a guild" />
+		<Msg ID="246" Text="You do not have enough level or Reset to create a guild" />
+		<Msg ID="247" Text="Shop is empty" />
+		<Msg ID="248" Text="Account level: Free" />
+		<Msg ID="249" Text="Account level: Vip1 (%s)" />
+		<Msg ID="250" Text="Account level: Vip2 (%s)" />
+		<Msg ID="251" Text="Account level: Vip3 (%s)" />
+		<Msg ID="256" Text="Welcome %s !" />
+		<Msg ID="257" Text="You must be at least level 40 to use ring" />
+		<Msg ID="258" Text="You must be at least level 80 to use ring" />
+		<Msg ID="259" Text="You can not move to this map at time" />
+		<Msg ID="260" Text="You can not pick up this item at this time" />
+		<Msg ID="261" Text="You can not leave game with an open Trade" />
+		<Msg ID="262" Text="You can not leave game with an open Chest" />
+		<Msg ID="263" Text="You can not leave game with Chaos Machine open" />
+		<Msg ID="264" Text="You can not leave game with an open Trainer" />
+		<Msg ID="265" Text="You can not quit game being in Self Defense" />
+		<Msg ID="266" Text="You're at maximum level" />
+		<Msg ID="267" Text="You're at maximum level master" />
+		<Msg ID="268" Text="You can only add %d points" />
+		<Msg ID="269" Text="You can not talk during %d seconds" />
+		<Msg ID="270" Text="You can not send message to yourself" />
+		<Msg ID="271" Text="Hello, I am cheerful guard" />
+		<Msg ID="272" Text="It was not possible to carry out teleportation" />
+		<Msg ID="273" Text="You will be teleported in %d second(s)" />
+		<Msg ID="274" Text="You can not move this map with mount" />
+		<Msg ID="275" Text="You can not move to this map without wing" />
+		<Msg ID="276" Text="Gift CashShop" />
+		<Msg ID="304" Text="Ice Walker appeared!" />
+		<Msg ID="305" Text="You're not strong enough to get in Double Goer" />
+		<Msg ID="306" Text="Ice Walker was defeated!" />
+		<Msg ID="320" Text="Selupan appeared! Gate of Hatchery will close in %d minute(s)" />
+		<Msg ID="321" Text="Hatchery gate closed" />
+		<Msg ID="322" Text="Player %s defeated Selupan!" />
+		<Msg ID="323" Text="Gate of Hatchery will open again in %d minute(s)" />
+		<Msg ID="324" Text="Gate of Hatchery opened!" />
+		<Msg ID="325" Text="Hatchery gate is closed" />
+		<Msg ID="336" Text="Refinement Tower will close in 60 minute(s)" />
+		<Msg ID="337" Text="Refinement Tower will close in 20 minute(s)" />
+		<Msg ID="338" Text="Kanturu door will open in 1 minute(s)" />
+		<Msg ID="339" Text="Battle against Maya will start soon, get ready" />
+		<Msg ID="340" Text="Next battle will begin in 1 minute(s)" />
+		<Msg ID="341" Text="Nightmare appeared! Defeat him to release Refinement Tower" />
+		<Msg ID="342" Text="Nightmare was defeated! Refinement Tower has been released" />
+		<Msg ID="343" Text="Time is up, you will be removed from event" />
+		<Msg ID="352" Text="Castle Deep will start in 5 minute(s)" />
+		<Msg ID="353" Text="Castle Deep started" />
+		<Msg ID="354" Text="Castle Deep ended" />
+		<Msg ID="355" Text="Erohim player was killed by %s" />
+		<Msg ID="356" Text="%s killed by player %s" />
+		<Msg ID="368" Text="Balgass joined forces with army of Kundun and is preparing to attack fortress of Crywolf" />
+		<Msg ID="369" Text="Armada of Balgass is ready to attack fortress of Crywolf" />
+		<Msg ID="370" Text="Armada of Balgass is marching to fortress of Crywolf" />
+		<Msg ID="371" Text="Armada of Balgass is approaching fortress Crywolf" />
+		<Msg ID="372" Text="No Elfa has connected to altars, leaving statue of unprotected wolf" />
+		<Msg ID="373" Text="Balgass will be alive by end of battle" />
+		<Msg ID="374" Text="Defense failed! statue of sacred wolf was taken by Balgass" />
+		<Msg ID="375" Text="Defense was successful! statue of sacred wolf was protected" />
+		<Msg ID="376" Text="Connection period with Wolf Altars starts in %d second(s)" />
+		<Msg ID="377" Text="Connection period with Wolf Altars starts in %d minute(s)" />
+		<Msg ID="378" Text="Armada of Balgass will attack in %d second(s)" />
+		<Msg ID="379" Text="Armada of Balgass will attack in %d minute(s)" />
+		<Msg ID="380" Text="Without protection of elven statue of holy wolf was unprotected" />
+		<Msg ID="381" Text="Balgass is coming! Protect statue of holy wolf" />
+		<Msg ID="382" Text="Armada of Balgass began attacking statue of holy wolf" />
+		<Msg ID="383" Text="Armada of Balgass was defeated with help of heroes" />
+		<Msg ID="384" Text="MvP Rank: %d" />
+		<Msg ID="385" Text="MvP Experience: %d" />
+		<Msg ID="386" Text="Balgass was killed by %s!" />
+		<Msg ID="387" Text="Balgass was dead!" />
+		<Msg ID="388" Text="Dark Elf %d was killed by %s!" />
+		<Msg ID="389" Text="MvP Point: %d" />
+		<Msg ID="390" Text="Connected to altar %d" />
+		<Msg ID="391" Text="%s is connected to altar %d" />
+		<Msg ID="392" Text="Altar was connected %d" />
+		<Msg ID="393" Text="Connection period to pedestal %d not started yet" />
+		<Msg ID="394" Text="Altar %d already has connected more than 2 times" />
+		<Msg ID="395" Text="Position to connect to altar %d is wrong"  />
+		<Msg ID="396" Text="%s is trying to connect to altar %d" />
+		<Msg ID="397" Text="You will be connected to altar in 5 second(s)"  />
+		<Msg ID="398" Text="Do not move until connection is complete"   />
+		<Msg ID="399" Text="Connection to altar %d was canceled" />
+		<Msg ID="400" Text="Statue of barrier of holy wolf disappeared"  />
+		<Msg ID="401" Text="Number of connections: %d, statue of Life: %d"  />
+		<Msg ID="402" Text="Holy wolf statue barrier was created" />
+		<Msg ID="403" Text="Connection requires a level 260 or higher" />
+		<Msg ID="416" Text="Castle Siege ended" />
+		<Msg ID="417" Text="Castle Siege registration period began" />
+		<Msg ID="418" Text="Registration of Castle Siege emblems period started" />
+		<Msg ID="419" Text="Period of selection of Castle Siege guilds started"	 />	
+		<Msg ID="420" Text="Selection of Castle Siege guilds completed" />
+		<Msg ID="421" Text="Prep period for Castle Siege started" />
+		<Msg ID="422" Text="Castle Siege will start in %d minute(s)" />
+		<Msg ID="423" Text="Castle Siege is being disputed" />
+		<Msg ID="424" Text="Guild %s was well succeeded in defending castle" />
+		<Msg ID="425" Text="Guild %s became new owner of castle" />
+		<Msg ID="426" Text="Owner of castle was not set" />
+		<Msg ID="427" Text="Only Guardian statue left" />
+		<Msg ID="432" Text="Position of player %s has been changed to Guild Leader Assistant" />
+		<Msg ID="433" Text="Position of player %s has been changed to Battlemaster" />
+		<Msg ID="434" Text="Position of player %s has been changed to Guild Member" />
+		<Msg ID="435" Text="Type of guild %s was changed to %d" />
+		<Msg ID="436" Text="Guild has entered alliance %s" />
+		<Msg ID="437" Text="Guild is now enemy of guild %s" />
+		<Msg ID="438" Text="Guild %s entered alliance %s" />
+		<Msg ID="439" Text="Guild withdrew from alliance" />
+		<Msg ID="440" Text="Guild %s withdrew from alliance %s" />
+		<Msg ID="441" Text="Guild is not more alliance %s" />
+		<Msg ID="442" Text="Guild is not more enemy guild %s" />
+		<Msg ID="443" Text="Alliance was undone %s" />
+		<Msg ID="448" Text="You can not invoke Life Stone outside Castle Siege" />
+		<Msg ID="449" Text="Only offensive alliance can invoke Life Stone" />
+		<Msg ID="450" Text="A Life Stone has been invoked" />
+		<Msg ID="451" Text="You can not invoke Life Stone inside Dragon Tower" />
+		<Msg ID="452" Text="A Life Stone was successfully invoked" />
+		<Msg ID="453" Text="A Life Stone failed to be invoked" />
+		<Msg ID="464" Text="You can not invoke soldier out of Castle Siege" />
+		<Msg ID="465" Text="Only defensive alliance can invoke soldier" />
+		<Msg ID="466" Text="Only guild leader and his assistant can invoke soldier" />
+		<Msg ID="467" Text="Maximum number of soldiers has been exceeded" />
+		<Msg ID="468" Text="Soldier has been successfully invoked" />
+		<Msg ID="469" Text="Soldier failed to be invoked" />
+		<Msg ID="480" Text="Server closed" />
+		<Msg ID="481" Text="Server will automatically close in %d second(s)" />
+		<Msg ID="482" Text="This is a duplicate item, please contact with administrator" />
+		<Msg ID="483" Text="Your chat lockout ended" />
+		<Msg ID="484" Text="You will quit game in %d second(s)" />
+		<Msg ID="485" Text="Self defense against %s started" />
+		<Msg ID="486" Text="Self defense against %s finished" />
+		<Msg ID="487" Text="Server will shut down automatically in 1 minute(s)" />
+		<Msg ID="488" Text="Server will shut down automatically in 3 minute(s)" />
+		<Msg ID="489" Text="Server will shut down automatically in 5 minute(s)" />
+		<Msg ID="490" Text="Game will start automatically in 10 seconds(s)" />
+		<Msg ID="491" Text="%s won %d Jewel of Bless"  />
+		<Msg ID="492" Text="It is not possible to enter the event with his mount." />
+		<Msg ID="493" Text="It is not possible to enter the event if you are in guild war." />
+		<Msg ID="494" Text="It is not possible to enter the event if you are in Duel." />
+		<Msg ID="495" Text="Welcome to the server, enjoy the game"  />
+		<Msg ID="496" Text="/gpost" />
+		<Msg ID="497" Text="You do not have permission to use /gpost" />
+		<Msg ID="498" Text="[GM][%d] %s" />
+		<Msg ID="499" Text="Happy New Year!" />
+		<Msg ID="500" Text="Merry Christmas!" />
+		<Msg ID="501" Text="I'm not selling anything to the likes of you." />
+		<Msg ID="502" Text="I will not aid criminals like you! Look elsewhere." />
+		<Msg ID="503" Text="reduce the amount of zen you have in your maximum inventory." />
+		<Msg ID="504" Text="/Buy" />
+		<Msg ID="505" Text="You do not have permission to use /Buy" />
+		<Msg ID="506" Text="You must be at least level %d to use /Buy" />
+		<Msg ID="507" Text= "You must be at least %d resets to use /Buy" />
+		<Msg ID="508" Text="You must be at least %d Zen to use /Buy" />
+		<Msg ID="509" Text="You have to wait %d seconds to use /Buy" />
+		<Msg ID="510" Text="[Buy][%d] %s" />
+		<Msg ID="511" Text="/Sell" />
+		<Msg ID="512" Text="You do not have permission to use /Sell" />
+		<Msg ID="513" Text="You must be at least level %d to use /Sell" />
+		<Msg ID="514" Text="You must be at least %d resets to use /Sell" />
+		<Msg ID="515" Text="You must be at least %d Zen to use /Sell" />
+		<Msg ID="516" Text="You have to wait %d seconds to use /Sell" />
+		<Msg ID="517" Text="[Sell][%d] %s" />
+		<Msg ID="518" Text="/clearinv" />
+		<Msg ID="519" Text="You do not have permission to use /clearinv" />
+		<Msg ID="520" Text="Inventory not cleared zen insufient" />
+		<Msg ID="521" Text="Inventory is cleared" />
+		<Msg ID="522" Text="/clearextinv" />
+		<Msg ID="523" Text="You do not have permission to use /clearextinv" />
+		<Msg ID="524" Text="ExtInventory not cleared zen insufient" />
+		<Msg ID="525" Text="ExtInventory is cleared" />
+		<Msg ID="526" Text="/pkset" />
+		<Msg ID="527" Text="You do not have permission to use /pkset" />
+		<Msg ID="528" Text="You have entered an invalid target for /pkset" />
+		<Msg ID="529" Text="You entered an invalid value for /pkset" />
+		<Msg ID="530" Text="Successfully sent pk status %d to %s" />
+		<Msg ID="531" Text="/setlvl" />
+		<Msg ID="532" Text="You do not have permission to use /setlvl" />
+		<Msg ID="533" Text="You have entered an invalid target for /setlvl" />
+		<Msg ID="534" Text="You entered an invalid value for /setlvl" />
+		<Msg ID="535" Text="%s Send to Level %d" />
+		<Msg ID="536" Text="Successfully Level %d to %s" />
+		<Msg ID="537" Text="/msetlvl" />
+		<Msg ID="538" Text="You do not have permission to use /msetlvl" />
+		<Msg ID="539" Text="You have entered an invalid target for /msetlvl" />
+		<Msg ID="540" Text="You entered an invalid value for /MasterSetLevel" />
+		<Msg ID="541" Text="%s Send to MLevel %d" />
+		<Msg ID="542" Text="Successfully Master Level %d to %s" />
+		<Msg ID="543" Text="You do not have permission to use /AddStat" />
+		<Msg ID="544" Text="You have entered an invalid target for /AddStat" />
+		<Msg ID="545" Text="You entered an invalid value for /AddStat" />
+		<Msg ID="546" Text="/statstr" />
+		<Msg ID="547" Text="%s Sent you Strength: %d" />
+		<Msg ID="548" Text="Send Statistics to Success %s Strength: %d" />
+		<Msg ID="549" Text="/statagi" />
+		<Msg ID="550" Text="%s Sent you Agility %d" />
+		<Msg ID="551" Text="Send Statistics to Success %s Agility: %d" />
+		<Msg ID="552" Text="/statene" />
+		<Msg ID="553" Text="%s Sent you Energy %d" />
+		<Msg ID="554" Text="Send Statistics to Success %s Energy: %d" />
+		<Msg ID="555" Text="/statvit" />
+		<Msg ID="556" Text="%s Sent you Vitality %d" />
+		<Msg ID="557" Text="Send Statistics to Success %s Vitality: %d" />
+		<Msg ID="558" Text="/statcom" />
+		<Msg ID="559" Text="%s Sent you Command %d" />
+		<Msg ID="560" Text="Send Statistics to Success %s Command: %d" />
+		<Msg ID="561" Text="Only the dark lord can use command" />
+		<Msg ID="562" Text="/banuser" />
+		<Msg ID="563" Text="You do not have permission to use /Banuser or /unbanuser" />
+		<Msg ID="564" Text="Character %s Banned!" />
+		<Msg ID="565" Text="/unbanuser" />
+		<Msg ID="566" Text="Character %s UnBanned!" />
+		<Msg ID="567" Text="/debuff" />
+		<Msg ID="568" Text="You do not have permission to use /debuff" />
+		<Msg ID="569" Text="You must have at least %d Zen to use /debuff" />
+		<Msg ID="570" Text="You cleared your debuffs" />
+		<Msg ID="571" Text="/addeffect" />
+		<Msg ID="572" Text="You do not have permission to use /addeffect" />
+		<Msg ID="573" Text="You have entered an invalid target for /addeffect" />
+		<Msg ID="574" Text="Effect %d is not Valid" />
+		<Msg ID="575" Text="Successfully Effect Added" />
+		<Msg ID="576" Text="/godmode" />
+		<Msg ID="577" Text="You do not have permission to use /godmode" />
+		<Msg ID="578" Text="/csstate" />
+		<Msg ID="579" Text="You do not have permission to use /csstate" />
+		<Msg ID="580" Text="Invalid CS State" />
+		<Msg ID="581" Text="Welcome to Server" />
+		<Msg ID="582" Text="Entered the game" />
+		<Msg ID="583" Text="[GameMaster] %s Entered the game" />
+		<Msg ID="584" Text="Level difference too big to join the party" />
+		<Msg ID="585" Text="You are too strong to use my buff" />
+		<Msg ID="586" Text="You do not have permission to use Bots" />
+		<Msg ID="587" Text="You have received my blessing!" />
+		<Msg ID="588" Text="<FONT color='#C8C800'>[POST] %s: %s </FONT><BR>" />
+		<Msg ID="589" Text="Only vips users can move to this map" />
+		<Msg ID="590" Text="Temporarily deactivated guild creation system" />
+		<Msg ID="591" Text="You do not have enough zen in your webbank to create a guild" />
+		<Msg ID="592" Text="/attack" />
+		<Msg ID="593" Text="You are not enabled to use /attack" />
+		<Msg ID="594" Text="You need at least %d level to use the command" />
+		<Msg ID="595" Text="You need at least %d reset to use the command" />
+		<Msg ID="596" Text="You already using the command" />
+		<Msg ID="597" Text="You can't use the command in this location" />
+		<Msg ID="598" Text="You don't have the required spell to use the command" />
+		<Msg ID="599" Text="You must wait %d second to accept trade" />
+		<Msg ID="600" Text="Will announce the appearance of %s in %d minute(s)" />
+		<Msg ID="601" Text="%s will Spawn in %d minute(s)" />
+		<Msg ID="602" Text="%s Spawned in %s" />
+		<Msg ID="603" Text="%s he retired" />
+		<Msg ID="604" Text="You do not have enough space come back later" />
+		<Msg ID="605" Text="%s found %s" />
+		<Msg ID="606" Text="Thanks for playing" />
+		<Msg ID="607" Text="I have nothing else to deliver apology" />
+		<Msg ID="608" Text="/chatblock" />
+		<Msg ID="609" Text="/unchatblock" />
+		<Msg ID="610" Text="You do not have permission to use /chatblock" />
+		<Msg ID="611" Text="You must have at least %d Zen to use /chatblock" />
+		<Msg ID="612" Text="character blocked correctly" />
+		<Msg ID="613" Text="You do not have permission to use /unchatblock" />
+		<Msg ID="614" Text="You must have at least %d Zen to use /unchatblock" />
+		<Msg ID="615" Text="character un blocked correctly" />
+		<Msg ID="616" Text="you have reached 100 kills" />
+		<Msg ID="617" Text="Dng Pvp will close in %d minute(s)" />
+		<Msg ID="618" Text="The command cannot be used with the pet equipped" />
+		<Msg ID="619" Text="Dng Pvp started" />
+		<Msg ID="620" Text="Dng Pvp ended" />
+		<Msg ID="621" Text="Dng Pvp closed" />
+		<Msg ID="622" Text="[Dng Pvp] Score of the play: %d" />
+		<Msg ID="623" Text="[Dng Pvp] The winner of DngPvP is %s with %d points" />
+		<Msg ID="624" Text="[Dng Pvp] New Score: %d" />
+		<Msg ID="625" Text="[Dng Pvp] You need at least level %d to enter" />
+		<Msg ID="626" Text="[Dng Pvp] You can not enter right now" />
+		<Msg ID="627" Text="The duel can not be started in the safezone" />
+		<Msg ID="628" Text="%s killed %s" />
+		<Msg ID="639" Text="Lord Silvester player was killed by %s" />
+		<Msg ID="640" Text="You must wait 2 second(s) to perform another action" />
+		<Msg ID="641" Text="/gremgif" />
+		<Msg ID="642" Text="You do not have permission to use /gremgif" />
+		<Msg ID="643" Text="You have entered an invalid target for /gremgif" />
+		<Msg ID="644" Text="Wrong target storage (1 - server, 2 - character)" />
+		<Msg ID="645" Text="/clearinvmuun" />
+		<Msg ID="646" Text="You do not have permission to use /clearinvmuun" />
+		<Msg ID="647" Text="Muun Inventory not cleared zen insufient" />
+		<Msg ID="648" Text="Muun Inventory is cleared" />
+		<Msg ID="649" Text="/banmac" />
+		<Msg ID="650" Text="[BanMac] You can't use this command" />
+		<Msg ID="651" Text="[BanMac] Incorrect or disconnect user" />
+		<Msg ID="652" Text="[BanMac] Ban Mac correctly" />
+		<Msg ID="653" Text="Cannot enter as you have exceeded the daily entrance limit." />
+		<Msg ID="654" Text="Entrance limit [%d/%d]." />
+		<Msg ID="655" Text="/pack" />
+		<Msg ID="656" Text="/unpack" />
+		<Msg ID="657" Text="type of jewel not allowed" />
+		<Msg ID="658" Text="you don't have enough jewelry to perform this operation." />
+		<Msg ID="659" Text="jewel successfully packaged." />
+		<Msg ID="660" Text="you don't have enough jewelry to perform this operation." />
+		<Msg ID="661" Text="you don't have enough space to perform this operation." />
+		<Msg ID="662" Text="internal error." />
+		<Msg ID="663" Text="Jewel successfully unpacked" />
+		<Msg ID="664" Text="Destroy the Horde of Corrupt Spirits and the Cursed Obelisk!" />
+		<Msg ID="665" Text="The Horde of Corrupt Spirits disappeared." />
+		<Msg ID="666" Text="The Cursed Obelisk was destroyed by %s." />
+		<Msg ID="667" Text="You protected Acheron from the Cursed Horde." />
+		<Msg ID="668" Text="[BlockChat] This User Is Already Registred" />
+		<Msg ID="669" Text="Lucky Item Refine Successfull." />
+		<Msg ID="670" Text="Lucky Item Refine Fail." />
+		<Msg ID="671" Text="You can not Guild War on this map." />
+		<Msg ID="672" Text="You can not Trade on this map." />
+		<Msg ID="673" Text="You can not Personal Shop on this map." />
+		<Msg ID="674" Text="You cannot join Battle Core while trading items." />
+		<Msg ID="675" Text="Applying to Battle Core failed" />
+		<Msg ID="676" Text="You have applied to Battle Core" />
+		<Msg ID="677" Text="Successfully created Avatar in Battle Core." />
+		<Msg ID="678" Text="Cancel Battle Core is not possible on central server." />
+		<Msg ID="679" Text="You have successfully cancelled from Battle Core." />
+		<Msg ID="680" Text="Your information for the battle core was updated correctly." />
+		<Msg ID="681" Text="Your character is already registered in the battle core." />
+		<Msg ID="682" Text="Expired time to enter battle core." />
+		<Msg ID="683" Text="Already has the maximum of registered characters, remove one to be able to register again." />
+		<Msg ID="684" Text="Faill created Avatar in Battle Core." />
+		<Msg ID="685" Text="You cannot use Personal Store in Battle Core." />
+		<Msg ID="686" Text="Create character is not available on Battle Core." />
+		<Msg ID="687" Text="Storage is not available on Battle Core." />
+		<Msg ID="688" Text="Trading is not allowed while applying to Battle Core." />
+		<Msg ID="689" Text="You cannot join Battle Core while personal store is open." />
+		<Msg ID="690" Text="Not Available in Battle Core." />
+		<Msg ID="691" Text="Disassembly system disabled please try later." />
+		<Msg ID="692" Text="The item restore function is currently disabled." />
+		<Msg ID="693" Text="Failed to load current item restore DB information." />
+		<Msg ID="694" Text="You can't use the item restore function, and you can't recover items that are currently on sale." />
+		<Msg ID="695" Text="Player %s defeated Core Magrifi!" />
+		<Msg ID="696" Text="You do not have enough level to be able to enter" />
+		<Msg ID="697" Text="You do not have enough master level to be able to enter." />
+		<Msg ID="698" Text="You do not have enough reset to be able to enter." />
+		<Msg ID="699" Text="You do not have the item necessary to enter." />
+		<Msg ID="700" Text="[Ban] Your ban chat is over." />
+		<Msg ID="701" Text="[Ban] Your ban post is over." />
+		<Msg ID="702" Text="[Ban] Your chat is blocked. Lack: %d days, %d hours, %d minute %d seconds." />
+		<Msg ID="703" Text="[Ban] Your post is blocked. Lack: %d days, %d hours, %d minute %d seconds." />
+		<Msg ID="705" Text="[Ban] You can't use this command." />
+		<Msg ID="706" Text="[BanChat] Incorrect or disconnect player." />
+		<Msg ID="707" Text="[Ban] Your chat is blocked. Lack: %d days, %d hours, %d minute, %d seconds." />
+		<Msg ID="708" Text="[BanChat] %s blocked for %d days, %d hours, %d minute, %d seconds." />
+		<Msg ID="709" Text="[BanChat] %s unbanneds." />
+		<Msg ID="710" Text="[Ban] Your chat has been unbanned." />
+		<Msg ID="711" Text="[Ban] Your post is blocked. Lack: %d days, %d hours, %d minutes, %d seconds." />
+		<Msg ID="712" Text="[BanPost] %s banned for: %d days, %d hours, %d minutes, %d seconds." />
+		<Msg ID="713" Text="[BanPost] %s unbanned!." />
+		<Msg ID="714" Text="[Ban] Your post has been unbanned." />
+		<Msg ID="715" Text="/banchat" />
+		<Msg ID="716" Text="/banpost" />
+		<Msg ID="717" Text="[PIN] Account protected enter /pin and your number" />
+		<Msg ID="718" Text="[AccountLockout] Invalid number." />
+		<Msg ID="719" Text="[AccountLockout] Information changed correctly." />
+		<Msg ID="720" Text="[PIN] Account protected enter /pin and your number." />
+		<Msg ID="721" Text="You don't have records available." />
+		<Msg ID="722" Text="you don't have enough bless." />
+		<Msg ID="723" Text="you don't have enough souls." />
+		<Msg ID="724" Text="you don't have enough lifes." />
+		<Msg ID="725" Text="you don't have enough chaos." />
+		<Msg ID="726" Text="you don't have enough creation." />
+		<Msg ID="727" Text="you don't have enough space to buy." />
+		<Msg ID="728" Text="you don't have enough coint." />
+		<Msg ID="729" Text="/coint" />
+		<Msg ID="730" Text="[Coin] You can not use it during trade" />
+		<Msg ID="731" Text="[Coin] Min: 1" />
+		<Msg ID="732" Text="[Coin] Max: %d" />
+		<Msg ID="733" Text="[Coin] Need 1 inv slot" />
+		<Msg ID="734" Text="[Coin] Coint (%d) created" />
+		<Msg ID="735" Text="Internal Error" />
+		<Msg ID="736" Text="[Coin] Insufficient coins" />
+		<Msg ID="737" Text="[Coin] Coin received." />
+		<Msg ID="739" Text="[AutoPost] Only for VIP" />
+		<Msg ID="740" Text="[AutoPost] Insufficient zen" />
+		<Msg ID="741" Text="[PK] Max Kill (%d/%d)" />
+		<Msg ID="742" Text="[PK] Limit %d/%d" />
+		<Msg ID="743" Text="[MuRommy] Special mode is disabled, please try later" />
+		<Msg ID="744" Text= "[Jewel Bingo] Sorry This not Enabled." />
+		<Msg ID="745" Text= "Exclusive for characters with less than %d resets" />
+		<Msg ID="746" Text="[GM] %s: %s" />
+		<Msg ID="747" Text="/ereset" />
+		<Msg ID="748" Text="You do not have permission to use /ereset" />
+		<Msg ID="749" Text="You can not use /ereset at time" />
+		<Msg ID="750" Text="You must have at least %d levels to use /ereset" />
+		<Msg ID="751" Text="You must have at least %d resets to use /ereset" />
+		<Msg ID="752" Text="You must have at least %d Zen to use /ereset" />
+		<Msg ID="753" Text="You can not have more than %d easter resets" />
+		<Msg ID="754" Text="You can not reset enhance with items equipped" />
+		<Msg ID="755" Text="Enhance successfully reseted, and now have %d Enhance resets" />
+		<Msg ID="756" Text="You can only reset enhance %d times a day" />
+		<Msg ID="757" Text="You can only reset enhance %d times a week" />
+		<Msg ID="758" Text="You can only reset enhance %d times a month" />
+		<Msg ID="759" Text="You can not reset master when you are in 4th level range" />
+		<Msg ID="760" Text="/setruud" />
+		<Msg ID="761" Text="You do not have permission to use /setruud" />
+		<Msg ID="762" Text="You have entered an invalid target for /setruud" />
+		<Msg ID="763" Text="You entered an invalid value for /setruud" />
+		<Msg ID="764" Text="Chaos Castle Survival will close in %d minute(s)" />
+		<Msg ID="765" Text="Chaos Castle Survival closed" />
+		<Msg ID="766" Text="Chaos Castle Survival will start in %d minute(s)" />
+		<Msg ID="767" Text="Chaos Castle Survival started" />
+		<Msg ID="768" Text="Chaos Castle Survival ended" />
+		<Msg ID="769" Text="You can not enter from that location" />
+		<Msg ID="770" Text="You can not enter if you do not have the interface open" />
+		<Msg ID="771" Text="An Outlaw cannot enter the Best of the Best Match." />
+		<Msg ID="772" Text="You cannot enter the Event while engaged in a duel." />
+		<Msg ID="773" Text="You cannot enter the Event while engaged in a guild war." />
+		<Msg ID="774" Text="You cannot enter the Best of the Best Match while riding a mount." />
+		<Msg ID="775" Text="You cannot enter the Best of the Best Match while transform." />
+		<Msg ID="776" Text="You have entered the Best of the Best Match." />
+		<Msg ID="777" Text="/cleareventinv" />
+		<Msg ID="778" Text="You do not have permission to use /cleareventinv" />
+		<Msg ID="779" Text="Event Inventory not cleared zen insufient" />
+		<Msg ID="780" Text="Event Inventory is cleared" />
+		<Msg ID="781" Text= "/readd" />		
+		<Msg ID="782" Text= "You cannot use this command at this time" />		
+		<Msg ID="783" Text= "Stats successfully reset" />	
+		<Msg ID="784" Text= "[ArcaBattle] Registration has started" />	
+		<Msg ID="785" Text= "[ArcaBattle] Guild Master Registration to Arca War is available for %d minutes." />
+		<Msg ID="786" Text= "Registration to Arca War of guild members is open for %d minutes." />
+		<Msg ID="787" Text= "%d remaining seconds to warp to the Arca War Please wait in a safe area." />
+		<Msg ID="788" Text= "Arca War is now accessible through the NPC named Lord Lesnar." />
+		<Msg ID="789" Text= "Arca war has ended!" />
+		<Msg ID="790" Text= "I'm sorry. The registration period has ended. Please try again next time." />
+		<Msg ID="791" Text= "[ArcaBattle] You can party only with your members of your guild" />
+		<Msg ID="792" Text= "Cannot register guild during Arca War" />
+		<Msg ID="793" Text= "You cannot make a party with other guild guild members in Arca War." />
+		<Msg ID="794" Text= "A crystal ball was created in Feria Boss Zone." />
+		<Msg ID="795" Text= "The Feria boss fight has failed. After 12 hours, a crystal ball is generated randomly." />
+		<Msg ID="796" Text= "%s killed Feria Lord." />
+		<Msg ID="797" Text= "%s put the item %s +15" />
+		<Msg ID="798" Text= "[%s] will close in %d minute(s)" />
+		<Msg ID="799" Text= "[%s] closed" />
+		<Msg ID="800" Text= "[%s] will start in %d minute(s)" />
+		<Msg ID="801" Text= "[%s] started" />
+		<Msg ID="802" Text= "[%s] finished" />
+		<Msg ID="803" Text= "[%s] %s is the winner" />
+		<Msg ID="804" Text= "[%s] You got in the %d position with %d points" />
+		<Msg ID="805" Text= "You can not enter the arena" />
+		<Msg ID="806" Text= "This arena is not currently open" />
+		<Msg ID="807" Text= "Exceeded maximum number of players" />
+		<Msg ID="808" Text= "You must be at least Level %d" />
+		<Msg ID="809" Text= "You must be a maximum of Level %d" />
+		<Msg ID="810" Text= "You must be at least Master Level %d" />
+		<Msg ID="811" Text= "You must be at most Master Level %d" />
+		<Msg ID="812" Text= "You must be at least %d Resets" />
+		<Msg ID="813" Text= "You need to have a maximum of %d Resets" />
+		<Msg ID="814" Text= "You must be at least %d Master Resets" />
+		<Msg ID="815" Text= "You need to have a maximum of %d Master Resets" />
+		<Msg ID="816" Text= "His class is not allowed in the arena" />
+		<Msg ID="817" Text= "[%s] will start in %d minute(s)" />
+		<Msg ID="818" Text= "[%s] started" />
+		<Msg ID="819" Text= "[%s] finished" />
+		<Msg ID="820" Text= "/store" />
+		<Msg ID="821" Text= "bless" />
+		<Msg ID="822" Text= "soul" />
+		<Msg ID="823" Text= "chaos" />
+		<Msg ID="824" Text= "wcc" />
+		<Msg ID="825" Text= ".::BLESS STORE::." />
+		<Msg ID="826" Text= ".::SOUL STORE::." />
+		<Msg ID="827" Text= ".::CHAOS STORE::." />
+		<Msg ID="828" Text= ".::WCC STORE::." />
+		<Msg ID="829" Text= ".::WCP STORE::." />
+		<Msg ID="830" Text= ".::WCG STORE::." />
+		<Msg ID="830" Text= "You do not have permission to use /store" />
+		<Msg ID="831" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="832" Text= "Personal Shop is empty or items are without price" />
+		<Msg ID="833" Text= "ATTENTION!! All items in this store are sold for Jewel of Bless" />
+		<Msg ID="834" Text= "ATTENTION!! All items in this store are sold for Jewel of Soul" />
+		<Msg ID="835" Text= "ATTENTION!! All items in this store are sold for Jewel of Chaos" />
+		<Msg ID="836" Text= "ATTENTION!! All items in this store are sold for WCoinC" />
+		<Msg ID="837" Text= "ATTENTION!! All items in this store are sold for WCoinP" />
+		<Msg ID="838" Text= "ATTENTION!! All items in this store are sold for Goblin Point" />
+		<Msg ID="839" Text= "You must be at least Level %d to use /store" />
+		<Msg ID="840" Text= "You must be at least %d Resets to use /store" />
+		<Msg ID="841" Text= "/offstore" />
+		<Msg ID="842" Text= "You do not have permission to use the /offstore" />
+		<Msg ID="843" Text= "You need to open the Personal Store before" />
+		<Msg ID="844" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="845" Text= "You must be at least Level %d to use the /offstore" />
+		<Msg ID="846" Text= "You must be at least %d Resets to use the /offstore" />
+		<Msg ID="847" Text= "/offattack" />
+		<Msg ID="848" Text= "You are not enabled to use /offattack" />
+		<Msg ID="849" Text= "You need at least %d level to use the command" />
+		<Msg ID="850" Text= "You need at least %d reset to use the command" />
+		<Msg ID="851" Text= "You need at least %d money to use the command" />
+		<Msg ID="852" Text= "You need to enable automatic attack first" />
+		<Msg ID="853" Text= "You can't use the command in this location" />
+		<Msg ID="854" Text= "You need to enable Helper first" />
+		<Msg ID="855" Text= "Master Skill Reset Successfully, please relogin." />
+		<Msg ID="856" Text= "Master Skill Reset Failed" />
+		<Msg ID="857" Text= "You must first reset your skill tree Enhance." />
+		<Msg ID="858" Text= "wcp" />
+		<Msg ID="859" Text= "wcg" />
+		<Msg ID="860" Text= "ruud" />
+		<Msg ID="861" Text= ".::RUUD STORE::." />
+		<Msg ID="862" Text= "before starting a new game, finish the one you have started." />
+		<Msg ID="863" Text= "[BallsAndCows] Sorry This not Enabled." />
+		<Msg ID="864" Text= "/pktime" />
+		<Msg ID="865" Text= "Not PK" />
+		<Msg ID="866" Text= "Left time: Days:%d Hours:%d Minutes:%d Seconds:%d" />
+		<Msg ID="867" Text= "Remain for next stage: Days:%d Hours:%d Minutes:%d Seconds:%d" />
+		<Msg ID="868" Text= "/kick" />
+		<Msg ID="869" Text= "You are not enabled to use /kick" />
+		<Msg ID="870" Text="You have entered an invalid target for /kick" />
+		<Msg ID="871" Text="Your friend has disconnected." />
+		<Msg ID="872" Text="Internal Error." />
+		<Msg ID="873" Text="Password Incorrect." />
+		<Msg ID="874" Text="[AntiHack] Violation in the terrain properties, please relogin to continue moving normally." />
+		<Msg ID="875" Text="[AntiHack] Violation of the integrity of the movement, please relogin to continue moving normally." />
+		<Msg ID="876" Text="<FONT color='#C8C800'>[POST]%s :[#%d]%s</FONT><BR>" />
+		<Msg ID="877" Text="Enhanced Skill Reset Successfully." />
+		<Msg ID="878" Text="Enhanced Skill Reset Failed" />
+		<Msg ID="879" Text="You can only use the command in %s" />
+		<Msg ID="880" Text="The zone is already in the game." />
+		<Msg ID="881" Text="you do not have enough money to buy this item." />
+		<Msg ID="882" Text="%s has made the Golden Evomon appear." />
+		<Msg ID="883" Text="%s succeeded in hunting the golden Evomon." />
+		<Msg ID="884" Text="The party is already in the game." />
+		<Msg ID="885" Text="The zone is being run by another party." />
+		<Msg ID="886" Text="The limit on the number of people allowed to enter the zone has been exceeded." />
+		<Msg ID="887" Text="I have a party with %s." />
+		<Msg ID="888" Text="%s is already at the party." />
+		<Msg ID="889" Text="You have reached the maximum quest." />
+		<Msg ID="890" Text="The authentication server is offline please contact an administrator." />
+		<Msg ID="891" Text="You don't have the territory." />		
+		<Msg ID="892" Text="You do not have enough WC:%d to pay the tax of this article." />
+		<Msg ID="893" Text="You do not have enough WP:%d to pay the tax of this article." />
+		<Msg ID="894" Text="You do not have enough GP:%d to pay the tax of this article." />
+		<Msg ID="895" Text="You have paid WC: %d taxe." />
+		<Msg ID="896" Text="You have paid WP: %d tax." />
+		<Msg ID="897" Text="You have paid GP: %d tax." />
+	</Message>
+	<MapName>
+		<Msg ID="0" Text="Lorencia" />
+		<Msg ID="1" Text="Dungeon" />
+		<Msg ID="2" Text="Devias" />
+		<Msg ID="3" Text="Noria" />
+		<Msg ID="4" Text="Lost Tower" />
+		<Msg ID="5" Text="None" />
+		<Msg ID="6" Text="Arena" />
+		<Msg ID="7" Text="Atlans" />
+		<Msg ID="8" Text="Tarkan" />
+		<Msg ID="9" Text="Devil Square 1" />
+		<Msg ID="10" Text="Icarus" />
+		<Msg ID="11" Text="Blood Castle 1" />
+		<Msg ID="12" Text="Blood Castle 2" />
+		<Msg ID="13" Text="Blood Castle 3" />
+		<Msg ID="14" Text="Blood Castle 4" />
+		<Msg ID="15" Text="Blood Castle 5" />
+		<Msg ID="16" Text="Blood Castle 6" />
+		<Msg ID="17" Text="Blood Castle 7" />
+		<Msg ID="18" Text="Chaos Castle 1" />
+		<Msg ID="19" Text="Chaos Castle 2" />
+		<Msg ID="20" Text="Chaos Castle 3" />
+		<Msg ID="21" Text="Chaos Castle 4" />
+		<Msg ID="22" Text="Chaos Castle 5" />
+		<Msg ID="23" Text="Chaos Castle 6" />
+		<Msg ID="24" Text="Kalima 1" />
+		<Msg ID="25" Text="Kalima 2" />
+		<Msg ID="26" Text="Kalima 3" />
+		<Msg ID="27" Text="Kalima 4" />
+		<Msg ID="28" Text="Kalima 5" />
+		<Msg ID="29" Text="Kalima 6" />
+		<Msg ID="30" Text="Valley of Loren" />
+		<Msg ID="31" Text="Land Of Trials" />
+		<Msg ID="32" Text="Devil Square" /> <!-- 5 ~ 7 -->
+		<Msg ID="33" Text="Aida" /> <!-- 1 ~ 2 -->
+		<Msg ID="34" Text="Crywolf (First Zone)" />
+		<Msg ID="35" Text="Crywolf (Second Zone)" />
+		<Msg ID="36" Text="Kalima 7 (Lost)" />
+		<Msg ID="37" Text="Kanturu Ruins" />
+		<Msg ID="38" Text="Kanturu (Remain)" /> <!-- 1 -->
+		<Msg ID="39" Text="Kanturu (Refinery Tower)" /> <!-- 2 -->
+		<Msg ID="40" Text="Silent Map" />
+		<Msg ID="41" Text="Barracks of Balgass" />
+		<Msg ID="42" Text="Balgass Refuge" />
+		<Msg ID="43" Text="Empty" />
+		<Msg ID="44" Text="Empty" />
+		<Msg ID="45" Text="Illusion Temple 1" />
+		<Msg ID="46" Text="Illusion Temple 2" />
+		<Msg ID="47" Text="Illusion Temple 3" />
+		<Msg ID="48" Text="Illusion Temple 4" />
+		<Msg ID="49" Text="Illusion Temple 5" />
+		<Msg ID="50" Text="Illusion Temple 6" />
+		<Msg ID="51" Text="Elbeland" />
+		<Msg ID="52" Text="Blood Castle 8" />
+		<Msg ID="53" Text="Chaos Castle 7" />
+		<Msg ID="54" Text="Empty" />
+		<Msg ID="55" Text="Empty" />
+		<Msg ID="56" Text="Swamp of Calmness" />
+		<Msg ID="57" Text="Raklion" />
+		<Msg ID="58" Text="Hatchery" />
+		<Msg ID="59" Text="Empty" />
+		<Msg ID="60" Text="Empty" />
+		<Msg ID="61" Text="Empty" />
+		<Msg ID="62" Text="Santa Village" />
+		<Msg ID="63" Text="Vulcanus" />
+		<Msg ID="64" Text="Duel Area" />
+		<Msg ID="65" Text="Dopple Ganger Snow" />
+		<Msg ID="66" Text="Dopple Ganger Volcan" />
+		<Msg ID="67" Text="Dopple Ganger Sea" />
+		<Msg ID="68" Text="Dopple Ganger Crystals" />
+		<Msg ID="69" Text="Imperial Fortress 1" />
+		<Msg ID="70" Text="Imperial Fortress 2" />
+		<Msg ID="71" Text="Imperial Fortress 3" />
+		<Msg ID="72" Text="Imperial Fortress 4" />
+		<Msg ID="79" Text="Loren Market" />
+		<Msg ID="80" Text="Karutan 1" />
+		<Msg ID="81" Text="Karutan 2" />
+		<Msg ID="82" Text="Doppel Ganger Renewal" />
+		<Msg ID="83" Text="Doppel Ganger Renewal" />
+		<Msg ID="84" Text="Doppel Ganger Renewal" />
+		<Msg ID="85" Text="Doppel Ganger Renewal" />
+		<Msg ID="86" Text="Doppel Ganger Renewal" />
+		<Msg ID="87" Text="Doppel Ganger Renewal" />
+		<Msg ID="88" Text="Doppel Ganger Renewal" />
+		<Msg ID="89" Text="Doppel Ganger Renewal" />
+		<Msg ID="90" Text="Doppel Ganger Renewal" />
+		<Msg ID="91" Text="Acheron" />
+		<Msg ID="92" Text="Acheron 2" />
+		<Msg ID="93" Text="Empty" />
+		<Msg ID="94" Text="Empty" />
+		<Msg ID="95" Text="Debenter" />
+		<Msg ID="96" Text="Debenter (Arca Battle)" />
+		<Msg ID="97" Text="Chaos Castle Final" />
+		<Msg ID="98" Text="Illusion Temple Final 1" />
+		<Msg ID="99" Text="Illusion Temple Final 2" />
+		<Msg ID="100" Text="Urk Mountain" />
+		<Msg ID="101" Text="Urk Mountain" />
+		<Msg ID="102" Text="Tormented Square" />
+		<Msg ID="103" Text="Tormented Square Battle" />
+		<Msg ID="104" Text="Tormented Square Battle" />
+		<Msg ID="105" Text="Tormented Square Battle" />
+		<Msg ID="106" Text="Tormented Square Battle" />
+		<Msg ID="110" Text="Nars" />
+		<Msg ID="112" Text="Ferea" />
+		<Msg ID="113" Text="Nixie Lake" />
+		<Msg ID="114" Text="Instance Zone" />
+		<Msg ID="115" Text="Labyrinth of Dimensions" />
+		<Msg ID="116" Text="Deep Dungeon 1" />
+		<Msg ID="117" Text="Deep Dungeon 2" />
+		<Msg ID="118" Text="Deep Dungeon 3" />
+		<Msg ID="119" Text="Deep Dungeon 4" />
+		<Msg ID="120" Text="Deep Dungeon 5" />
+		<Msg ID="121" Text="Trial Area" />
+		<Msg ID="122" Text="Swamp of Darkness" />
+		<Msg ID="123" Text="Kubera Mine" />
+		<Msg ID="124" Text="" />
+		<Msg ID="125" Text="Kubera Mine 2" />
+		<Msg ID="126" Text="Kubera Mine 3" />
+		<Msg ID="127" Text="Kubera Mine 4" />
+		<Msg ID="128" Text="Atlans Abyss" />
+		<Msg ID="129" Text="Atlans Abyss" />
+		<Msg ID="130" Text="Atlans Abyss" />
+		<Msg ID="131" Text="Scorched Canyon" />
+		<Msg ID="132" Text="Crimson Icarus" />
+		<Msg ID="133" Text="Arenil Temple" />
+	</MapName>
+	<InvacionMsg>
+		<Msg ID="0" Text="Skeleton King invasion has begun!" />
+		<Msg ID="1" Text="Invasion of Red Dragon started!" />
+		<Msg ID="2" Text="Invasion of Dourados started!" />
+		<Msg ID="3" Text="Invasion of White Wizard started!" />
+		<Msg ID="4" Text="New Year invasion has begun!" />
+		<Msg ID="5" Text="Invasion of rabbits started!" />
+		<Msg ID="6" Text="Invasion of summer started!" />
+		<Msg ID="7" Text="Christmas invasion has begun!" />
+		<Msg ID="8" Text="Invasion of Medusa began!" />
+		<Msg ID="9" Text="Invasion of invoking Demons started!" />
+		<Msg ID="10" Text="Invasion of eggs Event started!" />
+		<Msg ID="11" Text="Player %s defeated Skeleton King!" />
+		<Msg ID="12" Text="Player %s defeated Red Dragon!" />
+		<Msg ID="13" Text="Player %s defeated Golden Great Dragon!" />
+		<Msg ID="14" Text="Player %s defeated White Wizard!" />
+		<Msg ID="15" Text="Player %s defeated Cursed Santa!" />
+		<Msg ID="16" Text="Player %s defeated Medusa!" />
+	</InvacionMsg>
+	<Notice>
+		<Msg ID="0" Text="MuDevs Ex1702" />
+	</Notice>
+	<NoticeSystem>
+		<Tags>
+			<Tag ID="0" Text="" /> <!-- Normal item -->
+			<Tag ID="1" Text="exc" />
+			<Tag ID="2" Text="item" />
+		</Tags>
+		<Messages>
+			<Msg ID="0" Text="<FONT color='#C8C800'> [%s] in %s Picked up %s %s </FONT><BR>" /> <!-- PlayerName, MapName, Tag, ItemName -->
+			<Msg ID="1" Text="<FONT color='#C8C800'> %s Killed %s in %s (%d,%d) </FONT><BR>" /> <!-- KillerName, VictimName, MapName, X, Y -->
+			<Msg ID="2" Text="<FONT color='#C8C800'> %s has respawned in %s (%d,%d) </FONT><BR>" /> <!-- MonsterName, MapName, X, Y -->
+		</Messages>
+		
+	</NoticeSystem>
+</Language>

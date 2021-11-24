@@ -1,0 +1,29 @@
+//Index   CreateIndex   MultiSplitStatus     Comment
+6159      *             1					//Jewel of Chaos
+6288      6289          *					//Mithril Fragment
+6801      6802          *					//Spirit Map Fragment
+7181      *             1					//Jewel of Bless
+7182      *             1					//Jewel of Soul
+7184      *             1					//Jewel of Life
+7190      *             1					//Jewel of Creation
+7197      7196          *					//Symbol of Kundun
+7199      *             1					//Jewel of Guardian
+7209      *             1					//Gemstone
+7210      *             1					//Jewel of Harmony
+7211      *             1					//Lower refining stone
+7212      *             1					//Higher refining stone
+7269      7270          *					//Suspicious Scrap of Paper
+7278      7279          *					//Sign of Dimensions
+7383      7384          *					//Card Piece
+7446      7412          *					//Piece of Summoning Scroll
+7458      7461          *					//Elemental Powder
+7612	  7613	   		*					//Energy Drink
+7637      7638          *                   //Guardian Elite Option Conversion Fragment
+10283     10290         *					//Blood Angel Chaos Combination Amulet Fragment (Bound)
+10284     10291         *					//Dark Angel Chaos Guild Charm Fragment (Bound)
+10285     10292         *					//Holy Angel Chaos Combination Charm Fragment (Bound)
+10286     10293         *					//Soul Chaos Guild Charm Fragment (Bound)
+10287     10294         *					//Blue Eye Chaos Combination Amulet Fragment (Bound)
+10288     10295         *					//Silver Heart Chaos Combination Charm Fragment (Bound)
+10289     10296         *					//Manticore Chaos Combination Charm Fragment (Bound)
+end

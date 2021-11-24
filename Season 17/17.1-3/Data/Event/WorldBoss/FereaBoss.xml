@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FereaBoss Enable="1">
+	<HPPhase Level0="90" Level1="90" Level2="90" Level3="90" Level4="90" />
+	<Summon BeginX="27" BeginY="115" EndX="35" EndY="125" MaxMonsterSummon="25"/>
+	<SpawnMonster>	
+		<SpawnInfo Group="0" Class="730" Count="1" Attr="0" />
+		<SpawnInfo Group="0" Class="731" Count="2" Attr="0" />
+		<SpawnInfo Group="0" Class="732" Count="2" Attr="0" />
+		<SpawnInfo Group="1" Class="730" Count="2" Attr="0" />
+		<SpawnInfo Group="1" Class="731" Count="2" Attr="0" />
+		<SpawnInfo Group="1" Class="732" Count="3" Attr="0" />
+		<SpawnInfo Group="2" Class="730" Count="3" Attr="0" />
+		<SpawnInfo Group="2" Class="731" Count="3" Attr="0" />
+		<SpawnInfo Group="2" Class="732" Count="4" Attr="0" />
+		<SpawnInfo Group="3" Class="730" Count="3" Attr="0" />
+		<SpawnInfo Group="3" Class="731" Count="3" Attr="0" />
+		<SpawnInfo Group="3" Class="732" Count="4" Attr="0" />
+	</SpawnMonster>
+	<ReFillLife Life="70000" />
+	<Skill WhirlwindDamagePer="80" WhirlwindDis="3" LandMinePer="95" RoarofLordDis="6" />
+	<CrystalBallRegenFail IsOriginalTime="0" Day="0" Hour="0" Min="5" />
+	<CrystalBallRegenSuccess IsOriginalTime="0" Day="0" Hour="0" Min="5" />
+</FereaBoss>

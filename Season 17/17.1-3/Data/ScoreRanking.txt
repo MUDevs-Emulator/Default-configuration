@@ -1,0 +1,11 @@
+0
+//MainType	SubType
+2		0
+end
+
+1
+//MainType	SubType		Comment
+2		0		//The maximum awakened Evomon level scores
+2		1		//The number that caught Evomon with my ownership scores
+2		2		//Damage dealt to Evomon scores
+end

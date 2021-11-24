@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="575" Range="30" PositionX="78" PositionY="42" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="71" PositionY="43" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="76" PositionY="60" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="58" PositionY="59" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="60" PositionY="46" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="82" PositionY="48" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="94" PositionY="56" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="114" PositionY="61" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="115" PositionY="49" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="127" PositionY="60" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="127" PositionY="53" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="130" PositionY="49" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="152" PositionY="47" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="160" PositionY="35" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="186" PositionY="41" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="201" PositionY="37" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="207" PositionY="51" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="207" PositionY="76" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="186" PositionY="60" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="171" PositionY="68" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="137" PositionY="81" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="140" PositionY="63" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="97" PositionY="78" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="126" PositionY="89" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="106" PositionY="82" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="98" PositionY="92" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="81" PositionY="95" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="69" PositionY="88" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="100" PositionY="104" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="119" PositionY="81" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="156" PositionY="80" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="200" PositionY="83" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="203" PositionY="62" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="206" PositionY="40" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="169" PositionY="39" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="169" PositionY="30" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="101" PositionY="57" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="76" PositionY="53" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="78" PositionY="103" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="97" PositionY="85" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="138" PositionY="113" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="145" PositionY="108" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="178" PositionY="64" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="201" PositionY="58" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="201" PositionY="87" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="221" PositionY="48" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="211" PositionY="65" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="74" PositionY="105" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="71" PositionY="131" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="59" PositionY="121" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="54" PositionY="136" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="58" PositionY="140" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="62" PositionY="138" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="130" PositionY="121" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="132" PositionY="103" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="152" PositionY="105" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="200" PositionY="108" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="213" PositionY="126" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="211" PositionY="95" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="182" PositionY="72" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="185" PositionY="47" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="575" Range="30" PositionX="164" PositionY="30" Direction="-1" Element="0" /> <!-- "Condra" -->
+		<Config Class="576" Range="30" PositionX="87" PositionY="42" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="81" PositionY="54" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="107" PositionY="62" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="110" PositionY="55" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="122" PositionY="58" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="92" PositionY="80" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="141" PositionY="56" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="170" PositionY="35" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="190" PositionY="38" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="195" PositionY="61" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="210" PositionY="43" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="202" PositionY="80" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="140" PositionY="74" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="133" PositionY="83" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="125" PositionY="85" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="104" PositionY="89" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="78" PositionY="98" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="65" PositionY="90" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="66" PositionY="126" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="78" PositionY="109" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="132" PositionY="109" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="187" PositionY="81" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="197" PositionY="99" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="206" PositionY="110" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="217" PositionY="122" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="210" PositionY="130" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="148" PositionY="120" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="153" PositionY="113" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="69" PositionY="140" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="53" PositionY="129" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="95" PositionY="95" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="84" PositionY="100" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="150" PositionY="84" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="576" Range="30" PositionX="181" PositionY="57" Direction="-1" Element="0" /> <!-- "Narcondra" -->
+		<Config Class="571" Range="30" PositionX="58" PositionY="160" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="53" PositionY="165" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="67" PositionY="180" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="70" PositionY="169" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="61" PositionY="172" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="134" PositionY="141" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="143" PositionY="149" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="143" PositionY="139" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="131" PositionY="146" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="136" PositionY="156" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="197" PositionY="157" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="205" PositionY="158" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="211" PositionY="157" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="211" PositionY="167" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="204" PositionY="170" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="198" PositionY="162" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="572" Range="30" PositionX="65" PositionY="163" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="67" PositionY="171" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="58" PositionY="173" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="138" PositionY="138" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="140" PositionY="154" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="148" PositionY="144" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="201" PositionY="158" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="208" PositionY="171" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="214" PositionY="162" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="202" PositionY="166" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="206" PositionY="134" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="216" PositionY="137" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="140" PositionY="117" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="61" PositionY="145" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="572" Range="30" PositionX="66" PositionY="142" Direction="-1" Element="0" /> <!-- "Gollock" -->
+		<Config Class="571" Range="30" PositionX="64" PositionY="134" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="126" PositionY="124" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="132" PositionY="117" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="214" PositionY="133" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="208" PositionY="126" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="67" PositionY="175" Direction="-1" Element="0" /> <!-- "Orcus" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LuckySystem>
+	<LuckyMainItem>
+		<!-- 1st Lucky Item Card -->
+		<CardInfo Category="13" Index="135" ListID="1" Group="0" Name="1st Lucky Armor Ticket"/>
+		<CardInfo Category="13" Index="136" ListID="2" Group="0" Name="1st Lucky Pants Ticket"/>
+		<CardInfo Category="13" Index="137" ListID="3" Group="0" Name="1st Lucky Helm Ticket"/>
+		<CardInfo Category="13" Index="138" ListID="4" Group="0" Name="1st Lucky Gloves Ticket"/>
+		<CardInfo Category="13" Index="139" ListID="5" Group="0" Name="1st Lucky Boots Ticket"/>
+		<!-- 2nd Lucky Item Card -->
+		<CardInfo Category="13" Index="140" ListID="1" Group="1" Name="2nd Lucky Armor Ticket"/>
+		<CardInfo Category="13" Index="141" ListID="2" Group="1" Name="2nd Lucky Pants Ticket"/>
+		<CardInfo Category="13" Index="142" ListID="3" Group="1" Name="2nd Lucky Helm Ticket"/>
+		<CardInfo Category="13" Index="143" ListID="4" Group="1" Name="2nd Lucky Gloves Ticket"/>
+		<CardInfo Category="13" Index="144" ListID="5" Group="1" Name="2nd Lucky Boots Ticket"/>
+	</LuckyMainItem>
+	<LuckyListItem>
+		<ItemList ListID="1" Group="0">	<!-- 1st Armor List -->
+			<Item Category="8" Index="62" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="1" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Scale Armor"/>
+			<Item Category="8" Index="63" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Silk Armor"/>
+			<Item Category="8" Index="64" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Sphinx Armor"/> 
+			<Item Category="8" Index="65" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Violent Wind Armor"/> 
+			<Item Category="8" Index="96" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Robust Armor"/> 
+			<Item Category="8" Index="124" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Spink Armor"/> 
+			<Item Category="8" Index="186" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Armor (B)"/> 
+			<Item Category="8" Index="218" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Scale Gunner Armor"/> 
+			<Item Category="8" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Armor"/> 
+			<Item Category="8" Index="267" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Sphinx Mask"/> 
+		</ItemList>
+		<ItemList ListID="1" Group="1">	<!-- 2nd Armor List -->
+			<Item Category="8" Index="66" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Adamantine Armor"/>
+			<Item Category="8" Index="67" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Dragon Armor"/>
+			<Item Category="8" Index="68" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Guardian Armor"/> 
+			<Item Category="8" Index="69" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Legendary Armor"/> 
+			<Item Category="8" Index="70" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Red Wing Armor"/> 
+			<Item Category="8" Index="71" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Atlans Armor"/> 
+			<Item Category="8" Index="72" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Storm Jahad Armor"/> 
+			<Item Category="8" Index="97" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Princie Armor"/> 
+			<Item Category="8" Index="125" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Legendary Armor"/> 
+			<Item Category="8" Index="187" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Demonic Armor (B)"/> 
+			<Item Category="8" Index="219" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Frere Armor"/> 
+			<Item Category="8" Index="250" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Light Ray Armor"/> 
+			<Item Category="8" Index="268" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Legendary Armor"/> 
+		</ItemList>
+		<ItemList ListID="2" Group="0">	<!-- 1st Pants List -->
+			<Item Category="9" Index="62" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="1" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Scale Pants"/>
+			<Item Category="9" Index="63" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Silk Pants"/>
+			<Item Category="9" Index="64" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Sphinx Pants"/> 
+			<Item Category="9" Index="65" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Violent Wind Pants"/> 
+			<Item Category="9" Index="96" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Robust Pants"/> 
+			<Item Category="9" Index="124" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Spink Pants"/> 
+			<Item Category="9" Index="186" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Pants (B)"/> 
+			<Item Category="9" Index="218" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Scale Gunner Pants"/> 
+			<Item Category="9" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Pants"/> 
+			<Item Category="9" Index="267" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Sphinx Pants"/> 		
+		</ItemList>
+		<ItemList ListID="2" Group="1">	<!-- 2nd Pants List -->
+			<Item Category="9" Index="66" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Adamantine Pants"/>
+			<Item Category="9" Index="67" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Dragon Pants"/>
+			<Item Category="9" Index="68" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Guardian Pants"/> 
+			<Item Category="9" Index="69" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Legendary Pants"/> 
+			<Item Category="9" Index="70" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Red Wing Pants"/> 
+			<Item Category="9" Index="71" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Atlans Pants"/> 
+			<Item Category="9" Index="72" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Storm Jahad Pants"/> 
+			<Item Category="9" Index="97" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Princie Pants"/> 
+			<Item Category="9" Index="125" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Legendary Pants"/> 
+			<Item Category="9" Index="187" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Demonic Pants (B)"/> 
+			<Item Category="9" Index="219" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Frere Pants"/> 
+			<Item Category="9" Index="250" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Light Ray Pants"/> 
+			<Item Category="9" Index="268" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Legendary Pants"/> 
+		</ItemList>
+		<ItemList ListID="3" Group="0">	<!-- 1st Helm List -->
+			<Item Category="7" Index="62" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="1" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Scale Helm"/>
+			<Item Category="7" Index="63" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Silk Helm"/>
+			<Item Category="7" Index="64" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Sphinx Helm"/> 
+			<Item Category="7" Index="65" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Violent Wind Helm"/> 
+			<Item Category="7" Index="96" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Robust Helm"/> 
+			<Item Category="7" Index="124" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Spink Mask"/> 
+			<Item Category="7" Index="186" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Helm (B)"/> 
+			<Item Category="7" Index="218" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Scale Gunner Helm"/> 
+			<Item Category="7" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Helm"/> 
+			<Item Category="7" Index="267" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Sphinx Helm"/> 		
+		</ItemList>
+		<ItemList ListID="3" Group="1">	<!-- 2nd Helm List -->
+			<Item Category="7" Index="66" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Adamantine Helm"/>
+			<Item Category="7" Index="67" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Dragon Helm"/>
+			<Item Category="7" Index="68" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Guardian Helm"/> 
+			<Item Category="7" Index="69" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Legendary Helm"/> 
+			<Item Category="7" Index="70" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Red Wing Helm"/> 
+			<Item Category="7" Index="72" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Storm Jahad Helm"/> 
+			<Item Category="7" Index="97" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Princie Helm"/> 
+			<Item Category="7" Index="125" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Legendary Helmet"/> 
+			<Item Category="7" Index="187" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Demonic Helm (B)"/> 
+			<Item Category="7" Index="219" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Frere Helm"/> 
+			<Item Category="7" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Helm"/> 
+			<Item Category="7" Index="250" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Light Ray Helm"/> 
+			<Item Category="7" Index="268" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Legendary Helm"/> 		
+		</ItemList>
+		<ItemList ListID="4" Group="0">	<!-- 1st Gloves List -->
+			<Item Category="10" Index="62" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="1" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Scale Gloves"/>
+			<Item Category="10" Index="63" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Silk Gloves"/>
+			<Item Category="10" Index="64" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Sphinx Gloves"/> 
+			<Item Category="10" Index="65" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Violent Wind Gloves"/> 
+			<Item Category="10" Index="96" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Robust Gloves"/> 
+			<Item Category="10" Index="124" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Spink Gloves"/> 
+			<Item Category="10" Index="186" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Gloves (B)"/> 
+			<Item Category="10" Index="218" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Scale Gunner Gloves"/> 
+			<Item Category="10" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Gloves"/> 
+			<Item Category="10" Index="267" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Sphinx Gloves"/> 
+		</ItemList>
+		<ItemList ListID="4" Group="1">	<!-- 2nd Gloves List -->
+			<Item Category="10" Index="66" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Adamantine Gloves"/>
+			<Item Category="10" Index="67" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Dragon Gloves"/>
+			<Item Category="10" Index="68" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Guardian Gloves"/> 
+			<Item Category="10" Index="69" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Legendary Gloves"/> 
+			<Item Category="10" Index="70" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Red Wing Gloves"/> 
+			<Item Category="10" Index="71" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Atlans Gloves"/> 
+			<Item Category="10" Index="72" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Storm Jahad Gloves"/> 
+			<Item Category="10" Index="97" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Princie Gloves"/> 
+			<Item Category="10" Index="125" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Legendary Gloves"/> 
+			<Item Category="10" Index="187" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Demonic Gloves (B)"/> 
+			<Item Category="10" Index="219" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Frere Gloves"/> 
+			<Item Category="10" Index="250" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Light Ray Gloves"/> 
+			<Item Category="10" Index="268" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Legendary Gloves"/> 					
+		</ItemList>
+		<ItemList ListID="5" Group="0">	<!-- 1st Boots List -->
+			<Item Category="11" Index="62" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="1" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Scale Boots"/>
+			<Item Category="11" Index="63" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Silk Boots"/>
+			<Item Category="11" Index="64" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Sphinx Boots"/> 
+			<Item Category="11" Index="65" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Violent Wind Boots"/> 
+			<Item Category="11" Index="96" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Robust Boots"/> 
+			<Item Category="11" Index="124" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Spink Boots"/> 
+			<Item Category="11" Index="186" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Boots (B)"/> 
+			<Item Category="11" Index="218" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Scale Gunner Boots"/> 
+			<Item Category="11" Index="249" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Glimmer Boots"/> 
+			<Item Category="11" Index="267" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Sphinx Boots"/> 
+		</ItemList>
+		<ItemList ListID="5" Group="1">	<!-- 2nd Boots List -->
+			<Item Category="11" Index="66" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Adamantine Boots"/>
+			<Item Category="11" Index="67" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Dragon Boots"/>
+			<Item Category="11" Index="68" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Guardian Boots"/> 
+			<Item Category="11" Index="69" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Legendary Boots"/> 
+			<Item Category="11" Index="70" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Red Wing Boots"/> 
+			<Item Category="11" Index="71" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Atlans Boots"/> 
+			<Item Category="11" Index="72" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Storm Jahad Boots"/> 
+			<Item Category="11" Index="97" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0" KM="0" LM="0" Name="Princie Boots"/> 
+			<Item Category="11" Index="125" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="0" Name="Rune Legendary Boots"/> 
+			<Item Category="11" Index="187" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0" KM="0" LM="0" Name="Slayer Demonic Boots (B)"/> 
+			<Item Category="11" Index="219" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1" KM="0" LM="0" Name="Frere Boots"/> 
+			<Item Category="11" Index="250" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" Name="Light Ray Boots"/> 
+			<Item Category="11" Index="268" Decay="2400" Option0="10" Option1="10" Option2="10" Option3="10" Option4="10" Option5="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" Name="Mage Legendary Boots"/> 						
+	</ItemList>
+	</LuckyListItem>
+</LuckySystem>

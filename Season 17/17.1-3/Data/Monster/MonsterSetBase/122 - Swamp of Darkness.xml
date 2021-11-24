@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="787" Range="8" BeginPosX="57" BeginPosY="166" EndPosX="60" EndPosY="168" Direction="-1" Quantity="4" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="50" BeginPosY="165" EndPosX="63" EndPosY="178" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="52" BeginPosY="166" EndPosX="62" EndPosY="176" Direction="-1" Quantity="4" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="88" BeginPosY="148" EndPosX="100" EndPosY="159" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="103" BeginPosY="162" EndPosX="113" EndPosY="172" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="80" BeginPosY="127" EndPosX="93" EndPosY="137" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="70" BeginPosY="170" EndPosX="81" EndPosY="182" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="43" BeginPosY="124" EndPosX="52" EndPosY="165" Direction="-1" Quantity="6" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="107" BeginPosY="179" EndPosX="119" EndPosY="191" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="45" BeginPosY="223" EndPosX="56" EndPosY="235" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="43" BeginPosY="198" EndPosX="62" EndPosY="209" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="206" BeginPosY="200" EndPosX="219" EndPosY="208" Direction="-1" Quantity="3" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="167" BeginPosY="188" EndPosX="180" EndPosY="197" Direction="-1" Quantity="3" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="145" BeginPosY="185" EndPosX="157" EndPosY="198" Direction="-1" Quantity="4" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="214" BeginPosY="239" EndPosX="214" EndPosY="239" Direction="-1" Quantity="3" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="206" BeginPosY="179" EndPosX="230" EndPosY="197" Direction="-1" Quantity="7" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="12" BeginPosX="204" BeginPosY="174" EndPosX="228" EndPosY="196" Direction="-1" Quantity="3" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="8" BeginPosX="157" BeginPosY="176" EndPosX="157" EndPosY="176" Direction="-1" Quantity="4" Element="1" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="12" BeginPosX="181" BeginPosY="81" EndPosX="228" EndPosY="113" Direction="-1" Quantity="15" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="6" BeginPosX="120" BeginPosY="37" EndPosX="129" EndPosY="51" Direction="-1" Quantity="3" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="6" BeginPosX="126" BeginPosY="41" EndPosX="136" EndPosY="62" Direction="-1" Quantity="3" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="6" BeginPosX="145" BeginPosY="39" EndPosX="155" EndPosY="52" Direction="-1" Quantity="3" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="15" BeginPosX="63" BeginPosY="105" EndPosX="100" EndPosY="123" Direction="-1" Quantity="10" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="15" BeginPosX="62" BeginPosY="15" EndPosX="88" EndPosY="40" Direction="-1" Quantity="10" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="788" Range="8" BeginPosX="93" BeginPosY="195" EndPosX="108" EndPosY="205" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="122" BeginPosY="197" EndPosX="136" EndPosY="205" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="119" BeginPosY="224" EndPosX="133" EndPosY="237" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="62" BeginPosY="226" EndPosX="74" EndPosY="236" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="20" BeginPosY="204" EndPosX="28" EndPosY="218" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="20" BeginPosY="141" EndPosX="31" EndPosY="153" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="186" BeginPosY="230" EndPosX="203" EndPosY="242" Direction="-1" Quantity="4" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="211" BeginPosY="226" EndPosX="228" EndPosY="239" Direction="-1" Quantity="4" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="225" BeginPosY="199" EndPosX="234" EndPosY="209" Direction="-1" Quantity="3" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="217" BeginPosY="210" EndPosX="227" EndPosY="217" Direction="-1" Quantity="3" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="202" BeginPosY="203" EndPosX="202" EndPosY="203" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="175" BeginPosY="153" EndPosX="190" EndPosY="162" Direction="-1" Quantity="3" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="237" BeginPosY="115" EndPosX="248" EndPosY="133" Direction="-1" Quantity="5" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="6" BeginPosX="228" BeginPosY="75" EndPosX="237" EndPosY="85" Direction="-1" Quantity="4" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="6" BeginPosX="205" BeginPosY="148" EndPosX="215" EndPosY="158" Direction="-1" Quantity="2" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="6" BeginPosX="216" BeginPosY="133" EndPosX="231" EndPosY="143" Direction="-1" Quantity="2" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="149" BeginPosY="23" EndPosX="159" EndPosY="33" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="101" BeginPosY="78" EndPosX="110" EndPosY="90" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="8" BeginPosX="95" BeginPosY="19" EndPosX="110" EndPosY="37" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="4" BeginPosX="50" BeginPosY="30" EndPosX="62" EndPosY="41" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="6" BeginPosX="86" BeginPosY="58" EndPosX="101" EndPosY="76" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="788" Range="6" BeginPosX="77" BeginPosY="40" EndPosX="91" EndPosY="52" Direction="-1" Quantity="3" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="71" BeginPosY="226" EndPosX="82" EndPosY="237" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="52" BeginPosY="165" EndPosX="61" EndPosY="177" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="19" BeginPosY="190" EndPosX="28" EndPosY="204" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="124" BeginPosY="165" EndPosX="137" EndPosY="180" Direction="-1" Quantity="5" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="152" BeginPosY="227" EndPosX="165" EndPosY="238" Direction="-1" Quantity="3" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="145" BeginPosY="185" EndPosX="156" EndPosY="201" Direction="-1" Quantity="3" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="158" BeginPosY="152" EndPosX="175" EndPosY="166" Direction="-1" Quantity="5" Element="4" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="162" BeginPosY="185" EndPosX="162" EndPosY="185" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="232" BeginPosY="47" EndPosX="244" EndPosY="58" Direction="-1" Quantity="5" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="218" BeginPosY="23" EndPosX="229" EndPosY="44" Direction="-1" Quantity="5" Element="2" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="185" BeginPosY="66" EndPosX="185" EndPosY="66" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="185" BeginPosY="66" EndPosX="185" EndPosY="66" Direction="-1" Quantity="4" Element="1" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="121" BeginPosY="17" EndPosX="136" EndPosY="31" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="109" BeginPosY="58" EndPosX="119" EndPosY="68" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="8" BeginPosX="142" BeginPosY="59" EndPosX="150" EndPosY="73" Direction="-1" Quantity="4" Element="5" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="4" BeginPosX="23" BeginPosY="15" EndPosX="33" EndPosY="27" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="4" BeginPosX="15" BeginPosY="49" EndPosX="27" EndPosY="61" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="4" BeginPosX="19" BeginPosY="96" EndPosX="32" EndPosY="112" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+		<Config Class="789" Range="4" BeginPosX="46" BeginPosY="54" EndPosX="58" EndPosY="67" Direction="-1" Quantity="8" Element="3" /> <!-- "Swamp Wizard" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="786" Range="3" PositionX="95" PositionY="214" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="92" PositionY="220" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="87" PositionY="219" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="80" PositionY="218" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="73" PositionY="218" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="75" PositionY="212" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="73" PositionY="196" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="68" PositionY="204" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="77" PositionY="207" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="77" PositionY="189" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="81" PositionY="187" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="85" PositionY="195" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="90" PositionY="191" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="91" PositionY="184" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="92" PositionY="174" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="98" PositionY="176" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="99" PositionY="186" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="84" PositionY="167" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="81" PositionY="161" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="72" PositionY="163" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="67" PositionY="150" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="68" PositionY="141" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="67" PositionY="130" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="68" PositionY="126" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="57" PositionY="120" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="118" PositionY="204" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="116" PositionY="213" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="119" PositionY="218" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="119" PositionY="240" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="111" PositionY="243" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="106" PositionY="241" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="95" PositionY="239" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="37" PositionY="192" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="33" PositionY="193" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="41" PositionY="211" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="33" PositionY="213" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="20" PositionY="163" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="8" PositionX="19" PositionY="168" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="24" PositionY="171" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="38" PositionY="171" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="31" PositionY="172" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="45" PositionY="169" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="48" PositionY="183" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="53" PositionY="192" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="59" PositionY="184" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="66" PositionY="180" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="52" PositionY="215" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="59" PositionY="222" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="66" PositionY="219" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="113" PositionY="224" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="99" PositionY="230" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="92" PositionY="234" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="91" PositionY="227" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="67" PositionY="167" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="65" PositionY="166" Direction="-1" Element="1" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="202" PositionY="164" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="198" PositionY="167" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="190" PositionY="167" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="187" PositionY="171" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="180" PositionY="174" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="184" PositionY="179" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="192" PositionY="182" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="197" PositionY="186" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="203" PositionY="190" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="202" PositionY="197" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="197" PositionY="200" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="8" PositionX="192" PositionY="200" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="188" PositionY="196" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="184" PositionY="198" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="184" PositionY="202" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="185" PositionY="208" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="192" PositionY="211" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="193" PositionY="207" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="199" PositionY="215" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="200" PositionY="222" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="209" PositionY="222" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="191" PositionY="225" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="184" PositionY="222" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="181" PositionY="216" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="174" PositionY="219" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="176" PositionY="225" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="171" PositionY="225" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="175" PositionY="210" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="171" PositionY="205" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="165" PositionY="207" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="162" PositionY="204" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="162" PositionY="212" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="154" PositionY="215" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="154" PositionY="209" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="146" PositionY="213" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="136" PositionY="212" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="141" PositionY="213" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="130" PositionY="214" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="145" PositionY="169" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="146" PositionY="176" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="147" PositionY="173" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="123" PositionY="188" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="129" PositionY="189" Direction="-1" Element="4" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="239" PositionY="141" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="241" PositionY="147" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="235" PositionY="145" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="232" PositionY="152" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="227" PositionY="156" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="234" PositionY="158" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="241" PositionY="154" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="237" PositionY="168" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="231" PositionY="171" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="215" PositionY="164" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="213" PositionY="167" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="196" PositionY="153" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="197" PositionY="147" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="195" PositionY="125" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="198" PositionY="121" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="231" PositionY="116" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="226" PositionY="116" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="227" PositionY="121" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="215" PositionY="75" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="209" PositionY="70" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="203" PositionY="63" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="195" PositionY="59" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="210" PositionY="65" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="219" PositionY="57" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="225" PositionY="60" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="223" PositionY="64" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="230" PositionY="65" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="241" PositionY="63" Direction="-1" Element="2" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="178" PositionY="63" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="168" PositionY="60" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="165" PositionY="55" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="160" PositionY="51" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="154" PositionY="75" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="152" PositionY="79" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="131" PositionY="68" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="129" PositionY="73" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="144" PositionY="30" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="142" PositionY="34" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="116" PositionY="48" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="110" PositionY="49" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="103" PositionY="48" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="106" PositionY="51" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="118" PositionY="23" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="113" PositionY="24" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="93" PositionY="22" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="88" PositionY="23" Direction="-1" Element="5" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="58" PositionY="27" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="55" PositionY="26" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="50" PositionY="23" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="47" PositionY="21" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="37" PositionY="30" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="38" PositionY="41" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="27" PositionY="37" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="23" PositionY="37" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="34" PositionY="82" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="31" PositionY="87" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="28" PositionY="92" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="45" PositionY="85" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="45" PositionY="90" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="68" PositionY="84" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="67" PositionY="89" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="88" PositionY="87" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="93" PositionY="83" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="99" PositionY="102" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="104" PositionY="100" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="101" PositionY="98" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="107" PositionY="95" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="111" PositionY="92" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="81" PositionY="93" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="81" PositionY="70" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="77" PositionY="66" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="786" Range="3" PositionX="73" PositionY="63" Direction="-1" Element="3" /> <!-- "Swarmface" -->
+		<Config Class="787" Range="3" PositionX="156" PositionY="175" Direction="-1" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="159" PositionY="181" Direction="-1" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="163" PositionY="177" Direction="-1" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="165" PositionY="181" Direction="-1" Element="4" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="246" PositionY="70" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="248" PositionY="74" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="244" PositionY="84" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="245" PositionY="93" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="237" PositionY="94" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="237" PositionY="98" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="215" PositionY="120" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="212" PositionY="121" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="193" PositionY="76" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="192" PositionY="65" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="201" PositionY="135" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="197" PositionY="138" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="220" PositionY="128" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="221" PositionY="159" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="183" PositionY="118" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="177" PositionY="80" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="170" PositionY="76" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="184" PositionY="66" Direction="-1" Element="2" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="149" PositionY="75" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="147" PositionY="80" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="140" PositionY="79" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="136" PositionY="75" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="132" PositionY="79" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="152" PositionY="68" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="152" PositionY="71" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="133" PositionY="38" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="131" PositionY="39" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="114" PositionY="75" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="114" PositionY="81" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="115" PositionY="87" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="178" PositionY="97" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="177" PositionY="101" Direction="-1" Element="5" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="68" PositionY="52" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="64" PositionY="53" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="62" PositionY="50" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="66" PositionY="50" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="65" PositionY="79" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="57" PositionY="77" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="49" PositionY="77" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="43" PositionY="73" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="37" PositionY="77" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="37" PositionY="71" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="33" PositionY="77" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="32" PositionY="65" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="31" PositionY="58" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="35" PositionY="51" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="35" PositionY="48" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="42" PositionY="25" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="45" PositionY="27" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="42" PositionY="39" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="87" PositionY="81" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="75" PositionY="75" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="72" PositionY="72" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="66" PositionY="63" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="50" PositionY="113" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="48" PositionY="114" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="46" PositionY="96" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="42" PositionY="97" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="44" PositionY="108" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="51" PositionY="108" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+		<Config Class="787" Range="3" PositionX="24" PositionY="41" Direction="-1" Element="3" /> <!-- "Wooden Beast" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

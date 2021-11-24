@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="226" Range="0" PositionX="122" PositionY="110" Direction="3" Element="0" /> <!-- "Trainer" -->
+		<Config Class="230" Range="0" PositionX="62" PositionY="130" Direction="3" Element="0" /> <!-- "Wandering Merchant Alex" -->
+		<Config Class="250" Range="0" PositionX="183" PositionY="137" Direction="2" Element="0" /> <!-- "Wandering Merchant" -->
+		<Config Class="253" Range="0" PositionX="127" PositionY="86" Direction="2" Element="0" /> <!-- "Potion Girl Amy" -->
+		<Config Class="251" Range="0" PositionX="116" PositionY="141" Direction="3" Element="0" /> <!-- "Hanzo the Blacksmith" -->
+		<Config Class="255" Range="0" PositionX="123" PositionY="135" Direction="1" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="254" Range="0" PositionX="118" PositionY="113" Direction="3" Element="0" /> <!-- "Pasi the Mage" -->
+		<Config Class="249" Range="10" PositionX="131" PositionY="88" Direction="1" Element="0" /> <!-- "Guard" -->
+		<Config Class="249" Range="20" PositionX="173" PositionY="125" Direction="3" Element="0" /> <!-- "Guard" -->
+		<Config Class="249" Range="20" PositionX="94" PositionY="130" Direction="7" Element="0" /> <!-- "Guard" -->
+		<Config Class="249" Range="20" PositionX="94" PositionY="125" Direction="7" Element="0" /> <!-- "Guard" -->
+		<Config Class="249" Range="30" PositionX="131" PositionY="148" Direction="1" Element="0" /> <!-- "Guard" -->
+		<Config Class="240" Range="0" PositionX="147" PositionY="145" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="146" PositionY="110" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="257" Range="0" PositionX="96" PositionY="129" Direction="1" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="375" Range="0" PositionX="132" PositionY="161" Direction="3" Element="0" /> <!-- "Chaos Card Master" -->
+		<Config Class="257" Range="0" PositionX="132" PositionY="165" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="257" Range="0" PositionX="132" PositionY="90" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="257" Range="0" PositionX="170" PositionY="129" Direction="1" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="547" Range="0" PositionX="139" PositionY="138" Direction="3" Element="0" /> <!-- "Market Union Member Julia" -->
+		<Config Class="543" Range="0" PositionX="144" PositionY="125" Direction="2" Element="0" /> <!-- "Gens Duprian Steward" -->
+		<Config Class="544" Range="0" PositionX="144" PositionY="129" Direction="3" Element="0" /> <!-- "Gens Vanert Steward" -->
+		<Config Class="540" Range="0" PositionX="130" PositionY="128" Direction="3" Element="0" /> <!-- "Lugard" -->
+		<Config Class="522" Range="0" PositionX="130" PositionY="126" Direction="3" Element="0" /> <!-- "Jerint the Assistant" -->
+		<Config Class="584" Range="0" PositionX="114" PositionY="132" Direction="3" Element="0" /> <!-- "Sir Lesnar" -->
+		<Config Class="764" Range="0" PositionX="131" PositionY="147" Direction="3" Element="0" /> <!-- "Cent(Town)" -->
+		<Config Class="568" Range="0" PositionX="125" PositionY="125" Direction="3" Element="0" /> <!-- "Jerint the Assistant" -->
+		<Config Class="492" Range="0" PositionX="141" PositionY="134" Direction="3" Element="0" /> <!-- "Moss" -->
+		<Config Class="406" Range="0" PositionX="142" PositionY="135" Direction="2" Element="0" /> <!-- "Trainer" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="3" Range="30" BeginPosX="180" BeginPosY="90" EndPosX="226" EndPosY="244" Direction="-1" Quantity="45" Element="0" /> <!-- "Spider" -->
+		<Config Class="2" Range="30" BeginPosX="180" BeginPosY="90" EndPosX="226" EndPosY="244" Direction="-1" Quantity="40" Element="0" /> <!-- "Budge Dragon" -->
+		<Config Class="2" Range="30" BeginPosX="135" BeginPosY="20" EndPosX="240" EndPosY="88" Direction="-1" Quantity="20" Element="0" /> <!-- "Budge Dragon" -->
+		<Config Class="0" Range="30" BeginPosX="135" BeginPosY="20" EndPosX="240" EndPosY="88" Direction="-1" Quantity="45" Element="0" /> <!-- "Bull Fighter" -->
+		<Config Class="6" Range="30" BeginPosX="95" BeginPosY="168" EndPosX="175" EndPosY="244" Direction="-1" Quantity="20" Element="0" /> <!-- "Lich" -->
+		<Config Class="14" Range="30" BeginPosX="95" BeginPosY="168" EndPosX="175" EndPosY="244" Direction="-1" Quantity="15" Element="0" /> <!-- "Skeleton" -->
+		<Config Class="1" Range="30" BeginPosX="8" BeginPosY="11" EndPosX="94" EndPosY="244" Direction="-1" Quantity="45" Element="0" /> <!-- "Hound" -->
+		<Config Class="4" Range="30" BeginPosX="8" BeginPosY="11" EndPosX="94" EndPosY="244" Direction="-1" Quantity="45" Element="0" /> <!-- "Elite Bull Fighter" -->
+		<Config Class="7" Range="30" BeginPosX="8" BeginPosY="11" EndPosX="60" EndPosY="80" Direction="-1" Quantity="15" Element="0" /> <!-- "Giant" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>
