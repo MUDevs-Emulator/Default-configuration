@@ -328,6 +328,7 @@ DinorantDecDamageConstB = 5
 DarkHorseDecDamageConstA = 30
 DarkHorseDecDamageConstB = 2
 BlueFenrirDecDamageConstA = 10
+GoldenFenrirDecDamageConstA=10
 MariaDecDamageConstA = 30
 
 ;==================================================

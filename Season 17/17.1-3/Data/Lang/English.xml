@@ -711,6 +711,20 @@
 		<Msg ID="895" Text="You have paid WC: %d taxe." />
 		<Msg ID="896" Text="You have paid WP: %d tax." />
 		<Msg ID="897" Text="You have paid GP: %d tax." />
+		<Msg ID="898" Text="PK notification: %s killed %s (the killed party) on the %s map." />
+		<Msg ID="899" Text="A previous request is being processed, please wait for the previous item to finish moving." />
+		<Msg ID="900" Text="failed when trying to upgrade the item." />
+		<Msg ID="901" Text="successful when trying to upgrade the item." />
+		<Msg ID="902" Text="Another mount is already used." />
+		<Msg ID="903" Text="Cannot equip mount." />
+		<Msg ID="904" Text="Does not have an equipped mount." />
+		<Msg ID="905" Text="Cannot unequip mount." />
+		<Msg ID="906" Text="Another Dark Spirit is already used." />
+		<Msg ID="907" Text="Cannot equip Dark Spirit." />
+		<Msg ID="908" Text="Does not have an equipped Dark Spirt." />
+		<Msg ID="909" Text="Cannot unequip Dark Spirt." />
+		
+		
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -858,7 +872,7 @@
 		<Msg ID="16" Text="Player %s defeated Medusa!" />
 	</InvacionMsg>
 	<Notice>
-		<Msg ID="0" Text="MuDevs Ex1702" />
+		<Msg ID="0" Text="MuDevs Ex1703" />
 	</Notice>
 	<NoticeSystem>
 		<Tags>

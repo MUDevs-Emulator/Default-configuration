@@ -1,8 +1,12 @@
 0
 //ItemMinIndex   ItemMaxIndex
-6558		 6565
-6613		 6613
-6618		 6618
+6296		 6296	//Flame Wings
+6304		 6304	//Cloak of Luminosity
+6558		 6562	//Wings of Elysium,Wings of Flame God,Wing of Celestial Body,Wings of Annihilation,Cloak of Dominator
+6554		 6565	//Cloak of Judgment,Cloak of Isolation
+6613		 6613	//Wings of Destiny
+6618		 6618	//Wings of Conviction
+6634		 6634	//Heavenly Wings
 end
 
 1

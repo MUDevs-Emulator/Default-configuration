@@ -1,4 +1,4 @@
-[MUDevs Emulator S16.2-2 - Update 0 (FULL Package)]
+[MUDevs Emulator S17.1-3 (FULL Package)]
 
 Install VC_redist.x64.exe located in Runtime INSTALL!!
 
