@@ -170,6 +170,10 @@
 5         110           5             6194           6194           *             *             *             4               //Mantle of Warrior
 6         111           5             6194           6194           *             *             *             8               //Mantle of Warrior
 2         97            7             6219           6220           *             *             *             *               //Pierce Ryan & rare
+1         84            5             6296	     6296           *             1             *             *               //Flame Wings
+2         85            1             6296	     6296           *             *             1             *               //Flame Wings
+2         80            4             6296	     6296           *             *             1             16              //Flame Wings
+2         81            4             6296	     6296           *             *             1             32              //Flame Wings
 1         84            5             6299           6299           *             1             *             *               //Pure White Clock
 2         80            4             6299           6299           *             *             1             *               //Pure White Clock
 3         100           5             6299           6299           *             *             *             1               //Pure White Clock
@@ -177,7 +181,6 @@
 5         102           3             6299           6299           *             *             *             4               //Pure White Clock
 6         103           50            6299           6299           *             *             *             8               //Pure White Clock
 7         97            5             6299           6299           *             *             *             16              //Pure White Clock
-
 1         84            5             6300           6301           *             1             *             *               //Cloak of Innocence & Bound
 2         85            1             6300           6301           *             *             1             *               //Cloak of Innocence & Bound
 2         80            4             6300           6301           *             *             1             16              //Cloak of Innocence & Bound
@@ -186,8 +189,6 @@
 4         109           5             6300           6301           *             *             *             2               //Cloak of Innocence & Bound
 5         110           5             6300           6301           *             *             *             4               //Cloak of Innocence & Bound
 6         111           5             6300           6301           *             *             *             8               //Cloak of Innocence & Bound
-
-
 1         84            5             6302           6303           *             1             *             *               //Cloak of Brilliance & Bound
 2         85            1             6302           6303           *             *             1             *               //Cloak of Brilliance & Bound
 2         80            4             6302           6303           *             *             1             16              //Cloak of Brilliance & Bound
@@ -196,9 +197,10 @@
 4         109           5             6302           6303           *             *             *             2               //Cloak of Brilliance & Bound
 5         110           5             6302           6303           *             *             *             4               //Cloak of Brilliance & Bound
 6         111           5             6302           6303           *             *             *             8               //Cloak of Brilliance & Bound
-
-
-
+1         84            5             6304           6304           *             1             *             *               //Cloak of Luminosity
+2         85            1             6304           6304           *             *             1             *               //Cloak of Luminosity
+2         80            4             6304           6304           *             *             1             16              //Cloak of Luminosity
+2         83            4             6304           6304           *             *             1             32              //Cloak of Luminosity
 1         84            5             6406           6406           *             1             *             *               //Cloak of Death
 2         85            1             6406           6406           *             *             1             *               //Cloak of Death
 2         80            4             6406           6406           *             *             1             16              //Cloak of Death

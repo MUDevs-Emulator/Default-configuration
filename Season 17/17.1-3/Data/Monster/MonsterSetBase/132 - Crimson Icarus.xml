@@ -2,6 +2,11 @@
 <MonsterSetBase>
 <!-- ================================================================================================================================================================================================================================================================================= -->
 	<NPC>
+        <Config Class="866" Range="0" PositionX="055" PositionY="066" Direction="2" Element="1" /> <!-- Elite Zone Flag Fire -->
+        <Config Class="866" Range="0" PositionX="079" PositionY="203" Direction="2" Element="2" /> <!-- Elite Zone Flag Water -->
+        <Config Class="866" Range="0" PositionX="179" PositionY="049" Direction="4" Element="3" /> <!-- Elite Zone Flag Earth -->
+        <Config Class="866" Range="0" PositionX="178" PositionY="205" Direction="2" Element="4" /> <!-- Elite Zone Flag Wind -->
+        <Config Class="866" Range="0" PositionX="215" PositionY="117" Direction="4" Element="5" /> <!-- Elite Zone Flag Darkness -->
 	</NPC>
 <!-- ================================================================================================================================================================================================================================================================================= -->
 	<SPOT>

@@ -215,7 +215,7 @@ Formula=Skill\\Formula.txt
 MasterSkillTree=Skill\\MasterSkillTree.txt
 SkillRequiere=Skill\\SkillRequire.txt
 EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.txt
-EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.txt
+EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.xml
 EnhanceSkillTreeMagicField=Skill\\EnhanceSkillTree\\EnhanceSkillTreeMagicField.xml
 
 ;==================================================

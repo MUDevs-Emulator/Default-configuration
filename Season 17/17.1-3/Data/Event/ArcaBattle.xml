@@ -88,12 +88,11 @@
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
 
-<ArcaBattleEvent Enable="1" FriendlyFire="0" MinGuildMember="1" MasterRegTime="1" MemberRegTime="1" ProgressWait="1" PartyWait="1" Duration="30" ChannelClose="10">
-	<DamageReduction OppositeTeam="100" SelfTeam="100" />
+<ArcaBattleEvent Enable="1" MinGuildMember="1" MasterRegTime="1" MemberRegTime="1" ProgressWait="1" PartyWait="1" Duration="30" ChannelClose="10">
 	<ActiveDay Sun="1" Mon="1" Tue="1" Wed="1" Thu="1" Fri="1" Sat="1" />
 
 	<Schedule>
-		<Start Hour="9" Minute="45" EventType="0" />
+		<Start Hour="17" Minute="7" EventType="0" />
 	</Schedule>
 
 	<ObeliskInformation>

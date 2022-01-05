@@ -357,7 +357,7 @@ MasterSkillTreeMaxLevel = 400
 ;==================================================
 EnhanceSkillTree = 1
 EnhanceSkillTreePoint = 1
-EnhanceSkillTreeMaxLevel = 600
+EnhanceSkillTreeMaxLevel = 650
 
 ;==================================================
 ; Gens System Settings
@@ -441,11 +441,13 @@ JewelBingoSwitch = 1
 BallsAndCowsSwitch = 1
 BallsAndCowsStrike = 40
 BallsAndCowsBalls = 10
-BallsAndCowsScoreA = 600
-BallsAndCowsScoreB = 500
-BallsAndCowsScoreC = 400
-BallsAndCowsScoreD = 320
-BallsAndCowsScoreE = 285
+BallsAndCowsHomeRunA = 600
+BallsAndCowsHomeRunB = 500
+BallsAndCowsHomeRunC = 400
+BallsAndCowsHomeRunD = 320
+BallsAndCowsHomeRunE = 285
+BallsAndCowsScoreA = 300
+BallsAndCowsScoreB = 450
 
 ;==================================================
 ; Score Board Settings
