@@ -54,6 +54,7 @@ CustomMix=Custom\\CustomMix.xml
 RestoreOffline=Custom\\RestoreOffline.xml
 NoticeSystem=Custom\\NoticeSystem.xml
 CustomSellItem=Custom\\CustomSellItem.xml
+
 ;==================================================
 ; Event Settings
 ;==================================================
@@ -120,7 +121,7 @@ JewelOfHarmonyOption=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyOption.txt
 JewelOfHarmonyType=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyType.txt
 HarmonyRefinement=Item\\JewelOfHarmony - Settings\\HarmonyRefinementOption.xml
 LuckyItem=Item\\Lucky Item - Settings\\LuckySystem.xml
-MuunOption=Item\\Muun - Settings\\MuunOption.txt
+MuunOption=Item\\Muun - Settings\\MuunOption.xml
 MuunExchange=Item\\Muun - Settings\\MuunExchange.txt
 PentagramOption=Item\\Pentagram - Settings\\PentagramOption.xml
 PentagramJewelOption=Item\\Pentagram - Settings\\PentagramJewelOption.xml
@@ -215,7 +216,7 @@ Formula=Skill\\Formula.txt
 MasterSkillTree=Skill\\MasterSkillTree.txt
 SkillRequiere=Skill\\SkillRequire.txt
 EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.txt
-EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.txt
+EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.xml
 EnhanceSkillTreeMagicField=Skill\\EnhanceSkillTree\\EnhanceSkillTreeMagicField.xml
 
 ;==================================================
