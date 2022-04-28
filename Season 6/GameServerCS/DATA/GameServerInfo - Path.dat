@@ -25,6 +25,7 @@ PkSystem = Character\\PkSystem.txt
 StatsSpecialize = Character\\StatsSpecialize.txt
 PlayGuide=Character\\PlayGuide.txt
 AnimationInfo= Character\\AnimationInfo.txt
+
 ;==================================================
 ; Custom Settings
 ;==================================================
@@ -47,7 +48,10 @@ CustomNpc=Custom\\CustomNpc.txt
 GainGPOnline=Custom\\GainGPOnline.txt
 CustomPet=Custom\\CustomPet.txt
 CustomMount=Custom\\CustomMount.txt
-ItemBmd=Item\\item.bmd
+CustomMix=Custom\\CustomMix.xml
+RestoreOffline=Custom\\RestoreOffline.xml
+TerritorySystem=Custom\\TerritorySystemLimit.xml
+RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
 
 ;==================================================
 ; Event Settings
@@ -104,10 +108,11 @@ PentagramJewelMixRate=Item\\PentagramJewelMixRate.txt
 SetItemOption=Item\\SetItemOption.txt
 SetItemType=Item\\SetItemType.txt
 SocketItemOption=Item\\SocketItemOption.txt
-SocketItemType=Item\\SocketItemType.txt
+SocketItemType=Item\\SocketItemType.xml
 ElementalItemRefinemenMixRate=Item\\ElementalItemRefinemenMixRate.txt
 DisassembleSystem=Item\\DisassembleSystem.txt
-		
+ItemBmd=Item\\item.bmd
+ItemOptionWing=Item\\ItemOptionWing.txt		
 ;==================================================
 ; Lang Settings
 ;==================================================
@@ -122,7 +127,7 @@ MonsterAIElement=Monster\\AI\\MonsterAIElement.txt
 MonsterAIGroup=Monster\\AI\\MonsterAIGroup.txt
 MonsterAIRule=Monster\\AI\\MonsterAIRule.txt
 MonsterAIUnit=Monster\\AI\\MonsterAIUnit.txt
-Monster=Monster\\Monster.txt
+Monster=Monster\\Monster.xml
 MonsterManager=Monster\\MonsterManager.txt
 KanturuMonsterSetBase=Monster\\MonsterSetBase\\KanturuMonsterSetBase.txt
 MonsterSetBaseParce=Monster\\MonsterSetBase\\
@@ -134,7 +139,7 @@ BackSpining=Monster\\BackSpining.txt
 ;==================================================
 ; Move Settings
 ;==================================================
-Gate=Move\\Gate.txt
+Gate=Move\\Gate.xml
 Move=Move\\Move.txt
 MoveSummon=Move\\MoveSummon.txt
 FreeChannelSwitch=Move\\FreeChannelSwitch.txt
@@ -142,7 +147,7 @@ FreeChannelSwitch=Move\\FreeChannelSwitch.txt
 ;==================================================
 ; Quest Settings
 ;==================================================
-Quest=Quest\\Quest.txt
+Quest=Quest\\Quest.xml
 QuestObjective=Quest\\QuestObjective.txt
 QuestReward=Quest\\QuestReward.txt
 QuestWorld=QuestWorld\\QuestWorld.txt
@@ -174,3 +179,9 @@ GameMaster=Util\\GameMaster.txt
 Notice=Util\\Notice.txt
 ResetTable=Util\\ResetTable.txt
 	
+;==================================================
+; Script Lua Settings
+;==================================================
+LuaDefine=Scripts\\%s
+LuaDefineQuest=\\Scripts\\Quest\\%s
+

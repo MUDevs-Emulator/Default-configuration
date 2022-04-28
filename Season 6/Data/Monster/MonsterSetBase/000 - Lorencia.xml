@@ -25,9 +25,7 @@
 		<Config Class="543" Range="0" PositionX="144" PositionY="125" Direction="2" Element="0" /> <!-- "Gens Duprian Steward" -->
 		<Config Class="544" Range="0" PositionX="144" PositionY="129" Direction="3" Element="0" /> <!-- "Gens Vanert Steward" -->
 		<Config Class="540" Range="0" PositionX="130" PositionY="128" Direction="3" Element="0" /> <!-- "Lugard" -->
-		<Config Class="590" Range="0" PositionX="144" PositionY="134" Direction="3" Element="0" /> <!-- "Jerint the Assistant" -->
 		<Config Class="568" Range="0" PositionX="125" PositionY="125" Direction="3" Element="0" /> <!-- "Jerint the Assistant" -->
-
 	</NPC>
 <!-- ================================================================================================================================================================================================================================================================================= -->
 	<SPOT>

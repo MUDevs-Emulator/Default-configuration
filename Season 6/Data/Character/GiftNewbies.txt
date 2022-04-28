@@ -2,8 +2,7 @@
 //Type = 1 Buff
 //Type = 0 Item
 //Example:
-//Index   Type   Level   Option1   Option2   Option3   Excelent   SetOption   SocketOption   Time     DW   DK   FE   MG   DL   SU   RF   
-//7240	  1	  2       *          *        *        *           *           *              604800   1    1     1   1   1   1    1	//Scroll of Quickness
-//3585	  0	  8       *          *        *        *           *           *              604800   0    1     0   0   0   0    0	//Dragon Helm
-//Index   Type   Level   Option1   Option2   Option3   Excelent   SetOption   SocketOption   Time     DW   DK   FE   MG   DL   SU   RF   
+//Index   Type   Level   Durability Option1   Option2   Option3   Excelent   SetOption   SocketOption   Time     DW   DK   FE   MG   DL   SU   RF   
+//7240	  1	  2       *	      *          *        *        *           *           *              604800   1    1     1   1   1   1    1	//Scroll of Quickness
+//3585	  0	  8       *           *          *        *        *           *           *              604800   0    1     0   0   0   0    0	//Dragon Helm
 end

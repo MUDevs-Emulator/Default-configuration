@@ -581,8 +581,46 @@
 		<Msg ID="767" Text= "At least %d members are required" />
 		<Msg ID="768" Text= "You need to be level %d or more" />
 		<Msg ID="769" Text= "Alliance is required for registration" />
-		<Msg ID="770" Text= "/readd" />		
-		<Msg ID="771" Text= "Tus stats se han reiniciado correctamente" />		
+		<Msg ID="771" Text= "/readd" />		
+		<Msg ID="772" Text= "Stats successfully reset" />
+		<Msg ID="773" Text= "You cannot use this command at this time" />			
+		<Msg ID="820" Text= "/store" />
+		<Msg ID="821" Text= "bless" />
+		<Msg ID="822" Text= "soul" />
+		<Msg ID="823" Text= "chaos" />
+		<Msg ID="824" Text= "wcc" />
+		<Msg ID="825" Text= ".::BLESS STORE::." />
+		<Msg ID="826" Text= ".::SOUL STORE::." />
+		<Msg ID="827" Text= ".::CHAOS STORE::." />
+		<Msg ID="828" Text= ".::WCC STORE::." />
+		<Msg ID="829" Text= ".::WCP STORE::." />
+		<Msg ID="830" Text= ".::WCG STORE::." />
+		<Msg ID="830" Text= "You do not have permission to use /store" />
+		<Msg ID="831" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="832" Text= "Personal Shop is empty or items are without price" />
+		<Msg ID="833" Text= "ATTENTION!! All items in this store are sold for Jewel of Bless" />
+		<Msg ID="834" Text= "ATTENTION!! All items in this store are sold for Jewel of Soul" />
+		<Msg ID="835" Text= "ATTENTION!! All items in this store are sold for Jewel of Chaos" />
+		<Msg ID="836" Text= "ATTENTION!! All items in this store are sold for WCoinC" />
+		<Msg ID="837" Text= "ATTENTION!! All items in this store are sold for WCoinP" />
+		<Msg ID="838" Text= "ATTENTION!! All items in this store are sold for Goblin Point" />
+		<Msg ID="839" Text= "You must be at least Level %d to use /store" />
+		<Msg ID="840" Text= "You must be at least %d Resets to use /store" />
+		<Msg ID="841" Text= "/offstore" />
+		<Msg ID="842" Text= "You do not have permission to use the /offstore" />
+		<Msg ID="843" Text= "You need to open the Personal Store before" />
+		<Msg ID="844" Text= "You can only activate the command in the safe zone" />
+		<Msg ID="845" Text= "You must be at least Level %d to use the /offstore" />
+		<Msg ID="846" Text= "You must be at least %d Resets to use the /offstore" />
+		<Msg ID="847" Text= "/offattack" />
+		<Msg ID="848" Text= "You are not enabled to use /offattack" />
+		<Msg ID="849" Text= "You need at least %d level to use the command" />
+		<Msg ID="850" Text= "You need at least %d reset to use the command" />
+		<Msg ID="851" Text= "You need at least %d money to use the command" />
+		<Msg ID="852" Text= "You need to enable automatic attack first" />
+		<Msg ID="853" Text= "You can't use the command in this location" />
+		<Msg ID="854" Text= "You need to enable Helper first" />				
+		<Msg ID="797" Text= "%s put the item %s +15" />		
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -616,6 +654,10 @@
 		<Msg ID="28" Text="Kalima 5" />
 		<Msg ID="29" Text="Kalima 6" />
 	</MapName>
+	
+	<Notice>
+		<Msg ID="0" Text="Season 6 - MUDevs" />
+	</Notice>
 	<InvacionMsg>	
 		<Msg ID="0" Text="Skeleton King invasion has started!" />
 		<Msg ID="1" Text="Red Dragon invasion has started!" />

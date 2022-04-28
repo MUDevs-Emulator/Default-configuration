@@ -2,8 +2,13 @@
 ;==================================================
 ; Customer Settings
 ;==================================================
-CustomerName = your customer name
-CustomerHardwareId = your hardware id
+CustomerName = YOUR CUSTOMER NAME
+NewLicenseServer=1
+
+;==================================================
+; Use EuropeLicenseServer=1 if your server is hosted in Europe/Asia
+;==================================================
+EuropeLicenseServer=0
 
 ;==================================================
 ; Server Settings
@@ -13,9 +18,9 @@ ServerCode = 0
 ServerLock = 0
 ServerPort = 55901
 ServerVersion = 1.04.05
-ServerSerial = your server serial
+ServerSerial = TbYehR2hFUPBKgZj
 ServerMaxUserNumber = 100
-MaxPacketPerSecond = 800
+MaxPacketPerSecond = 2000
 UseControlIP=1
 
 ;==================================================
@@ -32,6 +37,8 @@ JoinServerAddress = 127.0.0.1
 JoinServerPort = 55970
 ConnectServerAddress = 127.0.0.1
 ConnectServerPort = 55557
+EXDataServerAddress = 127.0.0.1
+EXDataServerPort = 55981
 
 ;==================================================
 ; Log Settings
@@ -43,19 +50,17 @@ WriteConnectLog = 1
 WriteHackLog = 1
 WriteCashShopLog = 1
 WriteChaosMixLog = 1
-WriteAntiHackLog = 1
+WriteAntiHackLog = 0
 
 ;==================================================
 ; Hack Settings
 ;==================================================
-CheckSpeedHack = 0
-CheckSpeedHackTolerance = 0
-CheckLatencyHack = 0
-CheckLatencyHackTolerance = 0
+AntiSpeedEnable=1
 CheckAutoPotionHack = 1
 CheckAutoPotionHackTolerance = 400
 CheckAutoComboHack = 1
 CheckAutoComboHackTolerance = 800
+
 
 ;==================================================
 ; Common Settings
@@ -330,6 +335,20 @@ PartySpecialExperience3 = 75
 PartySpecialExperience4 = 65
 PartySpecialExperience5 = 60
 PartyMaxLevelDiference = 150
+
+;==================================================
+; Master Party Settings
+;==================================================
+MasterPartyGeneralExperience1 = 100
+MasterPartyGeneralExperience2 = 80
+MasterPartyGeneralExperience3 = 60
+MasterPartyGeneralExperience4 = 50
+MasterPartyGeneralExperience5 = 45
+MasterPartySpecialExperience1 = 100
+MasterPartySpecialExperience2 = 80
+MasterPartySpecialExperience3 = 75
+MasterPartySpecialExperience4 = 65
+MasterPartySpecialExperience5 = 60
 
 ;==================================================
 ; Potion Settings

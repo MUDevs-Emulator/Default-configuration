@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ItemDropLimit Enabled="0">
+	<ItemList DayOfWeek="2" DropType="27">
+		<Item Index="0" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="5" Name="Kris"/>
+	</ItemList>
+</ItemDropLimit>

@@ -58,4 +58,46 @@
 0          1      37      50         0       0         0         0         0           85             18             1              1       1       1       0       0       1       0
 0          1      38      15         0       0         0         0         0           88             18             1              0       0       0       1       1       0       1
 0          1      40      50         0       0         0         0         0           89             18             1              1       1       1       0       0       1       0
+
+//Number   Type   Index   Quantity   Level   Option1   Option2   Option3   NewOption   RequireIndex   RequireGroup   RequireState   DW      DK      FE      MG      DL      SU      RF
+
+// Gens Duprian Monsters
+
+// Vepar
+0          1      46      50         0       0         0         0         0           1              16             1              1       1       1       1       1       1       1
+
+// Death Tree
+0          1      308     50         0       0         0         0         0           4              16             1              1       1       1       1       1       1       1
+
+// Splinter Wolves
+0          1      351     50         0       0         0         0         0           7              16             1              1       1       1       1       1       1       1
+
+// Blood Assassin
+0          1      486     50         0       0         0         0         0           10             16             1              1       1       1       1       1       1       1
+
+// Sapi-Duo
+0          1      442     50         0       0         0         0         0           13             16             1              1       1       1       1       1       1       1
+
+//Number   Type   Index   Quantity   Level   Option1   Option2   Option3   NewOption   RequireIndex   RequireGroup   RequireState   DW      DK      FE      MG      DL      SU      RF
+
+// Gens Vanert Monsters
+
+// Silver Valkyrie
+0          1      52      50         0       0         0         0         0           1              17             1              1       1       1       1       1       1       1
+
+// Death Rider
+0          1      306     50         0       0         0         0         0           4              17             1              1       1       1       1       1       1       1
+
+// Iron Rider
+0          1      352     50         0       0         0         0         0           7              17             1              1       1       1       1       1       1       1
+
+// Lava Giant
+0          1      489     50         0       0         0         0         0           10             17             1              1       1       1       1       1       1       1
+
+// Ghost Napin
+0          1      448     50         0       0         0         0         0           13             17             1              1       1       1       1       1       1       1
+
+// Deruvish
+0          1      46      50         0       0         0         0         0           1              19             1              1       1       1       1       1       1       1
+
 end

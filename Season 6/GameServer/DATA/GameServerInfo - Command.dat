@@ -362,7 +362,7 @@ CommandMultiPostDelay_AL3 = 1000
 ;==================================================
 ; Command Rename 
 ;==================================================
-CommandRenameSwitch = 1
+CommandRenameSwitch = 0
 CommandRenameEnable_AL0 = 1
 CommandRenameEnable_AL1 = 1
 CommandRenameEnable_AL2 = 1
@@ -372,10 +372,14 @@ CommandRenameDelay_AL1 = 0
 CommandRenameDelay_AL2 = 0
 CommandRenameDelay_AL3 = 0
 CommandRenameNeedTicket = 0
-CommandRenameWCoinP_AL0 = 10000
-CommandRenameWCoinP_AL1 = 10000
-CommandRenameWCoinP_AL2 = 10000
-CommandRenameWCoinP_AL3 = 10000
+CommandRenameWCoinP_AL0 = 100
+CommandRenameWCoinP_AL1 = 100
+CommandRenameWCoinP_AL2 = 100
+CommandRenameWCoinP_AL3 = 100
+CommandRenameWCoinC_AL0 = 100
+CommandRenameWCoinC_AL1 = 100
+CommandRenameWCoinC_AL2 = 100
+CommandRenameWCoinC_AL3 = 100
 
 ;==================================================
 ; Command Open WareHouse 
@@ -529,3 +533,11 @@ CommandBanChatGameMasterLevel = 2
 ;==================================================
 CommandBanPostSwitch = 1
 CommandBanPostGameMasterLevel = 2
+
+;==================================================
+; Readd Command Settings
+;==================================================
+CommandReaddEnable_AL0=1
+CommandReaddEnable_AL1=1
+CommandReaddEnable_AL2=1
+CommandReaddEnable_AL3=1
