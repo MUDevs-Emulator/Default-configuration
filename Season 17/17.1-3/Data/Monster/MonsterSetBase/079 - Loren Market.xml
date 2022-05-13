@@ -9,6 +9,7 @@
 		<Config Class="546" Range="0" PositionX="60" PositionY="39" Direction="3" Element="0" /> <!-- "Jeweler Raul" -->
 		<Config Class="547" Range="0" PositionX="53" PositionY="72" Direction="3" Element="0" /> <!-- "Market Union Member Julia" -->
 		<Config Class="643" Range="0" PositionX="14" PositionY="59" Direction="2" Element="0" /> <!-- "Mait" -->
+		<Config Class="695" Range="0" PositionX="14" PositionY="56" Direction="2" Element="0" /> <!-- "Levine" -->
 		<Config Class="651" Range="0" PositionX="38" PositionY="64" Direction="3" Element="0" /> <!-- "Private Store Bulletin Board" -->
 		<Config Class="651" Range="0" PositionX="68" PositionY="73" Direction="1" Element="0" /> <!-- "Private Store Bulletin Board" -->
 		<Config Class="669" Range="0" PositionX="44" PositionY="62" Direction="1" Element="0" /> <!-- "Ellin" -->

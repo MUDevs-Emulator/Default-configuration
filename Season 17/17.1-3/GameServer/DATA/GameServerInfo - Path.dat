@@ -96,6 +96,8 @@ LabyrinthLeague=Event\\LabyrinthOfDimension\\LabyrinthOfDimension_League.xml
 ArcaBattle=Event\\ArcaBattle.xml
 SwampOfDarknessBoss=Event\\WorldBoss\\SwampOfDarknessBoss.xml
 20thAnniversary=Event\\20thAnniversary\\20thAnniversary.xml
+IllusionTempleRenewal=Event\\IllusionTempleRenewal\\IllusionTempleRenewal.xml
+IllusionTempleRenewalNPC=Event\\IllusionTempleRenewal\\IllusionTemple_Renewal_NPC.xml
 
 ;==================================================
 ; Event Item Bag Settings
@@ -151,6 +153,7 @@ ElementalUpdrade=Item\\ElementalItemRefinemen - Settings\\ElementalUpgrade.xml
 ErrtelMastery=Item\\Pentagram - Settings\\ErrtelMastery.xml
 MonsterDropManager=Item\\MonsterDropManager\\
 ItemEquipment=Item\\ItemEquipment.xml
+RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
 
 ;==================================================
 ; Lang Settings

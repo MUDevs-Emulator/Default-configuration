@@ -723,8 +723,30 @@
 		<Msg ID="907" Text="Cannot equip Dark Spirit." />
 		<Msg ID="908" Text="Does not have an equipped Dark Spirt." />
 		<Msg ID="909" Text="Cannot unequip Dark Spirt." />
-		
-		
+		<Msg ID="910" Text="Dungeon League will close in %d minute(s)" />
+		<Msg ID="911" Text="Dungeon League closed" />
+		<Msg ID="912" Text="Dungeon League will start in %d minute(s)" />
+		<Msg ID="913" Text="Dungeon League began" />
+		<Msg ID="914" Text="Dungeon League ended" />
+		<Msg ID="915" Text="it's not time to enter dungeon league" />
+		<Msg ID="916" Text="no place available to participate in Dungeon League" />
+		<Msg ID="917" Text="pk users cannot enter dungeon event" />
+		<Msg ID="918" Text="Due to circumstances that are linked to the status of your party you cannot enter the event" />
+		<Msg ID="919" Text="to enter the dungeon league you must be in party" />
+		<Msg ID="920" Text="you are already participating in dungeon league" />
+		<Msg ID="921" Text="your team's dungeon league position is %d" />
+		<Msg ID="922" Text="I am trying to use cheat" />
+		<Msg ID="923" Text="[Arca Battle] Start" />
+		<Msg ID="924" Text="[Arca Battle] End" />
+		<Msg ID="925" Text="[Arca Battle] registration started" />
+		<Msg ID="926" Text="[Arca Battle] You have %d minutes left for Guild Registration." />
+		<Msg ID="927" Text="[Arca Battle] You have %d minutes left for guild member Registration." />
+		<Msg ID="928" Text="[Arca Battle] You have %d seconds left until you move server. Please wait in a safe area." />
+		<Msg ID="929" Text="[Arca Battle] has opened. You can enter through Sir Lesner NPC." />
+		<Msg ID="930" Text="[Arca Battle] Sorry. The application time has passed. Please take advantage of the following opportunities." />
+		<Msg ID="931" Text="[Arca Battle] Chaos Combination cannot be used while opening a private store." />
+	
+	
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
