@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CustomSellItem> 
+	<Sell Enabled="1">
+		<Item Category="12" Index="1" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="1" isConvertVal0="1" Value0="1500" Color0="11" TextID0="1" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+	</Sell>
+	<Buy Enabled="1">
+		<Item Category="12" Index="1" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="1" isConvertVal0="1" Value0="1500" Color0="12" TextID0="0" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+	</Buy>
+</CustomSellItem>

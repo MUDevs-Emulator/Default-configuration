@@ -1,0 +1,37 @@
+0
+//StoneOfEvolutionPoint
+2
+end
+
+1
+//Rank	RankPoint	Level	LevelPoint
+1	1		0	4
+2	2		1	3
+3	3		2	6
+4	4		3	9
+5	5		4	12
+6	6		5	15
+*	*		6	18
+*	*		7	21
+end
+
+2
+//Selection	Type	ItemCount	ItemBagIndex	Descritpion
+16		240	2		0		// One Stone
+16		240	2		1		// Two Stones
+16		240	2		2		// Three Stones
+16		240	2		3		// Two Stones
+16		240	2		4		// Two Stones
+16		240	2		5		// Two Stones
+end
+
+3
+//ItemBagIndex	Selection	Type	EvoItemSelection	EvoItemType	MinLevel	MaxLevel	Skill	Luck	Option	Exc
+0		16		211	16			411		0		0		0	0	0	0 // Branch
+1		16		211	16			413		0		0		0	0	0	0 // Hook
+2		16		211	16			158		0		0		0	0	0	0 // Chestnut Fairy
+3		16		211	16			326		0		0		0	0	0	0 // Repen
+4		16		211	16			328		0		0		0	0	0	0 // Pon
+5		16		211	16			282		0		0		0	0	0	0 // Griffs
+6		16		211	16			231		0		0		0	0	0	0 // Tibetton
+end

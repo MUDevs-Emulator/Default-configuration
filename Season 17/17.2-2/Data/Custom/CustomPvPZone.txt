@@ -1,0 +1,4 @@
+0
+//Map	PosX	PosY	EndX	EndY	ActiveZone	Description
+0	134	125	143	130	1		// Ring Lorencia
+end

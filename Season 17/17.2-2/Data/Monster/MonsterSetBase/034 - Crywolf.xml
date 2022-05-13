@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="226" Range="0" PositionX="135" PositionY="47" Direction="2" Element="0" /> <!-- "Trainer" -->
+		<Config Class="256" Range="0" PositionX="96" PositionY="25" Direction="2" Element="0" /> <!-- "Lahap" -->
+		<Config Class="251" Range="0" PositionX="145" PositionY="14" Direction="1" Element="0" /> <!-- "Hanzo the Blacksmith" -->
+		<Config Class="240" Range="0" PositionX="113" PositionY="56" Direction="2" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="224" Range="0" PositionX="118" PositionY="11" Direction="4" Element="0" /> <!-- "Guardsman" -->
+		<Config Class="204" Range="0" PositionX="121" PositionY="31" Direction="2" Element="0" /> <!-- "Wolf Status" -->
+		<Config Class="205" Range="0" PositionX="125" PositionY="27" Direction="2" Element="1" /> <!-- "Wolf Altar 1" -->
+		<Config Class="206" Range="0" PositionX="126" PositionY="35" Direction="2" Element="2" /> <!-- "Wolf Altar 2" -->
+		<Config Class="207" Range="0" PositionX="120" PositionY="38" Direction="2" Element="3" /> <!-- "Wolf Altar 3" -->
+		<Config Class="208" Range="0" PositionX="115" PositionY="35" Direction="2" Element="4" /> <!-- "Wolf Altar 4" -->
+		<Config Class="209" Range="0" PositionX="117" PositionY="27" Direction="2" Element="5" /> <!-- "Wolf Altar 5" -->
+		<Config Class="406" Range="0" PositionX="228" PositionY="48" Direction="1" Element="0" /> <!-- "Apostle Devin" -->
+		<Config Class="407" Range="0" PositionX="62" PositionY="239" Direction="1" Element="0" /> <!-- "Werewolf Quarel" -->
+		<Config Class="248" Range="0" PositionX="99" PositionY="40" Direction="2" Element="0" /> <!-- "Wandering Merchant Martin" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="310" Range="30" PositionX="58" PositionY="47" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="60" PositionY="38" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="65" PositionY="24" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="70" PositionY="37" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="74" PositionY="20" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="77" PositionY="32" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="78" PositionY="51" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="79" PositionY="43" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="83" PositionY="10" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="88" PositionY="50" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="88" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="94" PositionY="54" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="98" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="150" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="159" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="162" PositionY="41" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="164" PositionY="18" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="169" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="176" PositionY="32" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="178" PositionY="22" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="179" PositionY="48" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="185" PositionY="35" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="191" PositionY="27" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="194" PositionY="44" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="195" PositionY="33" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="199" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="201" PositionY="40" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="205" PositionY="46" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="206" PositionY="45" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="310" Range="30" PositionX="214" PositionY="60" Direction="-1" Element="0" /> <!-- "Hammer Scout" -->
+		<Config Class="311" Range="30" PositionX="22" PositionY="100" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="27" PositionY="122" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="35" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="47" PositionY="53" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="47" PositionY="65" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="79" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="82" PositionY="67" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="95" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="103" PositionY="71" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="113" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="117" PositionY="99" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="122" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="135" PositionY="69" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="138" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="146" PositionY="68" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="156" PositionY="69" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="157" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="159" PositionY="49" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="170" PositionY="47" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="170" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="173" PositionY="97" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="174" PositionY="54" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="177" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="197" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="210" PositionY="88" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="211" PositionY="69" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="221" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="223" PositionY="120" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="225" PositionY="68" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="311" Range="30" PositionX="231" PositionY="78" Direction="-1" Element="0" /> <!-- "Lance Scout" -->
+		<Config Class="312" Range="30" PositionX="21" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="23" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="30" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="56" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="68" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="78" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="79" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="83" PositionY="101" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="90" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="100" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="114" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="122" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="124" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="135" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="145" PositionY="99" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="146" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="155" PositionY="115" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="156" PositionY="84" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="168" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="178" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="192" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="201" PositionY="89" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="202" PositionY="98" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="217" PositionY="94" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="233" PositionY="102" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="312" Range="30" PositionX="236" PositionY="88" Direction="-1" Element="0" /> <!-- "Bow Scout" -->
+		<Config Class="313" Range="30" PositionX="19" PositionY="131" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="20" PositionY="145" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="33" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="46" PositionY="123" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="71" PositionY="109" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="76" PositionY="145" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="82" PositionY="107" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="82" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="88" PositionY="144" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="119" PositionY="108" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="123" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="123" PositionY="145" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="149" PositionY="110" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="155" PositionY="98" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="163" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="164" PositionY="144" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="197" PositionY="145" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="204" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="204" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="206" PositionY="110" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="218" PositionY="110" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="226" PositionY="130" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="235" PositionY="110" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="237" PositionY="144" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="313" Range="30" PositionX="240" PositionY="131" Direction="-1" Element="0" /> <!-- "Werewolf" -->
+		<Config Class="314" Range="30" PositionX="16" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="28" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="65" PositionY="148" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="92" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="119" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="159" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="171" PositionY="148" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="177" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="236" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="314" Range="30" PositionX="236" PositionY="156" Direction="-1" Element="0" /> <!-- "Scout(Hero)" -->
+		<Config Class="315" Range="30" PositionX="30" PositionY="172" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="49" PositionY="194" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="51" PositionY="213" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="52" PositionY="171" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="59" PositionY="211" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="68" PositionY="224" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="73" PositionY="210" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="85" PositionY="230" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="92" PositionY="219" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="100" PositionY="182" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="102" PositionY="171" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="115" PositionY="204" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="117" PositionY="193" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="133" PositionY="195" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="133" PositionY="214" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="145" PositionY="208" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="148" PositionY="195" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="159" PositionY="206" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="170" PositionY="208" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="175" PositionY="197" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="199" PositionY="200" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="315" Range="30" PositionX="222" PositionY="189" Direction="-1" Element="0" /> <!-- "Werewolf(Hero)" -->
+		<Config Class="316" Range="30" PositionX="47" PositionY="184" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="84" PositionY="201" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="104" PositionY="194" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="117" PositionY="184" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="146" PositionY="184" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="161" PositionY="194" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="173" PositionY="184" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="212" PositionY="193" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="228" PositionY="180" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="317" Range="30" PositionX="14" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="25" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="41" PositionY="171" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="56" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="65" PositionY="234" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="96" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="114" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="116" PositionY="172" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="140" PositionY="230" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="145" PositionY="174" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="147" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="168" PositionY="229" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="177" PositionY="167" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="233" PositionY="169" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="316" Range="30" PositionX="54" PositionY="217" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="66" PositionY="217" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="83" PositionY="217" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="100" PositionY="217" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="134" PositionY="215" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="316" Range="30" PositionX="153" PositionY="215" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="317" Range="30" PositionX="115" PositionY="221" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="317" Range="30" PositionX="103" PositionY="206" Direction="-1" Element="0" /> <!-- "Soram" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

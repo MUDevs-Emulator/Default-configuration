@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<Config Class="867" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "Doppelganger Gun Crusher" -->
+	<Config Class="867" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "Doppelganger Gun Crusher" -->
+	<Config Class="867" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "Doppelganger Gun Crusher" -->
+	<Config Class="867" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "Doppelganger Gun Crusher" -->
+	<Config Class="867" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "Doppelganger Gun Crusher" -->
+	<Config Class="868" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "Temple Gramlin" -->
+	<Config Class="868" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "Temple Gramlin" -->
+	<Config Class="868" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "Temple Gramlin" -->
+	<Config Class="868" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "Temple Gramlin" -->
+	<Config Class="868" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "Temple Gramlin" -->
+	<Config Class="869" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "Temple Gargoyle" -->
+	<Config Class="869" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "Temple Gargoyle" -->
+	<Config Class="869" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "Temple Gargoyle" -->
+	<Config Class="869" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "Temple Gargoyle" -->
+	<Config Class="869" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "Temple Gargoyle" -->
+	<Config Class="870" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "(Elite) Temple Ogre" -->
+	<Config Class="870" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "(Elite) Temple Ogre" -->
+	<Config Class="870" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "(Elite) Temple Ogre" -->
+	<Config Class="870" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "(Elite) Temple Ogre" -->
+	<Config Class="870" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "(Elite) Temple Ogre" -->
+	<Config Class="871" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "(Elite) Temple Gramlin" -->
+	<Config Class="871" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "(Elite) Temple Gramlin" -->
+	<Config Class="871" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "(Elite) Temple Gramlin" -->
+	<Config Class="871" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "(Elite) Temple Gramlin" -->
+	<Config Class="871" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "(Elite) Temple Gramlin" -->
+	<Config Class="872" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="1" /> <!-- "(Elite) Temple Gargoyle" -->
+	<Config Class="872" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="2" /> <!-- "(Elite) Temple Gargoyle" -->
+	<Config Class="872" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="3" /> <!-- "(Elite) Temple Gargoyle" -->
+	<Config Class="872" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="4" /> <!-- "(Elite) Temple Gargoyle" -->
+	<Config Class="872" Range="30" BeginPosX="1" BeginPosY="1" EndPosX="247" EndPosY="247" Direction="-1" Quantity="20" Element="5" /> <!-- "(Elite) Temple Gargoyle" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

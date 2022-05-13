@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OMEGA Monster Test
+Elements
+0 = Randon
+1 = Fire
+2 = Water
+3 = Earth
+4 = Wind
+5 = Darkness
+-->
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<!-- Spots Fire -->
+	<Config Class="875" Range="5" BeginPosX="072" BeginPosY="020" EndPosX="078" EndPosY="017" Direction="-1" Quantity="3" Element="1" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="5" BeginPosX="077" BeginPosY="043" EndPosX="083" EndPosY="042" Direction="-1" Quantity="3" Element="1" /> <!-- "Ashen Death tree" -->
+	<Config Class="876" Range="5" BeginPosX="046" BeginPosY="038" EndPosX="050" EndPosY="043" Direction="-1" Quantity="3" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="876" Range="5" BeginPosX="065" BeginPosY="059" EndPosX="071" EndPosY="055" Direction="-1" Quantity="3" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="877" Range="5" BeginPosX="048" BeginPosY="069" EndPosX="054" EndPosY="068" Direction="-1" Quantity="3" Element="1" /> <!-- "Ashen Deathrider" -->
+	<Config Class="878" Range="5" BeginPosX="027" BeginPosY="083" EndPosX="038" EndPosY="081" Direction="-1" Quantity="2" Element="1" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="879" Range="5" BeginPosX="016" BeginPosY="058" EndPosX="024" EndPosY="061" Direction="-1" Quantity="2" Element="1" /> <!-- "(Elite) Ashen Golem" -->
+	<Config Class="880" Range="5" BeginPosX="016" BeginPosY="058" EndPosX="024" EndPosY="061" Direction="-1" Quantity="1" Element="1" /> <!-- "(Elite) Ashen Bloody Witch Queen" -->
+	<!-- Spots Water -->
+	<Config Class="875" Range="5" BeginPosX="114" BeginPosY="059" EndPosX="120" EndPosY="065" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="5" BeginPosX="085" BeginPosY="069" EndPosX="090" EndPosY="074" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="5" BeginPosX="114" BeginPosY="089" EndPosX="110" EndPosY="097" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Death tree" -->
+	<Config Class="876" Range="5" BeginPosX="067" BeginPosY="089" EndPosX="076" EndPosY="089" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="877" Range="5" BeginPosX="084" BeginPosY="119" EndPosX="093" EndPosY="119" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Deathrider" -->
+	<Config Class="878" Range="5" BeginPosX="066" BeginPosY="139" EndPosX="073" EndPosY="143" Direction="-1" Quantity="3" Element="2" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="879" Range="5" BeginPosX="042" BeginPosY="105" EndPosX="050" EndPosY="111" Direction="-1" Quantity="2" Element="2" /> <!-- "(Elite) Ashen Golem" -->
+	<Config Class="880" Range="5" BeginPosX="042" BeginPosY="105" EndPosX="050" EndPosY="111" Direction="-1" Quantity="1" Element="2" /> <!-- "(Elite) Ashen Bloody Witch Queen" -->
+	<!-- Spots Wind -->
+	<Config Class="875" Range="5" BeginPosX="145" BeginPosY="072" EndPosX="147" EndPosY="078" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="5" BeginPosX="126" BeginPosY="080" EndPosX="128" EndPosY="087" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Death tree" -->
+	<Config Class="876" Range="5" BeginPosX="117" BeginPosY="110" EndPosX="122" EndPosY="117" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="876" Range="5" BeginPosX="149" BeginPosY="099" EndPosX="150" EndPosY="106" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="877" Range="5" BeginPosX="143" BeginPosY="131" EndPosX="147" EndPosY="137" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Deathrider" -->
+	<Config Class="878" Range="5" BeginPosX="128" BeginPosY="165" EndPosX="137" EndPosY="169" Direction="-1" Quantity="3" Element="4" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="879" Range="5" BeginPosX="097" BeginPosY="156" EndPosX="099" EndPosY="165" Direction="-1" Quantity="2" Element="4" /> <!-- "(Elite) Ashen Golem" -->
+	<Config Class="880" Range="5" BeginPosX="097" BeginPosY="156" EndPosX="099" EndPosY="165" Direction="-1" Quantity="1" Element="4" /> <!-- "(Elite) Ashen Bloody Witch Queen" -->
+	<!-- Spots Earth -->
+	<Config Class="875" Range="5" BeginPosX="172" BeginPosY="051" EndPosX="172" EndPosY="059" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Death tree" -->
+	<Config Class="876" Range="5" BeginPosX="187" BeginPosY="080" EndPosX="191" EndPosY="088" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="876" Range="5" BeginPosX="165" BeginPosY="107" EndPosX="171" EndPosY="110" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="877" Range="5" BeginPosX="195" BeginPosY="133" EndPosX="204" EndPosY="130" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="5" BeginPosX="168" BeginPosY="147" EndPosX="175" EndPosY="149" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Deathrider" -->
+	<Config Class="878" Range="5" BeginPosX="201" BeginPosY="154" EndPosX="205" EndPosY="161" Direction="-1" Quantity="3" Element="3" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="879" Range="5" BeginPosX="165" BeginPosY="166" EndPosX="172" EndPosY="172" Direction="-1" Quantity="2" Element="3" /> <!-- "(Elite) Ashen Golem" -->
+	<Config Class="880" Range="5" BeginPosX="165" BeginPosY="166" EndPosX="172" EndPosY="172" Direction="-1" Quantity="1" Element="3" /> <!-- "(Elite) Ashen Bloody Witch Queen" -->
+	<!-- Spots Darkness -->
+	<Config Class="875" Range="5" BeginPosX="177" BeginPosY="016" EndPosX="182" EndPosY="021" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="5" BeginPosX="211" BeginPosY="022" EndPosX="217" EndPosY="028" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="876" Range="5" BeginPosX="188" BeginPosY="053" EndPosX="194" EndPosY="052" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="877" Range="5" BeginPosX="238" BeginPosY="048" EndPosX="243" EndPosY="055" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="5" BeginPosX="217" BeginPosY="086" EndPosX="224" EndPosY="082" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="878" Range="5" BeginPosX="240" BeginPosY="100" EndPosX="245" EndPosY="108" Direction="-1" Quantity="3" Element="5" /> <!-- "Ashen Witch Queen" -->
+    	<Config Class="879" Range="5" BeginPosX="224" BeginPosY="125" EndPosX="231" EndPosY="130" Direction="-1" Quantity="2" Element="5" /> <!-- "(Elite) Ashen Golem" -->
+    	<Config Class="880" Range="5" BeginPosX="224" BeginPosY="125" EndPosX="231" EndPosY="130" Direction="-1" Quantity="1" Element="5" /> <!-- "(Elite) Ashen Bloody Witch Queen" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+  	<MONSTER>
+	<!-- Monsters Fire -->
+	<Config Class="875" Range="30" PositionX="092" PositionY="023" Direction="-1" Element="1" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="092" PositionY="023" Direction="-1" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="875" Range="30" PositionX="078" PositionY="031" Direction="-1" Element="1" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="078" PositionY="031" Direction="-1" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="875" Range="30" PositionX="066" PositionY="039" Direction="-1" Element="1" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="066" PositionY="039" Direction="-1" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="877" Range="30" PositionX="040" PositionY="060" Direction="-1" Element="1" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="878" Range="30" PositionX="040" PositionY="060" Direction="-1" Element="1" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="875" Range="30" PositionX="056" PositionY="052" Direction="-1" Element="1" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="056" PositionY="052" Direction="-1" Element="1" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="878" Range="30" PositionX="056" PositionY="052" Direction="-1" Element="1" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="878" Range="30" PositionX="039" PositionY="060" Direction="-1" Element="1" /> <!-- "Ashen Witch Queen" -->
+    	<Config Class="878" Range="30" PositionX="039" PositionY="060" Direction="-1" Element="1" /> <!-- "Ashen Witch Queen" -->
+    	<!-- Monsters Water -->
+	<Config Class="875" Range="30" PositionX="111" PositionY="051" Direction="-1" Element="2" /> <!-- "Ashen Death tree" -->
+    	<Config Class="875" Range="30" PositionX="118" PositionY="064" Direction="-1" Element="2" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="30" PositionX="107" PositionY="072" Direction="-1" Element="2" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="107" PositionY="072" Direction="-1" Element="2" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="876" Range="30" PositionX="099" PositionY="082" Direction="-1" Element="2" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="875" Range="30" PositionX="089" PositionY="094" Direction="-1" Element="2" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="089" PositionY="094" Direction="-1" Element="2" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="878" Range="30" PositionX="078" PositionY="104" Direction="-1" Element="2" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="877" Range="30" PositionX="067" PositionY="113" Direction="-1" Element="2" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="878" Range="30" PositionX="067" PositionY="113" Direction="-1" Element="2" /> <!-- "Ashen Witch Queen" -->
+	<!-- Monsters Wind -->
+	<Config Class="875" Range="30" PositionX="131" PositionY="052" Direction="-1" Element="4" /> <!-- "Ashen Death tree" -->
+   	<Config Class="875" Range="30" PositionX="131" PositionY="052" Direction="-1" Element="4" /> <!-- "Ashen Death tree" -->
+	<Config Class="875" Range="30" PositionX="134" PositionY="066" Direction="-1" Element="4" /> <!-- "Ashen Death tree" -->
+	<Config Class="876" Range="30" PositionX="132" PositionY="097" Direction="-1" Element="4" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="876" Range="30" PositionX="132" PositionY="097" Direction="-1" Element="4" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="876" Range="30" PositionX="133" PositionY="116" Direction="-1" Element="4" /> <!-- "Ashen Forest Orc" -->
+    	<Config Class="876" Range="30" PositionX="133" PositionY="116" Direction="-1" Element="4" /> <!-- "Ashen Forest Orc" -->
+	<Config Class="877" Range="30" PositionX="130" PositionY="126" Direction="-1" Element="4" /> <!-- "Ashen Deathrider" -->
+	<Config Class="877" Range="30" PositionX="130" PositionY="126" Direction="-1" Element="4" /> <!-- "Ashen Deathrider" -->
+	<Config Class="877" Range="30" PositionX="125" PositionY="145" Direction="-1" Element="4" /> <!-- "Ashen Deathrider" -->
+	<Config Class="877" Range="30" PositionX="125" PositionY="145" Direction="-1" Element="4" /> <!-- "Ashen Deathrider" -->	
+    	<Config Class="878" Range="30" PositionX="129" PositionY="138" Direction="-1" Element="4" /> <!-- "Ashen Witch Queen" -->
+	<!-- Monsters Earth -->
+	<Config Class="875" Range="30" PositionX="150" PositionY="053" Direction="-1" Element="3" /> <!-- "Ashen Death tree" -->
+    	<Config Class="875" Range="30" PositionX="150" PositionY="053" Direction="-1" Element="3" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="166" PositionY="077" Direction="-1" Element="3" /> <!-- "Ashen Forest Orc" -->	
+    	<Config Class="876" Range="30" PositionX="166" PositionY="077" Direction="-1" Element="3" /> <!-- "Ashen Forest Orc" -->	
+    	<Config Class="876" Range="30" PositionX="176" PositionY="092" Direction="-1" Element="3" /> <!-- "Ashen Forest Orc" -->	
+    	<Config Class="877" Range="30" PositionX="190" PositionY="104" Direction="-1" Element="3" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="30" PositionX="195" PositionY="110" Direction="-1" Element="3" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="30" PositionX="192" PositionY="118" Direction="-1" Element="3" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="30" PositionX="181" PositionY="118" Direction="-1" Element="3" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="878" Range="30" PositionX="181" PositionY="118" Direction="-1" Element="3" /> <!-- "Ashen Witch Queen" -->
+    	<Config Class="878" Range="30" PositionX="184" PositionY="141" Direction="-1" Element="3" /> <!-- "Ashen Witch Queen" -->
+    	<Config Class="878" Range="30" PositionX="185" PositionY="164" Direction="-1" Element="3" /> <!-- "Ashen Witch Queen" -->
+	<!-- Monsters Darkness -->
+	<Config Class="875" Range="30" PositionX="156" PositionY="024" Direction="-1" Element="5" /> <!-- "Ashen Death tree" -->
+    	<Config Class="875" Range="30" PositionX="165" PositionY="031" Direction="-1" Element="5" /> <!-- "Ashen Death tree" -->
+    	<Config Class="875" Range="30" PositionX="186" PositionY="031" Direction="-1" Element="5" /> <!-- "Ashen Death tree" -->
+    	<Config Class="876" Range="30" PositionX="195" PositionY="031" Direction="-1" Element="5" /> <!-- "Ashen Forest Orc" -->	
+    	<Config Class="876" Range="30" PositionX="198" PositionY="032" Direction="-1" Element="5" /> <!-- "Ashen Forest Orc" -->	
+   	<Config Class="876" Range="30" PositionX="203" PositionY="041" Direction="-1" Element="5" /> <!-- "Ashen Forest Orc" -->	
+    	<Config Class="877" Range="30" PositionX="211" PositionY="054" Direction="-1" Element="5" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="30" PositionX="223" PositionY="055" Direction="-1" Element="5" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="877" Range="30" PositionX="235" PositionY="068" Direction="-1" Element="5" /> <!-- "Ashen Deathrider" -->
+    	<Config Class="878" Range="30" PositionX="235" PositionY="068" Direction="-1" Element="5" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="877" Range="30" PositionX="238" PositionY="077" Direction="-1" Element="5" /> <!-- "Ashen Deathrider" -->
+	<Config Class="878" Range="30" PositionX="231" PositionY="093" Direction="-1" Element="5" /> <!-- "Ashen Witch Queen" -->
+	<Config Class="878" Range="30" PositionX="232" PositionY="113" Direction="-1" Element="5" /> <!-- "Ashen Witch Queen" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

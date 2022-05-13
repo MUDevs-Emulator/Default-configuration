@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElementalUpgrade Level0="0" Level0="0" Level1="0" Level2="0" Level3="0" Level4="0" Level5="0" Level6="0" Level7="0" Level8="0" Level9="0" Level10="0" Level11="80" Level12="85" Level13="90" Level14="95"  Level15="100">
+	<PentagramUpgradeMix>							
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="212" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="503" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="213" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="503" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="214" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="503" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="306" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="307" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="308" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="208" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="209" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="210" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainMasteryGrade="0" MainType="12" MainIndex="211" MType0="12" MIndex0="509" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="500" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+	</PentagramUpgradeMix>	
+	<ErrtelUpgradeRateInfo>
+		<ErrtelInfo MasteryGrade="0" Rank="1" Level0="0" Level1="0" Level2="0" Level3="0" Level4="0" Level5="0" Level6="70" Level7="80" Level8="90" Level9="100" Level10="100" />
+		<ErrtelInfo MasteryGrade="0" Rank="2" Level0="85" Level1="90" Level2="95" Level3="100" Level4="100" Level5="100" Level6="100" Level7="100" Level8="100" Level9="100" Level10="100" />
+		<ErrtelInfo MasteryGrade="0" Rank="3" Level0="100" Level1="100" Level2="100" Level3="100" Level4="100" Level5="100" Level6="100" Level7="100" Level8="100" Level9="100" Level10="100" />
+		<ErrtelInfo MasteryGrade="1" Rank="-1" Level0="0" Level1="0" Level2="0" Level3="0" Level4="0" Level5="0" Level6="0" Level7="0" Level8="0" Level9="100" Level10="100" />																	
+	</ErrtelUpgradeRateInfo>
+	<ErrtelUpgradeMix>							
+		<Mix MainType="12" MainIndex="221" MType0="12" MIndex0="510" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="505" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainType="12" MainIndex="231" MType0="12" MIndex0="510" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="506" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainType="12" MainIndex="241" MType0="12" MIndex0="510" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="507" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+		<Mix MainType="12" MainIndex="251" MType0="12" MIndex0="510" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="508" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
+	</ErrtelUpgradeMix>	
+	<ErrtelLevelUpRateInfo>
+ 		<LevelUpInfo Level0="100" ElementalRune0="1"  Level1="100" ElementalRune1="2" Level2="100" ElementalRune2="3" Level3="100" ElementalRune3="4" Level4="100" ElementalRune4="5" Level5="100" ElementalRune5="6" Level6="100" ElementalRune6="7" Level7="100" ElementalRune7="8" Level8="100" ElementalRune8="7" Level9="100" ElementalRune9="9" />	
+	</ErrtelLevelUpRateInfo>
+	<PentagramElementalOptionInfo>
+ 		<ElementalInfo Index="12" Type="505" OptionIndex="0"/>	
+		<ElementalInfo Index="12" Type="506" OptionIndex="1"/>	
+		<ElementalInfo Index="12" Type="507" OptionIndex="0"/>	
+		<ElementalInfo Index="12" Type="508" OptionIndex="1"/>
+	</PentagramElementalOptionInfo>	
+	<ElementalOptionLevelUpRateInfo>
+ 		<LevelUpInfo Level0="100" ElementalRune0="1" Level1="100" ElementalRune1="1" Level2="100" ElementalRune2="1" Level3="100" ElementalRune3="2" Level4="100" ElementalRune4="2" Level5="100" ElementalRune5="3" Level6="100" ElementalRune6="3" Level7="100" ElementalRune7="4" Level8="100" ElementalRune8="4" Level9="100" ElementalRune9="5" />	
+	</ElementalOptionLevelUpRateInfo>													
+</ElementalUpgrade>
+
+

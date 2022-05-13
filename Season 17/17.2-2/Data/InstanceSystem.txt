@@ -1,0 +1,10 @@
+// Content type: Content ID in instance dungeon format, (depends on specifying each additional content)
+// Map number: Map number defined in the contents of the Dunn format. (Same as the map number added by the existing new map addition method)
+// Maximum number of users: The maximum number of users that can be used in an instance dungeon map (or Zone), (in general, it would be 1 if it was a private monopoly or 5 if it was a party one)
+// Maximum number of monsters used: The maximum number of monsters that can be used in an instance dungeon map (or Zone) (including all objects of NPC, monsters, and other monster types-example). The counter of the zone where as many objects as possible among 3 zones must be specified.)
+
+0
+// ContentType 	ContentName 			MapNumber 	MaxUserUsage 	MaxUserMonster 	InstanceMapAssignmentStartNumber
+1		"Dimensional labyrinth"		115		1		10		5000
+2		"4th Quest"			121		5		10		6000
+end

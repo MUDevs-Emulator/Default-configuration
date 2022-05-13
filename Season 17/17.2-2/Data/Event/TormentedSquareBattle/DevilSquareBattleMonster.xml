@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ### TormentedSquareBattle::RegularMonsters::Square ###
+//	Number: Number of square the setting applies to, 0-3
+//	MapNumber: Map number of the square
+//	MonsterIndex: Monster index, see MonsterList.xml
+//	StartX: Spawn Start X coordinate
+//	StartY: Spawn Start Y coordinate
+//	EndX: Spawn End X coordinate
+//	EndY: Spawn End Y coordinate
+//	RoundMaxMonster: Maximum monsters of specified index per reound
+//	Point: Reward point for killing the monster
+//
+// ### TormentedSquareBattle::EventMonsters::Square ###
+//	Number: Number of square the setting applies to, 0-3
+//	MapNumber: Map number of the square
+//	MonsterIndex: Monster index, see MonsterList.xml
+//	StartX: Spawn Start X coordinate
+//	StartY: Spawn Start Y coordinate
+//	EndX: Spawn End X coordinate
+//	EndY: Spawn End Y coordinate
+//	RoundMaxMonster: Maximum monsters of specified index per reound
+//	Point: Reward point for killing the monster
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<TormentedSquareBattle>
+	<RegularMonsters> <!-- Monsters that continue to spawn during entire round -->
+	<!-- Square 1 -->
+		<Square Number="0" MapNumber="103" MonsterIndex="354" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="1000" Respawn="1" /> <!-- Blade Hunter -->
+		<Square Number="0" MapNumber="103" MonsterIndex="55"  StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="2000" Respawn="1" /> <!-- Death King -->
+		<Square Number="0" MapNumber="103" MonsterIndex="434" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="3000" Respawn="1" /> <!-- Gigantis -->
+		<Square Number="0" MapNumber="103" MonsterIndex="435" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="4000" Respawn="1" /> <!-- Berserker -->
+		<Square Number="0" MapNumber="103" MonsterIndex="444" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="5000" Respawn="1" /> <!-- Shadow Pawn -->
+		<Square Number="0" MapNumber="103" MonsterIndex="569" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="10000" Respawn="1" /> <!-- Venomous Chain Scorpion -->
+	<!-- Square 2 -->
+		<Square Number="1" MapNumber="104" MonsterIndex="445" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="1000" Respawn="1" /> <!-- Shadow Knight -->
+		<Square Number="1" MapNumber="104" MonsterIndex="570" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="2000" Respawn="1" /> <!-- Bone Scorpion -->
+		<Square Number="1" MapNumber="104" MonsterIndex="446" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="3000" Respawn="1" /> <!-- Shadow Look -->
+		<Square Number="1" MapNumber="104" MonsterIndex="571" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="4000" Respawn="1" /> <!-- Orcus -->
+		<Square Number="1" MapNumber="104" MonsterIndex="572" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="5000" Respawn="1" /> <!-- Gollock -->
+		<Square Number="1" MapNumber="104" MonsterIndex="573" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="10000" Respawn="1" /> <!--Crypta -->
+	<!-- Square 3 -->
+		<Square Number="2" MapNumber="105" MonsterIndex="574" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="1000" Respawn="1" /> <!-- Crypos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="575" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="2000" Respawn="1" /> <!-- Condra -->
+		<Square Number="2" MapNumber="105" MonsterIndex="576" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="3000" Respawn="1" /> <!-- Narcondra -->
+		<Square Number="2" MapNumber="105" MonsterIndex="550" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="4000" Respawn="1" /> <!-- Bloody Death Rider -->
+		<Square Number="2" MapNumber="105" MonsterIndex="359" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="5000" Respawn="1" /> <!-- Twin Tale -->
+		<Square Number="2" MapNumber="105" MonsterIndex="552" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="10000" Respawn="1" /> <!-- Bloody Witch Queen -->
+	<!-- Square 4 -->
+		<Square Number="3" MapNumber="106" MonsterIndex="360" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="1000" Respawn="1" /> <!-- Dreadfear -->
+		<Square Number="3" MapNumber="106" MonsterIndex="553" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="2000" Respawn="1" /> <!-- Berserker Warrior -->
+		<Square Number="3" MapNumber="106" MonsterIndex="554" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="3000" Respawn="1" /> <!-- Kentauros Warrior -->
+		<Square Number="3" MapNumber="106" MonsterIndex="555" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="4000" Respawn="1" /> <!-- Gigantis Warrior -->
+		<Square Number="3" MapNumber="106" MonsterIndex="316" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="5000" Respawn="1" /> <!-- Balram -->
+		<Square Number="3" MapNumber="106" MonsterIndex="317" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="100" Point="10000" Respawn="1" /> <!-- Soram -->
+	</RegularMonsters>	
+	<EventMonsters> <!-- Monsters that spawn only once during entire round -->
+	<!-- Square 1 -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+		<Square Number="0" MapNumber="103" MonsterIndex="652" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Goblin -->
+	<!-- Square 2 -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+		<Square Number="1" MapNumber="104" MonsterIndex="653" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Titan -->
+	<!-- Square 3 -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+		<Square Number="2" MapNumber="105" MonsterIndex="654" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Tantalos -->
+	<!-- Square 4 -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+		<Square Number="3" MapNumber="106" MonsterIndex="655" StartX="95" StartY="98" EndX="148" EndY="153" RoundMaxMonster="10" Point="30000" Respawn="0" /> <!-- Golden Erohim -->
+	</EventMonsters>
+</TormentedSquareBattle>				

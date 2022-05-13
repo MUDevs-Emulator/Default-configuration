@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ErrtelMastery>
+	<ErrtelSetOptionRate>
+		<Rate Section="12" Type="505" Index0="0" Rate0="500000" Index1="1" Rate1="500000" Index2="-1" Rate2="-1"  />
+		<Rate Section="12" Type="506" Index0="0" Rate0="500000" Index1="1" Rate1="500000" Index2="-1" Rate2="-1"  />
+		<Rate Section="12" Type="507" Index0="0" Rate0="500000" Index1="1" Rate1="500000" Index2="-1" Rate2="-1"  />
+		<Rate Section="12" Type="508" Index0="0" Rate0="500000" Index1="1" Rate1="500000" Index2="-1" Rate2="-1"  />
+	</ErrtelSetOptionRate>
+	<ErrtelSetOption>
+		<OptionInfo Index="0" Name="Fighting spirit" IndexA0="0" ValueA0="40" IndexB0="-1" ValueB0="-1" IndexA1="-1" ValueA1="-1" IndexB1="-1" ValueB1="-1" IndexA2="2" ValueA2="60" IndexB2="5" ValueB2="100" />
+		<OptionInfo Index="1" Name="Passionate" IndexA0="1" ValueA0="30" IndexB0="-1" ValueB0="-1" IndexA1="-1" ValueA1="-1" IndexB1="-1" ValueB1="-1" IndexA2="3" ValueA2="45" IndexB2="4" ValueB2="20" />
+	</ErrtelSetOption>
+</ErrtelMastery>

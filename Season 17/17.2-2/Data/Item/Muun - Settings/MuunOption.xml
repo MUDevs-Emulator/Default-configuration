@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MuunOption>
+	<MuunInfo>
+		<Info Index="8192" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8193" /> 
+		<Info Index="8193" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8194" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8195" /> 
+		<Info Index="8195" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8196" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8197" /> 
+		<Info Index="8197" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8198" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8199" /> 
+		<Info Index="8199" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8200" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8201" /> 
+		<Info Index="8201" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8202" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8203" /> 
+		<Info Index="8203" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8204" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8205" /> 
+		<Info Index="8205" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8206" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8207" /> 
+		<Info Index="8207" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8208" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8209" /> 
+		<Info Index="8209" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8210" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8211" /> 
+		<Info Index="8211" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8212" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8213" /> 
+		<Info Index="8213" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8214" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8215" /> 
+		<Info Index="8215" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8216" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8217" /> 
+		<Info Index="8217" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8218" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8219" /> 
+		<Info Index="8219" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8220" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8221" /> 
+		<Info Index="8221" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8222" Type="1" Rank="3" OptionGroup="61" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8223" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8224" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8225" /> 
+		<Info Index="8225" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8226" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8227" /> 
+		<Info Index="8227" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8228" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8229" /> 
+		<Info Index="8229" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8230" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8231" /> 
+		<Info Index="8231" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8232" Type="1" Rank="3" OptionGroup="68" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8233" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8234" /> 
+		<Info Index="8234" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8235" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8236" /> 
+		<Info Index="8236" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8237" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="8238" /> 
+		<Info Index="8238" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8239" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8240" /> 
+		<Info Index="8240" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8241" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8242" /> 
+		<Info Index="8242" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8243" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8244" /> 
+		<Info Index="8244" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8245" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8246" /> 
+		<Info Index="8246" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8247" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8248" /> 
+		<Info Index="8248" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8249" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8250" /> 
+		<Info Index="8250" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8251" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8252" /> 
+		<Info Index="8252" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8253" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8254" /> 
+		<Info Index="8254" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8255" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8256" /> 
+		<Info Index="8256" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8257" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8258" /> 
+		<Info Index="8258" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8259" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8260" /> 
+		<Info Index="8260" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8261" Type="5" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8262" Type="5" Rank="4" OptionGroup="72" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8263" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8264" /> 
+		<Info Index="8264" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8265" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8266" /> 
+		<Info Index="8266" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8267" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8268" /> 
+		<Info Index="8268" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8269" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8270" /> 
+		<Info Index="8270" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8271" Type="1" Rank="2" OptionGroup="70" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8272" /> 
+		<Info Index="8272" Type="1" Rank="2" OptionGroup="70" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8273" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8274" /> 
+		<Info Index="8274" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8275" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8276" /> 
+		<Info Index="8276" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8277" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8278" /> 
+		<Info Index="8278" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8279" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8280" /> 
+		<Info Index="8280" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8281" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8282" /> 
+		<Info Index="8282" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8283" Type="1" Rank="2" OptionGroup="71" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8284" /> 
+		<Info Index="8284" Type="1" Rank="2" OptionGroup="71" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8285" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8286" /> 
+		<Info Index="8286" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8287" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8288" /> 
+		<Info Index="8288" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8289" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8290" /> 
+		<Info Index="8290" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8291" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8292" /> 
+		<Info Index="8292" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8293" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8294" /> 
+		<Info Index="8294" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8295" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8296" /> 
+		<Info Index="8296" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8297" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8298" /> 
+		<Info Index="8298" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8299" Type="5" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8300" Type="5" Rank="4" OptionGroup="72" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8301" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8302" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8303" /> 
+		<Info Index="8303" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8304" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8305" /> 
+		<Info Index="8305" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8306" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8307" /> 
+		<Info Index="8307" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8308" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8309" /> 
+		<Info Index="8309" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8310" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8311" /> 
+		<Info Index="8311" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8312" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8313" /> 
+		<Info Index="8313" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8314" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8315" /> 
+		<Info Index="8315" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8316" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8317" /> 
+		<Info Index="8317" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8318" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8319" /> 
+		<Info Index="8319" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8320" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8321" /> 
+		<Info Index="8321" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8322" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8323" /> 
+		<Info Index="8323" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8324" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8325" /> 
+		<Info Index="8325" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8326" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8327" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8328" Type="1" Rank="3" OptionGroup="73" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8329" /> 
+		<Info Index="8329" Type="1" Rank="3" OptionGroup="73" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8330" Type="5" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8331" Type="5" Rank="4" OptionGroup="72" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8332" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8333" /> 
+		<Info Index="8333" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8334" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8335" /> 
+		<Info Index="8335" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8336" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8337" /> 
+		<Info Index="8337" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8338" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8339" /> 
+		<Info Index="8339" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8340" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8341" /> 
+		<Info Index="8341" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8342" Type="5" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8343" Type="5" Rank="4" OptionGroup="72" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8344" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8345" /> 
+		<Info Index="8345" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8346" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8347" /> 
+		<Info Index="8347" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8348" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8349" /> 
+		<Info Index="8349" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8350" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8351" /> 
+		<Info Index="8351" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8352" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8353" /> 
+		<Info Index="8353" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8354" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8355" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8356" Type="5" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8357" Type="1" Rank="4" OptionGroup="69" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8404" Type="1" Rank="3" OptionGroup="0" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="8405" /> 
+		<Info Index="8405" Type="1" Rank="3" OptionGroup="0" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8406" Type="1" Rank="3" OptionGroup="9" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="8407" /> 
+		<Info Index="8407" Type="1" Rank="3" OptionGroup="9" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8408" Type="1" Rank="2" OptionGroup="71" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8409" /> 
+		<Info Index="8409" Type="1" Rank="2" OptionGroup="71" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8410" Type="1" Rank="1" OptionGroup="2" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8411" /> 
+		<Info Index="8411" Type="1" Rank="1" OptionGroup="2" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8415" Type="1" Rank="4" OptionGroup="3" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8416" /> 
+		<Info Index="8416" Type="1" Rank="4" OptionGroup="3" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8417" Type="1" Rank="2" OptionGroup="4" AddOptionType="1" AddOptionValue="5" SetPeriod="1" OptionStartDate="2013-9-12" OptionEndDate="2013-10-19" EvolutionItemIndex="8418" /> 
+		<Info Index="8418" Type="1" Rank="2" OptionGroup="4" AddOptionType="1" AddOptionValue="5" SetPeriod="1" OptionStartDate="2013-9-12" OptionEndDate="2013-10-19" EvolutionItemIndex="-1" /> 
+		<Info Index="8419" Type="1" Rank="2" OptionGroup="5" AddOptionType="1" AddOptionValue="5" SetPeriod="1" OptionStartDate="2013-9-12" OptionEndDate="2013-10-19" EvolutionItemIndex="8420" /> 
+		<Info Index="8420" Type="1" Rank="2" OptionGroup="5" AddOptionType="1" AddOptionValue="5" SetPeriod="1" OptionStartDate="2013-9-12" OptionEndDate="2013-10-19" EvolutionItemIndex="-1" /> 
+		<Info Index="8421" Type="1" Rank="4" OptionGroup="14" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8422" /> 
+		<Info Index="8422" Type="1" Rank="4" OptionGroup="14" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8423" Type="4" Rank="3" OptionGroup="11" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="8424" /> 
+		<Info Index="8424" Type="4" Rank="3" OptionGroup="11" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8425" Type="1" Rank="4" OptionGroup="6" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8426" /> 
+		<Info Index="8426" Type="1" Rank="4" OptionGroup="6" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8427" Type="1" Rank="2" OptionGroup="7" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8428" /> 
+		<Info Index="8428" Type="1" Rank="2" OptionGroup="7" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8429" Type="1" Rank="2" OptionGroup="8" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8430" /> 
+		<Info Index="8430" Type="1" Rank="2" OptionGroup="8" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8433" Type="1" Rank="4" OptionGroup="10" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8434" /> 
+		<Info Index="8434" Type="1" Rank="4" OptionGroup="10" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8435" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8436" /> 
+		<Info Index="8436" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8437" Type="1" Rank="2" OptionGroup="12" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8438" /> 
+		<Info Index="8438" Type="1" Rank="2" OptionGroup="12" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8444" Type="1" Rank="2" OptionGroup="15" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8445" /> 
+		<Info Index="8445" Type="1" Rank="2" OptionGroup="15" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8446" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8447" /> 
+		<Info Index="8447" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8448" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8449" /> 
+		<Info Index="8449" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8450" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8451" /> 
+		<Info Index="8451" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8452" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8453" /> 
+		<Info Index="8453" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8454" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8455" /> 
+		<Info Index="8455" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8456" Type="1" Rank="2" OptionGroup="19" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8457" /> 
+		<Info Index="8457" Type="1" Rank="2" OptionGroup="19" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8458" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8459" /> 
+		<Info Index="8459" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8462" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8463" /> 
+		<Info Index="8463" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8464" Type="1" Rank="2" OptionGroup="21" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8465" /> 
+		<Info Index="8465" Type="1" Rank="2" OptionGroup="21" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8466" Type="1" Rank="2" OptionGroup="22" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8467" /> 
+		<Info Index="8467" Type="1" Rank="2" OptionGroup="22" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8470" Type="1" Rank="4" OptionGroup="26" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8471" /> 
+		<Info Index="8471" Type="1" Rank="4" OptionGroup="26" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8472" Type="1" Rank="2" OptionGroup="27" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8473" /> 
+		<Info Index="8473" Type="1" Rank="2" OptionGroup="27" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8474" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8475" /> 
+		<Info Index="8475" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8476" Type="1" Rank="3" OptionGroup="29" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="8477" /> 
+		<Info Index="8477" Type="1" Rank="3" OptionGroup="29" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8478" Type="1" Rank="3" OptionGroup="30" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="8479" /> 
+		<Info Index="8479" Type="1" Rank="3" OptionGroup="30" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8480" Type="1" Rank="3" OptionGroup="31" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="8481" /> 
+		<Info Index="8481" Type="1" Rank="3" OptionGroup="31" AddOptionType="1" AddOptionValue="10" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8482" Type="1" Rank="4" OptionGroup="32" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8483" /> 
+		<Info Index="8483" Type="1" Rank="4" OptionGroup="32" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8484" Type="1" Rank="2" OptionGroup="33" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8485" /> 
+		<Info Index="8485" Type="1" Rank="2" OptionGroup="33" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8486" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8487" /> 
+		<Info Index="8487" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8488" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8489" /> 
+		<Info Index="8489" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8490" Type="1" Rank="2" OptionGroup="35" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8491" /> 
+		<Info Index="8491" Type="1" Rank="2" OptionGroup="35" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8492" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8493" /> 
+		<Info Index="8493" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8494" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8495" /> 
+		<Info Index="8495" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8496" Type="1" Rank="2" OptionGroup="36" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8497" /> 
+		<Info Index="8497" Type="1" Rank="2" OptionGroup="36" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8498" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8499" /> 
+		<Info Index="8499" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8500" Type="1" Rank="4" OptionGroup="32" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8501" /> 
+		<Info Index="8501" Type="1" Rank="4" OptionGroup="32" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8502" Type="1" Rank="2" OptionGroup="37" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8503" /> 
+		<Info Index="8503" Type="1" Rank="2" OptionGroup="37" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8504" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="8505" /> 
+		<Info Index="8505" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8506" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8507" /> 
+		<Info Index="8507" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8508" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8509" /> 
+		<Info Index="8509" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8510" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8511" /> 
+		<Info Index="8511" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8512" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8513" /> 
+		<Info Index="8513" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8514" Type="1" Rank="2" OptionGroup="44" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8515" /> 
+		<Info Index="8515" Type="1" Rank="2" OptionGroup="44" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8516" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8517" /> 
+		<Info Index="8517" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8518" Type="4" Rank="3" OptionGroup="45" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="8519" /> 
+		<Info Index="8519" Type="4" Rank="3" OptionGroup="45" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8520" Type="4" Rank="3" OptionGroup="46" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="8521" /> 
+		<Info Index="8521" Type="4" Rank="3" OptionGroup="46" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8522" Type="4" Rank="3" OptionGroup="47" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="8523" /> 
+		<Info Index="8523" Type="4" Rank="3" OptionGroup="47" AddOptionType="1" AddOptionValue="15" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8524" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8525" /> 
+		<Info Index="8525" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8526" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8527" /> 
+		<Info Index="8527" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8528" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="8529" /> 
+		<Info Index="8529" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="3" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8530" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8531" /> 
+		<Info Index="8531" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8532" Type="1" Rank="2" OptionGroup="49" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8533" /> 
+		<Info Index="8533" Type="1" Rank="2" OptionGroup="49" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8534" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8535" /> 
+		<Info Index="8535" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8536" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8537" /> 
+		<Info Index="8537" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8538" Type="1" Rank="2" OptionGroup="52" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8539" /> 
+		<Info Index="8539" Type="1" Rank="2" OptionGroup="52" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8540" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8541" /> 
+		<Info Index="8541" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8601" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8602" /> 
+		<Info Index="8602" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8603" Type="1" Rank="2" OptionGroup="53" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8604" /> 
+		<Info Index="8604" Type="1" Rank="2" OptionGroup="53" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8605" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8606" /> 
+		<Info Index="8606" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8607" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8608" /> 
+		<Info Index="8608" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8609" Type="1" Rank="2" OptionGroup="55" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8610" /> 
+		<Info Index="8610" Type="1" Rank="2" OptionGroup="55" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8611" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8612" /> 
+		<Info Index="8612" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8613" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8614" /> 
+		<Info Index="8614" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8615" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8616" /> 
+		<Info Index="8616" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8617" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8618" /> 
+		<Info Index="8618" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8619" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8620" /> 
+		<Info Index="8620" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8621" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8622" /> 
+		<Info Index="8622" Type="1" Rank="2" OptionGroup="48" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8623" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8624" /> 
+		<Info Index="8624" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8625" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8626" /> 
+		<Info Index="8626" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8627" Type="1" Rank="2" OptionGroup="44" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8628" /> 
+		<Info Index="8628" Type="1" Rank="2" OptionGroup="44" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8629" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8630" /> 
+		<Info Index="8630" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8631" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8632" /> 
+		<Info Index="8632" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8633" Type="1" Rank="2" OptionGroup="36" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8634" /> 
+		<Info Index="8634" Type="1" Rank="2" OptionGroup="36" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8635" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8636" /> 
+		<Info Index="8636" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8637" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8638" /> 
+		<Info Index="8638" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8639" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8640" /> 
+		<Info Index="8640" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8641" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8642" /> 
+		<Info Index="8642" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8643" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8644" /> 
+		<Info Index="8644" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8645" Type="1" Rank="2" OptionGroup="7" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8646" /> 
+		<Info Index="8646" Type="1" Rank="2" OptionGroup="7" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8647" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8648" /> 
+		<Info Index="8648" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8649" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8650" /> 
+		<Info Index="8650" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8651" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8652" /> 
+		<Info Index="8652" Type="1" Rank="2" OptionGroup="23" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8653" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8654" /> 
+		<Info Index="8654" Type="1" Rank="2" OptionGroup="39" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8655" Type="1" Rank="2" OptionGroup="7" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8656" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8657" Type="1" Rank="4" OptionGroup="60" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8669" Type="1" Rank="4" OptionGroup="56" AddOptionType="2" AddOptionValue="250" SetPeriod="3" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8672" Type="1" Rank="4" OptionGroup="42" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8673" /> 
+		<Info Index="8673" Type="1" Rank="4" OptionGroup="43" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8674" Type="1" Rank="2" OptionGroup="59" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8675" /> 
+		<Info Index="8675" Type="1" Rank="2" OptionGroup="59" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8676" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8677" /> 
+		<Info Index="8677" Type="1" Rank="2" OptionGroup="54" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8678" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8679" /> 
+		<Info Index="8679" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8680" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8681" /> 
+		<Info Index="8681" Type="1" Rank="2" OptionGroup="38" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8682" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8683" /> 
+		<Info Index="8683" Type="1" Rank="2" OptionGroup="25" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8684" Type="1" Rank="4" OptionGroup="40" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8685" /> 
+		<Info Index="8685" Type="1" Rank="4" OptionGroup="41" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8686" Type="1" Rank="2" OptionGroup="49" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8687" /> 
+		<Info Index="8687" Type="1" Rank="2" OptionGroup="49" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8688" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8689" /> 
+		<Info Index="8689" Type="1" Rank="2" OptionGroup="34" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8690" Type="1" Rank="4" OptionGroup="50" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="8691" /> 
+		<Info Index="8691" Type="1" Rank="4" OptionGroup="51" AddOptionType="1" AddOptionValue="20" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8692" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="8693" /> 
+		<Info Index="8693" Type="1" Rank="2" OptionGroup="57" AddOptionType="1" AddOptionValue="5" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+		<Info Index="8694" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="8695" /> 
+		<Info Index="8695" Type="1" Rank="2" OptionGroup="28" AddOptionType="3" AddOptionValue="2" SetPeriod="2" Duration="30" EvolutionItemIndex="-1" /> 
+	</MuunInfo>
+	<OptionInfo>
+		<Info OptionGroup="0" OptionType="2" OptionValue0="38" OptionValue1="22" OptionValue2="26" OptionValue3="30" OptionValue4="34" OptionValue5="0" ConditionType="3" ConditionVal1="18" ConditionVal2="24" OptionName=" Increase Defense +%d" /> 
+		<Info OptionGroup="1" OptionType="1" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="1" ConditionVal1="56" ConditionVal2="-1" OptionName=" Increase Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="2" OptionType="4" OptionValue0="6" OptionValue1="2" OptionValue2="4" OptionValue3="0" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="1" ConditionVal2="200" OptionName=" Increase Critical Damage +%d" /> 
+		<Info OptionGroup="3" OptionType="1" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="4" OptionType="3" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="1" ConditionVal2="12" OptionName=" Increase Excellent Damage +%d" /> 
+		<Info OptionGroup="5" OptionType="3" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increase Excellent Damage +%d" /> 
+		<Info OptionGroup="6" OptionType="7" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Maximum Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="7" OptionType="4" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Increase Critical Damage +%d" /> 
+		<Info OptionGroup="8" OptionType="4" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="1" ConditionVal2="200" OptionName=" Increase Critical Damage +%d" /> 
+		<Info OptionGroup="9" OptionType="3" OptionValue0="21" OptionValue1="9" OptionValue2="12" OptionValue3="15" OptionValue4="18" OptionValue5="0" ConditionType="4" ConditionVal1="56" ConditionVal2="-1" OptionName=" Increase Excellent Damage +%d" /> 
+		<Info OptionGroup="10" OptionType="3" OptionValue0="38" OptionValue1="23" OptionValue2="26" OptionValue3="29" OptionValue4="32" OptionValue5="35" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Excellent Damage +%d" /> 
+		<Info OptionGroup="11" OptionType="1" OptionValue0="14" OptionValue1="6" OptionValue2="8" OptionValue3="10" OptionValue4="12" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increase Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="12" OptionType="2" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="1" ConditionVal2="200" OptionName=" Increase Defense +%d" /> 
+		<Info OptionGroup="13" OptionType="50" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Attack Skill (%dLevel)" /> 
+		<Info OptionGroup="14" OptionType="1" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="15" OptionType="7" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="1" ConditionVal2="300" OptionName=" Increases MAX Attack Power/Magical Damage/Curse by +%d" /> 
+		<Info OptionGroup="16" OptionType="50" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="56" ConditionVal2="-1" OptionName=" Attack Skill (%dLevel)" /> 
+		<Info OptionGroup="17" OptionType="7" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Maximum Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="18" OptionType="50" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Attack Skill (%dLevel)" /> 
+		<Info OptionGroup="19" OptionType="1" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="56" ConditionVal2="-1" OptionName=" Increase Attack Power/Mana/Curse Spells +%d" /> 
+		<Info OptionGroup="20" OptionType="5" OptionValue0="19" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="17" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Skill Attack Power +%d" /> 
+		<Info OptionGroup="21" OptionType="5" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="56" ConditionVal2="-1" OptionName=" Increase Skill Attack Power +%d" /> 
+		<Info OptionGroup="22" OptionType="50" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Attack Skill (%dLevel)" /> 
+		<Info OptionGroup="23" OptionType="10" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Increases Excellent Damage +%d (non-PVP)" /> 
+		<Info OptionGroup="24" OptionType="8" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Attack Power/Magical Damage/Curse by +%d (non-PVP)" /> 
+		<Info OptionGroup="25" OptionType="53" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Attack Skill (Level %d) (non-PVP)" /> 
+		<Info OptionGroup="26" OptionType="14" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases MAX Attack Power/Magical Damage/Curse by +%d (non-PVP)" /> 
+		<Info OptionGroup="27" OptionType="14" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases MAX Attack Power/Magical Damage/Curse by +%d (non-PVP)" /> 
+		<Info OptionGroup="28" OptionType="53" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Attack Skill (Level %d) (non-PVP)" /> 
+		<Info OptionGroup="29" OptionType="1" OptionValue0="22" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Increases Attack Power/Magical Damage/Curse by +%d" /> 
+		<Info OptionGroup="30" OptionType="5" OptionValue0="17" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="0" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increases Skill Damage +%d" /> 
+		<Info OptionGroup="31" OptionType="3" OptionValue0="35" OptionValue1="23" OptionValue2="26" OptionValue3="29" OptionValue4="32" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases Excellent Damage +%d" /> 
+		<Info OptionGroup="32" OptionType="12" OptionValue0="19" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="17" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Skill Damage by +%d (non-PVP)" /> 
+		<Info OptionGroup="33" OptionType="8" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Increases Attack Power/Magical Damage/Curse by +%d (non-PVP)" /> 
+		<Info OptionGroup="34" OptionType="53" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Attack Skill (Level %d) (non-PVP)" /> 
+		<Info OptionGroup="35" OptionType="11" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Critical Damage (non-PvP) +%d" /> 
+		<Info OptionGroup="36" OptionType="12" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases +%d skill damage (Non-PvP)" /> 
+		<Info OptionGroup="37" OptionType="17" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="7" ConditionVal1="5" ConditionVal2="-1" OptionName=" Increases zen acquired on monster death by %d%%" /> 
+		<Info OptionGroup="38" OptionType="15" OptionValue0="4" OptionValue1="1" OptionValue2="2" OptionValue3="3" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Decreases item repair fee by %d%%" /> 
+		<Info OptionGroup="39" OptionType="53" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="7" ConditionVal1="5" ConditionVal2="-1" OptionName=" Attack Skill (Level %d) (non-PVP)" /> 
+		<Info OptionGroup="40" OptionType="8" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Damage/Magical Damage/Curse by %d (non-PVP)#Applies to PvP when Evolved" /> 
+		<Info OptionGroup="41" OptionType="1" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Damage/Magical Damage/Curse by %d (PVP)" /> 
+		<Info OptionGroup="42" OptionType="14" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Max Damage/Magical Damage/Curse by %d (non-PVP)#Applies to PvP when Evolved" /> 
+		<Info OptionGroup="43" OptionType="7" OptionValue0="24" OptionValue1="14" OptionValue2="16" OptionValue3="18" OptionValue4="20" OptionValue5="22" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Max Damage/Magical Damage/Curse by %d (PVP)" /> 
+		<Info OptionGroup="44" OptionType="2" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Increases Defense by + %d" /> 
+		<Info OptionGroup="45" OptionType="18" OptionValue0="14" OptionValue1="6" OptionValue2="8" OptionValue3="10" OptionValue4="12" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases Elemental damage by + %d" /> 
+		<Info OptionGroup="46" OptionType="19" OptionValue0="11" OptionValue1="3" OptionValue2="5" OptionValue3="7" OptionValue4="9" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases Elemental Defense by +%d" /> 
+		<Info OptionGroup="47" OptionType="1" OptionValue0="14" OptionValue1="6" OptionValue2="8" OptionValue3="10" OptionValue4="12" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Increases Damage/Magical Damage/Curse by +%d" /> 
+		<Info OptionGroup="48" OptionType="8" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Increases Damage/Magical Damage/Curse by +%d (Non-PvP)" /> 
+		<Info OptionGroup="49" OptionType="10" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Increases Excellent Damage by +%d (Non-PvP)" /> 
+		<Info OptionGroup="50" OptionType="12" OptionValue0="19" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="17" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Skill Damage by +%d (non-PVP)#Applies to PvP when Evolved" /> 
+		<Info OptionGroup="51" OptionType="5" OptionValue0="19" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="17" ConditionType="4" ConditionVal1="79" ConditionVal2="-1" OptionName=" Increases Skill Damage by +%d (PvP)" /> 
+		<Info OptionGroup="52" OptionType="14" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Maximum Attack Power/Mana/Curse Spells (non-PVP) +%d" /> 
+		<Info OptionGroup="53" OptionType="12" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="2" ConditionVal1="201" ConditionVal2="1150" OptionName=" Skill Damage (non-PvP) +%d" /> 
+		<Info OptionGroup="54" OptionType="53" OptionValue0="10" OptionValue1="4" OptionValue2="6" OptionValue3="8" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Attack Skill (Level %d) (non-PVP)" /> 
+		<Info OptionGroup="55" OptionType="15" OptionValue0="4" OptionValue1="1" OptionValue2="2" OptionValue3="3" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Decreases item repair fee by %d%%" /> 
+		<Info OptionGroup="56" OptionType="12" OptionValue0="0" OptionValue1="0" OptionValue2="0" OptionValue3="0" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Increases Skill Damage (non-PVP)" /> 
+		<Info OptionGroup="57" OptionType="11" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName=" Critical Damage (non-PvP) +%d" /> 
+		<Info OptionGroup="58" OptionType="2" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="18" ConditionVal2="24" OptionName=" Increase Defense +%d" /> 
+		<Info OptionGroup="59" OptionType="2" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="71" ConditionVal2="-1" OptionName=" Increase Defense +%d" /> 
+		<Info OptionGroup="60" OptionType="12" OptionValue0="19" OptionValue1="9" OptionValue2="11" OptionValue3="13" OptionValue4="15" OptionValue5="17" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Increases Skill Damage by +%d (non-PVP)" /> 
+		<Info OptionGroup="61" OptionType="9" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="3" ConditionVal1="13" ConditionVal2="24" OptionName="?ncrease Defense (non-PvP) +%d" /> 
+		<Info OptionGroup="68" OptionType="8" OptionValue0="12" OptionValue1="3" OptionValue2="5" OptionValue3="7" OptionValue4="9" OptionValue5="0" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Increases Attack Power/Magical Damage/Curse by +%d (non-PVP)" /> 
+		<Info OptionGroup="69" OptionType="12" OptionValue0="15" OptionValue1="15" OptionValue2="15" OptionValue3="15" OptionValue4="15" OptionValue5="15" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Skill DMG +%d (non-PVP)" /> 
+		<Info OptionGroup="70" OptionType="12" OptionValue0="8" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName=" Skill DMG +%d (non-PVP)" /> 
+		<Info OptionGroup="71" OptionType="9" OptionValue0="14" OptionValue1="2" OptionValue2="6" OptionValue3="10" OptionValue4="0" OptionValue5="0" ConditionType="4" ConditionVal1="60" ConditionVal2="-1" OptionName="?F +%d (non-PVP)" /> 
+		<Info OptionGroup="72" OptionType="21" OptionValue0="10" OptionValue1="10" OptionValue2="10" OptionValue3="10" OptionValue4="10" OptionValue5="10" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Elemental DEF +%d (non-PVP)" /> 
+		<Info OptionGroup="73" OptionType="53" OptionValue0="40" OptionValue1="25" OptionValue2="27" OptionValue3="29" OptionValue4="31" OptionValue5="0" ConditionType="4" ConditionVal1="127" ConditionVal2="-1" OptionName=" Attack Skill (Level %d) (Not Applied to PVP)" /> 
+	</OptionInfo>
+</MuunOption>
