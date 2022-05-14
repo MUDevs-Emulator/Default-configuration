@@ -365,4 +365,24 @@
 382       308     *           "Fixed Fire Enhanced"          	   0      0      0      *       *        *        *        *
 383       317     *           "Reflection Barrier"       	   1      0      0      *       *        *        *        *
 384       318     *           "Exclusive Equipment - Weapon"       1      0      0      *       *        *        *        *
+385       306     *           "20th Anniversary Event Level 16"    1      1      0      *       *        *        *        *
+386       306     *           "20th Anniversary Event Level 17"    1      1      0      *       *        *        *        *
+387       306     *           "20th Anniversary Event Level 18"    1      1      0      *       *        *        *        *
+388       306     *           "20th Anniversary Event Level 19"    1      1      0      *       *        *        *        *
+389       306     *           "20th Anniversary Event Level 20"    1      1      0      *       *        *        *        *
+390       306     *           "20th Anniversary Event Level 21"    1      1      0      *       *        *        *        *
+391       306     *           "20th Anniversary Event Level 22"    1      1      0      *       *        *        *        *
+392       306     *           "20th Anniversary Event Level 23"    1      1      0      *       *        *        *        *
+393       306     *           "20th Anniversary Event Level 24"    1      1      0      *       *        *        *        *
+394       306     *           "20th Anniversary Event Level 25"    1      1      0      *       *        *        *        *
+395       319     *           "Dex Booster"	   	   				   1      0      0      *       *        *        *        * 
+396       320     *           "Elemental Damage"	   1      0      0      *       *        *        *        * 
+397       321     *           "Elemental Defense"	   1      0      0      *       *        *        *        * 
+398       320     *           "Elemental Damage Enhanced"	   	   1      0      0      *       *        *        *        * 
+399       321     *           "Elemental Defense Enhanced"	   	   1      0      0      *       *        *        *        * 
+400       1       *           "Greater Damage Enhanced"        1      0      0      *       *        *        *        * 
+401       2       *           "Greater Defense Enhanced"       1      0      0      *       *        *        *        * 
+402       87      *           "Bless Enhanced"                 0      0      0      *       *        *        *        * 
+403       117     6227        "Shining Tail"                       0      1      0      *       *        *        *        *
+404       117     6228        "Shining Tail(rare)"                 0      1      0      *       *        *        *        *
 end
