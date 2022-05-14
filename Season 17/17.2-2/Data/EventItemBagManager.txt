@@ -382,4 +382,8 @@
 424       *           *           *              96             //Play Time Event (2)
 425       *           *           *              97             //Play Time Event (3)
 426       *           *           *              98             //Play Time Event (4)
+430       *           *           901            *              //Tiger (Green)
+431       *           *           902            *              //Tiger (Blue)
+432       *           *           903            *              //Tiger (Purple)
+433       *           *           904            *              //Tiger (Red)
 end
