@@ -713,29 +713,17 @@ function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 	
 	value1 = value1 + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_SWORD_POWER_IMPROVED)
 
-	LogAdd(LOG_RED,string.format('CurseDMG:%d | OK',value1))
-	
 	local value2 = 0
 	
 	value2 = value2 + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED)
-	
-	--1		"%d/500"	atk speed??
-	
-	--2		"(%d/300)*0.01"	decLife???
-
-	LogAdd(LOG_RED,string.format('AttackSpeed:%d | OK',value2))
 	
 	local totalDex = GetObjectStatByType(aIndex,POINT_DEXTERITY)
 	
 	local value3 = GetObjectFormulaSwordPowerDefenseRate(aIndex,totalEnergy,totalDex)	-- Calc Dec DefenceRate DMG
 	
-	LogAdd(LOG_RED,string.format('Dec Defense:%d | OK',value3))
-	
 	local totalVit = GetObjectStatByType(aIndex,POINT_VITALITY)
 	
 	local value4 = GetObjectFormulaSwordPowerHPRate(aIndex,totalEnergy,totalVit)	-- Calc Dec HP Rate DMG
-	
-	LogAdd(LOG_RED,string.format('Dec HP:%d | OK',value4))
 	
 	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
 	
