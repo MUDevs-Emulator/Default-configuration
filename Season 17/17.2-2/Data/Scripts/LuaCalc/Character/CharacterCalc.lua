@@ -1,4 +1,4 @@
-murequire("..\\Define.lua")
+murequire("Define.lua")
 
 -- SetByte(_Var)
 -- SetShort(_Var)
@@ -740,28 +740,3 @@ function CalcDamagePenalty(aIndex, Type, MonsterLevel, InitDamage)
 	
 	return InitDamage
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

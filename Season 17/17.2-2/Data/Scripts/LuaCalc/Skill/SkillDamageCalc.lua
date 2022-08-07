@@ -1,4 +1,4 @@
-murequire("..\\Define.lua")
+murequire("Define.lua")
 
 -- Export Funcions
 -- IsParty(lpObj)
@@ -690,6 +690,52 @@ function SkillSwordPower(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 	if(value4<10) then
 		value4 = 10
 	end	
+	
+	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
+	
+	if (GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED) > 0) then
+		value3 = 0
+		value4 = 0
+	end
+	
+	--LogAdd(LOG_RED,string.format('count:%d,value1:%d,value2:%d,value3:%d,value4:%d | OK', count,value1,value2,value3,value4))
+	
+	AddEffect(aIndex,0,GetSkillEffect(SkillIndex),count,value1,value2,value3,value4, 0, 0, 0, bIndex,-1)
+end
+
+function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
+
+	local totalEnergy = GetObjectStatByType(aIndex,POINT_ENERGY)
+	
+	local curseDMG = 0
+	
+	local value1 = GetObjectFormulaSwordPowerCurseDMG(aIndex,totalEnergy)	-- Calc Curse DMG
+	
+	value1 = value1 + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_SWORD_POWER_IMPROVED)
+
+	LogAdd(LOG_RED,string.format('CurseDMG:%d | OK',value1))
+	
+	local value2 = 0
+	
+	value2 = value2 + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED)
+	
+	--1		"%d/500"	atk speed??
+	
+	--2		"(%d/300)*0.01"	decLife???
+
+	LogAdd(LOG_RED,string.format('AttackSpeed:%d | OK',value2))
+	
+	local totalDex = GetObjectStatByType(aIndex,POINT_DEXTERITY)
+	
+	local value3 = GetObjectFormulaSwordPowerDefenseRate(aIndex,totalEnergy,totalDex)	-- Calc Dec DefenceRate DMG
+	
+	LogAdd(LOG_RED,string.format('Dec Defense:%d | OK',value3))
+	
+	local totalVit = GetObjectStatByType(aIndex,POINT_VITALITY)
+	
+	local value4 = GetObjectFormulaSwordPowerHPRate(aIndex,totalEnergy,totalVit)	-- Calc Dec HP Rate DMG
+	
+	LogAdd(LOG_RED,string.format('Dec HP:%d | OK',value4))
 	
 	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
 	
@@ -1666,7 +1712,7 @@ end
 
 function SkillElementalDamageEnhanced(aIndex,bIndex,SkillIndex,SkillGroup)	-- SKILL_ELEMENTAL_DAMAGE
 
-	local value = 10+(GetObjectStatByType(aIndex,POINT_ENERGY)/10)	-- original Formula
+	local value = 3+(GetObjectStatByType(aIndex,POINT_ENERGY)/10)
 
 	value = value + GetEnhanceSkillValue(aIndex, ENHANCE_SKILL_ADD_ELEMENTAL_DAMAGE_ENHANCE, SkillGroup)
 
@@ -1706,7 +1752,7 @@ function SkillElementalDamageEnhanced(aIndex,bIndex,SkillIndex,SkillGroup)	-- SK
 
 	value = (value*ValueRate)/100
 	
-	local count = 5+(GetObjectStatByType(aIndex,POINT_ENERGY)/10)
+	local count = 60
 	
 	--LogAdd(LOG_RED,string.format('value: %d | count: %d', value,count))
 	
@@ -1715,9 +1761,11 @@ end
 
 function SkillElementalDefenseEnhanced(aIndex,bIndex,SkillIndex,SkillGroup)	-- SKILL_ELEMENTAL_DEFENSE
 
-	local value = 5+(GetObjectStatByType(aIndex,POINT_ENERGY)/30)	-- original Formula
+	local value = 2+(GetObjectStatByType(aIndex,POINT_ENERGY)/12)
 	
 	value = value + GetEnhanceSkillValue(aIndex, ENHANCE_SKILL_ADD_ELEMENTAL_DEFENSE_ENHANCE, SkillGroup)
+
+	value = value + (value * GetObjectShieldElementalEnhancement(aIndex) / 100)
 
 	local ValueRate = 100
 	
@@ -1755,7 +1803,7 @@ function SkillElementalDefenseEnhanced(aIndex,bIndex,SkillIndex,SkillGroup)	-- S
 
 	value = (value*ValueRate)/100
 	
-	local count = 5+(GetObjectStatByType(aIndex,POINT_ENERGY)/10)
+	local count = 60
 	
 	value = value * 2
 

@@ -29,11 +29,11 @@ end
 end
 
 3
-//GuardianID   MaterialSection   MaterialType
-1	       14	         470																				
-2	       14	         470
-3	       14		 	 470
-4	       14		 	 470
+//GuardianID   MaterialSection   MaterialType	MaterialDurability
+1	      		14	         	 470				1																	
+2	      		14	         	 470				1
+3	      		14		 	 	 470                1
+4	      		14		 	 	 470                1
 end
 
 4

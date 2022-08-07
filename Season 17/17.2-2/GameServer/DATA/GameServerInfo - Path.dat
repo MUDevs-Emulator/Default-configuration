@@ -54,6 +54,11 @@ CustomMix=Custom\\CustomMix.xml
 RestoreOffline=Custom\\RestoreOffline.xml
 NoticeSystem=Custom\\NoticeSystem.xml
 CustomSellItem=Custom\\CustomSellItem.xml
+CustomMonsterResistance=Custom\\CustomMonsterResistance.xml
+CustomJewelUpgradeSystem=Custom\\CustomJewelUpgradeSystem.xml
+CustomItemSellSystem=Custom\\CustomItemSellSystem.xml
+CustomItemOptionSystem=Custom\\CustomItemOptionSystem.xml
+CustomReward=Custom\\CustomRewards.xml
 
 ;==================================================
 ; Event Settings
@@ -96,6 +101,7 @@ LabyrinthLeague=Event\\LabyrinthOfDimension\\LabyrinthOfDimension_League.xml
 ArcaBattle=Event\\ArcaBattle.xml
 SwampOfDarknessBoss=Event\\WorldBoss\\SwampOfDarknessBoss.xml
 20thAnniversary=Event\\20thAnniversary\\20thAnniversary.xml
+DungeonLeague=Event\\CustomDungeonLeagueEvent.xml
 IllusionTempleRenewal=Event\\IllusionTempleRenewal\\IllusionTempleRenewal.xml
 IllusionTempleRenewalNPC=Event\\IllusionTempleRenewal\\IllusionTemple_Renewal_NPC.xml
 
@@ -114,7 +120,7 @@ Item=Item\\item.xml
 ItemToolTipLevel=Item\\ItemToolTipLevel.xml
 ItemDrop=Item\\ItemDrop.txt
 ItemMove=Item\\ItemMove.txt
-ItemOption=Item\\ItemOption.txt
+ItemOption=Item\\ItemOption.xml
 ItemOptionWing=Item\\ItemOptionWing.txt
 ItemOptionRate=Item\\ItemOptionRate.txt
 ItemStack=Item\\ItemStack.txt
@@ -194,7 +200,7 @@ FreeChannelSwitch=Move\\FreeChannelSwitch.txt
 ;==================================================
 Quest=Quest\\Quest.xml
 QuestObjective=Quest\\QuestObjective.txt
-QuestReward=Quest\\QuestReward.txt
+QuestReward=Quest\\QuestReward.xml
 QuestWorld=QuestWorld\\QuestWorld.txt
 QuestWorldObjective=QuestWorld\\QuestWorldObjective.txt
 QuestWorldReward=QuestWorld\\QuestWorldReward.txt
@@ -218,7 +224,7 @@ Skill=Skill\\Skill.txt
 Formula=Skill\\Formula.txt
 MasterSkillTree=Skill\\MasterSkillTree.txt
 SkillRequiere=Skill\\SkillRequire.txt
-EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.txt
+EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.xml
 EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.xml
 EnhanceSkillTreeMagicField=Skill\\EnhanceSkillTree\\EnhanceSkillTreeMagicField.xml
 
@@ -234,11 +240,10 @@ ResetTable=Util\\ResetTable.txt
 ;==================================================
 ; Script Lua Settings
 ;==================================================
-;==================================================
-; Script Lua Settings
-;==================================================
 LuaDefine=Scripts\\%s
 LuaDefineQuest=\\Scripts\\Quest\\%s
-LuaSkill=Scripts\\Skill\\SkillDamageCalc.lua
-LuaCharacter=Scripts\\Character\\CharacterCalc.lua
+LuaSkill=Scripts\\LuaCalc\\Skill\\SkillDamageCalc.lua
+LuaCharacter=Scripts\\LuaCalc\\Character\\CharacterCalc.lua
 LuaItem=Scripts\\Item\\ItemManager.lua
+LuaScript=Scripts\\LuaScript\\ScriptMain.lua
+LuaScriptParce=Scripts\\LuaScript\\%s
