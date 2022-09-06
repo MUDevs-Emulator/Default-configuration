@@ -88,12 +88,20 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<!--															Opt1-Skill   	 Opt2-Luck     		Opt3-Life     	Opt-Exe											--> 
 		<Item OptionValue="5" ItemMinIndex="0000" ItemMaxIndex="6143" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Weapons/Shields/Armors - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6144" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
-		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6171" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6172" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6193" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6296" ItemMaxIndex="6296" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6299" ItemMaxIndex="6299" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 		<Item OptionValue="5" ItemMinIndex="6300" ItemMaxIndex="6304" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6406" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6423" ItemMaxIndex="6426" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6558" ItemMaxIndex="6581" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6611" ItemMaxIndex="6613" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6616" ItemMaxIndex="6618" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6633" ItemMaxIndex="6634" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6640" ItemMaxIndex="6640" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
+		<Item OptionValue="5" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="1" ItemOption3="-1" ItemNewOption="-1" Name="General Wings - Luck Option - Critical DMG Rate 5%" />
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<OptionIndex ID="80" SpecialIndex="SPECIAL_OPTION3" Name="ITEM_OPTION_ADD_PHYSI_DAMAGE">	<!-- Old 2 -->

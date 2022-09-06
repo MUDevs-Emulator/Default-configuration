@@ -28,6 +28,10 @@ function CharacterCalcBasicDamage(aIndex)
 	
 	local MagicDamageMax = 0
 	
+	local CurseDamageMin = 0
+	
+	local CurseDamageMax = 0
+	
 	local DamageMultiplierRate0 = 0
 	
 	local DamageMultiplierRate1 = 0
@@ -133,6 +137,10 @@ function CharacterCalcBasicDamage(aIndex)
 		MagicDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
 		
 		MagicDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
+		
+		CurseDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
+		
+		CurseDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
 		
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
 	
@@ -272,7 +280,7 @@ function CharacterCalcBasicDamage(aIndex)
 	
 	--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d ', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
 		
-	return PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,MagicDamageMin,MagicDamageMax,DamageMultiplierRate0,DamageMultiplierRate1,DamageMultiplierRate2
+	return PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,CurseDamageMin,CurseDamageMax,DamageMultiplierRate0,DamageMultiplierRate1,DamageMultiplierRate2
 end
 
 function CharacterCalcBasicAttackRate(aIndex)
@@ -740,3 +748,28 @@ function CalcDamagePenalty(aIndex, Type, MonsterLevel, InitDamage)
 	
 	return InitDamage
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

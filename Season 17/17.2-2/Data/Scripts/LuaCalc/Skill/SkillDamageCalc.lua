@@ -241,6 +241,47 @@ function SkillDamageProc(aIndex,bIndex,skill,count,combo,InitDamage)
 	return FinalDamage
 end
 
+function DamageVisualSplit(aIndex,bIndex,count,skill,effect)
+
+	local bVal = 0;
+
+	if(count > 0 and (skill == SKILL_UPPER_BEAST or skill == SKILL_DARK_SIDE)) then
+		bVal = (count%2) --(((count%2)==0)?0x20:0x10);
+	elseif(skill == SKILL_LARGE_RING_BLOWER or skill == SKILL_CHAIN_DRIVER or skill == SKILL_DRAGON_LORE or skill == SKILL_SPIRIT_HOOK or skill == SKILL_PIERCE_ATTACK) then
+		bVal = (count%4) -- (((count%4)==0)?0x20:0x10);
+	elseif(count > 0 and skill == SKILL_HARSH_STRIKE) then
+		bVal = (count%2) -- (((count % 2) == 0) ? 0x20 : 0x10);
+	elseif(count > 0 and skill == SKILL_MAGIC_PIN) then
+		bVal = (count%3) -- (((count % 3) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_FIRE_BLOW or skill == SKILL_SOUL_SAKER or skill == SKILL_FOCUS_SHOT or skill == SKILL_FIRE_BEAST or skill == SKILL_AQUA_BEAST or skill == SKILL_ICE_BLOOD or skill == SKILL_FIRE_BLOOD or skill == SKILL_DARK_BLAST or skill == SKILL_METEOR_STRIKE_MG or skill == SKILL_WIND_SOUL or skill == SKILL_DARK_PHOENIX_SHOT or skill == SKILL_SWORD_BLOW or skill == SKILL_SHOCK_BLAST or skill == SKILL_BAT_FLOCK) then
+		bVal = (count%2) -- (((count % 2) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_METEOR_STRIKE or skill == SKILL_METEOR_STORM) then
+		bVal = (count%2) -- (((count % 2) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_RED_STORM) then
+		bVal = (count%4) -- (((count % 3) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_ICE_BREAK or skill == SKILL_ICE_BLAST or skill == SKILL_BURSTING_FLARE) then
+		bVal = (count%4) --(((count % 3) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_CHAOS_BLADE or skill == SKILL_HARVOK_SPEAR) then
+		bVal = (count%5) -- (((count % 4) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_MAGICAL_SHOT or skill == SKILL_SHININ_BRID or skill == SKILL_DRAGON_VIOLENT or skill == SKILL_MARVEL_BURST) then
+		bVal = (count%2) -- (((count % 2) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_SPEAR_STORM or skill == SKILL_ULTIMATE_FORCE) then
+		bVal = (count%3) -- (((count % 3) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_RAINING_ARROW or skill == SKILL_HOLY_BOLT) then
+		bVal = (count%3) -- (((count % 3) == 0) ? 0x20 : 0x10);
+	else 
+		return -1
+	end
+	
+	if(bVal == 0) then 
+		bVal = 0x20
+	else 
+		bVal = 0x10 
+	end
+
+	return bVal
+end
+
 function GetSkillDamageTypeBYClass(aIndex,skill)
 
 	local Class = GetObjectClass(aIndex)
@@ -712,10 +753,14 @@ function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 	local value1 = GetObjectFormulaSwordPowerCurseDMG(aIndex,totalEnergy)	-- Calc Curse DMG
 	
 	value1 = value1 + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_SWORD_POWER_IMPROVED)
-
+	
 	local value2 = 0
 	
 	value2 = value2 + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED)
+	
+	--1		"%d/500"	atk speed??
+	
+	--2		"(%d/300)*0.01"	decLife???
 	
 	local totalDex = GetObjectStatByType(aIndex,POINT_DEXTERITY)
 	
