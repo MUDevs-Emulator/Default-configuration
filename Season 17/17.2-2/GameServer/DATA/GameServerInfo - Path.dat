@@ -27,6 +27,7 @@ PkSystem = Character\\PkSystem.txt
 StatsSpecialize = Character\\StatsSpecialize.txt
 PlayGuide=Character\\PlayGuide.txt
 MuHelperPlus=Character\\MuHelperPlus.xml
+ItemCompensationLevel=Character\\ItemCompensationLevel.xml
 
 ;==================================================
 ; Custom Settings

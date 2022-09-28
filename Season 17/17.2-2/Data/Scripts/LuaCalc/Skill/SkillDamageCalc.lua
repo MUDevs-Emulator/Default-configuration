@@ -706,42 +706,30 @@ end
 
 function SkillSwordPower(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 
-	local value1 = GetObjectStatByType(aIndex,POINT_ENERGY)/30--[[old SwordPowerConstA]]
+	local totalEnergy = GetObjectStatByType(aIndex,POINT_ENERGY)
 	
-	if(value1>100--[[old SwordPowerMaxRate]]) then 
-		value1 = 100--[[old SwordPowerMaxRate]]
-	end
-
-	local value2 = (GetObjectStatByType(aIndex,POINT_ENERGY)/30--[[old SwordPowerConstA]])
-
-	value2 = value2 + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED)
-
-	if(value2>100--[[old SwordPowerMaxRate]]) then 
-		value2 = 100--[[old SwordPowerMaxRate]]
-	end
-
-	local value3 = (40-((GetObjectStatByType(aIndex,POINT_ENERGY))/60--[[old SwordPowerConstB]]))
+	local MagicDamage = GetObjectFormulaSwordPowerMagicDamage(aIndex,totalEnergy)
 	
-	if(value3<10) then
-		value3 = 10
-	end	
+	--LogAdd(LOG_RED,string.format('MagicDamage:%d ',MagicDamage))
 	
-	local value4 = (40-((GetObjectStatByType(aIndex,POINT_ENERGY))/60--[[old SwordPowerConstB]]))
+	local totalDexterity = GetObjectStatByType(aIndex,POINT_DEXTERITY)
 	
-	if(value4<10) then
-		value4 = 10
-	end	
+	local Defense = GetObjectFormulaSwordPowerDefenseRate(aIndex,totalEnergy,totalDexterity)
+
+	--LogAdd(LOG_RED,string.format('Defense:%f ',Defense))
+	
+	local HPDecrease = GetObjectFormulaSwordPowerLifeReduction(aIndex,totalEnergy)
+	
+	--LogAdd(LOG_RED,string.format('HPDecrease HP:%f',HPDecrease))
+	
+	local AttackSpeed = 28	-- only in normal buff
 	
 	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
 	
-	if (GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_SWORD_POWER_ENHANCED) > 0) then
-		value3 = 0
-		value4 = 0
-	end
+	--LogAdd(LOG_RED,string.format('count:%d,MagicDamage:%d,Defense:%d,HPDecrease:%d | OK', count,MagicDamage,Defense,HPDecrease))
 	
-	--LogAdd(LOG_RED,string.format('count:%d,value1:%d,value2:%d,value3:%d,value4:%d | OK', count,value1,value2,value3,value4))
-	
-	AddEffect(aIndex,0,GetSkillEffect(SkillIndex),count,value1,value2,value3,value4, 0, 0, 0, bIndex,-1)
+	AddEffect(aIndex,0,GetSkillEffect(SkillIndex),count,MagicDamage,Defense,AttackSpeed,HPDecrease, 0, 0, 0, -1,-1)
+
 end
 
 function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
@@ -753,6 +741,8 @@ function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 	local value1 = GetObjectFormulaSwordPowerCurseDMG(aIndex,totalEnergy)	-- Calc Curse DMG
 	
 	value1 = value1 + GetMasterSkillValue(aIndex,MASTER_SKILL_ADD_SWORD_POWER_IMPROVED)
+
+	--LogAdd(LOG_RED,string.format('CurseDMG:%d | OK',value1))
 	
 	local value2 = 0
 	
@@ -761,14 +751,20 @@ function SkillSwordPowerO(aIndex,bIndex,SkillIndex)	-- SKILL_SWORD_POWER
 	--1		"%d/500"	atk speed??
 	
 	--2		"(%d/300)*0.01"	decLife???
+
+	--LogAdd(LOG_RED,string.format('AttackSpeed:%d | OK',value2))
 	
 	local totalDex = GetObjectStatByType(aIndex,POINT_DEXTERITY)
 	
 	local value3 = GetObjectFormulaSwordPowerDefenseRate(aIndex,totalEnergy,totalDex)	-- Calc Dec DefenceRate DMG
 	
+	--LogAdd(LOG_RED,string.format('Dec Defense:%d | OK',value3))
+	
 	local totalVit = GetObjectStatByType(aIndex,POINT_VITALITY)
 	
 	local value4 = GetObjectFormulaSwordPowerHPRate(aIndex,totalEnergy,totalVit)	-- Calc Dec HP Rate DMG
+	
+	--LogAdd(LOG_RED,string.format('Dec HP:%d | OK',value4))
 	
 	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
 	
@@ -1199,11 +1195,11 @@ end
 
 function SkillHastle(aIndex,SkillIndex) -- SKILL_HASTLE
 
-	local count = 15 --[[old HasteTimeConstA]] + (GetObjectStatByType(aIndex,POINT_ENERGY) / 10 --[[old HasteTimeConstB]]);
+	local count = (15 --[[old HasteTimeConstA]] + (GetObjectStatByType(aIndex,POINT_ENERGY) / 10 --[[old HasteTimeConstB]])) + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_HASTE_IMPROVED)
 
-	count = count + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_HASTE_IMPROVED)
+	local value1 = GetObjectStatByType(aIndex,POINT_ENERGY) / 30
 
-	AddEffect(aIndex, 0, GetSkillEffect(SkillIndex), count, 30--[[old HasteConstA]], 20--[[old HasteConstB]], 0, 0, 0, 0, 0, -1,-1);
+	AddEffect(aIndex, 0, GetSkillEffect(SkillIndex), count, value1--[[old HasteConstA]], 20--[[old HasteConstB]], 0, 0, 0, 0, 0, -1,-1);
 
 	GCSkillAttackSend(aIndex, SkillIndex, aIndex, 1);
 	
@@ -1223,7 +1219,7 @@ function SkillHastle(aIndex,SkillIndex) -- SKILL_HASTLE
 			
 			if gObjCalcDistance(aIndex, cIndex) >= 10 then goto continue end
 			
-			AddEffect(cIndex, 0, GetSkillEffect(SkillIndex), count, 30--[[old HasteConstA]], 20--[[old HasteConstB]], 0, 0, 0, 0, 0, -1,-1);
+			AddEffect(cIndex, 0, GetSkillEffect(SkillIndex), count, value1--[[old HasteConstA]], 20--[[old HasteConstB]], 0, 0, 0, 0, 0, -1,-1);
 
 			GCSkillAttackSend(aIndex,SkillIndex,cIndex,1)
 			
@@ -1237,58 +1233,50 @@ end
 
 function SkillDarkness(aIndex,SkillIndex) -- SKILL_DARKNESS
 
-	local value1 = GetObjectStatByType(aIndex,POINT_ENERGY) / 30--[[old DarknessConstA]]
+	local totalEnergy = GetObjectStatByType(aIndex,POINT_ENERGY)
 	
-	if(value1> 100--[[old DarknessMaxRate]]) then
-		value1 = 100--[[old DarknessMaxRate]]
-	end
+	local CurseDamage = GetObjectFormulaDarknessCurseDamage(aIndex,totalEnergy)
+	
+	--LogAdd(LOG_RED,string.format('CurseDamage:%d ',CurseDamage))
+	
+	local Defense = GetObjectFormulaDarknessDefense(aIndex,totalEnergy)
 
-	local value2 = 40 - (GetObjectStatByType(aIndex,POINT_ENERGY) / 60--[[old DarknessConstB]])
+	--LogAdd(LOG_RED,string.format('Defense:%d ',Defense))
 	
-	if(value2 < 10) then
-		value2 = 10
-	end
+	local HPDecrease = GetObjectFormulaDarknessLifeReduction(aIndex,totalEnergy)
 	
-	value2 = value2 + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_DARKNES_ENHANCED)
+	--LogAdd(LOG_RED,string.format('HPDecrease HP:%d',HPDecrease))
 	
-	local value3 = 40 - (GetObjectStatByType(aIndex,POINT_ENERGY) / 60 --[[old DarknessConstB]])
+	local AttackSpeed = 28	-- only in normal buff
 	
-	if(value3 < 10) then
-		value3 = 10
-	end
-
-	local count = 30--[[old DarknessTimeConstA]] + (GetObjectStatByType(aIndex,POINT_ENERGY) / 20--[[old DarknessTimeConstB]]);
-
-	AddEffect(aIndex, 0, GetSkillEffect(SkillIndex), count, value1, value2, value3, 0, 0, 0, 0, -1,-1);
-
-	--LogAdd(LOG_RED,string.format('value1:%d | value2:%d | value3:%d |  count:%d | ',value1,value2,value3,count))
+	local count = 30--[[old SwordPowerTimeConstA]]+(GetObjectStatByType(aIndex,POINT_ENERGY)/60--[[old SwordPowerTimeConstB]])
+	
+	--LogAdd(LOG_RED,string.format('count:%d,CurseDamage:%d,Defense:%d,HPDecrease:%d | OK', count,CurseDamage,Defense,HPDecrease))
+	
+	AddEffect(aIndex,0,GetSkillEffect(SkillIndex),count,CurseDamage,Defense,AttackSpeed,HPDecrease, 0, 0, 0, -1,-1)
 end
 
-function SkillDarknessGetDefense(aIndex,value,InitDefence) -- SKILL_DARKNESS
+--function SkillDarknessGetDefense(aIndex,value,InitDefence) -- SKILL_DARKNESS
+--
+--	local FinalDefence = InitDefence + ((GetObjectStatByType(aIndex,POINT_DEXTERITY) / 3--[[old SUDefenseConstA]]) * value) / 100;
+--	
+--	--LogAdd(LOG_RED,string.format('InitDefence:%d - FinalDefence:%d',InitDefence,FinalDefence))
+--
+--	return FinalDefence
+--end
 
-	local FinalDefence = InitDefence + ((GetObjectStatByType(aIndex,POINT_DEXTERITY) / 3--[[old SUDefenseConstA]]) * value) / 100;
-	
-	--LogAdd(LOG_RED,string.format('InitDefence:%d - FinalDefence:%d',InitDefence,FinalDefence))
-
-	return FinalDefence
-end
-
-function SkillDarknessGetCurseDamage(aIndex,value,InitDamageMin,InitDamageMax) -- SKILL_DARKNESS
-
-	value = value + GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_DARKNES_IMPROVED);
-
-	if(value > 100--[[old DarknessMaxRate]]) then
-		value = 100--[[old DarknessMaxRate]]
-	end
-
-	local FinalDamageMin = InitDamageMin + ((GetObjectStatByType(aIndex,POINT_ENERGY) / 9--[[old SUMagicDamageMinConstA]]) * value) / 100;
-
-	local FinalDamageMax = InitDamageMax + ((GetObjectStatByType(aIndex,POINT_ENERGY) / 4--[[old SUMagicDamageMaxConstA]]) * value) / 100;
-	
-	--LogAdd(LOG_RED,string.format('InitDamageMin:%d - InitDamageMax:%d | FinalDamageMin:%d - FinalDamageMax:%d',InitDamageMin,InitDamageMax,FinalDamageMin,FinalDamageMax))
-
-	return FinalDamageMin,FinalDamageMax
-end
+--function SkillDarknessGetCurseDamage(aIndex,InitDamageMin,InitDamageMax) -- SKILL_DARKNESS
+--
+--	local damagePercent = GetMasterSkillValue(aIndex, MASTER_SKILL_ADD_DARKNES_IMPROVED);
+--
+--	local FinalDamageMin = InitDamageMin + ((GetObjectStatByType(aIndex,POINT_ENERGY) / 9--[[old SUMagicDamageMinConstA]]) * damagePercent) / 100;
+--
+--	local FinalDamageMax = InitDamageMax + ((GetObjectStatByType(aIndex,POINT_ENERGY) / 4--[[old SUMagicDamageMaxConstA]]) * damagePercent) / 100;
+--	
+--	--LogAdd(LOG_RED,string.format('InitDamageMin:%d - InitDamageMax:%d | FinalDamageMin:%d - FinalDamageMax:%d',InitDamageMin,InitDamageMax,FinalDamageMin,FinalDamageMax))
+--
+--	return FinalDamageMin,FinalDamageMax
+--end
 
 function SkillBatFlockEffect(aIndex,bIndex,SkillIndex,Damage) -- SKILL_BAT_FLOCK
 

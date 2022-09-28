@@ -7,6 +7,7 @@
 1         8       "Add Damage Decrease"                4
 1         9       "Add Money Amount Drop Rate"         5
 1         10      "Add Impenetrable Def. By Level"     6
+1         11      "Add Elemental defense enhancement"  9
 end
 
 1

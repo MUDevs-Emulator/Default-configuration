@@ -1124,6 +1124,31 @@ CREATE TABLE [dbo].[ARCA_BATTLE_WIN_GUILD_INFO](
 GO
 SET ANSI_PADDING OFF
 GO
+
+USE [MuOnline]
+GO
+
+/** Object:  Table [dbo].[ItemDropLimit]    Script Date: 23/07/2021 8:48:48 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ItemDropLimit](
+	[DropType] [tinyint] NULL,
+	[Index] [int] NULL,
+	[Level] [tinyint] NULL,
+	[IsLuck] [smallint] NULL,
+	[IsSkill] [smallint] NULL,
+	[IsSetItem] [smallint] NULL,
+	[IsExeItem] [smallint] NULL,
+	[IsSocket] [smallint] NULL,
+	[DropCount] [int] NULL
+) ON [PRIMARY]
+
+GO
+
 /****** Object:  Table [dbo].[ARCA_BATTLE_PROC_STATE]    Script Date: 07/24/2021 09:12:56 ******/
 SET ANSI_NULLS ON
 GO
@@ -7704,36 +7729,36 @@ GO
 --// 
 --//************************************************************************
 
-CREATE PROCEDURE	[dbo].[WZ_CS_ModifyCastleSchedule]
-	@iMapSvrGroup		SMALLINT,	-- ??? ??
-	@dtStartDate		DATETIME,	-- ????
-	@dtEndDate		DATETIME	-- ????
+CREATE PROCEDURE [dbo].[WZ_CS_ModifyCastleSchedule]
+    @iMapSvrGroup       SMALLINT,   
+    @dtStartDate        varchar(18),
+    @dtEndDate      varchar(18) 
 As
 Begin
-	BEGIN TRANSACTION
-	
-	SET NOCOUNT ON
+    BEGIN TRANSACTION
 
-	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
-				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
-	BEGIN
-		UPDATE MuCastle_DATA 
-		SET SIEGE_START_DATE = CONVERT(datetime,@dtStartDate,20), SIEGE_END_DATE = CONVERT(datetime,@dtEndDate,20)
-		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+    SET NOCOUNT ON
 
-		SELECT 1 As QueryResult	-- ????? ??? ???? ????? ????.
-	END
-	ELSE
-	BEGIN
-		SELECT 0 As QueryResult	-- ????? ??? ???? ???? ????? ????.
-	END
+    IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+                WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+    BEGIN
+        UPDATE MuCastle_DATA 
+        SET SIEGE_START_DATE = CONVERT(datetime,@dtStartDate,20), SIEGE_END_DATE = CONVERT(datetime,@dtEndDate,20)
+        WHERE MAP_SVR_GROUP = @iMapSvrGroup
 
-	IF(@@Error <> 0 )
-		ROLLBACK TRANSACTION
-	ELSE	
-		COMMIT TRANSACTION
+        SELECT 1 As QueryResult 
+    END
+    ELSE
+    BEGIN
+        SELECT 0 As QueryResult 
+    END
 
-	SET NOCOUNT OFF	
+    IF(@@Error <> 0 )
+        ROLLBACK TRANSACTION
+    ELSE    
+        COMMIT TRANSACTION
+
+    SET NOCOUNT OFF 
 End
 GO
 /****** Object:  StoredProcedure [dbo].[WZ_CS_ModifyCastleOwnerInfo]    Script Date: 07/24/2021 09:12:59 ******/
@@ -10713,4 +10738,2274 @@ CREATE TABLE [dbo].[PlayTimeEvent](
 	[datePlay] [smalldatetime] NULL
 ) ON [PRIMARY]
 
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleAllJoinUserSelect]    Script Date: 20/12/2020 22:58:18 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleAllJoinUserSelect*********************************
+TITLE    : 아르카쟁에 참여하는 모든 유저
+
+EX       : EXEC [WZ_ArcaBattleAllJoinUserSelect] 
+
+PROJECT  : MU 
+
+CALL     : 
+
+INPUT    : 
+
+OUTPUT   : 
+
+REVERSION:
+-------------------------------------------------------------------
+DATE		Author		Description		
+-------------------------------------------------------------------	
+2012-02-20	이성준
+-------------------------------------------------------------------	
+*****************************************************************/
+CREATE   PROC [dbo].[WZ_ArcaBattleAllJoinUserSelect]
+AS  
+SET NOCOUNT ON
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+BEGIN
+	SELECT G_Name, Number, CharName
+	FROM	dbo.T_ARCA_BATTLE_MEMBER_JOIN_INFO
+END
+
+SET XACT_ABORT OFF  
+SET NOCOUNT OFF
+
+GO
+
+
+
+/****** Object:  Table [dbo].[T_ARCA_BATTLE_WIN_GUILD_INFO]    Script Date: 20/12/2020 23:07:52 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[T_ARCA_BATTLE_WIN_GUILD_INFO](
+	[G_Name] [varchar](8) NOT NULL,
+	[G_Number] [int] NOT NULL,
+	[WinDate] [smalldatetime] NOT NULL,
+	[OuccupyObelisk] [tinyint] NOT NULL,
+	[ObeliskGroup] [tinyint] NOT NULL,
+	[LeftTime] [bigint] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드명' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'G_Name'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드번호' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'G_Number'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'승리날짜' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'WinDate'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'점령' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'OuccupyObelisk'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'오벨리스크 그룹' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'ObeliskGroup'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'기간' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_WIN_GUILD_INFO', @level2type=N'COLUMN',@level2name=N'LeftTime'
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleAllMarkCntSelect]    Script Date: 20/12/2020 22:58:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**dbo.WZ_ArcaBattleAllMarkCntSelect*****************************************
+TITLE	 : 아르카쟁
+Project  : 
+CALL     : 서버 
+DATABASE : MuOnline
+TABLES   : 
+EX       :
+                          
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-05-08		공후택			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE  procedure [dbo].[WZ_ArcaBattleAllMarkCntSelect]
+AS     
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	SELECT G_Name, MarkCnt FROM dbo.T_ARCA_BATTLE_GUILDMARK_REG
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildGroupNumSelect]    Script Date: 20/12/2020 22:59:15 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE  procedure [dbo].[WZ_ArcaBattleGuildGroupNumSelect]  
+ @CharName varchar(10)
+as         
+BEGIN      
+    
+ DECLARE @GuildName varchar(8)
+ DECLARE @return int    
+ SET @return = 0      
+         
+ Set  nocount on    
+
+set @GuildName = (SELECT G_Name FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO where CharName = @CharName)
+
+ SELECT GroupNum FROM T_ARCA_BATTLE_GUILD_JOIN_INFO
+  WHERE G_Name =  @GuildName
+
+ SET XACT_ABORT OFF    
+ Set nocount off    
+      
+END    
+
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildInsert]    Script Date: 20/12/2020 22:59:31 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+/*
+아르카쟁 길드등록
+
+return 
+0: 이상없이 등록
+3: 등록된 길드가 6개가 넘으면(기획의도에 따라 변경 될수 있다.)
+4: 이미 등록 되어있다.
+*/
+
+CREATE  procedure [dbo].[WZ_ArcaBattleGuildInsert]
+ @GuildName varchar(8),      
+ @CharName varchar(10),      
+ @Number int
+as     
+BEGIN  
+
+ DECLARE @return int
+ DECLARE @GuildNum int
+ DECLARE @GuildGroupNum tinyint
+ SET @return = 0  
+     
+ Set  nocount on
+
+SELECT @GuildNum = Number FROM T_ARCA_BATTLE_GUILD_JOIN_INFO
+set @GuildGroupNum = @@ROWCOUNT
+IF( @GuildGroupNum >= 6 ) -- 등록된 길드가 6개가 넘으면
+BEGIN
+   SET  @return = 3
+   GOTO EndProc
+END
+
+IF NOT EXISTS ( SELECT Number FROM T_ARCA_BATTLE_GUILD_JOIN_INFO WITH ( READUNCOMMITTED )       
+    WHERE Number =  @Number )  
+  BEGIN    -- 길드 정보가 없다면....
+   begin transaction      
+  INSERT INTO T_ARCA_BATTLE_GUILD_JOIN_INFO (G_Name, G_Master, Number, JoinDate, GroupNum) VALUES      
+   (  @GuildName, @CharName, @Number, GetDate(), @GuildGroupNum+1 ) -- 길드 정보 등록
+
+  INSERT INTO T_ARCA_BATTLE_MEMBER_JOIN_INFO (G_Name, Number, CharName, JoinDate) VALUES      
+   (  @GuildName, @Number, @CharName, GetDate() )-- 길드원 정보 등록
+   goto EndProcTran
+   END
+ELSE -- 길드 정보가 있다면
+ BEGIN
+   SET  @return = 4
+   GOTO EndProc
+ END
+
+EndProcTran:
+	IF ( @@Error  <> 0 )
+	BEGIN	
+		rollback transaction
+		SET @return = -1
+		SELECT @return
+	END 
+	ELSE
+	BEGIN
+		commit transaction
+		SELECT @return
+	END
+
+EndProc:
+
+	SET	XACT_ABORT OFF
+	Set	nocount off
+	
+	SELECT @return
+END
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildMarkInfoAllDel]    Script Date: 20/12/2020 22:59:52 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleGuildMarkInfoAllDel******************************************
+
+TITLE		아르카쟁 종료 후 성주의 표식 등록 정보 모두 삭제
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+exec WZ_ArcaBattleGuildMemberInfo
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+    2012-02-22      공후택        처음작성
+------------------------------------------------------
+*****************************************************************************/
+create PROCEDURE [dbo].[WZ_ArcaBattleGuildMarkInfoAllDel]
+
+AS BEGIN
+	DECLARE @ErrorCode int
+
+	SET @ErrorCode = 0
+
+	SET nocount on
+
+	DELETE dbo.T_ARCA_BATTLE_GUILDMARK_REG
+
+	IF ( @@Error <> 0 ) BEGIN
+		SET @ErrorCode = -1
+	END
+
+	SELECT @ErrorCode
+
+	SET nocount off
+END
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildMemberInsert]    Script Date: 20/12/2020 23:00:10 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+/*
+아르카쟁 길드원 등록
+
+return 
+0: 이상없이 등록
+7: 신청 길드원이 아니다.
+8: 이미 등록 되어있다.
+9:신청자가 20명이상이다.
+*/
+
+CREATE procedure [dbo].[WZ_ArcaBattleGuildMemberInsert]
+ @GuildName varchar(8),      
+ @CharName varchar(10),      
+ @Number int
+as     
+BEGIN  
+
+ DECLARE @return int
+ DECLARE @GuildNum int
+ SET @return = 0  
+     
+ Set  nocount on
+
+SELECT @GuildNum = Number FROM T_ARCA_BATTLE_GUILD_JOIN_INFO WHERE Number =  @Number
+IF( @@ROWCOUNT  < 1 ) -- 신청 길드원이 아니다.
+BEGIN
+   SET  @return = 7
+   GOTO EndProc
+END
+
+SELECT @GuildNum = Number FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO WHERE Number =  @Number
+IF( @@ROWCOUNT  >= 20 ) --신청자가 20명 이상 이다. (2011.11.30 30명에서 20명으로 수정)
+BEGIN
+   SET  @return = 9
+   GOTO EndProc
+END
+
+IF NOT EXISTS ( SELECT CharName FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO WITH ( READUNCOMMITTED )       
+    WHERE CharName =  @CharName )  
+  BEGIN    -- 길드 정보가 없다면....
+   begin transaction 
+  INSERT INTO T_ARCA_BATTLE_MEMBER_JOIN_INFO (G_Name, Number, CharName, JoinDate) VALUES      
+   (  @GuildName, @Number, @CharName, GetDate() )-- 길드원정보등록
+   goto EndProcTran
+   END
+ELSE -- 길드원 정보가 있다면
+ BEGIN
+   SET  @return = 8
+   GOTO EndProc
+ END
+
+EndProcTran:
+	IF ( @@Error  <> 0 )
+	BEGIN	
+		rollback transaction
+		SET @return = -1
+		SELECT @return
+	END 
+	ELSE
+	BEGIN
+		commit transaction
+		SELECT @return
+	END
+
+EndProc:
+
+	SET	XACT_ABORT OFF
+	Set	nocount off
+	
+	SELECT @return
+END
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildMemberSelect]    Script Date: 20/12/2020 23:00:32 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+Create PROCEDURE [dbo].[WZ_ArcaBattleGuildMemberSelect]
+	@G_Number int
+AS BEGIN
+	DECLARE @ErrorCode int
+
+	SET @ErrorCode = 0
+
+	SET nocount on
+
+	SET @ErrorCode = (select count (Number)  from T_ARCA_BATTLE_MEMBER_JOIN_INFO where Number = @G_Number)
+
+	IF ( @@Error <> 0 ) BEGIN
+		SET @ErrorCode = -1
+	END
+
+	SELECT @ErrorCode
+
+	SET nocount off
+END
+
+
+
+GO
+
+
+CREATE TABLE [dbo].[T_ARCA_BATTLE_MEMBER_JOIN_INFO](
+	[G_Name] [varchar](8) NULL,
+	[Number] [int] NOT NULL,
+	[CharName] [varchar](10) NOT NULL,
+	[JoinDate] [smalldatetime] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드이름' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_MEMBER_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'G_Name'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'계정guid' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_MEMBER_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'Number'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'캐릭명' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_MEMBER_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'CharName'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'등록날짜' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_MEMBER_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'JoinDate'
+GO
+
+
+
+CREATE TABLE [dbo].[T_ARCA_BATTLE_GUILDMARK_REG](
+	[Index] [int] IDENTITY(1,1) NOT NULL,
+	[G_Number] [int] NOT NULL,
+	[G_Name] [varchar](8) NOT NULL,
+	[G_Master] [varchar](10) NOT NULL,
+	[RegDate] [smalldatetime] NULL,
+	[GuildRegRank] [int] NULL,
+	[MarkCnt] [bigint] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'인덱스' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'Index'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드번호' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'G_Number'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드명' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'G_Name'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드마스터' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'G_Master'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'등록날짜' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'RegDate'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드드록랭크' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'GuildRegRank'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'마크수' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILDMARK_REG', @level2type=N'COLUMN',@level2name=N'MarkCnt'
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildNamesSelect]    Script Date: 20/12/2020 23:00:47 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE  procedure [dbo].[WZ_ArcaBattleGuildNamesSelect]
+as         
+BEGIN      
+           
+ Set  nocount on    
+
+ SELECT G_Name FROM T_ARCA_BATTLE_GUILD_JOIN_INFO
+
+ SET XACT_ABORT OFF    
+ Set nocount off    
+      
+END    
+
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleGuildSelect]    Script Date: 20/12/2020 23:01:03 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+/*
+아르카쟁 길드 등록 되어있나 체크
+
+return 
+0: 이상없이 등록
+3: 등록된 길드가 6개가 넘으면(기획의도에 따라 변경 될수 있다.)
+4: 이미 등록 되어있다.
+*/
+
+CREATE  procedure [dbo].[WZ_ArcaBattleGuildSelect]
+ @CharName varchar(10)
+
+as     
+BEGIN  
+
+ DECLARE @return int
+ DECLARE @GuildNum int
+ DECLARE @GuildGroupNum tinyint
+ SET @return = 0  
+     
+ Set  nocount on
+
+SELECT @GuildNum = Number FROM T_ARCA_BATTLE_GUILD_JOIN_INFO
+set @GuildGroupNum = @@ROWCOUNT
+IF( @GuildGroupNum >= 6 ) -- 등록된 길드가 6개가 넘으면
+BEGIN
+   SET  @return = 3
+   GOTO EndProc
+END
+
+IF NOT EXISTS ( SELECT Number FROM T_ARCA_BATTLE_GUILD_JOIN_INFO WITH ( READUNCOMMITTED )       
+    WHERE G_Master = @CharName )  
+  BEGIN    -- 길드 정보가 없다면....
+--   begin transaction      
+   
+   goto EndProcTran
+   END
+ELSE -- 길드 정보가 있다면
+ BEGIN
+   SET  @return = 4
+   GOTO EndProc
+ END
+
+EndProcTran:
+	IF ( @@Error  <> 0 )
+	BEGIN	
+		--rollback transaction
+		SET @return = -1
+		SELECT @return
+	END 
+	ELSE
+	BEGIN
+		--commit transaction
+		SELECT @return
+	END
+
+EndProc:
+
+	SET	XACT_ABORT OFF
+	Set	nocount off
+	
+	SELECT @return
+END
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleInfoDelete]    Script Date: 20/12/2020 23:01:25 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE procedure [dbo].[WZ_ArcaBattleInfoDelete]
+as       
+BEGIN  
+ DECLARE @return int
+ SET @return = 0  
+ Set  nocount on
+
+ begin transaction  
+
+delete T_ARCA_BATTLE_MEMBER_JOIN_INFO
+delete T_ARCA_BATTLE_GUILD_JOIN_INFO
+delete T_ARCA_BATTLE_WIN_GUILD_INFO
+
+
+IF ( @@Error  <> 0 )
+ BEGIN	
+	rollback transaction
+	SET @return = -1
+	SELECT @return
+ END 
+ELSE
+ BEGIN
+	commit transaction
+	SELECT @return
+ END
+END
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMarkCntSelect]    Script Date: 20/12/2020 23:01:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleMarkCntSelect******************************************
+TITLE		
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+return 
+-1: 등록된 길드가 250개가 넘으면(기획의도에 따라 변경 될수 있다.)
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+    2012-03-26      공후택        수정
+------------------------------------------------------
+*****************************************************************************/
+CREATE  procedure [dbo].[WZ_ArcaBattleMarkCntSelect]
+ @G_Number int
+as     
+BEGIN  
+
+ DECLARE @return int
+ DECLARE @GuildRegRank bigint
+
+ SET @return = 0  
+     
+ Set  nocount on
+
+IF NOT EXISTS ( SELECT G_Number FROM T_ARCA_BATTLE_GUILDMARK_REG WITH ( READUNCOMMITTED )       
+    WHERE G_Number =  @G_Number)  
+  BEGIN    -- 길드 정보가 없다면....
+
+	SET @GuildRegRank = (SELECT count (*) FROM T_ARCA_BATTLE_GUILDMARK_REG)
+	IF( @GuildRegRank >= 250 ) -- 등록된 길드가 250개가 넘으면
+	 BEGIN
+	   SET  @return = -1
+	   GOTO EndProc
+	 END	  
+   END
+ELSE -- 길드 정보가 있다면
+  BEGIN
+	set @return = (SELECT MarkCnt FROM T_ARCA_BATTLE_GUILDMARK_REG WHERE G_Number =  @G_Number)
+--	select @return
+  END
+
+EndProc:
+	SET	XACT_ABORT OFF
+	Set	nocount off	
+	select @return
+	RETURN
+END
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMarkInsert]    Script Date: 20/12/2020 23:02:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleMarkInsert******************************************
+TITLE		
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+return 
+아르카쟁 성주의 표식 등록
+
+return 
+0: 등록
+1: 성주의 표식 업데이트
+3: 등록된 길드가 250개가 넘으면(기획의도에 따라 변경 될수 있다.)
+
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+     2012-03-26      공후택        수정
+------------------------------------------------------
+*****************************************************************************/
+CREATE  procedure [dbo].[WZ_ArcaBattleMarkInsert]
+ @G_Name varchar(8),      
+ @G_Number int,
+ @G_Master varchar(10),      
+ @MarkCnt bigint
+as     
+BEGIN  
+
+ DECLARE @return int
+ DECLARE @GuildRegRank int
+ DECLARE @CurrMarkCnt int
+
+ SET @return = 0  
+     
+ Set  nocount on
+
+
+IF NOT EXISTS ( SELECT G_Number FROM T_ARCA_BATTLE_GUILDMARK_REG WITH ( READUNCOMMITTED )       
+    WHERE G_Number =  @G_Number )  
+  BEGIN    -- 길드 정보가 없다면....
+
+	SET @GuildRegRank = (SELECT count (*) FROM T_ARCA_BATTLE_GUILDMARK_REG)
+	IF( @GuildRegRank >= 250 ) -- 등록된 길드가 250개가 넘으면
+	BEGIN
+	   SET  @return = 3
+	   GOTO EndProc
+	END
+
+   begin transaction      
+  INSERT INTO T_ARCA_BATTLE_GUILDMARK_REG (G_Name, G_Number, G_Master, RegDate, GuildRegRank, MarkCnt ) VALUES      
+   (  @G_Name, @G_Number, @G_Master, GetDate(), (@GuildRegRank+1), @MarkCnt ) -- 길드 정보 등록
+   goto EndProcTran
+
+   END
+ELSE -- 길드 정보가 있다면
+ BEGIN
+	SET @CurrMarkCnt  = (SELECT MarkCnt from T_ARCA_BATTLE_GUILDMARK_REG WHERE G_Number = @G_Number AND G_Name = @G_Name)
+	 begin transaction
+	 UPDATE T_ARCA_BATTLE_GUILDMARK_REG SET MarkCnt = (@MarkCnt + @CurrMarkCnt)  WHERE G_Number = @G_Number AND G_Name = @G_Name
+	 SET @return = 1
+	goto EndProcTran
+ END
+
+EndProcTran:
+	IF ( @@Error  <> 0 )
+	BEGIN	
+		rollback transaction
+		SET @return = -1
+		select @return
+	END 
+	ELSE
+	BEGIN
+		commit transaction
+		select @return
+	END
+	RETURN
+
+EndProc:
+	SET	XACT_ABORT OFF
+	Set	nocount off	
+	select @return
+	RETURN
+END
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMarkRankSelect]    Script Date: 20/12/2020 23:02:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**WZ_ArcaBattleMarkRankSelect***********************************************************
+
+TITLE		아르카 길드랭킹 반환
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+exec WZ_ArcaBattleMarkRankSelect 1
+INPUT		:
+            @G_Number		: 계정
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+    2012-01-30      유효열        처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE PROC [dbo].[WZ_ArcaBattleMarkRankSelect]
+	@G_Number		INT
+AS
+    SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+	
+	DECLARE @return int
+	DECLARE @GuildRegRank int
+
+	SET @return = 0  
+	SET @GuildRegRank = 0
+	 
+	IF NOT EXISTS ( SELECT G_Number FROM dbo.T_ARCA_BATTLE_GUILDMARK_REG WHERE G_Number =  @G_Number)  
+	BEGIN    -- 길드 정보가 없다면....
+		SELECT @return, @GuildRegRank
+		RETURN
+	END
+
+	DECLARE @Tbl_Rank TABLE 
+	(
+		mRank		INT IDENTITY(1,1) primary key,
+		G_Number	INT,
+		mMarkCnt	BIGINT
+	)
+	
+	INSERT INTO @Tbl_Rank (G_Number, mMarkCnt) 
+	SELECT G_Number, MarkCnt FROM dbo.T_ARCA_BATTLE_GUILDMARK_REG ORDER BY MarkCnt DESC, GuildRegRank ASC
+	
+	SELECT mRank, mMarkCnt  FROM @Tbl_Rank WHERE G_Number = @G_Number
+	
+	
+	RETURN
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMarkRegDel]    Script Date: 20/12/2020 23:02:50 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleMarkRegDel****************************************************
+
+TITLE		
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure  [dbo].[WZ_ArcaBattleMarkRegDel]
+ @G_Number int
+as       
+BEGIN  
+ DECLARE @return int
+ SET @return = 0  
+ Set  nocount on
+
+ begin transaction  
+
+ delete dbo.T_ARCA_BATTLE_GUILDMARK_REG WHERE G_Number =  @G_Number
+
+IF ( @@Error  <> 0 )
+ BEGIN	
+	rollback transaction
+	SET @return = -1
+	SELECT @return
+ END 
+ELSE
+ BEGIN
+	commit transaction
+	SELECT @return
+ END
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMemberSelect]    Script Date: 20/12/2020 23:03:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/*    
+아르카쟁 입장   
+    
+return     
+0: 이상없이 등록    
+11: 등록이안되어있다.,  
+*/    
+    
+CREATE  procedure [dbo].[WZ_ArcaBattleMemberSelect]  
+ @CharName varchar(10)  
+as         
+BEGIN      
+    
+ DECLARE @return int    
+ SET @return = 0      
+         
+ Set  nocount on    
+      
+IF NOT EXISTS ( SELECT CharName FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO WITH ( READUNCOMMITTED )           
+    WHERE CharName =  @CharName )      
+  BEGIN    -- 길드 정보가 없다면....    
+ SET  @return = 11    
+   END    
+    
+ SET XACT_ABORT OFF    
+ Set nocount off    
+     
+ SELECT @return    
+END    
+  
+  
+  
+
+
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMemberUnderSelect]    Script Date: 20/12/2020 23:03:30 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE  procedure [dbo].[WZ_ArcaBattleMemberUnderSelect]
+ @GuildName varchar(8)
+as         
+BEGIN      
+ 
+ Set  nocount on    
+
+ SELECT count (*) FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO WHERE G_Name = @GuildName
+
+ SET XACT_ABORT OFF    
+ Set nocount off    
+      
+END    
+
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMinGuildDelete]    Script Date: 20/12/2020 23:03:45 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE  procedure [dbo].[WZ_ArcaBattleMinGuildDelete]
+  @G_Name varchar(8)
+as     
+BEGIN
+
+ DECLARE @return int
+ SET @return = 0
+
+ Set  nocount on
+ begin transaction  
+
+ delete T_ARCA_BATTLE_GUILD_JOIN_INFO WHERE G_Name = @G_Name
+ delete T_ARCA_BATTLE_MEMBER_JOIN_INFO WHERE G_Name = @G_Name
+
+IF ( @@Error  <> 0 )
+ BEGIN	
+	rollback transaction
+	SET @return = -1
+	SELECT @return
+ END 
+ELSE
+ BEGIN
+	commit transaction
+	SELECT @return
+ END
+END
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleMinGuildSelect]    Script Date: 20/12/2020 23:04:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE  procedure [dbo].[WZ_ArcaBattleMinGuildSelect]
+ @G_Name varchar(8),
+ @nMinGuildMemCnt int
+as     
+BEGIN
+
+ DECLARE @return int
+ DECLARE @GuildNum int
+ DECLARE @GuildMemCnt int
+ SET @return = -1       
+
+ Set  nocount on
+
+ SELECT @GuildNum = Number FROM T_ARCA_BATTLE_MEMBER_JOIN_INFO WHERE G_Name = @G_Name
+ SET @GuildMemCnt = @@ROWCOUNT
+ IF( @GuildMemCnt < @nMinGuildMemCnt )
+ BEGIN
+   SELECT @return
+ END
+ELSE
+ BEGIN
+  -- SET  @return = @GuildNum
+   SELECT @GuildNum
+ END
+END
+
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleProcInsert]    Script Date: 20/12/2020 23:04:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/*
+아르카쟁 진행 상황 저장
+
+return 
+0: 이상없이 등록
+*/
+
+CREATE  procedure [dbo].[WZ_ArcaBattleProcInsert]
+ @nProcState tinyint
+as     
+BEGIN  
+
+ DECLARE @return int
+ SET @return = 0  
+ Set  nocount on
+
+IF NOT EXISTS ( SELECT Proc_State FROM T_ARCA_BATTLE_PROC_STATE WITH ( READUNCOMMITTED ) )  
+  BEGIN    -- 정보가 없다면....
+   begin transaction      
+  INSERT INTO T_ARCA_BATTLE_PROC_STATE (Proc_State) VALUES  ( @nProcState ) -- 길드 정보 등록
+   END
+ELSE -- 정보가 있다면
+ begin transaction      
+  UPDATE T_ARCA_BATTLE_PROC_STATE SET  Proc_State = @nProcState
+
+IF ( @@Error  <> 0 )
+ BEGIN	
+	rollback transaction
+	SET @return = -1
+	SELECT @return
+ END 
+ELSE
+ BEGIN
+	commit transaction
+	SELECT @return
+ END
+END
+
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleProcSelect]    Script Date: 20/12/2020 23:04:43 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+CREATE procedure [dbo].[WZ_ArcaBattleProcSelect]    
+
+as         
+BEGIN      
+      
+ SELECT Proc_State FROM T_ARCA_BATTLE_PROC_STATE
+    
+END    
+
+
+
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleTopRankSelect]    Script Date: 20/12/2020 23:04:59 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/**WZ_ArcaBattleTopRankSelect***********************************************************
+
+TITLE		아르카 랭킹 추가
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+exec WZ_ArcaBattleTopRankSelect
+
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+    2012-01-30      공후택        처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE proc [dbo].[WZ_ArcaBattleTopRankSelect]
+AS
+	SELECT top 6 G_Name, MarkCnt FROM dbo.T_ARCA_BATTLE_GUILDMARK_REG ORDER BY MarkCnt DESC, GuildRegRank ASC
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleWinGuildInsert]    Script Date: 20/12/2020 23:05:15 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/*    
+아르카쟁 우승 길드 정보 저장    
+    
+*/    
+    
+CREATE  procedure [dbo].[WZ_ArcaBattleWinGuildInsert]    
+ @GuildName varchar(8),        
+ @Number int,    
+ @nOuccupyObelisk tinyint,    
+ @nObeliskGroup tinyint,    
+ @nLeftTime bigint    
+    
+as         
+BEGIN      
+         
+ Set  nocount on    
+    
+ INSERT INTO T_ARCA_BATTLE_WIN_GUILD_INFO (G_Name, G_Number, WinDate, OuccupyObelisk, ObeliskGroup, LeftTime) VALUES         
+   (@GuildName, @Number, GetDate(), @nOuccupyObelisk,@nObeliskGroup,  @nLeftTime)    
+      
+ Set nocount off      
+    
+END
+
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_ArcaBattleWinGuildSelect]    Script Date: 20/12/2020 23:05:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE procedure [dbo].[WZ_ArcaBattleWinGuildSelect]    
+--@CharName varchar(10)
+as         
+BEGIN      
+      
+ SELECT G_Name, OuccupyObelisk, ObeliskGroup FROM T_ARCA_BATTLE_WIN_GUILD_INFO
+    
+END    
+
+
+
+
+GO
+
+
+/****** Object:  Table [dbo].[T_PartyMatching]    Script Date: 01/03/2022 20:55:24 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[T_PartyMatching](
+	[IdentNo] [bigint] IDENTITY(1,1) NOT NULL,
+	[PartyLeaderName] [varchar](10) NULL,
+	[Title] [varchar](40) NULL,
+	[MinLevel] [smallint] NULL,
+	[MaxLevel] [smallint] NULL,
+	[CurMemberCount] [tinyint] NULL,
+	[AcceptType] [tinyint] NULL,
+	[nEnergyFaryEssentials] [smallint] NULL,
+	[UsePassWord] [tinyint] NULL,
+	[PassWord] [varchar](4) NULL,
+	[LeaderChannel] [tinyint] NULL,
+	[GensType] [tinyint] NULL,
+	[LeaderLevel] [smallint] NULL,
+	[LeaderClass] [tinyint] NULL,
+	[RegDate] [datetime] NULL,
+ CONSTRAINT [PK_T_PartyMatching] PRIMARY KEY CLUSTERED 
+(
+	[IdentNo] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON, FILLFACTOR = 90) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+/****** Object:  Table [dbo].[T_WaitPartyMatching]    Script Date: 01/03/2022 20:54:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[T_WaitPartyMatching](
+	[IdentNo] [bigint] IDENTITY(1,1) NOT NULL,
+	[LeaderName] [varchar](10) NULL,
+	[MemberName] [varchar](10) NULL,
+	[Class] [tinyint] NULL,
+	[MemberLevel] [smallint] NULL,
+	[Energy] [smallint] NULL,
+	[MemberDBNumber] [int] NULL,
+	[RegDate] [datetime] NULL,
+ CONSTRAINT [PK_T_WaitPartyMatching] PRIMARY KEY CLUSTERED 
+(
+	[IdentNo] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON, FILLFACTOR = 90) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_DeleteAllPartyMatchingList]    Script Date: 01/03/2022 20:55:58 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_DeleteAllPartyMatchingList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_DeleteAllPartyMatchingList]
+as 
+BEGIN
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+       delete from dbo.T_PartyMatching
+       delete from dbo.T_WaitPartyMatching
+END
+
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_DeletePartyMatchingList]    Script Date: 01/03/2022 20:56:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_DeletePartyMatchingList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_DeletePartyMatchingList]
+   @PartyLeaderName varchar(10)
+as 
+BEGIN
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+      	delete dbo.T_PartyMatching where PartyLeaderName = @PartyLeaderName
+   
+END
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_DeleteWaitPartyMatchingList]    Script Date: 01/03/2022 20:56:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_DeleteWaitPartyMatchingList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_DeleteWaitPartyMatchingList]
+   @MemberName varchar(10)
+as 
+BEGIN
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+      	delete dbo.T_WaitPartyMatching where MemberName = @MemberName
+END
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingList]    Script Date: 01/03/2022 20:56:59 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_GetPartyMatchingList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+create procedure [dbo].[WZ_GetPartyMatchingList]
+   @page int,
+   @pageSize int
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	DECLARE @nTemp int, @nPageSize int
+       DECLARE @lastIdentNo int
+
+       set @nTemp = (((@page - 1) * @pageSize) + 1) 
+       set @nPageSize = @pageSize
+
+       set ROWCOUNT @nTemp
+
+       select @lastIdentNo = IdentNo from dbo.T_PartyMatching order by IdentNo desc
+
+       set ROWCOUNT @nPageSize
+  
+       select  
+	   IdentNo, PartyLeaderName, Title, MinLevel, MaxLevel,  CurMemberCount, AcceptType,nEnergyFaryEssentials, UsePassWord, 
+	   PassWord, LeaderChannel, GensType, LeaderLevel, LeaderClass, RegDate
+	   from dbo.T_PartyMatching where IdentNo <= @lastIdentNo 
+       order by IdentNo desc  
+    
+ end
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingListCount]    Script Date: 01/03/2022 20:57:16 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_GetPartyMatchingListCount***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE    PROCEDURE [dbo].[WZ_GetPartyMatchingListCount]
+AS
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+       select count(*) as Count  from dbo.T_PartyMatching
+	
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingListJoinAble]    Script Date: 01/03/2022 20:57:31 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_GetPartyMatchingListJoinAble***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_GetPartyMatchingListJoinAble]
+   @UserLevel smallint,
+   @Class tinyint,
+   @Gens tinyint,
+   @page int,
+   @pageSize int
+as 
+BEGIN
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+       DECLARE @nTemp int, @nPageSize int
+       DECLARE @lastIdentNo int
+
+      set @nTemp = (((@page - 1) * @pageSize) + 1) 
+       set @nPageSize = @pageSize
+
+       set ROWCOUNT @nTemp
+
+       select @lastIdentNo = IdentNo  from dbo.T_PartyMatching  where  MinLevel <= @UserLevel and (MaxLevel >= @UserLevel  or MaxLevel = 0)
+       and CurMemberCount < 5 
+       and UsePassWord = 0 
+       order by IdentNo desc
+
+       set ROWCOUNT @nPageSize
+  
+       select  
+	   IdentNo, PartyLeaderName, Title, MinLevel, MaxLevel, CurMemberCount, AcceptType,nEnergyFaryEssentials, UsePassWord, 
+	   PassWord, LeaderChannel, GensType, LeaderLevel, LeaderClass, RegDate
+	   from dbo.T_PartyMatching
+       where  MinLevel <= @UserLevel and (MaxLevel >= @UserLevel  or MaxLevel = 0)
+       and CurMemberCount < 5 and IdentNo <= @lastIdentNo 
+       and UsePassWord = 0 
+       order by IdentNo desc  
+SET NOCOUNT OFF
+    
+ end
+
+
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingListKeyword]    Script Date: 01/03/2022 20:57:47 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+
+/**dbo.WZ_GetPartyMatchingListKeyword***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_GetPartyMatchingListKeyword]
+   @page int,
+   @pageSize int,
+   @keyword varchar(10)
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	DECLARE @nTemp int, @nPageSize int
+       DECLARE @lastIdentNo int
+
+
+       set @nTemp = (((@page - 1) * @pageSize) + 1) 
+       set @nPageSize = @pageSize
+
+       set ROWCOUNT @nTemp
+
+       set @keyword = rtrim(replace(@keyword,' ',''))
+       set @keyword = '%' + @keyword + '%'
+
+       select @lastIdentNo = IdentNo from dbo.T_PartyMatching  where replace(Title,' ','')  like @keyword order by IdentNo desc
+
+       set ROWCOUNT @nPageSize
+  
+       select  
+	   IdentNo, PartyLeaderName, Title, MinLevel, MaxLevel, CurMemberCount, AcceptType,nEnergyFaryEssentials, UsePassWord, 
+	   PassWord, LeaderChannel, GensType, LeaderLevel, LeaderClass, RegDate
+	   from dbo.T_PartyMatching where IdentNo <= @lastIdentNo and replace(Title,' ','') like @keyword
+       order by IdentNo desc  
+    
+ end
+
+
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingWaitList]    Script Date: 01/03/2022 20:58:03 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+/**dbo.WZ_GetPartyMatchingWaitList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE    PROCEDURE [dbo].[WZ_GetPartyMatchingWaitList]
+   @Name	 varchar(10)
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	select top 1 LeaderName from dbo.T_WaitPartyMatching where MemberName = @Name
+   
+END
+
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingWaitListForLeader]    Script Date: 01/03/2022 20:58:17 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_GetPartyMatchingWaitListForLeader***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE    PROCEDURE [dbo].[WZ_GetPartyMatchingWaitListForLeader]
+   @Name	 varchar(10)
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	select top 80 MemberName, Class, MemberLevel from dbo.T_WaitPartyMatching where LeaderName = @Name
+   
+END
+
+
+
+GO
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_GetPartyMatchingWaitMemberInfo]    Script Date: 01/03/2022 20:58:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/****************************************************************
+TITLE    : 
+
+EX       : EXEC [WZ_GetPartyMatchingWaitMemberInfo] 
+
+PROJECT  : MU 
+
+REVERSION:
+-------------------------------------------------------------------
+DATE		Author		Description		
+-------------------------------------------------------------------	
+2015-07-30	정래희		최초생성
+-------------------------------------------------------------------	
+*****************************************************************/
+CREATE PROCEDURE [dbo].[WZ_GetPartyMatchingWaitMemberInfo]
+	@Name	VARCHAR(10)
+AS
+SET NOCOUNT ON
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+SELECT Class, MemberLevel 
+FROM dbo.T_WaitPartyMatching 
+WHERE MemberName = @Name
+
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[WZ_InsertPartyMatchingList]    Script Date: 01/03/2022 20:58:47 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+/**dbo.WZ_InsertPartyMatchingList***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_InsertPartyMatchingList]
+   @PartyLeaderName varchar(10),
+   @Title varchar(40),
+   @PassWord varchar(4),
+   @MinLevel	smallint,
+   @MaxLevel smallint,
+   @CurMemberCount tinyint,
+   @UsePassWord tinyint,
+   @AcceptType tinyint,
+   @LeaderChannel tinyint,
+   @GensType tinyint,
+   @LeaderLevel smallint,
+   @LeaderClass tinyint,
+   @nEnergyFaryEssentials smallint
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	--- 변수선언
+	DECLARE @aErrNo INT, 
+			@aRowCnt INT
+
+	--- 변수초기화
+	SELECT @aErrNo = 0, @aRowCnt = 0   -- 한줄에초기화
+
+
+	IF EXISTS (SELECT TOP 1 * FROM dbo.T_PartyMatching where PartyLeaderName = @PartyLeaderName)
+    BEGIN
+
+		BEGIN TRANSACTION
+		BEGIN
+
+			-- 재등록이 되는거기때문에 업데이트 대신 삭제후 추가한다.
+			delete T_PartyMatching where PartyLeaderName= @PartyLeaderName
+			SELECT @aErrNo = @@ERROR,  @aRowCnt = @@ROWCOUNT
+			IF  @aErrNo <> 0 OR @aRowCnt = 0
+			BEGIN
+				ROLLBACK TRAN
+				RETURN
+			END		
+
+			insert into dbo.T_PartyMatching(PartyLeaderName,Title,MinLevel,MaxLevel,CurMemberCount,PassWord,UsePassWord,AcceptType,nEnergyFaryEssentials
+			,LeaderChannel,GensType,  LeaderLevel ,LeaderClass,RegDate)
+			values(@PartyLeaderName,@Title,@MinLevel,@MaxLevel,@CurMemberCount,@PassWord,@UsePassWord,@AcceptType,@nEnergyFaryEssentials
+				,@LeaderChannel,@GensType, @LeaderLevel ,   @LeaderClass,GetDate())
+			SELECT @aErrNo = @@ERROR,  @aRowCnt = @@ROWCOUNT
+			IF  @aErrNo <> 0 OR @aRowCnt = 0
+			BEGIN
+				ROLLBACK TRAN
+				RETURN
+			END		
+
+		END
+		COMMIT TRANSACTION
+
+		select 1 as result
+
+    END
+    ELSE
+    BEGIN
+
+	insert into dbo.T_PartyMatching(PartyLeaderName,Title,MinLevel,MaxLevel,CurMemberCount,PassWord,UsePassWord,AcceptType,nEnergyFaryEssentials
+	,LeaderChannel,GensType,  LeaderLevel ,LeaderClass,RegDate)
+
+	values(@PartyLeaderName,@Title,@MinLevel,@MaxLevel,@CurMemberCount,@PassWord,@UsePassWord,@AcceptType,@nEnergyFaryEssentials
+		,@LeaderChannel,@GensType,   @LeaderLevel , @LeaderClass,GetDate())
+	select 0 as result
+
+    END
+       
+   
+END
+
+
+
+
+GO
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_InsertWaitPartyMatching]    Script Date: 01/03/2022 20:59:04 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_InsertWaitPartyMatching***********************************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE procedure [dbo].[WZ_InsertWaitPartyMatching]
+   @PartyLeaderName varchar(10),
+   @MemberName varchar(10),
+   @Class tinyint,
+   @MemberLevel smallint,
+   @MemberDBNumber int
+as 
+BEGIN
+
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+	IF EXISTS (SELECT TOP 1 * FROM T_WaitPartyMatching where MemberName = @MemberName)
+    BEGIN
+            select -1 as result
+
+    END
+    ELSE
+    BEGIN
+	insert into dbo.T_WaitPartyMatching(LeaderName,MemberName,Class,MemberLevel,MemberDBNumber,RegDate)
+	values(@PartyLeaderName,@MemberName,@Class,@MemberLevel,@MemberDBNumber,GetDate())
+        select 0 as result
+    END
+       
+END
+
+
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_UpdatePartyMatchingList]    Script Date: 01/03/2022 20:59:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+/****************************************************************
+TITLE    : 
+
+EX       : EXEC [WZ_UpdatePartyMatchingList] 
+
+PROJECT  : MU 
+
+REVERSION:
+-------------------------------------------------------------------
+DATE		Author		Description		
+-------------------------------------------------------------------	
+2015-07-30	정래희		최초생성
+-------------------------------------------------------------------	
+*****************************************************************/
+CREATE PROCEDURE [dbo].[WZ_UpdatePartyMatchingList]
+   @OldLeaderName varchar(10)
+   ,@NewLeaderName varchar(10)
+   ,@LeaderChannel tinyint
+   ,@LeaderLevel smallint
+   ,@LeaderClass tinyint
+AS 
+SET NOCOUNT ON
+
+UPDATE T_PartyMatching 
+SET 
+	PartyLeaderName = @NewLeaderName
+	,UsePassWord = 0
+	,PassWord = ''
+	,LeaderChannel = @LeaderChannel
+	,LeaderLevel = @LeaderLevel
+	,LeaderClass = @LeaderClass
+WHERE PartyLeaderName = @OldLeaderName
+
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[WZ_UpdatePartyMatchingMemberCount]    Script Date: 01/03/2022 20:59:44 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/**dbo.WZ_UpdatePartyMatchingMemberCount**************************************
+TITLE	 : 
+Project  : 
+CALL     : 
+DATABASE : 
+TABLES   : 
+EX       :
+INPUT		:
+OUTPUT		: 
+REVERSION
+------------------------------------------------------
+    Date            Author          Description
+------------------------------------------------------
+	2012-10-23	김대원			처음작성
+------------------------------------------------------
+*****************************************************************************/
+CREATE    PROCEDURE [dbo].[WZ_UpdatePartyMatchingMemberCount]
+   @LeaderName	 varchar(10),
+   @MemberCount tinyint
+as 
+BEGIN
+	SET NOCOUNT ON
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+     UPDATE dbo.T_PartyMatching SET CurMemberCount = @MemberCount where PartyLeaderName = @LeaderName
+   
+END
+
+
+
+GO
+
+
+CREATE    PROCEDURE [dbo].[WZ_DevilSquareFinal_RenewPartyRank]
+   @None	 SMALLINT,
+   @None1 DATETIME,
+   @None2 DATETIME,
+   @None3 DATETIME
+
+as 
+BEGIN
+pass
+END
+
+GO
+
+CREATE TABLE [dbo].[T_ARCA_BATTLE_PROC_STATE](
+	[Proc_State] [tinyint] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+INSERT [dbo].[T_ARCA_BATTLE_PROC_STATE] ([Proc_State]) VALUES (1)
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[BattleCoreGetUserInfo]    Script Date: 01/30/2020 18:01:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[BattleCoreGetUserInfo]
+	@AccountID varchar(10),
+	@Name varchar(10),
+	@ServerCode int,
+	@IsUBFServer int
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (@IsUBFServer = 1) -- Battle Core GS
+	BEGIN
+		IF EXISTS (SELECT * FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND Name = @Name)
+		BEGIN
+			SELECT 1 AS Result, RegisterState, RegisterMonth, RegisterDay FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND Name = @Name
+			RETURN
+		END
+		ELSE
+		BEGIN
+			SELECT 0 AS Result
+			RETURN
+		END
+	END
+	ELSE IF (@IsUBFServer = 0) -- Normal GS
+	BEGIN
+		IF EXISTS (SELECT * FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND UBFName = @Name AND ServerCode = @ServerCode)
+		BEGIN
+			SELECT 1 AS Result, RegisterState, RegisterMonth, RegisterDay FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND UBFName = @Name AND ServerCode = @ServerCode
+			RETURN
+		END
+		ELSE
+		BEGIN
+			SELECT 0 AS Result
+			RETURN
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT 0 AS Result
+		RETURN
+	END			
+END
+
+GO
+
+CREATE PROCEDURE [dbo].[WZ_GuildMemberBuffDelete]
+	@BuffIndex	int
+AS BEGIN
+	DECLARE @ErrorCode int
+
+	SET @ErrorCode = 0
+
+	SET nocount on
+
+	DELETE T_PeriodBuffInfo WHERE BuffIndex = @BuffIndex
+
+	IF ( @@Error <> 0 ) BEGIN
+		SET @ErrorCode = -1
+	END
+
+	SELECT @ErrorCode
+
+	SET nocount off
+END
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[T_ARCA_BATTLE_GUILD_JOIN_INFO](
+	[G_Name] [varchar](8) NOT NULL,
+	[G_Master] [varchar](10) NOT NULL,
+	[Number] [int] NOT NULL,
+	[JoinDate] [smalldatetime] NULL,
+	[GroupNum] [tinyint] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드이름' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILD_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'G_Name'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드 마스터' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILD_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'G_Master'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'길드번호' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILD_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'Number'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'요청날짜' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILD_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'JoinDate'
+GO
+
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'등록길드번호' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'T_ARCA_BATTLE_GUILD_JOIN_INFO', @level2type=N'COLUMN',@level2name=N'GroupNum'
+GO
+
+
+DROP PROCEDURE [dbo].[BattleCoreJoinUser]
+
+/****** Object:  StoredProcedure [dbo].[BattleCoreJoinUser]    Script Date: 07/28/2017 23:54:59 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [dbo].[BattleCoreJoinUser]
+	@AccountID varchar(10),
+	@Name varchar(10),
+	@UBFName varchar(10),
+	@ServerCode int,
+	@RegisterState int,
+	@RegisterMonth int,
+	@RegisterDay int
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF ((SELECT COUNT (*) FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND RegisterState = 1) >= 2)
+	BEGIN
+		SELECT 4 AS Result
+		RETURN
+	END
+
+	IF EXISTS (SELECT * FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND UBFName = @UBFName AND ServerCode = @ServerCode AND RegisterState = 1)
+	BEGIN
+		SELECT 2 AS Result
+		RETURN
+	END
+
+	IF EXISTS (SELECT * FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND UBFName = @UBFName AND ServerCode = @ServerCode AND RegisterState = 0)
+	BEGIN
+		DECLARE @LeftTime smalldatetime
+		SELECT @LeftTime = LeftTime FROM [BattleCore].[dbo].BattleCoreInfo WHERE AccountID = @AccountID AND UBFName = @UBFName AND ServerCode = @ServerCode AND RegisterState = 0
+
+		IF (DATEDIFF(SECOND, @LeftTime, GETDATE()) < 180)
+		BEGIN
+			SELECT 3 AS Result, (180 - DATEDIFF(SECOND, @LeftTime, GETDATE())) AS LeftSecond
+			RETURN
+		END
+		ELSE
+		BEGIN
+			UPDATE [BattleCore].[dbo].BattleCoreInfo SET RegisterState = 1, RegisterMonth = @RegisterMonth, RegisterDay = @RegisterDay WHERE AccountID = @AccountID AND UBFName = @UBFName AND ServerCode = @ServerCode
+			SELECT 1 AS Result
+			RETURN
+		END
+	END
+	ELSE
+	BEGIN
+
+		DECLARE @FreeKeyName int
+		SET @FreeKeyName = 0
+		
+		WHILE (1 = 1)
+		BEGIN
+		
+			SET @FreeKeyName = ROUND(((2000000000 - 1 -1) * RAND() + 1), 0)
+			IF NOT EXISTS (SELECT * FROM [BattleCore].[dbo].BattleCoreInfo WHERE Name = @FreeKeyName)
+			BEGIN
+				BREAK
+			END
+		END
+ 
+		INSERT INTO [BattleCore].[dbo].BattleCoreInfo (AccountID, Name, UBFName, ServerCode, RegisterState, RegisterMonth, RegisterDay, LeftTime) 
+		
+		VALUES (@AccountID, @FreeKeyName, @UBFName, @ServerCode, 1, @RegisterMonth, @RegisterDay, NULL)
+
+
+
+		INSERT INTO [BattleCore].[dbo].AccountCharacter(Id, GameID1, GameID2, GameID3, GameID4, GameID5, GameIDC, MoveCnt,ExtClass, ExtWarehouse) 
+		
+		VALUES (@AccountID, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 1)
+
+
+
+
+		SELECT 0 AS Result
+	END
+		RETURN
+END
+
+GO
+
+
+
+/****** Object:  Table [dbo].[ItemCompensationLevel]    Script Date: 17/8/2022 19:30:07 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[ItemCompensationLevel](
+	[Account] [varchar](10) NULL,
+	[Name] [varchar](10) NULL,
+	[rewardID] [int] NULL,
+	[rewardIndex] [int] NULL,
+	[rewardDate] [smalldatetime] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
 GO

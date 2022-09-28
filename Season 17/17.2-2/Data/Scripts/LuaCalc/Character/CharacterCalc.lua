@@ -6,7 +6,7 @@ murequire("Define.lua")
 -- SetFloat(_Var)
 -- GetIsItem(lpItem)
 
-function CharacterCalcBasicDamage(aIndex)
+function CharacterCalcBasicDamage(aIndex,mode)
 
 	local Class = GetObjectClass(aIndex);
 	
@@ -51,7 +51,7 @@ function CharacterCalcBasicDamage(aIndex)
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
 	elseif(Class == CLASS_DK) then
 	
-		if(CheckEffectGroup(aIndex,EFFECT_GROUP_STRONG_CONVICTION) ~= 0) then
+		if(CheckEffectGroup(aIndex,EFFECT_GROUP_STRONG_CONVICTION) ~= 0 and mode == 0) then
 			PhysiDamageMin = Strength / 9--[[old GCMagicDamageMinConstA ]];
 			
 			PhysiDamageMax = Strength / 6--[[old GCMagicDamageMaxConstA ]];
@@ -130,17 +130,30 @@ function CharacterCalcBasicDamage(aIndex)
 	
 	elseif(Class == CLASS_SU) then
 	
-		PhysiDamageMin = (Strength + Dexterity) / 8--[[old SUPhysiDamageMinConstA]]
+		PhysiDamageMin = (Strength + Dexterity) / 7--[[old SUPhysiDamageMinConstA]]
 
 		PhysiDamageMax = (Strength + Dexterity) / 4--[[old SUPhysiDamageMaxConstA]]
+
+		if(CheckEffectGroup(aIndex,EFFECT_GROUP_DARKNESS) ~= 0 and mode == 0) then	-- original formula
 		
-		MagicDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
+			MagicDamageMin = Energy / 18--[[old SUMagicDamageMinConstA]];
+			
+			MagicDamageMax = Energy / 10--[[old SUMagicDamageMaxConstA]];
+			
+			CurseDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
+			
+			CurseDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
 		
-		MagicDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
+		else
 		
-		CurseDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
-		
-		CurseDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
+			MagicDamageMin = Energy / 9--[[old SUMagicDamageMinConstA]];
+			
+			MagicDamageMax = Energy / 4--[[old SUMagicDamageMaxConstA]];
+			
+			CurseDamageMin = Energy / 18--[[old SUMagicDamageMinConstA]];
+			
+			CurseDamageMax = Energy / 10--[[old SUMagicDamageMaxConstA]];
+		end
 		
 		--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
 	

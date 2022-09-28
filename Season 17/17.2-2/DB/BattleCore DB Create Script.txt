@@ -1654,3 +1654,33 @@ GO
 /****** Object:  Default [DF__AccountCh__ExtWa__2DF1BF10]    Script Date: 07/18/2021 15:25:59 ******/
 ALTER TABLE [dbo].[AccountCharacter] ADD  DEFAULT ((0)) FOR [ExtWarehouse]
 GO
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[BattleCoreInfo](
+	[AccountID] [varchar](10) NOT NULL,
+	[Name] [varchar](10) NOT NULL,
+	[UBFName] [varchar](10) NOT NULL,
+	[ServerCode] [int] NOT NULL,
+	[RegisterState] [int] NOT NULL,
+	[RegisterMonth] [int] NOT NULL,
+	[RegisterDay] [int] NOT NULL,
+	[LeftTime] [smalldatetime] NULL,
+	[Observer] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
