@@ -10,6 +10,7 @@ Mining=Mining.txt
 HuntingRecord=HuntingRecord.txt
 ScoreBoard=ScoreRanking.txt
 InstanceSystemInfo=InstanceSystem.txt
+
 ;==================================================
 ; CashShop Settings
 ;==================================================
@@ -28,6 +29,7 @@ StatsSpecialize = Character\\StatsSpecialize.txt
 PlayGuide=Character\\PlayGuide.txt
 MuHelperPlus=Character\\MuHelperPlus.xml
 ItemCompensationLevel=Character\\ItemCompensationLevel.xml
+CharacterSkillInit=Character\\CharacterSkillInit.xml
 
 ;==================================================
 ; Custom Settings
@@ -161,6 +163,8 @@ ErrtelMastery=Item\\Pentagram - Settings\\ErrtelMastery.xml
 MonsterDropManager=Item\\MonsterDropManager\\
 ItemEquipment=Item\\ItemEquipment.xml
 RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
+ArchangelUpgrade=Item\\ArchangelUpgrade - Setting\\ArchangelUpgradeMix.xml
+
 
 ;==================================================
 ; Lang Settings

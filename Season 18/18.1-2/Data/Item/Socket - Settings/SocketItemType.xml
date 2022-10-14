@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!-- OMEGA Update 04/Out/2022 (S18) -->
 <SocketItemType>
-	<!-- Swords -->
+	<!-- Swords/Claws/ShortSwords/Blades -->
 	<Item Section="0" Type="26" MaxSocket="3" /> <!-- Flameberge -->
 	<Item Section="0" Type="27" MaxSocket="3" /> <!-- Sword Breaker -->
 	<Item Section="0" Type="28" MaxSocket="3" /> <!-- Rune Bastard Sword -->
@@ -13,25 +13,27 @@
 	<Item Section="0" Type="53" MaxSocket="3" /> <!-- Devast Claws -->
 	<Item Section="0" Type="69" MaxSocket="3" /> <!-- Paring Short Sword -->
 	<Item Section="0" Type="70" MaxSocket="3" /> <!-- Novacula Short Sword -->
-	<!-- Maces -->
+	<Item Section="0" Type="103" MaxSocket="3" /> <!-- Dragon Blade -->
+	<Item Section="0" Type="104" MaxSocket="3" /> <!-- Blood Blade -->
+	<!-- Maces/Scepters -->
 	<Item Section="2" Type="16" MaxSocket="3" /> <!-- Frost Mace -->
 	<Item Section="2" Type="17" MaxSocket="3" /> <!-- Absolute Scepter -->
 	<Item Section="2" Type="19" MaxSocket="3" /> <!-- Striker Scepter -->
 	<Item Section="2" Type="20" MaxSocket="3" /> <!-- Horn of Steal -->
 	<Item Section="2" Type="30" MaxSocket="3" /> <!-- Frost Rune Mace -->
 	<Item Section="2" Type="31" MaxSocket="3" /> <!-- Light Lord Runic Mace -->
-	<!-- lances -->
+	<!-- Lances -->
 	<Item Section="3" Type="12" MaxSocket="3" /> <!-- Magmus Peer -->
 	<Item Section="3" Type="22" MaxSocket="3" /> <!-- Rectuus Lance -->
 	<Item Section="3" Type="23" MaxSocket="3" /> <!-- Russell Light Lance -->
-	<!-- Bows - Guns -->
+	<!-- Bows/Guns -->
 	<Item Section="4" Type="23" MaxSocket="3" /> <!-- Dark Stinger -->
 	<Item Section="4" Type="25" MaxSocket="3" /> <!-- Angelic Bow -->
 	<Item Section="4" Type="26" MaxSocket="3" /> <!-- Devil Crossbow -->
 	<Item Section="4" Type="33" MaxSocket="3" /> <!-- Devilwood Quiver -->
 	<Item Section="4" Type="44" MaxSocket="3" /> <!-- Weiwen Magic Gun -->
 	<Item Section="4" Type="45" MaxSocket="3" /> <!-- Cannon Magic Gun -->
-	<!-- Staffs - Sticks -->
+	<!-- Staffs/Sticks/Books/Orbs -->
 	<Item Section="5" Type="20" MaxSocket="3" /> <!-- Eternal Wing Stick -->
 	<Item Section="5" Type="30" MaxSocket="3" /> <!-- Deadly Staff -->
 	<Item Section="5" Type="31" MaxSocket="3" /> <!-- Inberial Staff -->
@@ -77,12 +79,14 @@
 	<Item Section="7" Type="149" MaxSocket="3" /> <!-- Constant Helm -->
 	<Item Section="7" Type="178" MaxSocket="3" /> <!-- Fidelity Helm -->
 	<Item Section="7" Type="179" MaxSocket="3" /> <!-- Trace Helm -->
-	<Item Section="7" Type="210" MaxSocket="3" /> <!-- Titan Gunner Helmet -->
-	<Item Section="7" Type="211" MaxSocket="3" /> <!-- Lazy Wind Gunner Helmet -->
-	<Item Section="7" Type="239" MaxSocket="3" /> <!-- Bright Helmet -->
-	<Item Section="7" Type="240" MaxSocket="3" /> <!-- Darjeeling Helmet -->
-	<Item Section="7" Type="257" MaxSocket="3" /> <!-- Fines Helmet -->
-	<Item Section="7" Type="258" MaxSocket="3" /> <!-- Geist Helmet -->
+	<Item Section="7" Type="210" MaxSocket="3" /> <!-- Titan Gunner Helm -->
+	<Item Section="7" Type="211" MaxSocket="3" /> <!-- Lazy Wind Gunner Helm -->
+	<Item Section="7" Type="239" MaxSocket="3" /> <!-- Bright Helm -->
+	<Item Section="7" Type="240" MaxSocket="3" /> <!-- Darjeeling Helm -->
+	<Item Section="7" Type="257" MaxSocket="3" /> <!-- Fines Helm -->
+	<Item Section="7" Type="258" MaxSocket="3" /> <!-- Geist Helm -->
+	<Item Section="7" Type="304" MaxSocket="3" /> <!-- Primal Helm -->
+	<Item Section="7" Type="305" MaxSocket="3" /> <!-- Apex Helm -->
 	<!-- Armors -->
 	<Item Section="8" Type="44" MaxSocket="3" /> <!-- Eternal Wing Armor -->
 	<Item Section="8" Type="45" MaxSocket="3" /> <!-- Titan  Armor -->
@@ -116,6 +120,8 @@
 	<Item Section="8" Type="240" MaxSocket="3" /> <!-- Darjeeling Armor -->
 	<Item Section="8" Type="257" MaxSocket="3" /> <!-- Fines Armor -->
 	<Item Section="8" Type="258" MaxSocket="3" /> <!-- Geist Armor -->
+	<Item Section="8" Type="304" MaxSocket="3" /> <!-- Primal Armor -->
+	<Item Section="8" Type="305" MaxSocket="3" /> <!-- Apex Armor -->
 	<!-- Pants -->
 	<Item Section="9" Type="44" MaxSocket="3" />  <!-- Eternal Wing Pants -->
 	<Item Section="9" Type="45" MaxSocket="3" />  <!-- Titan  Pants -->
@@ -149,6 +155,8 @@
 	<Item Section="9" Type="240" MaxSocket="3" /> <!-- Darjeeling Pants -->
 	<Item Section="9" Type="257" MaxSocket="3" />  <!-- Fines Pants -->
 	<Item Section="9" Type="258" MaxSocket="3" />  <!-- Geist Pants -->
+	<Item Section="9" Type="304" MaxSocket="3" /> <!-- Primal Pants -->
+	<Item Section="9" Type="305" MaxSocket="3" /> <!-- Apex Pants -->
 	<!-- Gloves -->
 	<Item Section="10" Type="44" MaxSocket="3" /> <!-- Eternal Wing Gloves -->
 	<Item Section="10" Type="45" MaxSocket="3" /> <!-- Titan  Gloves -->
@@ -180,6 +188,9 @@
 	<Item Section="10" Type="240" MaxSocket="3" /> <!-- Darjeeling Pants -->
 	<Item Section="10" Type="257" MaxSocket="3" />  <!-- Fines Gloves -->
 	<Item Section="10" Type="258" MaxSocket="3" />  <!-- Geist Gloves -->
+	<Item Section="10" Type="304" MaxSocket="3" /> <!-- Primal Gloves -->
+	<Item Section="10" Type="305" MaxSocket="3" /> <!-- Apex Gloves -->
+	
 	<!-- Boots -->
 	<Item Section="11" Type="44" MaxSocket="3" /> <!-- Eternal Wing Boots -->
 	<Item Section="11" Type="45" MaxSocket="3" /> <!-- Titan  Boots -->
@@ -213,6 +224,8 @@
 	<Item Section="11" Type="240" MaxSocket="3" /> <!-- Darjeeling Boots -->
 	<Item Section="11" Type="257" MaxSocket="3" />  <!-- Fines Boots -->
 	<Item Section="11" Type="258" MaxSocket="3" />  <!-- Geist Boots -->
+	<Item Section="11" Type="304" MaxSocket="3" /> <!-- Primal Boots -->
+	<Item Section="11" Type="305" MaxSocket="3" /> <!-- Apex Boots -->
 	<!-- Necklace -->
 	<Item Section="20" Type="39" MaxSocket="3" /> <!-- Jasper necklace -->
 	<Item Section="20" Type="40" MaxSocket="3" /> <!-- Lapis lazuli necklace -->

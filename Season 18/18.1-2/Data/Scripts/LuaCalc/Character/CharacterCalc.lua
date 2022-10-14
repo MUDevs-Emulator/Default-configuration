@@ -307,7 +307,7 @@ function CharacterCalcBasicDamage(aIndex,mode)
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] Class Unk :%d', Class))
 	end
 	
-	--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d ', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax))
+	--LogAdd(LOG_RED,string.format('[CharacterCalcBasicDamage] #1 PhysiDamageMin:%d - PhysiDamageMax:%d - | MagicDamageMin:%d - MagicDamageMax:%d | DamageMultiplierRate0:%d', PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,DamageMultiplierRate0))
 		
 	return PhysiDamageMin,PhysiDamageMax,MagicDamageMin,MagicDamageMax,CurseDamageMin,CurseDamageMax,DamageMultiplierRate0,DamageMultiplierRate1,DamageMultiplierRate2
 end
@@ -430,9 +430,9 @@ function CharacterCalcBasicAttackSpeed(aIndex)
 	elseif(Class == CLASS_LM) then
 		PhysiSpeed = Dexterity / 4
 		MagicSpeed = Dexterity / 10
-	elseif(Class == CLASS_IK) then	-- SON PUESTAS ASI NOMAS, NECESITAMOS LA FORMULA ORIGINAL
-		PhysiSpeed = Dexterity / 15
-		MagicSpeed = Dexterity / 20
+	elseif(Class == CLASS_IK) then
+		PhysiSpeed = Dexterity / 10
+		MagicSpeed = Dexterity / 15
 	else
 		LogAdd(LOG_RED,string.format('[CharacterCalcBasicAttackSpeed] Class Unk :%d', Class))
 	end

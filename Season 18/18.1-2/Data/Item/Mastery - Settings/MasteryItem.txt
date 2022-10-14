@@ -51,7 +51,13 @@
 93        0       4       //Blue Eye Magic Two Hand Sword
 94        0       5       //Silver Heart Magic Two Hand Sword
 95		  0		  6		  //Manticore Magic Two-Handed Sword
-105       0       0       //Bloodangel Blade S18.1-1
+105       0       0       //Bloodangel Blade
+106       0       1       //Darkangel Blade
+107       0       2       //Holyangel Blade
+108       0       3       //Soul Blade
+109       0       4       //Blue Eye Blade
+110       0       5       //Silver Heart Blade
+111       0       6       //Manticore Blade
 1046      0       0       //Blood Angel Scepter
 1050      0       1       //Dark Angel Scepter
 1051      0       2       //Holy Angel Scepter
@@ -258,7 +264,14 @@
 3865	  1		  7		  //Brilliant Slayer Helm				
 3866	  1		  7		  //Brilliant Knight Helm [Belief]		
 3867	  1		  7		  //Brilliant Gunner Helm
-3890      1       0       //Bloodangel Illusion Knight Helm S18.1-1			
+3890      1       0       //Bloodangel Illusion Knight Helm
+3891      1       1       //Darkangel Illusion Knight Helm
+3892      1       2       //Holyangel Illusion Knight Helm
+3893      1       3       //Soul Illusion Knight Helm
+3894      1       4       //Blue Eye Illusion Knight Helm
+3895      1       5       //Silver Heart Illusion Knight Helm
+3896      1       6       //Manticore Illusion Knight Helm
+3897      1       7       //Brilliant Illusion Knight Helm
 //=======================================================================
 4194      1       0       //Blood Angel Knight Armor
 4195      1       0       //Blood Angel Wizard Armor
@@ -388,7 +401,14 @@
 4377	  1		  7		  //Brilliant Slayer Armor				
 4378	  1		  7		  //Brilliant Knight Armor [Belief]		
 4379	  1		  7		  //Brilliant Gunner Armor
-4402      1       0       //Bloodangel Illusion Knight Armor S18.1-1							
+4402      1       0       //Bloodangel Illusion Knight Armor
+4403      1       1       //Darkangel Illusion Knight Armor
+4404      1       2       //Holyangel Illusion Knight Armor
+4405      1       3       //Soul Illusion Knight Armor
+4406      1       4       //Blue Eye Illusion Knight Armor
+4407      1       5       //Silver Heart Illusion Knight Armor
+4408      1       6       //Manticore Illusion Knight Armor
+4409      1       7       //Brilliant Illusion Knight Armor									
 //=======================================================================
 4706      1       0       //Blood Angel Knight Pants
 4707      1       0       //Blood Angel Wizard Pants
@@ -518,7 +538,14 @@
 4889	  1		  7		  //Brilliant Slayer Pants				
 4890	  1		  7		  //Brilliant Knight Pants [Belief]		
 4891	  1		  7		  //Brilliant Gunner Pants
-4914      1       0       //Bloodangel Illusion Knight Pants S18.1-1				
+4914      1       0       //Bloodangel Illusion Knight Pants
+4915      1       1       //Darkangel Illusion Knight Pants
+4916      1       2       //Holyangel Illusion Knight Pants
+4917      1       3       //Soul Illusion Knight Pants
+4918      1       4       //Blue Eye Illusion Knight Pants
+4919      1       5       //Silver Heart Illusion Knight Pants
+4920      1       6       //Manticore Illusion Knight Pants
+4921      1       7       //Brilliant Illusion Knight Pants					
 //=======================================================================
 5218      1       0       //Blood Angel Knight Gloves
 5219      1       0       //Blood Angel Wizard Gloves
@@ -640,7 +667,14 @@
 5401	  1		  7		  //Brilliant Slayer Gloves				
 5402	  1		  7		  //Brilliant Knight Gloves [Belief]	
 5403	  1		  7		  //Brilliant Gunner Gloves
-5426      1       0       //Bloodangel Illusion Knight Gloves S18.1-1								
+5426      1       0       //Bloodangel Illusion Knight Gloves
+5427      1       1       //Darkangel Illusion Knight Gloves
+5428      1       2       //Holyangel Illusion Knight Gloves
+5429      1       3       //Soul Illusion Knight Gloves
+5430      1       4       //Blue Eye Illusion Knight Gloves
+5431      1       5       //Silver Heart Illusion Knight Gloves
+5432      1       6       //Manticore Illusion Knight Gloves
+5433      1       7       //Brilliant Illusion Knight Gloves								
 //=======================================================================
 5730      1       0       //Blood Angel Knight Boots
 5731      1       0       //Blood Angel Wizard Boots
@@ -770,5 +804,12 @@
 5913	  1		  7		  //Brilliant Slayer Boots				
 5914	  1		  7		  //Brilliant Knight Boots [Belief]		
 5915	  1		  7		  //Brilliant Gunner Boots
-5938      1       0       //Bloodangel Illusion Knight Boots S18.1-1					
+5938      1       0       //Bloodangel Illusion Knight Boots
+5939      1       1       //Darkangel Illusion Knight Boots
+5940      1       2       //Holyangel Illusion Knight Boots
+5941      1       3       //Soul Illusion Knight Boots
+5942      1       4       //Blue Eye Illusion Knight Boots
+5943      1       5       //Silver Heart Illusion Knight Boots
+5944      1       6       //Manticore Illusion Knight Boots
+5945      1       7       //Brilliant Illusion Knight Boots			
 end
