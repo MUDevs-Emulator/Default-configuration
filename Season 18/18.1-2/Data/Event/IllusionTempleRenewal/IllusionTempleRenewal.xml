@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ### IllusionTempleRenewal ###
+//
+// ### IllusionTempleRenewal::Time ###
+//	StartIn: Announcement appearance, time to start the event (minutes)
+//	WaitingArea: Waiting time inside the Temple (minutes)
+//	Duration: Duration of the event (minutes)
+//	TownSpawn: Waiting time after event end before moving to town (minutes)
+//
+// ### IllusionTempleRenewal::EventSchedule::Start ###
+//	Hour: Event Start Hour (0-23)
+//	Minute: Event Start Minute (0-60)
+//
+// ### IllusionTempleRenewal::EntryLevel::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<IllusionTempleRenewal>
+	<Time StartIn="5" WaitingArea="1" Duration="15" TownSpawn="1" />
+
+	<EventSchedule>
+		<Start Hour="0" Minute="0" />
+	</EventSchedule>
+</IllusionTempleRenewal>

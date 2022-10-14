@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="577" Range="0" PositionX="121" PositionY="102" Direction="3" Element="0" /> <!-- "Leina the General Goods Merchan" -->
+		<Config Class="578" Range="0" PositionX="117" PositionY="126" Direction="3" Element="0" /> <!-- "Weapons Merchant Bolo" -->
+		<Config Class="240" Range="0" PositionX="123" PositionY="132" Direction="2" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="122" PositionY="96" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="157" PositionY="127" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="569" Range="30" PositionX="129" PositionY="59" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="127" PositionY="66" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="136" PositionY="65" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="139" PositionY="73" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="148" PositionY="81" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="166" PositionY="66" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="183" PositionY="43" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="194" PositionY="42" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="189" PositionY="72" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="179" PositionY="89" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="192" PositionY="109" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="183" PositionY="122" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="207" PositionY="110" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="213" PositionY="97" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="209" PositionY="89" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="185" PositionY="100" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="175" PositionY="116" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="152" PositionY="70" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="214" PositionY="34" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="226" PositionY="103" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="191" PositionY="157" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="172" PositionY="156" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="209" PositionY="170" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="163" PositionY="178" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="131" PositionY="164" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="112" PositionY="184" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="99" PositionY="177" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="93" PositionY="185" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="79" PositionY="175" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="62" PositionY="123" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="91" PositionY="72" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="89" PositionY="67" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="72" PositionY="131" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="89" PositionY="118" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="569" Range="30" PositionX="108" PositionY="193" Direction="-1" Element="0" /> <!-- "Venomous Chain Scorpion" -->
+		<Config Class="570" Range="30" PositionX="132" PositionY="67" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="167" PositionY="48" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="158" PositionY="75" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="174" PositionY="57" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="180" PositionY="47" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="191" PositionY="35" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="207" PositionY="38" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="201" PositionY="31" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="198" PositionY="63" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="188" PositionY="63" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="184" PositionY="114" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="204" PositionY="104" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="201" PositionY="94" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="226" PositionY="111" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="183" PositionY="162" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="176" PositionY="181" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="146" PositionY="165" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="102" PositionY="188" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="98" PositionY="188" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="93" PositionY="169" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="109" PositionY="176" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="139" PositionY="156" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="161" PositionY="174" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="161" PositionY="159" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="210" PositionY="188" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="219" PositionY="172" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="230" PositionY="162" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="223" PositionY="162" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="225" PositionY="168" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="182" PositionY="175" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="193" PositionY="192" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="165" PositionY="92" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="173" PositionY="86" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="120" PositionY="180" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="127" PositionY="167" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="71" PositionY="126" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="66" PositionY="117" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="86" PositionY="86" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="92" PositionY="77" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="95" PositionY="69" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="88" PositionY="176" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="154" PositionY="167" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="571" Range="30" PositionX="181" PositionY="189" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="187" PositionY="181" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="202" PositionY="155" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="81" PositionY="127" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="93" PositionY="112" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="183" PositionY="53" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="206" PositionY="34" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="180" PositionY="102" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="200" PositionY="166" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="571" Range="30" PositionX="207" PositionY="182" Direction="-1" Element="0" /> <!-- "Orcus" -->
+		<Config Class="573" Range="30" PositionX="39" PositionY="186" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="33" PositionY="162" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="36" PositionY="137" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="48" PositionY="153" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="63" PositionY="167" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="44" PositionY="90" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="35" PositionY="70" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="42" PositionY="56" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="51" PositionY="66" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="43" PositionY="83" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="58" PositionY="68" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="29" PositionY="144" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="41" PositionY="180" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="38" PositionY="167" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="42" PositionY="105" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="38" PositionY="132" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="44" PositionY="148" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="573" Range="30" PositionX="57" PositionY="178" Direction="-1" Element="0" /> <!-- "Crypta" -->
+		<Config Class="574" Range="30" PositionX="40" PositionY="74" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="49" PositionY="58" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="36" PositionY="85" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="29" PositionY="151" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="38" PositionY="143" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="55" PositionY="160" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="29" PositionY="157" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="44" PositionY="160" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="38" PositionY="173" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="36" PositionY="88" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="53" PositionY="70" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="41" PositionY="96" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="574" Range="30" PositionX="32" PositionY="133" Direction="-1" Element="0" /> <!-- "Crypos" -->
+		<Config Class="570" Range="30" PositionX="163" PositionY="54" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="169" PositionY="70" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="170" PositionY="63" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="198" PositionY="100" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+		<Config Class="570" Range="30" PositionX="215" PositionY="103" Direction="-1" Element="0" /> <!-- "Bone Scorpion" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shop>
+	<TabInfo Index="1">
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+	</TabInfo>
+	<TabInfo Index="2">
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+		<Item Section="0" Type="15" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" Name=""  />
+	</TabInfo>
+	
+</Shop>

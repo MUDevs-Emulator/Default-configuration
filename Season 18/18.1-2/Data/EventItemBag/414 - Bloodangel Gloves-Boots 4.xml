@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By MuDevastation
+// ============================================================
+//
+//~~ 
+-->
+<!--
+20th anniversary  event
+20	68	"You can get a fixed-term wing that suits your level and job."	
+20	69	"You can get the Earring of Anger (left) item."
+20	70	"You can get the Earring of Anger (right) item."	
+20	71	"You can acquire ghost horse items."	
+20	72	"You can acquire the Blood Angel Helmet set item.<br>(In the case of a magic swordsman, obtain a armor item)"	
+20	73	"You can acquire Blood Angel Armor set items."	
+20	74	"You can acquire the Blood Angel Pants set item."	
+20	75	"You can acquire Blood Angel Boots or Gloves set items."	
+20	76	"You can acquire blood angel weapon items."	
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="0" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="7" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="8" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="9" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="10" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="11" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="12" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="13" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="14" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="15" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0"/>
+		<DropInfo Index="0" Section="16" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1"/>
+		<DropInfo Index="1" Section="5" SectionRate="0" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="0" RuudMax="0"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<!-- Gloves -->
+		<ItemEx Section="6" Index="5219" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Wizard Gloves SM"/>
+		<ItemEx Section="7" Index="5218" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Knight Gloves BK"/>
+		<ItemEx Section="8" Index="5220" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Elf Gloves ELF"/>
+		<ItemEx Section="9" Index="5222" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Magic Gloves MG"/>
+		<ItemEx Section="10" Index="5223" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Lord Gloves DL"/>
+		<ItemEx Section="11" Index="5221" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Summoner Gloves SU"/>
+		<ItemEx Section="12" Index="46" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="22" Option4="11" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Claws RF"/>
+		<ItemEx Section="13" Index="5225" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Lancer Gloves GL"/>
+		<ItemEx Section="14" Index="5242" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Runist Gloves RW"/>
+		<ItemEx Section="15" Index="5300" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Slayer Gloves SL"/>
+		<ItemEx Section="16" Index="5332" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Gunner Gloves GC"/>
+		<!-- Boots -->
+		<ItemEx Section="6" Index="5731" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Wizard Boots SM"/>
+		<ItemEx Section="7" Index="5730" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Knight Boots BK"/>
+		<ItemEx Section="8" Index="5732" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Elf Boots ELF"/>
+		<ItemEx Section="9" Index="5734" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Magic Boots MG"/>
+		<ItemEx Section="10" Index="5735" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Lord Boots DL"/>
+		<ItemEx Section="11" Index="5733" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Summoner Boots SU"/>
+		<ItemEx Section="12" Index="5736" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Fighter Boots RF"/>
+		<ItemEx Section="13" Index="5737" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Lancer Boots GL"/>
+		<ItemEx Section="14" Index="5754" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Runist Boots RW"/>
+		<ItemEx Section="15" Index="5812" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="21" Option5="0"  Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Exe Bloodangel Slayer Boots SL"/>
+		<ItemEx Section="16" Index="5844" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="13" Option3="22" Option4="11" Option5="12" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Anc Bloodangel Gunner Boots GC"/>
+	
+	</BagItemsEx>
+</ItemBag>

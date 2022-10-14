@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Jewels lvl 5		
+0	"Garantido - Jewel of Bless"
+1	"Aleatorio - Jewel of Bless, Jewel of Soul, Jewel of Life, Jewel of Harmony, Jewel of Creation, Jewel of Chaos, [Bound]Bless of Light (Middle Grade)"
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="2" DropRate="0" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="100000" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+		<DropInfo Index="1" Section="7" SectionRate="10000" MoneyAmount="100000" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+		<DropInfo Index="2" Section="5" SectionRate="0" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="0" RuudMax="0"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7186" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Bless"/>
+		<ItemEx Section="7" Index="7181" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Bless"/>
+		<ItemEx Section="7" Index="7182" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Soul"/>
+		<ItemEx Section="7" Index="7184" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Life"/>
+		<ItemEx Section="7" Index="6159" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Chaos"/>
+		<ItemEx Section="7" Index="7190" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Creation"/>
+		<ItemEx Section="7" Index="7210" Level="0" Grade="0" Durability="50" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Harmony"/>
+	    <ItemEx Section="7" Index="7540" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="[Bound] Bless of Light (Middle Grade)"/>
+	</BagItemsEx>
+</ItemBag>

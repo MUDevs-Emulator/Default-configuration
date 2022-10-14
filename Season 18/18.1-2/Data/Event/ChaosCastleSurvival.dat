@@ -1,0 +1,30 @@
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+5               1            10          4         
+end
+
+1
+//TryOut1      TryOut2      TryOut3      SemiFinal1      SemiFinal2      Final
+8	       9	    10	         11	         12	         13
+end
+
+2
+//Year   Month   Day   DoW   Hour   Minute   Second   TryOut   SemiFinal   Final
+*        *       *     *     1      25       0	      1        2           3
+*        *       *     *     4      35       0	      1        2           0
+*        *       *     *     5      0        0	      1        2           0
+*        *       *     *     7      0        0	      1        2           0
+*        *       *     *     9      0        0	      1        2           0
+*        *       *     *     11     0        0	      1        2           0
+*        *       *     *     13     0        0	      1        2           0
+*        *       *     *     15     0        0	      1        2           0
+*        *       *     *     17     0        0	      1        2           0
+*        *       *     *     19     0        0	      1        2           0
+*        *       *     *     21     4        0	      1        2           0
+*        *       *     *     23     0        0	      1        2           0
+end
+
+3
+//ExperienceTable1   ExperienceTable2
+4000               3500
+end

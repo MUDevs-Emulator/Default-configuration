@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By MuDevastation
+// ============================================================
+//
+//~~ 
+-->
+<!--
+20th anniversary  event
+20	68	"You can get a fixed-term wing that suits your level and job."	
+20	69	"You can get the Earring of Anger (left) item."
+20	70	"You can get the Earring of Anger (right) item."	
+20	71	"You can acquire ghost horse items."	
+20	72	"You can acquire the Blood Angel Helmet set item.<br>(In the case of a magic swordsman, obtain a armor item)"	
+20	73	"You can acquire Blood Angel Armor set items."	
+20	74	"You can acquire the Blood Angel Pants set item."	
+20	75	"You can acquire Blood Angel Boots or Gloves set items."	
+20	76	"You can acquire blood angel weapon items."	
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+		<DropInfo Index="1" Section="5" SectionRate="0" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="0" RuudMax="0"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7634" Level="0" Grade="0" Durability="5" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Fragment of Resurrection"/>
+		<ItemEx Section="6" Index="7635" Level="0" Grade="0" Durability="5" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Guardian Upgrade Stone"/>
+		<ItemEx Section="6" Index="7645" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Seal of the Phantasmal Steed"/>
+<!--		<ItemEx Section="6" Index="6615" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Phantasmal Steed"/> -->
+				
+	</BagItemsEx>
+</ItemBag>

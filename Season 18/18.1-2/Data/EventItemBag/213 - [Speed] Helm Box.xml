@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="7" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="8" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="9" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="10" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="11" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="12" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="13" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="14" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0"/>
+		<DropInfo Index="0" Section="15" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7016" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Transcendence"/>
+		<ItemEx Section="7" Index="7008" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Fury"/>
+		<ItemEx Section="8" Index="7020" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Flurry"/>
+		<ItemEx Section="9" Index="7036" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Conquest"/>
+		<ItemEx Section="8" Index="7024" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Redemption"/>
+		<ItemEx Section="10" Index="7044" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Honor"/>
+		<ItemEx Section="11" Index="7048" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Destruction"/>
+		<ItemEx Section="12" Index="7056" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Tenacity"/>
+		<ItemEx Section="13" Index="7012" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Vengeance"/>
+		<ItemEx Section="14" Index="7040" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Sealed Heartless Bloodangel Helm"/>
+		<ItemEx Section="15" Index="7060" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Helm of Sealed Retribution"/>
+	</BagItemsEx>
+</ItemBag>

@@ -1,0 +1,8 @@
+0
+//Class	Map	setLevel	Commnet
+681 	2 	1 		// Dungeon
+681 	1 	1 		// Devias
+681 	8 	1 		// Tarcan
+681 	80 	1 		// Kalutan 1
+681 	95 	1 		// Deventer
+end			
