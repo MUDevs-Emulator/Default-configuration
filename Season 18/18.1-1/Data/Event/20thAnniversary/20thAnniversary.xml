@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anniversary>
+	<QuestStartInfo>								
+		<Quest Index="0" StartYear="2021" StartMonth="01" StartDay="07" EndYear="2021" EndMonth="12" EndDay="31" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="1" StartYear="2021" StartMonth="01" StartDay="07" EndYear="2021" EndMonth="01" EndDay="20" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="2" StartYear="2021" StartMonth="02" StartDay="04" EndYear="2021" EndMonth="02" EndDay="18" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="3" StartYear="2021" StartMonth="03" StartDay="25" EndYear="2021" EndMonth="04" EndDay="07" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="4" StartYear="2021" StartMonth="04" StartDay="08" EndYear="2021" EndMonth="04" EndDay="22" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="5" StartYear="2021" StartMonth="04" StartDay="20" EndYear="2021" EndMonth="05" EndDay="10" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="6" StartYear="2021" StartMonth="05" StartDay="11" EndYear="2021" EndMonth="06" EndDay="03" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="7" StartYear="2021" StartMonth="05" StartDay="13" EndYear="2021" EndMonth="06" EndDay="10" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="8" StartYear="2021" StartMonth="06" StartDay="17" EndYear="2021" EndMonth="07" EndDay="01" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="9" StartYear="2021" StartMonth="07" StartDay="08" EndYear="2021" EndMonth="07" EndDay="22" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="10" StartYear="2021" StartMonth="07" StartDay="22" EndYear="2021" EndMonth="08" EndDay="05" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="11" StartYear="2021" StartMonth="08" StartDay="12" EndYear="2021" EndMonth="08" EndDay="26" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="12" StartYear="2021" StartMonth="09" StartDay="09" EndYear="2022" EndMonth="09" EndDay="23" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="13" StartYear="2021" StartMonth="10" StartDay="26" EndYear="2022" EndMonth="11" EndDay="16" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="14" StartYear="2021" StartMonth="10" StartDay="26" EndYear="2022" EndMonth="11" EndDay="16" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="15" StartYear="2021" StartMonth="10" StartDay="26" EndYear="2022" EndMonth="12" EndDay="30" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="16" StartYear="2021" StartMonth="10" StartDay="26" EndYear="2022" EndMonth="12" EndDay="30" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="17" StartYear="2021" StartMonth="10" StartDay="28" EndYear="2022" EndMonth="11" EndDay="04" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="18" StartYear="2021" StartMonth="11" StartDay="04" EndYear="2022" EndMonth="11" EndDay="18" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="19" StartYear="2021" StartMonth="12" StartDay="16" EndYear="2022" EndMonth="12" EndDay="30" MinLevel="400" MaxLevel="-1" />
+		<Quest Index="20" StartYear="2021" StartMonth="12" StartDay="16" EndYear="2022" EndMonth="12" EndDay="30" MinLevel="400" MaxLevel="-1" />
+	</QuestStartInfo>
+	<QuestObjetiveInfo>								
+		<Objetive Index="0" Type="0" Count="1" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="1" Type="1" Count="100" QuestObjetive0="884" QuestSubObjetive0="-1" QuestObjetive1="885" QuestSubObjetive1="-1" QuestObjetive2="886" QuestSubObjetive2="-1" QuestObjetive3="887" QuestSubObjetive3="-1" />
+		<Objetive Index="2" Type="1" Count="100" QuestObjetive0="413" QuestSubObjetive0="-1" QuestObjetive1="888" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="3" Type="1" Count="50" QuestObjetive0="652" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="4" Type="4" Count="5" QuestObjetive0="41" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="5" Type="6" Count="3" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="6" Type="7" Count="10" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="7" Type="8" Count="1" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="8" Type="9" Count="5" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="9" Type="10" Count="1" QuestObjetive0="14" QuestSubObjetive0="445" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="10" Type="11" Count="3" QuestObjetive0="14" QuestSubObjetive0="216" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="11" Type="12" Count="20" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="12" Type="1" Count="100" QuestObjetive0="413" QuestSubObjetive0="-1" QuestObjetive1="888" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="13" Type="13" Count="3" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="14" Type="14" Count="1" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="15" Type="16" Count="1" QuestObjetive0="11" QuestSubObjetive0="400" QuestObjetive1="12" QuestSubObjetive1="400" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="16" Type="16" Count="1" QuestObjetive0="11" QuestSubObjetive0="770" QuestObjetive1="12" QuestSubObjetive1="770" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="17" Type="3" Count="10" QuestObjetive0="14" QuestSubObjetive0="45" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="18" Type="17" Count="5" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="19" Type="18" Count="1" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+		<Objetive Index="20" Type="15" Count="1" QuestObjetive0="-1" QuestSubObjetive0="-1" QuestObjetive1="-1" QuestSubObjetive1="-1" QuestObjetive2="-1" QuestSubObjetive2="-1" QuestObjetive3="-1" QuestSubObjetive3="-1" />
+	</QuestObjetiveInfo>
+	<QuestBuffRewardInfo>
+		<Reward Level="0" EffectIndex="349" ExpPercent="5" />
+		<Reward Level="1" EffectIndex="350" ExpPercent="5" />
+		<Reward Level="2" EffectIndex="351" ExpPercent="5" />
+		<Reward Level="3" EffectIndex="352" ExpPercent="10" />
+		<Reward Level="4" EffectIndex="353" ExpPercent="10" />
+		<Reward Level="5" EffectIndex="354" ExpPercent="10" />
+		<Reward Level="6" EffectIndex="355" ExpPercent="15" />
+		<Reward Level="7" EffectIndex="356" ExpPercent="15" />
+		<Reward Level="8" EffectIndex="357" ExpPercent="15" />
+		<Reward Level="9" EffectIndex="358" ExpPercent="20" />
+		<Reward Level="10" EffectIndex="359" ExpPercent="20" />
+		<Reward Level="11" EffectIndex="360" ExpPercent="20" />
+		<Reward Level="12" EffectIndex="361" ExpPercent="20" />
+		<Reward Level="13" EffectIndex="362" ExpPercent="20" />
+		<Reward Level="14" EffectIndex="363" ExpPercent="20" />
+		<Reward Level="15" EffectIndex="364" ExpPercent="20" />
+	</QuestBuffRewardInfo>
+	<QuestRewardInfo>
+		<Reward Level="3" ItemCat="20" ItemIndex="68" />
+		<Reward Level="5" ItemCat="20" ItemIndex="69" />
+		<Reward Level="7" ItemCat="20" ItemIndex="70" />
+		<Reward Level="9" ItemCat="20" ItemIndex="71" />
+		<Reward Level="11" ItemCat="20" ItemIndex="72" />
+		<Reward Level="12" ItemCat="20" ItemIndex="73" />
+		<Reward Level="13" ItemCat="20" ItemIndex="74" />
+		<Reward Level="14" ItemCat="20" ItemIndex="75" />
+		<Reward Level="15" ItemCat="20" ItemIndex="76" />
+	</QuestRewardInfo>
+</Anniversary>	
+

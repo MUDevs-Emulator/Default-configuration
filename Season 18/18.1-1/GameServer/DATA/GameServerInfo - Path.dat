@@ -1,0 +1,250 @@
+[PathInfo]
+;==================================================
+; Common Settings
+;==================================================
+Effect=Effect.txt
+MapManager=MapManager.txt
+MapServerInfo=MapServerInfo.dat
+MiniMap=MiniMap.txt
+Mining=Mining.txt
+HuntingRecord=HuntingRecord.txt
+ScoreBoard=ScoreRanking.txt
+InstanceSystemInfo=InstanceSystem.txt
+;==================================================
+; CashShop Settings
+;==================================================
+CashShopPackage= CashShop\\CashShopPackage.txt
+CashShopProduct= CashShop\\CashShopProduct.txt
+
+;==================================================
+; Character Settings
+;==================================================
+DefaultClassInfo = Character\\DefaultClassInfo.txt
+Player= Character\\Player.bmd
+AnimationInfo= Character\\AnimationInfo.txt
+GiftNewbies = Character\\GiftNewbies.txt
+PkSystem = Character\\PkSystem.txt
+StatsSpecialize = Character\\StatsSpecialize.txt
+PlayGuide=Character\\PlayGuide.txt
+MuHelperPlus=Character\\MuHelperPlus.xml
+ItemCompensationLevel=Character\\ItemCompensationLevel.xml
+
+;==================================================
+; Custom Settings
+;==================================================
+CustomArena=Custom\\CustomArena.txt
+CustomEventDrop=Custom\\CustomEventDrop.txt
+CustomJewel=Custom\\CustomJewel.txt
+CustomMonster=Custom\\CustomMonster.txt
+CustomWing=Custom\\CustomWing.txt
+CustomPvPZone=Custom\\CustomPvPZone.txt
+CustomMonsterKillSpeck=Custom\\CustomMonsterKillSpeck.txt
+CustomRewardCashShopPoint=Custom\\CustomRewardCashShopPoint.txt
+CustomMuAds=Custom\\CustomMuAds.txt
+CustomRing=Custom\\CustomRing.txt
+CustomMap=Custom\\CustomMap.txt
+CustomMonsterReward=Custom\\CustomMonsterReward.txt
+BotBuffer=Custom\\Bots\\BotBuffer.txt
+BotStore=Custom\\Bots\\BotStore.txt
+BotHide=Custom\\Bots\\BotHide.txt
+CustomNpc=Custom\\CustomNpc.txt
+GainGPOnline=Custom\\GainGPOnline.txt
+CustomPet=Custom\\CustomPet.txt
+CustomMount=Custom\\CustomMount.txt
+CustomMix=Custom\\CustomMix.xml
+RestoreOffline=Custom\\RestoreOffline.xml
+NoticeSystem=Custom\\NoticeSystem.xml
+CustomSellItem=Custom\\CustomSellItem.xml
+CustomMonsterResistance=Custom\\CustomMonsterResistance.xml
+CustomJewelUpgradeSystem=Custom\\CustomJewelUpgradeSystem.xml
+CustomItemSellSystem=Custom\\CustomItemSellSystem.xml
+CustomItemOptionSystem=Custom\\CustomItemOptionSystem.xml
+CustomReward=Custom\\CustomRewards.xml
+
+;==================================================
+; Event Settings
+;==================================================
+BloodCastle=Event\\BloodCastle.dat
+BonusManager=Event\\BonusManager.dat
+CastleDeepEvent=Event\\CastleDeepEvent.dat
+ChaosCastle=Event\\ChaosCastle.dat
+ChaosCastleSurvival=Event\\ChaosCastleSurvival.dat
+GoldenArcher=Event\\GoldenArcher.dat
+Crywolf=Event\\Crywolf.dat
+DevilSquare=Event\\DevilSquare.dat
+DevilSquareFinalSchedule=Event\\TormentedSquare\\TormentedSquare.xml
+DevilSquareFinalMonsters=Event\\TormentedSquare\\TormentedSquare_Monsters.xml
+DevilSquareBattleSchedule=Event\\TormentedSquareBattle\\DevilSquareBattle.xml
+DevilSquareBattleMonsters=Event\\TormentedSquareBattle\\DevilSquareBattleMonster.xml
+DoubleGoer=Event\\DoubleGoer.dat
+IllusionTemple=Event\\IllusionTemple.dat
+ImperialGuardian=Event\\ImperialGuardian.dat
+InvasionManager=Event\\InvasionManager.dat
+Kanturu=Event\\Kanturu.dat
+MossMerchant=Event\\MossMerchant.dat
+Raklion=Event\\Raklion.dat
+SummonScroll=Event\\SummonScroll.dat
+AcheronGuardian=Event\\AcheronGuardian.dat
+MuCastleData=Event\\MuCastleData.dat
+BattleCore=Event\\BattleCore.dat
+EventMapPointIntegration=Event\\EventMapPointIntegration.xml
+DngPvp=Event\\DngPvp.dat
+EventEntryLimit=Event\\EventEntryLimit.dat
+EventTimmer=Event\\EventTimmer.dat
+FereaBoss=Event\\WorldBoss\\FereaBoss.xml
+NixiesLakeBoss=Event\\WorldBoss\\NixiesLakeBoss.xml
+EvolutionMonsterEvent=Event\\EvolutionMonster\\EvolutionMonsterEvent.txt
+EvolutionMonsterMapLevel=Event\\EvolutionMonster\\EvolutionMonsterMapLevel.txt
+EvolutionMonsterBox=Event\\EvolutionMonster\\EvolutionMonsterBox.txt
+Labyrinth=Event\\LabyrinthOfDimension\\LabyrinthOfDimension.xml
+LabyrinthPath=Event\\LabyrinthOfDimension\\LabyrinthOfDimension_Path.xml
+LabyrinthLeague=Event\\LabyrinthOfDimension\\LabyrinthOfDimension_League.xml
+ArcaBattle=Event\\ArcaBattle.xml
+SwampOfDarknessBoss=Event\\WorldBoss\\SwampOfDarknessBoss.xml
+20thAnniversary=Event\\20thAnniversary\\20thAnniversary.xml
+DungeonLeague=Event\\CustomDungeonLeagueEvent.xml
+IllusionTempleRenewal=Event\\IllusionTempleRenewal\\IllusionTempleRenewal.xml
+IllusionTempleRenewalNPC=Event\\IllusionTempleRenewal\\IllusionTemple_Renewal_NPC.xml
+
+;==================================================
+; Event Item Bag Settings
+;==================================================
+EventItemBagManager=EventItemBagManager.txt
+EventItemBag=EventItemBag\\
+
+;==================================================
+; Item Settings
+;==================================================
+380ItemOption=Item\\380 Items - Setting\\380ItemOption.txt
+380ItemType=Item\\380 Items - Setting\\380ItemType.txt
+Item=Item\\item.xml
+ItemToolTipLevel=Item\\ItemToolTipLevel.xml
+ItemDrop=Item\\ItemDrop.txt
+ItemMove=Item\\ItemMove.txt
+ItemOption=Item\\ItemOption.xml
+ItemOptionWing=Item\\ItemOptionWing.txt
+ItemOptionRate=Item\\ItemOptionRate.txt
+ItemStack=Item\\ItemStack.txt
+ItemValue=Item\\ItemValue.txt
+JewelOfHarmonyOption=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyOption.txt
+JewelOfHarmonyType=Item\\JewelOfHarmony - Settings\\JewelOfHarmonyType.txt
+HarmonyRefinement=Item\\JewelOfHarmony - Settings\\HarmonyRefinementOption.xml
+LuckyItem=Item\\Lucky Item - Settings\\LuckySystem.xml
+MuunOption=Item\\Muun - Settings\\MuunOption.xml
+MuunExchange=Item\\Muun - Settings\\MuunExchange.txt
+PentagramOption=Item\\Pentagram - Settings\\PentagramOption.xml
+PentagramJewelOption=Item\\Pentagram - Settings\\PentagramJewelOption.xml
+PentagramJewelMixRate=Item\\Pentagram - Settings\\PentagramJewelMixRate.txt
+SetItemOption=Item\\SetItem - Settings\\SetItemOption.txt
+SetItemType=Item\\SetItem - Settings\\SetItemType.txt
+SocketItemOption=Item\\Socket - Settings\\SocketItemOption.txt
+SocketItemType=Item\\Socket - Settings\\SocketItemType.xml
+ElementalItemRefinemenMixRate=Item\\ElementalItemRefinemen - Settings\\ElementalItemRefinemenMixRate.txt
+DisassembleSystem=Item\\DisassembleSystem - Settings\\DisassembleSystem.txt
+MasteryItem=Item\\Mastery - Settings\\MasteryItem.txt
+MasteryItemOption=Item\\Mastery - Settings\\MasteryOption.txt
+MasteryItemOptionRate=Item\\Mastery - Settings\\MasteryOptionRate.txt
+MasteryChangeItemOption=Item\\Mastery - Settings\\MasteryChangeOption.txt
+MasteryItemMix=Item\\Mastery - Settings\\MasteryItemMix.xml
+SocketSystemCombinationMix=Item\\SocketSystemCombination - Settings\\SocketSystemCombinationMix.txt
+MagicStone=Item\\MagicStone.txt
+WingAttribute=Item\\WingAttribute.txt
+MonsterSoulConverter=Item\\MonsterSoulConverter\\MonsterSoulConversion.txt
+MonsterSoulConverterMission=Item\\MonsterSoulConverter\\MonsterSoulConversionMissionInfo.txt
+EarringSystem=Item\\EarringItemOption.txt
+PeriodExtendableItem=Item\\PeriodExtendableItem.txt
+ItemGradeOption=Item\\ItemGradeOption.txt
+GuardianMix=Item\\Guardian - Settings\\GuardianMix.txt
+GuardianOption=Item\\Guardian - Settings\\GuardianOption.txt
+ElementalUpdrade=Item\\ElementalItemRefinemen - Settings\\ElementalUpgrade.xml
+ErrtelMastery=Item\\Pentagram - Settings\\ErrtelMastery.xml
+MonsterDropManager=Item\\MonsterDropManager\\
+ItemEquipment=Item\\ItemEquipment.xml
+RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
+
+;==================================================
+; Lang Settings
+;==================================================
+LangManager=LangManager.xml
+LangManagerParce=Lang\\	
+
+;==================================================
+; Monster Settings
+;==================================================
+MonsterAIAutomata=Monster\\AI\\MonsterAIAutomata.txt
+MonsterAIElement=Monster\\AI\\MonsterAIElement.txt
+MonsterAIGroup=Monster\\AI\\MonsterAIGroup.txt
+MonsterAIRule=Monster\\AI\\MonsterAIRule.txt
+MonsterAIUnit=Monster\\AI\\MonsterAIUnit.txt
+Monster=Monster\\Monster.xml
+MonsterManager=Monster\\MonsterManager.txt
+KanturuMonsterSetBase=Monster\\MonsterSetBase\\KanturuMonsterSetBase.txt
+MonsterSetBaseParce=Monster\\MonsterSetBase\\
+MonsterSetBase=Monster\\MonsterSetBase.txt
+MonsterSetBaseCS=Monster\\MonsterSetBaseCS.txt
+MonsterSkillElement=Monster\\Skill\\MonsterSkillElement.txt
+MonsterSkillUnit=Monster\\Skill\\MonsterSkillUnit.txt
+MonsterSkill=Monster\\Skill\\MonsterSkill.txt
+BackSpining=Monster\\BackSpining.txt
+EliteMonster=Monster\\EliteMonster.txt
+
+;==================================================
+; Move Settings
+;==================================================
+Gate=Move\\Gate.xml
+Move=Move\\Move.txt
+MoveSummon=Move\\MoveSummon.txt
+FreeChannelSwitch=Move\\FreeChannelSwitch.txt
+
+;==================================================
+; Quest Settings
+;==================================================
+Quest=Quest\\Quest.xml
+QuestObjective=Quest\\QuestObjective.txt
+QuestReward=Quest\\QuestReward.xml
+QuestWorld=QuestWorld\\QuestWorld.txt
+QuestWorldObjective=QuestWorld\\QuestWorldObjective.txt
+QuestWorldReward=QuestWorld\\QuestWorldReward.txt
+QuestGuide=QuestGuide\\QuestGuide.txt
+Quest4Th=Quest\\Quest4Th.xml
+MUQuest=MuQuest\\MuQuest.xml
+
+;==================================================
+; Shop Settings
+;==================================================
+PcPoint=PcPoint.txt
+ShopManager=ShopManager.txt
+ShopManagerParce=Shop\\
+RuudShop=ShopRuud\\RuudShop.txt
+	
+;==================================================
+; Skill Settings
+;==================================================
+SkillElect=Skill\\SkillElect.hit
+Skill=Skill\\Skill.xml
+Formula=Skill\\Formula.txt
+MasterSkillTree=Skill\\MasterSkillTree.txt
+SkillRequiere=Skill\\SkillRequire.txt
+EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.xml
+EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.xml
+EnhanceSkillTreeMagicField=Skill\\EnhanceSkillTree\\EnhanceSkillTreeMagicField.xml
+
+;==================================================
+; Util Settings
+;==================================================
+ExperienceTable=Util\\ExperienceTable.txt
+Filter=Util\\Filter.txt
+GameMaster=Util\\GameMaster.txt
+Notice=Util\\Notice.txt
+ResetTable=Util\\ResetTable.txt
+
+;==================================================
+; Script Lua Settings
+;==================================================
+LuaDefine=Scripts\\%s
+LuaDefineQuest=\\Scripts\\Quest\\%s
+LuaSkill=Scripts\\LuaCalc\\Skill\\SkillDamageCalc.lua
+LuaCharacter=Scripts\\LuaCalc\\Character\\CharacterCalc.lua
+LuaItem=Scripts\\Item\\ItemManager.lua
+LuaScript=Scripts\\LuaScript\\ScriptMain.lua
+LuaScriptParce=Scripts\\LuaScript\\%s

@@ -1,0 +1,2 @@
+//Index   ItemIndex   DefenseConstA   IncDamageConstA   IncDamageConstB   DecDamageConstA   DecDamageConstB   OptionIndex1   OptionValue1   OptionIndex2   OptionValue2   OptionIndex3   OptionValue3   NewOptionIndex1   NewOptionValue1   NewOptionIndex2   NewOptionValue2   NewOptionIndex3   NewOptionValue3   NewOptionIndex4   NewOptionValue4   ModelType   ModelName
+end

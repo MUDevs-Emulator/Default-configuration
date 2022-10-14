@@ -1,0 +1,11 @@
+0
+//ID	 Class	  Name	  	Map	PosX	PosY	Dir	Gens	GensRank	OnlyVip		MaxLevel
+end
+
+1
+//ID	Slot	ItemSection	ItemType	ItemLevel	ItemOption
+end
+
+2
+//ID	Skill	Power	Time
+end

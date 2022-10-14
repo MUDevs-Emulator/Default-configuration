@@ -1,0 +1,40 @@
+0
+//ItemMinIndex   ItemMaxIndex
+6296		 6296	//Flame Wings
+6304		 6304	//Cloak of Luminosity
+6558		 6562	//Wings of Elysium,Wings of Flame God,Wing of Celestial Body,Wings of Annihilation,Cloak of Dominator
+6554		 6565	//Cloak of Judgment,Cloak of Isolation
+6613		 6613	//Wings of Destiny
+6618		 6618	//Wings of Conviction
+6634		 6634	//Heavenly Wings
+end
+
+1
+//Index   ItemOption1   ItemOption2   ItemOption3   ItemOption4   ItemOption5   ItemOption6   ItemOption7   ItemOption8   ItemOption9   Rate   Comment
+0	  3	        5	      6		    7		  0	        0	      0		    0		  0	        5000   //Add Defensive Full MP Restore Rate
+1	  3	        5	      6		    7		  0	        0	      0		    0		  0	        5000   //Add Defensive Full MP Restore Rate
+2	  3	        5	      6		    7		  0	        0	      0		    0		  0	        5000   //Add Full Damage Reflect Rate
+3	  3	        5	      6		    7		  0	        0	      0		    0		  0	        5000   //Add Ignore Defense Rate
+4	  5	        7	      9		    12		  0	        0	      0		    0		  0	        5000   //Add Magic Speed
+5	  3	        5	      7		    10		  0	        0	      0		    0		  0	        5000   //Add Excellent Damage Rate
+6	  3	        5	      6		    7		  0	        0	      0		    0		  0	        5000   //Add Double Damage Rate
+7	  10	        25	      40	    65		  0	        0	      0		    0		  0	        5000   //Add Strength
+8	  10	        25	      40	    65		  0	        0	      0		    0		  0	        5000   //Add Vitality
+9	  10	        25	      40	    65		  0	        0	      0		    0		  0	        5000   //Add Energy
+10	  10	        25	      40	    65		  0	        0	      0		    0		  0	        5000   //Add Dexterity
+end
+
+2
+//Index   ItemOptionRate1   ItemOptionRate2   ItemOptionRate3   ItemOptionRate4   ItemOptionRate5   ItemOptionRate6   ItemOptionRate7   ItemOptionRate8   ItemOptionRate9
+0	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+1	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+2	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+3	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+4	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+5	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+6	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+7	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+8	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+9	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+10	  947500	    30000	      15000		7500		  0		    0		      0			0		  0
+end

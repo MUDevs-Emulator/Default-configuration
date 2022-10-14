@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Usage warning: do not exceed 200 rewards or delete records of old rewards
+-->
+
+<ItemCompensationLevel Enabled="1">
+		<Reward rewardID="0" RewardLevel="0920" Index="8261" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="1" RewardLevel="1000" Index="8299" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="2" RewardLevel="1050" Index="8262" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="3" RewardLevel="1100" Index="8300" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="4" RewardLevel="1150" Index="8330" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="5" RewardLevel="1250" Index="8331" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="6" RewardLevel="1300" Index="8342" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="7" RewardLevel="1350" Index="8343" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="8" RewardLevel="1400" Index="8356" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+		<Reward rewardID="9" RewardLevel="1450" Index="8358" Level="0" Grade="0" Durability="0" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" Option7="-1" Attribute="-1" ErrtelOptionLevel="-1" Duration="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" LM="1" KM="1" IK="1" UseDate="0" StartDate="2013-9-12" EndDate="2013-10-19" Name="MuunName" />
+</ItemCompensationLevel>
+
+
+
+
+
+

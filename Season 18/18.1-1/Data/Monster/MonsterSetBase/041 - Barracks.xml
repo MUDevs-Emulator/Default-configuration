@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="408" Range="0" PositionX="119" PositionY="168" Direction="2" Element="0" /> <!-- "Gatekeeper" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="409" Range="30" PositionX="39" PositionY="101" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="44" PositionY="110" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="52" PositionY="134" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="67" PositionY="112" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="87" PositionY="90" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="90" PositionY="67" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="90" PositionY="78" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="71" PositionY="101" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="71" PositionY="101" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="64" PositionY="132" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="409" Range="30" PositionX="109" PositionY="101" Direction="-1" Element="0" /> <!-- "Balram" -->
+		<Config Class="410" Range="30" PositionX="98" PositionY="96" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="122" PositionY="90" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="125" PositionY="99" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="137" PositionY="140" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="140" PositionY="150" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="44" PositionY="127" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="57" PositionY="123" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="79" PositionY="86" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="101" PositionY="69" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="410" Range="30" PositionX="121" PositionY="118" Direction="-1" Element="0" /> <!-- "Death Spirit" -->
+		<Config Class="411" Range="30" PositionX="127" PositionY="127" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="126" PositionY="164" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="123" PositionY="160" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="132" PositionY="156" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="132" PositionY="136" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="116" PositionY="103" Direction="-1" Element="0" /> <!-- "Soram" -->
+		<Config Class="411" Range="30" PositionX="129" PositionY="146" Direction="-1" Element="0" /> <!-- "Soram" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

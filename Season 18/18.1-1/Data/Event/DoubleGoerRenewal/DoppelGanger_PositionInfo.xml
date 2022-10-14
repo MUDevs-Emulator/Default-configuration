@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### DoppelGanger::PositionInfo::Party ###
+//	Number: Number of a party (team) participarting the event, 0-3
+//
+// ### DoppelGanger::PositionInfo::Party::Pos ###
+//	StartX: X Coordinate of start range position of event monsters spawn, StartX must be greater than StartY
+//	StartY: Y Coordinate of start range position of event monsters spawn, EndX must be greater than EndY
+//	EndX: X Coordinate of end range position of event monsters spawn
+//	EndY: Y Coordinate of end range position of event monsters spawn
+//
+// ### DoppelGanger::WaitingZones::Party ###
+//	Number: Safe Zone location the party number starts at
+//	StartX: X Coordinate of start range position of event waiting area, StartX must be greater than StartY
+//	StartY: Y Coordinate of start range position of event waiting area, EndX must be greater than EndY
+//	EndX: X Coordinate of end range position of event waiting area
+//	EndY: Y Coordinate of end range position of event waiting area
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<DoppelGanger>
+	<PositionInfo>
+		<Party Number="0">
+			<Pos StartX="121" StartY="118" EndX="130" EndY="136" />
+			<Pos StartX="118" StartY="118" EndX="122" EndY="136" />
+			<Pos StartX="114" StartY="119" EndX="119" EndY="135" />
+			<Pos StartX="110" StartY="119" EndX="115" EndY="135" />
+			<Pos StartX="106" StartY="119" EndX="111" EndY="135" />
+			<Pos StartX="102" StartY="119" EndX="107" EndY="135" />
+			<Pos StartX="98" StartY="119" EndX="103" EndY="135" />
+			<Pos StartX="87" StartY="119" EndX="99" EndY="129" />
+			<Pos StartX="82" StartY="114" EndX="96" EndY="120" />
+			<Pos StartX="81" StartY="109" EndX="91" EndY="115" />
+			<Pos StartX="82" StartY="106" EndX="90" EndY="110" />
+			<Pos StartX="82" StartY="103" EndX="90" EndY="107" />
+			<Pos StartX="81" StartY="100" EndX="92" EndY="104" />
+			<Pos StartX="83" StartY="97" EndX="92" EndY="101" />
+			<Pos StartX="83" StartY="94" EndX="95" EndY="98" />
+			<Pos StartX="83" StartY="91" EndX="97" EndY="95" />
+			<Pos StartX="86" StartY="88" EndX="96" EndY="92" />
+			<Pos StartX="87" StartY="84" EndX="95" EndY="89" />
+			<Pos StartX="87" StartY="79" EndX="95" EndY="85" />
+			<Pos StartX="84" StartY="74" EndX="94" EndY="80" />
+			<Pos StartX="80" StartY="64" EndX="91" EndY="75" />
+			<Pos StartX="73" StartY="62" EndX="81" EndY="72" />
+			<Pos StartX="66" StartY="62" EndX="74" EndY="71" />
+		</Party>
+		<Party Number="1">
+			<Pos StartX="122" StartY="124" EndX="134" EndY="136" />
+			<Pos StartX="122" StartY="135" EndX="134" EndY="139" />
+			<Pos StartX="122" StartY="138" EndX="134" EndY="142" />
+			<Pos StartX="122" StartY="141" EndX="134" EndY="145" />
+			<Pos StartX="122" StartY="144" EndX="134" EndY="148" />
+			<Pos StartX="122" StartY="147" EndX="134" EndY="151" />
+			<Pos StartX="122" StartY="150" EndX="134" EndY="155" />
+			<Pos StartX="120" StartY="154" EndX="130" EndY="169" />
+			<Pos StartX="117" StartY="158" EndX="121" EndY="173" />
+			<Pos StartX="112" StartY="162" EndX="118" EndY="173" />
+			<Pos StartX="108" StartY="164" EndX="113" EndY="172" />
+			<Pos StartX="105" StartY="164" EndX="109" EndY="172" />
+			<Pos StartX="102" StartY="164" EndX="106" EndY="172" />
+			<Pos StartX="99" StartY="164" EndX="103" EndY="172" />
+			<Pos StartX="96" StartY="162" EndX="100" EndY="173" />
+			<Pos StartX="93" StartY="161" EndX="97" EndY="171" />
+			<Pos StartX="90" StartY="160" EndX="94" EndY="170" />
+			<Pos StartX="87" StartY="160" EndX="91" EndY="168" />
+			<Pos StartX="82" StartY="160" EndX="88" EndY="168" />
+			<Pos StartX="77" StartY="160" EndX="83" EndY="170" />
+			<Pos StartX="67" StartY="163" EndX="78" EndY="173" />
+			<Pos StartX="64" StartY="172" EndX="75" EndY="181" />
+			<Pos StartX="64" StartY="180" EndX="75" EndY="194" />
+		</Party>
+		<Party Number="2">
+			<Pos StartX="125" StartY="121" EndX="138" EndY="134" />
+			<Pos StartX="137" StartY="122" EndX="143" EndY="132" />
+			<Pos StartX="142" StartY="122" EndX="146" EndY="132" />
+			<Pos StartX="145" StartY="122" EndX="149" EndY="132" />
+			<Pos StartX="148" StartY="122" EndX="152" EndY="132" />
+			<Pos StartX="151" StartY="122" EndX="155" EndY="132" />
+			<Pos StartX="154" StartY="123" EndX="159" EndY="134" />
+			<Pos StartX="158" StartY="126" EndX="163" EndY="137" />
+			<Pos StartX="162" StartY="127" EndX="172" EndY="138" />
+			<Pos StartX="162" StartY="137" EndX="175" EndY="141" />
+			<Pos StartX="165" StartY="140" EndX="175" EndY="145" />
+			<Pos StartX="166" StartY="144" EndX="174" EndY="148" />
+			<Pos StartX="165" StartY="147" EndX="176" EndY="151" />
+			<Pos StartX="165" StartY="150" EndX="175" EndY="155" />
+			<Pos StartX="163" StartY="154" EndX="174" EndY="159" />
+			<Pos StartX="161" StartY="158" EndX="173" EndY="163" />
+			<Pos StartX="161" StartY="162" EndX="170" EndY="168" />
+			<Pos StartX="161" StartY="167" EndX="169" EndY="173" />
+			<Pos StartX="161" StartY="172" EndX="170" EndY="186" />
+			<Pos StartX="169" StartY="176" EndX="176" EndY="190" />
+			<Pos StartX="175" StartY="181" EndX="182" EndY="192" />
+			<Pos StartX="181" StartY="182" EndX="186" EndY="192" />
+			<Pos StartX="185" StartY="182" EndX="196" EndY="192" />
+		</Party>
+		<Party Number="3">
+			<Pos StartX="120" StartY="120" EndX="135" EndY="134" />
+			<Pos StartX="120" StartY="116" EndX="135" EndY="121" />
+			<Pos StartX="120" StartY="112" EndX="135" EndY="117" />
+			<Pos StartX="120" StartY="108" EndX="135" EndY="113" />
+			<Pos StartX="120" StartY="104" EndX="135" EndY="109" />
+			<Pos StartX="120" StartY="100" EndX="135" EndY="105" />
+			<Pos StartX="122" StartY="97" EndX="137" EndY="101" />
+			<Pos StartX="124" StartY="94" EndX="138" EndY="98" />
+			<Pos StartX="126" StartY="91" EndX="141" EndY="95" />
+			<Pos StartX="127" StartY="88" EndX="144" EndY="92" />
+			<Pos StartX="129" StartY="81" EndX="145" EndY="89" />
+			<Pos StartX="144" StartY="77" EndX="149" EndY="93" />
+			<Pos StartX="148" StartY="77" EndX="152" EndY="93" />
+			<Pos StartX="151" StartY="77" EndX="155" EndY="93" />
+			<Pos StartX="154" StartY="79" EndX="159" EndY="94" />
+			<Pos StartX="158" StartY="79" EndX="163" EndY="96" />
+			<Pos StartX="162" StartY="81" EndX="167" EndY="97" />
+			<Pos StartX="166" StartY="81" EndX="171" EndY="98" />
+			<Pos StartX="170" StartY="82" EndX="176" EndY="98" />
+			<Pos StartX="175" StartY="82" EndX="190" EndY="95" />
+			<Pos StartX="178" StartY="77" EndX="194" EndY="83" />
+			<Pos StartX="181" StartY="70" EndX="196" EndY="78" />
+			<Pos StartX="182" StartY="63" EndX="195" EndY="71" />
+		</Party>
+	</PositionInfo>
+	<WaitingZones>
+		<Party Number="0" StartX="65" StartY="60" EndX="70" EndY="73" />
+		<Party Number="1" StartX="63" StartY="185" EndX="76" EndY="191" />
+		<Party Number="2" StartX="188" StartY="180" EndX="194" EndY="194" />
+		<Party Number="3" StartX="182" StartY="66" EndX="194" EndY="72" />
+	</WaitingZones>
+</DoppelGanger>
