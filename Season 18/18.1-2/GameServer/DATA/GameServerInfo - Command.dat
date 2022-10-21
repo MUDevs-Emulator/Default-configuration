@@ -617,3 +617,9 @@ CommandReaddEnable_AL3=1
 ;==================================================
 CommandSetSpotSwitch = 1
 CommandSetSpotGameMasterLevel = 32
+
+;==================================================
+; Start Event Settings
+;==================================================
+CommandStartEventSwitch = 1
+CommandStartEventGameMasterLevel = 32

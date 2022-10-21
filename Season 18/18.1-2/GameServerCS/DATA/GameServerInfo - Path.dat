@@ -47,8 +47,8 @@ CustomRing=Custom\\CustomRing.txt
 CustomMap=Custom\\CustomMap.txt
 CustomMonsterReward=Custom\\CustomMonsterReward.txt
 BotBuffer=Custom\\Bots\\BotBuffer.txt
-BotStore=Custom\\Bots\\BotStore.txt
-BotHide=Custom\\Bots\\BotHide.txt
+BotStore=Custom\\Bots\\BotStore.xml
+BotHide=Custom\\Bots\\BotHide.xml
 CustomNpc=Custom\\CustomNpc.txt
 GainGPOnline=Custom\\GainGPOnline.txt
 CustomPet=Custom\\CustomPet.txt
@@ -107,6 +107,7 @@ SwampOfDarknessBoss=Event\\WorldBoss\\SwampOfDarknessBoss.xml
 DungeonLeague=Event\\CustomDungeonLeagueEvent.xml
 IllusionTempleRenewal=Event\\IllusionTempleRenewal\\IllusionTempleRenewal.xml
 IllusionTempleRenewalNPC=Event\\IllusionTempleRenewal\\IllusionTemple_Renewal_NPC.xml
+EventMapEntryInfoManager=Event\\EventMapEntryInfoManager.xml
 
 ;==================================================
 ; Event Item Bag Settings
@@ -155,7 +156,7 @@ MonsterSoulConverter=Item\\MonsterSoulConverter\\MonsterSoulConversion.txt
 MonsterSoulConverterMission=Item\\MonsterSoulConverter\\MonsterSoulConversionMissionInfo.txt
 EarringSystem=Item\\EarringItemOption.txt
 PeriodExtendableItem=Item\\PeriodExtendableItem.txt
-ItemGradeOption=Item\\ItemGradeOption.txt
+ItemGradeOption=Item\\ItemGradeOption.xml
 GuardianMix=Item\\Guardian - Settings\\GuardianMix.txt
 GuardianOption=Item\\Guardian - Settings\\GuardianOption.txt
 ElementalUpdrade=Item\\ElementalItemRefinemen - Settings\\ElementalUpgrade.xml

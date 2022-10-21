@@ -588,3 +588,9 @@ CommandGremoryCaseGMGifGameMasterLevel = 32
 ;==================================================
 CommandSetRuudSwitch = 1
 CommandSetRuudGameMasterLevel = 32
+
+;==================================================
+; Start Event Settings
+;==================================================
+CommandStartEventSwitch = 1
+CommandStartEventGameMasterLevel = 32

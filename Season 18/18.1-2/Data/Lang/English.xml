@@ -749,7 +749,8 @@
 		<Msg ID="933" Text= "Intercambiaste %d Coin Drop por %d WCoinC" />
 		<Msg ID="934" Text= "/spot" />
 		<Msg ID="935" Text="You do not have permission to use /spot" />
-		
+		<Msg ID="936" Text="/startevent" />
+		<Msg ID="937" Text="You do not have permission to use /startevent" />		
 	
 	</Message>
 	<MapName>
