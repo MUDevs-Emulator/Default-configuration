@@ -103,7 +103,7 @@ function SkillDamageProc(aIndex,bIndex,skill,count,combo,InitDamage)
 	) then
 	local MountIndex = GetObjectMountIndex(aIndex)
 		if((skill ~= SKILL_IMPALE) or MountIndex == CalcItemIndex(13, 2) or MountIndex == CalcItemIndex(13, 3) or MountIndex or CalcItemIndex(13, 37)) then
-			if(oClass == CLASS_DK or oClass == CLASS_SL or oClass == CLASS_KM or oClass == CLASS_LM or CLASS_IK) then
+			if(oClass == CLASS_DK or oClass == CLASS_SL or oClass == CLASS_KM or oClass == CLASS_LM or oClass == CLASS_IK) then
 				FinalDamage = (InitDamage*GetObjectMultiplierDamage(aIndex,oClass,0))/100
 			else
 				FinalDamage = (InitDamage*200)/100
