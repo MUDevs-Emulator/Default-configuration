@@ -25,7 +25,7 @@
 		<Mix MainType="12" MainIndex="251" MType0="12" MIndex0="510" MDur0="0" MType1="14" MIndex1="13" MDur1="30" MType2="14" MIndex2="14" MDur2="30" MType3="14" MIndex3="22" MDur3="10" RMasteryGrade="1" RType="12" RIndex="508" Enhancedlevel="0" ElementMaintenance="1" ErtelSlotMaintenance="1" />
 	</ErrtelUpgradeMix>	
 	<ErrtelLevelUpRateInfo>
- 		<LevelUpInfo Level0="100" ElementalRune0="1"  Level1="100" ElementalRune1="2" Level2="100" ElementalRune2="3" Level3="100" ElementalRune3="4" Level4="100" ElementalRune4="5" Level5="100" ElementalRune5="6" Level6="100" ElementalRune6="7" Level7="100" ElementalRune7="8" Level8="100" ElementalRune8="7" Level9="100" ElementalRune9="9" />	
+ 		<LevelUpInfo Level0="65" ElementalRune0="1"  Level1="65" ElementalRune1="2" Level2="60" ElementalRune2="3" Level3="55" ElementalRune3="4" Level4="55" ElementalRune4="5" Level5="50" ElementalRune5="6" Level6="50" ElementalRune6="7" Level7="45" ElementalRune7="8" Level8="45" ElementalRune8="7" Level9="30" ElementalRune9="9" />	
 	</ErrtelLevelUpRateInfo>
 	<PentagramElementalOptionInfo>
  		<ElementalInfo Index="12" Type="505" OptionIndex="0"/>	
@@ -34,7 +34,7 @@
 		<ElementalInfo Index="12" Type="508" OptionIndex="1"/>
 	</PentagramElementalOptionInfo>	
 	<ElementalOptionLevelUpRateInfo>
- 		<LevelUpInfo Level0="100" ElementalRune0="1" Level1="100" ElementalRune1="1" Level2="100" ElementalRune2="1" Level3="100" ElementalRune3="2" Level4="100" ElementalRune4="2" Level5="100" ElementalRune5="3" Level6="100" ElementalRune6="3" Level7="100" ElementalRune7="4" Level8="100" ElementalRune8="4" Level9="100" ElementalRune9="5" />	
+ 		<LevelUpInfo Level0="65" ElementalRune0="1" Level1="65" ElementalRune1="1" Level2="65" ElementalRune2="1" Level3="60" ElementalRune3="2" Level4="60" ElementalRune4="2" Level5="60" ElementalRune5="3" Level6="55" ElementalRune6="3" Level7="55" ElementalRune7="4" Level8="55" ElementalRune8="4" Level9="40" ElementalRune9="5" />	
 	</ElementalOptionLevelUpRateInfo>													
 </ElementalUpgrade>
 

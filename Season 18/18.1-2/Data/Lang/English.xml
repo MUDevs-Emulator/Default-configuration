@@ -750,8 +750,9 @@
 		<Msg ID="934" Text= "/spot" />
 		<Msg ID="935" Text="You do not have permission to use /spot" />
 		<Msg ID="936" Text="/startevent" />
-		<Msg ID="937" Text="You do not have permission to use /startevent" />		
-	
+		<Msg ID="937" Text="You do not have permission to use /startevent" />
+		
+		
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -914,4 +915,76 @@
 		</Messages>
 		
 	</NoticeSystem>
+	<Command>
+		<Msg ID="1" Text="/move" />
+		<Msg ID="2" Text="/post" />
+		<Msg ID="3" Text="/addstr" />
+		<Msg ID="4" Text="/addagi" />
+		<Msg ID="5" Text="/addvit" />
+		<Msg ID="6" Text="/addene" />
+		<Msg ID="7" Text="/addcmd" />
+		<Msg ID="8" Text="/pkclear" />
+		<Msg ID="9" Text="/money" />
+		<Msg ID="10" Text="/change" />
+		<Msg ID="11" Text="/ware" />
+		<Msg ID="12" Text="/reset" />
+		<Msg ID="13" Text="/gmmove" />
+		<Msg ID="14" Text="/gmpost" />
+		<Msg ID="15" Text="/track" />
+		<Msg ID="16" Text="/trace" />
+		<Msg ID="17" Text="/disconnect" />
+		<Msg ID="18" Text="/fireworks" />
+		<Msg ID="19" Text="/make" />
+		<Msg ID="20" Text="/skin" />
+		<Msg ID="21" Text="/setmoney" />
+		<Msg ID="22" Text="/notice" />
+		<Msg ID="23" Text="/mreset" />
+		<Msg ID="24" Text="/war" />
+		<Msg ID="25" Text="/soccer" />
+		<Msg ID="26" Text="/re" />
+		<Msg ID="27" Text="/store" />
+		<Msg ID="28" Text="/offstore" />
+		<Msg ID="30" Text="/attack" />
+		<Msg ID="29" Text="/hide" />
+		<Msg ID="32" Text="/gpost" />
+		<Msg ID="33" Text="/Buy" />
+		<Msg ID="34" Text="/Sell" />
+		<Msg ID="35" Text="/clearinv" />
+		<Msg ID="36" Text="/clearextinv" />
+		<Msg ID="37" Text="/pkset" />
+		<Msg ID="38" Text="/setlvl" />
+		<Msg ID="39" Text="/msetlvl" />
+		<Msg ID="40" Text="/statstr" />
+		<Msg ID="41" Text="/statagi" />
+		<Msg ID="42" Text="/statene" />
+		<Msg ID="43" Text="/statvit" />
+		<Msg ID="44" Text="/statcom" />
+		<Msg ID="45" Text="/banuser" />
+		<Msg ID="46" Text="/unbanuser" />
+		<Msg ID="47" Text="/debuff" />
+		<Msg ID="48" Text="/addeffect" />
+		<Msg ID="49" Text="/godmode" />
+		<Msg ID="50" Text="/csstate" />
+		<Msg ID="51" Text="/chatblock" />
+		<Msg ID="52" Text="/unchatblock" />
+		<Msg ID="53" Text="/gremgif" />
+		<Msg ID="54" Text="/clearinvmuun" />
+		<Msg ID="55" Text="/banmac" />
+		<Msg ID="56" Text="/pack" />
+		<Msg ID="57" Text="/unpack" />
+		<Msg ID="58" Text="/offattack" />
+		<Msg ID="59" Text="/banchat" />
+		<Msg ID="60" Text="/banpost" />
+		<Msg ID="61" Text="/coint" />
+		<Msg ID="62" Text="/rename" />
+		<Msg ID="63" Text="/openware" />
+		<Msg ID="64" Text="/readd" />
+		<Msg ID="65" Text="/ereset" />
+		<Msg ID="66" Text="/setruud" />
+		<Msg ID="67" Text="/cleareventinv" />
+		<Msg ID="68" Text="/pktime" />
+		<Msg ID="69" Text="/kick" />
+		<Msg ID="70" Text= "/spot" />
+		<Msg ID="71" Text="/startevent" />
+	</Command>
 </Language>

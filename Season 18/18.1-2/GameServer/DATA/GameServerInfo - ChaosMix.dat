@@ -432,6 +432,7 @@ AbsoluteArchangelMixRate_AL3 = 100
 ;==================================================
 ElementConvertionEnabled = 1
 ElementalItemETCGMODownLevel = 1
+ElementalTalismanOfLuckRate = 10
 
 ;==================================================
 ; Talisman Settings

@@ -125,6 +125,7 @@
 57        0       0      224    214    "Entrance to Devias"
 57        0       0      169    22     "Entrance to Hatchery"
 63        1       2      122    135    "Doorkeeper Titus"
+63        0       0      33     15     "Entrance to Ignes Volcano"
 79        1       5      45     75     "Storage"
 79        1       5      45     77     "Storage"
 79        1       4      60     39     "Jeweler Raul"
@@ -270,6 +271,7 @@
 136       0       0      114    064    "Blue Gate (A)"
 136       0       0      099    159    "Blue Gate (B)"
 137       0       0      119    126    "Entrance to Kanturu Relics"
+138       0       0      119    117    "Entrance to Vulcanus"
 end
 
 1
