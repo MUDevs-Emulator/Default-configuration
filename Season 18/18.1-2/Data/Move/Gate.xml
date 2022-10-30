@@ -50,7 +50,8 @@
 	<Gate Index="47" Flag="1" Map="7" X="9" Y="9" TX="11" TY="12" TargetGate="48" Dir="0" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="48" Flag="2" Map="3" X="240" Y="240" TX="241" TY="243" TargetGate="0" Dir="7" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="49" Flag="0" Map="7" X="15" Y="11" TX="27" TY="23" TargetGate="0" Dir="0" MinLevel="50" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="50" Flag="0" Map="6" X="72" Y="140" TX="73" TY="181" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<!--<Gate Index="50" Flag="0" Map="6" X="72" Y="140" TX="73" TY="181" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" /> -->
+	<Gate Index="50" Flag="0" Map="6" X="62" Y="133" TX="62" TY="133" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="51" Flag="0" Map="6" X="59" Y="153" TX="59" TY="153" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="52" Flag="0" Map="6" X="59" Y="164" TX="59" TY="165" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="53" Flag="1" Map="7" X="14" Y="225" TX="15" TY="230" TargetGate="54" Dir="0" MinLevel="130" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
@@ -367,9 +368,9 @@
 	<Gate Index="476" Flag="2" Map="1" X="45" Y="152" TX="48" TY="155" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="477" Flag="1" Map="1" X="45" Y="148" TX="47" TY="150" TargetGate="478" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="478" Flag="2" Map="1" X="112" Y="232" TX="113" TY="234" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="479" Flag="1" Map="1" X="233" Y="106" TX="237" TY="108" TargetGate="480" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="480" Flag="2" Map="1" X="241" Y="85" TX="242" TY="89" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="481" Flag="1" Map="1" X="244" Y="86" TX="245" TY="89" TargetGate="482" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="479" Flag="1" Map="1" X="233" Y="106" TX="237" TY="108" TargetGate="480" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" /> 
+ 	<Gate Index="480" Flag="2" Map="1" X="241" Y="85" TX="242" TY="89" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" /> 	
+    <Gate Index="481" Flag="1" Map="1" X="244" Y="86" TX="245" TY="89" TargetGate="482" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="482" Flag="2" Map="1" X="229" Y="108" TX="231" TY="110" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="483" Flag="0" Map="103" X="125" Y="126" TX="130" TY="130" TargetGate="0" Dir="0" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="484" Flag="0" Map="104" X="125" Y="126" TX="130" TY="130" TargetGate="0" Dir="0" MinLevel="10" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
@@ -524,7 +525,8 @@
 	<Gate Index="636" Flag="2" Map="133" X="125" Y="57" TX="132" TY="59" TargetGate="0" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="637" Flag="1" Map="133" X="125" Y="61" TX="130" TY="61" TargetGate="638" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="638" Flag="2" Map="51" X="218" Y="118" TX="223" TY="119" TargetGate="0" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="639" Flag="1" Map="133" X="123" Y="13" TX="133" TY="21" TargetGate="640" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<!-- <Gate Index="639" Flag="1" Map="133" X="123" Y="13" TX="133" TY="21" TargetGate="640" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" /> -->
+	<Gate Index="639" Flag="1" Map="133" X="125" Y="15" TX="130" TY="19" TargetGate="640" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="640" Flag="2" Map="133" X="120" Y="185" TX="131" TY="186" TargetGate="0" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="641" Flag="1" Map="133" X="123" Y="190" TX="128" TY="195" TargetGate="642" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="642" Flag="2" Map="133" X="127" Y="26" TX="132" TY="28" TargetGate="0" Dir="0" MinLevel="1100" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
@@ -533,6 +535,7 @@
 	<Gate Index="645" Flag="2" Map="134" X="122" Y="29" TX="128" TY="31" TargetGate="0" Dir="0" MinLevel="1130" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="646" Flag="1" Map="134" X="124" Y="25" TX="127" TY="26" TargetGate="647" Dir="0" MinLevel="1130" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="647" Flag="2" Map="33" X="115" Y="108" TX="120" TY="109" TargetGate="0" Dir="0" MinLevel="1130" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<!-- EX1702 -->
 	<Gate Index="648" Flag="0" Map="135" X="124" Y="18" TX="129" TY="17" TargetGate="0" Dir="0" MinLevel="700" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="649" Flag="1" Map="33" X="81" Y="17" TX="83" TY="17" TargetGate="650" Dir="0" MinLevel="700" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="650" Flag="2" Map="135" X="124" Y="18" TX="129" TY="17" TargetGate="0" Dir="0" MinLevel="700" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
@@ -555,10 +558,18 @@
 	<Gate Index="667" Flag="2" Map="136" X="210" Y="132" TX="211" TY="136" TargetGate="0" Dir="0" MinLevel="1160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="668" Flag="1" Map="136" X="200" Y="139" TX="202" TY="140" TargetGate="669" Dir="0" MinLevel="1160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="669" Flag="2" Map="136" X="136" Y="59" TX="140" TY="58" TargetGate="0" Dir="0" MinLevel="1160" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	
+	<!-- S17.2-1 -->
 	<Gate Index="670" Flag="0" Map="137" X="129" Y="120" TX="130" TY="130" TargetGate="0" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="671" Flag="1" Map="38" X="106" Y="159" TX="109" TY="162" TargetGate="672" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="671" Flag="1" Map="038" X="106" Y="159" TX="109" TY="162" TargetGate="672" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="672" Flag="2" Map="137" X="129" Y="120" TX="130" TY="130" TargetGate="0" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 	<Gate Index="673" Flag="1" Map="137" X="117" Y="125" TX="118" TY="127" TargetGate="674" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
-	<Gate Index="674" Flag="2" Map="38" X="106" Y="157" TX="110" TY="159" TargetGate="0" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="674" Flag="2" Map="038" X="106" Y="157" TX="110" TY="159" TargetGate="0" Dir="0" MinLevel="1190" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<!-- S18.1-2 -->
+	<Gate Index="675" Flag="0" Map="138" X="122" Y="119" TX="129" TY="127" TargetGate="0" Dir="0" MinLevel="1220" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="676" Flag="1" Map="063" X="035" Y="012" TX="036" TY="015" TargetGate="677" Dir="0" MinLevel="1220" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="677" Flag="2" Map="138" X="122" Y="119" TX="129" TY="127" TargetGate="0" Dir="0" MinLevel="1220" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="678" Flag="1" Map="138" X="116" Y="115" TX="117" TY="119" TargetGate="679" Dir="0" MinLevel="1220" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<Gate Index="679" Flag="2" Map="063" X="040" Y="014" TX="043" TY="020" TargetGate="0" Dir="0" MinLevel="1220" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
+	<!-- Custom Arena (LastMan Standing) GMMap 40-->
+	<Gate Index="700" Flag="0" Map="40" X="220" Y="15" TX="235" TY="30" TargetGate="0" Dir="0" MinLevel="0" MaxLevel="-1" MinReset="-1" MaxReset="-1" AccountLevel="0" />
 </GateData>

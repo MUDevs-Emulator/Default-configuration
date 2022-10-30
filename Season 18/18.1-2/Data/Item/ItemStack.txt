@@ -27,4 +27,5 @@
 10288     10295         *					//Silver Heart Chaos Combination Charm Fragment (Bound)
 10289     10296         *					//Manticore Chaos Combination Charm Fragment (Bound)
 10321     10322         *					//Brilliant Chaos Combination Amulet Fragment (Bound)
+10327     10328         *                   //Apocalypse Chaos Combination Amulet Fragment (Bound) 
 end

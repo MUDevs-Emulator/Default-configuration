@@ -57,7 +57,9 @@ end
 14		510		0		50000    // Pierce Lion's Seal - Guardiam Mix 3	
 20		084		0		50000    // Shining Tail's Seal - Guardiam Mix 4	
 12		509		0		30000    // Pentagram Emblem
-12		510		0		20000    // Ertel Emblem 	
+12		510		0		20000    // Ertel Emblem
+12        	86          0           100000   // Brilliant Anvil  (Upgrade Weapon: Manticore to Brilliant)
+12          85          0           50000    // Apocalypse Soul (Upgrade Set: Brilliant to Apocalypse)	
 end
 //===================================================================================================================================
 //Dark Wizard			 
