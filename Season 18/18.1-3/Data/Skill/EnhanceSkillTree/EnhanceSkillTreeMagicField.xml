@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MagicField>
+	<MagicFieldInfo>
+		<Field Type="0" Class="851" DisappearSec="10" CooldownSec="20" BaseRate="0" Name="Poison" />
+		<Field Type="1" Class="853" DisappearSec="10" CooldownSec="20" BaseRate="0" Name="Chilling" />
+		<Field Type="2" Class="852" DisappearSec="10" CooldownSec="20" BaseRate="0" Name="Bleeding" />
+	</MagicFieldInfo>
+	<MagicFieldBuffInfo>
+		<Effect ID="273" EffectTimeSec="18" EffectCountBase="10" EffectRateBase="200" PoisonDamage="2000" PoisonDamageRange="1000" AddPoisonDamageBase="0" Name="Poisoning" />
+		<Effect ID="277" EffectTimeSec="18" EffectCountBase="10" EffectRateBase="100" PoisonMultiplier="2" AddPoisonDamageBase="0" Name="Toxic" />
+		<Effect ID="274" EffectTimeSec="20" EffectCountBase="10" EffectRateBase="200" Defense="106" AddDefenseBase="0" Name="Chilling" />
+		<Effect ID="278" EffectTimeSec="20" EffectCountBase="10" EffectRateBase="100" Defense="106" AddDefenseBase="0" AttackSpeed="20" AddAttackSpeedBase="0" Name="Frostbite" />
+		<Effect ID="275" EffectTimeSec="18" EffectCountBase="10" EffectRateBase="200" DamagePer="20" AddDamageBase="0" Name="Bleeding" />
+		<Effect ID="279" EffectTimeSec="18" EffectCountBase="10" EffectRateBase="100" DamageMultiplier="2" AddDamageBase="0" Name="Bleeding Severe" />
+	</MagicFieldBuffInfo>
+</MagicField>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="229" Range="0" PositionX="183" PositionY="30" Direction="3" Element="0" /> <!-- "Marlon" -->
+		<Config Class="236" Range="0" PositionX="226" PositionY="66" Direction="1" Element="0" /> <!-- "Golden Archer" -->
+		<Config Class="233" Range="0" PositionX="209" PositionY="30" Direction="1" Element="0" /> <!-- "Messenger of Archangel" -->
+		<Config Class="233" Range="0" PositionX="219" PositionY="9" Direction="3" Element="0" /> <!-- "Messenger of Archangel" -->
+		<Config Class="235" Range="0" PositionX="183" PositionY="32" Direction="3" Element="0" /> <!-- "Sebina the Priest" -->
+		<Config Class="244" Range="0" PositionX="226" PositionY="25" Direction="3" Element="0" /> <!-- "Caren the Barmaid" -->
+		<Config Class="245" Range="0" PositionX="225" PositionY="41" Direction="3" Element="0" /> <!-- "Wizard Izabel" -->
+		<Config Class="246" Range="0" PositionX="186" PositionY="47" Direction="3" Element="0" /> <!-- "Weapons Merchant Zienna" -->
+		<Config Class="247" Range="20" PositionX="224" PositionY="79" Direction="5" Element="0" /> <!-- "Guard" -->
+		<Config Class="247" Range="20" PositionX="219" PositionY="79" Direction="5" Element="0" /> <!-- "Guard" -->
+		<Config Class="247" Range="20" PositionX="169" PositionY="45" Direction="7" Element="0" /> <!-- "Guard" -->
+		<Config Class="247" Range="20" PositionX="169" PositionY="39" Direction="7" Element="0" /> <!-- "Guard" -->
+		<Config Class="241" Range="0" PositionX="215" PositionY="45" Direction="1" Element="0" /> <!-- "Royal Guard Captain Lorence" -->
+		<Config Class="240" Range="0" PositionX="218" PositionY="63" Direction="2" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="257" Range="0" PositionX="219" PositionY="73" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="257" Range="0" PositionX="172" PositionY="44" Direction="1" Element="0" /> <!-- "Shadow Phantom Soldier" -->
+		<Config Class="566" Range="0" PositionX="204" PositionY="61" Direction="1" Element="0" /> <!-- "Mercenary Guild Manager Tercia" -->
+		<Config Class="478" Range="0" PositionX="191" PositionY="17" Direction="3" Element="0" /> <!-- "Delgado" -->
+		<Config Class="379" Range="0" PositionX="32" PositionY="31" Direction="3" Element="0" /> <!-- "Natasha the Firecracker Merchan" -->
+		<Config Class="522" Range="0" PositionX="229" PositionY="221" Direction="1" Element="0" /> <!-- "Jerint the Assistant" -->
+		<Config Class="584" Range="0" PositionX="240" PositionY="53" Direction="7" Element="0" /> <!-- "Sir Lesnar" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="24" Range="30" BeginPosX="170" BeginPosY="80" EndPosX="245" EndPosY="200" Direction="-1" Quantity="30" Element="0" /> <!-- "Worm" -->
+		<Config Class="23" Range="30" BeginPosX="170" BeginPosY="80" EndPosX="245" EndPosY="200" Direction="-1" Quantity="10" Element="0" /> <!-- "Hommerd" -->
+		<Config Class="22" Range="30" BeginPosX="50" BeginPosY="6" EndPosX="166" EndPosY="244" Direction="-1" Quantity="40" Element="0" /> <!-- "Ice Monster" -->
+		<Config Class="23" Range="30" BeginPosX="50" BeginPosY="6" EndPosX="166" EndPosY="244" Direction="-1" Quantity="30" Element="0" /> <!-- "Hommerd" -->
+		<Config Class="19" Range="30" BeginPosX="50" BeginPosY="6" EndPosX="166" EndPosY="244" Direction="-1" Quantity="40" Element="0" /> <!-- "Yeti" -->
+		<Config Class="21" Range="30" BeginPosX="50" BeginPosY="6" EndPosX="166" EndPosY="244" Direction="-1" Quantity="30" Element="0" /> <!-- "Assassin" -->
+		<Config Class="20" Range="30" BeginPosX="50" BeginPosY="6" EndPosX="166" EndPosY="244" Direction="-1" Quantity="20" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" BeginPosX="5" BeginPosY="50" EndPosX="50" EndPosY="155" Direction="-1" Quantity="20" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" BeginPosX="6" BeginPosY="184" EndPosX="80" EndPosY="244" Direction="-1" Quantity="10" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="25" Range="30" BeginPosX="6" BeginPosY="184" EndPosX="80" EndPosY="244" Direction="-1" Quantity="3" Element="0" /> <!-- "Ice Queen" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="25" Range="30" PositionX="74" PositionY="239" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="25" Range="30" PositionX="70" PositionY="212" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="25" Range="30" PositionX="45" PositionY="189" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="25" Range="30" PositionX="113" PositionY="230" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="25" Range="30" PositionX="94" PositionY="203" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="25" Range="30" PositionX="63" PositionY="160" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="20" Range="30" PositionX="203" PositionY="244" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="194" PositionY="241" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="203" PositionY="232" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="209" PositionY="224" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="186" PositionY="224" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="200" PositionY="171" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="207" PositionY="158" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="221" PositionY="177" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="213" PositionY="193" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="196" PositionY="218" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="230" PositionY="200" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="221" PositionY="160" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="205" PositionY="149" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="184" PositionY="166" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="212" PositionY="170" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="25" Range="30" PositionX="116" PositionY="210" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="20" Range="30" PositionX="203" PositionY="201" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="24" Range="30" PositionX="170" PositionY="6" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="24" Range="30" PositionX="161" PositionY="58" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="24" Range="30" PositionX="180" PositionY="78" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="20" Range="30" PositionX="190" PositionY="146" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="25" Range="30" PositionX="51" PositionY="227" Direction="-1" Element="0" /> <!-- "Ice Queen" -->
+		<Config Class="20" Range="30" PositionX="189" PositionY="160" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="207" PositionY="183" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="218" PositionY="201" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="240" PositionY="207" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="238" PositionY="184" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="227" PositionY="167" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="202" PositionY="209" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="113" PositionY="105" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="96" PositionY="103" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="102" PositionY="117" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="241" PositionY="198" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="228" PositionY="184" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="193" PositionY="231" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="214" PositionY="152" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="20" Range="30" PositionX="197" PositionY="183" Direction="-1" Element="0" /> <!-- "Elite Yeti" -->
+		<Config Class="24" Range="30" PositionX="162" PositionY="11" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="24" Range="30" PositionX="244" PositionY="80" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="24" Range="30" PositionX="238" PositionY="88" Direction="-1" Element="0" /> <!-- "Worm" -->
+		<Config Class="24" Range="30" PositionX="229" PositionY="83" Direction="-1" Element="0" /> <!-- "Worm" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

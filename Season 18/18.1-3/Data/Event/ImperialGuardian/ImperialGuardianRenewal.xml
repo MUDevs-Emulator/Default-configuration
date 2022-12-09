@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImperialGuardianRenewal NotifyTime="10" EventTime="10" CloseTime="1" DefaultMonsterAIUnitNumber="72" SupportMonsterAIUnitNumber="73">
+	<EventLevel>
+		<Info ID="1" MinLevel="1000" MaxLevel="-1" MinReset="-1" MaxReset="-1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Enabled="1" />
+	</EventLevel>
+	<MonsterDifficult>
+		<Info ID="1" Level="145" MaxLife="2000.00" DamageMin="53.00" DamageMax="53.00" Defense="45.00" AttackRate="30.00" DefenseRate="30.00" ElementalDamageMin="53.00" ElementalDamageMax="53.00" ElementalDefense="45.00" ElementalAttackSuccessRate="30.00" ElementalDefenseSuccessRate="30.00" />
+	</MonsterDifficult>
+	<EventReward>
+		<Info ID="1" ItemIndex="10334" ItemCount="1" ExpireDayCnt="7" Name="Artifact Enhancement Stone" />
+		<Info ID="1" ItemIndex="10335" ItemCount="1" ExpireDayCnt="7" Name="Spider Artifact Fragment"/>
+	</EventReward>
+</ImperialGuardianRenewal>

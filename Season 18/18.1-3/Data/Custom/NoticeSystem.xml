@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NoticeSystem>
+	<ItemGetNotice Enabled="1">
+		<!-- <Item Cat="0" Index="0" Level="0" IsExc="0" IsSet="0" Type="4" vSize="20" /> -->
+		<!-- <Item Cat="0" Index="5" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+		<!-- <Item Cat="12" Index="15" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+		<!-- <Item Cat="-1" Index="56" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+	</ItemGetNotice>
+	
+	<MonsterKillNotice Enabled="1">
+		<!-- <Monster ID="4" Type="4" vSize="20" /> -->
+	</MonsterKillNotice>
+	
+	<MonsterSpawnNotice Enabled="1">
+		<!-- <Monster ID="3" MapNum="-1" InvincibleBuffDuration="120" Type="4" vSize="20"/> -->
+	</MonsterSpawnNotice>
+</NoticeSystem>

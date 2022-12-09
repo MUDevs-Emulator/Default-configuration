@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<SwampOfDarknessBoss Enable="1" MaxPlayer="10" GodOfDarknessBattleMinutes="5" MoveTownTime="1" >
+	<SwampMonsterRegen IsOriginalTime="0" Day="0" Hour="0" Min="2" />
+	<SwampMonster SummonPetsTime="20000" SummonPetsCount="0" SummonWaterLifePercent="75" />
+	<SwampMonsterPet SummonPetsPetBreathRate="5" />
+	<SwampMonsterWater SpecialAttackMinTime="2000" WaterSourceTime="30000" WaterSourceHealingTime="3000" WaterSourceEndHealingTime="10000" WaterSourceLifePercent="5" SkillWaveRate="15" SkillWaterCourseRate="15" DeathPercentLife="20" />
+	<SwampMonsterGod SpecialAttackMinTime="2000" FlameSkillRate="10" FlameSkillDistance="5" FlameSkillDamagePercent="90" DarknessSkillRate="20" DarknessSkillDistance="5" />
+</SwampOfDarknessBoss>

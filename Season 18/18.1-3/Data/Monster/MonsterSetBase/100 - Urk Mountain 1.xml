@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="673" Range="30" BeginPosX="126" BeginPosY="108" EndPosX="134" EndPosY="120" Direction="-1" Quantity="1" Element="6" /> <!-- "Lord Silvester" -->
+		<Config Class="670" Range="30" BeginPosX="31" BeginPosY="38" EndPosX="33" EndPosY="40" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="33" BeginPosY="42" EndPosX="35" EndPosY="44" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="36" BeginPosY="39" EndPosX="38" EndPosY="41" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="96" BeginPosY="10" EndPosX="98" EndPosY="12" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="97" BeginPosY="14" EndPosX="99" EndPosY="16" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="100" BeginPosY="12" EndPosX="102" EndPosY="14" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="106" BeginPosY="197" EndPosX="108" EndPosY="199" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="108" BeginPosY="201" EndPosX="110" EndPosY="203" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="110" BeginPosY="196" EndPosX="112" EndPosY="198" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="137" BeginPosY="31" EndPosX="139" EndPosY="33" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="138" BeginPosY="36" EndPosX="140" EndPosY="38" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="140" BeginPosY="33" EndPosX="142" EndPosY="35" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="161" BeginPosY="53" EndPosX="163" EndPosY="55" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="165" BeginPosY="50" EndPosX="167" EndPosY="52" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="164" BeginPosY="55" EndPosX="166" EndPosY="57" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="93" BeginPosY="67" EndPosX="95" EndPosY="69" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="100" BeginPosY="72" EndPosX="102" EndPosY="74" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="91" BeginPosY="73" EndPosX="93" EndPosY="75" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="98" BeginPosY="66" EndPosX="100" EndPosY="68" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="96" BeginPosY="75" EndPosX="98" EndPosY="77" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="103" BeginPosY="63" EndPosX="105" EndPosY="65" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="97" BeginPosY="71" EndPosX="99" EndPosY="73" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="130" BeginPosY="150" EndPosX="132" EndPosY="152" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="133" BeginPosY="152" EndPosX="135" EndPosY="154" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="127" BeginPosY="156" EndPosX="129" EndPosY="158" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="134" BeginPosY="159" EndPosX="136" EndPosY="161" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="208" BeginPosY="214" EndPosX="210" EndPosY="216" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="211" BeginPosY="210" EndPosX="213" EndPosY="212" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="213" BeginPosY="216" EndPosX="215" EndPosY="218" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="215" BeginPosY="211" EndPosX="217" EndPosY="213" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="210" BeginPosY="217" EndPosX="212" EndPosY="219" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="87" BeginPosY="94" EndPosX="89" EndPosY="96" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="91" BeginPosY="100" EndPosX="92" EndPosY="100" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="670" Range="30" BeginPosX="85" BeginPosY="97" EndPosX="87" EndPosY="99" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="672" Range="30" BeginPosX="90" BeginPosY="99" EndPosX="92" EndPosY="101" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="72" BeginPosY="130" EndPosX="74" EndPosY="132" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="77" BeginPosY="132" EndPosX="79" EndPosY="134" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="79" BeginPosY="128" EndPosX="81" EndPosY="130" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="81" BeginPosY="132" EndPosX="83" EndPosY="134" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="75" BeginPosY="128" EndPosX="77" EndPosY="130" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="175" BeginPosY="190" EndPosX="177" EndPosY="192" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="672" Range="30" BeginPosX="180" BeginPosY="192" EndPosX="182" EndPosY="194" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="177" BeginPosY="194" EndPosX="179" EndPosY="196" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="184" BeginPosY="190" EndPosX="186" EndPosY="192" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="670" Range="30" BeginPosX="165" BeginPosY="78" EndPosX="167" EndPosY="80" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="672" Range="30" BeginPosX="161" BeginPosY="83" EndPosX="163" EndPosY="85" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="165" BeginPosY="83" EndPosX="167" EndPosY="85" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="159" BeginPosY="80" EndPosX="161" EndPosY="82" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="199" BeginPosY="132" EndPosX="201" EndPosY="134" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="194" BeginPosY="132" EndPosX="196" EndPosY="134" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="199" BeginPosY="136" EndPosX="201" EndPosY="138" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="202" BeginPosY="131" EndPosX="204" EndPosY="133" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="203" BeginPosY="108" EndPosX="205" EndPosY="110" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="670" Range="30" BeginPosX="204" BeginPosY="113" EndPosX="206" EndPosY="115" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="207" BeginPosY="117" EndPosX="209" EndPosY="119" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="208" BeginPosY="111" EndPosX="210" EndPosY="113" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="199" BeginPosY="48" EndPosX="201" EndPosY="50" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="670" Range="30" BeginPosX="198" BeginPosY="52" EndPosX="200" EndPosY="54" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="202" BeginPosY="52" EndPosX="204" EndPosY="54" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="204" BeginPosY="48" EndPosX="206" EndPosY="50" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="238" BeginPosY="137" EndPosX="240" EndPosY="139" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="236" BeginPosY="133" EndPosX="238" EndPosY="135" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="240" BeginPosY="134" EndPosX="242" EndPosY="136" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="235" BeginPosY="66" EndPosX="237" EndPosY="68" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="234" BeginPosY="81" EndPosX="236" EndPosY="83" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="226" BeginPosY="115" EndPosX="228" EndPosY="117" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="214" BeginPosY="147" EndPosX="216" EndPosY="149" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="224" BeginPosY="163" EndPosX="226" EndPosY="165" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="226" BeginPosY="181" EndPosX="228" EndPosY="183" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="218" BeginPosY="94" EndPosX="220" EndPosY="96" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="238" BeginPosY="97" EndPosX="240" EndPosY="99" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="220" BeginPosY="137" EndPosX="222" EndPosY="139" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="225" BeginPosY="102" EndPosX="227" EndPosY="104" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="233" BeginPosY="171" EndPosX="235" EndPosY="173" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="225" BeginPosY="88" EndPosX="227" EndPosY="90" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="222" BeginPosY="126" EndPosX="224" EndPosY="128" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="217" BeginPosY="158" EndPosX="219" EndPosY="160" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="234" BeginPosY="165" EndPosX="236" EndPosY="167" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="240" BeginPosY="134" EndPosX="242" EndPosY="136" Direction="-1" Quantity="1" Element="6" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="155" BeginPosY="144" EndPosX="157" EndPosY="146" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="156" BeginPosY="156" EndPosX="158" EndPosY="158" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="169" BeginPosY="124" EndPosX="171" EndPosY="126" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="171" BeginPosY="133" EndPosX="173" EndPosY="135" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="177" BeginPosY="92" EndPosX="179" EndPosY="94" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="187" BeginPosY="88" EndPosX="189" EndPosY="90" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="181" BeginPosY="21" EndPosX="183" EndPosY="23" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="169" BeginPosY="10" EndPosX="171" EndPosY="12" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="150" BeginPosY="9" EndPosX="152" EndPosY="11" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="123" BeginPosY="13" EndPosX="125" EndPosY="15" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="95" BeginPosY="28" EndPosX="97" EndPosY="30" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="102" BeginPosY="37" EndPosX="104" EndPosY="39" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="74" BeginPosY="41" EndPosX="76" EndPosY="43" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="65" BeginPosY="54" EndPosX="67" EndPosY="56" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="52" BeginPosY="57" EndPosX="55" EndPosY="59" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="55" BeginPosY="171" EndPosX="57" EndPosY="173" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="78" BeginPosY="180" EndPosX="80" EndPosY="182" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="92" BeginPosY="169" EndPosX="94" EndPosY="171" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="95" BeginPosY="142" EndPosX="97" EndPosY="144" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="100" BeginPosY="133" EndPosX="102" EndPosY="135" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="101" BeginPosY="110" EndPosX="103" EndPosY="112" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="117" BeginPosY="80" EndPosX="119" EndPosY="82" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="119" BeginPosY="66" EndPosX="121" EndPosY="68" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="149" BeginPosY="127" EndPosX="151" EndPosY="129" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="156" BeginPosY="187" EndPosX="158" EndPosY="189" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="85" BeginPosY="33" EndPosX="87" EndPosY="35" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="191" BeginPosY="22" EndPosX="193" EndPosY="24" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="157" BeginPosY="39" EndPosX="159" EndPosY="41" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="137" BeginPosY="65" EndPosX="139" EndPosY="67" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="116" BeginPosY="52" EndPosX="118" EndPosY="54" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="68" BeginPosY="48" EndPosX="70" EndPosY="50" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="93" BeginPosY="155" EndPosX="95" EndPosY="157" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="89" BeginPosY="190" EndPosX="91" EndPosY="192" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="155" BeginPosY="172" EndPosX="157" EndPosY="174" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="200" BeginPosY="202" EndPosX="202" EndPosY="204" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="218" BeginPosY="187" EndPosX="220" EndPosY="189" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="202" BeginPosY="88" EndPosX="204" EndPosY="90" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="220" BeginPosY="52" EndPosX="222" EndPosY="54" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="156" BeginPosY="21" EndPosX="158" EndPosY="23" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="138" BeginPosY="80" EndPosX="140" EndPosY="82" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="146" BeginPosY="93" EndPosX="148" EndPosY="95" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="158" BeginPosY="104" EndPosX="160" EndPosY="106" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="173" BeginPosY="114" EndPosX="175" EndPosY="116" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="143" BeginPosY="50" EndPosX="145" EndPosY="52" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="149" BeginPosY="45" EndPosX="151" EndPosY="47" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="170" BeginPosY="100" EndPosX="172" EndPosY="102" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="160" BeginPosY="134" EndPosX="162" EndPosY="136" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="156" BeginPosY="164" EndPosX="158" EndPosY="166" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="148" BeginPosY="208" EndPosX="150" EndPosY="210" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="134" BeginPosY="214" EndPosX="136" EndPosY="216" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="123" BeginPosY="211" EndPosX="125" EndPosY="213" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="120" BeginPosY="203" EndPosX="122" EndPosY="205" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="80" BeginPosY="208" EndPosX="82" EndPosY="210" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="84" BeginPosY="218" EndPosX="86" EndPosY="220" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="85" BeginPosY="180" EndPosX="87" EndPosY="182" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="92" BeginPosY="126" EndPosX="94" EndPosY="128" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="109" BeginPosY="94" EndPosX="111" EndPosY="97" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="107" BeginPosY="22" EndPosX="109" EndPosY="24" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="131" BeginPosY="10" EndPosX="133" EndPosY="12" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="157" BeginPosY="28" EndPosX="159" EndPosY="30" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="210" BeginPosY="89" EndPosX="212" EndPosY="91" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="40" BeginPosY="140" EndPosX="42" EndPosY="142" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="43" BeginPosY="151" EndPosX="45" EndPosY="153" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="33" BeginPosY="119" EndPosX="36" EndPosY="121" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="670" Range="30" BeginPosX="28" BeginPosY="115" EndPosX="30" EndPosY="117" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="48" BeginPosY="161" EndPosX="50" EndPosY="163" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="95" BeginPosY="220" EndPosX="97" EndPosY="222" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="152" BeginPosY="199" EndPosX="154" EndPosY="201" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="166" BeginPosY="205" EndPosX="169" EndPosY="207" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="178" BeginPosY="126" EndPosX="180" EndPosY="128" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="189" BeginPosY="27" EndPosX="191" EndPosY="29" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="112" BeginPosY="145" EndPosX="114" EndPosY="147" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="113" BeginPosY="137" EndPosX="116" EndPosY="139" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="112" BeginPosY="154" EndPosX="114" EndPosY="157" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="120" BeginPosY="166" EndPosX="122" EndPosY="168" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="116" BeginPosY="145" EndPosX="118" EndPosY="147" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="140" BeginPosY="162" EndPosX="142" EndPosY="164" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="108" BeginPosY="42" EndPosX="110" EndPosY="44" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="134" BeginPosY="88" EndPosX="134" EndPosY="88" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="47" BeginPosY="49" EndPosX="49" EndPosY="51" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="54" BeginPosY="40" EndPosX="56" EndPosY="41" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="63" BeginPosY="39" EndPosX="65" EndPosY="41" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="181" BeginPosY="105" EndPosX="184" EndPosY="107" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="670" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="670" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Devil Fairy" -->
+		<Config Class="671" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="671" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="1" /> <!-- "Uruk Elemental Beast" -->
+		<Config Class="672" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="2" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="3" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="4" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="672" Range="30" BeginPosX="120" BeginPosY="106" EndPosX="139" EndPosY="124" Direction="-1" Quantity="1" Element="5" /> <!-- "Uruk Elemental Knight" -->
+		<Config Class="689" Range="0" BeginPosX="125" BeginPosY="128" EndPosX="126" EndPosY="129" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="127" BeginPosY="132" EndPosX="129" EndPosY="133" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="112" BeginPosY="115" EndPosX="113" EndPosY="117" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="111" BeginPosY="112" EndPosX="113" EndPosY="113" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="116" BeginPosY="109" EndPosX="117" EndPosY="110" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="116" BeginPosY="105" EndPosX="117" EndPosY="106" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="115" BeginPosY="100" EndPosX="117" EndPosY="101" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="117" BeginPosY="120" EndPosX="118" EndPosY="121" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="122" BeginPosY="97" EndPosX="124" EndPosY="98" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="125" BeginPosY="99" EndPosX="127" EndPosY="100" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="130" BeginPosY="97" EndPosX="131" EndPosY="98" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="134" BeginPosY="94" EndPosX="135" EndPosY="95" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="132" BeginPosY="101" EndPosX="134" EndPosY="102" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="134" BeginPosY="105" EndPosX="135" EndPosY="106" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="138" BeginPosY="107" EndPosX="139" EndPosY="108" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="144" BeginPosY="107" EndPosX="146" EndPosY="108" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="149" BeginPosY="111" EndPosX="150" EndPosY="112" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="141" BeginPosY="112" EndPosX="142" EndPosY="113" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="137" BeginPosY="116" EndPosX="138" EndPosY="117" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="138" BeginPosY="123" EndPosX="139" EndPosY="122" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="139" BeginPosY="127" EndPosX="141" EndPosY="128" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="136" BeginPosY="128" EndPosX="137" EndPosY="129" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="137" BeginPosY="132" EndPosX="138" EndPosY="133" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="132" BeginPosY="131" EndPosX="133" EndPosY="132" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="113" BeginPosY="122" EndPosX="114" EndPosY="123" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="122" BeginPosY="122" EndPosX="123" EndPosY="123" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="145" BeginPosY="113" EndPosX="146" EndPosY="114" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="124" BeginPosY="124" EndPosX="126" EndPosY="125" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="108" BeginPosY="120" EndPosX="109" EndPosY="121" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="119" BeginPosY="132" EndPosX="120" EndPosY="133" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="116" BeginPosY="129" EndPosX="117" EndPosY="130" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="150" BeginPosY="107" EndPosX="151" EndPosY="108" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="142" BeginPosY="133" EndPosX="143" EndPosY="134" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="145" BeginPosY="131" EndPosX="146" EndPosY="132" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="119" BeginPosY="92" EndPosX="120" EndPosY="93" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="123" BeginPosY="92" EndPosX="124" EndPosY="93" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="110" BeginPosY="124" EndPosX="111" EndPosY="125" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+		<Config Class="689" Range="0" BeginPosX="120" BeginPosY="100" EndPosX="121" EndPosY="101" Direction="-1" Quantity="1" Element="0" /> <!-- "Flame Trap" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

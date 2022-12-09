@@ -1,0 +1,4 @@
+0
+//Class		Map	BuffIndex	BuffTime	WCoinC		WCoinP		GoblinPoint		RuudMoney
+2		0	*		*		1		0		0			0
+end

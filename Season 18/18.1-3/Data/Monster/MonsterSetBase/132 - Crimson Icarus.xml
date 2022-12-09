@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+        <Config Class="866" Range="0" PositionX="055" PositionY="066" Direction="2" Element="1" /> <!-- Elite Zone Flag Fire -->
+        <Config Class="866" Range="0" PositionX="079" PositionY="203" Direction="2" Element="2" /> <!-- Elite Zone Flag Water -->
+        <Config Class="866" Range="0" PositionX="179" PositionY="049" Direction="4" Element="3" /> <!-- Elite Zone Flag Earth -->
+        <Config Class="866" Range="0" PositionX="178" PositionY="205" Direction="2" Element="4" /> <!-- Elite Zone Flag Wind -->
+        <Config Class="866" Range="0" PositionX="215" PositionY="117" Direction="4" Element="5" /> <!-- Elite Zone Flag Darkness -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+<!-- ======================================== Saida DIREITA CENTRO - DARKNESS ========================================================================================================================================================================================================================================= -->
+	<Config Class="860" Range="10" PositionX="160" PositionY="124" Direction="-1" Element="5" /> <!-- "Red Megacrust" -->
+	<Config Class="863" Range="10" PositionX="160" PositionY="124" Direction="-1" Element="5" /> <!-- "Red Phantom Knight" -->
+	<Config Class="861" Range="10" PositionX="179" PositionY="124" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	
+	<Config Class="860" Range="10" PositionX="191" PositionY="142" Direction="-1" Element="5" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="191" PositionY="142" Direction="-1" Element="5" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="191" PositionY="142" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="191" PositionY="142" Direction="-1" Element="5" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="860" Range="10" PositionX="229" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="229" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="229" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="229" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="215" PositionY="120" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	
+	<Config Class="861" Range="10" PositionX="212" PositionY="100" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="212" PositionY="100" Direction="-1" Element="5" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="865" Range="10" PositionX="193" PositionY="100" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="193" PositionY="100" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="193" PositionY="100" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="193" PositionY="100" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="193" PositionY="100" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="865" Range="10" PositionX="170" PositionY="147" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="170" PositionY="147" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="170" PositionY="147" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="170" PositionY="147" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="170" PositionY="147" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="865" Range="10" PositionX="200" PositionY="121" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="200" PositionY="121" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="200" PositionY="121" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="200" PositionY="121" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="200" PositionY="121" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="865" Range="10" PositionX="190" PositionY="169" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="190" PositionY="169" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="190" PositionY="169" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="190" PositionY="169" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="190" PositionY="169" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="860" Range="10" PositionX="207" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="207" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="207" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="207" PositionY="139" Direction="-1" Element="5" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="230" PositionY="113" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="230" PositionY="113" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="230" PositionY="113" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="230" PositionY="113" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="230" PositionY="113" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="861" Range="10" PositionX="227" PositionY="159" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="227" PositionY="159" Direction="-1" Element="5" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="861" Range="10" PositionX="242" PositionY="159" Direction="-1" Element="5" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="242" PositionY="159" Direction="-1" Element="5" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="865" Range="10" PositionX="242" PositionY="140" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="242" PositionY="140" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="242" PositionY="140" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="242" PositionY="140" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="242" PositionY="140" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="865" Range="10" PositionX="209" PositionY="156" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="209" PositionY="156" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="209" PositionY="156" Direction="-1" Element="5" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="209" PositionY="156" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="209" PositionY="156" Direction="-1" Element="5" /> <!-- "(Elite) Red Great Drakan" -->
+	<!-- ======================================== Saida Baixo - EARTH  ========================================================================================================================================================================================================================================= -->	
+	<Config Class="860" Range="10" PositionX="128" PositionY="88" Direction="-1" Element="3" /> <!-- "Red Megacrust" -->
+	<Config Class="863" Range="10" PositionX="128" PositionY="88" Direction="-1" Element="3" /> <!-- "Red Phantom Knight" -->
+	<Config Class="861" Range="10" PositionX="128" PositionY="88" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	
+	<Config Class="865" Range="10" PositionX="149" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="149" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="149" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="149" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="149" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="865" Range="10" PositionX="125" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="125" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="125" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="125" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="125" PositionY="38" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="134" PositionY="68" Direction="-1" Element="3" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="134" PositionY="68" Direction="-1" Element="3" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="134" PositionY="68" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="134" PositionY="68" Direction="-1" Element="3" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="860" Range="10" PositionX="155" PositionY="65" Direction="-1" Element="3" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="155" PositionY="65" Direction="-1" Element="3" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="155" PositionY="65" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="155" PositionY="65" Direction="-1" Element="3" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="155" PositionY="98" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="155" PositionY="98" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="155" PositionY="98" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="155" PositionY="98" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="155" PositionY="98" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="180" PositionY="60" Direction="-1" Element="3" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="180" PositionY="60" Direction="-1" Element="3" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="180" PositionY="60" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="180" PositionY="60" Direction="-1" Element="3" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="861" Range="10" PositionX="182" PositionY="32" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="182" PositionY="32" Direction="-1" Element="3" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="861" Range="10" PositionX="181" PositionY="23" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="181" PositionY="23" Direction="-1" Element="3" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="865" Range="10" PositionX="161" PositionY="21" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="161" PositionY="21" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="161" PositionY="21" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="161" PositionY="21" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="161" PositionY="21" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="193" PositionY="55" Direction="-1" Element="3" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="193" PositionY="55" Direction="-1" Element="3" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="193" PositionY="55" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="193" PositionY="55" Direction="-1" Element="3" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="199" PositionY="35" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="199" PositionY="35" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="199" PositionY="35" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="199" PositionY="35" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="199" PositionY="35" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="861" Range="10" PositionX="210" PositionY="66" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="210" PositionY="66" Direction="-1" Element="3" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="194" PositionY="78" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="194" PositionY="78" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="194" PositionY="78" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="194" PositionY="78" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="194" PositionY="78" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="861" Range="10" PositionX="225" PositionY="64" Direction="-1" Element="3" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="225" PositionY="64" Direction="-1" Element="3" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="865" Range="10" PositionX="221" PositionY="53" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="221" PositionY="53" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="221" PositionY="53" Direction="-1" Element="3" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="221" PositionY="53" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="221" PositionY="53" Direction="-1" Element="3" /> <!-- "(Elite) Red Great Drakan" -->
+<!-- ======================================== Saida CIMA Direita - WIND  ========================================================================================================================================================================================================================================= -->			
+	<Config Class="861" Range="10" PositionX="128" PositionY="149" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="128" PositionY="149" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="860" Range="10" PositionX="134" PositionY="167" Direction="-1" Element="4" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="134" PositionY="167" Direction="-1" Element="4" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="134" PositionY="167" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="134" PositionY="167" Direction="-1" Element="4" /> <!-- "Red Phantom Knight" -->
+
+	<Config Class="865" Range="10" PositionX="155" PositionY="165" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="155" PositionY="165" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="155" PositionY="165" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="155" PositionY="165" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="155" PositionY="165" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="865" Range="10" PositionX="126" PositionY="190" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="126" PositionY="190" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="126" PositionY="190" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="126" PositionY="190" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="126" PositionY="190" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="147" PositionY="184" Direction="-1" Element="4" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="147" PositionY="184" Direction="-1" Element="4" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="147" PositionY="184" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="147" PositionY="184" Direction="-1" Element="4" /> <!-- "Red Phantom Knight" -->
+
+	<Config Class="860" Range="10" PositionX="161" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="161" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="161" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="161" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="861" Range="10" PositionX="183" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="183" PositionY="186" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="210" PositionY="186" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="210" PositionY="186" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="210" PositionY="186" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="210" PositionY="186" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="210" PositionY="186" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="860" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Phantom Knight" -->
+	<Config Class="861" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="187" PositionY="206" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->	
+
+	<Config Class="860" Range="10" PositionX="204" PositionY="202" Direction="-1" Element="4" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="204" PositionY="202" Direction="-1" Element="4" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="204" PositionY="202" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="204" PositionY="202" Direction="-1" Element="4" /> <!-- "Red Phantom Knight" -->
+
+	<Config Class="861" Range="10" PositionX="217" PositionY="200" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="217" PositionY="200" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->	
+
+	<Config Class="865" Range="10" PositionX="228" PositionY="203" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="228" PositionY="203" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="228" PositionY="203" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="228" PositionY="203" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="228" PositionY="203" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="865" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="152" PositionY="208" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan sumiu aqui" --> 
+	
+	<Config Class="861" Range="10" PositionX="192" PositionY="236" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="192" PositionY="236" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="861" Range="10" PositionX="174" PositionY="238" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="174" PositionY="238" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="178" PositionY="227" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="178" PositionY="227" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="178" PositionY="227" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="178" PositionY="227" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+		
+	<Config Class="861" Range="10" PositionX="203" PositionY="237" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="203" PositionY="237" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="861" Range="10" PositionX="205" PositionY="221" Direction="-1" Element="4" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="205" PositionY="221" Direction="-1" Element="4" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="218" PositionY="224" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="218" PositionY="224" Direction="-1" Element="4" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="218" PositionY="224" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="218" PositionY="224" Direction="-1" Element="4" /> <!-- "(Elite) Red Great Drakan" -->
+<!-- ======================================== Saida Cima ESQUERDA - WATER  ========================================================================================================================================================================================================================================= -->				
+	<Config Class="861" Range="10" PositionX="101" PositionY="132" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="101" PositionY="132" Direction="-1" Element="2" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="860" Range="10" PositionX="83" PositionY="144" Direction="-1" Element="2" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="83" PositionY="144" Direction="-1" Element="2" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="83" PositionY="144" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="83" PositionY="144" Direction="-1" Element="2" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="55" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	
+	<Config Class="860" Range="10" PositionX="79" PositionY="161" Direction="-1" Element="2" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="79" PositionY="161" Direction="-1" Element="2" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="79" PositionY="161" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="79" PositionY="161" Direction="-1" Element="2" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="861" Range="10" PositionX="107" PositionY="165" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="107" PositionY="165" Direction="-1" Element="2" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="104" PositionY="151" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+
+	<Config Class="860" Range="10" PositionX="88" PositionY="177" Direction="-1" Element="2" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="88" PositionY="177" Direction="-1" Element="2" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="88" PositionY="177" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="88" PositionY="177" Direction="-1" Element="2" /> <!-- "Red Phantom Knight" -->
+
+	<Config Class="865" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="61" PositionY="185" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+
+	<Config Class="860" Range="10" PositionX="88" PositionY="194" Direction="-1" Element="2" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="88" PositionY="194" Direction="-1" Element="2" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="88" PositionY="194" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="88" PositionY="194" Direction="-1" Element="2" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="864" Range="10" PositionX="90" PositionY="211" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+`	<Config Class="864" Range="10" PositionX="90" PositionY="211" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	<Config Class="864" Range="10" PositionX="90" PositionY="211" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	<Config Class="864" Range="10" PositionX="90" PositionY="211" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	
+	<Config Class="865" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="57" PositionY="206" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+					
+	<Config Class="861" Range="10" PositionX="74" PositionY="226" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="74" PositionY="226" Direction="-1" Element="2" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="58" PositionY="226" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	
+	<Config Class="865" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="87" PositionY="236" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+	
+	<Config Class="861" Range="10" PositionX="110" PositionY="209" Direction="-1" Element="2" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="110" PositionY="209" Direction="-1" Element="2" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="107" PositionY="191" Direction="-1" Element="2" /> <!-- "(Elite) Red Great Drakan " --> 
+<!-- ======================================== Saida CENTRO Esquerda - FIRE  ========================================================================================================================================================================================================================================= -->		
+	<Config Class="860" Range="10" PositionX="97" PositionY="116" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="97" PositionY="116" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="97" PositionY="116" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="97" PositionY="116" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="861" Range="10" PositionX="77" PositionY="112" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="77" PositionY="112" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="865" Range="10" PositionX="56" PositionY="114" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="56" PositionY="114" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="56" PositionY="114" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="56" PositionY="114" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="56" PositionY="114" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="861" Range="10" PositionX="79" PositionY="92" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="79" PositionY="92" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->
+
+	<Config Class="861" Range="10" PositionX="99" PositionY="91" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="99" PositionY="91" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->	
+	
+	<Config Class="865" Range="10" PositionX="96" PositionY="73" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="96" PositionY="73" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="96" PositionY="73" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="96" PositionY="73" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="96" PositionY="73" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="76" PositionY="63" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="76" PositionY="63" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="76" PositionY="63" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="76" PositionY="63" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="861" Range="10" PositionX="67" PositionY="85" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="67" PositionY="85" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->	
+	
+	<Config Class="865" Range="10" PositionX="47" PositionY="86" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="47" PositionY="86" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="47" PositionY="86" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="47" PositionY="86" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="47" PositionY="86" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="861" Range="10" PositionX="43" PositionY="64" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="43" PositionY="64" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->	
+
+	<Config Class="860" Range="10" PositionX="41" PositionY="48" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="41" PositionY="48" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="41" PositionY="48" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="41" PositionY="48" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="44" PositionY="20" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="860" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	<Config Class="860" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="20" PositionX="94" PositionY="47" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="63" PositionY="46" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="63" PositionY="46" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="63" PositionY="46" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="63" PositionY="46" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="63" PositionY="46" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	
+	<Config Class="860" Range="10" PositionX="98" PositionY="19" Direction="-1" Element="1" /> <!-- "Red Megacrust" -->
+	<Config Class="862" Range="10" PositionX="98" PositionY="19" Direction="-1" Element="1" /> <!-- "Red Alpha Crus" -->
+	<Config Class="861" Range="10" PositionX="98" PositionY="19" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="863" Range="10" PositionX="98" PositionY="19" Direction="-1" Element="1" /> <!-- "Red Phantom Knight" -->
+	
+	<Config Class="865" Range="10" PositionX="126" PositionY="21" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="126" PositionY="21" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="126" PositionY="21" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="126" PositionY="21" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="126" PositionY="21" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+
+	<Config Class="861" Range="10" PositionX="94" PositionY="7" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="94" PositionY="7" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->	
+
+	<Config Class="861" Range="10" PositionX="77" PositionY="6" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="77" PositionY="6" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->
+
+	<Config Class="861" Range="10" PositionX="63" PositionY="6" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="63" PositionY="6" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->
+	
+	<Config Class="861" Range="10" PositionX="62" PositionY="25" Direction="-1" Element="1" /> <!-- "Red Queen Rainier" -->
+	<Config Class="859" Range="10" PositionX="62" PositionY="25" Direction="-1" Element="1" /> <!-- "Red Alquamos" -->
+
+	<Config Class="865" Range="10" PositionX="79" PositionY="22" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="79" PositionY="22" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="865" Range="10" PositionX="79" PositionY="22" Direction="-1" Element="1" /> <!-- "(Elite) Red Phoenix of Darkness" -->
+	<Config Class="864" Range="10" PositionX="79" PositionY="22" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->
+	<Config Class="864" Range="10" PositionX="79" PositionY="22" Direction="-1" Element="1" /> <!-- "(Elite) Red Great Drakan" -->	
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<Config Class="459" Range="0" PositionX="145" PositionY="31" Direction="0" Element="0" /> <!-- "Selupan" -->
+		<Config Class="460" Range="0" PositionX="141" PositionY="27" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="461" Range="0" PositionX="141" PositionY="28" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="462" Range="0" PositionX="142" PositionY="28" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="460" Range="0" PositionX="146" PositionY="34" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="462" Range="0" PositionX="147" PositionY="34" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="461" Range="0" PositionX="146" PositionY="33" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="460" Range="0" PositionX="152" PositionY="31" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="460" Range="0" PositionX="152" PositionY="30" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="461" Range="0" PositionX="151" PositionY="30" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="462" Range="0" PositionX="146" PositionY="29" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="462" Range="0" PositionX="146" PositionY="30" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="461" Range="0" PositionX="147" PositionY="29" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="460" Range="0" PositionX="145" PositionY="24" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="460" Range="0" PositionX="144" PositionY="24" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+		<Config Class="461" Range="0" PositionX="144" PositionY="25" Direction="0" Element="0" /> <!-- "Spider Eggs" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

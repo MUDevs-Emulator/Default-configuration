@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+//	### TormentedSquareBattle ###
+//	Enable: Enables or disables the event, 0/1
+//
+// ### TormentedSquareBattle::Time ###
+//	StartIn: Time to start the event from opening time, minutes
+//	WaitingArea: Time to wait to start the event after close, minutes
+//	Round: Single round duration, minutes
+//	AfterRound: Waiting time after regular round, seconds
+//	AfterBossRound: Waiting time after boss round, seconds
+//	TownSpawn: Time to move players to town after event completion, seconds
+//
+// ### TormentedSquareBattle::EventSchedule::Start ###
+//	Hour: Start hour of the event, 0-23
+//	Minute: Start minute of the event, 0-59
+//
+// ### TormentedSquareBattle::EntryLevel::Square ###
+//	Number: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//	MaxMonsters: Maximum monsters to spawn per square
+//	MinPlayers: Minimum players per square to start the event
+//	MaxPlayers: Maximum players that may enter a square
+//
+// ### TormentedSquareBattle::EventMonsterAppearanceRate::Round ###
+//	Number: Number of a round to spawn monsters
+//	SpawnRate: Chance to spawn specified monsters, n/100
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Monsters for specified round can be configured in TormentedSquare_Battle_Monsters.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### TormentedSquareBattle::ChaosGoblinAppearanceRate::Square::Round ###
+//	Number: Number of times the Chaos Goblin Teleported so far
+//	MinimumHP: Value of HP to apply the teleport rule
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ The settings allow to determine when to make Chaos Goblin to use teleport. If number of teleports
+//~~ is equal to Number attribute and actual Goblin HP is equal or lower than MinimumHP attribute then goblin will teleport.
+//~~ Maximum six rules.
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### TormentedSquareBattle::ChaosGoblinTeleportSettings::Teleport ###
+//	
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+<TormentedSquareBattle>
+	<Time StartIn="5" WaitingArea="1" Round="2" AfterRound="10" AfterBossRound="20" TownSpawn="10" />
+
+	<EventSchedule>
+		<Start Hour="6" Minute="14" />
+		<Start Hour="11" Minute="24" />
+		<Start Hour="22" Minute="30" />
+	</EventSchedule>
+
+	<EntryLevel>
+		<Square Number="0" MinLevel="220" MaxLevel="400" MaxMonsters="150" MinPlayers="3" MaxPlayers="20" />
+		<Square Number="1" MinLevel="401" MaxLevel="500" MaxMonsters="150" MinPlayers="3" MaxPlayers="20" />
+		<Square Number="2" MinLevel="501" MaxLevel="650" MaxMonsters="150" MinPlayers="3" MaxPlayers="20" />
+		<Square Number="3" MinLevel="651" MaxLevel="-1" MaxMonsters="150" MinPlayers="3" MaxPlayers="20" />
+	</EntryLevel>
+
+	<ChaosGoblinAppearanceRate>
+		<Round Number="1" SpawnRate="0" />
+		<Round Number="2" SpawnRate="0" />
+		<Round Number="3" SpawnRate="30" />
+		<Round Number="4" SpawnRate="0" />
+		<Round Number="5" SpawnRate="0" />
+		<Round Number="6" SpawnRate="30" />
+	</ChaosGoblinAppearanceRate>
+</TormentedSquareBattle>		
