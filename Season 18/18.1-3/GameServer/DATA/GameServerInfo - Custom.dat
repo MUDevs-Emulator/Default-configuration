@@ -81,6 +81,15 @@ CustomAttackGPGain_AL0 = 0
 CustomAttackGPGain_AL1 = 0
 CustomAttackGPGain_AL2 = 0
 CustomAttackGPGain_AL3 = 0
+CustomAttackNoPickJewell_AL0 = 1
+CustomAttackNoPickJewell_AL1 = 1
+CustomAttackNoPickJewell_AL2 = 1
+CustomAttackNoPickJewell_AL3 = 1
+CustomAttackDisablePick_AL0 = 1
+CustomAttackDisablePick_AL1 = 1
+CustomAttackDisablePick_AL2 = 1
+CustomAttackDisablePick_AL3 = 1
+
 ;==================================================
 ; Custom Attack Offline Settings
 ;==================================================

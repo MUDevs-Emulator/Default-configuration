@@ -386,4 +386,9 @@
 431       *           *           902            *              //Tiger (Blue)
 432       *           *           903            *              //Tiger (Purple)
 433       *           *           904            *              //Tiger (Red)
+434       10318       *           *              *              //[BossBattle] Jewel of Harmony Box 
+435       10343       *           *              *              //Spider Artifact Box
+436       10346       *           *              *              //Spider Artifact Type 6~7 Box
+437       10347       *           *              *              //Artifact Enhancement Stone Box
+438       10350       *           *              *              //[BossBattle] Bonus Box
 end
