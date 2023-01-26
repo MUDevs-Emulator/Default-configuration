@@ -45,7 +45,7 @@ CastleSiegeRequireAlliance=1
 ;==================================================
 ChaosCastleEvent = 0
 ChaosCastleMinUser = 1
-ChaosCastleBlowUserRate = 50
+ChaosCastleBlowUserRate = 60
 
 ;==================================================
 ; Crywolf Event Settings
@@ -69,6 +69,8 @@ DevilSquareMaxUser = 15
 ;==================================================
 DoubleGoerEvent = 0
 DoubleGoerDifficultRate = 100
+DoubleGoerReqLevel=0
+DoubleGoerReqReset=0
 
 ;==================================================
 ; Illusion Temple Event Settings
@@ -82,6 +84,8 @@ IllusionTempleRewardFenrirRate = 5
 ;==================================================
 ImperialGuardianEvent = 0
 ImperialGuardianDifficultRate = 100
+ImperialGuardianReqLevel = 0
+ImperialGuardianReqReset = 0
 
 ;==================================================
 ; Invasion Manager Settings

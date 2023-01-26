@@ -8,12 +8,12 @@ NewLicenseServer=1
 ;==================================================
 ; Use EuropeLicenseServer=1 if your server is hosted in Europe/Asia
 ;==================================================
-EuropeLicenseServer=0
+EuropeLicenseServer=1
 
 ;==================================================
 ; Server Settings
 ;==================================================
-ServerName = GameServer
+ServerName = Server1
 ServerCode = 0
 ServerLock = 0
 ServerPort = 55901
@@ -60,7 +60,6 @@ CheckAutoPotionHack = 1
 CheckAutoPotionHackTolerance = 400
 CheckAutoComboHack = 1
 CheckAutoComboHackTolerance = 800
-
 
 ;==================================================
 ; Common Settings

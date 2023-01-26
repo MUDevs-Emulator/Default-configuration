@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CharacterSkillInit>
+	<Class ID="0">
+		<Skill Index="17" Level="0" QuestIndex="-1" QuestState="-1" Name="Energy Ball"/>
+		<Skill Index="45" Level="0" QuestIndex="-1" QuestState="-1" Name="Lance (Mana Glaive)"/>
+	</Class>
+	<Class ID="1">
+		<Skill Index="44" Level="0" QuestIndex="-1" QuestState="-1" Name="Crescent Moon Slash"/>
+	</Class>
+	<Class ID="2">
+		<Skill Index="46" Level="0" QuestIndex="-1" QuestState="-1" Name="Starfall"/>
+		<Skill Index="77" Level="0" QuestIndex="2" QuestState="2" Name="Infinity Arrow"/>
+	</Class>
+	<Class ID="3">
+		<Skill Index="57" Level="0" QuestIndex="-1" QuestState="-1" Name="Spiral Slash"/>
+		<Skill Index="73" Level="0" QuestIndex="-1" QuestState="-1" Name="Mana Rays"/>
+	</Class>
+	<Class ID="4">
+		<Skill Index="60" Level="0" QuestIndex="-1" QuestState="-1" Name="Force"/>
+		<Skill Index="74" Level="0" QuestIndex="-1" QuestState="-1" Name="Fire Blast"/>
+	</Class>
+	<Class ID="5">
+		<Skill Index="45" Level="0" QuestIndex="-1" QuestState="-1" Name="Lance (Mana Glaive)"/>
+	</Class>
+	<Class ID="6">
+		<Skill Index="269" Level="0" QuestIndex="-1" QuestState="-1" Name="Charge"/>
+	</Class>
+</CharacterSkillInit>
+
+
+
+
+
+

@@ -107,7 +107,7 @@ RFDamageMultiplierConstB = 10
 RFDamageMultiplierConstC = 10
 DKDamageMultiplierMaxRate = 500
 DLDamageMultiplierMaxRate = 500
-RFDamageMultiplierMaxRate = 500
+RFDamageMultiplierMaxRate = 50
 
 ;==================================================
 ; Character Dark Spirit Settings

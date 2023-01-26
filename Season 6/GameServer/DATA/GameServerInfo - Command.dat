@@ -3,8 +3,9 @@
 ; Post Command Settings
 ;==================================================
 CommandPostSwitch = 1
-CommandPostType = 7
-CommandPostAllowSVCode = 1
+CommandPostType = 0
+CommandPostShowSVCode=0
+CommandPostShowSVName=1
 CommandPostEnable_AL0 = 1
 CommandPostEnable_AL1 = 1
 CommandPostEnable_AL2 = 1
@@ -21,10 +22,10 @@ CommandPostMoney_AL0 = 0
 CommandPostMoney_AL1 = 0
 CommandPostMoney_AL2 = 0
 CommandPostMoney_AL3 = 0
-CommandPostDelay_AL0 = 30
-CommandPostDelay_AL1 = 30
-CommandPostDelay_AL2 = 30
-CommandPostDelay_AL3 = 30
+CommandPostDelay_AL0 = 5
+CommandPostDelay_AL1 = 5
+CommandPostDelay_AL2 = 5
+CommandPostDelay_AL3 = 5
 
 ;==================================================
 ; Post Buy Command Settings

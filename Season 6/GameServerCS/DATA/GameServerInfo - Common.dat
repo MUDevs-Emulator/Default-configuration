@@ -8,12 +8,12 @@ NewLicenseServer=1
 ;==================================================
 ; Use EuropeLicenseServer=1 if your server is hosted in Europe/Asia
 ;==================================================
-EuropeLicenseServer=0
+EuropeLicenseServer=1
 
 ;==================================================
 ; Server Settings
 ;==================================================
-ServerName = GameServer_CS
+ServerName = CS
 ServerCode = 19
 ServerLock = 0
 ServerPort = 55919
@@ -57,15 +57,15 @@ WriteAntiHackLog = 0
 ;==================================================
 AntiSpeedEnable=1
 CheckAutoPotionHack = 1
-CheckAutoPotionHackTolerance = 200
+CheckAutoPotionHackTolerance = 400
 CheckAutoComboHack = 1
-CheckAutoComboHackTolerance = 500
+CheckAutoComboHackTolerance = 800
 
 ;==================================================
 ; Common Settings
 ;==================================================
 MaxItemOption = 4
-PersonalCodeCheck = 1
+PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 0
 HappyNewYears = 0
 MerryChristmas = 0
@@ -76,7 +76,6 @@ MerryChristmas = 0
 GameMasterAnnouncementSwitch = 1
 GameMasterAnnouncementLevel = 32
 UserAnnouncementSwitch = 1
-
 
 ;==================================================
 ; Monster Settings
@@ -91,12 +90,9 @@ NonPK = 0
 PKLimitFree = 0
 PKDownTime1 = 3600
 PKDownTime2 = 3600
-PKOpenStores = 0
-PkPartyOpenStores = 0
+PKOpenStores = 1
+PkPartyOpenStores = 1
 PKMinPkOpenStores = 4
-PkLimitSwitch = 1
-PkLimitMaxCount = 20
-PkLimitAnnouncementSwitch = 1
 
 ;==================================================
 ; Trade Settings
@@ -112,7 +108,7 @@ PersonalShopSwitch = 1
 ; Duel Settings
 ;==================================================
 DuelSwitch = 1
-DuelArenaAnnounceSwitch = 0
+DuelArenaAnnounceSwitch = 1
 
 ;==================================================
 ; Guild Settings
@@ -146,14 +142,14 @@ ElfBufferDefenseConstB = 3
 ;==================================================
 ; Experience Settings
 ;==================================================
-AddExperienceRate_AL0 = 1
-AddExperienceRate_AL1 = 1
-AddExperienceRate_AL2 = 1
-AddExperienceRate_AL3 = 1
-AddMasterExperienceRate_AL0 = 1
-AddMasterExperienceRate_AL1 = 1
-AddMasterExperienceRate_AL2 = 1
-AddMasterExperienceRate_AL3 = 1
+AddExperienceRate_AL0 = 30
+AddExperienceRate_AL1 = 33
+AddExperienceRate_AL2 = 36
+AddExperienceRate_AL3 = 40
+AddMasterExperienceRate_AL0 = 100
+AddMasterExperienceRate_AL1 = 110
+AddMasterExperienceRate_AL2 = 120
+AddMasterExperienceRate_AL3 = 130
 MinMasterExperienceMonsterLevel_AL0 = 95
 MinMasterExperienceMonsterLevel_AL1 = 95
 MinMasterExperienceMonsterLevel_AL2 = 95
@@ -171,10 +167,10 @@ AddQuestExperienceRate_AL3 = 1
 ; Item Drop Settings
 ;==================================================
 ItemDropTime = 30
-ItemDropRate_AL0 = 25
-ItemDropRate_AL1 = 25
-ItemDropRate_AL2 = 25
-ItemDropRate_AL3 = 25
+ItemDropRate_AL0 = 30
+ItemDropRate_AL1 = 30
+ItemDropRate_AL2 = 30
+ItemDropRate_AL3 = 30
 
 ;==================================================
 ; Money Drop Settings
@@ -298,6 +294,8 @@ GensSystemFinalRewardDay = 7
 ;==================================================
 HelperSwitch = 1
 HelperActiveLevel = 80
+HelperActiveMessageBox = 1
+HelperRunWithOpenInventory = 0
 HelperActiveDelay = 5
 HelperActiveMoney1 = 20
 HelperActiveMoney2 = 50

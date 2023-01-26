@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<BotStore>
+	<BotInfo ID="0" Class="1" Name="StoreBK" StoreName="BotStore BK" ShopType="3" DelItems="0" Map="2" PosX="234" PosY="49" Dir="6" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="800">
+		<BotEquipment>
+			<Item Slot="0" ItemSection="0" ItemType="21" ItemLevel="15" ItemOption="68" />
+			<Item Slot="2" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="3" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="4" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="5" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="6" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="7" ItemSection="34" ItemType="36" ItemLevel="15" ItemOption="68" />
+			<Item Slot="7" ItemSection="12" ItemType="36" ItemLevel="15" ItemOption="68" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="20000" ValBless="0" ValSoul="0" >
+				<Item ItemSection="7" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+</BotStore>

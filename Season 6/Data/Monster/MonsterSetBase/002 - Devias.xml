@@ -19,7 +19,7 @@
 		<Config Class="257" Range="0" PositionX="219" PositionY="73" Direction="3" Element="0" /> <!-- "Shadow Phantom Soldier" -->
 		<Config Class="257" Range="0" PositionX="172" PositionY="44" Direction="1" Element="0" /> <!-- "Shadow Phantom Soldier" -->
 		<Config Class="566" Range="0" PositionX="204" PositionY="61" Direction="1" Element="0" /> <!-- "Mercenary Guild Manager Tercia" -->
-		<Config Class="478" Range="0" PositionX="191" PositionY="17" Direction="3" Element="0" /> <!-- "Delgado" -->
+		<Config Class="256" Range="0" PositionX="191" PositionY="17" Direction="3" Element="0" /> <!-- "Lahap" -->
 		<Config Class="379" Range="0" PositionX="32" PositionY="31" Direction="3" Element="0" /> <!-- "Natasha the Firecracker Merchan" -->
 		<Config Class="522" Range="0" PositionX="229" PositionY="221" Direction="1" Element="0" /> <!-- "Jerint the Assistant" -->
 	</NPC>

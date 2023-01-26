@@ -51,7 +51,7 @@
 		<Msg ID="66" Text="You must be at least %d resets to use /post" />
 		<Msg ID="67" Text="You must be at least %d Zen to use /post" />
 		<Msg ID="68" Text="You have to wait %d seconds to use /post" />
-		<Msg ID="69" Text="[POST][%d] %s" />
+		<Msg ID="69" Text="[POST][%d] %s"/>
 		<Msg ID="70" Text="You do not have permission to use /add" />
 		<Msg ID="71" Text="Exclusive Command Dark Lord" />
 		<Msg ID="72" Text="You do not have enough points to add" />
@@ -412,7 +412,7 @@
 		<Msg ID="585" Text="You are too strong to use my buff" />
 		<Msg ID="586" Text="You do not have permission to use Bots" />
 		<Msg ID="587" Text="You have received my blessing!" />
-		<Msg ID="588" Text="[POST] %s" />
+		<Msg ID="588" Text="[POST] %s"/>
 		<Msg ID="589" Text="Only vips users can move to this map" />
 		<Msg ID="590" Text="Temporarily deactivated guild creation system" />
 		<Msg ID="591" Text="You do not have enough zen in your webbank to create a guild" />
@@ -620,7 +620,8 @@
 		<Msg ID="852" Text= "You need to enable automatic attack first" />
 		<Msg ID="853" Text= "You can't use the command in this location" />
 		<Msg ID="854" Text= "You need to enable Helper first" />				
-		<Msg ID="797" Text= "%s put the item %s +15" />		
+		<Msg ID="797" Text= "%s put the item %s +15" />
+		<Msg ID="940" Text="[POST][%s]: %s" />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -668,12 +669,83 @@
 		<Msg ID="6" Text="Summer invasion has started!" />
 		<Msg ID="7" Text="Christmas invasion has started!" />
 		<Msg ID="8" Text="Invasion de Medusa started!" />
-		<Msg ID="9" Text="Player %s defeated Skeleton King!" />
-		<Msg ID="10" Text="Player %s defeated Red Dragon!" />
-		<Msg ID="11" Text="Player %s defeated Golden Great Dragon!" />
-		<Msg ID="12" Text="Player %s defeated White Wizard!" />
-		<Msg ID="13" Text="Player %s defeated Cursed Santa!" />
-		<Msg ID="14" Text="Player %s defeated Medusa!" />
-		
+		<Msg ID="9" Text="Player %s defeated Skeleton King! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="10" Text="Player %s defeated Red Dragon! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="11" Text="Player %s defeated Golden Great Dragon! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="12" Text="Player %s defeated White Wizard! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="13" Text="Player %s defeated Cursed Santa! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="14" Text="Player %s defeated Medusa! %d remaining. Killed in Map:%s X:%d Y:%d"/>
 	</InvacionMsg>
+	<Command>
+		<Msg ID="1" Text="/move" />
+		<Msg ID="2" Text="/post" />
+		<Msg ID="3" Text="/str" />
+		<Msg ID="4" Text="/agi" />
+		<Msg ID="5" Text="/vit" />
+		<Msg ID="6" Text="/ene" />
+		<Msg ID="7" Text="/cmd" />
+		<Msg ID="8" Text="/pkclear" />
+		<Msg ID="9" Text="/money" />
+		<Msg ID="10" Text="/change" />
+		<Msg ID="11" Text="/baul" />
+		<Msg ID="12" Text="/reset" />
+		<Msg ID="13" Text="/gmmove" />
+		<Msg ID="14" Text="/gmpost" />
+		<Msg ID="15" Text="/track" />
+		<Msg ID="16" Text="/trace" />
+		<Msg ID="17" Text="/disconnect" />
+		<Msg ID="18" Text="/fireworks" />
+		<Msg ID="19" Text="/make2323" />
+		<Msg ID="20" Text="/skin" />
+		<Msg ID="21" Text="/setmoney" />
+		<Msg ID="22" Text="/notice" />
+		<Msg ID="23" Text="/mreset" />
+		<Msg ID="24" Text="/war" />
+		<Msg ID="25" Text="/soccer" />
+		<Msg ID="26" Text="/re" />
+		<Msg ID="27" Text="/store" />
+		<Msg ID="28" Text="/offstore" />
+		<Msg ID="30" Text="/attack" />
+		<Msg ID="29" Text="/hide" />
+		<Msg ID="32" Text="/gpost" />
+		<Msg ID="33" Text="/Buy" />
+		<Msg ID="34" Text="/Sell" />
+		<Msg ID="35" Text="/clearinv" />
+		<Msg ID="36" Text="/clearextinv" />
+		<Msg ID="37" Text="/pkset" />
+		<Msg ID="38" Text="/setlvl" />
+		<Msg ID="39" Text="/msetlvl" />
+		<Msg ID="40" Text="/statstr" />
+		<Msg ID="41" Text="/statagi" />
+		<Msg ID="42" Text="/statene" />
+		<Msg ID="43" Text="/statvit" />
+		<Msg ID="44" Text="/statcom" />
+		<Msg ID="45" Text="/banuser" />
+		<Msg ID="46" Text="/unbanuser" />
+		<Msg ID="47" Text="/debuff" />
+		<Msg ID="48" Text="/addeffect" />
+		<Msg ID="49" Text="/godmode" />
+		<Msg ID="50" Text="/csstate" />
+		<Msg ID="51" Text="/chatblock" />
+		<Msg ID="52" Text="/unchatblock" />
+		<Msg ID="53" Text="/gremgif" />
+		<Msg ID="54" Text="/clearinvmuun" />
+		<Msg ID="55" Text="/banmac" />
+		<Msg ID="56" Text="/pack" />
+		<Msg ID="57" Text="/unpack" />
+		<Msg ID="58" Text="/offattack" />
+		<Msg ID="59" Text="/banchat" />
+		<Msg ID="60" Text="/banpost" />
+		<Msg ID="61" Text="/coint" />
+		<Msg ID="62" Text="/rename" />
+		<Msg ID="63" Text="/openware" />
+		<Msg ID="64" Text="/readd" />
+		<Msg ID="65" Text="/ereset" />
+		<Msg ID="66" Text="/setruud" />
+		<Msg ID="67" Text="/cleareventinv" />
+		<Msg ID="68" Text="/pktime" />
+		<Msg ID="69" Text="/kick" />
+		<Msg ID="70" Text= "/spot" />
+		<Msg ID="71" Text="/startevent" />
+	</Command>	
 </Language>

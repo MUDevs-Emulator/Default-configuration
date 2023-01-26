@@ -25,6 +25,8 @@ PkSystem = Character\\PkSystem.txt
 StatsSpecialize = Character\\StatsSpecialize.txt
 PlayGuide=Character\\PlayGuide.txt
 AnimationInfo= Character\\AnimationInfo.txt
+ItemCompensationLevel=Character\\ItemCompensationLevel.xml
+CharacterSkillInit=Character\\CharacterSkillInit.xml
 
 ;==================================================
 ; Custom Settings
@@ -42,8 +44,8 @@ CustomRing=Custom\\CustomRing.txt
 CustomMap=Custom\\CustomMap.txt
 CustomMonsterReward=Custom\\CustomMonsterReward.txt
 BotBuffer=Custom\\Bots\\BotBuffer.txt
-BotStore=Custom\\Bots\\BotStore.txt
-BotHide=Custom\\Bots\\BotHide.txt
+BotStore=Custom\\Bots\\BotStore.xml
+BotHide=Custom\\Bots\\BotHide.xml
 CustomNpc=Custom\\CustomNpc.txt
 GainGPOnline=Custom\\GainGPOnline.txt
 CustomPet=Custom\\CustomPet.txt
@@ -52,7 +54,7 @@ CustomMix=Custom\\CustomMix.xml
 RestoreOffline=Custom\\RestoreOffline.xml
 TerritorySystem=Custom\\TerritorySystemLimit.xml
 RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
-
+ProtocolDebug=Custom\\ProtocolDebug.xml
 ;==================================================
 ; Event Settings
 ;==================================================
@@ -66,7 +68,7 @@ DevilSquare=Event\\DevilSquare.dat
 DoubleGoer=Event\\DoubleGoer.dat
 IllusionTemple=Event\\IllusionTemple.dat
 ImperialGuardian=Event\\ImperialGuardian.dat
-InvasionManager=Event\\InvasionManager.dat
+InvasionManager=Event\\InvasionManager.xml
 Kanturu=Event\\Kanturu.dat
 MossMerchant=Event\\MossMerchant.dat
 Raklion=Event\\Raklion.dat
@@ -149,7 +151,7 @@ FreeChannelSwitch=Move\\FreeChannelSwitch.txt
 ;==================================================
 Quest=Quest\\Quest.xml
 QuestObjective=Quest\\QuestObjective.txt
-QuestReward=Quest\\QuestReward.txt
+QuestReward=Quest\\QuestReward.xml
 QuestWorld=QuestWorld\\QuestWorld.txt
 QuestWorldObjective=QuestWorld\\QuestWorldObjective.txt
 QuestWorldReward=QuestWorld\\QuestWorldReward.txt
