@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-File: ItemOption.xml MuDevs.com
-OMEGA Update: 30/Oct/2022
+ItemOption.xml MuDevs S18.1-3
+Update: 01/Feb/2023 - Fix Wing Opt
 
-SPECIAL_OPTION1 	= 0	-> Skill Option (OLD 0)
-SPECIAL_OPTION2 	= 1 -> Luck Option (OLD 1)
-SPECIAL_OPTION3 	= 2 -> Add Option 1 (OLD 2)
-SPECIAL_OPTION4 	= 3 -> Add Option 2 (NEW)
-SPECIAL_EXCELLENT1  = 4 -> (OLD 3)
-SPECIAL_EXCELLENT2  = 5 -> (OLD 4)
-SPECIAL_EXCELLENT3  = 6 -> (OLD 5)
-SPECIAL_EXCELLENT4  = 7 -> (OLD 6)
-SPECIAL_EXCELLENT5  = 8 -> (OLD 7)
-SPECIAL_EXCELLENT6  = 9 -> (OLD 8)
+// Index: option slot number.
+// 0 = Skill
+// 1 = Luck
+// 2 = Add Option 1 (Life)
+// 3 = Add Option 2 (New) 		- Only for articles that have two add option (ex.:Swords MG ATK+WIZ DMG - Add Life))
+// 4 = Slot Excellent 1
+// 5 = Slot Excellent 2
+// 6 = Slot Excellent 3
+// 7 = Slot Excellent 4
+// 8 = Slot Excellent 5
+// 9 = Slot Excellent 6
+// 10 ao 14 = Slots for "special" items like Fenrir, Imp, Guardian Angel, Unilha, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)
 
-SPECIAL_COMMON1 = 10 (OLD 9)
-SPECIAL_COMMON2 = 11 (OLD 10)
-SPECIAL_COMMON3 = 12 (OLD 11)
-SPECIAL_COMMON4 = 13 (OLD 12)
-SPECIAL_COMMON5 = 14 (OLD 13)
+SPECIAL_OPTION1 	= 0	 -> Skill Option (OLD 0)
+SPECIAL_OPTION2 	= 1  -> Luck Option (OLD 1)
+SPECIAL_OPTION3 	= 2  -> Add Option 1 (OLD 2)
+SPECIAL_OPTION4 	= 3  -> Add Option 2 (NEW)
+SPECIAL_EXCELLENT1  = 4  -> (OLD 3)
+SPECIAL_EXCELLENT2  = 5  -> (OLD 4)
+SPECIAL_EXCELLENT3  = 6  -> (OLD 5)
+SPECIAL_EXCELLENT4  = 7  -> (OLD 6)
+SPECIAL_EXCELLENT5  = 8  -> (OLD 7)
+SPECIAL_EXCELLENT6  = 9  -> (OLD 8)
+SPECIAL_COMMON1 	= 10 -> (OLD 9)
+SPECIAL_COMMON2 	= 11 -> (OLD 10)
+SPECIAL_COMMON3 	= 12 -> (OLD 11)
+SPECIAL_COMMON4 	= 13 -> (OLD 12)
+SPECIAL_COMMON5 	= 14 -> (OLD 13)
 
-ItemNewOption Type Wing 4
-1  =
-2  =
-4  =
-8  =
-16 = Damage
-32 = Defense
-
-ItemNewOption Type Wings lvl 2 & bound
-0 = Damage
-32 = HP
--------------------------------------------------------
 ITEM_OPTION_ADD_PHYSI_DAMAGE = 80
 ITEM_OPTION_ADD_MAGIC_DAMAGE = 81
 ITEM_OPTION_ADD_DEFENSE_SUCCESS_RATE = 82
@@ -81,6 +81,15 @@ ITEM_OPTION_MUL_DAMAGE = 125
 ITEM_OPTION_ADD_DEFENSE_BY_LEVEL = 126
 ITEM_OPTION_MUL_DEFENSE = 127
 ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED 
+//---------------------------------------------------//
+Ex:
+/make 12 38 0 0 0 0 1
+1  = Enemy Def Ignore
+2  = Return Incoming Damage
+4  = HP FULL RECOVERY RATE
+8  = Full Recovering Mana
+64 = HP Recovery
+
 -->
 <ItemOption>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -136,7 +145,7 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="4" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="Wings of Ruin (MG - lvl 3) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="Mantle of Monarch (DL - lvl 3) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cloak of Fighter (RF - lvl 2) - Life - Add Physical DMG +16" />
-		<Item OptionValue="4" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Mantle of Warrior (RF - lvl 3) - Life - Add Physical DMG +16" />
+		<Item OptionValue="4" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cape of Overrule (RF - lvl 3) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="Cloak of Death (DL/RF/GL - lvl 2.5) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="Wings of Chaos (BK/MG/SL - lvl 2.5) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="Wings of Life (Elf - lvl 2.5) - Life - Add Physical DMG +16" />
@@ -156,7 +165,7 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="4" ItemMinIndex="6569" ItemMaxIndex="6569" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="32" Name="[Bound]Wings of Darkness (MG - lvl 2) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6570" ItemMaxIndex="6570" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="[Bound]Cape of Lord (DL - lvl 2) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6572" ItemMaxIndex="6572" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="32" Name="[Bound]Cloak of Fighter (RF - lvl 2) - Life - Add Physical DMG +16" />
-		<Item OptionValue="4" ItemMinIndex="6573" ItemMaxIndex="6573" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="32" Name="[Bound]Cloak of Limit (RW - lvl 2) - Life - Add Physical DMG +16" />
+		<Item OptionValue="4" ItemMinIndex="6573" ItemMaxIndex="6573" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="32" Name="[Bound]Cloak of Limit (GL - lvl 2) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6575" ItemMaxIndex="6575" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="[Bound]Wings of Storm (BK - lvl 3) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6576" ItemMaxIndex="6576" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="[Bound]Wings of Illusion (Elf - lvl 3) - Life - Add Physical DMG +16" />
 		<Item OptionValue="4" ItemMinIndex="6577" ItemMaxIndex="6577" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="16" Name="[Bound]Wings of Ruin (MG - lvl 3) - Life - Add Physical DMG +16" />
@@ -191,8 +200,8 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<OptionIndex ID="96" SpecialIndex="SPECIAL_COMMON2" Name="ITEM_OPTION_MUL_MAGIC_DAMAGE"> <!-- (OLD 10) SPECIAL_COMMON1 10~14  = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
-		<Item OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Decoration Ring - Mul Magic Damage" />		
-		<Item OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Blessed Decoration Ring - Mul Magic Damage" />		
+		<Item OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Decoration Ring - Mul Magic Damage" />		
+		<Item OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Blessed Decoration Ring - Mul Magic Damage" />		
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<OptionIndex ID="86" SpecialIndex="SPECIAL_COMMON2" Name="ITEM_OPTION_ADD_MONEY_AMOUNT_DROP_RATE"> <!-- (OLD 10) Add Money Amount Drop Rate	-->
@@ -204,20 +213,20 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="50" ItemMinIndex="6822" ItemMaxIndex="6822" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Brown Panda Ring - Money Amount Drop Rate" />		
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<OptionIndex ID="114" SpecialIndex="SPECIAL_COMMON3" Name="ITEM_OPTION_ADD_CURSE_DAMAGE_BY_LEVEL"> <!-- (OLD 11) SPECIAL_COMMON1 10~14  = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
+	<OptionIndex ID="114" SpecialIndex="SPECIAL_COMMON3" Name="ITEM_OPTION_ADD_CURSE_DAMAGE_BY_LEVEL"> <!-- (OLD 11) SPECIAL_COMMON3 10~14  = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
 		<Item OptionValue="25" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Fenrir Illusion - Add Curse Damage By Level" />		
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<OptionIndex ID="115" SpecialIndex="SPECIAL_COMMON3" Name="ITEM_OPTION_MUL_CURSE_DAMAGE"> <!-- (OLD 11) SPECIAL_COMMON1 10~14  = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
+	<OptionIndex ID="115" SpecialIndex="SPECIAL_COMMON3" Name="ITEM_OPTION_MUL_CURSE_DAMAGE"> <!-- (OLD 11) SPECIAL_COMMON3 10~14  = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
 		<Item OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Decoration Ring - Mul Curse Damage" />		
 		<Item OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Blessed Decoration Ring - Mul Curse Damage" />		
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<OptionIndex ID="121" SpecialIndex="SPECIAL_COMMON4" Name="ITEM_OPTION_ADD_HP_BY_LEVEL"> <!-- (OLD 12)SPECIAL_COMMON1 10~14 (OLD 9) = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
+	<OptionIndex ID="121" SpecialIndex="SPECIAL_COMMON4" Name="ITEM_OPTION_ADD_HP_BY_LEVEL"> <!-- (OLD 12)SPECIAL_COMMON4 10~14 (OLD 9) = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
 		<Item OptionValue="2" ItemMinIndex="6693" ItemMaxIndex="6693" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Fenrir Illusion - Add HP By Level" />		
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<OptionIndex ID="94" SpecialIndex="SPECIAL_COMMON4" Name="ITEM_OPTION_MUL_PHYSI_DAMAGE"> <!-- (OLD 12)SPECIAL_COMMON1 10~14 (OLD 9) = Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
+	<OptionIndex ID="94" SpecialIndex="SPECIAL_COMMON4" Name="ITEM_OPTION_MUL_PHYSI_DAMAGE"> <!-- (OLD 12) SPECIAL_COMMON4 Slots for "Special" Items like Fenrir, Imp, Guardian Angel, Unila, Dinorant, Pets, Buff Rings (Skeleton, Panda, etc)	-->
 		<Item OptionValue="10" ItemMinIndex="6825" ItemMaxIndex="6825" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Decoration Ring - Mul % Physi Damage" />		
 		<Item OptionValue="15" ItemMinIndex="6826" ItemMaxIndex="6826" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="-1" Name="Blessed Decoration Ring - Mul % Physi Damage" />		
 	</OptionIndex>
@@ -293,9 +302,9 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="1" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Wings of Ruin - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Mantle of Monarch - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Wings of Violent Wind - Life - Add HP Recovery Rate" />
-		<Item OptionValue="1" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Mantle of Warrior - Life - Add HP Recovery Rate" />
+		<Item OptionValue="1" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cape of Overrule - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6296" ItemMaxIndex="6296" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Flame Wings - Life - Add HP Recovery Rate" />
-		<Item OptionValue="1" ItemMinIndex="6299" ItemMaxIndex="6299" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Pure White Clock - Life - Add HP Recovery Rate" />
+		<Item OptionValue="1" ItemMinIndex="6299" ItemMaxIndex="6299" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="1" Name="Pure White Clock - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6300" ItemMaxIndex="6301" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cloak of Innocence & Bound - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cloak of Brilliance & Bound - Life - Add HP Recovery Rate" />
 		<Item OptionValue="1" ItemMinIndex="6304" ItemMaxIndex="6304" ItemOption1="-1" ItemOption2="-1" ItemOption3="1" ItemNewOption="-1" Name="Cloak of Luminosity - Life - Add HP Recovery Rate" />
@@ -480,31 +489,31 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="3" ItemMinIndex="6148" ItemMaxIndex="6148" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Soul - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6149" ItemMaxIndex="6149" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Dragon - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6150" ItemMaxIndex="6150" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Darkness - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6172" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Eternity & Bound - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Storm - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Eternal - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Illusion - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Ruin - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Mantle of Monarch - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6172" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Eternity & Bound - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Storm - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Eternal - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Illusion - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Ruin - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Mantle of Monarch - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6186" ItemMaxIndex="6186" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Despair - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Violent Wind - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Violent Wind - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6193" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Fighter - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6193" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Mantle of Warrior - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cape of Overrule - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6300" ItemMaxIndex="6301" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Innocence & Bound - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Brilliance & Bound - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Cloak of Death - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Chaos - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Magic - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Life - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Conqueror 71% - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Angel and Devil - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6412" ItemMaxIndex="6412" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Conqueror 69% - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Brilliance & Bound - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Death - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Chaos - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Magic - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Life - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Conqueror 71% - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Angel and Devil - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6412" ItemMaxIndex="6412" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Conqueror 69% - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6413" ItemMaxIndex="6413" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Limit - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6414" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Transcendence - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6423" ItemMaxIndex="6423" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Cloak of Death - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6424" ItemMaxIndex="6424" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Chaos - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6425" ItemMaxIndex="6425" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Magic - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6426" ItemMaxIndex="6426" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Life - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6414" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Transcendence - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6423" ItemMaxIndex="6423" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Cloak of Death - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6424" ItemMaxIndex="6424" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Chaos - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6425" ItemMaxIndex="6425" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Magic - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6426" ItemMaxIndex="6426" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Life (lv2.5 FE)- Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6566" ItemMaxIndex="6566" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Soul - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6567" ItemMaxIndex="6567" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Dragon - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6568" ItemMaxIndex="6568" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Spirits - Excellent - Add Ignore Defense Rate" />
@@ -513,21 +522,21 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="3" ItemMinIndex="6571" ItemMaxIndex="6571" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Despair - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6572" ItemMaxIndex="6572" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Fighter - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6573" ItemMaxIndex="6573" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Limit - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6574" ItemMaxIndex="6574" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Eternal - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6575" ItemMaxIndex="6575" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Eternal - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6576" ItemMaxIndex="6576" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Illusion - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6577" ItemMaxIndex="6577" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Ruin - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6578" ItemMaxIndex="6578" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Emperor - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6579" ItemMaxIndex="6579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Dimension - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6580" ItemMaxIndex="6580" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Overrule - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6581" ItemMaxIndex="6581" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Transcendence - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6611" ItemMaxIndex="6612" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Disillusion & Bound - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6616" ItemMaxIndex="6617" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Silence & Bound - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6633" ItemMaxIndex="6633" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Hit - Excellent - Add Ignore Defense Rate" />
-		<Item OptionValue="5" ItemMinIndex="6640" ItemMaxIndex="6640" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Hit - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6574" ItemMaxIndex="6574" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Eternal - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6575" ItemMaxIndex="6575" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Storm - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6576" ItemMaxIndex="6576" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Illusion - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6577" ItemMaxIndex="6577" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Ruin - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6578" ItemMaxIndex="6578" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Cloak of Emperor - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6579" ItemMaxIndex="6579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Dimension - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6580" ItemMaxIndex="6580" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Cloak of Overrule - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6581" ItemMaxIndex="6581" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Cloak of Transcendence - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6611" ItemMaxIndex="6612" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Disillusion & Bound - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6616" ItemMaxIndex="6617" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Silence & Bound - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6633" ItemMaxIndex="6633" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Hit - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="5" ItemMinIndex="6640" ItemMaxIndex="6640" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Hit - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6686" ItemMaxIndex="6686" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cape of Lord - Excellent - Add Ignore Defense Rate" />
 		<Item OptionValue="3" ItemMinIndex="6318" ItemMaxIndex="6319" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Black Cloak IK (lv2) + Bound - Add Ignore Defense Rate" />
-		<Item OptionValue="3" ItemMinIndex="6320" ItemMaxIndex="6321" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Death + Bound IK (lv3) - Excellent - Add Ignore Defense Rate" />
+		<Item OptionValue="3" ItemMinIndex="6320" ItemMaxIndex="6321" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Death + Bound IK (lv3) - Excellent - Add Ignore Defense Rate" />
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 	<OptionIndex ID="86" SpecialIndex="SPECIAL_EXCELLENT1" Name="ITEM_OPTION_ADD_MONEY_AMOUNT_DROP_RATE">	<!-- Old 3 Add Money Amount Drop Rate ok -->
@@ -545,29 +554,40 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 	<OptionIndex ID="110" SpecialIndex="SPECIAL_EXCELLENT1" Name="ITEM_OPTION_ADD_DEFENSIVE_FULL_HP_RESTORE_RATE">	<!-- Old 3 - Add Defensive Full HP Restore Rate -->
-		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6172" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Eternity & Bound - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Eternity & Bound - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Eternal - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Illusion - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Ruin - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Mantle of Monarch - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Violent Wind - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Mantle of Warrior - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Brilliance & Bound - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Conqueror - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Angel and Devil - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6412" ItemMaxIndex="6412" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Conqueror - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6414" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Transcendence - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6423" ItemMaxIndex="6423" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Cloak of Death - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6424" ItemMaxIndex="6424" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Chaos - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6425" ItemMaxIndex="6425" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Magic - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6426" ItemMaxIndex="6426" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Life - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6574" ItemMaxIndex="6581" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="General Wings - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6611" ItemMaxIndex="6612" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Disillusion & Bound - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6616" ItemMaxIndex="6617" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Silence & Bound - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6633" ItemMaxIndex="6633" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Hit - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6640" ItemMaxIndex="6640" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="[Bound]Wings of Hit - Excellent - Add Defensive Full HP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6320" ItemMaxIndex="6321" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Cloak of Death + Bound IK - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6171" ItemMaxIndex="6172" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Eternity & Bound - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6180" ItemMaxIndex="6180" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Eternity & Bound - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6181" ItemMaxIndex="6181" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Eternal - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6182" ItemMaxIndex="6182" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Illusion - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Ruin - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Mantle of Monarch - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Violent Wind - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cape of Overrule - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Brilliance & Bound - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6406" ItemMaxIndex="6406" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Cloak of Death (Lv 2.5 DL RF GL IK)- Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6407" ItemMaxIndex="6407" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Chaos (Lv 2.5 DK MG SL)- Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6408" ItemMaxIndex="6408" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Magic (Lv 2.5 SM MG SU RW KM LM)- Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6409" ItemMaxIndex="6409" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Life (Lv 2.5 FE) - Excellent - Add Defensive Full HP Restore Rate" />		
+		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Conqueror - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Angel and Devil - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6412" ItemMaxIndex="6412" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Conqueror - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6414" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Transcendence - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6423" ItemMaxIndex="6423" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Cloak of Death - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6424" ItemMaxIndex="6424" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Chaos - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6425" ItemMaxIndex="6425" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Magic - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6426" ItemMaxIndex="6426" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="[Bound]Wings of Life (Lv 2.5 FE) - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6574" ItemMaxIndex="6574" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Eternal - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6575" ItemMaxIndex="6575" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Storm - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6576" ItemMaxIndex="6576" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Illusion - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6577" ItemMaxIndex="6577" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Ruin - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6578" ItemMaxIndex="6578" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Emperor - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6579" ItemMaxIndex="6579" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Dimension - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6580" ItemMaxIndex="6580" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Overrule - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6581" ItemMaxIndex="6581" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Cloak of Transcendence - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6611" ItemMaxIndex="6612" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Disillusion & Bound - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6616" ItemMaxIndex="6617" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Silence & Bound - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6633" ItemMaxIndex="6633" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Wings of Hit - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6640" ItemMaxIndex="6640" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="[Bound]Wings of Hit - Excellent - Add Defensive Full HP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6320" ItemMaxIndex="6321" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="4" Name="Cloak of Death + Bound IK - Excellent - Add Defensive Full HP Restore Rate" />
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 	<OptionIndex ID="109" SpecialIndex="SPECIAL_EXCELLENT2" Name="ITEM_OPTION_ADD_FULL_DAMAGE_REFLECT_RATE">	<!-- Old 4 - Add Full Damage Reflect Rate -->
@@ -578,7 +598,7 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Ruin - Excellent - Add Full Damage Reflect Rate" />
 		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Mantle of Monarch - Excellent - Add Full Damage Reflect Rate" />
 		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Violent Wind - Excellent - Add Full Damage Reflect Rate" />
-		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Mantle of Warrior - Excellent - Add Full Damage Reflect Rate" />
+		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Cape of Overrule - Excellent - Add Full Damage Reflect Rate" />
 		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Cloak of Brilliance & Bound - Excellent - Add Full Damage Reflect Rate" />
 		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Conqueror - Excellent - Add Full Damage Reflect Rate" />
 		<Item OptionValue="5" ItemMinIndex="6412" ItemMaxIndex="6412" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Conqueror - Excellent - Add Full Damage Reflect Rate" />
@@ -599,7 +619,7 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 		<Item OptionValue="5" ItemMinIndex="6183" ItemMaxIndex="6183" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Wings of Ruin - Excellent - Add Defensive Full MP Restore Rate" />
 		<Item OptionValue="5" ItemMinIndex="6184" ItemMaxIndex="6184" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Mantle of Monarch - Excellent - Add Defensive Full MP Restore Rate" />
 		<Item OptionValue="5" ItemMinIndex="6187" ItemMaxIndex="6187" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Wings of Violent Wind - Excellent - Add Defensive Full MP Restore Rate" />
-		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Mantle of Warrior - Excellent - Add Defensive Full MP Restore Rate" />
+		<Item OptionValue="5" ItemMinIndex="6194" ItemMaxIndex="6194" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Cape of Overrule - Excellent - Add Defensive Full MP Restore Rate" />
 		<Item OptionValue="5" ItemMinIndex="6302" ItemMaxIndex="6303" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Cloak of Brilliance & Bound - Excellent - Add Defensive Full MP Restore Rate" />
 		<Item OptionValue="5" ItemMinIndex="6410" ItemMaxIndex="6410" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Wings of Conqueror - Excellent - Add Defensive Full MP Restore Rate" />
 		<Item OptionValue="5" ItemMinIndex="6414" ItemMaxIndex="6414" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="8" Name="Cloak of Transcendence - Excellent - Add Defensive Full MP Restore Rate" />
@@ -624,7 +644,7 @@ ITEM_OPTION_MUL_PET_ATTACK_POWER = 128 DISABLED
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 	<OptionIndex ID="116" SpecialIndex="SPECIAL_EXCELLENT2" Name="ITEM_OPTION_ADD_DOUBLE_DAMAGE_RATE">	<!-- (OLD 4) - Excellent - Add Double Damage Rate -->
-		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="2" Name="Wings of Angel and Devil - Excellent - Add Double Damage Rate" />
+		<Item OptionValue="4" ItemMinIndex="6411" ItemMaxIndex="6411" ItemOption1="-1" ItemOption2="-1" ItemOption3="-1" ItemNewOption="1" Name="Wings of Angel and Devil - Excellent - Add Double Damage Rate" />
 	</OptionIndex>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<OptionIndex ID="98" SpecialIndex="SPECIAL_EXCELLENT2" Name="ITEM_OPTION_ADD_HUNT_HP">	<!-- Old 4-->

@@ -76,14 +76,14 @@ CustomAttackOfflineRequireMoney_AL0 = 0
 CustomAttackOfflineRequireMoney_AL1 = 0
 CustomAttackOfflineRequireMoney_AL2 = 0
 CustomAttackOfflineRequireMoney_AL3 = 0
-CustomAttackOfflineMaxUsingTime_AL0 = 60
-CustomAttackOfflineMaxUsingTime_AL1 = 60
-CustomAttackOfflineMaxUsingTime_AL2 = 60
-CustomAttackOfflineMaxUsingTime_AL3 = 60
-CustomAttackOfflinePotDelay_AL0 = 100
-CustomAttackOfflinePotDelay_AL1 = 100
-CustomAttackOfflinePotDelay_AL2 = 100
-CustomAttackOfflinePotDelay_AL3 = 100
+CustomAttackOfflineMaxUsingTime_AL0 = 1440
+CustomAttackOfflineMaxUsingTime_AL1 = 1440
+CustomAttackOfflineMaxUsingTime_AL2 = 1440
+CustomAttackOfflineMaxUsingTime_AL3 = 1440
+CustomAttackOfflinePotDelay_AL0 = 1
+CustomAttackOfflinePotDelay_AL1 = 1
+CustomAttackOfflinePotDelay_AL2 = 1
+CustomAttackOfflinePotDelay_AL3 = 1
 
 ;==================================================
 ; Custom Attack Offline Settings

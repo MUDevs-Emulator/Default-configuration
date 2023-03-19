@@ -393,6 +393,11 @@ HelperActiveMoney4 = 100
 HelperActiveMoney5 = 120
 
 ;==================================================
+; Helper Control Mandate Settings (Assing Helper)
+;==================================================
+HelperControlMandateSwitch = 1
+
+;==================================================
 ; Cash Shop Settings
 ;==================================================
 CashShopSwitch = 1

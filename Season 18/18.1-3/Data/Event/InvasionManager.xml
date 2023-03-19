@@ -2,7 +2,7 @@
 
 <InvasionManager>
 
-	<InvasionInfo ID="0" RespawnMessage="0" DespawnMessage="-1" BossIndex="55" BossMessage="11" InvasionTime="600" Name="Underworld" >
+	<InvasionInfo ID="0" RespawnMessage="0" DespawnMessage="-1" BossIndex="55" BossMessage="11" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Underworld" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="5" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="5" Second="0"/>
@@ -22,7 +22,7 @@
 			<Info Group="0" Value="1" MonsterClass="56" Count="110" Map="3" MapSX="195" MapSY="70" MapTX="205" MapTY="86" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Death Bone"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="1" RespawnMessage="1" DespawnMessage="-1" BossIndex="42" BossMessage="12" InvasionTime="600" Name="Red Dragon" >
+	<InvasionInfo ID="1" RespawnMessage="1" DespawnMessage="-1" BossIndex="42" BossMessage="12" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Red Dragon" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="15" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="15" Second="0"/>
@@ -42,7 +42,7 @@
 			<Info Group="0" Value="2" MonsterClass="42" Count="1" Map="3" MapSX="10" MapSY="10" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Red Dragon"/>
 			</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="2" RespawnMessage="2" DespawnMessage="-1" BossIndex="501" BossMessage="13" InvasionTime="600" Name="Golden" >
+	<InvasionInfo ID="2" RespawnMessage="2" DespawnMessage="-1" BossIndex="501" BossMessage="13" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Golden" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="25" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="25" Second="0"/>
@@ -102,7 +102,7 @@
 			<Info Group="18" Value="0" MonsterClass="502" Count="5" Map="51" MapSX="10" MapSY="52" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Golden Rabbit"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="3" RespawnMessage="3" DespawnMessage="-1" BossIndex="135" BossMessage="14" InvasionTime="600" Name="White Wizard" >
+	<InvasionInfo ID="3" RespawnMessage="3" DespawnMessage="-1" BossIndex="135" BossMessage="14" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="White Wizard" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="50" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="50" Second="0"/>
@@ -128,7 +128,7 @@
 			<Info Group="0" Value="2" MonsterClass="137" Count="10" Map="3" MapSX="197" MapSY="70" MapTX="204" MapTY="86" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Destructive ogre archer"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="4" RespawnMessage="4" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" Name="New Year" >
+	<InvasionInfo ID="4" RespawnMessage="4" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="New Year" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="5" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="5" Second="0"/>
@@ -154,7 +154,7 @@
 			<Info Group="0" Value="5" MonsterClass="365" Count="10"  Map="57" MapSX="10" MapSY="10" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Pouch of Blessing"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="5" RespawnMessage="5" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" Name="Easter" >
+	<InvasionInfo ID="5" RespawnMessage="5" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Easter" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="15" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="15" Second="0"/>
@@ -180,7 +180,7 @@
 			<Info Group="0" Value="5" MonsterClass="413" Count="10"  Map="57" MapSX="10" MapSY="10" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Lunar Rabbit"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="6" RespawnMessage="6" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" Name="Summer" >
+	<InvasionInfo ID="6" RespawnMessage="6" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Summer" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="25" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="25" Second="0"/>
@@ -206,7 +206,7 @@
 			<Info Group="0" Value="5" MonsterClass="463" Count="10"  Map="57" MapSX="10" MapSY="10" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Fire Flame Ghost"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="7" RespawnMessage="7" DespawnMessage="-1" BossIndex="476" BossMessage="15" InvasionTime="600" Name="Christmas" >
+	<InvasionInfo ID="7" RespawnMessage="7" DespawnMessage="-1" BossIndex="476" BossMessage="15" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Christmas" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="50" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="50" Second="0"/>
@@ -229,7 +229,7 @@
 			<Info Group="0" Value="2" MonsterClass="476" Count="1"  Map="3"  MapSX="194" MapSY="70" MapTX="204" MapTY="86" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Cursed Santa"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="8" RespawnMessage="8" DespawnMessage="-1" BossIndex="561" BossMessage="16" InvasionTime="600" Name="Medusa" >
+	<InvasionInfo ID="8" RespawnMessage="8" DespawnMessage="-1" BossIndex="561" BossMessage="16" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Medusa" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="0" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="0" Second="0"/>
@@ -255,7 +255,7 @@
 			<Info Group="0" Value="3" MonsterClass="561" Count="1" Map="56"  MapSX="178" MapSY="114" MapTX="184" MapTY="129" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Medusa"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="9" RespawnMessage="9" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" Name="Summon" >
+	<InvasionInfo ID="9" RespawnMessage="9" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Summon" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="25" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="25" Second="0"/>
@@ -281,7 +281,7 @@
 			<Info Group="0" Value="5" MonsterClass="652" Count="10" Map="91"  MapSX="10" MapSY="10" MapTX="240" MapTY="240" Distance="6" Element="-1" RegenType="0" RegenTime="0" Name="Golden Goblin"/>
 		</Monster>
 	</InvasionInfo>
-	<InvasionInfo ID="10" RespawnMessage="10" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" Name="Egg" >
+	<InvasionInfo ID="10" RespawnMessage="10" DespawnMessage="-1" BossIndex="-1" BossMessage="-1" InvasionTime="600" ShowRecount="1" ShowKillInfo="1" SendMsgMapGroup="0" Name="Egg" >
 		<Schedule>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="50" Second="0"/>
 			<Info Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="50" Second="0"/>

@@ -277,6 +277,8 @@ function DamageVisualSplit(aIndex,bIndex,count,skill,effect)
 		bVal = (count%2) -- (((count % 3) == 0) ? 0x20 : 0x10);
 	elseif(skill == SKILL_BLADESTORM) then
 		bVal = (count%3) -- (((count % 3) == 0) ? 0x20 : 0x10);
+	elseif(skill == SKILL_DEATH_SCYTHE) then
+		bVal = (count%5) -- (((count % 5) == 0) ? 0x20 : 0x10);
 	else 
 		return -1
 	end
@@ -296,7 +298,7 @@ function GetSkillDamageTypeBYClass(aIndex,skill)
 
 	if(skill == SKILL_PLASMA_STORM) then
 		return SKILL_DAMAGE_FENRIR
-	elseif(Class == CLASS_SU and (skill == SKILL_SAHAMUTT or skill == SKILL_NEIL or skill == SKILL_GHOST_PHANTOM)) then
+	elseif(Class == CLASS_SU and (skill == SKILL_SAHAMUTT or skill == SKILL_NEIL or skill == SKILL_GHOST_PHANTOM or skill == SKILL_DEATH_SCYTHE)) then
 		return SKILL_DAMAGE_CURSED
 	elseif(Class == CLASS_DW or Class == CLASS_MG or Class == CLASS_SU or Class == CLASS_RW or Class == CLASS_GC or Class == CLASS_KM or Class == CLASS_LM) then
 		if(skill ~= SKILL_NONE and skill ~= SKILL_FALLING_SLASH and skill ~= SKILL_LUNGE and skill ~= SKILL_UPPERCUT and skill ~= SKILL_CYCLONE and skill ~= SKILL_SLASH and skill ~= SKILL_TWISTING_SLASH and skill ~= SKILL_IMPALE and skill ~= SKILL_FIRE_SLASH and skill ~= SKILL_POWER_SLASH and skill ~= SKILL_SPIRAL_SLASH and skill ~= SKILL_SWORD_SLASH and skill ~= SKILL_BLOOD_STORM and skill ~= SKILL_CHAOS_BLADE and skill ~= SKILL_FIRE_BLOOD) then

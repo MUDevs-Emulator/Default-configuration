@@ -62,6 +62,8 @@ CustomJewelUpgradeSystem=Custom\\CustomJewelUpgradeSystem.xml
 CustomItemSellSystem=Custom\\CustomItemSellSystem.xml
 CustomItemOptionSystem=Custom\\CustomItemOptionSystem.xml
 CustomReward=Custom\\CustomRewards.xml
+CustomCharacterIcon=Custom\\CustomCharacterIcon.xml
+ProtocolDebug=Custom\\ProtocolDebug.xml
 
 ;==================================================
 ; Event Settings

@@ -753,6 +753,7 @@
 		<Msg ID="937" Text="You do not have permission to use /startevent" />
 		<Msg ID="938" Text="Boss Battle Event will close in %d minute(s)" />
 		<Msg ID="939" Text="Boss Battle Event closed" />
+		<Msg ID="940" Text="<FONT color='#C8C800'>[POST][%s]%s: %s </FONT><BR>" />
 	</Message>
 	<MapName>
 		<Msg ID="0" Text="Lorencia" />
@@ -892,29 +893,48 @@
 		<Msg ID="8" Text="Invasion of Medusa began!" />
 		<Msg ID="9" Text="Invasion of invoking Demons started!" />
 		<Msg ID="10" Text="Invasion of eggs Event started!" />
-		<Msg ID="11" Text="Player %s defeated Skeleton King!" />
-		<Msg ID="12" Text="Player %s defeated Red Dragon!" />
-		<Msg ID="13" Text="Player %s defeated Golden Great Dragon!" />
-		<Msg ID="14" Text="Player %s defeated White Wizard!" />
-		<Msg ID="15" Text="Player %s defeated Cursed Santa!" />
-		<Msg ID="16" Text="Player %s defeated Medusa!" />
+		<Msg ID="11" Text="Player %s defeated Skeleton King! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="12" Text="Player %s defeated Red Dragon! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="13" Text="Player %s defeated Golden Great Dragon! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="14" Text="Player %s defeated White Wizard! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="15" Text="Player %s defeated Cursed Santa! %d remaining. Killed in Map:%s X:%d Y:%d"/>
+		<Msg ID="16" Text="Player %s defeated Medusa! %d remaining. Killed in Map:%s X:%d Y:%d"/>
 	</InvacionMsg>
+	
 	<Notice>
 		<Msg ID="0" Text="MuDevs Ex1803" />
 	</Notice>
+	
 	<NoticeSystem>
 		<Tags>
 			<Tag ID="0" Text="" /> <!-- Normal item -->
 			<Tag ID="1" Text="exc" />
 			<Tag ID="2" Text="item" />
 		</Tags>
+		
 		<Messages>
 			<Msg ID="0" Text="<FONT color='#C8C800'> [%s] in %s Picked up %s %s </FONT><BR>" /> <!-- PlayerName, MapName, Tag, ItemName -->
 			<Msg ID="1" Text="<FONT color='#C8C800'> %s Killed %s in %s (%d,%d) </FONT><BR>" /> <!-- KillerName, VictimName, MapName, X, Y -->
 			<Msg ID="2" Text="<FONT color='#C8C800'> %s has respawned in %s (%d,%d) </FONT><BR>" /> <!-- MonsterName, MapName, X, Y -->
 		</Messages>
 		
+		<ItemGetNotice Enabled="1">
+			<Item Cat="0" Index="0" Level="0" IsExc="0" IsSet="0" Type="4" vSize="20" />
+			<!-- <Item Cat="0" Index="5" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+			<Item Cat="12" Index="15" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" />
+			<!-- <Item Cat="-1" Index="56" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+		</ItemGetNotice>
+		
+		<MonsterKillNotice Enabled="1">
+			<Monster ID="5" Type="4" vSize="20" /> 
+		</MonsterKillNotice>
+
+    <MonsterSpawnNotice Enabled="1">
+        <Monster ID="5" MapNum="0" InvincibleBuffDuration="120" Type="4" vSize="20"/>
+    </MonsterSpawnNotice>
+		
 	</NoticeSystem>
+	
 	<Command>
 		<Msg ID="1" Text="/move" />
 		<Msg ID="2" Text="/post" />

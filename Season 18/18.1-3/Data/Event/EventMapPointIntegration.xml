@@ -8,8 +8,8 @@
 	</RuudBoxRewardConfig>
 
 	<ChaosCastle MonsterKillPoints="13" PlayerKillPoint="50" WinnerPoint="99" />
-	<BloodCastle MonsterKillPoints="5" BossKillPoint="20" DoorPoints="100" SaintStatuePoints="200" />
-	<DevilSquare MonsterKillPoints="1" Stage1="200" Stage2="150" Stage3="100" />
+	<BloodCastle RestrictionClassDisable="true" MonsterKillPoints="5" BossKillPoint="20" DoorPoints="100" SaintStatuePoints="200" />
+	<DevilSquare MonsterKillPoints="1" Rank1="200" Rank2="150" Rank3="100" />
 	<IllusionTempleRenewal StatueKillPoints="50" StatueDefeatPoints="30" KillPoints="10" WinnerPoints="200" />
 	<ImperialGuardian MonsterKillPointsWeekdays="45" BossKillPointWeekdays="100" MonsterKillPointsSunday="22" BossKillPointSunday="100" />
 </EventMapPointIntegration>
