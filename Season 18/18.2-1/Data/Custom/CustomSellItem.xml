@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+// FREE CUSTOM SYSTEM
+// CoinType:
+// 0 - Disable?
+// 1 - RUUD
+// 2 - WcoinC
+// 3 - GP
+//
+// ColorType: 
+// 0 = WHITE
+// 1 = BLUE
+// 2 = RED
+// 3 = Amarelo
+// 4 = GREEN
+// 5 = DARKRED (Branco com vermelho)
+// 6 = PURPLE (Rosa)
+// 7 = DARKBLUE (Branco com azul)
+// 8 = DARKYELLOW (Amarelo com branco)
+// 9 = GREEN_BLUE (Esmeralda/Verde)
+// 10 = GRAY
+// 11 = REDPURPLE (Rosa claro)
+// 12 = VIOLET (Soquete Rosa)
+// 13 = ORANGE
+// 14 = LIGHT_PURPLE
+// 15 = LIGHT_YELLOW
+// 16 = LIGHT_BLUE
+// 17 = DARKGREEN
+// 18 = LEMON_YELLOW
+// 19 = LIGHT_SKY_BLUE
+
+//	MSG ID="0" Text="Purchasing Zen price: %s(%s)"
+//	MSG ID="1" Text="Selling Zen Price: %s"
+//	MSG ID="2" Text="Zen:%d" 
+//	MSG ID="3" Text="Selling Zen Price: (Min:%s/Max:%s)" 
+//	
+//	MSG ID="4" Text="Purchasing Ruud price: %s(%s)" 
+//	MSG ID="5" Text="Selling Ruud Price: %s" 
+//	MSG ID="6" Text="Ruud:%d" 
+//	MSG ID="7" Text="Selling Ruud Price: (Min:%s/Max:%s)" 
+//	
+//	MSG ID="8" Text="Purchasing WCoin price: %s(%s)" 
+//	MSG ID="9" Text="Selling WCoin Price: %s" 
+//	MSG ID="10" Text="WCoin:%d" 
+//	MSG ID="11" Text="Selling WCoin Price: (Min:%s/Max:%s)" 
+//	
+//	MSG ID="12" Text="Purchasing Goblin Point price: %s(%s)" 
+//	MSG ID="13" Text="Selling Goblin Point Price: %s" 
+//	MSG ID="14" Text="Goblin Point:%d" 
+//	MSG ID="15" Text="Selling Goblin Point Price: (Min:%s/Max:%s)" 
+// CoinType:
+// 0 - Disable?
+// 1 - RUUD
+// 2 - WcoinC
+// 3 - GP
+-->
+
+
+		
+<CustomSellItem> 
+<!--        																	   Buy |Type0															 |Type1                                                            |Type2									             			 |Type3															   |Type4			 													-->	
+	<Sell Enabled="1">
+		<Item Category="12" Index="0" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="2" isConvertVal0="-1" Value0="1500" Color0="13" TextID0="5" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+		<Item Category="12" Index="1" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="0" isConvertVal0="-1" Value0="-1" Color0="-1" TextID0="-1" Type1="1" isConvertVal1="-1" Value1="1500" Color1="14" TextID1="9" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+		<Item Category="12" Index="2" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="0" isConvertVal0="-1" Value0="-1" Color0="-1" TextID0="-1" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="1" isConvertVal2="-1" Value2="1500" Color2="15" TextID2="13" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+	</Sell>                                                                                                                                            
+	<Buy Enabled="1">                                                                                                                                  
+		<Item Category="12" Index="0" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="2" isConvertVal0="-1" Value0="1500" Color0="13" TextID0="4" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+		<Item Category="12" Index="1" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="0" isConvertVal0="-1" Value0="-1" Color0="-1" TextID0="-1" Type1="1" isConvertVal1="-1" Value1="1500" Color1="14" TextID1="8" Type2="0" isConvertVal2="-1" Value2="-1" Color2="-1" TextID2="-1" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+		<Item Category="12" Index="2" LevelMin="-1" LevelMax="-1" IsSet="-1" IsExc="-1" Type0="0" isConvertVal0="-1" Value0="-1" Color0="-1" TextID0="-1" Type1="0" isConvertVal1="-1" Value1="-1" Color1="-1" TextID1="-1" Type2="1" isConvertVal2="-1" Value2="1500" Color2="15" TextID2="12" Type3="0" isConvertVal3="-1" Value3="-1" Color3="-1" TextID3="-1" Type4="0" isConvertVal4="-1" Value4="-1" Color4="-1" TextID4="-1"  />
+	</Buy>
+</CustomSellItem>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Swords (one-handed sword, two-handed sword, magic sword, claw, blunt weapon, scepter, spear, bow, crossbow, short sword)  -->
+<!-- Stands (Stand, Stick, Magic Mace, Magic Gun)  -->
+<!-- Armor (shield, helmet, armor, gloves, pants, boots)  -->
+<!-- Books (Summoner Book)  -->
+
+<HarmonyRefinament OptionRate1="70" OptionRate2="40" OptionRate3="10" MaxBonusLevel="5">
+	<Weapon> 
+		<Option Index="1" Name="Increase Strength" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="2" Name="Increase Agility" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="3" Name="Increase Energy" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="4" Name="Increase Damage Success Rate" OptionRate="30" LowerRate="60" LowerMax="179" MediumRate="40" MediumMax="299" HigherRate="20" HigherMax="499" MajorRate="10" MajorMax="500" Formula="1" />
+		<Option Index="5" Name="Increase Damage" OptionRate="40" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="6" Name="Increase Critical Damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="7" Name="Increase Excellent damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="8" Name="Increase Skill Damage" OptionRate="40" LowerRate="60" LowerMax="7" MediumRate="40" MediumMax="17" HigherRate="20" HigherMax="34" MajorRate="10" MajorMax="35" Formula="1" />
+		<Option Index="9" Name="Increase Item Durability" OptionRate="40" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="10" Name="Increase SD reduction rate" OptionRate="20" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="2" />
+		<Option Index="11" Name="5% of mana converted to Damage" OptionRate="10" LowerRate="60" LowerMax="9" MediumRate="40" MediumMax="22" HigherRate="20" HigherMax="44" MajorRate="10" MajorMax="45" Formula="1" />
+	</Weapon>
+	<Staff>  
+		<Option Index="1" Name="Increase Strength" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="2" Name="Increase Agility" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="3" Name="Increase Energy" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="4" Name="Increase Damage Success Rate" OptionRate="30" LowerRate="60" LowerMax="179" MediumRate="40" MediumMax="299" HigherRate="20" HigherMax="499" MajorRate="10" MajorMax="500" Formula="1" />
+		<Option Index="5" Name="Increase Wizardry Damage" OptionRate="40" LowerRate="60" LowerMax="19" MediumRate="40" MediumMax="42" HigherRate="20" HigherMax="79" MajorRate="10" MajorMax="80" Formula="1" />
+		<Option Index="6" Name="Increase Critical Damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="7" Name="Increase Excellent damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="8" Name="Increase Skill Damage" OptionRate="40" LowerRate="60" LowerMax="7" MediumRate="40" MediumMax="17" HigherRate="20" HigherMax="34" MajorRate="10" MajorMax="35" Formula="1" />
+		<Option Index="9" Name="Increase Item Durability" OptionRate="40" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="10" Name="Increase SD reduction rate" OptionRate="20" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="2" />
+		<Option Index="11" Name="5% of mana converted to Wizardry Damage" OptionRate="10" LowerRate="60" LowerMax="20" MediumRate="40" MediumMax="44" HigherRate="20" HigherMax="84" MajorRate="10" MajorMax="85" Formula="1" />
+	</Staff>
+	<Armor>  
+		<Option Index="1" Name="Increase Stamina" OptionRate="50" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="1" />
+		<Option Index="2" Name="Increase Defense" OptionRate="50" LowerRate="60" LowerMax="10" MediumRate="40" MediumMax="25" HigherRate="20" HigherMax="49" MajorRate="10" MajorMax="50" Formula="1" />
+		<!-- <Option Index="3" Name="Increase Defense Success Rate" OptionRate="0" LowerRate="60" LowerMax="0" MediumRate="40" MediumMax="0" HigherRate="20" HigherMax="0" MajorRate="10" MajorMax="0" Formula="1" /> -->
+		<Option Index="4" Name="Maximum AG Increase" OptionRate="30" LowerRate="60" LowerMax="27" MediumRate="40" MediumMax="54" HigherRate="20" HigherMax="99" MajorRate="10" MajorMax="100" Formula="1" />
+		<Option Index="5" Name="Maximum HP Increase" OptionRate="40" LowerRate="60" LowerMax="27" MediumRate="40" MediumMax="54" HigherRate="20" HigherMax="99" MajorRate="10" MajorMax="100" Formula="1" />
+		<Option Index="6" Name="Maximum MP Increase" OptionRate="30" LowerRate="60" LowerMax="27" MediumRate="40" MediumMax="54" HigherRate="20" HigherMax="99" MajorRate="10" MajorMax="100" Formula="1" />
+		<Option Index="7" Name="Automatic Life Recover increment" OptionRate="30" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="1" />
+		<Option Index="8" Name="Automatic Mana Recover increment" OptionRate="40" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="1" />
+		<Option Index="9" Name="Increase Damage reduction" OptionRate="40" LowerRate="60" LowerMax="10" MediumRate="40" MediumMax="25" HigherRate="20" HigherMax="49" MajorRate="10" MajorMax="50" Formula="1" />
+		<Option Index="10" Name="Increase Item Durability" OptionRate="40" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="11" Name="Maximum SD Increase" OptionRate="10" LowerRate="60" LowerMax="1" MediumRate="40" MediumMax="2" HigherRate="20" HigherMax="4" MajorRate="10" MajorMax="5" Formula="2" />
+		<!-- <Option Index="12" Name="5% of mana converted to Defense" OptionRate="0" LowerRate="60" LowerMax="0" MediumRate="40" MediumMax="0" HigherRate="20" HigherMax="0" MajorRate="10" MajorMax="0" Formula="1" /> -->
+		<Option Index="13" Name="10% of mana to life" OptionRate="10" LowerRate="60" LowerMax="31" MediumRate="40" MediumMax="64" HigherRate="20" HigherMax="119" MajorRate="10" MajorMax="120" Formula="1" />
+	</Armor>
+	<Books>  
+		<Option Index="1" Name="Increase Strength" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="2" Name="Increase Agility" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="3" Name="Increase Energy" OptionRate="50" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="4" Name="Increase Damage Success Rate" OptionRate="30" LowerRate="60" LowerMax="179" MediumRate="40" MediumMax="299" HigherRate="20" HigherMax="499" MajorRate="10" MajorMax="500" Formula="1" />
+		<Option Index="5" Name="Increase Curse Damage" OptionRate="40" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="6" Name="Increase Critical Damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="7" Name="Increase Excellent damage" OptionRate="30" LowerRate="60" LowerMax="8" MediumRate="40" MediumMax="20" HigherRate="20" HigherMax="39" MajorRate="10" MajorMax="40" Formula="1" />
+		<Option Index="8" Name="Increase Skill Damage" OptionRate="40" LowerRate="60" LowerMax="7" MediumRate="40" MediumMax="17" HigherRate="20" HigherMax="34" MajorRate="10" MajorMax="35" Formula="1" />
+		<Option Index="9" Name="Increase Item Durability" OptionRate="40" LowerRate="60" LowerMax="6" MediumRate="40" MediumMax="15" HigherRate="20" HigherMax="29" MajorRate="10" MajorMax="30" Formula="1" />
+		<Option Index="10" Name="Increase SD reduction rate" OptionRate="20" LowerRate="60" LowerMax="2" MediumRate="40" MediumMax="5" HigherRate="20" HigherMax="9" MajorRate="10" MajorMax="10" Formula="2" />
+		<Option Index="11" Name="5% of mana converted to Curse Damage" OptionRate="10" LowerRate="60" LowerMax="9" MediumRate="40" MediumMax="22" HigherRate="20" HigherMax="44" MajorRate="10" MajorMax="45" Formula="1" />
+	</Books>
+
+</HarmonyRefinament>

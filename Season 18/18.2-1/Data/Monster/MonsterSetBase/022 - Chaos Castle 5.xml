@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<Config Class="170" Range="30" PositionX="26" PositionY="105" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="98" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="28" PositionY="90" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="27" PositionY="86" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="28" PositionY="82" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="79" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="34" PositionY="78" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="33" PositionY="81" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="39" PositionY="78" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="77" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="38" PositionY="80" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="43" PositionY="77" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="38" PositionY="86" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="43" PositionY="84" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="41" PositionY="82" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="27" PositionY="94" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="32" PositionY="91" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="84" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="42" PositionY="90" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="44" PositionY="87" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="30" PositionY="78" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="38" PositionY="92" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="40" PositionY="98" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="101" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="33" PositionY="103" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="38" PositionY="89" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="42" PositionY="105" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="42" PositionY="99" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="35" PositionY="105" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="93" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="28" PositionY="97" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="84" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="28" PositionY="79" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="170" Range="30" PositionX="25" PositionY="82" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="76" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="33" PositionY="76" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="35" PositionY="79" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="31" PositionY="80" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="41" PositionY="79" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="38" PositionY="76" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="36" PositionY="81" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="39" PositionY="82" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="41" PositionY="86" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="42" PositionY="94" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="35" PositionY="92" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="34" PositionY="90" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="38" PositionY="101" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="30" PositionY="105" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="102" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="28" PositionY="100" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="38" PositionY="106" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="35" PositionY="102" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="42" PositionY="102" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="43" PositionY="96" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="30" PositionY="88" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="25" PositionY="91" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="91" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="30" PositionY="98" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="41" PositionY="93" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="41" PositionY="89" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="43" PositionY="91" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="39" PositionY="95" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="32" PositionY="101" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="29" PositionY="103" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="33" PositionY="105" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="25" PositionY="97" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="24" PositionY="94" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="27" PositionY="88" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="32" PositionY="94" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="32" PositionY="89" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="36" PositionY="92" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="37" PositionY="89" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="40" PositionY="91" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="38" PositionY="99" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="40" PositionY="101" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="43" PositionY="81" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="36" PositionY="76" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="42" PositionY="75" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="26" PositionY="75" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="24" PositionY="80" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="30" PositionY="82" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="24" PositionY="89" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="24" PositionY="86" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="24" PositionY="101" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="37" PositionY="104" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="41" PositionY="96" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="39" PositionY="87" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="41" PositionY="76" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="38" PositionY="84" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="38" PositionY="96" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="30" PositionY="95" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="32" PositionY="78" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="29" PositionY="86" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="27" PositionY="104" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="40" PositionY="104" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="44" PositionY="102" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="43" PositionY="98" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+		<Config Class="170" Range="30" PositionX="39" PositionY="93" Direction="4" Element="0" /> <!-- "Chaos Castle 9" -->
+		<Config Class="171" Range="30" PositionX="41" PositionY="84" Direction="4" Element="0" /> <!-- "Chaos Castle 10" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

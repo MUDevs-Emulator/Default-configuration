@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ResetSystemRenewal Enable="1"> 
+	<ResetInfo Index="0">
+		<Requirements Min_LevelMode="0" Min_ReqLevel="400" Max_LevelMode="0" Max_ReqLevel="-1" Min_ResetMode="0" Min_ReqReset="0" Max_ResetMode="0" Max_ReqReset="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" />
+		<Payment CoinType="0" Cost="10000000" MultiplyCostPerResets="1" GapCost="-1"/>
+		<Reward WCoin="100" GP="300" Zen="10000" Ruud="70" LevelUpPoints="100" MultiplyPointByReset="1" ContributePoints="5" ItemBagID="300" />
+		<SReward MinNormalReset="0" MaxNormalReset="10" MinMasterReset="-1" MaxMasterReset="-1" MinEnhancedReset="-1" MaxEnhancedReset="-1">
+			<Info WCoin="100" GP="300" Zen="10000" Ruud="70" LevelUpPoints="100" MultiplyPointByReset="1" ContributePoints="5" ItemBagID="300" />
+		</SReward>
+		<Settings RemoveEquipment="0" LeaveParty="1" EnableMuHelper="0" ClearEffect="1" SwitchGameState="-1" MoveMapGate="1" ResetFruitMode="1">
+			<Normal Enabled="1" StartLevel="1" AddPoint="400" MulAddPoint="-2" GapAddPoint="65000" ResetStats="1" ResetAddPoint="1" ResetSkill="0"/>
+			<Master Enabled="0" StartLevel="1" AddPoint="400" MulAddPoint="-2" GapAddPoint="65000" ResetStats="1" ResetAddPoint="1" ResetSkill="0"/>
+			<Enhanced Enabled="0" StartLevel="1" AddPoint="400" MulAddPoint="-2" GapAddPoint="65000" ResetStats="1" ResetAddPoint="1" ResetSkill="0"/>
+		</Settings>
+		
+	</ResetInfo>
+
+
+
+
+<!--
+
+		RemoveEquipment="0"   delete equipament 
+		LeaveParty="1"  Leave Party 
+		EnableMuHelper="0"  enabled muHelper 
+		ClearEffect="0"	  Clear all normal Effect 
+		SwitchGameState="-1"  -1="none",1="SelectChar",2="SelectServer"
+		MoveMapGate="1"  return to default gate 
+		ResetFruitMode="1" 0="none" 1="reset"
+
+		ResetStatsNormal="1"
+		ResetStatsMaster="0" 
+		ResetStatsEnhanced="0" 
+
+		ResetAddPointNormal="1" 
+		ResetAddPointMaster="0" 
+		ResetAddPointEnhanced="0" 
+
+		Normal_Enabled="1"
+		Normal_StartLevel="1"
+		Normal_AddPoint="400"
+		Normal_MulAddPoint="1"  -1="none",-2="reset",positiveNumber="ByNumber" 
+		Normal_GapAddPoint="65000"
+		Normal_ResetStats="1"
+		Normal_ResetAddPoint="1"
+		Normal_ResetSkill="1"  1="Clear dependence skill on Master,Enhanced" 
+
+		Master_Enabled="1"
+		Master_StartLevel="1"
+		Master_AddPoint="400"
+		Master_MulAddPoint="1"  -1="none",-2="reset",positiveNumber="ByNumber"
+		Master_GapAddPoint="65000"
+		Master_ResetStats="1"
+		Master_ResetAddPoint="1"
+		Master_ResetSkill="1" 1="Clear dependence skill on Enhanced" 2=" 1 + All"
+
+		Enhanced_Enabled="1"
+		Enhanced_StartLevel="1"
+		Enhanced_AddPoint="400"
+		Enhanced_MulAddPoint="1" <!-- -1="none",-2="reset",positiveNumber="ByNumber"
+		Enhanced_GapAddPoint="65000"
+		Enhanced_ResetStats="1"
+		Enhanced_ResetAddPoint="1"
+		Enhanced_ResetSkill="1"  1="Clear dependence skill on Enhanced" 2=" 1 + All"
+		rewardID="-1"
+
+-->
+	
+	
+	
+
+</ResetSystemRenewal>

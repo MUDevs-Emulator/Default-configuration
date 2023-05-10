@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="0" EqualAttributes="0"/>
+	</BagConfigEx>
+
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		<DropInfo Index="1" Section="5" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+	</BagDropInfoEx>
+
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="0" RuudMax="0"/>
+	</BagRuudInfoEx>
+
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7210" Level="0" Grade="0" Durability="3" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Harmony x3"/>
+		<ItemEx Section="6" Index="7210" Level="0" Grade="0" Durability="4" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Harmony x4"/>
+		<ItemEx Section="6" Index="7210" Level="0" Grade="0" Durability="5" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jewel of Harmony x5"/>
+	</BagItemsEx>
+</ItemBag>

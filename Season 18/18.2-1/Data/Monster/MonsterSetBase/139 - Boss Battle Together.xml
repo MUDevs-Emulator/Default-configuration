@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MonsterSetBase>
+
+	<NPC>
+		<Config Class="240" Range="0" PositionX="119" PositionY="111" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="583" Range="0" PositionX="119" PositionY="116" Direction="2" Element="0" /> <!-- "Jin" -->
+	</NPC>
+
+	<SPOT>
+	</SPOT>
+
+	<MONSTER>
+	</MONSTER>
+
+	<EVENT>
+	</EVENT>
+
+</MonsterSetBase>

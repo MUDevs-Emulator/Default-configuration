@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MuunAddOption>
+	<Info OptionType="0" MinLevel="1" MaxLevel="-1" AddOptionType="1" OptionValue0="10" OptionValue1="10" OptionValue2="10" OptionValue3="10" OptionValue4="10" OptionValue5="10"/> 
+	<Info OptionType="1" MinLevel="1" MaxLevel="-1" AddOptionType="1" OptionValue0="15" OptionValue1="15" OptionValue2="15" OptionValue3="15" OptionValue4="15" OptionValue5="15"/> 
+	<Info OptionType="2" MinLevel="1" MaxLevel="-1" AddOptionType="1" OptionValue0="20" OptionValue1="20" OptionValue2="20" OptionValue3="20" OptionValue4="20" OptionValue5="20"/> 
+	<Info OptionType="3" MinLevel="1" MaxLevel="-1" AddOptionType="1" OptionValue0="5" OptionValue1="5" OptionValue2="5" OptionValue3="5" OptionValue4="5" OptionValue5="5"/> 
+	<Info OptionType="4" MinLevel="1" MaxLevel="-1" AddOptionType="2" OptionValue0="250" OptionValue1="250" OptionValue2="250" OptionValue3="250" OptionValue4="250" OptionValue5="250"/> 
+	<Info OptionType="5" MinLevel="1" MaxLevel="-1" AddOptionType="3" OptionValue0="2" OptionValue1="2" OptionValue2="2" OptionValue3="2" OptionValue4="2" OptionValue5="2"/> 
+	<Info OptionType="6" MinLevel="1" MaxLevel="-1" AddOptionType="3" OptionValue0="3" OptionValue1="3" OptionValue2="3" OptionValue3="3" OptionValue4="3" OptionValue5="3"/> 
+	<Info OptionType="7" MinLevel="1" MaxLevel="400" AddOptionType="1" OptionValue0="20" OptionValue1="2" OptionValue2="4" OptionValue3="6" OptionValue4="8" OptionValue5="10"/> 
+	<Info OptionType="7" MinLevel="401" MaxLevel="800" AddOptionType="1" OptionValue0="23" OptionValue1="5" OptionValue2="7" OptionValue3="9" OptionValue4="11" OptionValue5="13"/> 
+	<Info OptionType="7" MinLevel="801" MaxLevel="-1" AddOptionType="1" OptionValue0="26" OptionValue1="8" OptionValue2="10" OptionValue3="12" OptionValue4="14" OptionValue5="16"/> 
+</MuunAddOption>

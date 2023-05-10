@@ -1,0 +1,40 @@
+0
+//Index   Group   Money
+6548      0       20000
+6549      1       500000
+6550      2       50000
+end
+
+1
+//Count	 MixRate0   MixRate1   MixRate2   MixRate3   MixRate4   MixRate5   MixRate6   MixRate7   MixRate8   MixRate9   MixRate10   MixRate11   MixRate12   MixRate13   MixRate14
+0        10000      0          0          0          0          0          0          0          0          0          0           0           0           0           0
+4        8500       1500       0          0          0          0          0          0          0          0          0           0           0           0           0
+14       0          0          5500       4500       0          0          0          0          0          0          0           0           0           0           0
+22       0          0          0          1000       8500       500        0          0          0          0          0           0           0           0           0
+30       0          0          0          0          0          1000       8500       500        0          0          0           0           0           0           0
+40       0          0          0          0          0          0          0          1000       8500       500        0           0           0           0           0
+60       0          0          0          0          0          0          0          0          1000       8000       1000        0           0           0           0
+end
+
+2
+//Count   MixRate0   MixRate1   MixRate2   MixRate3   MixRate4   MixRate5   MixRate6   MixRate7   MixRate8   MixRate9   MixRate10   MixRate11   MixRate12   MixRate13   MixRate14
+0         10000      0          0          0          0          0          0          0          0          0          0           0           0           0           0
+24        0          9500       500        0          0          0          0          0          0          0          0           0           0           0           0
+54        0          500        9000       500        0          0          0          0          0          0          0           0           0           0           0
+84        0          0          500        9000       500        0          0          0          0          0          0           0           0           0           0
+119       0          0          0          500        9000       500        0          0          0          0          0           0           0           0           0
+150       0          0          0          0          500        9000       500        0          0          0          0           0           0           0           0
+184       0          0          0          0          0          500        9000       500        0          0          0           0           0           0           0
+210       0          0          0          0          0          0          500        9000       500        0          0           0           0           0           0
+238       0          0          0          0          0          0          0          0          9500       500        0           0           0           0           0
+end
+
+3
+//Count   MixRate0   MixRate1   MixRate2   MixRate3   MixRate4   MixRate5   MixRate6   MixRate7   MixRate8   MixRate9   MixRate10   MixRate11   MixRate12   MixRate13   MixRate14
+0         10000      0          0          0          0          0          0          0          0          0          0           0           0           0           0
+24        0          9500       500        0          0          0          0          0          0          0          0           0           0           0           0
+54        0          500        9000       500        0          0          0          0          0          0          0           0           0           0           0
+89        0          0          500        9000       500        0          0          0          0          0          0           0           0           0           0
+115       0          0          0          500        9000       500        0          0          0          0          0           0           0           0           0
+145       0          0          0          0          0          9500       500        0          0          0          0           0           0           0           0
+end

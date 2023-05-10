@@ -1,0 +1,4 @@
+//ServerCode   PasiveServer	ServerName         ServerAddress      ServerPort       ServerType
+20             0 		"GameServer"       "YOUR IP"    55901            "SHOW"
+19             0		"GameServerCS"     "YOUR IP"    55919            "HIDE"
+end

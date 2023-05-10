@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BattlePass Enabled="1" EnableGoldPass="1" EnablePremiumPass="0" PassTicketExperiencie="300">
+	<Schedule>
+		<Info ID="1" StartDate="2023-04-18 08:30" EndDate="2023-06-01 08:30" />
+		<Info ID="2" StartDate="2023-06-01 08:30" EndDate="2023-06-29 08:30" />
+	</Schedule>
+	<Level>
+		<Info Level="1" MaxExperience="100" />
+		<Info Level="2" MaxExperience="300" />
+		<Info Level="3" MaxExperience="600" />
+		<Info Level="4" MaxExperience="900" />
+		<Info Level="5" MaxExperience="1200" />
+		<Info Level="6" MaxExperience="1500" />
+		<Info Level="7" MaxExperience="1800" />
+		<Info Level="8" MaxExperience="2100" />
+		<Info Level="9" MaxExperience="2400" />
+		<Info Level="10" MaxExperience="2700" />
+		<Info Level="11" MaxExperience="3000" />
+		<Info Level="12" MaxExperience="3300" />
+		<Info Level="13" MaxExperience="3600" />
+		<Info Level="14" MaxExperience="3900" />
+		<Info Level="15" MaxExperience="4200" />
+		<Info Level="16" MaxExperience="4500" />
+		<Info Level="17" MaxExperience="4800" />
+		<Info Level="18" MaxExperience="5100" />
+		<Info Level="19" MaxExperience="5500" />
+		<Info Level="20" MaxExperience="6000" />
+	</Level>
+	<DailyMission>	
+		<Info Index="0" MissionExperience="5" MissionRequiere="2160" MissionRepeat="10" />
+		<Info Index="1" MissionExperience="5" MissionRequiere="1700" MissionRepeat="7" />
+		<Info Index="2" MissionExperience="5" MissionRequiere="100000" MissionRepeat="5" />
+		<Info Index="3" MissionExperience="5" MissionRequiere="15" MissionRepeat="3" />
+		<Info Index="4" MissionExperience="7" MissionRequiere="6" MissionRepeat="3" />
+		<Info Index="5" MissionExperience="7" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="6" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="7" MissionExperience="7" MissionRequiere="5" MissionRepeat="1" />
+		<Info Index="8" MissionExperience="7" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="9" MissionExperience="5" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="10" MissionExperience="5" MissionRequiere="3" MissionRepeat="1" />
+		<Info Index="11" MissionExperience="15" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="12" MissionExperience="15" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="13" MissionExperience="5" MissionRequiere="1" MissionRepeat="3" />
+		<Info Index="14" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="15" MissionExperience="10" MissionRequiere="1000000" MissionRepeat="1" />
+		<Info Index="16" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="17" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="18" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="19" MissionExperience="50" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="20" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="21" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="22" MissionExperience="10" MissionRequiere="1" MissionRepeat="1" />
+		<Info Index="23" MissionExperience="5" MissionRequiere="3" MissionRepeat="1" />
+		<Info Index="24" MissionExperience="5" MissionRequiere="1" MissionRepeat="1" />
+	</DailyMission>
+	<SpecialMission>
+		<Info Index="0" MissionExp="10" MissionRequiere="21600" MissionRepeat="2" />
+	</SpecialMission>
+	<Reward>
+		<Info ID="0" Type="0" EffectIndex="411" ISection="-1" IType="-1" ICount="-1" PassType="0" Name="Season Pass - Increase Max HP" />
+		<Info ID="1" Type="0" EffectIndex="414" ISection="-1" IType="-1" ICount="-1" PassType="1" Name="Season Pass - Increased base experience" />
+		<Info ID="2" Type="0" EffectIndex="412" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - [G] Master Soul Crystal" />
+		<Info ID="3" Type="0" EffectIndex="413" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - Tempest Muun multiplier increase" />
+		<Info ID="4" Type="0" EffectIndex="415" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - [P] Master Soul Crystal" />
+		<Info ID="5" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="3" PassType="-1" Name="[Bound] Bless of Light [Greater Grade]" />
+		<Info ID="6" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="5" PassType="-1" Name="[Bound] Bless of Light [Greater Grade]" />
+		<Info ID="7" Type="1" EffectIndex="-1" ISection="14" IType="42" ICount="5" PassType="-1" Name="Jewel of Harmony" />
+		<Info ID="8" Type="1" EffectIndex="-1" ISection="20" IType="125" ICount="0" PassType="-1" Name="Ruud Box (10000)" />
+		<Info ID="9" Type="1" EffectIndex="-1" ISection="16" IType="510" ICount="0" PassType="-1" Name="Tempest Evolution Stone" />
+		<Info ID="10" Type="1" EffectIndex="-1" ISection="20" IType="120" ICount="5" PassType="-1" Name="Elixir Jar" />
+		<Info ID="11" Type="1" EffectIndex="-1" ISection="20" IType="121" ICount="0" PassType="-1" Name="[Bound] Brilliant Amulet Box" />
+		<Info ID="12" Type="1" EffectIndex="-1" ISection="20" IType="144" ICount="0" PassType="-1" Name="Tempest Muun Evolution Stone Box (Amplified)" />
+		<Info ID="13" Type="1" EffectIndex="-1" ISection="20" IType="147" ICount="0" PassType="-1" Name="Tempest Muun Evolution Stone Box (Wide)" />
+	</Reward>
+	<RewardList>
+		<PassInfo ID="0"> <!-- MU PASS -->
+			<Info Level="1" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="2" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="3" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="4" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="5" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="6" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="7" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="8" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="9" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="10" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="11" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="12" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="13" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="14" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="15" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="16" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="17" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="18" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="19" Reward0="0" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="20" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+		</PassInfo>
+		<PassInfo ID="1"> <!-- GOLD PASS -->
+			<Info Level="1" Reward0="1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="2" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="10" Reward4="-1" Reward5="-1" />
+			<Info Level="3" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="4" Reward0="-1" Reward1="-1" Reward2="7" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="5" Reward0="1" Reward1="5" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="6" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="7" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="10" Reward4="-1" Reward5="-1" />
+			<Info Level="8" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="9" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="10" Reward0="1" Reward1="5" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="11" Reward0="-1" Reward1="-1" Reward2="7" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="12" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="10" Reward4="-1" Reward5="-1" />
+			<Info Level="13" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="14" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="15" Reward0="1" Reward1="5" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="16" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="17" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="10" Reward4="-1" Reward5="-1" />
+			<Info Level="18" Reward0="-1" Reward1="-1" Reward2="7" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="19" Reward0="-1" Reward1="-1" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="20" Reward0="1" Reward1="5" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+		</PassInfo>
+		<PassInfo ID="2"> <!-- PREMIUM PASS -->
+			<Info Level="1" Reward0="2" Reward1="4" Reward2="3" Reward3="12" Reward4="13" Reward5="-1" />
+			<Info Level="2" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="5" Reward5="-1" />
+			<Info Level="3" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="4" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="6" Reward5="-1" />
+			<Info Level="5" Reward0="2" Reward1="4" Reward2="3" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="6" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="5" Reward5="-1" />
+			<Info Level="7" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="8" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="6" Reward5="-1" />
+			<Info Level="9" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="10" Reward0="2" Reward1="4" Reward2="3" Reward3="-1" Reward4="5" Reward5="-1" />
+			<Info Level="11" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="12" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="6" Reward5="-1" />
+			<Info Level="13" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="14" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="5" Reward5="-1" />
+			<Info Level="15" Reward0="2" Reward1="4" Reward2="3" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="16" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="6" Reward5="-1" />
+			<Info Level="17" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="18" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="5" Reward5="-1" />
+			<Info Level="19" Reward0="2" Reward1="4" Reward2="-1" Reward3="-1" Reward4="-1" Reward5="-1" />
+			<Info Level="20" Reward0="2" Reward1="4" Reward2="3" Reward3="6" Reward4="8" Reward5="11" />
+		</PassInfo>
+	</RewardList>
+	<BuffEffect>
+		<EffectInfo EffectIndex="411" Unk1="-1" Unk2="-1" Type="0" Name="Season Pass - Increase Max HP">
+			<LevelInfo Level="1" Value="30"/>
+			<LevelInfo Level="2" Value="30"/>
+			<LevelInfo Level="3" Value="60"/>
+			<LevelInfo Level="4" Value="60"/>
+			<LevelInfo Level="5" Value="90"/>
+			<LevelInfo Level="6" Value="90"/>
+			<LevelInfo Level="7" Value="120"/>
+			<LevelInfo Level="8" Value="120"/>
+			<LevelInfo Level="9" Value="150"/>
+			<LevelInfo Level="10" Value="150"/>
+			<LevelInfo Level="11" Value="180"/>
+			<LevelInfo Level="12" Value="180"/>
+			<LevelInfo Level="13" Value="210"/>
+			<LevelInfo Level="14" Value="210"/>
+			<LevelInfo Level="15" Value="240"/>
+			<LevelInfo Level="16" Value="240"/>
+			<LevelInfo Level="17" Value="270"/>
+			<LevelInfo Level="18" Value="270"/>
+			<LevelInfo Level="19" Value="300"/>
+			<LevelInfo Level="20" Value="300"/>
+		</EffectInfo>
+		<EffectInfo EffectIndex="412" Unk1="-1" Unk2="-1" Type="1" Name="Season Pass - Increased base experience">
+			<LevelInfo Level="1" Value="2000"/>
+			<LevelInfo Level="2" Value="4000"/>
+			<LevelInfo Level="3" Value="6000"/>
+			<LevelInfo Level="4" Value="8000"/>
+			<LevelInfo Level="5" Value="10000"/>
+			<LevelInfo Level="6" Value="12000"/>
+			<LevelInfo Level="7" Value="14000"/>
+			<LevelInfo Level="8" Value="16000"/>
+			<LevelInfo Level="9" Value="18000"/>
+			<LevelInfo Level="10" Value="20000"/>
+			<LevelInfo Level="11" Value="23000"/>
+			<LevelInfo Level="12" Value="26000"/>
+			<LevelInfo Level="13" Value="29000"/>
+			<LevelInfo Level="14" Value="32000"/>
+			<LevelInfo Level="15" Value="35000"/>
+			<LevelInfo Level="16" Value="38000"/>
+			<LevelInfo Level="17" Value="41000"/>
+			<LevelInfo Level="18" Value="44000"/>
+			<LevelInfo Level="19" Value="47000"/>
+			<LevelInfo Level="20" Value="50000"/>
+		</EffectInfo>
+		<EffectInfo EffectIndex="413" Unk1="-1" Unk2="-1" Type="0" Name="Season Pass - Tempest Muun multiplier increase">
+			<LevelInfo Level="1" Value="2"/>
+			<LevelInfo Level="2" Value="2"/>
+			<LevelInfo Level="3" Value="2"/>
+			<LevelInfo Level="4" Value="2"/>
+			<LevelInfo Level="5" Value="4"/>
+			<LevelInfo Level="6" Value="4"/>
+			<LevelInfo Level="7" Value="4"/>
+			<LevelInfo Level="8" Value="4"/>
+			<LevelInfo Level="9" Value="4"/>
+			<LevelInfo Level="10" Value="8"/>
+			<LevelInfo Level="11" Value="8"/>
+			<LevelInfo Level="12" Value="8"/>
+			<LevelInfo Level="13" Value="8"/>
+			<LevelInfo Level="14" Value="8"/>
+			<LevelInfo Level="15" Value="12"/>
+			<LevelInfo Level="16" Value="12"/>
+			<LevelInfo Level="17" Value="12"/>
+			<LevelInfo Level="18" Value="12"/>
+			<LevelInfo Level="19" Value="12"/>
+			<LevelInfo Level="20" Value="20"/>
+		</EffectInfo>
+		<EffectInfo EffectIndex="414" Unk1="-1" Unk2="-1" Type="1" Name="Season Pass - [G] Master Lee Horn's Decision">
+			<LevelInfo Level="1" Value="2"/>
+			<LevelInfo Level="2" Value="2"/>
+			<LevelInfo Level="3" Value="2"/>
+			<LevelInfo Level="4" Value="2"/>
+			<LevelInfo Level="5" Value="4"/>
+			<LevelInfo Level="6" Value="4"/>
+			<LevelInfo Level="7" Value="4"/>
+			<LevelInfo Level="8" Value="4"/>
+			<LevelInfo Level="9" Value="4"/>
+			<LevelInfo Level="10" Value="6"/>
+			<LevelInfo Level="11" Value="6"/>
+			<LevelInfo Level="12" Value="6"/>
+			<LevelInfo Level="13" Value="6"/>
+			<LevelInfo Level="14" Value="6"/>
+			<LevelInfo Level="15" Value="8"/>
+			<LevelInfo Level="16" Value="8"/>
+			<LevelInfo Level="17" Value="8"/>
+			<LevelInfo Level="18" Value="8"/>
+			<LevelInfo Level="19" Value="8"/>
+			<LevelInfo Level="20" Value="10"/>
+		</EffectInfo>
+		<EffectInfo EffectIndex="415" Unk1="-1" Unk2="-1" Type="1" Name="Season Pass - [P] Master Lee Horn's Crystal">
+			<LevelInfo Level="1" Value="5"/>
+			<LevelInfo Level="2" Value="10"/>
+			<LevelInfo Level="3" Value="15"/>
+			<LevelInfo Level="4" Value="20"/>
+			<LevelInfo Level="5" Value="25"/>
+			<LevelInfo Level="6" Value="30"/>
+			<LevelInfo Level="7" Value="35"/>
+			<LevelInfo Level="8" Value="40"/>
+			<LevelInfo Level="9" Value="45"/>
+			<LevelInfo Level="10" Value="50"/>
+			<LevelInfo Level="11" Value="55"/>
+			<LevelInfo Level="12" Value="60"/>
+			<LevelInfo Level="13" Value="65"/>
+			<LevelInfo Level="14" Value="70"/>
+			<LevelInfo Level="15" Value="75"/>
+			<LevelInfo Level="16" Value="80"/>
+			<LevelInfo Level="17" Value="85"/>
+			<LevelInfo Level="18" Value="90"/>
+			<LevelInfo Level="19" Value="95"/>
+			<LevelInfo Level="20" Value="100"/>
+		</EffectInfo>
+	</BuffEffect>	
+	<!-- Soul Crystal Bound -->
+	<Drop>
+		<Info Map="113" Enabled="1" Name="Nixies Lake" />
+		<Info Map="122" Enabled="1" Name="Swamp of Darkness" />
+		<Info Map="123" Enabled="1" Name="Kubera Mine 1" />
+		<Info Map="124" Enabled="1" Name="Kubera Mine 2" />
+		<Info Map="125" Enabled="1" Name="Kubera Mine 3" />
+		<Info Map="126" Enabled="1" Name="Kubera Mine 4" />
+		<Info Map="127" Enabled="1" Name="Kubera Mine 5" />
+		<Info Map="131" Enabled="1" Name="Scorched Canyon" />
+		<Info Map="133" Enabled="1" Name="Arenil Temple" />
+		<Info Map="136" Enabled="1" Name="Blaze Kethhotum" />
+		<Info Map="138" Enabled="1" Name="Ignis Vulcanus" />
+	</Drop>
+</BattlePass>

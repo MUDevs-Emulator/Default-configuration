@@ -1,0 +1,57 @@
+//MUPassMissionText
+//Editor: OMEGA
+0
+//index name					allow	msgID	
+0	"Use Mu Helper %s seconds"	1	6259
+1	"Kill %s monsters in the hunting ground"	1	6264
+2	"Use MP %s as skill"	1	6263
+3	"Use %s potion items"	1	6261
+4	"Use %s buff items"	1	6261
+5	"Repair the Tempest Muun %s times"	1	6262
+6	"Repair Guardian %s times"	1	6262
+7	"Repair equipment item %s times"	1	6262
+8	"Buy %s items from Personal Shop"	1	6263
+9	"Request %s additional friends"	1	6262
+10	"Send %s letters to friends"	1	6262
+11	"Leveling up my character %s"	1	6260
+12	"Item disassembled %s times"	1	6261
+13	"Soul potion %s combinations succeeded"	1	6261
+14	"Varka Event clear"	0	6265
+15	"Boss Battle achieve 1 million damage in the Boss Fight"	0	6265
+16	"Entries %s of Chaos Castle"	1	6262
+17	"Entries %s of Blood Castle"	1	6262
+18	"Enter %s of Devil's Square"	1	6262
+19	"Find and kill the White Wizard"	0	6265
+20	"Participation and success in the Battle of Cryolf"	0	6265
+21	"Participate in the Battle of Crywolf"	0	6265
+22	"Three Vacancy Boxes used %s times"	1	6262
+23	"Pickaxe used %s times"	1	6262
+24	"Obtain %s Jewels of Bless"	1	6261
+end	
+
+//BKP
+//0	"뮤 도우미 %s초 사용"	1	6259
+//1	"사냥터에서 몬스터 %s 마리 킬"	1	6264
+//2	"스킬로 MP %s 사용 "	1	6263
+//3	"물약 아이템 %s개 사용"	1	6261
+//4	"버프 아이템 %s개 사용"	1	6261
+//5	"템페스트 뮨 %s회 수리"	1	6262
+//6	"가디언 %s회 수리"	1	6262
+//7	"장비 아이템 %s회 수리"	1	6262
+//8	"개인상점에서 아이템 %s개 구매"	1	6263
+//9	"친구 추가 %s회 신청"	1	6262
+//10	"친구에게 %s회 편지 보내기"	1	6262
+//11	"내 캐릭터 %s 레벨업 하기"	1	6260
+//12	"아이템 %s회 분해"	1	6261
+//13	"영혼의물약 %s회 조합 성공"	1	6261
+//14	"바르카 이벤트 클리어"	0	6265
+//15	"다 함께 보스전 100만 데미지 달성"	0	6265
+//16	"카오스캐슬 %s회 입장"	1	6262
+//17	"블러드캐슬 %s회 입장"	1	6262
+//18	"악마의광장 %s회 입장"	1	6262
+//19	"백색의 마법사를 찾아 킬"	0	6265
+//20	"크라이올프 공방전 참여 및 성공"	0	6265
+//21	"크라이울프 공방전 참여하기"	0	6265
+//22	"세공석 상자 %s회 사용"	1	6262
+//23	"곡괭이 %s회 사용"	1	6262
+//24	"축복의보석 %s개 획득"	1	6261		

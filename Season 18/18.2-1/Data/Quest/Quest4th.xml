@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ### Zone4thQuest ###
+//	MinEnterLevel: Minimum character level to enter qualification zone
+//
+// ### Zone4thQuest::QuestData::Quest ###
+//	Index: Index of a question
+//		~ 7: 4th Class Upgrade - Eligibility Test
+//		~ 8: 4th Class Upgrade - New Battle
+//		~ 9: 4th Class Upgrade - New Battle (2)
+//
+// ### Zone4thQuest::QuestData::Quest::Condition ###
+//	Type: Type of condition
+//		~ 1: Kill monster
+//		~ 2: Time based
+//	SubType: Sub condition, will contain monster index for Type 1
+//	Value: A value for for condition depending on Type, for "1" it will express monsters count, for "2" it will be time in seconds, -1 if not applies
+//	SubValue: Used when Type and SubType are set to 1 and 763, determines count of attack skills to be used by Cent (Monster)
+//		~ 0: three skills
+//		~ 1: six skills
+//
+// ### Zone4thQuest::QuestData::Quest::MonsterSpawn::Spawn ###
+//	Index: Spawn identification number, starting from zero
+//	Class: Monster index, available monsters:
+//		~ 763: Cent(Monster)
+//		~ 767: Deep Dungeon Skeleton Warrior
+//		~ 770: Deep Dungeon Larva
+//		~ 771: Deep Dungeon Cyclops
+//
+//	StartX: Start X coordinate
+//	StartY: Start Y coordinate
+//
+// ### Zone4thQuest::MonsterBalance::Quest ###
+//	Index: Index of a question
+//		~ 7: 4th Class Upgrade - Eligibility Test
+//		~ 8: 4th Class Upgrade - New Battle
+//		~ 9: 4th Class Upgrade - New Battle (2)
+//
+// ### Zone4thQuest::MonsterBalance::Quest::Monster ###
+//	Class: Monster index, available monsters:
+//		~ 763: Cent(Monster)
+//		~ 767: Deep Dungeon Skeleton Warrior
+//		~ 770: Deep Dungeon Larva
+//		~ 771: Deep Dungeon Cyclops
+//
+//	DamageMin: Monster minimum damage multiplier, float
+//	DamageMax: Monster maximum damage multiplier, float
+//	Defense: Monster defense, float
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<Zone4thQuest Enabled="1" MinEnterLevel="750">
+	<QuestData>
+		<Quest Index="7" Name="4th Class Upgrade - Eligibility Test">
+			<Condition Type="1" SubType="763" Value="1" SubValue="0" />
+			<MonsterSpawn>
+				<Spawn Index="0" Class="763" StartX="147" StartY="29" />
+			</MonsterSpawn>
+		</Quest>
+		<Quest Index="8" Name="4th Class Upgrade - New Battle">
+			<Condition Type="2" SubType="0" Value="300000" SubValue="-1" />
+			<MonsterSpawn>
+				<Spawn Index="0" Class="767" StartX="148" StartY="28" />
+				<Spawn Index="1" Class="767" StartX="147" StartY="28" />
+				<Spawn Index="2" Class="770" StartX="146" StartY="29" />
+				<Spawn Index="3" Class="770" StartX="145" StartY="30" />
+				<Spawn Index="4" Class="771" StartX="146" StartY="31" />
+				<Spawn Index="5" Class="771" StartX="148" StartY="39" />
+			</MonsterSpawn>
+		</Quest>
+		<Quest Index="9" Name="4th Class Upgrade - New Battle (2)">
+			<Condition Type="1" SubType="763" Value="1" SubValue="1" />
+			<MonsterSpawn>
+				<Spawn Index="0" Class="763" StartX="147" StartY="29" />
+				<Spawn Index="1" Class="767" StartX="148" StartY="28" />
+				<Spawn Index="2" Class="770" StartX="146" StartY="28" />
+				<Spawn Index="3" Class="771" StartX="147" StartY="31" />
+			</MonsterSpawn>
+		</Quest>
+	</QuestData>
+	<MonsterBalance>
+		<Quest Index="7">
+			<Monster Class="763" DamageMin="1.0" DamageMax="1.0" Defense="1.0" />
+		</Quest>
+		<Quest Index="8">
+			<Monster Class="767" DamageMin="1.0" DamageMax="1.0" Defense="1.0" />
+			<Monster Class="770" DamageMin="1.0" DamageMax="1.0" Defense="1.0" />
+			<Monster Class="771" DamageMin="1.0" DamageMax="1.0" Defense="1.0" />
+		</Quest>
+		<Quest Index="9">
+			<Monster Class="763" DamageMin="1.3" DamageMax="1.3" Defense="1.3" />
+			<Monster Class="767" DamageMin="1.2" DamageMax="1.2" Defense="1.2" />
+			<Monster Class="770" DamageMin="1.2" DamageMax="1.2" Defense="1.2" />
+			<Monster Class="771" DamageMin="1.2" DamageMax="1.2" Defense="1.2" />
+		</Quest>		
+	</MonsterBalance>
+</Zone4thQuest>

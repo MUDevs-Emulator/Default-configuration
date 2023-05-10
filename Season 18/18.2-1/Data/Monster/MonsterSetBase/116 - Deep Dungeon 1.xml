@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="767" Range="3" BeginPosX="43" BeginPosY="162" EndPosX="57" EndPosY="166" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="166" BeginPosY="156" EndPosX="180" EndPosY="170" Direction="-1" Quantity="8" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="166" BeginPosY="173" EndPosX="176" EndPosY="181" Direction="-1" Quantity="2" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="7" BeginPosX="105" BeginPosY="241" EndPosX="114" EndPosY="250" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="94" BeginPosY="166" EndPosX="102" EndPosY="175" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="124" BeginPosY="239" EndPosX="131" EndPosY="249" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="147" BeginPosY="163" EndPosX="158" EndPosY="173" Direction="-1" Quantity="4" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="6" BeginPosX="205" BeginPosY="139" EndPosX="218" EndPosY="145" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="206" BeginPosY="169" EndPosX="210" EndPosY="194" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="102" BeginPosY="190" EndPosX="105" EndPosY="213" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="3" BeginPosX="55" BeginPosY="128" EndPosX="61" EndPosY="134" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="148" BeginPosY="176" EndPosX="154" EndPosY="182" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="6" BeginPosX="109" BeginPosY="151" EndPosX="115" EndPosY="160" Direction="-1" Quantity="2" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="209" BeginPosY="209" EndPosX="219" EndPosY="219" Direction="-1" Quantity="4" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="3" BeginPosX="24" BeginPosY="134" EndPosX="33" EndPosY="139" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="3" BeginPosY="140" EndPosX="7" EndPosY="152" Direction="-1" Quantity="4" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="7" BeginPosX="15" BeginPosY="211" EndPosX="26" EndPosY="219" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="6" BeginPosX="123" BeginPosY="164" EndPosX="128" EndPosY="176" Direction="-1" Quantity="2" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="148" BeginPosY="206" EndPosX="168" EndPosY="210" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="230" BeginPosY="196" EndPosX="242" EndPosY="205" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="6" BeginPosX="157" BeginPosY="127" EndPosX="167" EndPosY="135" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="15" BeginPosY="224" EndPosX="26" EndPosY="238" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="136" BeginPosY="240" EndPosX="144" EndPosY="249" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="142" BeginPosY="185" EndPosX="157" EndPosY="191" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="181" BeginPosY="234" EndPosX="192" EndPosY="243" Direction="-1" Quantity="2" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="6" BeginPosX="180" BeginPosY="125" EndPosX="192" EndPosY="134" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="3" BeginPosX="5" BeginPosY="183" EndPosX="15" EndPosY="189" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="76" BeginPosY="216" EndPosX="85" EndPosY="224" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="144" BeginPosY="223" EndPosX="151" EndPosY="231" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="115" BeginPosY="234" EndPosX="119" EndPosY="243" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="221" BeginPosY="226" EndPosX="227" EndPosY="241" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="30" BeginPosY="232" EndPosX="38" EndPosY="245" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="157" BeginPosY="218" EndPosX="163" EndPosY="236" Direction="-1" Quantity="4" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="165" BeginPosY="143" EndPosX="188" EndPosY="147" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="3" BeginPosX="37" BeginPosY="182" EndPosX="48" EndPosY="191" Direction="-1" Quantity="4" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="12" BeginPosX="235" BeginPosY="222" EndPosX="245" EndPosY="232" Direction="-1" Quantity="4" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="227" BeginPosY="160" EndPosX="246" EndPosY="172" Direction="-1" Quantity="4" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="10" BeginPosX="187" BeginPosY="171" EndPosX="193" EndPosY="183" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="3" BeginPosX="36" BeginPosY="152" EndPosX="42" EndPosY="162" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="62" BeginPosY="236" EndPosX="76" EndPosY="244" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="113" BeginPosY="216" EndPosX="121" EndPosY="224" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="136" BeginPosY="215" EndPosX="141" EndPosY="229" Direction="-1" Quantity="2" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="767" Range="8" BeginPosX="186" BeginPosY="191" EndPosX="198" EndPosY="197" Direction="-1" Quantity="2" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="11" BeginPosY="154" EndPosX="16" EndPosY="163" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="21" BeginPosY="175" EndPosX="25" EndPosY="188" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="79" BeginPosY="180" EndPosX="98" EndPosY="190" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="54" BeginPosY="224" EndPosX="63" EndPosY="236" Direction="-1" Quantity="4" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="88" BeginPosY="235" EndPosX="103" EndPosY="248" Direction="-1" Quantity="6" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="161" BeginPosY="191" EndPosX="169" EndPosY="201" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="207" BeginPosY="227" EndPosX="218" EndPosY="239" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="230" BeginPosY="236" EndPosX="245" EndPosY="242" Direction="-1" Quantity="2" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="57" BeginPosY="144" EndPosX="65" EndPosY="153" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="50" BeginPosY="213" EndPosX="64" EndPosY="219" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="194" BeginPosY="144" EndPosX="205" EndPosY="166" Direction="-1" Quantity="4" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="150" BeginPosY="236" EndPosX="170" EndPosY="247" Direction="-1" Quantity="6" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="84" BeginPosY="146" EndPosX="91" EndPosY="154" Direction="-1" Quantity="2" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="48" BeginPosY="182" EndPosX="54" EndPosY="192" Direction="-1" Quantity="3" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="29" BeginPosY="217" EndPosX="42" EndPosY="227" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="10" BeginPosX="179" BeginPosY="200" EndPosX="185" EndPosY="223" Direction="-1" Quantity="4" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="40" BeginPosY="137" EndPosX="65" EndPosY="142" Direction="-1" Quantity="7" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="74" BeginPosY="208" EndPosX="85" EndPosY="215" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="6" BeginPosX="229" BeginPosY="175" EndPosX="245" EndPosY="185" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="241" BeginPosY="138" EndPosX="249" EndPosY="154" Direction="-1" Quantity="3" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="94" BeginPosY="128" EndPosX="103" EndPosY="133" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="121" BeginPosY="185" EndPosX="127" EndPosY="194" Direction="-1" Quantity="3" Element="3" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="225" BeginPosY="138" EndPosX="235" EndPosY="146" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="203" BeginPosY="124" EndPosX="214" EndPosY="134" Direction="-1" Quantity="2" Element="5" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="3" BeginPosX="69" BeginPosY="143" EndPosX="81" EndPosY="162" Direction="-1" Quantity="7" Element="1" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="15" BeginPosX="64" BeginPosY="182" EndPosX="75" EndPosY="200" Direction="-1" Quantity="6" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="12" BeginPosX="36" BeginPosY="212" EndPosX="48" EndPosY="216" Direction="-1" Quantity="3" Element="2" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+		<Config Class="771" Range="8" BeginPosX="233" BeginPosY="209" EndPosX="247" EndPosY="217" Direction="-1" Quantity="3" Element="4" /> <!-- "Deep Dungeon Skeleton Warrior" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+		<Config Class="770" Range="3" PositionX="99" PositionY="130" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="187" PositionY="156" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="59" PositionY="152" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="68" PositionY="140" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="103" PositionY="193" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="194" PositionY="226" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="198" PositionY="226" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="197" PositionY="137" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="122" PositionY="141" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="29" PositionY="147" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="5" PositionX="154" PositionY="158" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="5" PositionX="168" PositionY="158" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="8" PositionY="186" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="42" PositionY="176" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="159" PositionY="213" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="145" PositionY="214" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="62" PositionY="147" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="68" PositionY="134" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="5" PositionY="148" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="40" PositionY="185" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="7" PositionX="112" PositionY="204" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="130" PositionY="186" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="90" PositionY="199" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="95" PositionY="210" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="10" PositionY="140" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="78" PositionY="144" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="103" PositionY="171" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="141" PositionY="178" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="223" PositionY="226" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="12" PositionX="152" PositionY="138" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="23" PositionY="163" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="66" PositionY="242" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="139" PositionY="210" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="140" PositionY="156" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="217" PositionY="194" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="207" PositionY="190" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="45" PositionY="242" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="72" PositionY="188" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="228" PositionY="237" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="226" PositionY="203" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="73" PositionY="197" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="97" PositionY="180" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="159" PositionY="134" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="140" PositionY="139" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="23" PositionY="235" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="50" PositionY="214" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="97" PositionY="133" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="19" PositionY="227" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="142" PositionY="196" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="5" PositionX="148" PositionY="153" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="208" PositionY="225" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="202" PositionY="215" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="167" PositionY="224" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="174" PositionY="225" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="178" PositionY="172" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="180" PositionY="189" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="47" PositionY="164" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="60" PositionY="227" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="121" PositionY="224" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="158" PositionY="196" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="208" PositionY="180" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="8" PositionY="172" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="35" PositionY="147" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="103" PositionY="196" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="220" PositionY="145" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="237" PositionY="149" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="6" PositionY="176" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="49" PositionY="188" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="120" PositionY="168" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="116" PositionY="159" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="20" PositionY="148" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="37" PositionY="235" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="187" PositionY="195" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="186" PositionY="179" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="113" PositionY="139" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="68" PositionY="131" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="46" PositionY="141" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="74" PositionY="174" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="229" PositionY="179" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="220" PositionY="172" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="120" PositionY="151" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="64" PositionY="129" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="32" PositionY="220" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="63" PositionY="211" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="23" PositionY="157" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="22" PositionY="214" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="122" PositionY="230" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="196" PositionY="209" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="12" PositionX="162" PositionY="138" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="88" PositionY="151" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="80" PositionY="212" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="186" PositionY="231" Direction="-1" Element="4" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="41" PositionY="139" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="92" PositionY="148" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="57" PositionY="130" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="72" PositionY="144" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="140" PositionY="232" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="161" PositionY="233" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="168" PositionY="144" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="189" PositionY="142" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="130" PositionY="215" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="103" PositionY="235" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="10" PositionY="158" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="27" PositionY="137" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="138" PositionY="187" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="8" PositionX="130" PositionY="198" Direction="-1" Element="3" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="53" PositionY="235" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="2" PositionX="79" PositionY="181" Direction="-1" Element="2" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="14" PositionY="140" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="12" PositionY="192" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="56" PositionY="170" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="3" PositionX="75" PositionY="167" Direction="-1" Element="1" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="215" PositionY="161" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+		<Config Class="770" Range="4" PositionX="215" PositionY="152" Direction="-1" Element="5" /> <!-- "Deep Dungeon Larva" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

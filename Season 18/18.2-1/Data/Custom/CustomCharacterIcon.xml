@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CustomCharacterIcon Enable="1"> 
+	<Info prioritiyIndex="-1" characterIconID="0" name="Beginner #1" minLevel="0" maxLevel="200" minReset="0" maxReset="3" minMasterReset="-1" maxMasterReset="-1" minEnhancedReset="-1" maxEnhancedReset="-1" accountLevel0="1" accountLevel1="1" accountLevel2="1" accountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+</CustomCharacterIcon>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs Ex1812
+// == www.mudevs.com
+// == (C) 2022 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By OMEGA
+// ============================================================
+//
+//~~ 
+-->
+<!-- Elements: 1 = Fire / 2 = Water / 3 = Earth / 4 = Wind / 5 = Darkness / 6 = Randon -->
+
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	<!--	<Config Class="838" Range="0" PositionX="040" PositionY="038" Direction="3" Element="0" /> -->	<!-- "Elite John Flag" -->
+	<!--	<Config Class="838" Range="0" PositionX="018" PositionY="215" Direction="2" Element="0" /> -->	<!-- "Elite John Flag" -->
+	<!--	<Config Class="838" Range="0" PositionX="124" PositionY="010" Direction="3" Element="0" /> -->	<!-- "Elite John Flag" -->
+	<!--	<Config Class="838" Range="0" PositionX="225" PositionY="212" Direction="2" Element="0" /> -->	<!-- "Elite John Flag" -->
+	<!--	<Config Class="838" Range="0" PositionX="235" PositionY="011" Direction="3" Element="0" /> -->	<!-- "Elite John Flag" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<!-- Spots Fire  -->
+	<!-- <Config Class="905" Range="4" BeginPosX="107" BeginPosY="086" EndPosX="110" EndPosY="090" Direction="-1" Quantity="2" Element="1" /> --> <!-- "Under Persona" -->
+	
+	<!-- Spots Water -->
+	<!-- <Config Class="905" Range="4" BeginPosX="095" BeginPosY="163" EndPosX="102" EndPosY="166" Direction="-1" Quantity="2" Element="2" /> --> <!-- "Under Persona" -->
+		
+	
+	<!-- Spots Earth -->
+	<!-- <Config Class="905" Range="4" BeginPosX="163" BeginPosY="093" EndPosX="166" EndPosY="099" Direction="-1" Quantity="2" Element="3" /> --> <!-- "Under Persona" -->
+	
+	
+	<!-- Spots Wind -->
+	<!-- <Config Class="905" Range="4" BeginPosX="148" BeginPosY="225" EndPosX="152" EndPosY="238" Direction="-1" Quantity="3" Element="4" /> --> <!-- "Under Persona" -->
+	
+	<!-- Spots Darkness -->	
+	<!-- <Config Class="905" Range="4" BeginPosX="227" BeginPosY="129" EndPosX="232" EndPosY="131" Direction="-1" Quantity="2" Element="5" /> --> <!-- "Under Persona" -->
+	
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+  	<MONSTER>
+		<Config Class="911" Range="5" PositionX="100" PositionY="127" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="77" PositionY="124" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="67" PositionY="136" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="55" PositionY="125" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="57" PositionY="133" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="65" PositionY="117" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="46" PositionY="120" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="45" PositionY="105" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="122" PositionY="102" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="119" PositionY="81" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="94" PositionY="60" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="75" PositionY="47" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="108" PositionY="48" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="154" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="167" PositionY="85" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="178" PositionY="73" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="192" PositionY="63" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="193" PositionY="73" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="169" PositionY="139" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="188" PositionY="152" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="196" PositionY="170" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="204" PositionY="190" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="183" PositionY="211" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="129" PositionY="157" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="121" PositionY="176" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="104" PositionY="197" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="91" PositionY="209" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="81" PositionY="217" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="63" PositionY="222" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="912" Range="5" PositionX="105" PositionY="128" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="87" PositionY="123" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="73" PositionY="125" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="65" PositionY="119" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="56" PositionY="125" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="59" PositionY="134" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="68" PositionY="138" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="43" PositionY="120" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="44" PositionY="108" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="122" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="119" PositionY="90" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="103" PositionY="73" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="103" PositionY="53" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="81" PositionY="51" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="160" PositionY="91" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="173" PositionY="80" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="188" PositionY="67" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="176" PositionY="147" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="192" PositionY="159" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="206" PositionY="177" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="194" PositionY="196" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="127" PositionY="167" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="114" PositionY="185" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="100" PositionY="199" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="87" PositionY="213" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="70" PositionY="222" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="913" Range="5" PositionX="103" PositionY="130" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="93" PositionY="124" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="82" PositionY="123" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="68" PositionY="122" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="72" PositionY="130" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="63" PositionY="135" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="58" PositionY="129" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="53" PositionY="139" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="45" PositionY="124" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="43" PositionY="112" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="76" PositionY="48" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="87" PositionY="60" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="98" PositionY="65" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="100" PositionY="57" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="110" PositionY="76" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="118" PositionY="84" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="120" PositionY="94" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="151" PositionY="104" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="160" PositionY="94" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="168" PositionY="88" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="170" PositionY="82" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="176" PositionY="76" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="188" PositionY="71" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="195" PositionY="67" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="160" PositionY="138" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="175" PositionY="138" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="185" PositionY="148" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="190" PositionY="162" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="201" PositionY="174" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="209" PositionY="182" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="203" PositionY="193" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="186" PositionY="202" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="911" Range="5" PositionX="77" PositionY="147" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="49" PositionY="157" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="21" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="45" PositionY="89" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="64" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="86" PositionY="105" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="79" PositionY="76" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="61" PositionY="69" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="49" PositionY="29" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="79" PositionY="25" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="131" PositionY="32" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="122" PositionY="64" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="148" PositionY="83" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="177" PositionY="98" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="157" PositionY="61" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="209" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="229" PositionY="66" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="213" PositionY="40" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="188" PositionY="125" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="205" PositionY="140" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="227" PositionY="170" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="178" PositionY="165" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="176" PositionY="195" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="180" PositionY="227" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="134" PositionY="189" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="94" PositionY="176" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="118" PositionY="221" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="94" PositionY="230" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="68" PositionY="203" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="43" PositionY="201" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="912" Range="5" PositionX="77" PositionY="149" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="50" PositionY="158" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="22" PositionY="101" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="44" PositionY="90" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="66" PositionY="101" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="85" PositionY="106" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="80" PositionY="75" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="59" PositionY="69" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="51" PositionY="30" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="81" PositionY="26" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="129" PositionY="33" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="123" PositionY="65" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="150" PositionY="82" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="156" PositionY="61" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="210" PositionY="40" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="226" PositionY="66" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="209" PositionY="97" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="177" PositionY="97" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="189" PositionY="126" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="207" PositionY="139" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="225" PositionY="167" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="178" PositionY="192" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="183" PositionY="226" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="137" PositionY="191" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="119" PositionY="219" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="97" PositionY="229" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="66" PositionY="202" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="41" PositionY="200" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="912" Range="5" PositionX="91" PositionY="179" Direction="-1" Element="6" /> <!-- "Magma Hook"-->
+		<Config Class="913" Range="5" PositionX="80" PositionY="146" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="51" PositionY="154" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="22" PositionY="103" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="45" PositionY="91" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="65" PositionY="101" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="87" PositionY="105" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="80" PositionY="76" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="59" PositionY="70" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="51" PositionY="27" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="79" PositionY="27" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="130" PositionY="34" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="124" PositionY="63" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="146" PositionY="81" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="156" PositionY="63" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="215" PositionY="38" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="228" PositionY="63" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="212" PositionY="98" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="178" PositionY="99" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="187" PositionY="124" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="204" PositionY="139" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="228" PositionY="166" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="176" PositionY="193" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="183" PositionY="228" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="179" PositionY="166" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="134" PositionY="192" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="94" PositionY="177" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="116" PositionY="219" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="121" PositionY="221" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="96" PositionY="231" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="94" PositionY="228" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="94" PositionY="174" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="92" PositionY="179" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="70" PositionY="203" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="69" PositionY="202" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="40" PositionY="203" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="43" PositionY="198" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="80" PositionY="148" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="51" PositionY="156" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="24" PositionY="102" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="47" PositionY="89" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="913" Range="5" PositionX="64" PositionY="101" Direction="-1" Element="6" /> <!-- "Magma Shaman"-->
+		<Config Class="911" Range="5" PositionX="78" PositionY="78" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="61" PositionY="70" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="53" PositionY="29" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="80" PositionY="24" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="133" PositionY="32" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="125" PositionY="63" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="146" PositionY="82" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="158" PositionY="61" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="211" PositionY="38" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="226" PositionY="68" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="211" PositionY="100" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="179" PositionY="97" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="186" PositionY="126" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="207" PositionY="141" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="229" PositionY="168" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="178" PositionY="166" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="177" PositionY="169" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="178" PositionY="194" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="182" PositionY="224" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+		<Config Class="911" Range="5" PositionX="137" PositionY="188" Direction="-1" Element="6" /> <!-- "Magma Gladiator"-->
+	</MONSTER>
+	<EVENT>
+	</EVENT>
+</MonsterSetBase>

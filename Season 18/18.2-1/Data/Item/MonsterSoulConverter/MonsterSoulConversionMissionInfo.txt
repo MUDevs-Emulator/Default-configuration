@@ -1,0 +1,93 @@
+1						
+//Index  MapNumber	MonsterClass	RequiereCollection	DropProbability (1/1000000)	Name
+0	 91		586		500			450000				"Acheron"	
+1	 91		587		500			450000				"Acheron"	
+2	 91		588		500			450000				"Acheron"	
+3	 91		589		500			450000				"Acheron"	
+4	 91		590		500			450000				"Acheron"	
+5	 91		591		500			450000				"Acheron"	
+6	 63		480		500			450000				"Vulcanus"	
+7	 63		482		500			450000				"Vulcanus"	
+8	 63		484		500			450000				"Vulcanus"	
+9	 63		486		500			450000				"Vulcanus"	
+10	 63		487		500			450000				"Vulcanus"	
+11	 63		489		500			450000				"Vulcanus"	
+12	 63		490		500			450000				"Vulcanus"	
+13	 29		271		500			450000				"Kalima6"	
+14	 29		272		500			450000				"Kalima6"	
+15	 29		270		500			450000				"Kalima6"	
+16	 29		268		500			450000				"Kalima6"	
+17	 29		273		500			450000				"Kalima6"	
+18	 29		269		500			450000				"Kalima6"	
+19	 29		274		500			450000				"Kalima6"	
+20	 36		331		500			450000				"Kalima7"	
+21	 36		332		500			450000				"Kalima7"	
+22	 36		333		500			450000				"Kalima7"	
+23	 36		334		500			450000				"Kalima7"	
+24	 36		335		500			450000				"Kalima7"	
+25	 36		336		500			450000				"Kalima7"	
+26	 36		337		500			450000				"Kalima7"	
+27	 33		308		500			450000				"Aida"	
+28	 33		307		500			450000				"Aida"	
+29	 33		306		500			450000				"Aida"	
+30	 33		305		500			450000				"Aida"	
+end
+
+2
+//Index  MapNumber	MonsterClass	RequiereCollection	DropProbability (1/1000000)	Name
+0	 37		553		500			450000				"KanturuRuins"	
+1	 37		554		500			450000				"KanturuRuins"	
+2	 37		555		500			450000				"KanturuRuins"	
+3	 37		556		500			450000				"KanturuRuins"	
+4	 81		571		500			450000				"Karutan"	
+5	 81		572		500			450000				"Karutan"	
+6	 81		575		500			450000				"Karutan"	
+7	 81		576		500			450000				"Karutan"	
+8	 57		562		500			450000				"Raklion"	
+9	 57		563		500			450000				"Raklion"	
+10	 57		564		500			450000				"Raklion"	
+11	 57		565		500			450000				"Raklion"	
+12	 56		557		500			450000				"SwampOfPeace"	
+13	 56		558		500			450000				"SwampOfPeace"	
+14	 56		559		500			450000				"SwampOfPeace"	
+15	 112		730		500			450000				"Ferea"	
+16	 112		731		500			450000				"Ferea"	
+17	 112		732		500			450000				"Ferea"	
+end
+
+3
+//Index  MapNumber	MonsterClass	RequiereCollection	DropProbability (1/1000000)	Name
+0	 113		743		500			450000				"Nixies Lake"	
+1	 113		744		500			450000				"Nixies Lake"	
+2	 113		745		500			450000				"Nixies Lake"	
+3	 116		767		500			450000				"Deep Dungeon 1"	
+4	 116		770		500			450000				"Deep Dungeon 1"	
+5	 117		771		500			450000				"Deep Dungeon 2"	
+6	 117		772		500			450000				"Deep Dungeon 2"	
+7	 118		768		500			450000				"Deep Dungeon 3"	
+8	 118		773		500			450000				"Deep Dungeon 3"	
+end
+					
+4
+//Index  MapNumber	MonsterClass	RequiereCollection	DropProbability (1/1000000)	Name
+0	 119		769		500			450000				"Deep Dungeon 4"	
+1	 119		774		500			450000				"Deep Dungeon 4"	
+2	 120		775		500			450000				"Deep Dungeon 5"	
+3	 120		776		500			450000				"Deep Dungeon 5"	
+4	 120		777		500			450000				"Deep Dungeon 5"	
+5	 122		786		500			450000				"SwampOfDarkness"	
+6	 122		787		500			450000				"SwampOfDarkness"	
+7	 122		788		500			450000				"SwampOfDarkness"	
+8	 122		789		500			450000				"SwampOfDarkness"	
+end
+
+5
+//Index  MapNumber	MonsterClass	RequiereCollection	DropProbability (1/1000000)	Name
+0	 123		810		500			450000				"Cubera Mines"	
+1	 123		811		500			450000				"Cubera Mines"	
+2	 123		812		500			450000				"Cubera Mines"	
+3	 123		813		500			450000				"Cubera Mines"	
+4	 123		814		500			450000				"Cubera Mines"	
+5	 123		815		500			450000				"Cubera Mines"	
+6	 123		816		500			450000				"Cubera Mines"	
+end

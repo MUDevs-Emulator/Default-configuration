@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ItemToolTipLevel>
+	  <Item Section="14" Type="23" Level="0" Name="Scroll of the Emperor"/> 
+	  <Item Section="14" Type="23" Level="1" Name="Ring of Honor"/> 
+	  <Item Section="14" Type="24" Level="0" Name="Broken Sword"/>
+	  <Item Section="14" Type="24" Level="1" Name="Dark Stone"/>
+	  <Item Section="14" Type="11" Level="0" Name="Box of Luck"/>
+	  <Item Section="14" Type="11" Level="1" Name="Star of the Sacred Birth"/>
+	  <Item Section="14" Type="11" Level="2" Name="Firecracker"/>
+	  <Item Section="14" Type="11" Level="3" Name="Heart of Love"/>
+	  <Item Section="14" Type="11" Level="4" Name="Olive of Love"/>
+	  <Item Section="14" Type="11" Level="5" Name="Silver Medal"/>
+	  <Item Section="14" Type="11" Level="6" Name="Golden Medal"/>
+	  <Item Section="14" Type="11" Level="7" Name="Box of Heaven"/>
+	  <Item Section="14" Type="11" Level="8" Name="Box of Kundun +1"/>
+	  <Item Section="14" Type="11" Level="9" Name="Box of Kundun +2"/>
+	  <Item Section="14" Type="11" Level="10" Name="Box of Kundun +3"/>
+	  <Item Section="14" Type="11" Level="11" Name="Box of Kundun +4"/>
+	  <Item Section="14" Type="11" Level="12" Name="Box of Kundun +5"/>
+	  <Item Section="14" Type="11" Level="13" Name="Heart of a Dark Lord"/>
+	  <Item Section="14" Type="11" Level="14" Name="Lucky Blue Pouch"/>
+	  <Item Section="14" Type="11" Level="15" Name="Lucky Red Pouch"/>
+	  <Item Section="14" Type="10" Level="0" Name="Town Portal Scroll"/>
+	  <Item Section="14" Type="10" Level="1" Name="Lorencia Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="2" Name="Noria Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="3" Name="Devias Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="4" Name="Dungeon Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="5" Name="Atlans Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="6" Name="Lost Tower Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="7" Name="Tarkan Warp Scroll"/>
+	  <Item Section="14" Type="10" Level="8" Name="Icarus Warp Scroll"/>
+	  <Item Section="14" Type="12" Level="0" Name="Zen"/>
+	  <Item Section="14" Type="12" Level="1" Name="Heart"/>
+	  <Item Section="13" Type="15" Level="0" Name="ENG Fruit"/>
+	  <Item Section="13" Type="15" Level="1" Name="STA Fruit"/>
+	  <Item Section="13" Type="15" Level="2" Name="AGI Fruit"/>
+	  <Item Section="13" Type="15" Level="3" Name="STR Fruit"/>
+	  <Item Section="13" Type="15" Level="4" Name="CMD Fruit"/>
+	  <Item Section="13" Type="14" Level="0" Name="Loch's Feather"/>
+	  <Item Section="13" Type="14" Level="1" Name="Monarch's Crest"/>
+	  <Item Section="14" Type="21" Level="0" Name="Rena"/>
+	  <Item Section="14" Type="21" Level="1" Name="Stone"/>
+	  <Item Section="14" Type="21" Level="2" Name="Stone of Friendship"/>
+	  <Item Section="14" Type="21" Level="3" Name="Sign of Lord"/>
+	  <Item Section="13" Type="19" Level="0" Name="Absolute Staff of the Archangel"/>
+	  <Item Section="13" Type="19" Level="1" Name="Absolute Sword of the Archangel"/>
+	  <Item Section="13" Type="19" Level="2" Name="Absolute Crossbow of the Archangel"/>
+	  <Item Section="13" Type="20" Level="0" Name="Wizard's Ring"/>
+	  <Item Section="13" Type="20" Level="1" Name="Champion's Ring"/>
+	  <Item Section="13" Type="20" Level="2" Name="Warrior's Ring"/>
+	  <Item Section="13" Type="20" Level="3" Name="Ring of Glory"/>
+	  <Item Section="14" Type="7" Level="0" Name="Potion of Bless"/>
+	  <Item Section="14" Type="7" Level="1" Name="Potion of Soul"/>
+	  <Item Section="13" Type="7" Level="2" Name="Archer"/>
+	  <Item Section="13" Type="7" Level="3" Name="Spearman"/>
+	  <Item Section="13" Type="11" Level="0" Name="Guardian's Scroll"/>
+	  <Item Section="13" Type="11" Level="1" Name="Life Stone"/>
+	  <Item Section="14" Type="9" Level="0" Name="Ale"/>
+	  <Item Section="14" Type="9" Level="1" Name="Olive of Love"/>
+	  <Item Section="13" Type="31" Level="0" Name="Soul of a Dark Horse"/>
+	  <Item Section="13" Type="31" Level="1" Name="Soul of a Dark Spirit"/>
+	  <Item Section="12" Type="26" Level="0" Name="Gem of Mystery"/>
+	  <Item Section="12" Type="26" Level="1" Name="Red Crystal"/>
+	  <Item Section="12" Type="26" Level="2" Name="Blue Crystal"/>
+	  <Item Section="12" Type="26" Level="3" Name="Black Crystal"/>
+	  <Item Section="12" Type="26" Level="4" Name="Treasure Box"/>
+	  <Item Section="12" Type="26" Level="5" Name="Gift of Fate"/>
+	  <Item Section="14" Type="32" Level="0" Name="Pink Chocolate Box"/>
+	  <Item Section="14" Type="32" Level="1" Name="Lilac Candy Box"/>
+	  <Item Section="14" Type="33" Level="0" Name="Red Chocolate Box"/>
+	  <Item Section="14" Type="33" Level="1" Name="Orange Candy Box"/>
+	  <Item Section="14" Type="34" Level="0" Name="Blue Chocolate Box"/>
+	  <Item Section="14" Type="34" Level="1" Name="Navy Candy Box"/>
+	  <Item Section="14" Type="20" Level="0" Name="Love Remedy"/>
+	  <Item Section="14" Type="20" Level="1" Name="Anniversary Box +1"/>
+	  <Item Section="14" Type="20" Level="2" Name="Anniversary Box +2"/>
+	  <Item Section="14" Type="20" Level="3" Name="Anniversary Box +3"/>
+	  <Item Section="14" Type="20" Level="4" Name="Anniversary Box +4"/>
+	  <Item Section="14" Type="20" Level="5" Name="Anniversary Box +5"/>
+	  <Item Section="13" Type="70" Level="0" Name="Talisman of Mobility"/>
+	  <Item Section="13" Type="70" Level="1" Name="Talisman of Mobility +1"/>
+	  <Item Section="13" Type="70" Level="2" Name="Talisman of Mobility +2"/>
+	  <Item Section="4" Type="7" Level="0" Name="Bolt"/>
+	  <Item Section="4" Type="7" Level="1" Name="Bolt +1"/>
+	  <Item Section="4" Type="7" Level="2" Name="Bolt +2"/>
+	  <Item Section="4" Type="7" Level="3" Name="Bolt +3"/>
+	  <Item Section="4" Type="15" Level="0" Name="Arrow"/>
+	  <Item Section="4" Type="15" Level="1" Name="Arrow +1"/>
+	  <Item Section="4" Type="15" Level="2" Name="Arrow +2"/>
+	  <Item Section="4" Type="15" Level="3" Name="Arrow +3"/>
+	  <Item Section="13" Type="37" Level="0" Name="Horn of Fenrir"/>
+	  <Item Section="13" Type="37" Level="1" Name="Horn of Fenrir +Destroy"/>
+	  <Item Section="13" Type="37" Level="2" Name="Horn of Fenrir +Protect"/>
+	  <Item Section="13" Type="37" Level="3" Name="Horn of Fenrir +Illusion"/>
+	  <Item Section="13" Type="10" Level="0" Name="Budge Dragon Transformation Ring"/>
+	  <Item Section="13" Type="10" Level="1" Name="Giant Transformation Ring"/>
+	  <Item Section="13" Type="10" Level="2" Name="Skeleton Warrior Transformation Ring"/>
+	  <Item Section="13" Type="10" Level="3" Name="Poison Bull Fighter Transformation Ring"/>
+	  <Item Section="13" Type="10" Level="4" Name="Thunder Lich Transformation Ring"/>
+	  <Item Section="13" Type="10" Level="5" Name="Death Cow Transformation Ring"/>
+	  <Item Section="12" Type="11" Level="0" Name="Goblin Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="1" Name="Stone Golem Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="2" Name="Assassin Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="3" Name="Elite Yeti Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="4" Name="Dark Knight Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="5" Name="Bali Summoning Orb"/>
+	  <Item Section="12" Type="11" Level="6" Name="Soldier Summoning Orb"/>
+</ItemToolTipLevel>

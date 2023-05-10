@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CollectItemCount>
+	<Item Index="0" ISection="20" IType="126" MaxCollect="2500" DropRate="100" Name="Dark Angel Soul Crystal (Bound)"/>
+	<Item Index="1" ISection="20" IType="127" MaxCollect="2500" DropRate="100" Name="Holy Angel Soul Crystal (Bound)"/>
+	<Item Index="2" ISection="20" IType="128" MaxCollect="2500" DropRate="100" Name="Awakening Soul Crystal (Bound)"/>
+	<Item Index="3" ISection="20" IType="129" MaxCollect="2500" DropRate="100" Name="Blue Eye Soul Crystal (Bound)"/>
+	<Item Index="4" ISection="20" IType="130" MaxCollect="2500" DropRate="100" Name="Silver Heart Soul Crystal (Bound)"/>
+	<Item Index="5" ISection="20" IType="131" MaxCollect="2500" DropRate="100" Name="Manticore Soul Crystal (Bound)"/>
+	<Item Index="6" ISection="20" IType="132" MaxCollect="2500" DropRate="100" Name="Brillian Soul Crystal (Bound)"/>
+	<Item Index="7" ISection="20" IType="133" MaxCollect="2500" DropRate="100" Name="Apocalypse Soul Crystal (Bound)"/>	
+</CollectItemCount>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="368" Range="0" PositionX="77" PositionY="177" Direction="2" Element="0" /> <!-- "Elpis" -->
+		<Config Class="106" Range="30" PositionX="60" PositionY="108" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="61" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="64" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="67" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="70" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="73" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="76" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="79" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="179" PositionY="89" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="176" PositionY="86" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="173" PositionY="82" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="201" PositionY="94" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="204" PositionY="92" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="207" PositionY="91" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="210" PositionY="89" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="212" PositionY="88" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="215" PositionY="86" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="217" PositionY="84" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="81" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="78" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="73" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="70" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="67" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="218" PositionY="64" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="217" PositionY="60" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="214" PositionY="57" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="211" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="208" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="205" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="201" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="198" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="193" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="190" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="185" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="182" PositionY="54" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="178" PositionY="56" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="176" PositionY="58" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+		<Config Class="106" Range="30" PositionX="174" PositionY="59" Direction="8" Element="0" /> <!-- "Laser Trap" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

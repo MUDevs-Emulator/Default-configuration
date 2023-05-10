@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ProtocolDebug> 
+	<PlayerRecord AllowAll="1">
+		<Player Name="TestIK" />
+	</PlayerRecord>
+	<PacketExeptionList>
+		<Packet Head="3" SubHead="-1" Name="runTime" />
+		<Packet Head="215" SubHead="-1" Name="Move" />
+		<Packet Head="241" SubHead="-1" Name="Connect Exeption" />
+	</PacketExeptionList>
+</ProtocolDebug>

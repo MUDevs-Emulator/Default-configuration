@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By OMEGA
+// ============================================================
+//
+//~~ 
+-->
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<Config Class="644" Range="30" PositionX="26" PositionY="105" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="098" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="28" PositionY="090" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="27" PositionY="086" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="28" PositionY="082" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="079" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="34" PositionY="078" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="33" PositionY="081" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="39" PositionY="078" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="077" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="38" PositionY="080" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="43" PositionY="077" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="38" PositionY="086" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="43" PositionY="084" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="41" PositionY="082" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="27" PositionY="094" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="32" PositionY="091" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="084" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="42" PositionY="090" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="44" PositionY="087" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="30" PositionY="078" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="38" PositionY="092" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="40" PositionY="098" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="101" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="33" PositionY="103" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="38" PositionY="089" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="42" PositionY="105" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="42" PositionY="099" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="35" PositionY="105" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="093" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="28" PositionY="097" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="084" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="28" PositionY="079" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="25" PositionY="082" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="076" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="33" PositionY="076" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="35" PositionY="079" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="31" PositionY="080" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="41" PositionY="079" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="38" PositionY="076" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="36" PositionY="081" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="39" PositionY="082" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="41" PositionY="086" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="42" PositionY="094" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="35" PositionY="092" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="34" PositionY="090" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="38" PositionY="101" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="30" PositionY="105" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="102" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="28" PositionY="100" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="38" PositionY="106" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="35" PositionY="102" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="42" PositionY="102" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="43" PositionY="096" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="30" PositionY="088" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="25" PositionY="091" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="091" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="30" PositionY="098" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="41" PositionY="093" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="41" PositionY="089" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="43" PositionY="091" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="39" PositionY="095" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="32" PositionY="101" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="29" PositionY="103" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="33" PositionY="105" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="25" PositionY="097" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="24" PositionY="094" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="27" PositionY="088" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="32" PositionY="094" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="32" PositionY="089" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="36" PositionY="092" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="37" PositionY="089" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="40" PositionY="091" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="38" PositionY="099" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="40" PositionY="101" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="43" PositionY="081" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="36" PositionY="076" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="42" PositionY="075" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="26" PositionY="075" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="24" PositionY="080" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="30" PositionY="082" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="24" PositionY="089" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="24" PositionY="086" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="24" PositionY="101" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="37" PositionY="104" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="41" PositionY="096" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="39" PositionY="087" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="41" PositionY="076" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="38" PositionY="084" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="38" PositionY="096" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="30" PositionY="095" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="32" PositionY="078" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="29" PositionY="086" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="27" PositionY="104" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="40" PositionY="104" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="44" PositionY="102" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="43" PositionY="098" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="644" Range="30" PositionX="39" PositionY="093" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+		<Config Class="645" Range="30" PositionX="41" PositionY="084" Direction="6" Element="0" /> <!-- Chaos Castle 8 -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

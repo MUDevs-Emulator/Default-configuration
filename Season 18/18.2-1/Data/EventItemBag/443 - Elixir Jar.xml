@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================//
+// == 						 MuDevs						     ==//
+// == 					 www.mudevs.com					     ==//
+// == 				  (C) 2023 MuDevs (R)				     ==//
+// ============================================================//
+// == 				      Editor:OMEGA  				     ==//
+// ============================================================//
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7246" Level="0" Grade="0" Durability="0" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elixir of Strength" />
+		<ItemEx Section="6" Index="7247" Level="0" Grade="0" Durability="0" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elixir of Agility" />
+		<ItemEx Section="6" Index="7248" Level="0" Grade="0" Durability="0" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elixir of Health"  />
+		<ItemEx Section="6" Index="7249" Level="0" Grade="0" Durability="0" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elixir of Energy"  />
+		<ItemEx Section="6" Index="7250" Level="0" Grade="0" Durability="0" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Elixir of Control" />
+		
+		
+	</BagItemsEx>
+</ItemBag>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="8" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="9" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="10" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="11" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="12" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="13" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="14" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0"/>
+		<DropInfo Index="0" Section="15" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1"/>
+		<DropInfo Index="0" Section="16" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="7" SectionRate="20000" MoneyAmount="0" OptionValue="0" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="11" Index="7050" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Boots of Sealed Destruction"/>
+		<ItemEx Section="16" Index="7028" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Boots of Sealed Extremity"/>
+		<ItemEx Section="16" Index="7032" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Boots of Sealed Captivation"/>
+		<ItemEx Section="7" Index="7010" Level="0" Grade="0" Durability="0" Option0="0" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Boots of Sealed Fury"/>
+	</BagItemsEx>
+</ItemBag>

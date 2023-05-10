@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By OMEGA
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfig Name="Christmas Star" DropZen="0" ItemDropRate="10000" ItemDropCount="0" SetItemDropRate="0" ItemDropType="0" Fireworks="1"/>
+	<BagItems>
+		
+	</BagItems>
+</ItemBag>
