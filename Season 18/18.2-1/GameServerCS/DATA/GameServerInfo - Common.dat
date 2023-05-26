@@ -144,8 +144,8 @@ TradeSwitch = 1
 ; Personal Shop Settings
 ;==================================================
 PersonalShopSwitch = 1
-PersonalShopMoneyCommisionRate = 0
-PersonalShopJewelCommisionRate = 0
+PersonalShopMoneyCommisionRate = 1
+PersonalShopJewelCommisionRate = 3
 
 ;==================================================
 ; Duel Settings
