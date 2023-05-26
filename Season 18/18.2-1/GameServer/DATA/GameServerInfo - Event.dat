@@ -8,7 +8,7 @@ ArcaBattleGuildMinUser = 1
 ;==================================================
 ; Blood Castle Event Settings
 ;==================================================
-BloodCastleEvent = 1
+BloodCastleEvent = 0
 BloodCastleMaxUser = 10
 BloodCastleNeedCloakToOpenInterface = 1
 
@@ -27,15 +27,15 @@ CastleDeepEventTime = 30
 ; Castle Siege Event Settings
 ;==================================================
 CastleSiegeEvent = 0
-CastleSiegeCycleStartYear =0
-CastleSiegeCycleStartMonth =0
-CastleSiegeCycleStartDay =0
-CastleSiegeSpecificState =0
-CastleSiegeStateStartYear =0
-CastleSiegeStateStartMonth =0
-CastleSiegeStateStartDay =0
-CastleSiegeStateStartHour =0
-CastleSiegeStateStartMinute =0
+CastleSiegeCycleStartYear = 0
+CastleSiegeCycleStartMonth = 0
+CastleSiegeCycleStartDay = 0
+CastleSiegeSpecificState = 0
+CastleSiegeStateStartYear = 0
+CastleSiegeStateStartMonth = 0
+CastleSiegeStateStartDay = 0
+CastleSiegeStateStartHour = 0
+CastleSiegeStateStartMinute = 0
 CastleSiegeOffensiveWeaponDamage = 300
 CastleSiegeDefensiveWeaponDamage = 200
 CastleSiegeLowerAccumulatedTimeValue = 0
@@ -115,6 +115,17 @@ MossMerchantEventTime = 120
 RaklionEvent = 1
 
 ;==================================================
+; Tormented Square Event Settings
+;==================================================
+TormentedSquareSwitch = 0
+
+;==================================================
+; Tormented Square Battle Event Settings
+;==================================================
+TormentedSquareBattleSwitch = 0
+TormentedSquareBattleMinUser = 0
+
+;==================================================
 ; Evolution Monster Event Settings
 ;==================================================
 EvolutionMonsterEventOnOff = 1
@@ -122,22 +133,31 @@ EvolutionMonsterEventType = 2
 EvoMonEventItemDropRate = 30
 
 ;==================================================
+; Labyrinth Event Settings
+;==================================================
+LabyrinthSwitch = 0
+
+;==================================================
+; Labyrinth League Event Settings
+;==================================================
+LabyrinthLeagueSwitch = 0
+
+;==================================================
 ; Banner Event Settings
 ;==================================================
 MapleLeafSwitch = 1
 20THAnniversarySwitch = 1
-MonsterEggSwitch = 0
+MonsterEggSwitch = 1
 LunarNewYearSwitch = 0
 MerryChristmasSwitch = 0
 NewYearSwitch = 0
-CherryBlossomSwitch = 0
-ChickenSwitch = 0
+CherryBlossomSwitch = 1
+ChickenSwitch = 1
 
 ;==================================================
 ; Blessing Box Event Settings
 ;==================================================
-BlessingBoxSwitch = 0
-
+BlessingBoxSwitch = 1
 
 ;==================================================
 ; Play Event Time Event Settings
@@ -147,7 +167,7 @@ PlayTimeEventMaxRound = 10
 PlayTimeEventMinLevel = 220
 PlayTimeEventPlayRoundHour = 20
 PlayTimeEventPlayMulHour = 1
-PlayTimeEventRewardType = 0
+PlayTimeEventRewardType = 1
 
 ;==================================================
 ; Boss Battle Event Settings
@@ -155,4 +175,3 @@ PlayTimeEventRewardType = 0
 BossBattleEventSwitch = 1
 BossBattleEventMinLevel = 800
 BossBattleMaxUser = 6
-

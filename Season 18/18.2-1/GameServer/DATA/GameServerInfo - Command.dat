@@ -1,11 +1,12 @@
 [GameServerInfo]
 ;==================================================
 ; Post Command Settings
+; /post <text>
 ;==================================================
 CommandPostSwitch = 1
-CommandPostType = 0
-CommandPostShowSVCode=0
-CommandPostShowSVName=1
+CommandPostType = 4
+CommandPostShowSVCode = 0
+CommandPostShowSVName = 1
 CommandPostEnable_AL0 = 1
 CommandPostEnable_AL1 = 1
 CommandPostEnable_AL2 = 1
@@ -22,16 +23,17 @@ CommandPostMoney_AL0 = 0
 CommandPostMoney_AL1 = 0
 CommandPostMoney_AL2 = 0
 CommandPostMoney_AL3 = 0
-CommandPostDelay_AL0 = 0
-CommandPostDelay_AL1 = 0
-CommandPostDelay_AL2 = 0
-CommandPostDelay_AL3 = 0
+CommandPostDelay_AL0 = 5
+CommandPostDelay_AL1 = 5
+CommandPostDelay_AL2 = 5
+CommandPostDelay_AL3 = 5
 
 ;==================================================
 ; Post Buy Command Settings
+; /Buy <text>
 ;==================================================
 CommandPostBuySwitch = 1
-CommandPostBuyType = 0
+CommandPostBuyType = 4
 CommandPostBuyEnable_AL0 = 1
 CommandPostBuyEnable_AL1 = 1
 CommandPostBuyEnable_AL2 = 1
@@ -55,9 +57,10 @@ CommandPostBuyDelay_AL3 = 30
 
 ;==================================================
 ; Post Sell Command Settings
+; /Sell <text>
 ;==================================================
 CommandPostSellSwitch = 1
-CommandPostSellType = 0
+CommandPostSellType = 4
 CommandPostSellEnable_AL0 = 1
 CommandPostSellEnable_AL1 = 1
 CommandPostSellEnable_AL2 = 1
@@ -81,6 +84,7 @@ CommandPostSellDelay_AL3 = 30
 
 ;==================================================
 ; Add Point Command Settings
+; /addstr /addagi /addcom /addvit /addene <points> <auto>
 ;==================================================
 CommandAddPointSwitch = 1
 CommandAddPointEnable_AL0 = 1
@@ -98,6 +102,7 @@ CommandAddPointMoney_AL3 = 0
 
 ;==================================================
 ; PK Clear Command Settings
+; /pkclear
 ;==================================================
 CommandPKClearSwitch = 1
 CommandPKClearEnable_AL0 = 1
@@ -111,6 +116,7 @@ CommandPKClearMoney_AL3 = 0
 
 ;==================================================
 ; Money Command Settings
+; /money <number>
 ;==================================================
 CommandMoneySwitch = 1
 CommandMoneyEnable_AL0 = 1
@@ -119,7 +125,8 @@ CommandMoneyEnable_AL2 = 1
 CommandMoneyEnable_AL3 = 1
 
 ;==================================================
-; Change Command Settings
+; Change Evolution Class Command Settings
+; /change
 ;==================================================
 CommandChangeSwitch = 1
 CommandChangeEnable_AL0 = 1
@@ -149,7 +156,8 @@ CommandWareNumber_AL2 = 1
 CommandWareNumber_AL3 = 1
 
 ;==================================================
-; Reset Command Settings
+; Reset (Normal Level) Command Settings
+; /reset
 ;==================================================
 CommandResetSwitch = 1
 CommandResetType = 0
@@ -210,10 +218,10 @@ CommandResetStartLevel_AL1 = 1
 CommandResetStartLevel_AL2 = 1
 CommandResetStartLevel_AL3 = 1
 
-CommandResetRequiredMap_AL0=-1
-CommandResetRequiredMap_AL1=-1
-CommandResetRequiredMap_AL2=-1
-CommandResetRequiredMap_AL3=-1
+CommandResetRequiredMap_AL0 = -1
+CommandResetRequiredMap_AL1 = -1
+CommandResetRequiredMap_AL2 = -1
+CommandResetRequiredMap_AL3 = -1
 
 CommandResetPoint_AL0 = 0
 CommandResetPoint_AL1 = 0
@@ -235,9 +243,10 @@ CommandResetPointRateLM = 100
 CommandResetPointRateIK = 100
 
 ;==================================================
-; Master Reset Command Settings
+; Master Reset (Master Level - 400+) Command Settings
+; /mreset
 ;==================================================
-CommandMasterResetSwitch = 0
+CommandMasterResetSwitch = 1
 CommandMasterResetType = 0
 CommandMasterResetEnable_AL0 = 1
 CommandMasterResetEnable_AL1 = 1
@@ -319,7 +328,8 @@ CommandMasterResetPointRateLM = 100
 CommandMasterResetPointRateIK = 100
 
 ;==================================================
-; Enhance Reset Command Settings
+; Enhance Reset (Enhanced Level - 800+) Command Settings
+; /ereset
 ;==================================================
 CommandEnhanceResetSwitch = 1
 CommandEnhanceResetType = 0
@@ -404,6 +414,7 @@ CommandEnhanceResetPointRateIK = 100
 
 ;==================================================
 ; Inventory Clear Command Settings
+; /clearinv
 ;==================================================
 CommandClearInventSwitch = 1
 CommandClearInventEnable_AL0 = 1
@@ -417,6 +428,7 @@ CommandClearInventMoney_AL3 = 0
 
 ;==================================================
 ; Ext Inventory Clear Command Settings
+; /clearextinv
 ;==================================================
 CommandClearExtInventSwitch = 1
 CommandClearExtInventEnable_AL0 = 1
@@ -430,6 +442,7 @@ CommandClearExtInventMoney_AL3 = 0
 
 ;==================================================
 ; Clear Muun Inventory Settings
+; /clearinvmuun
 ;==================================================
 CommandClearMuunInventSwitch = 1
 CommandClearMuunInventEnable_AL0 = 1
@@ -443,6 +456,7 @@ CommandClearMuunInventMoney_AL3 = 0
 
 ;==================================================
 ; Clear Event Inventory Settings
+; /cleareventinv
 ;==================================================
 CommandClearEventInventSwitch = 1
 CommandClearEventInventEnable_AL0 = 1
@@ -456,6 +470,7 @@ CommandClearEventInventMoney_AL3 = 0
 
 ;==================================================
 ; Debuff Command Settings
+; /debuff
 ;==================================================
 CommandDebuffSwitch = 1
 CommandDebuffEnable_AL0 = 1
@@ -469,18 +484,21 @@ CommandDebuffMoneyMoney_AL3 = 0
 
 ;==================================================
 ; GM Move Command Settings
+; /gmmove <player> <map> <x> <y>
 ;==================================================
 CommandGMMoveSwitch = 1
 CommandGMMoveGameMasterLevel = 0
 
 ;==================================================
 ; GM Post Command Settings
+; /gpost <text>
 ;==================================================
 CommandGMPostSwitch = 1
 CommandGMPostGameMasterLevel = 0
 
 ;==================================================
 ; GM Global Post Command Settings
+; /gmpost <text>
 ;==================================================
 CommandGMGlobalPostSwitch = 1
 CommandGMGlobalPostType = 1
@@ -488,139 +506,164 @@ CommandGMGlobalPostGMMinLevel = 1
 
 ;==================================================
 ; Track Command Settings
+; /track <player>
 ;==================================================
 CommandTrackSwitch = 1
 CommandTrackGameMasterLevel = 0
 
 ;==================================================
 ; Trace Command Settings
+; /trace <player>
 ;==================================================
 CommandTraceSwitch = 1
 CommandTraceGameMasterLevel = 0
 
 ;==================================================
 ; Disconnect Command Settings
+; /disconnect <player>
 ;==================================================
 CommandDisconnectSwitch = 1
 CommandDisconnectGameMasterLevel = 0
 
 ;==================================================
 ; Fireworks Command Settings
+; /fireworks
 ;==================================================
 CommandFireworksSwitch = 1
 CommandFireworksGameMasterLevel = 0
 
 ;==================================================
 ; Make Command Settings
+; /make <group> <id> <lvl> <dur> <skill> <luck> <opt> <exe> <set> <harmony> <extl> <socketcount> <socketbonus> <exp> <count>
 ;==================================================
 CommandMakeSwitch = 1
 CommandMakeGameMasterLevel = 0
 
 ;==================================================
 ; Skin Command Settings
+; /skin <player> <monsternumber>
 ;==================================================
 CommandSkinSwitch = 1
 CommandSkinGameMasterLevel = 0
 
 ;==================================================
 ; Set Money Command Settings
+; /setmoney <player> <number>
 ;==================================================
 CommandSetMoneySwitch = 1
 CommandSetMoneyGameMasterLevel = 0
 
 ;==================================================
 ; Notice Command Settings
+; /notice <text>
 ;==================================================
 CommandNoticeSwitch = 1
 CommandNoticeGameMasterLevel = 0
 
 ;==================================================
 ; Hide Command Settings
+; /hide
 ;==================================================
 CommandHideSwitch = 1
 CommandHideGameMasterLevel = 0
 
 ;==================================================
 ; Set Pk Command Settings
+; /setpk
 ;==================================================
 CommandPkSetSwitch = 1
 CommandPkSetGameMasterLevel = 32
 
 ;==================================================
 ; Set Level Command Settings
+; /setlvl <player> <normallvl>
 ;==================================================
 CommandSetLvlSwitch = 1
 CommandSetLvlGameMasterLevel = 32
 
 ;==================================================
 ; Set Master Level Command Settings
+; /msetlvl <player> <masterlvl>
 ;==================================================
 CommandMasterSetLvlSwitch = 1
 CommandMasterSetLvlGameMasterLevel = 32
 
 ;==================================================
 ; Add Stats Command Settings
+; /statstr /statagi /statcmd /statvit /statene <player> <points>
 ;==================================================
 CommandAddStatSwitch = 1
 CommandAddStatGameMasterLevel = 32
 
 ;==================================================
 ; Ban User Settings
+; /banuser
 ;==================================================
 CommandBanUserSwitch = 1
 CommandBanUserGameMasterLevel = 32
 
 ;==================================================
 ; Add Effect Settings
+; /addeffect <player> <effecnumber>
 ;==================================================
 CommandAddEffectSwitch = 1
 CommandAddEffectGameMasterLevel = 32
 
 ;==================================================
 ; God Mode Settings
+; /godmode
 ;==================================================
 CommandGodModeSwitch = 1
 CommandGodModeGameMasterLevel = 32
 
 ;==================================================
 ; Change CS State Settings
+; /csstate <1-7>
 ;==================================================
 CommandChangeCSStateSwitch = 1
 CommandChangeCSStateGameMasterLevel = 32
 
 ;==================================================
 ; Ban Mac
+; /banmac
 ;==================================================
 CommandBanMacSwitch = 1
 CommandBanMacGameMasterLevel = 32
 
 ;==================================================
 ; Gremory Case GM Gif Settings
+; /gremgif <player> <slot> <ItemGroup> <ItemID>
+; Slot 1 = Account
+; Slot 2 = Character
 ;==================================================
 CommandGremoryCaseGMGifSwitch = 1
 CommandGremoryCaseGMGifGameMasterLevel = 32
 
 ;==================================================
-; Sey Ruud Settings
+; Set Ruud Settings
+; /setruud <player> <number>
 ;==================================================
 CommandSetRuudSwitch = 1
 CommandSetRuudGameMasterLevel = 32
 
 ;==================================================
 ; Readd Command Settings
+; /readd
 ;==================================================
-CommandReaddEnable_AL0=1
-CommandReaddEnable_AL1=1
-CommandReaddEnable_AL2=1
-CommandReaddEnable_AL3=1
+CommandReaddEnable_AL0 = 1
+CommandReaddEnable_AL1 = 1
+CommandReaddEnable_AL2 = 1
+CommandReaddEnable_AL3 = 1
 
 ;==================================================
-; Sey Spot Settings
+; Set Spot Settings
+; /spot <Map> <Class> <Range> <BeginPosX> <BeginPosY> <EndPosX> <EndPosY> <Direction> <Quantity> <Element>
 ;==================================================
 CommandSetSpotSwitch = 1
 CommandSetSpotGameMasterLevel = 32
 ;==================================================
 ; Start Event Settings
+; /startevent <EventID> <WaitTime>
 ;==================================================
 CommandStartEventSwitch = 1
 CommandStartEventGameMasterLevel = 32

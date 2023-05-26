@@ -13,6 +13,7 @@
 //		4: Expired Items
 //		5: Artifacts
 //	AcquisitionCount: Number of items as a result of decomposition
+//	ItemBagMode: Change item index for itembag index
 //	RateNormal: n/10000
 //	RateRare:  n/10000
 //	RateEpic:  n/10000
@@ -30,9 +31,9 @@
 -->
 
 <ItemDecomposition>
-	<Info ItemKind="1" AcquisitionCount="1" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Set Item -->
-	<Info ItemKind="2" AcquisitionCount="1" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Errtel Item -->
-	<Info ItemKind="3" AcquisitionCount="1" rIndexNormal="7458" RateNormal="6000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Guardian Mount -->
-	<Info ItemKind="4" AcquisitionCount="1" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Normal expired items -->
-	<Info ItemKind="5" AcquisitionCount="1" rIndexNormal="10334" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Artifacts -->
+	<Info ItemKind="1" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Set Item -->
+	<Info ItemKind="2" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Errtel Item -->
+	<Info ItemKind="3" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="6000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Guardian Mount -->
+	<Info ItemKind="4" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Normal expired items -->
+	<Info ItemKind="5" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="10334" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Artifacts -->
 </ItemDecomposition>

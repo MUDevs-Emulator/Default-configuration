@@ -87,15 +87,17 @@
 86        49      *           "Frozen Stab"                        0      0      1      *       *        *        *        * 
 87        13      6718        "Seal of Life"                       1      2      0      1800    50       5        *        * 
 88        13      6719        "Seal of Mana"                       1      2      0      1800    50       5        *        * 
-89        73      7265        "Scroll of Battle"                   1      2      0      1800    20       *        *        * 
-90        74      7266        "Scroll of Strength"                 1      2      0      1800    20       *        *        * 
-91        23      *           "Christmas 1"                        1      1      0      1800    *        *        *        * 
-92        23      *           "Christmas 2"                        1      1      0      1800    500      *        *        * 
-93        23      *           "Christmas 3"                        1      1      0      1800    500      *        *        * 
-94        23      *           "Christmas 4"                        1      1      0      1800    30       *        *        * 
-95        23      *           "Christmas 5"                        1      1      0      1800    100      *        *        * 
-96        23      *           "Christmas 6"                        1      1      0      1800    15       *        *        * 
-97        23      *           "Christmas 7"                        1      1      0      1800    5        *        *        * 
+89        55      7265        "Scroll of Battle"                   1      2      0      1800    20       *        *        * 
+90        56      7266        "Scroll of Strength"                 1      2      0      1800    20       *        *        * 
+// Killing Cursed Santa Invasion gains this Buff 
+91        23      *           "Blessing of Christmas"              1      1      0      1800    *        *        *        *	
+//Buffs Santa Village Doendes							 
+92        23      *           "Santa Healing"                      1      1      0      1800    500      *        *        * 
+93        23      *           "Santa Protection"                   1      1      0      1800    500      *        *        * 
+94        23      *           "Santa Strengthener"                 1      1      0      1800    30       *        *        * 
+95        23      *           "Santa Defense"                      1      1      0      1800    100      *        *        * 
+96        23      *           "Santa Quickness"                    1      1      0      1800    15       *        *        * 
+97        23      *           "Santa Fortune"                      1      1      0      1800    5        *        *        * 
 98        50      *           "Duel Arena Watch"                   0      0      0      *       *        *        *        * 
 99        52      6737        "Talisman of Guardian"               1      2      0      1800    *        *        *        * 
 100       53      6738        "Talisman of Protection"             1      2      0      1800    *        *        *        * 
@@ -168,7 +170,6 @@
 176       100     *           "Pentagram Debuff Earth"             1      0      1      *       *        *        *        *
 177       101     *           "Pentagram Debuff Wind"              1      0      1      *       *        *        *        *
 178       102     *           "Pentagram Debuff Dark"              1      0      1      *       *        *        *        *
-//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
 179       103     *           "Arca Battle Reward 1"               1      1      0      *       25       5        *        *
 180       104     *           "Arca Battle Reward 2"               1      1      0      *       50       5        *        *
 181       105     *           "Arca Battle Reward 3"               1      1      0      *       5        5        *        *
@@ -183,15 +184,15 @@
 192       115     6835        "Talisman of Ascension 3"            0      1      0      *       200      *        *        *
 193       60      6836        "Seal of Ascension"                  1      2      0      1800    100      *        *        *
 194       60      6837        "Master Seal of Ascension"           1      2      0      1800    100      *        *        *
-195       116     7392        "Blessing of Light"                  0      1      0      1800    200      *        *        *
+195       116     7392        "Bless of Light Greater"             0      1      0      1800    200      *        *        *
 196       68      7393        "Master Scroll of Defense"           1      2      0      1800    120      *        *        *
 197       70      7394        "Master Scroll of Magic Damage"      1      2      0      1800    60       *        *        *
 198       71      7395        "Master Scroll of Life"              1      2      0      1800    400      *        *        *
 199       72      7396        "Master Scroll of Mana"              1      2      0      1800    600      *        *        *
 200       69      7397        "Master Scroll of Damage"            1      2      0      1800    60       *        *        *
 201       75      7398        "Master Scroll of Healing"           1      2      0      1800    4        200      *        *
-202       74      7399        "Master Scroll of Battle"            1      2      0      1800    25       *        *        *
-203       74      7400        "Master Scroll of Strength"          1      2      0      1800    25       *        *        *
+202       55      7399        "Master Scroll of Battle"            1      2      0      1800    25       *        *        *
+203       56      7400        "Master Scroll of Strength"          1      2      0      1800    25       *        *        *
 204       67      7403        "Master Scroll of Quick"             1      2      0      1800    20       *        *        *
 205       117     6658        "Horn of Uniria"                     0      1      0      *       *        *        *        *
 206       117     6659        "Horn of Dinorant"                   0      1      0      *       *        *        *        *
@@ -200,8 +201,8 @@
 209       118     *           "Paralyze"                           0      0      1      *       *        *        *        *
 210       118     *           "Paralyze Improved"                  0      0      1      *       *        *        *        *
 //211	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Access to Kalima/Accum. Gob. Pts."	0
-212       116     7431        "Blessing of Light"                  0      1      0      1800    50       *        *        *
-213       116     7432        "Blessing of Light"                  0      1      0      1800    100      *        *        *
+212       116     7431        "Bless of Light Low"                 0      1      0      1800    50       *        *        *
+213       116     7432        "Bless of Light Middle"              0      1      0      1800    100      *        *        *
 214       120     *           "Evasion"                            1      0      0      *       *        *        *        *
 //215	119	255	255	"Internet Cafe"	0	0	1	"Extra XP/Chaos Castle in PC Cafe/Acesss to Kalima/Accum. Gob. Pts./Stam. Sys. Disabled"	0
 216       121     *           "Circle Shield"                      1      0      0      *       *        *        *        *
@@ -237,9 +238,9 @@
 250       244     *           "Lunedil Blessing 3"                 1      1      0      1800    15       *        *        *
 251       244     *           "Lunedil Blessing 4"                 1      1      0      1800    25       *        *        *
 252       244     *           "Lunedil Blessing 5"                 1      1      0      1800    35       *        *        *
-253       116     7539        "Bless of Light"                     0      1      0      1800    200      *        *        *
-254       116     7540        "Bless of Light"                     0      1      0      1800    100      *        *        *
-255       116     7541        "Bless of Light"                     0      1      0      1800    50       *        *        *
+253       116     7539        "Bound Bless of Light Greater"       0      1      0      1800    200      *        *        *
+254       116     7540        "Bound Bless of Light Middle"        0      1      0      1800    100      *        *        *
+255       116     7541        "Bound Bless of Light Lower"         0      1      0      1800    50       *        *        *
 256       246     7600        "Medicine of Life"                   0      0      0      1800    700      *        *        *
 257       246     7601        "Medicine of Mana"                   0      0      0      1800    700      *        *        *
 258       246     7602        "Medicine of Speed"                  0      0      0      1800    10       *        *        *
@@ -289,7 +290,7 @@
 304       43      *           "Lesser Damage Enhanced"             1      0      1      *       *        *        *        * 
 305       44      *           "Lesser Defense Enhanced"            1      0      1      *       *        *        *        * 
 306       289     *           "Death Scythe"                       0      0      0      *       *        *        *        * 
-307       290     6615        "Horn of Ghost Horse"                0      1      0      *       *        *        *        *
+307       290     6615        "Guardian Phantasmal Steed"          0      1      0      *       *        *        *        *
 //308	291	255	255	"Increases Move Speed"	0	0	1	"Exclusive Guardian Mount Skill"	0
 309       292     *           "Elite Monster - Bleeding"           0      0      0      *       *        *        *        *
 310       293     *           "Elite Monster - Poisoning"          0      0      0      *       *        *        *        *
@@ -320,8 +321,6 @@
 334       302     *           "Firm Belief Skill Strengthener"     0      0      0      *       *        *        *        *
 335       303     *           "Strong Blessing Skill Strengthener" 0      0      0      *       *        *        *        *
 336       302     *           "Firm Belief Strengthener"           0      0      0      *       *        *        *        *
-//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
-//revisar el tipo de effect de todos los buff de S15+
 339       310      *          "Bond - Inactive"         	   	   0      0      0      *       *        *        *        *
 340       310      *          "Bond"         	   		   		   0      0      0      *       30       *        *        *
 341       310      *          "Bond - party member"         	   0      0      0      *       15       *        *        *
@@ -393,24 +392,12 @@
 408       323     *           "Illusion Blade Mastery"	   	   	   0      0      0      *       *        *        *        *
 409       324     *           "Illusion Avatar"	   	   	   		   0      0      0      *       *        *        *        *
 410       325     *           "Damage increase"	   	   	   		   0      0      0      *       *        *        *        *
-
-
-
-//Index   Group   ItemIndex   Name                                 				Save   Type   Flag   Count   Value1   Value2   Value3   Value4
-411       326     *           "Season Pass - Increase Max HP"	   	   	   		1      1      0      *       *        *        *        *
-412       327     *           "Season Pass - Increased base experience"	   	   	1      1      0      *       *        *        *        *
-413       328     *           "Season Pass - Tempest Muun multiplier increase"	1      1      0      *       *        *        *        *
-414       329     *           "Season Pass - [G] Master Lee Horn's Decision"	1      1      0      *       *        *        *        *
-415       330     *           "Season Pass - [P] Master Lee Horn's Crystal"	   	1      1      0      *       *        *        *        *
-420       333     7534        "Piece of Pizza"	   	   	   		   				0      1      0      *       50       10        *        *
-
-//40        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
-
-//411	326	255	255	"Season Pass - Increase Max HP"	0	0	1	"Increases max HP by %d."	2	
-//412	327	255	255	"Season Pass - Increased base experience"	0	0	1	"Increases base experience by %0.1f%%."	2	
-//413	328	255	255	"Season Pass - Tempest Muun multiplier increase"	0	0	1	"The Tempest Muun multiplier effect is applied by an additional %d."	2	
-//414	329	255	255	"Season Pass - [G] Master Lee Horn's Decision"	0	0	1	"When killing a monster, you can obtain the 'Mastery Spirit Crystal' item with a %0.3f%% chance."	2	
-//415	330	255	255	"Season Pass - [P] Master Lee Horn's Crystal"	0	0	1	"When killing a monster, you can obtain the 'Mastery Spirit Crystal' item with a %0.3f%% chance."	2	
-//420	333	14	366	"Piece of Pizza"	0	0	1	"Gains an additional 50% of base EXP/Increases attack speed by 10."	0
-
+//S18.2-1
+//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
+411       326     *           "S.Pass Inc Max HP"	   	   		   1      1      0      *       *        *        *        *
+412       327     *           "S.Pass Inc Base Exp"      		   1      1      0      *       *        *        *        *
+413       328     *           "S.Pass TempestMuun Multip. Inc"	   1      1      0      *       *        *        *        *
+414       329     *           "S.Pass[G] Master Soul Crystal" 	   1      1      0      *       *        *        *        *
+415       330     *           "S.Pass[P] Master Soul Crystal"  	   1      1      0      *       *        *        *        *
+420       333     7534        "Mr.Pizza"	   	   	   		   	   0      1      0      1800    50       10       *        *
 end

@@ -1,21 +1,59 @@
+//=============================================================================================================================================================================//
+// BonusManager.txt (Happy Hour Event)
+// By OMEGA / Oliveira
+//=============================================================================================================================================================================//
+// #Index: Index: Bonus identification number. (In this field we must place the same index number that we have placed in the previous sections.)
+// #BonusIndex: Defines the type of bonus:
+// 0= Increases server experience in additional of percentage.
+// 1= Increases the master server experience in additional percent
+// 2= Increases server item drop in additional percent
+// 3= Increases the possibility to increase the drop of items from the "ItemDrop.txt" file (x/1000000)
+// 4= Increase possibility to increase drop excelent (x/1000000)
+// 5= Increases the possibility to increase the drop ancient (x/1000000)
+// 6= Increases the amount of GoblinPoints
+// 7= Increases the amount of Resets.
+// 8= Increases the amount of MasterResets
+// #BonusValue_AL0: Value that affects the selected BonuxIndex. Only affects FREE accounts
+// #BonusValue_AL1: Value that affects the selected BonuxIndex. Only affects VIP 1 accounts
+// #BonusValue_AL2: Value that affects the selected BonuxIndex. Only affects VIP 2 accounts
+// #BonusValue_AL3: Value that affects the selected BonuxIndex. Only affects VIP 3 accounts
+// #ItemIndex: ItemIndex number to which the event will be applied. If we want it to apply to any item, we set the value *
+// to calculate the ItemIndex : ((512 * Group) + index)) = ItemIndex
+// #ItemLevel: Level of the item to which the event will be applied.
+// #MapNumber: Map number where the event will take place. If we want the event to take place in any map, we put the value *.
+// If you don't remember the number of each map you can see in MapManager.txt.
+// I added this so they don't ask about it MonsterClass: Number of monster to which the event will be applied.
+// If you don't remember the number of each monster you can see MOnster.xml.
+// #MonsterLevelMin: Minimum level that the monster must have for the event to be applied.
+// To see the level of the monster, you should do it on the monster.txt file.
+// #MonsterLevelMax: Maximum level that the monster must have for the event to be applied.
+// #MonsterLevelMax: Maximum level that the monster must have for the event to be applied.
+//
+// #Add the two lines below in: MuServer\Data\Lang\English.xml
+// <Msg ID="990" Text="[Happy Hour] Event begun!" />
+// <Msg ID="991" Text="[Happy Hour] Event finished!" /> 
+//=============================================================================================================================================================================//
+// Index: Repeat the same value that we have placed in the index field of section 0.
+// Year(0~99)   Month(1~12)   Day(1~31)   DoW(1~7)   Hour(0~23)   Minute(0~59)   Second(0~59)
 0
-//Index   Year   Month   Day   DoW   Hour   Minute   Second
-0         *      1       *     *     0      0        0
-1         *      10      *     *     0      0        0
-2         *      12      *     *     0      0        0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second	
+0         *      *       *     *     21      0        0		//every day at 21:00
 end
 
+//=============================================================================================================================================================================//
+//#Index: Repeat the same value that we have placed in the index field of section 0.
+//#StartMessage: Number that will identify the message for the start of the event, in this example it will be 990 (English.xml).
+//#FinalMessage: Number that will identify the message for the end of the event, in this example it will be 991 (English.xml).
+//#BonusTime: Duration time of the event measured in seconds.
 1
 //Index   StartMessage   FinalMessage   BonusTime
-0         *              *              86400
-1         *              *              86400
-2         *              *              86400
+0         990              991            3600
 end
 
+//=============================================================================================================================================================================//
 2
 //Index   BonusIndex   BonusValue_AL0   BonusValue_AL1   BonusValue_AL2   BonusValue_AL3   ItemIndex   ItemLevel   MapNumber   MonsterClass   MonsterLevelMin   MonsterLevelMax
-0         3            1000             1000             1000             1000             7179        3           *           *              12                69   
-1         3            5000             5000             5000             5000             7213        *           *           *              25                150   
-2         3            3000             3000             3000             3000             6722        *           *           466            *                 *
-2         3            3000             3000             3000             3000             7179        1           *           *              12                69   
+0           0            10               10               10               10               *           *           *           *              *                 *
+0           1            10               10               10               10               *           *           *           *              *                 *
+0           4            10               15               20               30               *           *           *           *              *                 *
 end

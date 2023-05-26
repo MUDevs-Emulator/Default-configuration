@@ -2,7 +2,7 @@
 ;==================================================
 ; Announce Chaos Mix Settings
 ;==================================================
-AnnounceChaosMix = 0
+AnnounceChaosMix = 1
 
 ;==================================================
 ; Custom Arena Settings
@@ -14,7 +14,7 @@ CustomArenaKillerScoreIncrease = 100
 ;==================================================
 ; Custom Event Drop Settings
 ;==================================================
-CustomEventDropSwitch = 0
+CustomEventDropSwitch = 1
 
 ;==================================================
 ; Custom Store Settings
@@ -58,9 +58,9 @@ CustomStoreOfflineRequireReset_AL3 = 0
 ;==================================================
 CustomAttackSwitch = 1
 CustomAttackEnable_AL0 = 1
-CustomAttackEnable_AL1 = 0
-CustomAttackEnable_AL2 = 0
-CustomAttackEnable_AL3 = 0
+CustomAttackEnable_AL1 = 1
+CustomAttackEnable_AL2 = 1
+CustomAttackEnable_AL3 = 1
 CustomAttackRequireLevel_AL0 = 0
 CustomAttackRequireLevel_AL1 = 0
 CustomAttackRequireLevel_AL2 = 0
@@ -73,6 +73,7 @@ CustomAttackRequireMoney_AL0 = 0
 CustomAttackRequireMoney_AL1 = 0
 CustomAttackRequireMoney_AL2 = 0
 CustomAttackRequireMoney_AL3 = 0
+;Time in minutes
 CustomAttackMaxUsingTime_AL0 = 60
 CustomAttackMaxUsingTime_AL1 = 60
 CustomAttackMaxUsingTime_AL2 = 60
@@ -111,11 +112,17 @@ CustomAttackOfflineRequireMoney_AL0 = 0
 CustomAttackOfflineRequireMoney_AL1 = 0
 CustomAttackOfflineRequireMoney_AL2 = 0
 CustomAttackOfflineRequireMoney_AL3 = 0
+;Time in minutes
 CustomAttackOfflineMaxUsingTime_AL0 = 60
 CustomAttackOfflineMaxUsingTime_AL1 = 60
 CustomAttackOfflineMaxUsingTime_AL2 = 60
 CustomAttackOfflineMaxUsingTime_AL3 = 60
-CustomAttackOfflinePotDelay_AL0 = 100
-CustomAttackOfflinePotDelay_AL1 = 100
-CustomAttackOfflinePotDelay_AL2 = 100
-CustomAttackOfflinePotDelay_AL3 = 100
+CustomAttackOfflinePotDelay_AL0 = 1
+CustomAttackOfflinePotDelay_AL1 = 1
+CustomAttackOfflinePotDelay_AL2 = 1
+CustomAttackOfflinePotDelay_AL3 = 1
+
+;==================================================
+; Custom Summon Can Move Pk
+;==================================================
+CustomSummonCanMovePk = 1

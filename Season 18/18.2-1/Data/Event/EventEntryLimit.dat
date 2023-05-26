@@ -1,8 +1,3 @@
-// Developer: YolaxD
-// Creation Date: 16/08/2017
-// Review: 17/08/2017
-// Filename: ElementalItemRefinemenMixRate
-// Website: www.MOD-Team.com
 //-----------------------------------------------------------
 // Attention the maximum number of limits is 255 per each
 //-----------------------------------------------------------
@@ -14,6 +9,7 @@
 // LimitDoubleGoer -> Number of times they can enter the Double Goer
 // LimitImperialGuardian -> Number of times they can enter the Imperial Guardian
 // LimitIllusionTemple -> Number of times they can enter the Illusion Temple
+// LimitBattleBoss -> Number of times they can enter the Boss Battle																			
 0
 //Enabled	LimitBloodCastle	LimitChaosCastle	LimitDevilSquare	LimitDoubleGoer	LimitImperialGuardian	LimitIllusionTemple	LimitBattleBoss
 1  	    	15		      		15					15		  			15		  	 	15	 		  			15					15

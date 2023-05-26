@@ -30,6 +30,7 @@ PlayGuide=Character\\PlayGuide.txt
 MuHelperPlus=Character\\MuHelperPlus.xml
 ItemCompensationLevel=Character\\ItemCompensationLevel.xml
 CharacterSkillInit=Character\\CharacterSkillInit.xml
+CharacterCreationLimit=Character\\CharacterCreationLimit.xml
 
 ;==================================================
 ; Custom Settings
@@ -64,6 +65,7 @@ CustomItemOptionSystem=Custom\\CustomItemOptionSystem.xml
 CustomReward=Custom\\CustomRewards.xml
 CustomCharacterIcon=Custom\\CustomCharacterIcon.xml
 ProtocolDebug=Custom\\ProtocolDebug.xml
+CustomRingTransformation=Custom\\CustomRingTransformation.xml
 
 ;==================================================
 ; Event Settings
@@ -112,6 +114,8 @@ IllusionTempleRenewal=Event\\IllusionTempleRenewal\\IllusionTempleRenewal.xml
 IllusionTempleRenewalNPC=Event\\IllusionTempleRenewal\\IllusionTemple_Renewal_NPC.xml
 EventMapEntryInfoManager=Event\\EventMapEntryInfoManager.xml
 BossBattleEvent=Event\\BossBattleEvent.xml
+BattlePassEvent=Event\\BattlePass\\BattlePass.xml
+
 
 ;==================================================
 ; Event Item Bag Settings
@@ -128,7 +132,7 @@ Item=Item\\item.xml
 ItemToolTipLevel=Item\\ItemToolTipLevel.xml
 ItemDrop=Item\\ItemDrop.txt
 ItemMove=Item\\ItemMove.txt
-ItemOption=Item\\ItemOption.xml
+ItemOption=Item\\ItemOption - Settings\\ItemOption.xml
 ItemOptionWing=Item\\ItemOptionWing.txt
 ItemOptionRate=Item\\ItemOptionRate.txt
 ItemStack=Item\\ItemStack.txt
@@ -139,6 +143,7 @@ HarmonyRefinement=Item\\JewelOfHarmony - Settings\\HarmonyRefinementOption.xml
 LuckyItem=Item\\Lucky Item - Settings\\LuckySystem.xml
 MuunOption=Item\\Muun - Settings\\MuunOption.xml
 MuunInfo=Item\\Muun - Settings\\MuunInfo.xml
+MuunAddOption=Item\\Muun - Settings\\MuunAddOption.xml
 MuunExchange=Item\\Muun - Settings\\MuunExchange.txt
 PentagramOption=Item\\Pentagram - Settings\\PentagramOption.xml
 PentagramJewelOption=Item\\Pentagram - Settings\\PentagramJewelOption.xml
@@ -172,7 +177,7 @@ RingDurabilityDecrease=Item\\RingDurabilityDecrease.xml
 ArchangelUpgrade=Item\\ArchangelUpgrade - Setting\\ArchangelUpgradeMix.xml
 ArtifactSystem=Item\\ArtifactSystem - Settings\\ArtifactSystem.xml
 ArtifactSystemFiles=Item\\ArtifactSystem - Settings\\Files\\
-
+CollectItemCount=Item\\CollectItemCount.xml
 ;==================================================
 ; Lang Settings
 ;==================================================
@@ -234,12 +239,12 @@ RuudShop=ShopRuud\\RuudShop.txt
 SkillElect=Skill\\SkillElect.hit
 Skill=Skill\\Skill.xml
 Formula=Skill\\Formula.txt
-MasterSkillTree=Skill\\MasterSkillTree.txt
+MasterSkillTree=Skill\\MasterSkillTree.xml
 SkillRequiere=Skill\\SkillRequire.txt
 EnhanceSkillTree=Skill\\EnhanceSkillTree\\EnhanceSkillTree.xml
 EnhanceSkillTreePassive=Skill\\EnhanceSkillTree\\EnhanceSkillTreePassive.xml
 EnhanceSkillTreeMagicField=Skill\\EnhanceSkillTree\\EnhanceSkillTreeMagicField.xml
-
+SkillDamageReduction=Skill\\SkillDamageReduction.xml
 ;==================================================
 ; Util Settings
 ;==================================================

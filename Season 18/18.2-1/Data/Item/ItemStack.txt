@@ -5,6 +5,7 @@
 7181      *             1					//Jewel of Bless
 7182      *             1					//Jewel of Soul
 7184      *             1					//Jewel of Life
+7189      *             1					//Rena / Sign of Lord
 7190      *             1					//Jewel of Creation
 7197      7196          *					//Symbol of Kundun
 7199      *             1					//Jewel of Guardian
@@ -27,6 +28,8 @@
 10288     10295         *					//Silver Heart Chaos Combination Charm Fragment (Bound)
 10289     10296         *					//Manticore Chaos Combination Charm Fragment (Bound)
 10321     10322         *					//Brilliant Chaos Combination Amulet Fragment (Bound)
-10334     *				*					//Spider Artifact Fragment
-10327     10328         *                   //Apocalypse Chaos Combination Amulet Fragment (Bound) 
+10327     10328         *					//Apocalypse Chaos Combination Amulet Fragment (Bound)
+7533      7534          *					//Slice of Pizza
+//7264      *          	1					//Talisman of Chaos Assembly (cannot stack which causes bug)
+//7358      *          	1					//Elemental Talisman of Chaos(cannot stack which causes bug)
 end

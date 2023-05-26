@@ -1,138 +1,148 @@
 0
-//Index   Name                                 TargetType   ScopeType   ScopeAngle   ScopeValue   Delay   Slot1   Slot2   Slot3   Slot4   Slot5
-1         "Monster Skill Unit"                 1            0           *            6            300     1       *       *       *       * 
-2         "Monster Skill Unit"                 1            0           *            6            300     14      7       *       *       * 
-3         "Monster Skill Unit"                 1            0           *            6            300     11      *       *       *       * 
-4         "Monster Skill Unit"                 1            *           *            0            300     17      23      *       *       * 
-5         "Monster Skill Unit"                 1            *           *            0            300     3       *       *       *       * 
-6         "Monster Skill Unit"                 2            *           *            0            300     16      *       *       *       * 
-7         "Monster Skill Unit"                 2            *           *            0            300     13      *       *       *       * 
-8         "Monster Skill Unit"                 1            *           *            0            300     1       *       *       *       * 
-9         "Monster Skill Unit"                 1            *           *            0            300     17      *       *       *       * 
-10        "Monster Skill Unit"                 1            *           *            0            300     3       4       *       *       * 
-11        "Monster Skill Unit"                 1            0           *            6            300     7       *       *       *       * 
-12        "Monster Skill Unit"                 1            0           *            6            300     7       1       17      *       * 
-13        "Monster Skill Unit"                 1            0           *            6            300     7       1       1       *       * 
-14        "Monster Skill Unit"                 1            1           *            6            300     24      *       *       *       * 
-15        "Monster Skill Unit"                 1            0           *            6            300     25      *       *       *       * 
-16        "Monster Skill Unit"                 1            *           *            0            300     26      27      *       *       * 
-17        "Monster Skill Unit"                 1            *           *            0            300     28      *       *       *       * 
-18        "Monster Skill Unit"                 1            *           *            0            300     29      30      *       *       * 
-19        "Monster Skill Unit"                 1            1           *            6            300     31      *       *       *       * 
-20        "Monster Skill Unit"                 2            *           *            0            300     *       *       *       *       * 
-21        "Monster Skill Unit"                 1            0           *            6            300     32      33      *       *       * 
-22        "Monster Skill Unit"                 2            *           *            0            300     34      *       *       *       * 
-23        "Monster Skill Unit"                 1            0           *            6            300     35      36      37      *       * 
-24        "Monster Skill Unit"                 1            1           *            6            300     38      *       *       *       * 
-25        "Monster Skill Unit"                 1            *           *            0            300     39      40      *       *       * 
-26        "Monster Skill Unit"                 1            *           *            0            300     41      42      *       *       * 
-27        "Monster Skill Unit"                 1            *           *            0            300     1       *       *       *       * 
-28        "Monster Skill Unit"                 1            *           *            0            300     8       1       *       *       * 
-29        "Monster Skill Unit"                 1            *           *            0            300     43      *       *       *       * 
-30        "Monster Skill Unit"                 1            *           *            0            300     44      *       *       *       * 
-31        "Monster Skill Unit"                 1            0           *            2            300     45      *       *       *       * 
-32        "Monster Skill Unit"                 1            *           *            0            300     46      *       *       *       * 
-33        "Monster Skill Unit"                 1            *           *            0            300     47      *       *       *       * 
-34        "Monster Skill Unit"                 1            0           *            6            300     48      *       *       *       * 
-35        "Monster Skill Unit"                 1            0           *            8            300     49      *       *       *       * 
-36        "Monster Skill Unit"                 1            0           *            6            300     50      *       *       *       * 
-37        "Monster Skill Unit"                 1            0           *            4            300     51      *       *       *       * 
-38        "Monster Skill Unit"                 2            *           *            0            300     52      *       *       *       * 
-39        "Monster Skill Unit"                 2            *           *            0            300     53      *       *       *       * 
-40        "Monster Skill Unit"                 1            *           *            0            300     54      *       *       *       * 
-41        "Monster Skill Unit"                 2            *           *            0            300     55      *       *       *       * 
-42        "Monster Skill Unit"                 2            *           *            0            300     56      *       *       *       * 
-43        "Monster Skill Unit"                 2            *           *            0            300     57      *       *       *       * 
-44        "Monster Skill Unit"                 2            *           *            0            300     58      *       *       *       * 
-45        "Monster Skill Unit"                 1            *           *            0            300     59      *       *       *       * 
-46        "Monster Skill Unit"                 2            *           *            0            300     60      *       *       *       * 
-47        "Monster Skill Unit"                 1            0           *            6            300     61      *       *       *       * 
-48        "Monster Skill Unit"                 1            0           *            3            300     61      *       *       *       * 
-49        "Monster Skill Unit"                 1            1           *            10           300     61      *       *       *       * 
-50        "Monster Skill Unit"                 1            *           *            0            300     61      62      *       *       * 
-51        "Monster Skill Unit"                 1            0           *            10           300     61      *       *       *       * 
-52        "Monster Skill Unit"                 1            0           *            10           300     61      59      *       *       * 
-53        "Monster Skill Unit"                 1            0           *            10           300     61      65      *       *       * 
-54        "Monster Skill Unit"                 1            0           *            3            300     61      64      *       *       * 
-55        "Monster Skill Unit"                 1            *           *            0            300     61      62      *       *       * 
-56        "Monster Skill Unit"                 1            *           *            0            300     61      66      59      *       * 
-57        "Monster Skill Unit"                 1            0           *            10           300     61      *       *       *       * 
-58        "Monster Skill Unit"                 1            1           *            5            300     61      *       *       *       * 
-59        "Monster Skill Unit"                 2            *           *            0            300     67      68      *       *       * 
-60        "Monster Skill Unit"                 1            0           *            10           300     61      59      *       *       * 
-61        "Monster Skill Unit"                 1            0           *            10           300     61      69      *       *       * 
-62        "Monster Skill Unit"                 1            0           *            6            300     61      *       *       *       * 
-63        "Monster Skill Unit"                 1            0           *            3            300     61      64      *       *       * 
-64        "Monster Skill Unit"                 1            1           *            3            300     61      70      *       *       * 
-65        "Monster Skill Unit"                 1            0           *            5            300     61      72      *       *       * 
-66        "Monster Skill Unit"                 1            1           *            5            300     61      73      *       *       * 
-67        "Monster Skill Unit"                 1            *           *            0            300     71      *       *       *       * 
-68        "Monster Skill Unit"                 1            *           *            0            300     47      74      *       *       * 
-69        "Monster Skill Unit"                 1            *           *            0            300     47      9       5       *       * 
-70        "Monster Skill Unit"                 1            *           *            0            300     47      74      6       *       * 
-71        "Monster Skill Unit"                 1            *           *            0            300     47      74      7       *       * 
-72        "Monster Skill Unit"                 1            *           *            0            300     47      74      5       *       * 
-73        "Monster Skill Unit"                 1            *           *            0            300     47      9       7       *       * 
-74        "Monster Skill Unit"                 1            *           *            0            300     47      74      6       *       * 
-75        "Monster Skill Unit"                 1            *           *            0            300     47      27      6       *       * 
-76        "Monster Skill Unit"                 1            *           *            0            300     47      27      5       *       * 
-77        "Monster Skill Unit"                 1            *           *            0            300     47      74      27      *       * 
-78        "Monster Skill Unit"                 1            0           *            10           300     75      *       *       *       * 
-79        "Monster Skill Unit"                 1            0           *            10           300     76      77      *       *       * 
-80        "Monster Skill Unit"                 1            0           *            10           300     72      77      *       *       * 
-81        "Monster Skill Unit"                 1            0           *            10           300     25      8       *       *       * 
-82        "Monster Skill Unit"                 1            *           *            0            300     78      *       *       *       * 
-83        "Monster Skill Unit"                 1            *           *            0            300     79      *       *       *       * 
-84        "Monster Skill Unit"                 1            *           *            0            300     80      81      *       *       * 
-85        "Monster Skill Unit"                 1            *           *            0            300     82      *       *       *       * 
-86        "Monster Skill Unit"                 1            *           *            0            300     83      *       *       *       * 
-87        "Monster Skill Unit"                 1            *           *            0            300     84      85      *       *       * 
-88        "Monster Skill Unit"                 1            *           *            0            300     86      *       *       *       * 
-89        "Monster Skill Unit"                 1            *           *            0            300     87      *       *       *       * 
-90        "Monster Skill Unit"                 1            *           *            0            300     88      89      *       *       * 
-91        "Monster Skill Unit"                 1            *           *            0            300     90      *       *       *       * 
-92        "Monster Skill Unit"                 1            *           *            0            300     91      *       *       *       * 
-93        "Monster Skill Unit"                 1            *           *            0            300     92      93      *       *       * 
-94        "Monster Skill Unit"                 1            *           *            0            300     94      *       *       *       * 
-95        "Monster Skill Unit"                 1            *           *            0            300     95      *       *       *       * 
-96        "Monster Skill Unit"                 1            *           *            0            300     96      97      *       *       * 
-97        "Monster Skill Unit"                 3            *           *            0            300     98      102     *       *       * 
-98        "Monster Skill Unit"                 1            *           *            0            300     99      104     *       *       * 
-99        "Monster Skill Unit"                 3            *           *            0            300     100     104     *       *       * 
-100       "Monster Skill Unit"                 2            *           *            0            300     101     103     *       *       * 
-101       "Monster Skill Unit"                 1            4           120          7            300     105     *       *       *       * 
-102       "Monster Skill Unit"                 1            0           *            7            300     106     *       *       *       * 
-103       "Monster Skill Unit"                 1            4           60           8            300     107     *       *       *       * 
-104       "Monster Skill Unit"                 1            0           *            6            300     108     *       *       *       * 
-105       "Monster Skill Unit"                 1            0           *            0            300     109     *       *       *       * 
-106       "Monster Skill Unit"                 3            *           *            0            300     110     115     *       *       * 
-107       "Monster Skill Unit"                 1            0           *            8            300     111     117     *       *       * 
-108       "Monster Skill Unit"                 3            0           *            5            300     112     116     *       *       * 
-109       "Monster Skill Unit"                 1            *           *            8            300     113     *       *       *       * 
-110       "Monster Skill Unit"                 2            *           *            0            300     114     *       *       *       * 
-111       "Monster Skill Unit"                 2            *           *            0            300     *       *       *       *       * 
-112       "Monster Skill Unit"                 3            0           *            0            300     117     *       *       *       * 
-113       "Monster Skill Unit"                 1            0           *            9            6000    118     *       *       *       * 
-114       "Monster Skill Unit"                 3            0           *            9            3000    119     *       *       *       * 
-115       "Monster Skill Unit"                 1            *           *            0            3000    120     *       *       *       * 
-117       "Monster Skill Unit"                 1            *           *            7            300     122     *       *       *       * 
-118       "Monster Skill Unit"                 1            *           *            7            300     123     *       *       *       * 
-119       "Monster Skill Unit"                 1            0           *            5            300     124     *       *       *       * 
-120       "Monster Skill Unit"                 1            *           *            0            300     125     *       *       *       * 
-121       "Monster Skill Unit"                 1            *           *            0            300     126     *       *       *       * 
-122       "Monster Skill Unit"                 1            *           *            0            300     127     *       *       *       * 
-123       "Monster Skill Unit"                 1            *           *            0            300     *       *       *       *       *
-125       "Monster Skill Unit"                 1            4           *            3            300     128     *       *       *       *
-126       "Monster Skill Unit"                 1            0           *            6            300     129     *       *       *       *
-128       "Monster Skill Unit"                 5            *           *            0            300     130     *       *       *       *
-129       "Monster Skill Unit"                 1            0           *            6            300     131     *       *       *       *
-130       "Monster Skill Unit"                 1            4           *            3            300     132     *       *       *       *
-131       "Monster Skill Unit"                 1            4           *            3            300     133     *       *       *       *
-134       "Monster Skill Unit"                 1            2           *            0            300     134     *       *       *       *
-135       "Monster Skill Unit"                 1            2           *            0            300     135     *       *       *       *
-136       "Monster Skill Unit"                 1            1           *            6            300     136     *       *       *       *
-137       "Monster Skill Unit"                 1            0           *            3            300     136     *       *       *       *
-138       "Monster Skill Unit"                 1            0           *            6            300     137     *       *       *       *
-//Index   Name                                 TargetType   ScopeType   ScopeAngle   ScopeValue   Delay   Slot1   Slot2   Slot3   Slot4   Slot5
-149       "Monster Skill Unit"                 1            *           *            0            300     149     *       *       *       * 
+//Index   Name											TargetType   ScopeType   ScopeAngle   ScopeValue   Delay   Slot1   Slot2   Slot3   Slot4   Slot5
+1         "Thunder Break"       						1            0           *            6            300     1       *       *       *       * 
+2         "Bloody Wind"									1            0           *            6            300     14      7       *       *       * 
+3         "Fire Ray"									1            0           *            6            300     11      *       *       *       * 
+4         "Very"										1            *           *            0            300     17      23      *       *       * 
+5         "Vampires Rick Touch"							1            *           *            0            300     3       *       *       *       * 
+6         "Dark Elf - Group Address"					2            *           *            0            300     16      *       *       *       * 
+7         "Dark Elf - Group Therapy"					2            *           *            0            300     13      *       *       *       * 
+8         "Dark Elf - Geom"								1            *           *            0            300     1       *       *       *       * 
+9         "Balram - The Direction"       				1            *           *            0            300     17      *       *       *       * 
+10        "Death Spirit - Reduce Mana/AG"				1            *           *            0            300     3       4       *       *       * 
+11        "Soram - Push"								1            0           *            6            300     7       *       *       *       * 
+12        "Balgass - Direct Land Hit"					1            0           *            6            300     7       1       17      *       * 
+13        "Balgass"										1            0           *            6            300     7       1       1       *       * 
+14        "Kentauros - Multi Shot"						1            1           *            6            300     24      *       *       *       * 
+15        "Persona - Demon"								1            0           *            6            300     25      *       *       *       * 
+16        "Twin Tail - Hair Attack"       				1            *           *            0            300     26      27      *       *       * 
+17        "Dread - 2 times a peer"       				1            *           *            0            300     28      *       *       *       * 
+18        "Nightmare - Dog Attack"       				1            *           *            0            300     29      30      *       *       * 
+19        "Nightmare - Pot like"						1            1           *            6            300     31      *       *       *       * 
+20        "Nightmare - Summon"							2            *           *            0            300     *       *       *       *       * 
+21        "Nightmare - Fire Jeans"						1            0           *            6            300     32      33      *       *       * 
+22        "Nightmare - Warp"							2            *           *            0            300     34      *       *       *       * 
+23        "Maya hand - Pressure"						1            0           *            6            300     35      36      37      *       * 
+24        "Maya hand - Power Wave"       				1            1           *            6            300     38      *       *       *       * 
+25        "Maya - Ice Storm"							1            *           *            0            300     39      40      *       *       * 
+26        "Maya - Broken Shower"						1            *           *            0            300     41      42      *       *       * 
+27        "Ghosts - Stern"								1            *           *            0            300     1       *       *       *       * 
+28        "Ghost - dog"									1            *           *            0            300     8       1       *       *       * 
+29        "Roar"										1            *           *            0            300     43      *       *       *       * 
+30        "Break period"								1            *           *            0            300     44      *       *       *       * 
+31        "Anger Strike"								1            0           *            2            300     45      *       *       *       * 
+32        "Cooler Tin - Dog Ball"       				1            *           *            0            300     46      *       *       *       * 
+33        "Blow"										1            *           *            0            300     47      *       *       *       * 
+34        "Selupan - Poison Ball"       				1            0           *            6            300     48      *       *       *       * 
+35        "Selupan - Frost Storm"       				1            0           *            8            300     49      *       *       *       * 
+36        "Selupan - Frost Shock"       				1            0           *            6            300     50      *       *       *       * 
+37        "Selupan - Fall"								1            0           *            4            300     51      *       *       *       * 
+38        "Selupan - Recall"							2            *           *            0            300     52      *       *       *       * 
+39        "Selupan - Healing"							2            *           *            0            300     53      *       *       *       * 
+40        "Selupan - Icing"								1            *           *            0            300     54      *       *       *       * 
+41        "Selupan - Teleportation"        				2            *           *            0            300     55      *       *       *       * 
+42        "Selupan - Invincible"						2            *           *            0            300     56      *       *       *       * 
+43        "Selupan - Berserk"							2            *           *            0            300     57      *       *       *       * 
+44        "Shield bottle - Defense"       				2            *           *            0            300     58      *       *       *       * 
+45        "Shield bottle - Shield"       				1            *           *            0            300     59      *       *       *       * 
+46        "Healing Disease - Healing"					2            *           *            0            300     60      *       *       *       * 
+47        "Quartermaster - Skill 01"       				1            0           *            6            300     61      *       *       *       * 
+48        "Quartermaster - Skill 02"       				1            0           *            3            300     61      *       *       *       * 
+49        "Combat Instructor - Skill 03"				1            1           *            10           300     61      *       *       *       * 
+50        "Knight Commander - Skill 04"					1            *           *            0            300     61      62      *       *       * 
+51        "Archmage - Pillar of Fire"					1            0           *            10           300     61      *       *       *       * 
+52        "Archmage - Wide Meteorite"					1            0           *            10           300     61      59      *       *       * 
+53        "Assassinated leader - Skill 06"				1            0           *            10           300     61      65      *       *       * 
+54        "Riders GM - Earth Shakes"       				1            0           *            3            300     61      64      *       *       * 
+55        "Riders GM - Bite"							1            *           *            0            300     61      62      *       *       * 
+56        "Riders Director - Head of CEE"				1            *           *            0            300     61      66      59      *       * 
+57        "Dessler - Blade Door"						1            0           *            10           300     61      *       *       *       * 
+58        "Dessler - Skill 07"       					1            1           *            5            300     61      *       *       *       * 
+//59      "Berserker Webzen Disabled"					2            *           *            0            300     67      68      *       *       * 
+60        "Vermont - Skill 08"       					1            0           *            10           300     61      59      *       *       * 
+61        "Vermont - Skill 09"       					1            0           *            10           300     61      69      *       *       * 
+62        "El kaneu - Skill 14"       					1            0           *            6            300     61      *       *       *       * 
+63        "El kaneu - Skill 15"       					1            0           *            3            300     61      64      *       *       * 
+64        "Ion -Blood Attack"       					1            1           *            3            300     61      70      *       *       * 
+65        "Ion - Gigantik Storm"       					1            0           *            5            300     61      72      *       *       * 
+66        "Ion - Flame"       							1            1           *            5            300     61      73      *       *       * 
+67        "Ion - General"       						1            *           *            0            300     71      *       *       *       * 
+68        "Bloody Golem - Stern"       					1            *           *            0            300     47      74      *       *       * 
+69        "Location Queen - Ice"       					1            *           *            0            300     47      9       5       *       * 
+70        "Berserker - Stern Ball"       				1            *           *            0            300     47      74      6       *       * 
+71        "Zeno Outsider - Stern"       				1            *           *            0            300     47      74      7       *       * 
+72        "Safi Queen - Stern Room"       				1            *           *            0            300     47      74      5       *       * 
+73        "Ice Nail Pin - Ice"       					1            *           *            0            300     47      9       7       *       * 
+74        "Shadow Master - Stern"       				1            *           *            0            300     47      74      6       *       * 
+75        "The Dark memeodeu - Solitary"     			1            *           *            0            300     47      27      6       *       * 
+76        "The Dark Giant - Dokgong"       				1            *           *            0            300     47      27      5       *       * 
+77        "Dark Iron Knight - Poison"      				1            *           *            0            300     47      74      27      *       * 
+78        "Medusa - Curse Poison"       				1            0           *            10           300     75      *       *       *       * 
+79        "Medusa - Chaotic"       						1            0           *            10           300     76      77      *       *       * 
+80        "Medusa - Gigantik"       					1            0           *            10           300     72      77      *       *       * 
+81        "Medusa - Evil"       						1            0           *            10           300     25      8       *       *       * 
+82        "Salamander - 1 Hit Skill"       				1            *           *            0            300     78      *       *       *       * 
+83        "Salamander - 2 Hits Kill"       				1            *           *            0            300     79      *       *       *       * 
+84        "Salamander - German"       					1            *           *            0            300     80      81      *       *       * 
+85        "Undine - 1 Hit Skill"       					1            *           *            0            300     82      *       *       *       * 
+86        "Undine - Skill Strikes 2"       				1            *           *            0            300     83      *       *       *       * 
+87        "Undine - Ice"       							1            *           *            0            300     84      85      *       *       * 
+88        "Gnome - skill Hit 1"       					1            *           *            0            300     86      *       *       *       * 
+89        "Gnome - Strike 2 Skill"       				1            *           *            0            300     87      *       *       *       * 
+90        "Gnome - Stun"       							1            *           *            0            300     88      89      *       *       * 
+91        "Silpideu - 1 Hit Skill"       				1            *           *            0            300     90      *       *       *       * 
+92        "Silpideu - Skill Strikes 2"       			1            *           *            0            300     91      *       *       *       * 
+93        "Silpideu - Push"       						1            *           *            0            300     92      93      *       *       * 
+94        "Hill Lhasa - Hitting one Skill" 				1            *           *            0            300     94      *       *       *       * 
+95        "Hill Lhasa - Hitting Skills 2"				1            *           *            0            300     95      *       *       *       * 
+96        "Hill Lhasa - HP loss"       					1            *           *            0            300     96      97      *       *       * 
+97        "Lord Silvester - General Strike"				3            *           *            0            300     98      102     *       *       * 
+98        "Lord Silvester - Wind whirlwind"				1            *           *            0            300     99      104     *       *       * 
+99        "Lord Silvester - Curse of the wind"			3            *           *            0            300     100     104     *       *       * 
+100       "Lord Silvester - Wind called (summoned)"		2            *           *            0            300     101     103     *       *       * 
+101       "EvoMon - MultiShot"       					1            4           120          7            300     105     *       *       *       * 
+102       "EvoMon - Lightning"       					1            0           *            7            300     106     *       *       *       * 
+103       "EvoMon - Flood"       						1            4           60           8            300     107     *       *       *       * 
+104       "EvoMon - Ice Dot Damage"       				1            0           *            6            300     108     *       *       *       * 
+105       "EvoMon - Disappear"       					1            0           *            0            300     109     *       *       *       * 
+106       "Core Magriffy - General Attack"       		3            *           *            0            300     110     115     *       *       * 
+107       "Core Magriffy - Twister"       				1            0           *            8            300     111     117     *       *       * 
+108       "Core Magriffy - Shout"       				3            0           *            5            300     112     116     *       *       * 
+109       "Core Magriffy - ???"       					1            *           *            8            300     113     *       *       *       * 
+110       "Core Magriffy - Variation"       			2            *           *            0            300     114     *       *       *       * 
+111       "Core Magriffy - Disappear"       			2            *           *            0            300     *       *       *       *       * 
+112       "Ferea Lord - General Attack"       			3            0           *            0            300     117     *       *       *       * 
+113       "Ferea Lord - LandMine Explosion"       		1            0           *            9            6000    118     *       *       *       * 
+114       "Ferea Lord - WhirlWind"       				3            0           *            9            3000    119     *       *       *       * 
+115       "Ferea Lord - Roar of Lord"       			1            *           *            0            3000    120     *       *       *       * 
+117       "Nix - Normal Attack"       					1            *           *            7            300     122     *       *       *       * 
+118       "Nix - Energy Sphere"       					1            *           *            7            300     123     *       *       *       * 
+119       "Nix - Ice Lane"       						1            0           *            5            300     124     *       *       *       * 
+120       "Nix - Ice Breath"       						1            *           *            0            300     125     *       *       *       * 
+121       "Nix - Ice Boom"       						1            *           *            0            300     126     *       *       *       * 
+122       "Nix - Devil Ice"       						1            *           *            0            300     127     *       *       *       * 
+123       "Nix - Knowledge Absorb"       				1            *           *            0            300     *       *       *       *       *
+125       "Cent Fire Slash"       						1            4           *            3            300     128     *       *       *       *
+126       "Cent Twister"       							1            0           *            6            300     129     *       *       *       *
+128       "Cent Nova Start"       						5            *           *            0            300     130     *       *       *       *
+129       "Cent Nova"       							1            0           *            6            300     131     *       *       *       *
+130       "Cent Fire Blood"       						1            4           *            3            300     132     *       *       *       *
+131       "Cent Ice Blood"       						1            4           *            3            300     133     *       *       *       *
+134       "Swamp Monster Poison"       					1            2           *            0            300     134     *       *       *       *
+135       "Pet Monster Attack"       					1            2           *            0            300     135     *       *       *       *
+136       "Water Monster Line Attack"       			1            1           *            6            300     136     *       *       *       *
+137       "Water Monster Range Attack"       			1            0           *            3            300     136     *       *       *       *
+138       "God of Darkness Attack"       				1            0           *            6            300     137     *       *       *       *
+148       "Multiple Monster AOE Skill"       			1            0           *            6            300     148     *       *       *       * 
+149       "Temple Gremlin AOE Skill"       				1            0           *            6            300     149     *       *       *       * 
+150       "Ashy Witch Queen Evil Spirit Skill"      	1            0           *            6            300     150     *       *       *       * 
+151       "Harpy AOE Twister"       					1            0           *            6            300     151     *       *       *       *
+152       "Underground Persona - Demon"       			1            0           *            6            300     25      *       *       *       *
+154       "Underground Dread - 2 times a peer"      	1            *           *            0            300     28      *       *       *       *
+155       "Magma Shaman AOE Skill"       				1            0           *            6            300     155     156     *       *       *
+//S18.1-3			
+144       "Bahamutt Multiple Attack"           			1            0           *            6            300     144     *       *       *       *
+145       "Monster Skill Unit"                 			1            0           *            6            300     145     *       *       *       *
+146       "Monster Skill Unit"                 			1            0           *            6            300     146     *       *       *       *
+147       "Monster Skill Unit"                 			1            0           *            6            300     147     *       *       *       *
 end

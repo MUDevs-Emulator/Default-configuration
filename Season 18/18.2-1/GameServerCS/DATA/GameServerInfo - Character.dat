@@ -44,6 +44,7 @@ GCDamageRatePvP = 100
 KMDamageRatePvP = 100
 LMDamageRatePvP = 100
 IKDamageRatePvP = 100
+
 DWDamageRatePvM = 100
 DKDamageRatePvM = 100
 FEDamageRatePvM = 100
@@ -275,20 +276,20 @@ IKDamageRateToIK = 100
 ;==================================================
 ; Character Stuck Rate Settings
 ;==================================================
-DWDamageStuckRate = 0
-DKDamageStuckRate = 0
-FEDamageStuckRate = 0
-MGDamageStuckRate = 0
-DLDamageStuckRate = 0
-SUDamageStuckRate = 0
-RFDamageStuckRate = 0
-GLDamageStuckRate = 0
-RWDamageStuckRate = 0
-SLDamageStuckRate = 0
-GCDamageStuckRate = 0
-KMDamageStuckRate = 0
-LMDamageStuckRate = 0
-IKDamageStuckRate = 0
+DWDamageStuckRate = 15
+DKDamageStuckRate = 15
+FEDamageStuckRate = 15
+MGDamageStuckRate = 15
+DLDamageStuckRate = 15
+SUDamageStuckRate = 15
+RFDamageStuckRate = 15
+GLDamageStuckRate = 15
+RWDamageStuckRate = 15
+SLDamageStuckRate = 15
+GCDamageStuckRate = 15
+KMDamageStuckRate = 15
+LMDamageStuckRate = 15
+IKDamageStuckRate = 15
 
 ;==================================================
 ; Character Damage Multiplier Settings
@@ -358,7 +359,7 @@ DinorantDecDamageConstB = 5
 DarkHorseDecDamageConstA = 30
 DarkHorseDecDamageConstB = 2
 BlueFenrirDecDamageConstA = 10
-GoldenFenrirDecDamageConstA=10
+GoldenFenrirDecDamageConstA = 10
 MariaDecDamageConstA = 30
 
 ;==================================================
@@ -464,6 +465,7 @@ GCSDRecoveryRate = 4
 KMSDRecoveryRate = 4
 LMSDRecoveryRate = 4
 IKSDRecoveryRate = 4
+
 SDRecoveryOnSafeZone = 1
 
 ;==================================================
@@ -473,51 +475,63 @@ DWPlasmaStormDamageConstA = 5
 DWPlasmaStormDamageConstB = 5
 DWPlasmaStormDamageConstC = 7
 DWPlasmaStormDamageConstD = 3
+
 DKPlasmaStormDamageConstA = 3
 DKPlasmaStormDamageConstB = 5
 DKPlasmaStormDamageConstC = 5
 DKPlasmaStormDamageConstD = 7
+
 FEPlasmaStormDamageConstA = 5
 FEPlasmaStormDamageConstB = 3
 FEPlasmaStormDamageConstC = 7
 FEPlasmaStormDamageConstD = 5
+
 MGPlasmaStormDamageConstA = 3
 MGPlasmaStormDamageConstB = 5
 MGPlasmaStormDamageConstC = 5
 MGPlasmaStormDamageConstD = 7
+
 DLPlasmaStormDamageConstA = 5
 DLPlasmaStormDamageConstB = 5
 DLPlasmaStormDamageConstC = 7
 DLPlasmaStormDamageConstD = 3
 DLPlasmaStormDamageConstE = 3
+
 SUPlasmaStormDamageConstA = 5
 SUPlasmaStormDamageConstB = 5
 SUPlasmaStormDamageConstC = 7
 SUPlasmaStormDamageConstD = 3
+
 RFPlasmaStormDamageConstA = 5
 RFPlasmaStormDamageConstB = 5
 RFPlasmaStormDamageConstC = 3
 RFPlasmaStormDamageConstD = 7
+
 GLPlasmaStormDamageConstA = 5
 GLPlasmaStormDamageConstB = 5
 GLPlasmaStormDamageConstC = 3
 GLPlasmaStormDamageConstD = 7
+
 RWPlasmaStormDamageConstA = 5
 RWPlasmaStormDamageConstB = 5
 RWPlasmaStormDamageConstC = 7
 RWPlasmaStormDamageConstD = 3
+
 SLPlasmaStormDamageConstA = 5
 SLPlasmaStormDamageConstB = 5
 SLPlasmaStormDamageConstC = 7
 SLPlasmaStormDamageConstD = 3
+
 GCPlasmaStormDamageConstA = 5
 GCPlasmaStormDamageConstB = 5
 GCPlasmaStormDamageConstC = 7
 GCPlasmaStormDamageConstD = 3
+
 LMPlasmaStormDamageConstA = 5
 LMPlasmaStormDamageConstB = 5
 LMPlasmaStormDamageConstC = 7
 LMPlasmaStormDamageConstD = 3
+
 KMPlasmaStormDamageConstA = 5
 KMPlasmaStormDamageConstB = 5
 KMPlasmaStormDamageConstC = 7
@@ -530,10 +544,12 @@ DWPhysiDamageMinConstA = 6
 DWPhysiDamageMaxConstA = 4
 DWMagicDamageMinConstA = 9
 DWMagicDamageMaxConstA = 4
+
 DKPhysiDamageMinConstA = 8
 DKPhysiDamageMaxConstA = 4
 DKMagicDamageMinConstA = 9
 DKMagicDamageMaxConstA = 4
+
 FEPhysiDamageMinConstA = 7
 FEPhysiDamageMaxConstA = 4
 FEPhysiDamageMinBowConstA = 14
@@ -542,44 +558,52 @@ FEPhysiDamageMaxBowConstA = 8
 FEPhysiDamageMaxBowConstB = 4
 FEMagicDamageMinConstA = 9
 FEMagicDamageMaxConstA = 4
+
 MGPhysiDamageMinConstA = 6
 MGPhysiDamageMinConstB = 12
 MGPhysiDamageMaxConstA = 4
 MGPhysiDamageMaxConstB = 8
 MGMagicDamageMinConstA = 9
 MGMagicDamageMaxConstA = 4
+
 DLPhysiDamageMinConstA = 7
 DLPhysiDamageMinConstB = 14
 DLPhysiDamageMaxConstA = 5
 DLPhysiDamageMaxConstB = 10
 DLMagicDamageMinConstA = 9
 DLMagicDamageMaxConstA = 4
+
 SUPhysiDamageMinConstA = 8
 SUPhysiDamageMaxConstA = 4
 SUMagicDamageMinConstA = 9
 SUMagicDamageMaxConstA = 4
+
 RFPhysiDamageMinConstA = 7
 RFPhysiDamageMinConstB = 15
 RFPhysiDamageMaxConstA = 5
 RFPhysiDamageMaxConstB = 12
 RFMagicDamageMinConstA = 9
 RFMagicDamageMaxConstA = 4
+
 GLPhysiDamageMinConstA = 8
 GLPhysiDamageMinConstB = 10
 GLPhysiDamageMaxConstA = 4
 GLPhysiDamageMaxConstB = 6
 GLMagicDamageMinConstA = 9
 GLMagicDamageMaxConstA = 4
+
 RWPhysiDamageMinConstA = 6
 RWPhysiDamageMaxConstA = 4
 RWMagicDamageMinConstA = 9
 RWMagicDamageMaxConstA = 4
+
 SLPhysiDamageMinConstA = 9
 SLPhysiDamageMinConstB = 20
 SLPhysiDamageMaxConstA = 5
 SLPhysiDamageMaxConstB = 14
 SLMagicDamageMinConstA = 9
 SLMagicDamageMaxConstA = 4
+
 GCPhysiDamageMinConstA = 6
 GCPhysiDamageMaxConstA = 4
 GCMagicDamageMinConstA = 9
@@ -592,43 +616,53 @@ DWAttackSuccessRateConstA = 5
 DWAttackSuccessRateConstB = 3
 DWAttackSuccessRateConstC = 2
 DWAttackSuccessRateConstD = 4
+
 DKAttackSuccessRateConstA = 5
 DKAttackSuccessRateConstB = 3
 DKAttackSuccessRateConstC = 2
 DKAttackSuccessRateConstD = 4
+
 FEAttackSuccessRateConstA = 5
 FEAttackSuccessRateConstB = 3
 FEAttackSuccessRateConstC = 2
 FEAttackSuccessRateConstD = 4
+
 MGAttackSuccessRateConstA = 5
 MGAttackSuccessRateConstB = 3
 MGAttackSuccessRateConstC = 2
 MGAttackSuccessRateConstD = 4
+
 DLAttackSuccessRateConstA = 5
 DLAttackSuccessRateConstB = 6
 DLAttackSuccessRateConstC = 2
 DLAttackSuccessRateConstD = 4
 DLAttackSuccessRateConstE = 10
+
 SUAttackSuccessRateConstA = 5
 SUAttackSuccessRateConstB = 3
 SUAttackSuccessRateConstC = 2
 SUAttackSuccessRateConstD = 4
+
 RFAttackSuccessRateConstA = 3
 RFAttackSuccessRateConstB = 5
 RFAttackSuccessRateConstC = 4
 RFAttackSuccessRateConstD = 6
+
 GLAttackSuccessRateConstA = 3
 GLAttackSuccessRateConstB = 4
 GLAttackSuccessRateConstC = 4
 GLAttackSuccessRateConstD = 4
+
 RWAttackSuccessRateConstA = 5
 RWAttackSuccessRateConstB = 3
 RWAttackSuccessRateConstC = 2
 RWAttackSuccessRateConstD = 4
+
 SLAttackSuccessRateConstA = 5
 SLAttackSuccessRateConstB = 3
 SLAttackSuccessRateConstC = 2
 SLAttackSuccessRateConstD = 4
+
 GCAttackSuccessRateConstA = 5
 GCAttackSuccessRateConstB = 3
 GCAttackSuccessRateConstC = 2
@@ -641,42 +675,52 @@ DWAttackSuccessRatePvPConstA = 3
 DWAttackSuccessRatePvPConstB = 1
 DWAttackSuccessRatePvPConstC = 4
 DWAttackSuccessRatePvPConstD = 1
+
 DKAttackSuccessRatePvPConstA = 3
 DKAttackSuccessRatePvPConstB = 1
 DKAttackSuccessRatePvPConstC = 45
 DKAttackSuccessRatePvPConstD = 10
+
 FEAttackSuccessRatePvPConstA = 3
 FEAttackSuccessRatePvPConstB = 1
 FEAttackSuccessRatePvPConstC = 6
 FEAttackSuccessRatePvPConstD = 10
+
 MGAttackSuccessRatePvPConstA = 3
 MGAttackSuccessRatePvPConstB = 1
 MGAttackSuccessRatePvPConstC = 35
 MGAttackSuccessRatePvPConstD = 10
+
 DLAttackSuccessRatePvPConstA = 3
 DLAttackSuccessRatePvPConstB = 1
 DLAttackSuccessRatePvPConstC = 4
 DLAttackSuccessRatePvPConstD = 1
+
 SUAttackSuccessRatePvPConstA = 3
 SUAttackSuccessRatePvPConstB = 1
 SUAttackSuccessRatePvPConstC = 35
 SUAttackSuccessRatePvPConstD = 10
+
 RFAttackSuccessRatePvPConstA = 26
 RFAttackSuccessRatePvPConstB = 10
 RFAttackSuccessRatePvPConstC = 36
 RFAttackSuccessRatePvPConstD = 10
+
 GLAttackSuccessRatePvPConstA = 3
 GLAttackSuccessRatePvPConstB = 1
 GLAttackSuccessRatePvPConstC = 2
 GLAttackSuccessRatePvPConstD = 1
+
 RWAttackSuccessRatePvPConstA = 3
 RWAttackSuccessRatePvPConstB = 1
 RWAttackSuccessRatePvPConstC = 4
 RWAttackSuccessRatePvPConstD = 1
+
 SLAttackSuccessRatePvPConstA = 3
 SLAttackSuccessRatePvPConstB = 1
 SLAttackSuccessRatePvPConstC = 5
 SLAttackSuccessRatePvPConstD = 2
+
 GCAttackSuccessRatePvPConstA = 3
 GCAttackSuccessRatePvPConstB = 1
 GCAttackSuccessRatePvPConstC = 4
@@ -687,24 +731,34 @@ GCAttackSuccessRatePvPConstD = 1
 ;==================================================
 DWPhysiSpeedConstA = 20
 DWMagicSpeedConstA = 10
+
 DKPhysiSpeedConstA = 15
 DKMagicSpeedConstA = 20
+
 FEPhysiSpeedConstA = 50
 FEMagicSpeedConstA = 50
+
 MGPhysiSpeedConstA = 15
 MGMagicSpeedConstA = 20
+
 DLPhysiSpeedConstA = 10
 DLMagicSpeedConstA = 10
+
 SUPhysiSpeedConstA = 20
 SUMagicSpeedConstA = 20
+
 RFPhysiSpeedConstA = 9
 RFMagicSpeedConstA = 9
+
 GLPhysiSpeedConstA = 20
 GLMagicSpeedConstA = 20
+
 RWPhysiSpeedConstA = 20
 RWMagicSpeedConstA = 10
+
 SLPhysiSpeedConstA = 15
 SLMagicSpeedConstA = 20
+
 GCPhysiSpeedConstA = 20
 GCMagicSpeedConstA = 10
 
@@ -729,33 +783,43 @@ GCDefenseSuccessRateConstA = 3
 DWDefenseSuccessRatePvPConstA = 2
 DWDefenseSuccessRatePvPConstB = 1
 DWDefenseSuccessRatePvPConstC = 4
+
 DKDefenseSuccessRatePvPConstA = 2
 DKDefenseSuccessRatePvPConstB = 1
 DKDefenseSuccessRatePvPConstC = 2
+
 FEDefenseSuccessRatePvPConstA = 2
 FEDefenseSuccessRatePvPConstB = 1
 FEDefenseSuccessRatePvPConstC = 10
+
 MGDefenseSuccessRatePvPConstA = 2
 MGDefenseSuccessRatePvPConstB = 1
 MGDefenseSuccessRatePvPConstC = 4
+
 DLDefenseSuccessRatePvPConstA = 2
 DLDefenseSuccessRatePvPConstB = 1
 DLDefenseSuccessRatePvPConstC = 2
+
 SUDefenseSuccessRatePvPConstA = 2
 SUDefenseSuccessRatePvPConstB = 1
 SUDefenseSuccessRatePvPConstC = 2
+
 RFDefenseSuccessRatePvPConstA = 15
 RFDefenseSuccessRatePvPConstB = 10
 RFDefenseSuccessRatePvPConstC = 5
+
 GLDefenseSuccessRatePvPConstA = 2
 GLDefenseSuccessRatePvPConstB = 1
 GLDefenseSuccessRatePvPConstC = 5
+
 RWDefenseSuccessRatePvPConstA = 2
 RWDefenseSuccessRatePvPConstB = 1
 RWDefenseSuccessRatePvPConstC = 4
+
 SLDefenseSuccessRatePvPConstA = 2
 SLDefenseSuccessRatePvPConstB = 1
 SLDefenseSuccessRatePvPConstC = 3
+
 GCDefenseSuccessRatePvPConstA = 2
 GCDefenseSuccessRatePvPConstB = 1
 GCDefenseSuccessRatePvPConstC = 4
@@ -805,6 +869,7 @@ GCElementalDamageRatePvP = 100
 KMElementalDamageRatePvP = 100
 LMElementalDamageRatePvP = 100
 IKElementalDamageRatePvP = 100
+
 DWElementalDamageRatePvM = 100
 DKElementalDamageRatePvM = 100
 FEElementalDamageRatePvM = 100

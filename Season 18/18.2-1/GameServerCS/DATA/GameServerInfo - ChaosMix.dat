@@ -40,29 +40,35 @@ DevilSquareMixRate7_AL2 = 70
 DevilSquareMixRate7_AL3 = 70
 
 ;==================================================
-; Plus Item Mix Settings
+; Plus Item Mix Settings +10~+15
 ;==================================================
-PlusItemLevelMixRate1_AL0 = 100
+; +10
+PlusItemLevelMixRate1_AL0 = 60
 PlusItemLevelMixRate1_AL1 = 60
 PlusItemLevelMixRate1_AL2 = 60
 PlusItemLevelMixRate1_AL3 = 60
-PlusItemLevelMixRate2_AL0 = 100
+; +11
+PlusItemLevelMixRate2_AL0 = 60
 PlusItemLevelMixRate2_AL1 = 60
 PlusItemLevelMixRate2_AL2 = 60
 PlusItemLevelMixRate2_AL3 = 60
-PlusItemLevelMixRate3_AL0 = 100
+; +12
+PlusItemLevelMixRate3_AL0 = 50
 PlusItemLevelMixRate3_AL1 = 50
 PlusItemLevelMixRate3_AL2 = 50
 PlusItemLevelMixRate3_AL3 = 50
-PlusItemLevelMixRate4_AL0 = 100
+; +13
+PlusItemLevelMixRate4_AL0 = 50
 PlusItemLevelMixRate4_AL1 = 50
 PlusItemLevelMixRate4_AL2 = 50
 PlusItemLevelMixRate4_AL3 = 50
-PlusItemLevelMixRate5_AL0 = 100
+; +14
+PlusItemLevelMixRate5_AL0 = 40
 PlusItemLevelMixRate5_AL1 = 40
 PlusItemLevelMixRate5_AL2 = 40
 PlusItemLevelMixRate5_AL3 = 40
-PlusItemLevelMixRate6_AL0 = 100
+; +15
+PlusItemLevelMixRate6_AL0 = 40
 PlusItemLevelMixRate6_AL1 = 40
 PlusItemLevelMixRate6_AL2 = 40
 PlusItemLevelMixRate6_AL3 = 40
@@ -82,14 +88,6 @@ FruitMixRate_AL0 = 90
 FruitMixRate_AL1 = 90
 FruitMixRate_AL2 = 90
 FruitMixRate_AL3 = 90
-
-;==================================================
-; Wing2 Mix Settings
-;==================================================
-Wing2MixRate_AL0 = -1
-Wing2MixRate_AL1 = -1
-Wing2MixRate_AL2 = -1
-Wing2MixRate_AL3 = -1
 
 ;==================================================
 ; Blood Castle Mix Settings
@@ -134,6 +132,46 @@ Wing1MixRate_AL0 = -1
 Wing1MixRate_AL1 = -1
 Wing1MixRate_AL2 = -1
 Wing1MixRate_AL3 = -1
+
+;==================================================
+; Wing 2 Mix Settings
+;==================================================
+Wing2MixRate_AL0 = -1
+Wing2MixRate_AL1 = -1
+Wing2MixRate_AL2 = -1
+Wing2MixRate_AL3 = -1
+
+;==================================================
+; Monster Wing 2.5 Mix Settings
+;==================================================
+MonsterWingMixRate_AL0 = -1
+MonsterWingMixRate_AL1 = -1
+MonsterWingMixRate_AL2 = -1
+MonsterWingMixRate_AL3 = -1
+
+;==================================================
+; Feather Of Condor Mix Settings 
+;==================================================
+FeatherOfCondorMixRate_AL0 = -1
+FeatherOfCondorMixRate_AL1 = -1
+FeatherOfCondorMixRate_AL2 = -1
+FeatherOfCondorMixRate_AL3 = -1
+
+;==================================================
+; Wing 3 Mix Settings
+;==================================================
+Wing3MixRate_AL0 = -1
+Wing3MixRate_AL1 = -1
+Wing3MixRate_AL2 = -1
+Wing3MixRate_AL3 = -1
+
+;==================================================
+; Wing 4 Mix Settings
+;==================================================
+Wing4MixRate_AL0 = -1
+Wing4MixRate_AL1 = -1
+Wing4MixRate_AL2 = -1
+Wing4MixRate_AL3 = -1
 
 ;==================================================
 ; Pet Mix Settings
@@ -260,30 +298,6 @@ IllusionTempleMixRate6_AL2 = 70
 IllusionTempleMixRate6_AL3 = 70
 
 ;==================================================
-; Feather Of Condor Mix Settings
-;==================================================
-FeatherOfCondorMixRate_AL0 = -1
-FeatherOfCondorMixRate_AL1 = -1
-FeatherOfCondorMixRate_AL2 = -1
-FeatherOfCondorMixRate_AL3 = -1
-
-;==================================================
-; Wing3 Mix Settings
-;==================================================
-Wing3MixRate_AL0 = -1
-Wing3MixRate_AL1 = -1
-Wing3MixRate_AL2 = -1
-Wing3MixRate_AL3 = -1
-
-;==================================================
-; Wing4 Mix Settings
-;==================================================
-Wing4MixRate_AL0 = -1
-Wing4MixRate_AL1 = -1
-Wing4MixRate_AL2 = -1
-Wing4MixRate_AL3 = -1
-
-;==================================================
 ; Socket Item Create Seed Mix Settings
 ;==================================================
 SocketItemCreateSeedMixRate_AL0 = -1
@@ -328,14 +342,6 @@ LuckyItemRefineMixRate2_AL2 = 10
 LuckyItemRefineMixRate2_AL3 = 10
 
 ;==================================================
-; Monster Wing Mix Settings
-;==================================================
-MonsterWingMixRate_AL0 = -1
-MonsterWingMixRate_AL1 = -1
-MonsterWingMixRate_AL2 = -1
-MonsterWingMixRate_AL3 = -1
-
-;==================================================
 ; Socket Weapon Mix Settings
 ;==================================================
 SocketWeaponMixRate_AL0 = -1
@@ -378,46 +384,14 @@ PentagramDecompositeMixRate_AL3 = 50
 ;==================================================
 ; Arca Battle Trophies of Battle Mix Settings
 ;==================================================
-TrophiesOfBattleMixRate_10_AL0 = 55
-TrophiesOfBattleMixRate_10_AL1 = 55
-TrophiesOfBattleMixRate_10_AL2 = 55
-TrophiesOfBattleMixRate_10_AL3 = 55
-TrophiesOfBattleMixRate_20_AL0 = 55
-TrophiesOfBattleMixRate_20_AL1 = 55
-TrophiesOfBattleMixRate_20_AL2 = 55
-TrophiesOfBattleMixRate_20_AL3 = 55
-TrophiesOfBattleMixRate_30_AL0 = 55
-TrophiesOfBattleMixRate_30_AL1 = 55
-TrophiesOfBattleMixRate_30_AL2 = 55
-TrophiesOfBattleMixRate_30_AL3 = 55
-TrophiesOfBattleMixRate_40_AL0 = 55
-TrophiesOfBattleMixRate_40_AL1 = 55
-TrophiesOfBattleMixRate_40_AL2 = 55
-TrophiesOfBattleMixRate_40_AL3 = 55
-TrophiesOfBattleMixRate_50_AL0 = 50
-TrophiesOfBattleMixRate_50_AL1 = 50
-TrophiesOfBattleMixRate_50_AL2 = 50
-TrophiesOfBattleMixRate_50_AL3 = 50
-TrophiesOfBattleMixRate_60_AL0 = 50
-TrophiesOfBattleMixRate_60_AL1 = 50
-TrophiesOfBattleMixRate_60_AL2 = 50
-TrophiesOfBattleMixRate_60_AL3 = 50
-TrophiesOfBattleMixRate_70_AL0 = 50
-TrophiesOfBattleMixRate_70_AL1 = 50
-TrophiesOfBattleMixRate_70_AL2 = 50
-TrophiesOfBattleMixRate_70_AL3 = 50
-TrophiesOfBattleMixRate_80_AL0 = 45
-TrophiesOfBattleMixRate_80_AL1 = 45
-TrophiesOfBattleMixRate_80_AL2 = 45
-TrophiesOfBattleMixRate_80_AL3 = 45
-TrophiesOfBattleMixRate_90_AL0 = 45
-TrophiesOfBattleMixRate_90_AL1 = 45
-TrophiesOfBattleMixRate_90_AL2 = 45
-TrophiesOfBattleMixRate_90_AL3 = 45
-TrophiesOfBattleMixRate_100_AL0 = 45
-TrophiesOfBattleMixRate_100_AL1 = 45
-TrophiesOfBattleMixRate_100_AL2 = 45
-TrophiesOfBattleMixRate_100_AL3 = 45
+TrophiesOfBattleMixRate_AL0 = 50
+TrophiesOfBattleMixRate_AL1 = 50
+TrophiesOfBattleMixRate_AL2 = 50
+TrophiesOfBattleMixRate_AL3 = 50
+TrophiesOfBattleMixRateAdd_AL0 = 5
+TrophiesOfBattleMixRateAdd_AL1 = 5
+TrophiesOfBattleMixRateAdd_AL2 = 5
+TrophiesOfBattleMixRateAdd_AL3 = 5
 
 ;==================================================
 ; Absolute Archangel Mix Settings
@@ -428,21 +402,44 @@ AbsoluteArchangelMixRate_AL2 = 100
 AbsoluteArchangelMixRate_AL3 = 100
 
 ;==================================================
+; Enhance Earrings Mix Settings
+;==================================================
+EnhanceEarringsMixRate_AL0 = 60
+EnhanceEarringsMixRate_AL1 = 60
+EnhanceEarringsMixRate_AL2 = 60
+EnhanceEarringsMixRate_AL3 = 60
+EnhanceEarringsMixMoney_AL0 = 1000000
+EnhanceEarringsMixMoney_AL1 = 1000000
+EnhanceEarringsMixMoney_AL2 = 1000000
+EnhanceEarringsMixMoney_AL3 = 1000000
+EnhanceEarringsMixAddLevelMoney_AL0 = 500000
+EnhanceEarringsMixAddLevelMoney_AL1 = 500000
+EnhanceEarringsMixAddLevelMoney_AL2 = 500000
+EnhanceEarringsMixAddLevelMoney_AL3 = 500000
+
+;==================================================
 ; Elemental Item Refinament Mix Settings
 ;==================================================
 ElementConvertionEnabled = 1
 ElementalItemETCGMODownLevel = 1
+EarringETCGMODownLevel = 0
 ElementalTalismanOfLuckRate = 10
 
 ;==================================================
 ; Talisman Settings
 ;==================================================
-ChaosMachineEnabledDoubleTalisman = 0
+ChaosMachineEnabledDoubleTalisman = 1
+
+;==================================================
+; Chaos Card
+;==================================================
+ChaosCardMixSwitch = 1
+ChaosCardMixHeader = 40
 
 ;==================================================
 ; Artifact Spider Mix Settings
 ;==================================================
 ArtifactSpiderRate_AL0 = 80
-ArtifactSpiderRate_AL1 = 80
-ArtifactSpiderRate_AL2 = 80
-ArtifactSpiderRate_AL3 = 80
+ArtifactSpiderRate_AL1 = 85
+ArtifactSpiderRate_AL2 = 90
+ArtifactSpiderRate_AL3 = 95

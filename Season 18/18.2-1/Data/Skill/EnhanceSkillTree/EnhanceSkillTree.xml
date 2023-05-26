@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <EnhanceSkillTree>
-	<Class ID="0">
+		<Class ID="0"><!-- DW -->
 		<Skill Group="0" Index="0" Skill="1075" Color="0" MinLevel="1" MaxLevel="20" ExtValue="115" RelatedSkill="724" RequireSkill1="724" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="51" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -132,7 +132,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="1">
+	<Class ID="1"><!-- DK -->
 		<Skill Group="0" Index="0" Skill="1071" Color="0" MinLevel="1" MaxLevel="20" ExtValue="113" RelatedSkill="43" RequireSkill1="339" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1003" Color="0" MinLevel="15" MaxLevel="15" ExtValue="46" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -346,7 +346,7 @@
 		<Skill Group="6" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="6" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="2">
+	<Class ID="2"><!-- FE -->
 		<Skill Group="0" Index="0" Skill="1081" Color="0" MinLevel="1" MaxLevel="20" ExtValue="118" RelatedSkill="24" RequireSkill1="418" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -560,7 +560,7 @@
 		<Skill Group="6" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="6" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="3">
+	<Class ID="3"><!-- MG -->
 		<Skill Group="0" Index="0" Skill="1094" Color="0" MinLevel="1" MaxLevel="20" ExtValue="125" RelatedSkill="732" RequireSkill1="732" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="51" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -881,7 +881,7 @@
 		<Skill Group="8" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="8" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="4">
+	<Class ID="4"><!-- DL -->
 		<Skill Group="0" Index="0" Skill="1098" Color="0" MinLevel="1" MaxLevel="20" ExtValue="128" RelatedSkill="238" RequireSkill1="523" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1012,7 +1012,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="5">
+	<Class ID="5"><!-- SU -->
 		<Skill Group="0" Index="0" Skill="1155" Color="0" MinLevel="1" MaxLevel="20" ExtValue="131" RelatedSkill="288" RequireSkill1="288" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="50" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1181,7 +1181,7 @@
 		<Skill Group="4" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="4" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="6">
+	<Class ID="6"><!-- RF -->
 		<Skill Group="0" Index="0" Skill="1147" Color="0" MinLevel="1" MaxLevel="20" ExtValue="134" RelatedSkill="282" RequireSkill1="282" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1312,7 +1312,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="7">
+	<Class ID="7"><!-- GL -->
 		<Skill Group="0" Index="0" Skill="1118" Color="0" MinLevel="1" MaxLevel="20" ExtValue="137" RelatedSkill="279" RequireSkill1="698" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1003" Color="0" MinLevel="15" MaxLevel="15" ExtValue="46" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1443,7 +1443,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="8">
+	<Class ID="8"><!-- RW -->
 		<Skill Group="0" Index="0" Skill="1148" Color="0" MinLevel="1" MaxLevel="20" ExtValue="165" RelatedSkill="283" RequireSkill1="749" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1574,7 +1574,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="9">
+	<Class ID="9"><!-- SL -->
 		<Skill Group="0" Index="0" Skill="1158" Color="0" MinLevel="1" MaxLevel="20" ExtValue="113" RelatedSkill="292" RequireSkill1="780" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1705,7 +1705,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="10">
+	<Class ID="10"><!-- GC -->
 		<Skill Group="0" Index="0" Skill="1211" Color="0" MinLevel="1" MaxLevel="20" ExtValue="266" RelatedSkill="2001" RequireSkill1="822" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1836,7 +1836,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="11">
+	<Class ID="11"><!-- KM -->
 		<Skill Group="0" Index="0" Skill="1220" Color="0" MinLevel="1" MaxLevel="20" ExtValue="117" RelatedSkill="241" RequireSkill1="844" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -1967,7 +1967,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="12">
+	<Class ID="12"><!-- LM -->
 		<Skill Group="0" Index="0" Skill="1217" Color="0" MinLevel="1" MaxLevel="20" ExtValue="117" RelatedSkill="245" RequireSkill1="849" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="52" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -2098,7 +2098,7 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-	<Class ID="13">
+	<Class ID="13"><!-- IK -->
 		<Skill Group="0" Index="0" Skill="1231" Color="0" MinLevel="1" MaxLevel="20" ExtValue="308" RelatedSkill="2028" RequireSkill1="878" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="0" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="51" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -2176,7 +2176,7 @@
 		<Skill Group="1" Index="63" Skill="1191" Color="2" MinLevel="10" MaxLevel="20" ExtValue="208" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1168" RequireSkillPoint2="10" RequireSkill3="1169" RequireSkillPoint3="10" />
 		<Skill Group="1" Index="20" Skill="-1" Color="3" MinLevel="-1" MaxLevel="-1" ExtValue="-1" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="2" Index="0" Skill="1233" Color="0" MinLevel="1" MaxLevel="20" ExtValue="307" RelatedSkill="2030" RequireSkill1="882" RequireSkillPoint1="10" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
-		<Skill Group="2" Index="1" Skill="1002" Color="0" MinLevel="15" MaxLevel="15" ExtValue="45" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
+		<Skill Group="2" Index="1" Skill="1003" Color="0" MinLevel="15" MaxLevel="15" ExtValue="46" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="2" Index="2" Skill="1007" Color="0" MinLevel="1" MaxLevel="20" ExtValue="51" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="2" Index="3" Skill="1010" Color="0" MinLevel="10" MaxLevel="10" ExtValue="61" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="2" Index="4" Skill="1012" Color="0" MinLevel="10" MaxLevel="10" ExtValue="61" RelatedSkill="0" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="0" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
@@ -2229,5 +2229,5 @@
 		<Skill Group="3" Index="23" Skill="1135" Color="3" MinLevel="10" MaxLevel="10" ExtValue="149" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1131" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 		<Skill Group="3" Index="24" Skill="1198" Color="3" MinLevel="1" MaxLevel="20" ExtValue="217" RelatedSkill="1125" RequireSkill1="0" RequireSkillPoint1="-1" RequireSkill2="1135" RequireSkillPoint2="-1" RequireSkill3="0" RequireSkillPoint3="-1" />
 	</Class>
-
+	
 </EnhanceSkillTree>

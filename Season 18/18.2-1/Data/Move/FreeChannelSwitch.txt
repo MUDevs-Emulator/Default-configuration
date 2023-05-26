@@ -4,6 +4,7 @@
 end
 
 1
-// ServerCode	Enabled		Description
-19		0		//Game Server CS
+//ServerCode    Enabled        Description
+20              1              //GameServer
+19              0              //GameServerCS
 end

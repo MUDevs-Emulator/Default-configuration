@@ -1,3 +1,164 @@
+//==============================================================================================================================================================================//
+//Type
+//0 = ITEM
+//1 = BUFF
+//==============================================================================================================================================================================//
 0
-//Index   Type   Level   Durability		Option1   Option2   Option3   Excelent   SetOption   SocketOption   Time     DW   DK   FE   MG   DL   SU   RF   GL   RW   SL  GC KM LM	IK
+//Dark Knight
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3585		0		8		0		0		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0	0	0	0		// Dragon Helm
+4097		0		8		0		0		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Dragon Armor
+4609		0		8		0		0		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Dragon Pants
+5121		0		8		0		0		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Dragon Gloves
+5633		0		8		0		0		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Dragon Boots
+13			0		8		0		1		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Double Blade
+3085		0		8		0		1		0		0		1		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Dragon Shield
+6278		0		0		0		0		0		0		0		0		0		604800	0	1	0	0	0	0	0	0	0	0	0 	0	0	0		// Small Wing of Satan
+//==============================================================================================================================================================================//	                                                                                                                                            
+//Dark Wizard	                                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3587 		0		8		0		0		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Helm
+4099 		0		8		0		0		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Armor
+4611 		0		8		0		0		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Pants
+5123 		0		8		0		0		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Gloves
+5635 		0		8		0		0		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Boots
+2565 		0		8		0		1		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Staff
+3086 		0		8		0		1		0		0		1		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Legendary Shield
+6277        0		0		0		0		0		0		0		0		0		604800	1	0	0	0	0	0	0	0	0	0	0	0	0	0		// Small Wings of Heaven
+//==============================================================================================================================================================================//
+//Fairy Elf	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3595        0		8		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Silk Helm
+4107        0		8		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Silk Armor
+4619        0		8		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Silk Pants
+5131        0		8		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Silk Gloves
+5643        0		8		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Silk Boots
+2049        0		8		0		1		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Bow
+2063        0		3		0		0		0		0		1		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Arrow
+6276        0		0		0		0		0		0		0		0		0		604800	0	0	1	0	0	0	0	0	0	0	0	0	0	0		// Small Wings of Elf
+//==============================================================================================================================================================================//
+//Summoner	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3624        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Helm
+4136        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Armor
+4648        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Pants
+5160        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Gloves
+5672        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Boots
+2576        0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Red Wing Stick
+2581        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Book of Samut 
+6275        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	1	0	0	0	0	0	0	0	0		// Small Wings of Curse 
+//==============================================================================================================================================================================//
+//Magic Gladiator	                                                                                                                            
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+4111        0		8		0		0		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Storm Crow Armor
+4623        0		8		0		0		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Storm Crow Pants
+5135        0		8		0		0		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Storm Crow Gloves
+5647        0		8		0		0		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Storm Crow Boots
+13          0		8		0		1		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Double Blade
+3085        0		8		0		1		0		0		1		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Dragon Shield
+6278        0		0		0		0		0		0		0		0		0		604800	0	0	0	1	0	0	0	0	0	0	0	0	0	0		// Small Wing of Satan
+//==============================================================================================================================================================================//
+//Dark Lord	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3609        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Light Plate Mask
+4121        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Light Plate Armor
+4633        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Light Plate Pants
+5145        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Light Plate Gloves
+5657        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Light Plate Boots
+1032        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Battle Scepter
+3080        0		8		0		1		0		0		1		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Tower Shield 
+6274        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	1	0	0	0	0	0	0	0	0	0		// Small Cape of Lord
+//==============================================================================================================================================================================//
+//Rage Fighter	                                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3643        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Helm
+4155        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Armor
+4667        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Pants
+32          0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Gloves
+32          0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Gloves
+5691        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Sacred Fire Boots
+6279        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	1	0	0	0	0	0	0	0		// Little Warrior's Cloak
+//==============================================================================================================================================================================//
+//Glow Lancer	                                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3675        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Robust Helm
+4187        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Robust Armor
+4699        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Robust Pants
+5211        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Robust Gloves
+5723        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Robust Boots
+1549        0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Lapid Lance
+3101        0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Lapid Shield
+6422        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	1	0	0	0	0	0	0		// Small Cloak of Limit
+//==============================================================================================================================================================================//
+//Rune Mage	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3702        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Rune Legendary Helm
+4214        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Rune Legendary Armor
+4726        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Rune Legendary Pants
+5238        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Rune Legendary Gloves
+5750        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Rune Legendary Boots
+1052        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Elemental Rune Mace
+3114        0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// El Hazard Shield
+6277        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	1	0	0	0	0	0		// Small Wings of Heaven
+//==============================================================================================================================================================================//
+//Slayer	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3758        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Slayer Red Wing Helm		
+4270        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Slayer Red Wing Armor		
+4782        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Slayer Red Wing Pants	
+5294        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Slayer Red Wing Gloves		
+5806        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Slayer Red Wing Boots		
+66          0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Flat Short Sword		
+66          0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Flat Short Sword		
+6278        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Small Wings of Satan		
+//6625	    0		0		1		0		0		0		0		0		0			 *	0	0	0	0	0	0	0	0	0	1	0	0	0	0		// Egg Slayer (Moved to defaultClassType))
+//==============================================================================================================================================================================//
+//Gun Crusher	                                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3792        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Light Plate Gunner Helm
+4304        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Light Plate Gunner Armor
+4816        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Light Plate Gunner Pants
+5328        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Light Plate Gunner Gloves
+5840        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Light Plate Gunner Boots
+2090        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Entropy Gun
+2090        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Entropy Gun
+6277        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	0	0	1	0	0	0		// Small Wings of Heaven
+//==============================================================================================================================================================================//
+//Kundum Mephis	                                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment
+3819        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Glimmer Helm
+4331        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Glimmer Armor
+4843        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Glimmer Pants
+5355        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Glimmer Gloves
+5867        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Glimmer Boots
+2565 		0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0	1	0	0		// Legendary Staff
+6298        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   1   0	0		// Small White Cloack
+//==============================================================================================================================================================================//
+//Lemuria	                                                                                                                                    
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment 
+3838        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Mage Legendary Helm
+4350        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Mage Legendary Armor
+4862        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Mage Legendary Pants
+5374        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Mage Legendary Gloves
+5886        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Mage Legendary Boots
+2641 		0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0	0	1	0		// Royal Orb
+3086 		0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0	0	1	0		// Legendary Shield
+6277        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   1	0		// Small Wings of Heaven
+//==============================================================================================================================================================================//
+//Illusion Knight	                                                                                                                            
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment 
+3884        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Illusion Knight Scale Helm
+4396        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Illusion Knight Scale Armor
+4908        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Illusion Knight Scale Pants
+5420        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Illusion Knight Scale Gloves
+5932        0		8		0		0		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Illusion Knight Scale Boots
+0101 		0		8		0		1		0		0		1		0		0		604800	0	0	0	0	0	0	0	0	0	0	0	0	0	1		// Silver Blade
+6316        0		0		0		0		0		0		0		0		0		604800	0	0	0	0	0	0	0	0	0	0	0   0   0	1		// Small Iron Cloak 
+//==============================================================================================================================================================================//
+// Switch Scroll - Rings 40/80	                                                                                                                
+//Index	   Type	   Lvl	   Dur    Skill	   Luck	   Life	   Exc     Set    Socket     Time	DW	DK	FE	MG	DL	SU	RF	GL	RW	SL	GC	KM	LM	IK		// Comment 
+7621		0		0		1		*	    *		*	    *		*		*			*	1	1	1	1	1	1	1	1	1	1	1	1	1	1		// Switch Scroll
+6676		0       1		0		0		0		0		0		0		0			*	1	1	1	1	1	1	1	1	1	1	1	1	1	1		// Shampions Ring
+6676		0       2		0		0		0		0		0		0		0			*	1	1	1	1	1	1	1	1	1	1	1	1	1	1		// Warrior Ring
+//==============================================================================================================================================================================//
 end

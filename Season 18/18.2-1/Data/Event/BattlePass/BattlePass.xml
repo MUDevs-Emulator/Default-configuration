@@ -63,13 +63,13 @@
 		<Info ID="2" Type="0" EffectIndex="412" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - [G] Master Soul Crystal" />
 		<Info ID="3" Type="0" EffectIndex="413" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - Tempest Muun multiplier increase" />
 		<Info ID="4" Type="0" EffectIndex="415" ISection="-1" IType="-1" ICount="-1" PassType="2" Name="Season Pass - [P] Master Soul Crystal" />
-		<Info ID="5" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="3" PassType="-1" Name="[Bound] Bless of Light [Greater Grade]" />
-		<Info ID="6" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="5" PassType="-1" Name="[Bound] Bless of Light [Greater Grade]" />
+		<Info ID="5" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="3" PassType="-1" Name="[Bound] Bless of Light [Greater] x3" />
+		<Info ID="6" Type="1" EffectIndex="-1" ISection="14" IType="371" ICount="5" PassType="-1" Name="[Bound] Bless of Light [Greater] x5" />
 		<Info ID="7" Type="1" EffectIndex="-1" ISection="14" IType="42" ICount="5" PassType="-1" Name="Jewel of Harmony" />
 		<Info ID="8" Type="1" EffectIndex="-1" ISection="20" IType="125" ICount="0" PassType="-1" Name="Ruud Box (10000)" />
 		<Info ID="9" Type="1" EffectIndex="-1" ISection="16" IType="510" ICount="0" PassType="-1" Name="Tempest Evolution Stone" />
 		<Info ID="10" Type="1" EffectIndex="-1" ISection="20" IType="120" ICount="5" PassType="-1" Name="Elixir Jar" />
-		<Info ID="11" Type="1" EffectIndex="-1" ISection="20" IType="121" ICount="0" PassType="-1" Name="[Bound] Brilliant Amulet Box" />
+		<Info ID="11" Type="1" EffectIndex="-1" ISection="20" IType="121" ICount="0" PassType="-1" Name="[Bound] Charm Amulet Box" />
 		<Info ID="12" Type="1" EffectIndex="-1" ISection="20" IType="144" ICount="0" PassType="-1" Name="Tempest Muun Evolution Stone Box (Amplified)" />
 		<Info ID="13" Type="1" EffectIndex="-1" ISection="20" IType="147" ICount="0" PassType="-1" Name="Tempest Muun Evolution Stone Box (Wide)" />
 	</Reward>

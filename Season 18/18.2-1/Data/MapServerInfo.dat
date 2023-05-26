@@ -1,157 +1,125 @@
+//==============================================================================================//
+// MapServerInfo MuDevs S18.2-1
 0
-//ServerCode   MapServerGroup   InitSetVal   IpAddress          Port
-20	       				0	        1	     SYOURIP			55901
-120	       				0	        1	     SYOURIP   			55904
-19	       				0	        0	     SYOURIP			55919
+//ServerCode	MapServerGroup	InitSetVal		IpAddress			Port
+20				0				1				SYOURIP				55901		//GameServer
+19				0				0				SYOURIP				55919		//GameServerCS
 end
 
 1
 //ServerCode   NotMoveOption   NextMap   NextServerCode
-20	       0	       9         19
-20	       0	       11        19
-20	       0	       12        19
-20	       0	       13        19
-20	       0	       14        19
-20	       0	       15        19
-20	       0	       16        19
-20	       0	       17        19
-20	       0	       18        19
-20	       0	       19        19
-20	       0	       20        19
-20	       0	       21        19
-20	       0	       22        19
-20	       0	       23        19
-20	       0	       30        19
-20	       0	       31        19
-20	       0	       32        19
-20	       0	       34        19
-20	       0	       41        19
-20	       0	       42        19
-20	       0	       45        19
-20	       0	       46        19
-20	       0	       47        19
-20	       0	       48        19
-20	       0	       49        19
-20	       0	       50        19
-20	       0	       52        19
-20	       0	       53        19
-20	       0	       69        19
-20	       0	       70        19
-20	       0	       71        19
-20	       0	       72        19
-20	       0	       79        19
-20	       0	       82        19
-20	       0	       83        19
-20	       0	       84        19
-20	       0	       85        19
-20	       0	       86        19
-20	       0	       87        19
-20	       0	       88        19
-20	       0	       89        19
-20	       0	       90        19
-20	       0	       114       19
-20	       0	       115       19
-20	       0	       121       19
-20         0           92        19
-20         0           96        19
-20	       0	       97        19
-20	       0	       98        19
-20	       0	       99        19
+//GameServer
+20	       0	       9         19	//Devil Square 1
+20	       0	       11        19	//Blood Castle 1
+20	       0	       12        19	//Blood Castle 2
+20	       0	       13        19	//Blood Castle 3
+20	       0	       14        19	//Blood Castle 4
+20	       0	       15        19	//Blood Castle 5
+20	       0	       16        19	//Blood Castle 6
+20	       0	       17        19	//Blood Castle 7
+20	       0	       18        19	//Chaos Castle 1
+20	       0	       19        19	//Chaos Castle 2
+20	       0	       20        19	//Chaos Castle 3
+20	       0	       21        19	//Chaos Castle 4
+20	       0	       22        19	//Chaos Castle 5
+20	       0	       23        19	//Chaos Castle 6
+20	       0	       30        19	//Castle Siege
+20	       0	       31        19	//Land of Trials
+20	       0	       32        19	//Devil Square 2
+20	       0	       34        19	//Crywolf
+20	       0	       41        19	//Barracks
+20	       0	       42        19	//Refuge
+20	       0	       45        19	//Illusion Temple 1
+20	       0	       46        19	//Illusion Temple 2
+20	       0	       47        19	//Illusion Temple 3
+20	       0	       48        19	//Illusion Temple 4
+20	       0	       49        19	//Illusion Temple 5
+20	       0	       50        19	//Illusion Temple 6
+20	       0	       52        19	//Blood Castle 8
+20	       0	       53        19	//Chaos Castle 7
+20	       0	       69        19	//Imperial Guardian 1
+20	       0	       70        19	//Imperial Guardian 2
+20	       0	       71        19	//Imperial Guardian 3
+20	       0	       72        19	//Imperial Guardian 4
+20	       0	       79        19	//Loren Market
+20	       0	       82        19	//Double Goer Renew 1
+20	       0	       83        19	//Double Goer Renew 2
+20	       0	       84        19	//Double Goer Renew 3
+20	       0	       85        19	//Double Goer Renew 4
+20	       0	       86        19	//Double Goer Renew 5
+20	       0	       87        19	//Double Goer Renew 6
+20	       0	       88        19	//Double Goer Renew 7
+20	       0	       89        19	//Double Goer Renew 8
+20	       0	       90        19	//Double Goer Renew 9
+20	       0	       92        19	//ArkaBattle - Acheron 2
+20	       0	       96        19	//ArkaBattle - Debenter 2
+20	       0	       97        19	//BattleCore - Chaos Castle Final
+20	       0	       98        19	//BattleCore - Illusion Temple Final 1
+20	       0	       99        19	//BattleCore - Illusion Temple Final 2
+20	       0	       102       19	//BattleCore - Devil Square Final
+20	       0	       103       19	//BattleCore - Devil Battle 1
+20	       0	       104       19	//BattleCore - Devil Battle 2
+20	       0	       105       19	//BattleCore - Devil Battle 3
+20	       0	       106       19	//BattleCore - Devil Battle 4
+20	       0	       114       19	//Instance Zone
+20	       0	       115       19	//Labyrinth of Dimensions
+20	       0	       121       19	//Trial Area
 
-120	       0	       9         19
-120	       0	       11        19
-120	       0	       12        19
-120	       0	       13        19
-120	       0	       14        19
-120	       0	       15        19
-120	       0	       16        19
-120	       0	       17        19
-120	       0	       18        19
-120	       0	       19        19
-120	       0	       20        19
-120	       0	       21        19
-120	       0	       22        19
-120	       0	       23        19
-120	       0	       30        19
-120	       0	       31        19
-120	       0	       32        19
-120	       0	       34        19
-120	       0	       41        19
-120	       0	       42        19
-120	       0	       45        19
-120	       0	       46        19
-120	       0	       47        19
-120	       0	       48        19
-120	       0	       49        19
-120	       0	       50        19
-120	       0	       52        19
-120	       0	       53        19
-120	       0	       69        19
-120	       0	       70        19
-120	       0	       71        19
-120	       0	       72        19
-120	       0	       79        19
-120	       0	       82        19
-120	       0	       83        19
-120	       0	       84        19
-120	       0	       85        19
-120	       0	       86        19
-120	       0	       87        19
-120	       0	       88        19
-120	       0	       89        19
-120	       0	       90        19
-120	       0	       114       19
-120	       0	       115       19
-120	       0	       121       19
-
-19	       1	       9         -1
-19	       1	       11        -1
-19	       1	       12        -1
-19	       1	       13        -1
-19	       1	       14        -1
-19	       1	       15        -1
-19	       1	       16        -1
-19	       1	       17        -1
-19	       1	       18        -1
-19	       1	       19        -1
-19	       1	       20        -1
-19	       1	       21        -1
-19	       1	       22        -1
-19	       1	       23        -1
-19	       1	       30        -1
-19	       1	       31        -1
-19	       1	       32        -1
-19	       1	       34        -1
-19	       1	       41        -1
-19	       1	       42        -1
-19	       1	       45        -1
-19	       1	       46        -1
-19	       1	       47        -1
-19	       1	       48        -1
-19	       1	       49        -1
-19	       1	       50        -1
-19	       1	       52        -1
-19	       1	       53        -1
-19	       1	       69        -1
-19	       1	       70        -1
-19	       1	       71        -1
-19	       1	       72        -1
-19	       1	       79        -1
-19	       1	       82        -1
-19	       1	       83        -1
-19	       1	       84        -1
-19	       1	       85        -1
-19	       1	       86        -1
-19	       1	       87        -1
-19	       1	       88        -1
-19	       1	       89        -1
-19	       1	       90        -1
-19	       1	       114       -1
-19	       1	       115       -1
-19	       1	       121       -1
-19 		   1 		   92        -1
-19 		   1           96        -1
-19	       1	       97        -1
-19	       1	       98        -1
-19	       1	       99        -1
+//ServerCode   NotMoveOption   NextMap   NextServerCode
+//GameServerCS
+19	       1	       9         -1	//Devil Square 1
+19	       1	       11        -1	//Blood Castle 1
+19	       1	       12        -1	//Blood Castle 2
+19	       1	       13        -1	//Blood Castle 3
+19	       1	       14        -1	//Blood Castle 4
+19	       1	       15        -1	//Blood Castle 5
+19	       1	       16        -1	//Blood Castle 6
+19	       1	       17        -1	//Blood Castle 7
+19	       1	       18        -1	//Chaos Castle 1
+19	       1	       19        -1	//Chaos Castle 2
+19	       1	       20        -1	//Chaos Castle 3
+19	       1	       21        -1	//Chaos Castle 4
+19	       1	       22        -1	//Chaos Castle 5
+19	       1	       23        -1	//Chaos Castle 6
+19	       1	       30        -1	//Castle Siege
+19	       1	       31        -1	//Land of Trials
+19	       1	       32        -1	//Devil Square 2
+19	       1	       34        -1	//Crywolf
+19	       1	       41        -1	//Barracks
+19	       1	       42        -1	//Refuge
+19	       1	       45        -1	//Illusion Temple 1
+19	       1	       46        -1	//Illusion Temple 2
+19	       1	       47        -1	//Illusion Temple 3
+19	       1	       48        -1	//Illusion Temple 4
+19	       1	       49        -1	//Illusion Temple 5
+19	       1	       50        -1	//Illusion Temple 6
+19	       1	       52        -1	//Blood Castle 8
+19	       1	       53        -1	//Chaos Castle 7
+19	       1	       69        -1	//Imperial Guardian 1
+19	       1	       70        -1	//Imperial Guardian 2
+19	       1	       71        -1	//Imperial Guardian 3
+19	       1	       72        -1	//Imperial Guardian 4
+19	       1	       79        -1	//Loren Market
+19	       1	       82        -1	//Double Goer Renew 1
+19	       1	       83        -1	//Double Goer Renew 2
+19	       1	       84        -1	//Double Goer Renew 3
+19	       1	       85        -1	//Double Goer Renew 4
+19	       1	       86        -1	//Double Goer Renew 5
+19	       1	       87        -1	//Double Goer Renew 6
+19	       1	       88        -1	//Double Goer Renew 7
+19	       1	       89        -1	//Double Goer Renew 8
+19	       1	       90        -1	//Double Goer Renew 9
+19	       1	       92        -1 //ArkaBattle Acheron 2
+19	       1	       96        -1 //ArkaBattle Debenter 2
+19	       0	       97        -1 //BattleCore - Chaos Castle Final
+19	       0	       98        -1 //BattleCore - Illusion Temple Final 1
+19	       0	       99        -1 //BattleCore - Illusion Temple Final 2
+19	       0	       102       -1 //BattleCore - Devil Square Final
+19	       0	       103       -1 //BattleCore - Devil Battle
+19	       0	       104       -1 //BattleCore - Devil Battle
+19	       0	       105       -1 //BattleCore - Devil Battle
+19	       0	       106       -1 //BattleCore - Devil Battle
+19	       1	       114       -1	//Instance Zone
+19	       1	       115       -1	//Labyrinth of Dimensions
+19	       1	       121       -1	//Trial Area
 end

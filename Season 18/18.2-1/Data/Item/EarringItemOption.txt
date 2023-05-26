@@ -1,24 +1,64 @@
+//===========================================================================================================================//
+//EarringOption.txt MuDevs S18.2-1
+//===========================================================================================================================//
+//SetOptId	SetOptName	Operator
+//	0	"Increase Strength"	1
+//	1	"Increase Agility"	1
+//	2	"Increase Energy"	1
+//	3	"Increase Stamina"	1
+//	4	"Increase Command"	1
+//	5	"Increase Min. Damage"	1
+//	6	"Increase Max. Damage"	1
+//	7	"Increase Wizardry Damage"	2
+//	8	"Increase Damage"	2
+//	9	"Increase Attack Speed"	1
+//	10	"Increase Defense"	1
+//	11	"Increase Max. Life"	1
+//	12	"Increase Max. Mana"	1
+//	13	"Increase Maximum AG"	1
+//	14	"Increase AG Recovery Rate"	1
+//	15	"Increase Critical Damage Chance"	2
+//	16	"Increase Critical Damage"	1
+//	17	"Increase Excellent Damage Chance"	2
+//	18	"Increase Excellent Damage"	1
+//	19	"Increase Skill Damage"	1
+//	20	"Double Damage Chance"	2
+//	21	"Ignore Enemy's Defense"	2
+//	22	"Increase defense when using shield"	2
+//	23	"Increase Damage/Magical Damage"	1
+//	24	"Increase all stats"	1
+//	26	"Increase Damage"	1
+//	27	"Increase Magical Damage"	1
+//	28	"Increases Mastery DMG/Wizardry"	1
+//	29	"Increases Mastery Excellent DMG"	1
+//	30	"Increases Mastery Critical DMG"	1
+//	31	"Increases Mastery DMG"	1
+//===========================================================================================================================//
 0
 //Season	RateOption1	RateOption2	RateOption3	RateOption4	RateOption5	
-1			7000		2000		1000		0		0
+1			7000			2000			1000			0			0
 end
-
+//===========================================================================================================================//
+//OptionLinkSettings
 1
 //Index   Group   Idx1   Val1   Rate   Idx2   Val2   Rate   Idx3   Val3   Rate   Idx4   Val4   Rate   Idx5   Val5   Rate
+//Left
 6593      0       19     1      2000   23     4      2000   18     6      2000   16     6      2000   11     0      2000
 6594      1       19     1      2000   28     4      2000   29     6      2000   30     6      2000   11     0      2000
 6595      2       19     1      2000   28     4      2000   29     6      2000   30     6      2000   11     0      2000
 6596      3       19     1      2000   28     4      2000   29     6      2000   30     6      2000   11     0      2000
 6597      4       19     1      2000   28     4      2000   29     6      2000   30     6      2000   11     0      2000
 6598      5       19     1      2000   28     4      2000   29     6      2000   30     6      2000   11     0      2000
+//Right
 6601      8       9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
 6602      9       9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
 6603      10      9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
 6604      11      9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
 6605      12      9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
-6606      12      9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
+6606      13      9      5      2000   17     2      2000   15     2      2000   14     3      2000   12     0      2000
 end
-
+//===========================================================================================================================//
+//OptionLinkSettings (Linked option is being activated when left and right earning (link indexes) are worn together)
 2
 //Group   OptIdx1   OptVal1   OptIdx2   OptVal2   OptIdx3   OptVal3
 0         21        7         24        2	  	  -1        -1
@@ -28,8 +68,9 @@ end
 4	  	  21	    7	      24		2     	  31	    8
 5	  	  21	    7	      24		2     	  31	    8
 end
-
+//===========================================================================================================================//
 3
+//Edition 1
 //Group   Index   Value
 0         0       200	  
 0         1       17	  
@@ -39,6 +80,7 @@ end
 0         5       7	  
 0         6       35	  
 0         7       1
+//Edition 2
 1         0       400
 1         1       19
 1         2       5
@@ -47,6 +89,7 @@ end
 1         5       7
 1         6       1
 1         7       2
+//Edition 3
 2         0       600												
 2         1       21												
 2         2       6												
@@ -55,6 +98,7 @@ end
 2         5       7												
 2         6       3												
 2         7       3
+//Edition 4
 3	  	  0	  	  800	
 3	  	  1	  	  23
 3	  	  2	  	  7
@@ -64,6 +108,7 @@ end
 3	  	  6	  	  5
 3	  	  7	  	  4
 3	  	  8	  	  6
+//Edition 5
 4	  	  0	  	  1000	
 4	  	  1	  	  25
 4	  	  2	  	  8
@@ -73,32 +118,33 @@ end
 4	  	  6	  	  8
 4	  	  7	  	  5
 4	  	  8	  	  9
-5	  	  0	  	  1000	
-5	  	  1	  	  27	
-5	  	  2	  	  9	
-5	  	  3	  	  10	
-5	  	  4	  	  10	
-5	  	  5	  	  7	
-5	  	  6	  	  11	
-5	  	  7	  	  6	
-5	  	  8	  	  12
+//Edition 5 (S18.2-1)
+5	  	  0	  	  1000		
+5	  	  1	  	  27		
+5	  	  2	  	  9			
+5	  	  3	  	  10		
+5	  	  4	  	  10		
+5	  	  5	  	  7			
+5	  	  6	  	  11		
+5	  	  7	  	  6			
+5	  	  8	  	  12		
 end    
-
+//===========================================================================================================================//
 4
-//Index		Probability		ItemReq	Zen
-0			60				1		1000000
-1			60				2		1500000
-2			60				2		2000000
-3			60				2		2500000
-4			60				3		3000000
-5			60				3		3500000
-6			60				4		4000000
-7			80				4		4500000
-8			80				4		5000000
-9			80				5		5500000
-10			80				5		6000000
-11			80				5		6500000
-12			80				5		7000000
-13			80				5		7500000
-14			80				5		8000000
+//Index	Probability	ItemReq	Zen
+0		60		1	1000000
+1		60		2	1500000
+2		60		2	2000000
+3		60		2	2500000
+4		60		3	3000000
+5		60		3	3500000
+6		60		4	4000000
+7		60		4	4500000
+8		60		4	5000000
+9		60		5	5500000
+10		60		5	6000000
+11		60		5	6500000
+12		60		5	7000000
+13		60		5	7500000
+14		60		5	8000000
 end

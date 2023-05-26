@@ -57,6 +57,8 @@
 12		449	//Earring of Rage (L)
 12		449	//Earring of Rage (L)
 12		480	//Wings of Power
+14		224	//Wings of Power
 12		154	//Small White Cloak
 12		457	//Earring of Wrath (Right)
+13		124	//vip
 end

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!-- 
+# GMO Guide Link: https://muonline.webzen.com/en/gameinfo/guide/detail/259
+# Section  -> Item Section
+# Type 	   -> Item Type
+# BuffType -> Buff id in MuServer\Data\Effect.txt
+# Value0   -> The Basic Attribute "(Wizardry%)" Increases by an additional 20% - Formula: ((WIZ DMG MAX) * (55% Weapon Wizardry) + 20% ) -> 
+# Value1   -> The Basic Attributes "Elemental ATK" and "Elemental DEF" Increase by 10%
+-->
 <ItemEquipment>
-		<Item Section="5" Type="11" BuffType="384" Value0="20" Value1="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Staff of Kundun"/>
-		<Item Section="12" Type="208" BuffType="377" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Madness Blade"/>
-		<Item Section="12" Type="209" BuffType="377" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Magic Spell Scroll"/>
-		<Item Section="12" Type="214" BuffType="377" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Seal Scroll"/>
-		<Item Section="12" Type="307" BuffType="377" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" IK="0" Name="Lemuria's Orb"/>
+	<Item Section="5"  Type="11"  BuffType="384" Value0="20" Value1="0"  DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Staff of Kundun"/>
+	<Item Section="12" Type="208" BuffType="376" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Madness Blade"/>
+	<Item Section="12" Type="209" BuffType="376" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Magic Spell Scroll"/>
+	<Item Section="12" Type="214" BuffType="376" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" Name="Kundun's Seal Scroll"/>
+	<Item Section="12" Type="307" BuffType="376" Value0="10" Value1="10" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="1" IK="0" Name="Lemuria's Orb"/>
 </ItemEquipment>

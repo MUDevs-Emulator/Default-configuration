@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2023 MuDevs (R)
+// ============================================================
+// == File is a part of MuDevs MuOnline Server files.
+// ============================================================
+//  Skill.xml S18.1-3
+//  Update: Mar/19/2023
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<!-- 
+//
+// ### Skill ###
+//	Index: Unique index of skill
+//	Name: Name of skill, max 50 characters
+//	Damage:
+//		~ For regular character skills it is a value of damage
+//		~ For third master skills of UseType 3 and 4, the Damage attribute is an index of formula to be used to calculate a value of skill effect, see FormulaData.xml, SkillTree section
+//	Mana: Amount of Mana skill uses
+//	BP: Amount of BP skill uses
+//	Range: Range of skill
+//	Radio: Radio of skill
+	~Radio="0"   =  Single Target
+	~Radio="1" + =  AEO (Area of Effect/Dano em Área)
+//	Delay: Delay between each skill usage, milliseconds
+//	Type: Type of skill:
+//	~ -1: 
+//	~ 0: 
+//	~ 1: 
+//	Effect: Effect of skill
+//	RequireLevel: Required level to use skill
+//	RequireEnergy: Required energy to use skill
+//	RequireLeadership: Required command to use skill
+//	RequireKillCount: Minimum kill count required to use skill, used within Castle Siege
+//	RequireGuildStatus: Required Guild master rank to use skill within Castle Siege, 0/1
 
+//	Missing??   RequireGuildStatus1: Required Assistant rank to use skill  within Castle Siege, 0/1 ?????????????????
+//	Missing??   RequireGuildStatus2: Required Battle Master Rank to use skill within Castle Siege, 0/1 ?????????????????????????
+
+//	DivisionStat0:
+//		~ -1: None
+//		~ 1: Strength
+//		~ 2: Agility
+//		~ 3: Vitality
+//		~ 4: Energy
+//		~ 5: Command
+//	DivisionValue0: Division value for stat specialization 0
+//	DivisionStat1:
+//		~ -1: None
+//		~ 1: Strength
+//		~ 2: Agility
+//		~ 3: Vitality
+//		~ 4: Energy
+//		~ 5: Command
+//	DivisionValue1: Division value for stat specialization 1
+//	SkillDamageType: Determines usage type
+	//	~ 0: 
+	//	~ 1: 
+	//	~ 2: 
+	//	~ 3: 
+	//	~ 4: 
+	//	~ 5: 
+
+//	ElementImprintBonus: Value of elemental imprint used as multiplier to calculate additional damage power of a skill
+//	AddDamageOption: 
+//	DW - DarkWizard: Determines whether to allow Dark Wizard and his evolutions to use skill, 0/1/2/3/4
+//	DK - DarkKnight: Determines whether to allow Dark Knight and his evolutions to use skill, 0/1/2/3/4
+//	FE - FairyElf: Determines whether to allow Fairy Elf and her evolutions to use skill, 0/1/2/3/4
+//	MG - MagicGladiator: Determines whether to allow Magic Gladiator and his evolutions to use skill, 0/1/3/4
+//	DL - DarkLord: Determines whether to allow Dark Lord and his evolutions to use skill, 0/1/3/4
+//	SU - Summoner: Determines whether to allow Summoner and her evolutions to use skill, 0/1/2/3/4
+//	RF - RageFighter: Determines whether to allow Rage Fighter and his evolutions to use skill, 0/1/3/4
+//	GL - GrowLancer: Determines whether to allow Grow Lancer and her evolutions to use skill, 0/1/3/4
+//	RW - RuneWizard: Determines whether to allow Rune Wizard and her evolutions to use skill, 0/1/3/4
+//	SL - Slayer: Determines whether to allow Slayer and her evolutions to use skill, 0/1/3/4
+//	GC - GunCrusher: Determines whether to allow Gun Crusher and her evolutions to use skill, 0/1/3/4
+//	KM - LightWizard: Determines whether to allow Light Wizard and her evolutions to use skill, 0/1/3/4
+//	LM - LemuriaMage: Determines whether to allow Mage Lemuria and her evolutions to use skill, 0/1/3/4
+//	IK - Illusion Knight: Determines whether to allow Illusion Knight and his evolutions to use skill, 0/1/3/4
+-->
 <SkillList>
 	<Skill Index="1" Name="Poison" Damage="12" Mana="42" BP="0" Range="6" Radio="0" Delay="0" Type="5" Effect="55" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="50" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="150" AddDamageOption="0" DW="1" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="1" IK="0" />
 	<Skill Index="2" Name="Meteorite" Damage="21" Mana="12" BP="0" Range="6" Radio="0" Delay="0" Type="3" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="45" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="190" AddDamageOption="0" DW="1" DK="0" FE="0" MG="1" DL="0" SU="1" RF="0" GL="0" RW="1" SL="0" GC="0" KM="0" LM="1" IK="0" />
@@ -99,7 +181,7 @@
 	<Skill Index="237" Name="Lightning Storm" Damage="110" Mana="120" BP="10" Range="6" Radio="6" Delay="0" Type="4" Effect="84" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="250" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="115" AddDamageOption="0" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="238" Name="Birds" Damage="190" Mana="50" BP="15" Range="6" Radio="6" Delay="0" Type="5" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="1" DivisionValue0="150" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="105" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="239" Name="Self Explosion" Damage="140" Mana="20" BP="25" Range="3" Radio="3" Delay="0" Type="1" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
-	<Skill Index="240" Name="Magical Shot" Damage="30" Mana="1" BP="0" Range="6" Radio="2" Delay="0" Type="6" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="30" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="200" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="1" IK="0" />
+	<Skill Index="240" Name="Magical Shot" Damage="30" Mana="1" BP="0" Range="6" Radio="0" Delay="0" Type="6" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="30" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="200" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="1" IK="0" />
 	<Skill Index="241" Name="Shining Bird" Damage="130" Mana="5" BP="0" Range="6" Radio="6" Delay="0" Type="6" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="45" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="190" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" />
 	<Skill Index="242" Name="Dragon Violent" Damage="140" Mana="30" BP="0" Range="6" Radio="4" Delay="0" Type="6" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="60" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="190" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="1" LM="0" IK="0" />
 	<Skill Index="243" Name="Spearstorm" Damage="160" Mana="105" BP="5" Range="6" Radio="6" Delay="500" Type="6" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="4" DivisionValue0="60" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="150" AddDamageOption="1" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="3" LM="0" IK="0" />
@@ -758,7 +840,7 @@
 	<Skill Index="1117" Name="Add Magic Pin Extended" Damage="80" Mana="40" BP="22" Range="3" Radio="0" Delay="500" Type="2" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="4" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1118" Name="Add Breche Extended" Damage="400" Mana="40" BP="23" Range="4" Radio="3" Delay="500" Type="1" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="110" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="4" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1119" Name="Add Shining Peak Extended" Damage="70" Mana="52" BP="24" Range="4" Radio="4" Delay="0" Type="4" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="110" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="4" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
-	<Skill Index="1125" Name="Add Toxic Explosion" Damage="25000" Mana="40" BP="30" Range="6" Radio="0" Delay="1000" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="4" DK="4" FE="4" MG="4" DL="4" SU="4" RF="4" GL="4" RW="4" SL="4" GC="4" KM="4" LM="4" IK="4" />
+	<Skill Index="1125" Name="Add Poison Storm" Damage="25000" Mana="40" BP="30" Range="6" Radio="0" Delay="1000" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="4" DK="4" FE="4" MG="4" DL="4" SU="4" RF="4" GL="4" RW="4" SL="4" GC="4" KM="4" LM="4" IK="4" />
 	<Skill Index="1126" Name="Add Chill Explosion" Damage="25000" Mana="40" BP="30" Range="6" Radio="0" Delay="1000" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="4" DK="4" FE="4" MG="4" DL="4" SU="4" RF="4" GL="4" RW="4" SL="4" GC="4" KM="4" LM="4" IK="4" />
 	<Skill Index="1127" Name="Add Bleed Explosion" Damage="25000" Mana="40" BP="30" Range="6" Radio="0" Delay="1000" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="4" DK="4" FE="4" MG="4" DL="4" SU="4" RF="4" GL="4" RW="4" SL="4" GC="4" KM="4" LM="4" IK="4" />
 	<Skill Index="1129" Name="Add Toxic Explosion Damage" Damage="100" Mana="40" BP="30" Range="6" Radio="0" Delay="1000" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="4" DK="4" FE="4" MG="4" DL="4" SU="4" RF="4" GL="4" RW="4" SL="4" GC="4" KM="4" LM="4" IK="4" />
@@ -850,8 +932,8 @@
 	<Skill Index="1225" Name="Elemental Defense Enhancement Skill" Damage="0" Mana="50" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="399" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1226" Name="Heal Enhancement Skill" Damage="0" Mana="40" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="3" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1227" Name="Party Healing Enhancement Skill" Damage="0" Mana="400" BP="13" Range="6" Radio="6" Delay="0" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="3" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
-	<Skill Index="1228" Name="Greater Defense Enhancement Skill" Damage="120" Mana="55" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="400" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
-	<Skill Index="1229" Name="Greater Damage Enhancement Skill" Damage="120" Mana="45" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="401" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
+	<Skill Index="1228" Name="Greater Damage Enhancement Skill" Damage="120" Mana="55" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="400" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
+	<Skill Index="1229" Name="Greater Defense Enhancement Skill" Damage="120" Mana="45" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="401" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1230" Name="Bless Enhancement Skill" Damage="0" Mana="130" BP="22" Range="6" Radio="0" Delay="3000" Type="0" Effect="402" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="4" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="0" />
 	<Skill Index="1231" Name="Charge Slash Enhancement Skill" Damage="80" Mana="3" BP="0" Range="7" Radio="6" Delay="0" Type="2" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="100" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="115" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="4" />
 	<Skill Index="1232" Name="Windglaive Enhancement Skill" Damage="150" Mana="6" BP="0" Range="6" Radio="3" Delay="0" Type="2" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="80" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="1" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="4" />
@@ -892,21 +974,6 @@
 	<Skill Index="2031" Name="Illusion Avatar" Damage="200" Mana="40" BP="0" Range="6" Radio="0" Delay="0" Type="0" Effect="0" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="80" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="2" />
 	<Skill Index="2032" Name="Illusion Blade" Damage="0" Mana="40" BP="0" Range="0" Radio="0" Delay="0" Type="0" Effect="405" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="-1" DivisionValue0="-1" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="0" ElementImprintBonus="100" AddDamageOption="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="1" />
 	<Skill Index="249" Name="Illusion Avatar Atack Skill" Damage="300" Mana="0" BP="0" Range="6" Radio="1" Delay="0" Type="0" Effect="405" RequireLevel="0" RequireEnergy="0" RequireLeadership="0" RequireKillCount="0" RequireGuildStatus="0" DivisionStat0="2" DivisionValue0="80" DivisionStat1="-1" DivisionValue1="-1" SkillDamageType="1" ElementImprintBonus="100" AddDamageOption="1" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0" KM="0" LM="0" IK="1" />
-	
-<!--
-Range="6" Radio="5"
-index	name							level 	dmg		mp		BP	Range	Delay	ReqEng	ReqStr	ReqDex	ReqCha	ReqHea	Type	SkillType	SkilluseType	SkillBrand	ReqKillCount																															
-2026	"Improve Greater Damage"		100		0		40		0	6		0		1500	0		0		0		0		0		-1			0				0			0				0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	1	0	4	396	4	0	0	0	0	0		-1	-1	-1	-1	100	0	0
-2027	"Improve Greater Defense"		100		0		40		0	6		0		1500	0		0		0		0		0		-1			0				0			0				0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	129	1	0	4	397	4	0	0	0	0	0		-1	-1	-1	-1	100	0	0
-index	name							level 	dmg		mp		BP	Range	Delay	ReqEng	ReqStr	ReqDex	ReqCha	ReqHea	Type	SkillType	SkilluseType	SkillBrand	ReqKillCount																	IK											EFF								DivisionStat1	DivisionValue1	DivisionStat2	DivisionValue2		ElementImprintBonus	AddDamageOption	UNK
-2028	"Charge Slash"					25		80		3		0	6		0		0		0		80		0		0		6		0			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	132	0	0	1	0	1	0	0	0	0	3		2				100				-1				-1					115					0				0
-2029	"Windglaive"					45		150		6		0	5		0		0		0		650		0		0		6		0			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	133	0	0	1	0	1	0	0	0	0	3		2				80				-1				-1					100					1				0
-2030	"Bladestorm"					160		220		10		10	6		0		0		0		1150	0		0		6		0			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	134	0	0	1	0	1	0	0	0	0	3		2				50				-1				-1					190					1				0
-2031	"Illusion Avatar"				100		200		40		0	6		0		0		0		900		0		0		6		0			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	130	4	0	1	0	1	0	0	0	0	3		2				80				-1				-1					100					0				0
-2032	"Illusion Blade"				25		0		40		0	0		0		0		0		0		0		0		0		-1			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	131	1	0	0	405	2	0	0	0	0	3		-1				-1				-1				-1					100					0				0
-249		"Illusion Avatar Atack Skill"	50		300		0		0	7		0		0		0		0		0		0		0		1			0				0			0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2				80				-1				-1					100					1				0																																							 	
 
-
--->
 
 </SkillList>

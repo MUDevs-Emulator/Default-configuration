@@ -51,8 +51,8 @@
 6148      2          32           1            25           2            5               //Wings of Soul
 6149      2          32           1            25           2            5               //Wings of Dragon
 6150      2          32           1            25           2            5               //Wings of Darkness
-6171      4          39           2            39           2            0               //Wings of Eternity
-6172      4          39           2            39           2            0               //Wings of Eternity Bound
+6171      4          39           2            39           2            0               //Wings of Manaburst
+6172      4          39           2            39           2            0               //Wings of Manaburst Bound
 6180      4          39           2            39           2            0               //Wings of Storm
 6181      4          39           2            39           2            0               //Wings of Eternal
 6182      4          39           2            39           2            0               //Wings of Illusion
@@ -63,13 +63,13 @@
 6187      4          39           2            39           2            0               //Wings of Dimension
 6193      2          20           2            10           2            5               //Cloak of Fighter
 6194      4          39           2            39           2            0               //Cloak of Overrule
-6274      2          12           2            12           2            0               //Small Cloak of Lord
+6274      2          20           2            20           2            0               //Small Cloak of Lord
 6275      2          12           2            12           2            0               //Small Wings of Curse
 6276      2          12           2            12           2            0               //Small Wings of Elf
 6277      2          12           2            12           2            0               //Small Wings of Heaven
 6278      2          12           2            12           2            0               //Small Wings of Satan
-6279      2          12           2            12           2            0               //Small Cloak of Fighter
-6296      0          55           1            43           2            0               //Flame Wings
+6279      2          20           2            20           2            0               //Small Cloak of Fighter
+6296      0          55           1            43           2            0               //Wings of Spiritualworld
 6304      0          55           1            43           2            0               //Cloak of Luminosity
 6298      2          12           2            12           2            0               //Small Pure White Cloak
 6299      3          12           2            12           2            4               //Pure White Cloak
@@ -86,9 +86,9 @@
 6412      4          39           2            39           2            0               //Wings of Conqueror
 6413      2          20           2            10           2            4               //Cloak of Limit
 6414      4          39           2            39           2            0               //Cloak of Transcendence
-6422      2          12           2            12           2            0               //Small Cloak of Limit
+6422      2          20           2            20           2            0               //Small Cloak of Limit
 6423      3          21           1            13           2            4               //Cloak of Death (Bound)
-6424      3          33           1            30           2            4               //Wings of Chaos (Bound)
+6424      3          35           1            29           2            4               //Wings of Chaos (Bound)
 6425      3          35           1            29           2            4               //Wings of Magic (Bound)
 6426      3          35           1            29           2            4               //Wings of Life (Bound)
 6558      0          55           1            43           2            0               //Wings of Heaven
@@ -134,14 +134,12 @@
 6633      4          39           2            39           2            0               //Wings of Hit
 6640      4          39           2            39           2            0               //[Bound]Wings of Hit
 6634      0          55           1            43           2            0               //Heavenly Wings
-//S18.1-1
-6316      2          12           2            12           2            0               //Small Iron Cloak 		(Small)
-6317      3          12           2            12           2            4               //Iron Cloak 				(Lv1)
-6318      2          32           1            25           2            5               //Black Cloak 				(LV2)
-6319      2          32           1            25           2            5               //[Bound] Black Cloak  	(LV2 Bound)
-//S18.1-2+ OFF
-6320      4          39           2            39           2            0               //Cloak of Death 			(LV3)	
-6321      4          39           2            39           2            0               //[Bound] Cloak of Death 	(LV3 Bound)
-6322      0          55           1            43           2            0               //Abominable Cloak			(LV4)
+6316      2          12           2            12           2            0               //Small Iron Cloak 		(Small - IK)
+6317      3          12           2            12           2            4               //Iron Cloak 				(Lv1 - IK)
+6318      2          32           1            25           2            5               //Black Cloak 				(LV2 - IK)
+6319      2          32           1            25           2            5               //[Bound] Black Cloak  	(LV2 Bound - IK)
+6320      4          39           2            39           2            0               //Cloak of Death 			(LV3 - IK)	
+6321      4          39           2            39           2            0               //[Bound] Cloak of Death 	(LV3 Bound - IK)
+6322      0          55           1            43           2            0               //Abominable Cloak			(LV4 - IK)
 end
 

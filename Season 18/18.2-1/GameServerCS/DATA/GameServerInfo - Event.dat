@@ -2,7 +2,7 @@
 ;==================================================
 ; Arca Battle Event Settings
 ;==================================================
-ArcaBattleEvent = 0
+ArcaBattleEvent = 1
 ArcaBattleGuildMinUser = 1
 
 ;==================================================
@@ -15,7 +15,7 @@ BloodCastleNeedCloakToOpenInterface = 1
 ;==================================================
 ; Bonus Manager Settings
 ;==================================================
-BonusManagerSwitch = 0
+BonusManagerSwitch = 1
 
 ;==================================================
 ; Castle Deep Event Settings
@@ -27,19 +27,20 @@ CastleDeepEventTime = 30
 ; Castle Siege Event Settings
 ;==================================================
 CastleSiegeEvent = 1
-CastleSiegeCycleStartYear =0
-CastleSiegeCycleStartMonth =0
-CastleSiegeCycleStartDay =0
-CastleSiegeSpecificState =0
-CastleSiegeStateStartYear =0
-CastleSiegeStateStartMonth =0
-CastleSiegeStateStartDay =0
-CastleSiegeStateStartHour =0
-CastleSiegeStateStartMinute =0
+CastleSiegeCycleStartYear = 0
+CastleSiegeCycleStartMonth = 0
+CastleSiegeCycleStartDay = 0
+CastleSiegeSpecificState = 0
+CastleSiegeStateStartYear = 0
+CastleSiegeStateStartMonth = 0
+CastleSiegeStateStartDay = 0
+CastleSiegeStateStartHour = 0
+CastleSiegeStateStartMinute = 0
 CastleSiegeOffensiveWeaponDamage = 300
 CastleSiegeDefensiveWeaponDamage = 200
 CastleSiegeLowerAccumulatedTimeValue = 0
 CastleSiegeDecayAccumulatedTimeValue = 0
+CastleSiegeMoveDarkHorseinCrown = 0
 
 ;==================================================
 ; Chaos Castle Event Settings
@@ -84,13 +85,12 @@ DoubleGoerDifficultRate = 100
 ;==================================================
 IllusionTempleEvent = 1
 IllusionTempleMinUser = 2
-IllusionTempleMinPartyUser = 2 
 IllusionTempleRewardFenrirRate = 5
 
 ;==================================================
 ; Imperial Guardian Event Settings
 ;==================================================
-ImperialGuardianEvent = 1
+ImperialGuardianEvent = 0
 ImperialGuardianDifficultRate = 100
 
 ;==================================================
@@ -107,13 +107,12 @@ KanturuEvent = 0
 ; Moss Merchant Event Settings
 ;==================================================
 MossMerchantEvent = 0
-MossMerchantEventTime = 300
+MossMerchantEventTime = 120
 
 ;==================================================
 ; Raklion Event Settings
 ;==================================================
 RaklionEvent = 0
-
 
 ;==================================================
 ; Tormented Square Event Settings
@@ -142,3 +141,37 @@ LabyrinthSwitch = 1
 ; Labyrinth League Event Settings
 ;==================================================
 LabyrinthLeagueSwitch = 1
+
+;==================================================
+; Banner Event Settings
+;==================================================
+MapleLeafSwitch = 1
+20THAnniversarySwitch = 1
+MonsterEggSwitch = 1
+LunarNewYearSwitch = 0
+MerryChristmasSwitch = 0
+NewYearSwitch = 0
+CherryBlossomSwitch = 1
+ChickenSwitch = 1
+
+;==================================================
+; Blessing Box Event Settings
+;==================================================
+BlessingBoxSwitch = 1
+
+;==================================================
+; Play Event Time Event Settings
+;==================================================
+PlayTimeEventSwitch = 1
+PlayTimeEventMaxRound = 10
+PlayTimeEventMinLevel = 220
+PlayTimeEventPlayRoundHour = 20
+PlayTimeEventPlayMulHour = 1
+PlayTimeEventRewardType = 1
+
+;==================================================
+; Boss Battle Event Settings
+;==================================================
+BossBattleEventSwitch = 1
+BossBattleEventMinLevel = 800
+BossBattleMaxUser = 6

@@ -35,8 +35,23 @@ ITEM_CREATE_TYPE_MONSTER = 30
 
 -->
 
-<ItemDropLimit Enabled="0">
-	<ItemList DayOfWeek="2" DropType="27">
-		<Item Index="0" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="5" Name="Kris"/>
+<ItemDropLimit Enabled="1">
+	<ItemList DayOfWeek="2" DropType="10">
+		<Item Index="7122" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="5" Name="Garuda's Flame"/>
+		<Item Index="7639" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="5" Name="Sealed Armor Fragment"/>
+		<Item Index="7637" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="10" Name="Guardian Elite Option Conversion Fragment"/>
+		<Item Index="7124" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="10" Name="Golden Crest"/>
+		<Item Index="7636" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="10" Name="Elite Guardian Upgrade Stone"/>
+		<Item Index="7210" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="10" Name="Jewel of Harmony"/>
+		
+	<!--	<Item Index="10366" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Dark Angel Soul Crystal (Bound)"/>  -->
+	<!--	<Item Index="10367" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Holy Angel Soul Crystal (Bound)"/>  -->
+	<!--	<Item Index="10368" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Awakening Soul Crystal (Bound)"/>   -->
+	<!--	<Item Index="10369" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Blue Eye Soul Crystal (Bound)"/>    -->
+	<!--	<Item Index="10370" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Silver Heart Soul Crystal (Bound)"/>-->
+	<!--	<Item Index="10371" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Manticore Soul Crystal (Bound)"/>   -->
+	<!--	<Item Index="10372" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Brillian Soul Crystal (Bound)"/>    -->
+	<!--	<Item Index="10373" Level="-1" IsLuck="-1" IsSkill="-1" IsSetItem="-1" IsExeItem="-1" IsSocket="-1" MaxDrop="500" Name="Apocalypse Soul Crystal (Bound)"/>  -->
+		
 	</ItemList>
 </ItemDropLimit>

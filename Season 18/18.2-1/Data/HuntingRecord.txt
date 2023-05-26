@@ -1,3 +1,4 @@
+// HuntingRecord MuDevs S18.2-1
 0
 //MapIndex	Name
 0	"Lorencia"
@@ -6,21 +7,21 @@
 2	"Devias"
 1	"Dungeon"
 7	"Atlans"
-4	"Lost Tower"
+4	"LostTower"
 8	"Tarkan"
 112	"Ferea"
 33	"Aida"
 10	"Icarus"
-37	"Kanturu Ruins"
-38	"Kanturu Relics"
+37	"KanturuRuins"
+38	"KanturuRelics"
 80	"Karutan1"
 81	"Karutan2"
 57	"Raklion"
-113	"Nixie Lake"
-56	"Swamp of Calmness"
+113	"Nixies Lake"
+56	"SwampOfPeace"
 91	"Acheron"
 95	"Debenter"
-100	"Uruk Mountain"
+100	"Mt. Uruk"
 110	"Nars"
 63	"Vulcanus"
 24	"Kalima1"
@@ -32,32 +33,46 @@
 36	"Kalima7"
 34	"Crywolf"
 31	"Land of Trials"
-115 	"Labyrinth of Dimension"
-116	"Deep Dungeon 1"
-117	"Deep Dungeon 2"
-118	"Deep Dungeon 3"
-119	"Deep Dungeon 4"
-120	"Deep Dungeon 5" 
+115	"Maze of Dimensions"
+116	"Deep Dungeon 1st Floor"
+117	"Deep Dungeon 2nd Floor"
+118	"Deep Dungeon 3rd Floor"
+119	"Deep Dungeon 4th Floor"
+120	"Deep Dungeon 5th Floor"
 122	"Swamp of Darkness"
-123	"Kubera Mine"
-124	"Kubera Mine"
-125	"Kubera Mine"
-126	"Kubera Mine"
-127	"Kubera Mine"
-128	"Abyssal Atlans 1"																																																				
-129	"Abyssal Atlans 2"																																																				
-130	"Abyssal Atlans 3"	
+123	"Cubera Mines"
+124	"Cubera Mines"
+125	"Cubera Mines"
+126	"Cubera Mines"
+127	"Cubera Mines"
+128	"Atlans of Abyss 1F"
+129	"Atlans of Abyss 2F"
+130	"Atlans of Abyss 3F"
 131	"Scorched Canyon"
-132	"Red Smoke Icarus"	
+132	"Crimson Flame's Icarus"
 133	"Temple of Arnil"
-134	"Ashen Aida"
+134	"Gray Aida"
 135	"Old Kethotum"
-136	"Blaze Kethotum"
-137	"Kanturu Under Area"
-end	
-	
+136	"Burning Kethotum"
+137	"Kanturu Underground"
+138	"Ignis Volcano"
+139	"Boss Battle"
+140	"Blood Tarkan"
+//Custom Test
+9	"Devil Square 1~4"
+32	"Devil Square 5~7"
+8	"Blood Castle 1"
+11	"Blood Castle 2"
+12	"Blood Castle 3"
+13	"Blood Castle 4"
+14	"Blood Castle 5"
+15	"Blood Castle 6"
+16	"Blood Castle 7"
+52	"Blood Castle 8"
+end
+
 1	
-//MonsterIndex	MonsterName																																																			
+//MonsterIndex	MonsterName
 413	//Moon Rabbit																																																				
 463	//Fire Flame Ghost																																																				
 466	//Cursed Goblin																																																				
@@ -90,24 +105,32 @@ end
 740	//White Monkey																																																			
 741	//Purple Monkey																																																			
 742	//Red Monkey
-759 	//Green Rooster
-760 	//White Rooster
-761 	//Purple Rooster
-762 	//Red Rooster
-795 	//Puppy (Green)
-796 	//Puppy (White)
-797 	//Puppy (Purple)
-798 	//Puppy (Yellow)
+759	//Green Rooster
+760	//White Rooster
+761	//Purple Rooster
+762	//Red Rooster
+795	//Puppy (Green)
+796	//Puppy (White)
+797	//Puppy (Purple)
+798	//Puppy (Yellow)
 817	//Pig (Green)
 818	//Pig (Blue)
 819	//Pig (Purple)
 820	//Pig (Red)
-855 	//Mouse (Green)
-856 	//Mouse (Blue)	
-857 	//Mouse (Purple)
-858 	//Mouse (Red)
-884 	//Cow (Green)
-885 	//Cow (Blue)
-886 	//Cow (Purple)
-887 	//Cow (Red)
+855	//Mouse (Green)
+856	//Mouse (Blue)	
+857	//Mouse (Purple)
+858	//Mouse (Red)
+884	//Cow (Green)
+885	//Cow (Blue)
+886	//Cow (Purple)
+887	//Cow (Red)
+901	//Tiger (Green)
+902	//Tiger (Blue)
+903	//Tiger (Purple)
+904	//Tiger (Red)
+933	//Rabbit (Green)
+934	//Rabbit (Blue)
+935	//Rabbit (Purple)
+936	//Rabbit (Red)
 end	

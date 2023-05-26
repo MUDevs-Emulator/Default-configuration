@@ -1,18 +1,365 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- /**
+Class = 0,1,2,3				DW,SM,GM,SW
+      = 16,17,18,19			DK,BK,BM,DGK
+      = 32,33,34,35			FE,ME,HE,NE
+	  = 48,50,51			MG,DM,MK
+	  = 64,66,67			DL,LE,EL
+	  = 80,81,82,83			SUM,BS,DSM,DS
+	  = 96,98,99			RF,FM,FB
+	  = 112,114,115			GL,ML,SL
+	  = 128,129,130,131		RW,RSM,GRM,MRW
+	  = 144,145,146,147		SLR,SLRR,MSLR,SLTR
+	  = 160,161,162,163		GC,GB,MGB,HGC
+	  = 176,177,178,179		WMK,LM,SWI,LW
+	  = 192,193,194,195		MLE,WM,AM,MM
+	  = 208,209,210,211		IK,IMK,IIM,MYK
+	  
+	  BotInfo Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings 
 
-
+**/ -->
 <BotStore>
-	<BotInfo ID="0" Class="1" Name="StoreBK" StoreName="BotStore BK" ShopType="3" DelItems="0" Map="0" PosX="140" PosY="121" Dir="6" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="800">
-		<BotEquipment>
-			<Item Slot="0" ItemSection="0" ItemType="51" ItemLevel="15" ItemOption="68" />
+	<!-- DW -->
+	<BotInfo ID="1" Class="3" Name="DW" StoreName="DW" ShopType="3" DelItems="0" Map="75" PosX="236" PosY="26" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="5" ItemType="95" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="5" ItemType="95" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="285" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="285" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="285" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="285" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="285" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="414" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>	
+			<!-- Equipment that bot is selling in Slot 0 -->
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- BLOODANGEL EXC ACC -->		
+				<Item ItemSection="7" ItemType="99" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="99" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="99" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="99" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="99" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- DK -->
+	<BotInfo ID="2" Class="19" Name="DK" StoreName="DK" ShopType="3" DelItems="0" Map="75" PosX="236" PosY="28" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="0" ItemType="96" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="6" ItemType="59" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="284" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="284" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="284" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="284" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="284" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="415" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>		
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA ACC EXC STR -->
+				<Item ItemSection="7" ItemType="98" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="98" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="98" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="98" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="98" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+			<ShopItemBundle Slot="1" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA ACC EXC ENE -->
+				<Item ItemSection="7" ItemType="200" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="200" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="200" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="200" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="200" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- FE -->
+	<BotInfo ID="3" Class="33" Name="FE" StoreName="FE" ShopType="3" DelItems="0" Map="75" PosX="236" PosY="30" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="4" ItemType="61" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="4" ItemType="62" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="286" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="286" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="286" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="286" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="286" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="416" ItemLevel="15" ItemOption="4" />
 		</BotEquipment>
 		<ShopItemList>
-			<ShopItemBundle Slot="0" Value="20000" ValBless="0" ValSoul="0" >
-				<Item ItemSection="7" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
-				<Item ItemSection="8" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
-				<Item ItemSection="9" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
-				<Item ItemSection="10" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
-				<Item ItemSection="11" ItemType="1" Level="9" Option="8" Luck="1" Skill="0" Dur="255" Exe="63" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC A -->
+				<Item ItemSection="7" ItemType="100" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="100" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="100" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="100" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="100" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+			<ShopItemBundle Slot="1" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC B -->
+				<Item ItemSection="7" ItemType="158" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="158" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="158" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="158" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="158" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- MG -->
+	<BotInfo ID="6" Class="48" Name="MG" StoreName="MG" ShopType="3" DelItems="0" Map="75" PosX="236" PosY="37" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="0" ItemType="100" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="0" ItemType="100" ItemLevel="15" ItemOption="4" />-->
+			<!--<Item Slot="2" ItemSection="7" ItemType="288" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="3" ItemSection="8" ItemType="288" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="288" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="288" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="288" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="417" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC A -->				
+				<Item ItemSection="8" ItemType="102" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="102" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="102" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="102" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+			<ShopItemBundle Slot="1" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC B -->				
+				<Item ItemSection="8" ItemType="161" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="161" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="161" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="161" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- DL -->
+	<BotInfo ID="4" Class="65" Name="DL" StoreName="DL" ShopType="3" DelItems="0" Map="75" PosX="236" PosY="39" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="2" ItemType="46" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="2" ItemType="46" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="289" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="289" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="289" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="289" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="289" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="418" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7" ItemType="103" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="103" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="103" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="103" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="103" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- SUMMONER -->
+	<BotInfo ID="5" Class="83" Name="SUM" StoreName="SUM" ShopType="3" DelItems="0" Map="75" PosX="244" PosY="27" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="5" ItemType="100" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="5" ItemType="101" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="287" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="287" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="287" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="287" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="287" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="419" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7" ItemType="101" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8" ItemType="101" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9" ItemType="101" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="101" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="101" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- RAGE FIGHTER -->
+	<BotInfo ID="7" Class="98" Name="RF" StoreName="RF" ShopType="3" DelItems="0" Map="75" PosX="244" PosY="29" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="0" ItemType="98" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="5" ItemType="101" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="290" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="290" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="290" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="5" ItemSection="10" ItemType="290" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="6" ItemSection="11" ItemType="290" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="420" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="104" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="104" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="104" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>				
+				<Item ItemSection="11" ItemType="104" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- GROW LANCER-->
+	<BotInfo ID="8" Class="112" Name="GL" StoreName="GL" ShopType="3" DelItems="0" Map="75" PosX="244" PosY="31" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="3" ItemType="32" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="3" ItemType="32" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="291" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="291" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="291" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="291" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="291" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="421" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="105" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="105" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="105" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="105" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="105" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- RUNE WIZARD -->
+	<BotInfo ID="9" Class="128" Name="RW" StoreName="RW" ShopType="3" DelItems="0" Map="75" PosX="242" PosY="37" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="2" ItemType="47" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="2" ItemType="47" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="294" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="294" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="294" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="294" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="294" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="469" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="122" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="122" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="122" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="122" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="122" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- SLAYER -->
+	<BotInfo ID="10" Class="144" Name="SL" StoreName="SL" ShopType="3" DelItems="0" Map="75" PosX="242" PosY="39" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="0" ItemType="99" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="0" ItemType="99" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="295" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="295" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="295" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="295" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="295" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="474" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="180" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="180" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="180" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="180" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="180" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- GUN CRUSHER -->
+	<BotInfo ID="11" Class="160" Name="GC" StoreName="GC" ShopType="3" DelItems="0" Map="75" PosX="242" PosY="41" Dir="3" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="4" ItemType="60" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="4" ItemType="60" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="297" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="297" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="297" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="297" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="297" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="490" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="212" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="212" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="212" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="212" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="212" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- KUNDUM MAGE -->
+	<BotInfo ID="12" Class="176" Name="KM" StoreName="KM" ShopType="3" DelItems="0" Map="75" PosX="245" PosY="43" Dir="1" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="5" ItemType="99" ItemLevel="15" ItemOption="4" />
+			<Item Slot="1" ItemSection="5" ItemType="102" ItemLevel="15" ItemOption="4" />
+			<Item Slot="2" ItemSection="7" ItemType="298" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="298" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="298" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="298" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="298" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="160" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="241" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="241" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="241" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="241" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="241" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- LEMURIA -->
+	<BotInfo ID="13" Class="192" Name="LM" StoreName="LM" ShopType="3" DelItems="0" Map="75" PosX="248" PosY="43" Dir="1" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="5" ItemType="103" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="5" ItemType="103" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="299" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="299" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="299" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="299" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="299" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="152" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="259" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="259" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="259" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="259" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="259" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+			</ShopItemBundle>
+		</ShopItemList>
+	</BotInfo>
+	<!-- ILLUSION KNIGHT -->
+	<BotInfo ID="14" Class="209" Name="IK" StoreName="IK" ShopType="3" DelItems="0" Map="75" PosX="248" PosY="40" Dir="8" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500">
+		<BotEquipment><!-- Equipment that bot is using -->
+			<Item Slot="0" ItemSection="0" ItemType="112" ItemLevel="15" ItemOption="4" />
+			<!--<Item Slot="1" ItemSection="0" ItemType="112" ItemLevel="15" ItemOption="4" />-->
+			<Item Slot="2" ItemSection="7" ItemType="314" ItemLevel="15" ItemOption="4" />
+			<Item Slot="3" ItemSection="8" ItemType="314" ItemLevel="15" ItemOption="4" />
+			<Item Slot="4" ItemSection="9" ItemType="314" ItemLevel="15" ItemOption="4" />
+			<Item Slot="5" ItemSection="10" ItemType="314" ItemLevel="15" ItemOption="4" />
+			<Item Slot="6" ItemSection="11" ItemType="314" ItemLevel="15" ItemOption="4" />
+			<Item Slot="7" ItemSection="12" ItemType="178" ItemLevel="15" ItemOption="4" />
+		</BotEquipment>
+		<ShopItemList>
+			<ShopItemBundle Slot="0" Value="5000" ValBless="0" ValSoul="0" >
+			<!-- SET BA EXC ACC -->
+				<Item ItemSection="7"  ItemType="306" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="8"  ItemType="306" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="9"  ItemType="306" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="10" ItemType="306" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="0" Acc="5" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
+				<Item ItemSection="11" ItemType="306" Level="15" Option="8" Luck="1" Skill="0" Dur="255" Exe="56" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255"/>
 			</ShopItemBundle>
 		</ShopItemList>
 	</BotInfo>

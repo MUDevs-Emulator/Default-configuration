@@ -5,29 +5,29 @@
 		<!-- Common -->
 		<Pentagram Type="12" Index="200" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Muren's Book of Magic" />
 		<Pentagram Type="12" Index="201" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Scroll of Etramu"  />
-		<Pentagram Type="12" Index="202" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Empire Guardian's Iron Wall Shield"  />
-		<Pentagram Type="12" Index="203" OptionNum1="3"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Empire Guardian's Iron Wall Shield"  />
-		<Pentagram Type="12" Index="204" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Hero's Potion" />
-		<Pentagram Type="12" Index="205" OptionNum1="4"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Hero's Potion" />
+		<Pentagram Type="12" Index="202" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Lorencia Knights' Iron Shield"  />
+		<Pentagram Type="12" Index="203" OptionNum1="3"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Iron Shield of the Magic"  />
+		<Pentagram Type="12" Index="204" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Hero Elixir" />
+		<Pentagram Type="12" Index="205" OptionNum1="4"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Brave Hero Elixir" />
 		<Pentagram Type="12" Index="206" OptionNum1="0"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Gladiator's Dagger" /> 
-		<Pentagram Type="12" Index="207" OptionNum1="2"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Gladiator's Dagger" /> 
+		<Pentagram Type="12" Index="207" OptionNum1="2"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Merciless Gladiator's Dagger" /> 
 		<Pentagram Type="12" Index="217" OptionNum1="5"  OptionNum2="0"  OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Thoughtful Sage's Jewel" />
 		 <!-- Unique -->
-		<Pentagram Type="12" Index="208" OptionNum1="26" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Blade of Madness" />
-		<Pentagram Type="12" Index="209" OptionNum1="27" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Magic Scroll" />
-		<Pentagram Type="12" Index="210" OptionNum1="26" OptionNum2="28" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Empire Guardians' Bastion" />
-		<Pentagram Type="12" Index="211" OptionNum1="27" OptionNum2="28" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Icarus' Ancient Tome" />
-		<Pentagram Type="12" Index="218" OptionNum1="27" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Magic Scroll (Attributable)" />
+		<Pentagram Type="12" Index="208" OptionNum1="26" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Madness Blade" />
+		<Pentagram Type="12" Index="209" OptionNum1="27" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Magic Spell Scroll" />
+		<Pentagram Type="12" Index="210" OptionNum1="26" OptionNum2="28" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Empire Guardians' Stronghold" />
+		<Pentagram Type="12" Index="211" OptionNum1="27" OptionNum2="28" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Ancient Icarus Scroll" />
+		<Pentagram Type="12" Index="218" OptionNum1="27" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Magic Spell Scroll (Bound)" />
 		<Pentagram Type="12" Index="306" OptionNum1="34" OptionNum2="21" OptionNum3="29" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Runedil's Goldentune Harp" />
 		<Pentagram Type="12" Index="307" OptionNum1="34" OptionNum2="22" OptionNum3="30" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Lemuria's Orb" />
 		<Pentagram Type="12" Index="308" OptionNum1="23" OptionNum2="24" OptionNum3="25" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Norrwen's Bloodstring Lyra" />
-		<Pentagram Type="12" Index="499" OptionNum1="0" OptionNum2="0" OptionNum3="0" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Goldentune Harp(Rare)" />
+   <!-- <Pentagram Type="12" Index="499" OptionNum1="0" OptionNum2="0" OptionNum3="0" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Goldentune Harp(Rare)" /> -->
 		<Pentagram Type="12" Index="500" OptionNum1="61" OptionNum2="63" OptionNum3="66" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Brilliant Orb(Rare)" />
-		<Pentagram Type="12" Index="501" OptionNum1="0" OptionNum2="0" OptionNum3="0" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Bloodstring Lyra(Rare)" />
+   <!-- <Pentagram Type="12" Index="501" OptionNum1="0" OptionNum2="0" OptionNum3="0" OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Bloodstring Lyra(Rare)" />-->
 		<!-- Rare -->
-		<Pentagram Type="12" Index="212" OptionNum1="41" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Arcana Book of Prophesies" />
-		<Pentagram Type="12" Index="213" OptionNum1="41" OptionNum2="42" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Antonias' Sword" /> 
-		<Pentagram Type="12" Index="214" OptionNum1="41" OptionNum2="43" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Sealed Book" /> 
+		<Pentagram Type="12" Index="212" OptionNum1="41" OptionNum2="24" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Arca's Prophecy" />
+		<Pentagram Type="12" Index="213" OptionNum1="41" OptionNum2="42" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Antonia's Sword" /> 
+		<Pentagram Type="12" Index="214" OptionNum1="41" OptionNum2="43" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="Kundun's Seal Scroll" /> 
 		<Pentagram Type="12" Index="502" OptionNum1="0" OptionNum2="0" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Arcana Book of Prophesies(Unique)" /> 
 		<Pentagram Type="12" Index="503" OptionNum1="67" OptionNum2="68" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Antonias' Sword(Unique)" /> 
 		<Pentagram Type="12" Index="504" OptionNum1="0" OptionNum2="0" OptionNum3="0"  OptionNum4="0" OptionNum5="0" OptionNum6="0" OptionNum7="0" Name="1st Kundun's Sealed Book(Unique)" /> 

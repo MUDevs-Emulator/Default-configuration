@@ -2,12 +2,13 @@
 // Mastery Item S18.1-2
 // OMEGA - 20/Out/2022
 //
-// Group: 0 = Weapon , 1 = Armor
+// Group: 0 = Weapon / 1 = Armor
+//
 // Value:
 // 0 = Bloodangel
 // 1 = Darkangel
 // 2 = Holyangel
-// 3 = Soul Orb
+// 3 = Soul
 // 4 = Blue Eye
 // 5 = Silver Heart
 // 6 = Manticore
@@ -64,6 +65,7 @@
 109       0       4       //Blue Eye Blade
 110       0       5       //Silver Heart Blade
 111       0       6       //Manticore Blade
+112       0       7       //Brilliant Blade
 1046      0       0       //Bloodangel Scepter
 1050      0       1       //Darkangel Scepter
 1051      0       2       //Holy Angel Scepter

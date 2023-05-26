@@ -1,2 +1,22 @@
-//MinLevel   MaxLevel   MinMasterLevel   MaxMasterLevel   MinReset   MaxReset   MinMasterReset   MaxMasterReset   ExperienceRate
+// MinLevel   MaxLevel   MinMasterLevel   MaxMasterLevel   MinReset   MaxReset   MinMasterReset   MaxMasterReset   ExperienceRate
+// Example: BASE XP 10
+// 100 = 100% base XP. (10x)
+// 200 = 200% base XP. (20x)
+// 300 = 300% base XP. (30x)
+//  50 = 50% base XP. (5x)
+//  *  = DONT APPLY
+//Normal EXP [Lvl 1 ~ 400]
+//Master EXP [Lvl 401 ~ 800]
+//Enhanced EXP [Lvl 801 ~ 1550]
+//=======================================================================
+// MinLevel   MaxLevel   MinMasterLevel   MaxMasterLevel   MinReset   MaxReset   MinMasterReset   MaxMasterReset   ExperienceRate
+// Normal EXP - Lv. 1~400
+// Common.dat = 10
+//    1		    400		      0 	          *	              *  	     *   	    *		           *	             100 // 10X
+// Master EXP - Lv. 400~800
+// Common.dat = 20
+//    *           *		      0 	          400              * 	     *   	    *		           *	             100 // 20X
+// Enhanced EXP - Lv. 801~1550
+// Common.dat = 20
+//    *           *		      401 	          1550            * 	     *   	    *		           *	             50  // 10X
 end

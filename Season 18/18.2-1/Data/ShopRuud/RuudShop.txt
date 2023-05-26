@@ -1,5 +1,5 @@
-//===================================================================================================================================
-// Ruud System - Oliveira & OMEGA
+//===================================================================================================================================//
+// Ruud System MuDevs S18.2-1
 //
 // [NPC Open Time] = Selection (0)
 // [All Class] = Selection (1)
@@ -15,53 +15,55 @@
 // [Slayer] = Selection (11)
 // [Gun Crusher] = Selection (12)							 
 // [Kundum Mephis] = Selection (13)							 
-// [Lemuria] = Selection (14)	
+// [Lemuria] = Selection (14)
 // [Illusion Knight] = Selection (15)							 
-//===================================================================================================================================
+//===================================================================================================================================//
 0
 //Npc Open Time(Sec)
 60
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 1
 //Cat	Index   Count   Value       Description
-16		042		255		75000    // Chicken (Evolved)
-14		341		0		50000    // Sealed Stone Shard
-14		364		0		5000     // Socket Upgrade Note
-14		384		0		1000     // Sphere Upgrade Rune Capsule
-14		386		0		100000   // Darkangel Anvil
-14		389		0		50000    // Holyangel Spirit
-14		415		0		50000    // Awakening
-14		416		0		100000   // Anvil of Holy Angel
-12		407		0		1000     // [Bound] The magic solution of Locke
-12		409		0		75000    // [Bound] The magic solution of Condor
+14		341		0		50000    // Darkangel Spirit (Upgrade Set: Bloodangel to Darkangel)
+14		386		0		100000   // Darkangel Anvil  (Upgrade Weapon: Bloodangel to Darkangel)
+14		389		0		50000    // Holyangel Spirit (Upgrade Set: Darkangel to Holyangel)
+14		416		0		100000   // Holyangel Anvil  (Upgrade Weapon: Darkangel to Holyangel)
+14		415		0		50000    // Soul Spirit (Upgrade Set: Holyangel to Soul)
+14		450		0		100000   // Soul Anvil  (Upgrade Weapon: Holyangel to Soul)
+14		449		0		50000    // Frost Blue Eye Spirit (Upgrade Set: Soul to Blue Eye)
+14		495		0		100000   // Frost Blue Eye Anvil  (Upgrade Weapon: Soul to Blue Eye)
+14		494		0		50000    // SilverHeart Spirit (Upgrade Set: Blue Eye to SilverHeart)
+14		502		0		100000   // SilverHeart Anvil (Upgrade Weapon: Blue Eye to SilverHeart)
+14		501		0		50000    // Manticore Spirit (Upgrade Set: SilverHeart to Manticore)
+12		082		0		100000   // Manticore Anvil  (Upgrade Weapon: SilverHeart to Manticore)
+12		081		0		50000    // Brilliant Spirit (Upgrade Set: Manticore to Brilliant)
+12		086		0		100000   // Brilliant Anvil  (Upgrade Weapon: Manticore to Brilliant)
+12		085		0		50000    // Apocalypse Soul (Upgrade Set: Brilliant to Apocalypse)
+//
+14		384		0		1000     // Sphere Upgrade Rune Capsule (Socket Upgrade)
+14		364		0		5000     // Socket Upgrade Note (Socket Upgrade)
 14		390		5		2500     // Elemental Nixie's Fragment x5
-14		450		0		100000   // Soul Moru
-14		449		0		50000    // Cold Marriage
-14		495		0		100000   // Blue Eye Anvil 
-14		458		0		25000    // Earring Up Item Season 2
-14		497		0		25000    // Earring Up Item Season 3
-20		077		0		25000    // Earring Up Item Season 4
-20		083		0		25000    // Earring Up Item Season 5
-14		494		0		50000    // Ancestral Spirit
-14		501		0		50000    // Manticore Soul
-14		502		0		100000   // Silver Heart Anvil
-12		082		0		100000   // Manticore Anvil
-12		081		0		50000    // Brilliant Soul
-14		498		1		50000    // Ice Dragon Seal - Guardiam Mix 2
+12		407		0		1000     // Bound The magic solution of Lochs (Bound Wings 2nd mix)
+12		409		0		75000    // Bound The magic solution of Condor (Bound Wings 2rd mix)
+14		458		0		25000    // Earring Upgrade 2
+14		497		0		25000    // Earring Upgrade 3
+20		077		0		25000    // Earring Upgrade 4
+20		083		0		25000    // Earring Upgrade 5
+20		112		0		25000    // Earring Upgrade 6
 14		460		1		400      // [Level 1] Monster Soul Converter
 14		461		1		500      // [Level 2] Monster Soul Converter
 14		462		1		600      // [Level 3] Monster Soul Converter
 14		463		1		700      // [Level 4] Monster Soul Converter
 14		464		1		800      // [Level 5] Monster Soul Converter	
-14		510		0		50000    // Pierce Lion's Seal - Guardiam Mix 3	
-20		084		0		50000    // Shining Tail's Seal - Guardiam Mix 4	
+14		498		1		50000    // Ice Dragon Seal - Guardiam Mix 2
+14		510		1		50000    // Pierce Lion's Seal - Guardiam Mix 3
+20		084		1		50000    // Shining Tail's Seal - Guardiam Mix 4
 12		509		0		30000    // Pentagram Emblem
 12		510		0		20000    // Ertel Emblem
-12        	86          0           100000   // Brilliant Anvil  (Upgrade Weapon: Manticore to Brilliant)
-12          85          0           50000    // Apocalypse Soul (Upgrade Set: Brilliant to Apocalypse)	
+//16		042		255		75000    // Chicken (Evolved) 
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Dark Wizard			 
 2
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -69,12 +71,12 @@ end
 13		360		0		0		0         	0         	0         	50000	// Bloodangel Helm of Sealed Transcendence
 13		361		0		0		0         	0         	0         	50000	// Bloodangel Pants of Sealed Transcendence
 13		362		0		0		0         	0         	0         	50000	// Bloodangel Gloves of Sealed Transcendence
-05		041		0		0		35         	30        	2         	100000	// Bloodangel Staff
+05		041		0		0		35         	30         	2         	100000	// Bloodangel Staff
 12		290		0		0		0         	0         	0         	1000	// Scroll of Meteor Strike
 12		291		0		0		0         	0         	0         	1000	// Scroll of Meteor Storm
 12		292		0		0		0         	0         	0         	1000	// Scroll of Soul Seeker
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 // Dark Knight		   
 3
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -82,8 +84,8 @@ end
 13		352		0		0		0			0			0			50000	// Bloodangel Helm of Sealed Fury STR
 13		353		0		0		0			0			0			50000	// Bloodangel Pants of Sealed Fury STR
 13		354		0		0		0			0			0			50000	// Bloodangel Gloves of Sealed Fury STR
-14		499		0		0		0			0			0			20000	// Attacker Type Knight Transform Scroll
-14		500		0		0		0			0			0			20000	// Supporter Type Knight Transform Scroll
+14		499		0		0		0			0			0			30000	// Attacker Type Knight Transform Scroll
+14		500		0		0		0			0			0			10000	// Supporter Type Knight Transform Scroll
 13		395		0		0		0			0			0			50000	// Bloodangel Armor of Sealed Conviction ENE
 13		396		0		0		0			0			0			50000	// Bloodangel Helm of Sealed Conviction ENE
 13		397		0		0		0			0			0			50000	// Bloodangel Pants of Sealed Conviction ENE
@@ -93,20 +95,20 @@ end
 12		289		0		0		0			0			0			1000	// Orb of Fire Blow
 12		486		0		0		0			0			0			1000	// Orb of Sword Blow
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Elf	
 4
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
-13		363		0		0		0			0			0			50000	// Bloodangel Armor of Sealed Flurry 
-13		364		0		0		0			0			0			50000	// Bloodangel Helm of Sealed Flurry 
-13		365		0		0		0			0			0			50000	// Bloodangel Pants of Sealed Flurry 
-13		366		0		0		0			0			0			50000	// Bloodangel Gloves of Sealed Flurry
-14		394		0		0		0			0			0			20000	// Attacker Type Elf Transform Scroll
-14		395		0		0		0			0			0			20000	// Supporter Type Elf Transform Scroll
-13		367		0		0		0			0			0			50000	// Sealed Saving Blood Angel Armor
-13		388		0		0		0			0			0			50000	// Sealed Saving Blood Angel Helm 
-13		369		0		0		0			0			0			50000	// Sealed Saving Blood Angel Pants 
-13		370		0		0		0			0			0			50000	// Sealed Saving Blood Angel Gloves 
+13		363		0		0		0			0			0			50000	// Bloodangel Armor of Sealed Flurry STR
+13		364		0		0		0			0			0			50000	// Bloodangel Helm of Sealed Flurry STR
+13		365		0		0		0			0			0			50000	// Bloodangel Pants of Sealed Flurry STR
+13		366		0		0		0			0			0			50000	// Bloodangel Gloves of Sealed Flurry STR
+14		394		0		0		0			0			0			30000	// Attacker Type Elf Transform Scroll
+14		395		0		0		0			0			0			10000	// Supporter Type Elf Transform Scroll
+13		367		0		0		0			0			0			30000	// Bloodangel Armor of Sealed Redemption ENE
+13		368		0		0		0			0			0			30000	// Bloodangel Helm of Sealed Redemption ENE
+13		369		0		0		0			0			0			30000	// Bloodangel Pants of Sealed Redemption ENE
+13		370		0		0		0			0			0			30000	// Bloodangel Gloves of Sealed Redemption ENE
 04		028		0		0		35			30			2			100000	// Bloodangel Bow
 04		034		0		0		35			30			2			100000	// Bloodangel Quiver
 06		034		0		0		35			30			2			100000	// Bloodangel Fairy Shield
@@ -117,21 +119,22 @@ end
 12		170		0		0		0			0			0			1000	// Attribute Attack Power Enhancement Orb
 12		171		0		0		0			0			0			1000	// Attribute Defense Enhancement Orb
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Magic Gladiator	  
 5
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
-13		371		0       0       0         	0         	0			50000	// Bloodangel Armor of Sealed Extremity 
-13		372		0       0       0         	0         	0			50000	// Bloodangel Helm of Sealed Extremity 
-13		373		0       0       0         	0         	0			50000	// Bloodangel Pants of Sealed Extremity 
-13		374		0       0       0         	0        	0			50000	// Bloodangel Gloves of Sealed Extremity 
-14		396		0       0       0         	0         	0			20000	// Attack MG Conversion Order
-14		397		0       0       0         	0         	0			20000	// Magic MG Conversion Order
-13		375		0       0       0         	0         	0			50000	// Sealed Magical Blood Angel Armor
-13		376		0       0       0         	0         	0			50000	// Sealed Magical Blood Angel Helm 
-13		377		0       0       0         	0         	0			50000	// Sealed Magical Blood Angel Pants 
-13		378		0       0       0         	0         	0			50000	// Sealed Magical Blood Angel Gloves 
-05		041		0       0       35         	30        	2			100000	// Bloodangel Staff
+13		371		0       0       0         	0         	0			50000	// Bloodangel Armor of Sealed Extremity STR
+13		372		0       0       0         	0         	0			50000	// Bloodangel Helm of Sealed Extremity STR
+13		373		0       0       0         	0         	0			50000	// Bloodangel Pants of Sealed Extremity STR
+13		374		0       0       0         	0        	0			50000	// Bloodangel Gloves of Sealed Extremity STR
+14		396		0       0       0         	0         	0			30000	// Attack MG Conversion Order
+14		397		0       0       0         	0         	0			10000	// Magic MG Conversion Order
+13		375		0       0       0         	0         	0			30000	// Sealed Magical Blood Angel Armor ENE
+13		376		0       0       0         	0         	0			30000	// Sealed Magical Blood Angel Helm ENE
+13		377		0       0       0         	0         	0			30000	// Sealed Magical Blood Angel Pants ENE
+13		378		0       0       0         	0         	0			30000	// Sealed Magical Blood Angel Gloves ENE
+
+05		041		0       0       35         	30         	2			100000	// Bloodangel Staff
 00		044		0       0       35         	30         	2			100000	// Bloodangel Magic Sword
 00		089		0       0       35         	30         	2			100000	// Blood Angel Magic Two Hand Sword
 12		297		0       0       0         	0         	0			1000	// Orb of Ice Blood
@@ -141,7 +144,7 @@ end
 12		300		0       0       0         	0         	0			1000	// Scroll of Meteor Strike
 12		163		0       0       0         	0         	0			1000	// Harvok Spear Scroll
 end	
-//===================================================================================================================================
+//===================================================================================================================================//
 //Dark Lord	
 6
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -150,10 +153,9 @@ end
 13     	381		0       0       0         	0         	0			50000	// Bloodangel Pants of Sealed Conquest 
 13     	382		0       0       0         	0         	0			50000	// Bloodangel Gloves of Sealed Conquest 
 02		022		0       0       35         	30         	2			100000	// Bloodangel Scepter
-06		044		0		0		35			30			2			100000	// Blood Angel Shield 
 12		303		0       0       0         	0         	0			1000	// Scroll of Wind Soul
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Summoner
 7
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -167,7 +169,7 @@ end
 12		296		0       0       0         	0         	0			1000	// Parchment of Aqua Beast
 15		045		0       0       0           0           0			1000    // Death Scythe Parchment
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Rage Fighter
 8
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -179,7 +181,7 @@ end
 12		305		0       0       0         	0         	0			1000	// Parchment of Dark Phoenix Shot
 12		413		0       0       0           0           0			1000    // Parchment of Spirit Hook   
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 // Glow Lancer	
 9	
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -188,9 +190,8 @@ end
 13     	401		0       0       0         	0         	0			50000	// Bloodangel Pants of Sealed Tenacity 
 13     	402		0       0       0         	0        	0			50000	// Bloodangel Gloves of Sealed Tenacity 
 03		019		0       0       35         	30        	2			100000	// Bloodangel Lance
-06		044		0		0		35			30			2			100000	// Blood Angel Shield
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Rune Wizard	
 10
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -201,7 +202,7 @@ end
 02		032		0       0       35         	30        	2			100000	// Bloodangel Rune Mace
 15		039		0       0       0           0           0			1000    // Scroll of Lightning Storm RW
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Slayer
 11
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -212,7 +213,7 @@ end
 00		071		0       0       35         	30        	2			100000	// Bloodangel Short Sword
 12      479		0       0       0           0           0			1000    // Orb of Pierce Attack
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Gun Crusher
 12
 //Cat	Index  Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -224,7 +225,7 @@ end
 12      493    0       0       0            0           0		1000    // Ice Blast Orb
 12      495	   0       0       0            0           0		1000    // Busting Flare
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Kundum Mephis
 13
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -236,7 +237,7 @@ end
 15      49		0       0       0            0         	0			1000    // Scroll of Storm
 05		73		0       0       35         	30         	2			100000	// Bloodangel Magic Book
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Lemuria
 14
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
@@ -247,13 +248,14 @@ end
 15		53		0		0       0           0          	0			1000    // Ultimate Force 
 05		86		0		0       35        	30         	2			100000	// Bloodangel Orb
 end
-//===================================================================================================================================
+//===================================================================================================================================//
 //Illusion Knight
 15
 //Cat	Index   Level   Count   LuckRate	OptionRate	OptionCount	Value	   Description
 20		89		0		0       0         	0         	0			50000	// Bloodangel Armor of Sealed Longing
-20		90		0		0       0         	0         	0			50000	// Bloodangel Helmet of Sealed Longing
+20		90		0		0       0         	0         	0			50000	// Bloodangel Helm of Sealed Longing
 20		91		0		0       0         	0         	0			50000	// Bloodangel Pants of Sealed Longing 
 20		92		0		0       0         	0        	0			50000	// Bloodangel Gloves of Sealed Longing 
-12		91		0		0       0           0          	0			1000    // Bladestorm Orb
+0		105		0		0       35         	30        	2			100000	// Bloodangel Blade
+12		91		0		0       0         	0        	0			1000    // Bladestorm Orb
 end

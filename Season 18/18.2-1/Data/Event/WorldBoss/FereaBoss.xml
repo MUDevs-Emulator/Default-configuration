@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+	<!--
+	CrystalBallRegenFail - If Spawn Boss and cannot kill him, Crystal will appears in x Days, x Hours, x Minuts
+	IsOriginalTime - (0 / 1) = 1 Random time to respawn (18, 19, 20, 21, 22 hours) / 0 Static Time configured
+	CrystalBallRegenSuccess - If Spawn Boss and have success to kill him, Crystal will appears in x Days, x Hours, x Minuts
+	-->
 <FereaBoss Enable="1">
-	<HPPhase Level0="90" Level1="90" Level2="90" Level3="90" Level4="90" />
+	<HPPhase Level0="90" Level1="70" Level2="50" Level3="30" Level4="0" />
 	<Summon BeginX="27" BeginY="115" EndX="35" EndY="125" MaxMonsterSummon="25"/>
 	<SpawnMonster>	
 		<SpawnInfo Group="0" Class="730" Count="1" Attr="0" />

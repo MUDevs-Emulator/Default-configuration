@@ -1,4 +1,11 @@
+//======================================================================================================
 //ServerCode   PasiveServer	ServerName         ServerAddress      ServerPort       ServerType
-20             0 		"GameServer"       "YOUR IP"    55901            "SHOW"
-19             0		"GameServerCS"     "YOUR IP"    55919            "HIDE"
+//PasiveServer
+//0 PVP
+//1 Non-PVP
+//2 Gold-PVP
+//3 Gold-Non-PVP
+//ServerCode	PasiveServer	ServerName			ServerAddress		ServerPort		ServerType
+19				0				"GameServerCS"		"YOUR IP"			55919			"HIDE"
+20				0				"GameServer"		"YOUR IP"			55901			"SHOW"
 end
