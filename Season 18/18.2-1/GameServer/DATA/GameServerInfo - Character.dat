@@ -537,6 +537,11 @@ KMPlasmaStormDamageConstB = 5
 KMPlasmaStormDamageConstC = 7
 KMPlasmaStormDamageConstD = 3
 
+IKPlasmaStormDamageConstA= 5
+IKPlasmaStormDamageConstB= 5 
+IKPlasmaStormDamageConstC= 7
+IKPlasmaStormDamageConstD= 3
+
 ;==================================================
 ; Character Damage Settings
 ;==================================================
