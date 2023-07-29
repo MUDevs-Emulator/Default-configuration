@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElementalItemRefinemen>
+	<RankUpgrade MaxRank="3">
+		<Info Rank="0" Money="0"/>
+		<Info Rank="1" Money="100000"/>
+		<Info Rank="2" Money="100000"/>
+		<Info Rank="3" Money="150000"/>
+		<Info Rank="4" Money="0"/>
+	</RankUpgrade>
+	<LevelUp>
+		<Info Level="0" Money="100000" Rate0="100" ElementalRune0="1" Rate1="100" ElementalRune1="1" Rate2="100" ElementalRune2="3" Rate3="100" ElementalRune3="5" Rate4="0" ElementalRune4="0" />
+		<Info Level="1" Money="100000" Rate0="100" ElementalRune0="1" Rate1="100" ElementalRune1="1" Rate2="100" ElementalRune2="3" Rate3="100" ElementalRune3="5" Rate4="0" ElementalRune4="0" />
+		<Info Level="2" Money="150000" Rate0="100" ElementalRune0="2" Rate1="100" ElementalRune1="2" Rate2="100" ElementalRune2="4" Rate3="100" ElementalRune3="6" Rate4="0" ElementalRune4="0" />
+		<Info Level="3" Money="200000" Rate0="100" ElementalRune0="2" Rate1="100" ElementalRune1="2" Rate2="100" ElementalRune2="4" Rate3="100" ElementalRune3="6" Rate4="0" ElementalRune4="0" />
+		<Info Level="4" Money="250000" Rate0="100" ElementalRune0="3" Rate1="100" ElementalRune1="3" Rate2="100" ElementalRune2="5" Rate3="100" ElementalRune3="7" Rate4="0" ElementalRune4="0" />
+		<Info Level="5" Money="300000" Rate0="100" ElementalRune0="3" Rate1="100" ElementalRune1="3" Rate2="100" ElementalRune2="5" Rate3="100" ElementalRune3="7" Rate4="0" ElementalRune4="0" />
+		<Info Level="6" Money="350000" Rate0="100" ElementalRune0="4" Rate1="100" ElementalRune1="4" Rate2="100" ElementalRune2="6" Rate3="100" ElementalRune3="8" Rate4="0" ElementalRune4="0" />
+		<Info Level="7" Money="400000" Rate0="100" ElementalRune0="5" Rate1="100" ElementalRune1="5" Rate2="100" ElementalRune2="7" Rate3="100" ElementalRune3="9" Rate4="0" ElementalRune4="0" />
+		<Info Level="8" Money="450000" Rate0="100" ElementalRune0="6" Rate1="100" ElementalRune1="6" Rate2="100" ElementalRune2="8" Rate3="100" ElementalRune3="10" Rate4="0" ElementalRune4="0" />
+		<Info Level="9" Money="500000" Rate0="100" ElementalRune0="7" Rate1="100" ElementalRune1="7" Rate2="100" ElementalRune2="9" Rate3="100" ElementalRune3="11" Rate4="0" ElementalRune4="0" />
+	</LevelUp>
+	<SpecialLevelUp Enabled="1">
+		<Info Level="0" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="1" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="2" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="3" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="4" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="5" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="6" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+		<Info Level="7" Rate0="100" Rate1="100" Rate2="100" Rate3="100" Rate4="100" />
+	</SpecialLevelUp>
+	<ErrtelRate>
+		<Info Index="6365" Rate="4000" Name="Errtel of Anger" />
+		<Info Index="6375" Rate="3000" Name="Errtel of Blessing" />
+		<Info Index="6385" Rate="1500" Name="Errtel of Integrity" />
+		<Info Index="6395" Rate="1000" Name="Errtel of Divinity" />
+		<!-- <Info Index="6405" Rate="500" Name="Errtel of Radiance" /> Custom - enable so that the errtel radiance can come out on the machine) -->
+	</ErrtelRate>
+</ElementalItemRefinemen>

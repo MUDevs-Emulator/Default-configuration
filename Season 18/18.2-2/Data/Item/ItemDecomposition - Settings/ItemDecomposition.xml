@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == www.mudevs.com
+// == 2022 MuDevs (R)
+// ============================================================
+//	
+// ### ItemDecomposition::Decomposition ###
+//	Kind: Type of item
+//		1: Set item
+//		2: Ertel item
+//		3: Guardian mount
+//		4: Expired Items
+//		5: Artifacts
+//	AcquisitionCount: Number of items as a result of decomposition
+//	ItemBagMode: Change item index for itembag index
+//	RateNormal: n/10000
+//	RateRare:  n/10000
+//	RateEpic:  n/10000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all three rates must be equal to 10000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	NeedMoneyManual: Zen
+//	NeedMoneyAuto: Zen
+//	
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ For item category and index refer to Item.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+-->
+
+<ItemDecomposition>
+	<Info ItemKind="1" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Set Item -->
+	<Info ItemKind="2" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Errtel Item -->
+	<Info ItemKind="3" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="6000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Guardian Mount -->
+	<Info ItemKind="4" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="7458" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Normal expired items -->
+	<Info ItemKind="5" AcquisitionCount="1" ItemBagMode="0" rIndexNormal="10334" RateNormal="10000" rIndexRare="-1" RateRare="0" rIndexEpic="-1" RateEpic="0" NeedMoneyManual="300" NeedMoneyAuto="1000" /> <!-- Artifacts -->
+</ItemDecomposition>

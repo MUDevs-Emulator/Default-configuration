@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<Config Class="523" Range="0" PositionX="45" PositionY="67" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="45" PositionY="74" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="41" PositionY="74" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="41" PositionY="67" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="37" PositionY="67" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="37" PositionY="74" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="33" PositionY="67" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="33" PositionY="74" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="29" PositionY="67" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="29" PositionY="74" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="31" PositionY="78" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="31" PositionY="83" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="31" PositionY="87" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="57" PositionY="191" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="61" PositionY="191" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="65" PositionY="191" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="69" PositionY="191" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="68" PositionY="186" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="68" PositionY="181" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="68" PositionY="176" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="68" PositionY="171" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="202" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="206" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="210" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="214" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="218" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="222" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="226" PositionY="133" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="224" PositionY="137" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="224" PositionY="142" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="224" PositionY="147" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="224" PositionY="152" Direction="8" Element="0" /> <!-- "Trap" -->
+		<Config Class="523" Range="0" PositionX="224" PositionY="155" Direction="8" Element="0" /> <!-- "Trap" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

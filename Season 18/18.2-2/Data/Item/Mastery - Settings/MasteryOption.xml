@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MasteryOption>
+	<OptionList>
+		<Option Group="0" Index="6 " Value="0" Name="Add Damage By Level" />
+		<Option Group="0" Index="7 " Value="1" Name="Add Damage" />
+		<Option Group="1" Index="6 " Value="2" Name="Add HP" />
+		<Option Group="1" Index="7 " Value="3" Name="Add MP" />
+		<Option Group="1" Index="8 " Value="4" Name="Add Damage Decrease" />
+		<Option Group="1" Index="9 " Value="5" Name="Add Money Amount Drop Rate" />
+		<Option Group="1" Index="10" Value="6" Name="Add Impenetrable Def. By Level" />
+		<Option Group="1" Index="11" Value="9" Name="Add Elemental defense enhancement" />
+	</OptionList>
+	<BonusOptionList>
+		<Option Group="0" Index="1" Value="10" Name="Add Stat All" />
+		<Option Group="0" Index="2" Value="25" Name="Add Stat All" />
+		<Option Group="0" Index="3" Value="40" Name="Add Stat All" />
+		<Option Group="1" Index="1" Value="25" Name="Add Damage Decrease" />
+		<Option Group="1" Index="2" Value="50" Name="Add Damage Decrease" />
+		<Option Group="1" Index="3" Value="75" Name="Add Damage Decrease" />
+	</BonusOptionList>
+	<OptionDrop>
+		<!-- Normal Options -->
+		<Option Group="0" Index="0" ParentIndex="-1" Rate="1000" Name="Add MP Kill" />
+		<Option Group="0" Index="1" ParentIndex="-1" Rate="1000" Name="Add HP Kill" />
+		<Option Group="0" Index="2" ParentIndex="-1" Rate="1000" Name="Add Attack Speed" />
+		<!--<Option Group="0" Index="3" ParentIndex="7" Rate="1000" Name="Add Attack Damage %" /> -->
+		<!--<Option Group="0" Index="4" ParentIndex="6" Rate="1000" Name="Add Attack Damage by Level" /> -->
+		<Option Group="0" Index="5" ParentIndex="-1" Rate="1000" Name="Add Excellent Damage" />
+		<!-- Mastery Options -->
+		<Option Group="0" Index="6" ParentIndex="4" Rate="1000" Name="Add Damage By Level" />
+		<Option Group="0" Index="7" ParentIndex="3" Rate="1000" Name="Add Damage" />
+		<!-------------------------------------------------------------------------------------------------->
+		<!-- Normal Options -->
+		<!--<Option Group="1" Index="0" ParentIndex="9	" Rate="1" Name="Add Money Amount Drop Rate" /> -->
+		<Option Group="1" Index="1" ParentIndex="-1	" Rate="1" Name="Defense Success Rate" />
+		<Option Group="1" Index="2" ParentIndex="-1	" Rate="1" Name="Reflect Damage" />
+		<!--<Option Group="1" Index="3" ParentIndex="8	" Rate="1" Name="Add Damage Decrease" /> -->
+		<!--<Option Group="1" Index="4" ParentIndex="7	" Rate="1" Name="Add MP" /> -->
+		<!--<Option Group="1" Index="5" ParentIndex="6	" Rate="1" Name="Add HP" /> -->
+		<!-- Mastery Options -->
+		<Option Group="1" Index="6" ParentIndex="5" Rate="1" Name="Add HP" />
+		<Option Group="1" Index="7" ParentIndex="4" Rate="1" Name="Add MP" />
+		<Option Group="1" Index="8" ParentIndex="3" Rate="1" Name="Add Damage Decrease" />
+		<Option Group="1" Index="9" ParentIndex="0" Rate="1" Name="Add Money Amount Drop Rate" />
+		<Option Group="1" Index="10" ParentIndex="-1" Rate="1" Name="Add Impenetrable Def. By Level" />
+		<Option Group="1" Index="11" ParentIndex="-1" Rate="1" Name="Add Elemental defense enhancement" />
+	</OptionDrop>
+</MasteryOption>

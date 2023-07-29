@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ItemGradeOption>
+	<OptionList>
+		<Option Index="0" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="6" GradeValue3="7" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Mana full recovery probability %d%% increase"/>
+		<Option Index="1" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="6" GradeValue3="7" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="%d chance of full recovery of life %d%% increase"/>
+		<Option Index="2" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="6" GradeValue3="7" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="The probability of returning enemy damage %d%% increase"/>
+		<Option Index="3" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="6" GradeValue3="7" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="%d chance to ignore enemy defense %d%% increase"/>
+		<Option Index="4" ItemKindA="76" GradeValue0="5" GradeValue1="7" GradeValue2="9" GradeValue3="12" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Attack (spell) speed %d increase"/>
+		<Option Index="5" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="7" GradeValue3="10" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Probability of excellent damage increased %d%%"/>
+		<Option Index="6" ItemKindA="76" GradeValue0="3" GradeValue1="5" GradeValue2="6" GradeValue3="7" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Double damage chance %d%% increase"/>
+		<Option Index="7" ItemKindA="76" GradeValue0="10" GradeValue1="25" GradeValue2="40" GradeValue3="65" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Force %d increase"/>
+		<Option Index="8" ItemKindA="76" GradeValue0="10" GradeValue1="25" GradeValue2="40" GradeValue3="65" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Increase stamina %d"/>
+		<Option Index="9" ItemKindA="76" GradeValue0="10" GradeValue1="25" GradeValue2="40" GradeValue3="65" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="%d increase in energy"/>
+		<Option Index="10" ItemKindA="76" GradeValue0="10" GradeValue1="25" GradeValue2="40" GradeValue3="65" GradeValue4="0" GradeValue5="0" GradeValue6="0" GradeValue7="0" GradeValue8="0" GradeValue9="0" Rate="5000" Name="Agility increased by %d"/>
+	</OptionList>
+	<RateList>
+		<Option Index="0" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="1" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="2" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="3" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="4" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="5" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="6" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="7" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="8" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="9" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+		<Option Index="10" GradeRate0="947500" GradeRate1="30000" GradeRate2="15000" GradeRate3="7500" GradeRate4="0" GradeRate5="0" GradeRate6="0" GradeRate7="0" GradeRate8="0" GradeRate9="0" />
+	</RateList>
+</ItemGradeOption>

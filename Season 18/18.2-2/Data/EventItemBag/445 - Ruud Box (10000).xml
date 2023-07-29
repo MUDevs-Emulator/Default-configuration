@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================//
+// == 						 MuDevs						     ==//
+// == 					 www.mudevs.com					     ==//
+// == 				  (C) 2022 MuDevs (R)				     ==//
+// ============================================================//
+// == 				      Editor:OMEGA  				     ==//
+// ============================================================//
+//
+//~~ 
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="5" SectionRate="10000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" IK="1"/>
+	</BagDropInfoEx>
+
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="10000" RuudMax="10000"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		
+	</BagItemsEx>                  
+</ItemBag>

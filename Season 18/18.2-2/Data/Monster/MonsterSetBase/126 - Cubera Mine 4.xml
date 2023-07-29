@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="7" BeginPosX="234" BeginPosY="9" EndPosX="241" EndPosY="15" Direction="-1" Quantity="7" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="7" BeginPosX="232" BeginPosY="13" EndPosX="239" EndPosY="21" Direction="-1" Quantity="9" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="7" BeginPosX="182" BeginPosY="111" EndPosX="189" EndPosY="120" Direction="-1" Quantity="9" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="7" BeginPosX="198" BeginPosY="85" EndPosX="211" EndPosY="92" Direction="-1" Quantity="9" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" BeginPosX="141" BeginPosY="4" EndPosX="152" EndPosY="13" Direction="-1" Quantity="10" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="7" BeginPosX="121" BeginPosY="90" EndPosX="132" EndPosY="98" Direction="-1" Quantity="10" Element="4" />
+			<!--(812) Mine Porter [Lv.380]-->
+			<Config Class="812" Range="7" BeginPosX="121" BeginPosY="90" EndPosX="132" EndPosY="98" Direction="-1" Quantity="7" Element="4" />
+			<!--(812) Mine Porter [Lv.380]-->
+			<Config Class="812" Range="6" BeginPosX="137" BeginPosY="31" EndPosX="145" EndPosY="40" Direction="-1" Quantity="10" Element="4" />
+			<!--(812) Mine Porter [Lv.380]-->
+			<Config Class="812" Range="6" BeginPosX="102" BeginPosY="76" EndPosX="108" EndPosY="82" Direction="-1" Quantity="10" Element="4" />
+			<!--(813) Mine Driller [Lv.380]-->
+			<Config Class="813" Range="7" BeginPosX="218" BeginPosY="41" EndPosX="229" EndPosY="51" Direction="-1" Quantity="10" Element="4" />
+			<!--(814) Dead Digger [Lv.400]-->
+			<Config Class="814" Range="7" BeginPosX="148" BeginPosY="94" EndPosX="159" EndPosY="104" Direction="-1" Quantity="10" Element="4" />
+			<!--(814) Dead Digger [Lv.400]-->
+			<Config Class="814" Range="7" BeginPosX="85" BeginPosY="50" EndPosX="91" EndPosY="58" Direction="-1" Quantity="10" Element="4" />
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="183" PositionY="102" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="181" PositionY="98" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="186" PositionY="87" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="225" PositionY="26" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="229" PositionY="23" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="215" PositionY="39" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="214" PositionY="34" Direction="-1" Element="4" />
+			<!--(810) Mine Digger [Lv.380]-->
+			<Config Class="810" Range="6" PositionX="186" PositionY="30" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="166" PositionY="57" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="172" PositionY="46" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="168" PositionY="21" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="157" PositionY="8" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="167" PositionY="11" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="192" PositionY="68" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="187" PositionY="77" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="176" PositionY="80" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="135" PositionY="68" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="134" PositionY="64" Direction="-1" Element="4" />
+			<!--(811) Mine Carrier [Lv.380]-->
+			<Config Class="811" Range="6" PositionX="161" PositionY="90" Direction="-1" Element="4" />
+			<!--(812) Mine Porter [Lv.380]-->
+			<Config Class="812" Range="6" PositionX="111" PositionY="57" Direction="-1" Element="4" />
+			<!--(812) Mine Porter [Lv.380]-->
+			<Config Class="812" Range="6" PositionX="112" PositionY="66" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="89" PositionY="51" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="87" PositionY="56" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="86" PositionY="52" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="102" PositionY="81" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="106" PositionY="82" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="140" PositionY="8" Direction="-1" Element="4" />
+			<!--(816) Dead Porter [Lv.400]-->
+			<Config Class="816" Range="6" PositionX="120" PositionY="94" Direction="-1" Element="4" />
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

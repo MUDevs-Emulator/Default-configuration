@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs Ex1821
+// == www.mudevs.com
+// == (C) 2023 MuDevs (R)
+// ============================================================
+	Elements: 1 = Fire / 2 = Water / 3 = Earth / 4 = Wind / 5 = Darkness / 6 = Randon 
+ 
+S18.2-1
+926		"Bloody Mutant"
+927		"Bloody Wolf"
+928		"Bloody Beam Knight"
+929		"Bloody Tantalos"
+
+S18.2-2
+930		"Bloody Wolf (Elite)"
+931		"Bloody Beam Knight (Elite)"
+932		"Bloody Tantalos (Elite)"
+ -->
+<MonsterSetBase>
+	<NPC>
+		<Config Class="253" Range="0" PositionX="128" PositionY="039" Direction="2" Element="0" /> <!-- "Potion Girl Amy" -->
+		<Config Class="240" Range="0" PositionX="130" PositionY="045" Direction="2" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="925" Range="0" PositionX="050" PositionY="042" Direction="2" Element="0" />  <!-- "Elite Zone Flag Fire " -->
+		<Config Class="925" Range="0" PositionX="214" PositionY="218" Direction="2" Element="0" />  <!-- "Elite Zone Flag Water " -->
+		<Config Class="925" Range="0" PositionX="092" PositionY="113" Direction="3" Element="0" />  <!-- "Elite Zone Flag Earth " -->
+		<Config Class="925" Range="0" PositionX="050" PositionY="215" Direction="2" Element="0" />  <!-- "Elite Zone Flag Wind " -->
+		<Config Class="925" Range="0" PositionX="225" PositionY="029" Direction="1" Element="0" />  <!-- "Elite Zone Flag Dark " -->
+	</NPC>
+	<SPOT>
+	
+		<Config Class="926" Range="5" BeginPosX="104" BeginPosY="011" EndPosX="109" EndPosY="018" Direction="-1" Quantity="4" Element="1" /> <!-- Bloody Mutant--> 
+		<Config Class="926" Range="5" BeginPosX="112" BeginPosY="062" EndPosX="117" EndPosY="068" Direction="-1" Quantity="4" Element="1" /> <!-- Bloody Mutant--> 
+		<Config Class="927" Range="5" BeginPosX="067" BeginPosY="006" EndPosX="071" EndPosY="011" Direction="-1" Quantity="5" Element="1" /> <!-- Bloody Wolf--> 
+		<Config Class="927" Range="5" BeginPosX="085" BeginPosY="074" EndPosX="089" EndPosY="080" Direction="-1" Quantity="5" Element="1" /> <!-- Bloody Wolf--> 
+		<Config Class="929" Range="5" BeginPosX="057" BeginPosY="065" EndPosX="062" EndPosY="072" Direction="-1" Quantity="5" Element="1" /> <!-- Bloody Tantalos--> 
+		<Config Class="928" Range="5" BeginPosX="027" BeginPosY="022" EndPosX="034" EndPosY="029" Direction="-1" Quantity="5" Element="1" /> <!-- Bloody Beam Knight--> 
+		
+		<Config Class="930" Range="5" BeginPosX="016" BeginPosY="050" EndPosX="023" EndPosY="055" Direction="-1" Quantity="2" Element="1" /> <!-- "Bloody Wolf (Elite)"--> 
+		<Config Class="931" Range="5" BeginPosX="016" BeginPosY="050" EndPosX="023" EndPosY="055" Direction="-1" Quantity="2" Element="1" /> <!-- "Bloody Beam Knight (Elite)"--> 
+		<Config Class="932" Range="5" BeginPosX="016" BeginPosY="050" EndPosX="023" EndPosY="055" Direction="-1" Quantity="2" Element="1" /> <!-- "Bloody Tantalos (Elite)"--> 
+		
+				<Config Class="926" Range="5" BeginPosX="203" BeginPosY="132" EndPosX="210" EndPosY="140" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Mutant--> 
+		<Config Class="926" Range="5" BeginPosX="168" BeginPosY="184" EndPosX="177" EndPosY="192" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Mutant--> 
+		<Config Class="927" Range="5" BeginPosX="235" BeginPosY="108" EndPosX="241" EndPosY="116" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Wolf--> 
+		<Config Class="927" Range="5" BeginPosX="167" BeginPosY="211" EndPosX="175" EndPosY="218" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Wolf--> 
+		<Config Class="929" Range="5" BeginPosX="237" BeginPosY="176" EndPosX="244" EndPosY="187" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Tantalos--> 
+		<Config Class="928" Range="5" BeginPosX="237" BeginPosY="146" EndPosX="244" EndPosY="153" Direction="-1" Quantity="5" Element="2" /> <!-- Bloody Beam Knight--> 
+		
+		<Config Class="930" Range="5" BeginPosX="237" BeginPosY="210" EndPosX="244" EndPosY="219" Direction="-1" Quantity="3" Element="2" /> <!-- "Bloody Wolf (Elite)"--> 
+		<Config Class="931" Range="5" BeginPosX="237" BeginPosY="210" EndPosX="244" EndPosY="219" Direction="-1" Quantity="3" Element="2" /> <!-- "Bloody Beam Knight (Elite)"--> 
+		<Config Class="932" Range="5" BeginPosX="237" BeginPosY="210" EndPosX="244" EndPosY="219" Direction="-1" Quantity="3" Element="2" /> <!-- "Bloody Tantalos (Elite)"--> 
+		
+		<Config Class="926" Range="5" BeginPosX="168" BeginPosY="084" EndPosX="174" EndPosY="090" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Mutant--> 
+		<Config Class="926" Range="5" BeginPosX="176" BeginPosY="122" EndPosX="183" EndPosY="130" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Mutant--> 
+		<Config Class="927" Range="5" BeginPosX="204" BeginPosY="106" EndPosX="212" EndPosY="113" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Wolf--> 
+		<Config Class="927" Range="5" BeginPosX="134" BeginPosY="131" EndPosX="141" EndPosY="139" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Wolf--> 
+		<Config Class="929" Range="5" BeginPosX="116" BeginPosY="091" EndPosX="124" EndPosY="099" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Tantalos--> 
+		<Config Class="928" Range="5" BeginPosX="108" BeginPosY="132" EndPosX="116" EndPosY="142" Direction="-1" Quantity="5" Element="3" /> <!-- Bloody Beam Knight--> 
+		
+		<Config Class="930" Range="5" BeginPosX="71" BeginPosY="105" EndPosX="81" EndPosY="113" Direction="-1" Quantity="3" Element="3" /> <!-- "Bloody Wolf (Elite)"--> 
+		<Config Class="931" Range="5" BeginPosX="71" BeginPosY="105" EndPosX="81" EndPosY="113" Direction="-1" Quantity="3" Element="3" /> <!-- "Bloody Beam Knight (Elite)"--> 
+		<Config Class="932" Range="5" BeginPosX="71" BeginPosY="105" EndPosX="81" EndPosY="113" Direction="-1" Quantity="3" Element="3" /> <!-- "Bloody Tantalos (Elite)"--> 
+		
+		<Config Class="926" Range="5" BeginPosX="119" BeginPosY="161" EndPosX="128" EndPosY="168" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Mutant--> 
+		<Config Class="926" Range="5" BeginPosX="117" BeginPosY="202" EndPosX="123" EndPosY="210" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Mutant--> 
+		<Config Class="927" Range="5" BeginPosX="074" BeginPosY="161" EndPosX="080" EndPosY="169" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Wolf--> 
+		<Config Class="927" Range="5" BeginPosX="097" BeginPosY="230" EndPosX="106" EndPosY="236" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Wolf--> 
+		<Config Class="929" Range="5" BeginPosX="023" BeginPosY="184" EndPosX="031" EndPosY="192" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Tantalos--> 
+		<Config Class="928" Range="5" BeginPosX="054" BeginPosY="232" EndPosX="060" EndPosY="238" Direction="-1" Quantity="5" Element="4" /> <!-- Bloody Beam Knight--> 
+		
+		<Config Class="930" Range="5" BeginPosX="15" BeginPosY="217" EndPosX="25" EndPosY="224" Direction="-1" Quantity="3" Element="4" /> <!-- "Bloody Wolf (Elite)"-->  
+		<Config Class="931" Range="5" BeginPosX="15" BeginPosY="217" EndPosX="25" EndPosY="224" Direction="-1" Quantity="3" Element="4" /> <!-- "Bloody Beam Knight (Elite)"-->  
+		<Config Class="932" Range="5" BeginPosX="15" BeginPosY="217" EndPosX="25" EndPosY="224" Direction="-1" Quantity="3" Element="4" /> <!-- "Bloody Tantalos (Elite)"-->  
+		
+		<Config Class="926" Range="5" BeginPosX="147" BeginPosY="007" EndPosX="153" EndPosY="014" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Mutant--> 
+		<Config Class="926" Range="5" BeginPosX="177" BeginPosY="011" EndPosX="183" EndPosY="017" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Mutant--> 
+		<Config Class="927" Range="5" BeginPosX="164" BeginPosY="063" EndPosX="171" EndPosY="071" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Wolf--> 
+		<Config Class="927" Range="5" BeginPosX="204" BeginPosY="071" EndPosX="210" EndPosY="079" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Wolf--> 
+		<Config Class="929" Range="5" BeginPosX="204" BeginPosY="010" EndPosX="212" EndPosY="016" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Tantalos--> 
+		<Config Class="928" Range="5" BeginPosX="229" BeginPosY="053" EndPosX="236" EndPosY="060" Direction="-1" Quantity="5" Element="5" /> <!-- Bloody Beam Knight--> 
+		
+		<Config Class="930" Range="5" BeginPosX="235" BeginPosY="24" EndPosX="243" EndPosY="31" Direction="-1" Quantity="3" Element="5" /> <!-- "Bloody Wolf (Elite)"--> 
+		<Config Class="931" Range="5" BeginPosX="235" BeginPosY="24" EndPosX="243" EndPosY="31" Direction="-1" Quantity="3" Element="5" /> <!-- "Bloody Beam Knight (Elite)"--> 
+		<Config Class="932" Range="5" BeginPosX="235" BeginPosY="24" EndPosX="243" EndPosY="31" Direction="-1" Quantity="3" Element="5" /> <!-- "Bloody Tantalos (Elite)"--> 
+		
+
+		
+	</SPOT>
+	<MONSTER>
+		<Config Class="926" Range="5" PositionX="108" PositionY="038" Direction="-1" Element="1" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="096" PositionY="038" Direction="-1" Element="1" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="082" PositionY="039" Direction="-1" Element="1" /> <!-- "Bloody Wolf"--> 
+		<Config Class="929" Range="5" PositionX="069" PositionY="042" Direction="-1" Element="1" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="076" PositionY="061" Direction="-1" Element="1" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="928" Range="5" PositionX="056" PositionY="041" Direction="-1" Element="1" /> <!-- "Bloody Beam Knight"--> 
+		
+		<Config Class="926" Range="5" PositionX="174" PositionY="154" Direction="-1" Element="2" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="185" PositionY="153" Direction="-1" Element="2" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="195" PositionY="154" Direction="-1" Element="2" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="205" PositionY="160" Direction="-1" Element="2" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="213" PositionY="166" Direction="-1" Element="2" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="216" PositionY="175" Direction="-1" Element="2" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="198" PositionY="184" Direction="-1" Element="2" /> <!-- "Bloody Wolf"--> 
+		<Config Class="929" Range="5" PositionX="207" PositionY="192" Direction="-1" Element="2" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="204" PositionY="199" Direction="-1" Element="2" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="215" PositionY="210" Direction="-1" Element="2" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="218" PositionY="216" Direction="-1" Element="2" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="194" PositionY="201" Direction="-1" Element="2" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="928" Range="5" PositionX="219" PositionY="196" Direction="-1" Element="2" /> <!-- "Bloody Beam Knight"--> 
+		<Config Class="928" Range="5" PositionX="226" PositionY="197" Direction="-1" Element="2" /> <!-- "Bloody Beam Knight"--> 
+		<Config Class="928" Range="5" PositionX="231" PositionY="192" Direction="-1" Element="2" /> <!-- "Bloody Beam Knight"--> 
+		
+		<Config Class="926" Range="5" PositionX="140" PositionY="066" Direction="-1" Element="3" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="144" PositionY="074" Direction="-1" Element="3" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="143" PositionY="082" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="144" PositionY="089" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="146" PositionY="097" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="159" PositionY="101" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="158" PositionY="118" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="926" Range="5" PositionX="151" PositionY="102" Direction="-1" Element="3" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="154" PositionY="110" Direction="-1" Element="3" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="135" PositionY="102" Direction="-1" Element="3" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="129" PositionY="110" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="173" PositionY="110" Direction="-1" Element="3" /> <!-- "Bloody Wolf"--> 
+		<Config Class="929" Range="5" PositionX="131" PositionY="106" Direction="-1" Element="3" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="115" PositionY="110" Direction="-1" Element="3" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="095" PositionY="102" Direction="-1" Element="3" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="094" PositionY="112" Direction="-1" Element="3" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="928" Range="5" PositionX="109" PositionY="114" Direction="-1" Element="3" /> <!-- "Bloody Beam Knight"--> 
+
+		<Config Class="926" Range="5" PositionX="154" PositionY="161" Direction="-1" Element="4" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="146" PositionY="168" Direction="-1" Element="4" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="161" PositionY="155" Direction="-1" Element="4" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="135" PositionY="180" Direction="-1" Element="4" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="118" PositionY="180" Direction="-1" Element="4" /> <!-- "Bloody Wolf"--> 
+		<Config Class="929" Range="5" PositionX="100" PositionY="186" Direction="-1" Element="4" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="080" PositionY="189" Direction="-1" Element="4" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="070" PositionY="193" Direction="-1" Element="4" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="057" PositionY="197" Direction="-1" Element="4" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="056" PositionY="211" Direction="-1" Element="4" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="928" Range="5" PositionX="050" PositionY="181" Direction="-1" Element="4" /> <!-- "Bloody Beam Knight"--> 
+		<Config Class="928" Range="5" PositionX="056" PositionY="181" Direction="-1" Element="4" /> <!-- "Bloody Beam Knight"--> 
+		
+		<Config Class="926" Range="5" PositionX="158" PositionY="037" Direction="-1" Element="5" /> <!-- "Bloody Mutant"--> 
+		<Config Class="926" Range="5" PositionX="168" PositionY="027" Direction="-1" Element="5" /> <!-- "Bloody Mutant"--> 
+		<Config Class="927" Range="5" PositionX="176" PositionY="028" Direction="-1" Element="5" /> <!-- "Bloody Wolf"--> 
+		<Config Class="927" Range="5" PositionX="184" PositionY="032" Direction="-1" Element="5" /> <!-- "Bloody Wolf"--> 
+		<Config Class="929" Range="5" PositionX="196" PositionY="033" Direction="-1" Element="5" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="204" PositionY="028" Direction="-1" Element="5" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="929" Range="5" PositionX="204" PositionY="036" Direction="-1" Element="5" /> <!-- "Bloody Tantalos"--> 
+		<Config Class="928" Range="5" PositionX="220" PositionY="026" Direction="-1" Element="5" /> <!-- "Bloody Beam Knight"--> 
+		<Config Class="928" Range="5" PositionX="214" PositionY="029" Direction="-1" Element="5" /> <!-- "Bloody Beam Knight"--> 
+	</MONSTER>
+	<EVENT>
+	</EVENT>
+</MonsterSetBase>

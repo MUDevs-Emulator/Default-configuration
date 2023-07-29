@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="232" Range="0" PositionX="10" PositionY="9" Direction="1" Element="0" /> <!-- "Archangel" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<!-- Blood Castle 7 - Stage 0-->
+		<Config Class="428" Range="30" PositionX="14" PositionY="34" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="38" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="13" PositionY="35" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="13" PositionY="28" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="35" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="33" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="41" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="42" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="25" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="23" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="13" PositionY="26" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="13" PositionY="37" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="40" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="13" PositionY="39" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="27" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="24" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="14" PositionY="32" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="45" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="428" Range="30" PositionX="15" PositionY="31" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="26" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="45" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="23" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="43" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="39" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="37" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="29" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="28" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="25" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="21" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="14" PositionY="22" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="21" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="31" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="30" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="15" PositionY="33" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="14" PositionY="21" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="429" Range="30" PositionX="13" PositionY="43" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="46" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="63" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="53" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="65" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="67" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="59" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="59" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="55" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="62" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="41" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="69" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="50" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="48" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="46" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="14" PositionY="44" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="51" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="14" PositionY="49" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="57" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="14" PositionY="64" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="14" PositionY="67" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="53" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="65" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="15" PositionY="60" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="430" Range="30" PositionX="13" PositionY="57" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="431" Range="30" PositionX="13" PositionY="69" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="14" PositionY="61" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="13" PositionY="55" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="14" PositionY="58" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="14" PositionY="52" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="15" PositionY="50" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="15" PositionY="66" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="14" PositionY="56" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="14" PositionY="70" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="13" PositionY="63" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="431" Range="30" PositionX="13" PositionY="48" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="432" Range="30" PositionX="13" PositionY="78" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="83" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="78" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="15" PositionY="78" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="16" PositionY="80" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="15" PositionY="62" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="52" PositionY="83" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="90" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="11" PositionY="83" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="15" PositionY="94" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="20" PositionY="82" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="20" PositionY="88" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="54" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="36" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="15" PositionY="68" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="432" Range="30" PositionX="14" PositionY="47" Direction="7" Element="0" EventLevel="7" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<!-- Blood Castle 7 - Stage 3-->
+		<Config Class="433" Range="30" PositionX="16" PositionY="87" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="12" PositionY="81" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="13" PositionY="88" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="13" PositionY="85" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="19" PositionY="85" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="13" PositionY="93" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="14" PositionY="80" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="433" Range="30" PositionX="18" PositionY="81" Direction="7" Element="0" EventLevel="7" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

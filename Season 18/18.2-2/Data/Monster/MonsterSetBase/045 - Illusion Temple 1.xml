@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="381" Range="0" PositionX="195" PositionY="116" Direction="2" Element="0" /> <!-- "MU Allies General" -->
+		<Config Class="382" Range="0" PositionX="140" PositionY="61" Direction="2" Element="0" /> <!-- "Illusion Sorcerer Elder" -->
+		<Config Class="383" Range="0" PositionX="139" PositionY="59" Direction="2" Element="0" /> <!-- "Alliance Sacred Item Storage" -->
+		<Config Class="384" Range="0" PositionX="192" PositionY="116" Direction="2" Element="0" /> <!-- "Illusion Castle Sacred Item Sto" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<Config Class="386" Range="10" PositionX="131" PositionY="93" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="131" PositionY="89" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="131" PositionY="85" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="168" PositionY="123" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="164" PositionY="123" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="160" PositionY="123" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="169" PositionY="48" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="169" PositionY="52" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="169" PositionY="56" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="206" PositionY="85" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="206" PositionY="81" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="206" PositionY="77" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="158" PositionY="85" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="168" PositionY="94" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="169" PositionY="75" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="179" PositionY="85" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="157" PositionY="66" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="162" PositionY="66" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="150" PositionY="78" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="150" PositionY="73" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="176" PositionY="103" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="181" PositionY="103" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="187" PositionY="98" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="187" PositionY="92" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="197" PositionY="57" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="141" PositionY="113" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="193" PositionY="61" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="145" PositionY="109" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="189" PositionY="65" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="388" Range="10" PositionX="149" PositionY="105" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="386" Range="10" PositionX="167" PositionY="87" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+		<Config Class="387" Range="10" PositionX="171" PositionY="83" Direction="-1" Element="0" /> <!-- "Illusion Sorcerer Spirit" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="232" Range="0" PositionX="10" PositionY="9" Direction="1" Element="0" /> <!-- "Archangel" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+		<!-- Blood Castle 2 - Stage 0 -->
+		<Config Class="96" Range="30" PositionX="14" PositionY="34" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="14" PositionY="38" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="13" PositionY="35" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="13" PositionY="28" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="13" PositionY="39" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="14" PositionY="27" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="14" PositionY="24" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="96" Range="30" PositionX="15" PositionY="31" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Warrior" -->
+		<Config Class="97" Range="30" PositionX="13" PositionY="45" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="13" PositionY="23" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="15" PositionY="43" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="15" PositionY="39" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="14" PositionY="21" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="13" PositionY="43" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="97" Range="30" PositionX="15" PositionY="26" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Chief Skeleton Archer" -->
+		<Config Class="98" Range="30" PositionX="15" PositionY="46" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="15" PositionY="63" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="15" PositionY="53" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="13" PositionY="65" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="13" PositionY="67" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="14" PositionY="64" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="14" PositionY="67" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="13" PositionY="53" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="15" PositionY="65" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="15" PositionY="60" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="98" Range="30" PositionX="13" PositionY="57" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Dark Skull Soldier" -->
+		<Config Class="99" Range="30" PositionX="13" PositionY="69" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="99" Range="30" PositionX="14" PositionY="56" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="99" Range="30" PositionX="14" PositionY="70" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="99" Range="30" PositionX="13" PositionY="48" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="99" Range="30" PositionX="13" PositionY="63" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Giant Ogre" -->
+		<Config Class="111" Range="30" PositionX="13" PositionY="78" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="14" PositionY="83" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="14" PositionY="78" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="14" PositionY="54" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="14" PositionY="36" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="15" PositionY="68" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<Config Class="111" Range="30" PositionX="14" PositionY="47" Direction="2" Element="0" EventLevel="2" EventStage="0" RewpawnTime="1000" /> <!-- "Red Skeleton Knight" -->
+		<!-- Blood Castle 2 - Stage 3 -->
+		<Config Class="112" Range="30" PositionX="16" PositionY="87" Direction="2" Element="0" EventLevel="2" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="112" Range="30" PositionX="12" PositionY="81" Direction="2" Element="0" EventLevel="2" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="112" Range="30" PositionX="13" PositionY="88" Direction="2" Element="0" EventLevel="2" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+		<Config Class="112" Range="30" PositionX="13" PositionY="85" Direction="2" Element="0" EventLevel="2" EventStage="3" RewpawnTime="1000" /> <!-- "Magic Skeleton" -->
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

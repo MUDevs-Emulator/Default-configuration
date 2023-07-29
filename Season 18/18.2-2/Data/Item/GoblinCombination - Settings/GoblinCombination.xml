@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GoblinCombination Enabled="1">
+	<CombinationMaterials>
+		<Material ID="0" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="1" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="2" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="3" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="4" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="5" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="6" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="7" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="8" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="9" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="5" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="10" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="11" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="12" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="13" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="14" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="15" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="16" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="17" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="18" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="19" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="6" LevelMax="8" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="20" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="21" IndexMin="6159" IndexMax="6159" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Jewel of Chaos" />
+		<Material ID="22" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="23" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="24" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="25" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="26" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="27" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="28" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="29" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="9" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="30" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="31" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="2" CountMax="2" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="32" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="2" CountMax="2" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="33" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="34" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="35" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="36" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="37" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="38" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="39" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="40" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="10" LevelMax="10" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="41" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="42" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="3" CountMax="3" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="43" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="3" CountMax="3" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="44" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="45" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="46" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="47" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="48" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="49" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="50" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="51" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="11" LevelMax="11" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="52" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="53" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="4" CountMax="4" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="54" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="4" CountMax="4" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="55" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="56" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="57" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="58" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="59" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="60" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="61" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="62" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="12" LevelMax="12" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="63" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="64" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="5" CountMax="5" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="65" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="5" CountMax="5" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="66" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="67" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="68" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="69" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="70" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="71" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="72" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="73" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="13" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="74" IndexMin="6344" IndexMax="6358" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" />
+		<Material ID="75" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="6" CountMax="6" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="76" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="6" CountMax="6" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="77" IndexMin="6361" IndexMax="6361" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Thoughtful Sage's Jewel" />
+		<Material ID="78" IndexMin="6450" IndexMax="6454" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="Runedil's Goldentune Harp" />
+		<Material ID="79" IndexMin="6643" IndexMax="6648" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="32" Name="" />
+		<Material ID="80" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="1" Name="Kris" />
+		<Material ID="81" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="4" Name="Kris" />
+		<Material ID="82" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="2" Name="Kris" />
+		<Material ID="83" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="16" Name="Kris" />
+		<Material ID="84" IndexMin="0" IndexMax="7167" ItemGroup="0" ItemKindA="0" LevelMin="14" LevelMax="14" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="128" Name="Kris" />
+		<Material ID="85" IndexMin="0" IndexMax="6143" ItemGroup="0" ItemKindA="0" LevelMin="4" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="255" SpecialItem="0" Name="Kris" />
+		<Material ID="86" IndexMin="6159" IndexMax="6159" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="255" SpecialItem="0" Name="Jewel of Chaos" />
+		<Material ID="87" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="0" CountMax="255" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="88" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="0" CountMax="255" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="89" IndexMin="1030" IndexMax="2567" ItemGroup="0" ItemKindA="0" LevelMin="4" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: Chaos Dragon Axe-> End:Chaos Lightning Staff" />
+		<Material ID="90" IndexMin="10354" IndexMax="10354" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="1st Wings Relic" />
+		<Material ID="91" IndexMin="6548" IndexMax="6548" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="0" CountMax="255" SpecialItem="0" Name="Lower Magic Stone" />
+		<Material ID="92" IndexMin="6144" IndexMax="6146" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: Wings of Elf-> End:Wings of Satan" />
+		<Material ID="93" IndexMin="6670" IndexMax="6670" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="0" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Loch's Feather" />
+		<Material ID="94" IndexMin="6185" IndexMax="6185" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wing of Curse" />
+		<Material ID="95" IndexMin="6299" IndexMax="6299" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Pure White Cloak" />
+		<Material ID="96" IndexMin="6317" IndexMax="6317" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Iron Cloak" />
+		<Material ID="97" IndexMin="10355" IndexMax="10355" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="2nd Wings Relic" />
+		<Material ID="98" IndexMin="6549" IndexMax="6549" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="0" CountMax="255" SpecialItem="0" Name="Medium Magic Stone" />
+		<Material ID="99" IndexMin="6147" IndexMax="6150" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: Wings of Spirits-> End:Wings of Darkness" />
+		<Material ID="100" IndexMin="6708" IndexMax="6708" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Condor Flame" />
+		<Material ID="101" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="50" CountMax="50" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="102" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="50" CountMax="50" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="103" IndexMin="7190" IndexMax="7190" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="50" CountMax="50" SpecialItem="0" Name="Jewel of Creation" />
+		<Material ID="104" IndexMin="6159" IndexMax="6159" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="50" CountMax="50" SpecialItem="0" Name="Jewel of Chaos" />
+		<Material ID="105" IndexMin="6686" IndexMax="6686" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cape of Lord" />
+		<Material ID="106" IndexMin="6186" IndexMax="6186" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wing of Despair" />
+		<Material ID="107" IndexMin="6193" IndexMax="6193" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cape of Fighter" />
+		<Material ID="108" IndexMin="6413" IndexMax="6413" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cloak of Limit" />
+		<Material ID="109" IndexMin="6300" IndexMax="6300" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cloak of Innocence" />
+		<Material ID="110" IndexMin="6318" IndexMax="6318" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Black Cloak" />
+		<Material ID="111" IndexMin="6709" IndexMax="6709" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Condor Feather" />
+		<Material ID="112" IndexMin="6159" IndexMax="6159" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="30" CountMax="30" SpecialItem="0" Name="Jewel of Chaos" />
+		<Material ID="113" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="30" CountMax="30" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="114" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="30" CountMax="30" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="115" IndexMin="7190" IndexMax="7190" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="30" CountMax="30" SpecialItem="0" Name="Jewel of Creation" />
+		<Material ID="116" IndexMin="6550" IndexMax="6550" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="255" SpecialItem="0" Name="Higher Magic Stone" />
+		<Material ID="117" IndexMin="10356" IndexMax="10356" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="3rd Wings Relic" />
+		<Material ID="118" IndexMin="6180" IndexMax="6184" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: Wing of Storm-> End:Cape of Emperor" />
+		<Material ID="119" IndexMin="7122" IndexMax="7122" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Garuda's Flame" />
+		<Material ID="120" IndexMin="7124" IndexMax="7124" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="50" CountMax="50" SpecialItem="0" Name="Golden Crest" />
+		<Material ID="121" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="60" CountMax="60" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="122" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="60" CountMax="60" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="123" IndexMin="7190" IndexMax="7190" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="60" CountMax="60" SpecialItem="0" Name="Jewel of Creation" />
+		<Material ID="124" IndexMin="6159" IndexMax="6159" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="60" CountMax="60" SpecialItem="0" Name="Jewel of Chaos" />
+		<Material ID="125" IndexMin="6187" IndexMax="6187" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wing of Dimension" />
+		<Material ID="126" IndexMin="6194" IndexMax="6194" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cape of Overrule" />
+		<Material ID="127" IndexMin="6414" IndexMax="6414" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cloak of Transcendence" />
+		<Material ID="128" IndexMin="6611" IndexMax="6611" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wings of Disillusion" />
+		<Material ID="129" IndexMin="6616" IndexMax="6616" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wings of Silence" />
+		<Material ID="130" IndexMin="6633" IndexMax="6633" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wings of Accuracy" />
+		<Material ID="131" IndexMin="6302" IndexMax="6302" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Cloak of Splendor" />
+		<Material ID="132" IndexMin="6171" IndexMax="6171" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Wings of Manaburst" />
+		<Material ID="133" IndexMin="6320" IndexMax="6320" ItemGroup="0" ItemKindA="0" LevelMin="13" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Desperate Cloak" />
+		<Material ID="134" IndexMin="7123" IndexMax="7123" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Garuda's Feather" />
+		<Material ID="135" IndexMin="10357" IndexMax="10357" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="4th Wings Relic" />
+		<Material ID="136" IndexMin="7344" IndexMax="7347" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: Death King's Bone-> End:Death Beam Knight Soul" />
+		<Material ID="137" IndexMin="7190" IndexMax="7190" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Jewel of Creation" />
+		<Material ID="138" IndexMin="6552" IndexMax="6552" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="[Bound] Finished Loch's Magic Solution" />
+		<Material ID="139" IndexMin="6554" IndexMax="6554" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="[Bound] Finished Condor's Magic Solution" />
+		<Material ID="140" IndexMin="6566" IndexMax="6573" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Start: [Bound] Wings of Soul-> End:[Bound] Cloak of Limit" />
+		<Material ID="141" IndexMin="6301" IndexMax="6301" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="[Bound] Cloak of Innocence" />
+		<Material ID="142" IndexMin="6319" IndexMax="6319" ItemGroup="0" ItemKindA="0" LevelMin="9" LevelMax="255" OptionMin="4" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="[Bound] Black Cloak" />
+		<Material ID="143" IndexMin="6932" IndexMax="6932" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="1" CountMax="1" SpecialItem="0" Name="Conqueror's Badge" />
+		<Material ID="144" IndexMin="7181" IndexMax="7181" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="10" CountMax="10" SpecialItem="0" Name="Jewel of Bless" />
+		<Material ID="145" IndexMin="7182" IndexMax="7182" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="10" CountMax="10" SpecialItem="0" Name="Jewel of Soul" />
+		<Material ID="146" IndexMin="7184" IndexMax="7184" ItemGroup="0" ItemKindA="0" LevelMin="0" LevelMax="255" OptionMin="0" OptionMax="255" DurabilityMin="0" DurabilityMax="255" CountMin="10" CountMax="10" SpecialItem="0" Name="Jewel of Life" />
+	</CombinationMaterials>
+	
+	<CombinationResult>
+	<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="0" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="2" M0Name="Thoughtful Sage's Jewel" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="3" M0Name="Runedil's Goldentune Harp" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="4" M0Name="" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="5" M0Name="Kris" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="6" M0Name="Kris" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="7" M0Name="Kris" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="8" M0Name="Kris" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2001" MaxMultiMix="1" MixOption="E" SuccessRate="100" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="9" M0Name="Kris" MID1="1" M1Name="Jewel of Bless" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="0" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="2" M0Name="Thoughtful Sage's Jewel" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="3" M0Name="Runedil's Goldentune Harp" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="4" M0Name="" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="5" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="6" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="7" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="8" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2002" MaxMultiMix="1" MixOption="E" SuccessRate="85" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="9" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="11" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="12" M0Name="Thoughtful Sage's Jewel" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="13" M0Name="Runedil's Goldentune Harp" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="14" M0Name="" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="15" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="16" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="17" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="18" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2003" MaxMultiMix="1" MixOption="E" SuccessRate="85" MoneyType="A" Money="0" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="19" M0Name="Kris" MID1="10" M1Name="Jewel of Soul" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="20" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="22" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="23" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +10 item" >
+			<MaterialList MID0="24" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="25" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="26" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="27" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="28" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="3" MaxMultiMix="1" MixOption="E" SuccessRate="85" MoneyType="A" Money="2000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +10 item" >
+			<MaterialList MID0="29" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="A" SuccessRate="55" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="30" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="A" SuccessRate="55" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="33" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="A" SuccessRate="55" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="34" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="A" SuccessRate="55" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="35" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +11 item" >
+			<MaterialList MID0="36" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +11 item" >
+			<MaterialList MID0="37" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +11 item" >
+			<MaterialList MID0="38" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +11 item" >
+			<MaterialList MID0="39" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="4" MaxMultiMix="1" MixOption="E" SuccessRate="85" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Create +11 item" >
+			<MaterialList MID0="40" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="31" M2Name="Jewel of Bless" MID3="32" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="A" SuccessRate="50" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+12 Item creation" >
+			<MaterialList MID0="41" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="A" SuccessRate="50" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+12 Item creation" >
+			<MaterialList MID0="44" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="A" SuccessRate="50" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+12 Item creation" >
+			<MaterialList MID0="45" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="A" SuccessRate="50" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="46" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+12 Item creation" >
+			<MaterialList MID0="47" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+12 Item creation" >
+			<MaterialList MID0="48" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+12 Item creation" >
+			<MaterialList MID0="49" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+12 Item creation" >
+			<MaterialList MID0="50" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="22" MaxMultiMix="1" MixOption="E" SuccessRate="80" MoneyType="A" Money="6000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+12 Item creation" >
+			<MaterialList MID0="51" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="42" M2Name="Jewel of Bless" MID3="43" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="A" SuccessRate="45" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+13 Item creation" >
+			<MaterialList MID0="52" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="A" SuccessRate="45" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+13 Item creation" >
+			<MaterialList MID0="55" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="A" SuccessRate="45" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+13 Item creation" >
+			<MaterialList MID0="56" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="A" SuccessRate="45" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="57" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+13 Item creation" >
+			<MaterialList MID0="58" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+13 Item creation" >
+			<MaterialList MID0="59" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="E" SuccessRate="70" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+13 Item creation" >
+			<MaterialList MID0="60" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="E" SuccessRate="60" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+13 Item creation" >
+			<MaterialList MID0="61" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="23" MaxMultiMix="1" MixOption="E" SuccessRate="80" MoneyType="A" Money="8000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+13 Item creation" >
+			<MaterialList MID0="62" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="53" M2Name="Jewel of Bless" MID3="54" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+14 Item Creation" >
+			<MaterialList MID0="63" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+14 Item Creation" >
+			<MaterialList MID0="66" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+14 Item Creation" >
+			<MaterialList MID0="67" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="68" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+14 Item Creation" >
+			<MaterialList MID0="69" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+14 Item Creation" >
+			<MaterialList MID0="70" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+14 Item Creation" >
+			<MaterialList MID0="71" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="E" SuccessRate="55" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+14 Item Creation" >
+			<MaterialList MID0="72" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="49" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="10000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+14 Item Creation" >
+			<MaterialList MID0="73" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="64" M2Name="Jewel of Bless" MID3="65" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="A" SuccessRate="30" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+15 Item Creation" >
+			<MaterialList MID0="74" M0Name="Start: Muren's Book of Magic-> End:Kundun's Seal Scroll" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="A" SuccessRate="30" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+15 Item Creation" >
+			<MaterialList MID0="77" M0Name="Thoughtful Sage's Jewel" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="A" SuccessRate="30" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :+15 Item Creation" >
+			<MaterialList MID0="78" M0Name="Runedil's Goldentune Harp" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="A" SuccessRate="30" MoneyType="A" Money="4000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Create +11 item" >
+			<MaterialList MID0="79" M0Name="" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="A" ElementalTalismanOfChaosAssembly="A" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+15 Item Creation" >
+			<MaterialList MID0="80" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+15 Item Creation" >
+			<MaterialList MID0="81" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="E" SuccessRate="65" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+15 Item Creation" >
+			<MaterialList MID0="82" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="E" SuccessRate="55" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+15 Item Creation" >
+			<MaterialList MID0="83" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="50" MaxMultiMix="1" MixOption="E" SuccessRate="75" MoneyType="A" Money="12000000" Width="-1" Height="-1" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :+15 Item Creation" >
+			<MaterialList MID0="84" M0Name="Kris" MID1="21" M1Name="Jewel of Chaos" MID2="75" M2Name="Jewel of Bless" MID3="76" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="A" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="A" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="1" MaxMultiMix="1" MixOption="B" SuccessRate="100" MoneyType="B" Money="10000" Width="5" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="3" Name="- :Chaos Weapon Combination" >
+			<MaterialList MID0="85" M0Name="Kris" MID1="86" M1Name="Jewel of Chaos" MID2="87" M2Name="Jewel of Bless" MID3="88" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2004" MaxMultiMix="1" MixOption="J" SuccessRate="100" MoneyType="A" Money="10000" Width="2" Height="2" RequiereLevel="10" MaterialCount="4" RateTockenCont="1" Name="- :Wings (Cape) Combination" >
+			<MaterialList MID0="89" M0Name="Start: Chaos Dragon Axe-> End:Chaos Lightning Staff" MID1="21" M1Name="Jewel of Chaos" MID2="1" M2Name="Jewel of Bless" MID3="10" M3Name="Jewel of Soul" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="11" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="1000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="- :Wings (Cape) Combination" >
+			<MaterialList MID0="90" M0Name="1st Wings Relic" MID1="91" M1Name="Lower Magic Stone" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2005" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="5000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="3" RateTockenCont="1" Name="FindHack file is damaged. Please reinstall MU client.- :1st Wing Relic Crafting" >
+			<MaterialList MID0="92" M0Name="Start: Wings of Elf-> End:Wings of Satan" MID1="93" M1Name="Loch's Feather" MID2="21" M2Name="Jewel of Chaos" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2005" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="5000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="3" RateTockenCont="1" Name="FindHack file is damaged. Please reinstall MU client.- :1st Wing Relic Crafting" >
+			<MaterialList MID0="94" M0Name="Wing of Curse" MID1="93" M1Name="Loch's Feather" MID2="21" M2Name="Jewel of Chaos" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2005" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="5000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="3" RateTockenCont="1" Name="FindHack file is damaged. Please reinstall MU client.- :1st Wing Relic Crafting" >
+			<MaterialList MID0="95" M0Name="Pure White Cloak" MID1="93" M1Name="Loch's Feather" MID2="21" M2Name="Jewel of Chaos" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2005" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="5000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="3" RateTockenCont="1" Name="FindHack file is damaged. Please reinstall MU client.- :1st Wing Relic Crafting" >
+			<MaterialList MID0="96" M0Name="Iron Cloak" MID1="93" M1Name="Loch's Feather" MID2="21" M2Name="Jewel of Chaos" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2006" MaxMultiMix="1" MixOption="A" SuccessRate="90" MoneyType="A" Money="10000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="3" Name="You have been disconnected from the server.- :1st Wing Relic Crafting" >
+			<MaterialList MID0="97" M0Name="2nd Wings Relic" MID1="98" M1Name="Medium Magic Stone" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="99" M0Name="Start: Wings of Spirits-> End:Wings of Darkness" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="105" M0Name="Cape of Lord" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="106" M0Name="Wing of Despair" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="107" M0Name="Cape of Fighter" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="108" M0Name="Cloak of Limit" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="109" M0Name="Cloak of Innocence" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2007" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="6" RateTockenCont="1" Name="Install the latest graphics card driver. - :2nd Wing Relic Crafting" >
+			<MaterialList MID0="110" M0Name="Black Cloak" MID1="100" M1Name="Condor Flame" MID2="101" M2Name="Jewel of Bless" MID3="102" M3Name="Jewel of Soul" MID4="103" M4Name="Jewel of Creation" MID5="104" M5Name="Jewel of Chaos" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="39" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="15000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error1] Hacking or computer virus test has not been completely finished. V3 or Birobot by Hawoori Corp. is needed to finish the test.- :3rd wing- :Create" >
+			<MaterialList MID0="111" M0Name="Condor Feather" MID1="100" M1Name="Condor Flame" MID2="112" M2Name="Jewel of Chaos" MID3="113" M3Name="Jewel of Bless" MID4="114" M4Name="Jewel of Soul" MID5="115" M5Name="Jewel of Creation" MID6="116" M6Name="Higher Magic Stone" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2008" MaxMultiMix="1" MixOption="A" SuccessRate="24" MoneyType="A" Money="15000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="[error1] Hacking or computer virus test has not been completely finished. V3 or Birobot by Hawoori Corp. is needed to finish the test.- :2nd Wing Relic Crafting" >
+			<MaterialList MID0="117" M0Name="3rd Wings Relic" MID1="116" M1Name="Higher Magic Stone" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="118" M0Name="Start: Wing of Storm-> End:Cape of Emperor" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="125" M0Name="Wing of Dimension" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="126" M0Name="Cape of Overrule" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="127" M0Name="Cloak of Transcendence" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="128" M0Name="Wings of Disillusion" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="129" M0Name="Wings of Silence" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="130" M0Name="Wings of Accuracy" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="131" M0Name="Cloak of Splendor" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="132" M0Name="Wings of Manaburst" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2009" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="15000000" Width="2" Height="2" RequiereLevel="10" MaterialCount="7" RateTockenCont="1" Name="[error2] The hacking tool checking program has not been successfully downloaded. Please try connecting again in a moment. \n\n If you continue to experience the same problem, feel free to contact our customer service center through our website at http://muonline.webzen.com- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="133" M0Name="Desperate Cloak" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="121" M3Name="Jewel of Bless" MID4="122" M4Name="Jewel of Soul" MID5="123" M5Name="Jewel of Creation" MID6="124" M6Name="Jewel of Chaos" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="507" MaxMultiMix="1" MixOption="A" SuccessRate="40" MoneyType="A" Money="20000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="8" RateTockenCont="1" Name="[error3] NPX.DLL registration error, required files are missing for running nProtect. Please download np_setup.exe from Muonline.\n\n If you continue to experience the same problem, please contact our customer service center through our website at http://muonline.webzen.com.- :4th Wings- :Create" >
+			<MaterialList MID0="134" M0Name="Garuda's Feather" MID1="119" M1Name="Garuda's Flame" MID2="120" M2Name="Golden Crest" MID3="113" M3Name="Jewel of Bless" MID4="114" M4Name="Jewel of Soul" MID5="112" M5Name="Jewel of Chaos" MID6="115" M6Name="Jewel of Creation" MID7="116" M7Name="Higher Magic Stone" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="2010" MaxMultiMix="1" MixOption="A" SuccessRate="24" MoneyType="A" Money="20000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="[error3] NPX.DLL registration error, required files are missing for running nProtect. Please download np_setup.exe from Muonline.\n\n If you continue to experience the same problem, please contact our customer service center through our website at http://muonline.webzen.com.- :3rd Wing Relic Crafting" >
+			<MaterialList MID0="135" M0Name="4th Wings Relic" MID1="116" M1Name="Higher Magic Stone" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="99" M0Name="Start: Wings of Spirits-> End:Wings of Darkness" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="106" M0Name="Wing of Despair" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="107" M0Name="Cape of Fighter" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="105" M0Name="Cape of Lord" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="108" M0Name="Cloak of Limit" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="109" M0Name="Cloak of Innocence" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="56" MaxMultiMix="1" MixOption="A" SuccessRate="60" MoneyType="B" Money="100000" Width="4" Height="4" RequiereLevel="10" MaterialCount="4" RateTockenCont="6" Name="- :Monster wings- :Create" >
+			<MaterialList MID0="110" M0Name="Black Cloak" MID1="136" M1Name="Start: Death King's Bone-> End:Death Beam Knight Soul" MID2="137" M2Name="Jewel of Creation" MID3="21" M3Name="Jewel of Chaos" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="A" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="503" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="100000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :2nd Wing" >
+			<MaterialList MID0="92" M0Name="Start: Wings of Elf-> End:Wings of Satan" MID1="138" M1Name="[Bound] Finished Loch's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="503" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="100000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :2nd Wing" >
+			<MaterialList MID0="94" M0Name="Wing of Curse" MID1="138" M1Name="[Bound] Finished Loch's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="503" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="100000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :2nd Wing" >
+			<MaterialList MID0="95" M0Name="Pure White Cloak" MID1="138" M1Name="[Bound] Finished Loch's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="503" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="100000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :2nd Wing" >
+			<MaterialList MID0="96" M0Name="Iron Cloak" MID1="138" M1Name="[Bound] Finished Loch's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="99" M0Name="Start: Wings of Spirits-> End:Wings of Darkness" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="105" M0Name="Cape of Lord" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="106" M0Name="Wing of Despair" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="107" M0Name="Cape of Fighter" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="108" M0Name="Cloak of Limit" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="109" M0Name="Cloak of Innocence" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="250000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="110" M0Name="Black Cloak" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="1000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="140" M0Name="Start: [Bound] Wings of Soul-> End:[Bound] Cloak of Limit" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="1000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="141" M0Name="[Bound] Cloak of Innocence" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="504" MaxMultiMix="1" MixOption="L" SuccessRate="100" MoneyType="A" Money="1000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="2" RateTockenCont="1" Name="- :[Bound]- :3rd wing" >
+			<MaterialList MID0="142" M0Name="[Bound] Black Cloak" MID1="139" M1Name="[Bound] Finished Condor's Magic Solution" MID2="-1" M2Name="" MID3="-1" M3Name="" MID4="-1" M4Name="" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+		<Mix ID="75" MaxMultiMix="1" MixOption="A" SuccessRate="100" MoneyType="A" Money="10000000" Width="5" Height="4" RequiereLevel="10" MaterialCount="5" RateTockenCont="1" Name="- :Survival of the Fittest Reward Item- :Create" >
+			<MaterialList MID0="143" M0Name="Conqueror's Badge" MID1="144" M1Name="Jewel of Bless" MID2="145" M2Name="Jewel of Soul" MID3="146" M3Name="Jewel of Life" MID4="21" M4Name="Jewel of Chaos" MID5="-1" M5Name="" MID6="-1" M6Name="" MID7="-1" M7Name="" />
+			<CharmOption TalismanOfLuck="U" TalismanOfChaosAssembly="U" ElementalTalismanOfLuck="U" ElementalTalismanOfChaosAssembly="U" TierTalismanOfChaosAssembly="U" WingCharmKindA="85" />
+		</Mix>
+	</CombinationResult>
+</GoblinCombination>

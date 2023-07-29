@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ### ArtifactGroup ###
+//	ID: Unique ID of artifact map
+//	FullBonusOptionGroup: Index of option that is being granted when map is fully filled, check ArtifactOption.txt :: OptionBaseValue section
+//	iGroup: Category of item fragment used to mix random artifact for current artifact map, see Item.xml
+//	iIndex: Index of item fragment used to mix random artifact for current artifact map, see Item.xml
+//	FileInventorySlotInfo: File (*.mab) containing definitions of artifacts for specific map, located at \Data\Item\ArtifactSystem - Settings\Files\
+//	FileShapesLevelInfo:  File (*.mapack) containing map definition for the artifacts, located at  \Data\Item\ArtifactSystem - Settings\Files\
+//	GFX_MSGID: ID of text in Lang.mpr\Eng\Text(kor).txt, used by Game Client)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ### ArtifactItemInfo ###
+//	Group: ID of artifact map the artefact definitions points to, check ID attribute of ArtifactMap::Map section
+//	Level: Unique number defining attribute type
+//	Color: Artifact Color 
+//	Cat: Category of artifact item, see Item.xml
+//	Index: Index of artifact item, see Item.xml
+//	Rate: Chance rate of getting artifact of specific type, total rate is sum of all rates in a column
+//	IsBonusItem: 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ### ArtifactItemOptionRateInfo ###
+//	Group: ID of artifact map the artefact definitions points to, check ID attribute of ArtifactMap::Map section
+//	Level: Unique number defining attribute type
+//	RateOption1: Success rate for option 1-3
+//	RateOption2: Success rate for option 2-3
+//	RateOption3: Success rate for option 3-3
+Terminar depois
+-->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<ArtifactSystem>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ArtifactGroup>
+		<Group ID="0" FullBonusOptionGroup="28" iGroup="20" iIndex="95" FileInventorySlotInfo="Spider_Slot" FileShapesLevelInfo="Spider_Artifact" GFX_MSGID="6084" />
+	</ArtifactGroup>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+<ArtifactItemInfo>
+		<Info Group="0" Level="1" Color="1" iGroup="20" iIndex="96" Rate="217120" IsBonusItem="1" />
+		<Info Group="0" Level="2" Color="2" iGroup="20" iIndex="97" Rate="208000" IsBonusItem="1" />
+		<Info Group="0" Level="3" Color="3" iGroup="20" iIndex="98" Rate="168000" IsBonusItem="1" />
+		<Info Group="0" Level="4" Color="4" iGroup="20" iIndex="99" Rate="168000" IsBonusItem="1" />
+		<Info Group="0" Level="5" Color="5" iGroup="20" iIndex="100" Rate="19200" IsBonusItem="1" />
+		<Info Group="0" Level="6" Color="6" iGroup="20" iIndex="101" Rate="19200" IsBonusItem="0" />
+		<Info Group="0" Level="7" Color="6" iGroup="20" iIndex="102" Rate="480" IsBonusItem="1"/>
+	</ArtifactItemInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Chance de quantidade de Opt do Artifact (Chande de sair na ChaosMachine é no Common Mix) -->
+	<ArtifactItemOptionRateInfo> <!-- Default: RateOption1="100" RateOption2="40" RateOption3="20" -->
+		<Info Group="0" Level="1" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="2" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="3" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="4" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="5" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="6" RateOption1="100" RateOption2="40" RateOption3="20" />
+		<Info Group="0" Level="7" RateOption1="100" RateOption2="40" RateOption3="20" />
+	</ArtifactItemOptionRateInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ArtifactItemOptionInfo>	
+		<!-- Spider Artifact Level 1 -->
+		<Option Group="0" Level="1" OptionIndex="1" Unk1="0" Unk2="0" Rate="300000" />	 <!-- Increase Defense -->
+		<Option Group="0" Level="1" OptionIndex="2" Unk1="0" Unk2="0" Rate="300000" />   <!-- Increase Defense Success Rate -->
+		<Option Group="0" Level="1" OptionIndex="3" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Base Defense -->
+		<Option Group="0" Level="1" OptionIndex="4" Unk1="0" Unk2="0" Rate="200000" />   <!-- Damage Reduction -->
+		<!-- Spider Artifact Level 2 -->                                                 
+		<Option Group="0" Level="2" OptionIndex="5" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Strength -->
+		<Option Group="0" Level="2" OptionIndex="6" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Agility -->
+		<Option Group="0" Level="2" OptionIndex="7" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Stamina -->
+		<Option Group="0" Level="2" OptionIndex="8" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Energy -->
+		<Option Group="0" Level="2" OptionIndex="9" Unk1="0" Unk2="0" Rate="200000" />   <!-- Increase Leadership -->
+		<!-- Spider Artifact Level 3 -->                                                
+		<Option Group="0" Level="3" OptionIndex="10" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Max Life -->
+		<Option Group="0" Level="3" OptionIndex="11" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Max Mana -->
+		<Option Group="0" Level="3" OptionIndex="12" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Max AG -->
+		<Option Group="0" Level="3" OptionIndex="13" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Max SD -->
+		<!-- Spider Artifact Level 4 -->                                                
+		<Option Group="0" Level="4" OptionIndex="14" Unk1="0" Unk2="0" Rate="399970" />  <!-- Increase Excellent Damage -->
+		<Option Group="0" Level="4" OptionIndex="15" Unk1="0" Unk2="0" Rate="400000" />  <!-- Increase Critical Damage -->
+		<Option Group="0" Level="4" OptionIndex="16" Unk1="0" Unk2="0" Rate="30" 	 />  <!-- Increase Attack Speed -->
+		<Option Group="0" Level="4" OptionIndex="17" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Skill Attack Power -->
+		<!-- Spider Artifact Level 5 -->                                                
+		<Option Group="0" Level="5" OptionIndex="18" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Elemental Defense -->
+		<Option Group="0" Level="5" OptionIndex="19" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Elemental Attack Power -->
+		<Option Group="0" Level="5" OptionIndex="20" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Elemental Defense Success Rate -->
+		<Option Group="0" Level="5" OptionIndex="21" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Elemental Attack Success Rate -->
+		<!-- Spider Artifact Level 6 -->                                                
+		<Option Group="0" Level="6" OptionIndex="22" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Max Attack/Magic -->	
+		<Option Group="0" Level="6" OptionIndex="23" Unk1="0" Unk2="0" Rate="100000" />  <!-- Increase Min Attack/Magic -->	
+		<Option Group="0" Level="6" OptionIndex="24" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Attack/Magic Power -->
+		<Option Group="0" Level="6" OptionIndex="25" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Max Curse Power -->	
+		<Option Group="0" Level="6" OptionIndex="26" Unk1="0" Unk2="0" Rate="100000" />  <!-- Increase Min Curse Power -->	
+		<Option Group="0" Level="6" OptionIndex="27" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Curse Power -->	
+		<!-- Spider Artifact Level 7 -->                                                
+		<Option Group="0" Level="7" OptionIndex="29" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Max Attack/Magic -->
+		<Option Group="0" Level="7" OptionIndex="31" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Attack/Magic Power -->
+		<Option Group="0" Level="7" OptionIndex="32" Unk1="0" Unk2="0" Rate="300000" />  <!-- Increase Max Curse Power -->
+		<Option Group="0" Level="7" OptionIndex="34" Unk1="0" Unk2="0" Rate="200000" />  <!-- Increase Curse Power -->
+	</ArtifactItemOptionInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ArtifactOptionList>
+		<Option OptionGroup="1"  OptionIndex="1"  Name="Increase Defense" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="1"  />   <!-- Increase Defense -->
+		<Option OptionGroup="2"  OptionIndex="2"  Name="Increase Defense Success Rate" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="1"  />   <!-- Increase Defense Success Rate -->
+		<Option OptionGroup="3"  OptionIndex="3"  Name="Increase Base Defense" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="3"  />   <!-- Increase Base Defense -->
+		<Option OptionGroup="4"  OptionIndex="4"  Name="Damage Reduction" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="3"  />   <!-- Damage Reduction -->
+		<Option OptionGroup="5"  OptionIndex="5"  Name="Increase Strength" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Strength -->
+		<Option OptionGroup="6"  OptionIndex="6"  Name="Increase Agility" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Agility -->
+		<Option OptionGroup="7"  OptionIndex="7"  Name="Increase Stamina" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Stamina -->
+		<Option OptionGroup="8"  OptionIndex="8"  Name="Increase Energy" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Energy -->
+		<Option OptionGroup="9"  OptionIndex="9"  Name="Increase Leadership" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Leadership -->
+		<Option OptionGroup="10" OptionIndex="10" Name="Increase Max Life" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="2"  />   <!-- Increase Max Life -->
+		<Option OptionGroup="11" OptionIndex="11" Name="Increase Max Mana" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="2"  />   <!-- Increase Max Mana -->
+		<Option OptionGroup="12" OptionIndex="12" Name="Increase Max AG" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="2"  />   <!-- Increase Max AG -->
+		<Option OptionGroup="13" OptionIndex="13" Name="Increase Max SD" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="2"  />   <!-- Increase Max SD -->
+		<Option OptionGroup="14" OptionIndex="14" Name="Increase Excellent Damage" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="3"  />   <!-- Increase Excellent Damage -->
+		<Option OptionGroup="15" OptionIndex="15" Name="Increase Critical Damage" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="3"  />   <!-- Increase Critical Damage -->
+		<Option OptionGroup="16" OptionIndex="16" Name="Increase Attack Speed" OptionLevel0="1" OptionRate0="8000" OptionLevel1="2" OptionRate1="330000" OptionLevel2="3" OptionRate2="330000" OptionLevel3="4" OptionRate3="330000" OptionLevel4="5" OptionRate4="2000" OptionLevel5="-1" OptionRate5="-1" OptionLevel6="-1" OptionRate6="-1" OptionLevel7="-1" OptionRate7="-1" OptionLevel8="-1" OptionRate8="-1" OptionLevel9="-1" OptionRate9="-1" formulaID="4"  />                  <!-- Increase Attack Speed -->
+		<Option OptionGroup="17" OptionIndex="17" Name="Increase Skill Attack Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Skill Attack Power -->
+		<Option OptionGroup="18" OptionIndex="18" Name="Increase Elemental Defense" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Elemental Defense -->
+		<Option OptionGroup="19" OptionIndex="19" Name="Increase Elemental Attack Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Elemental Attack Power -->
+		<Option OptionGroup="20" OptionIndex="20" Name="Increase Elemental Defense Success Rate" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="1"  />   <!-- Increase Elemental Defense Success Rate -->
+		<Option OptionGroup="21" OptionIndex="21" Name="Increase Elemental Attack Success Rate" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="1"  />   <!-- Increase Elemental Attack Success Rate -->
+		<Option OptionGroup="22" OptionIndex="22" Name="Increase Max Attack/Magic" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Max Attack/Magic -->
+		<Option OptionGroup="23" OptionIndex="23" Name="Increase Min Attack/Magic" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Min Attack/Magic -->
+		<Option OptionGroup="24" OptionIndex="24" Name="Increase Attack/Magic Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Attack/Magic Power -->
+		<Option OptionGroup="25" OptionIndex="25" Name="Increase Max Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Max Curse Power -->
+		<Option OptionGroup="26" OptionIndex="26" Name="Increase Min Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Min Curse Power -->
+		<Option OptionGroup="27" OptionIndex="27" Name="Increase Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="0"  />   <!-- Increase Curse Power -->
+		<Option OptionGroup="28" OptionIndex="28" Name="Increase All Stats" OptionLevel0="100" OptionRate0="-1" OptionLevel1="-1" OptionRate1="-1" OptionLevel2="-1" OptionRate2="-1" OptionLevel3="-1" OptionRate3="-1" OptionLevel4="-1" OptionRate4="-1" OptionLevel5="-1" OptionRate5="-1" OptionLevel6="-1" OptionRate6="-1" OptionLevel7="-1" OptionRate7="-1" OptionLevel8="-1" OptionRate8="-1" OptionLevel9="-1" OptionRate9="-1" formulaID="-1"  />                           <!-- Increase All Stats -->
+		<Option OptionGroup="29" OptionIndex="22" Name="Increase Max Attack/Magic" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Max Attack/Magic -->
+		<Option OptionGroup="30" OptionIndex="23" Name="Increase Min Attack/Magic" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Min Attack/Magic -->
+		<Option OptionGroup="31" OptionIndex="24" Name="Increase Attack/Magic Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Attack/Magic Power -->
+		<Option OptionGroup="32" OptionIndex="25" Name="Increase Max Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Max Curse Power -->
+		<Option OptionGroup="33" OptionIndex="26" Name="Increase Min Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Min Curse Power -->
+		<Option OptionGroup="34" OptionIndex="27" Name="Increase Curse Power" OptionLevel0="1" OptionRate0="18000" OptionLevel1="2" OptionRate1="60000" OptionLevel2="3" OptionRate2="100000" OptionLevel3="4" OptionRate3="150000" OptionLevel4="5" OptionRate4="170000" OptionLevel5="6" OptionRate5="200000" OptionLevel6="7" OptionRate6="150000" OptionLevel7="8" OptionRate7="100000" OptionLevel8="9" OptionRate8="50000" OptionLevel9="10" OptionRate9="2000" formulaID="5"  />   <!-- Increase Curse Power -->
+	</ArtifactOptionList>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ArtifactLevelUp>
+		<Info Level="0" Rate="1000000" tGroup="20" tIndex="94" tCount="1" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="1000000" />
+		<Info Level="1" Rate="1000000" tGroup="20" tIndex="94" tCount="3" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="1500000" />
+		<Info Level="2" Rate="950000" tGroup="20" tIndex="94" tCount="5" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="2000000" />
+		<Info Level="3" Rate="950000" tGroup="20" tIndex="94" tCount="7" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="2500000" />
+		<Info Level="4" Rate="950000" tGroup="20" tIndex="94" tCount="9" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="3000000" />
+		<Info Level="5" Rate="900000" tGroup="20" tIndex="94" tCount="11" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="3500000" />
+		<Info Level="6" Rate="900000" tGroup="20" tIndex="94" tCount="13" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="4000000" />
+		<Info Level="7" Rate="900000" tGroup="20" tIndex="94" tCount="15" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="4500000" />
+		<Info Level="8" Rate="850000" tGroup="20" tIndex="94" tCount="17" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="5000000" />
+		<Info Level="9" Rate="850000" tGroup="20" tIndex="94" tCount="19" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="5500000" />
+		<Info Level="10" Rate="800000" tGroup="20" tIndex="94" tCount="21" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="6000000" />
+		<Info Level="11" Rate="800000" tGroup="20" tIndex="94" tCount="23" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="6500000" />
+		<Info Level="12" Rate="750000" tGroup="20" tIndex="94" tCount="25" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="7000000" />
+		<Info Level="13" Rate="750000" tGroup="20" tIndex="94" tCount="27" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="7500000" />
+		<Info Level="14" Rate="600000" tGroup="20" tIndex="94" tCount="29" Unk0="-1" Unk1="-1" Unk2="-1" Unk3="-1" Unk4="-1" Unk5="-1" ReqMoney="8000000" />
+	</ArtifactLevelUp>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+</ArtifactSystem>

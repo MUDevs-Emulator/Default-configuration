@@ -1,0 +1,36 @@
+//Events ID
+// BattleSoccer ID = 0		//Temporarily disabled
+// Blood Casttle ID = 1
+// Castle Deep ID = 2
+// Chaos Castle ID = 3
+// Crywolf ID = 4
+// DevilSqueare ID = 5
+// Double Goer ID = 6
+// Ilusion Temple ID = 7
+// Imperial Guardian ID = 8
+// Kalima ID = 9		//Temporarily disabled
+// Kanturu ID = 10		//Temporarily disabled
+// Rakilion ID = 11
+// Summon ID = 12
+// Archeron ID = 13
+// Ilusion Leage ID = 14
+// Chaos Casttle Final = 15
+// Arca War ID = 16
+// Castle Siege ID = 17
+
+
+0
+// EventID	Active	WCoinC	WCoinP	GoblinPoint
+//1		  1	  0	  0	    10       //Blood Casttle
+//3		  1	  0	  0	    10       //Chaos Castle
+//4		  1	  0	  0	    10       //Crywolf
+//5		  1	  0	  0	    10       //DevilSqueare
+//6		  1	  0	  0	    10       //Double Goer
+//7		  1	  0	  0	    10       //Ilusion Temple
+//8		  1	  0	  0	    10       //Imperial Guardian
+//11		  1	  0	  0	    10       //Rakilion
+//12		  1	  0	  0	    10       //Summon
+//15		  1	  0	  0	    30       //Chaos Casttle Final
+//16		  1	  0	  0	    30       //Arca War
+//17		  1	  0	  0	    30       //Castle Siege
+end

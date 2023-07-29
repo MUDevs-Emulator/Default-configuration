@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     1.When attacking, deal +%d times damage, chance is% d %%
+     2.When the target's health is lower than d%%, %d%% chance to directly kill the target
+     3.+%d %% chance of immunity to physical damage (d% s)
+     4.DamageConst increased+%d%%
+     5.%d %% chance to cause d% times physical damage
+     6.%d %% chance to cause d% times elemental damage
+     7.%d %% chance to produce a combination effect
+     8.%d %% chance to resist ignoring SD
+     9.%d %% chance to resist ignoring defense
+     10.%d %% chance to resist stun
+     11.Attack power/magic attack power/curse power increased by d% every 20 levels
+     12.Physical defense power increases by d% every 20 levels
+     13.Elemental attack power increased by d% every 20 levels
+     14.Elemental defense power increases by d% every 20 levels
+     15.Elemental attack increased by d%
+     16.Elemental defense increased by d%
+     17.exp +%d %%
+     18.Increase in mix rate +%d %%
+     19.HP +%d
+     20.PvP defense +%d
+     21.Auto Combo Hurt, There's a chance to strik with Combo Hurt, (Probability %) 
+     24: Increases Combo damage, (Probability %)
+     25: Absorb PVP damage, (Probability %)
+     26: Absorb PVP Elemental damage, (Probability %)
+-->
+<ItemOptionSystem Enabled="1">
+	<Item Cat="0" Index="0" MinLevel="15" MaxLevel="15" OptionIndex="3" OptionValue="100000" OptionProbability="100" Ancient="-1" Excellent="-1" CharacterMinLevel="-1" CharacterMaxLevel="-1" CharacterMinReset="-1" CharacterMaxReset="-1" NoActivationcolor="0" Activationcolor="4" MsgID="0" />
+	<Item Cat="16" Index="151" MinLevel="-1" MaxLevel="-1" OptionIndex="19" OptionValue="2000000" OptionProbability="1" Ancient="-1" Excellent="-1" CharacterMinLevel="-1" CharacterMaxLevel="-1" CharacterMinReset="-1" CharacterMaxReset="-1" NoActivationcolor="0" Activationcolor="4" MsgID="1" />
+</ItemOptionSystem>

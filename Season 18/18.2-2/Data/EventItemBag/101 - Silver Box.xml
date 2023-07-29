@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MUOGC
+// ==http://muogc.com/
+// == (C) 2021 MUOGC (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Ivan Ortiz
+// ============================================================
+//
+//~~ 
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="1" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="2" DropRate="10000" EqualAttributes="0"/>
+		
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="1" Section="1" SectionRate="100000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		<DropInfo Index="2" Section="2" SectionRate="100000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="1" Index="6365" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="1" Index="6375" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="1" Index="6385" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="1" Index="6395" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="1" Index="6405" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="2" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Radiance"/>
+		<ItemEx Section="1" Index="6365" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="1" Index="6375" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="1" Index="6385" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="1" Index="6395" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="1" Index="6405" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="1" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Radiance"/>		
+		<ItemEx Section="1" Index="6365" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="1" Index="6375" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="1" Index="6385" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="1" Index="6395" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="1" Index="6405" Level="0" Grade="0" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Errtel of Radiance"/>
+
+
+		<ItemEx Section="2" Index="6365" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="2" Index="6375" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="2" Index="6385" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="2" Index="6395" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="2" Index="6405" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Radiance"/>
+		<ItemEx Section="2" Index="6365" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="2" Index="6375" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="2" Index="6385" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="2" Index="6395" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="2" Index="6405" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="3" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Radiance"/>		
+		<ItemEx Section="2" Index="6365" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Anger"/>
+		<ItemEx Section="2" Index="6375" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Blessing"/>
+		<ItemEx Section="2" Index="6385" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Integrity"/>
+		<ItemEx Section="2" Index="6395" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Divinity"/>
+		<ItemEx Section="2" Index="6405" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="4" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Radiance"/>
+		
+	</BagItemsEx>
+</ItemBag>

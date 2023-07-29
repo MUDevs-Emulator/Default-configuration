@@ -1,0 +1,54 @@
+Welcome to MUDevs Emulator Season 18.2-2
+
+By following these steps, you will be able to successfully install your MuOnline server on any Windows computer.
+
+Recommended minimum requirements:
+- Any processor over 3GHz, with at least 3 core.
+- 5GB of RAM.
+- SQL Server 2012 R2 or higher.
+- Install the necessary runtime, you can find the installer inside the folder RUNTIME INSTALL!!
+
+If you are reading this, it is because you have successfully downloaded the full package of our files. The steps to get everything working are:
+1 - Extract files to preferred folder, recommended extraction path: C:\MuServer
+
+2 - In the SQL Server you must create 2 empty databases: MuOnline and BattleCore. After creating them, you will need to run the table creation scripts found inside the DB folder. IMPORTANT: make sure you create the necessary ODBCs for the SQL connection to be successful.
+
+3 - Run GetHardwareId.exe that is inside the extracted files, when you run it, a text file called HardwareId.txt will be generated, you must open that file and copy the generated HardwareId. After copying the generated HardwareId, go to https://www.mudevs.com/hid.php and update it.
+
+4 - Read the welcome email that you received after purchasing the version, the subject of the email is: "Welcome to MUDevs Emulator S18.2-2", within that email, you will find important information such as: CustomerName = number , the client download link and other important details.
+Copy your CustomerName (this will be your customer identifier).
+
+5 - Once the CustomerName number has been copied, you must complete it in each configuration file, replace CustomerName = YOUR CUSTOMER ID with the CustomerName obtained in the mail. Example: CustomerName = 100
+Files where the CustomerName must be modified:
+ * ChatServer/ChatServer.ini
+ * ConnectServer/ConnectServer.ini
+ * DataServer/DataServer.ini
+ * JoinServer/JoinServer.ini
+ * GameServer/DATA/GameServerInfo - Common.dat
+ * GameServerCS/DATA/GameServerInfo - Common.dat
+
+6 - Once the custom CustomerName has been configured in all the files, the IP of your dedicated server/VPS/computer must be added in:
+ * ConnectServer/ServerList.dat: replace YOUR IP with the corresponding IP, it is important not to delete the " ", example: "192.168.1.1"
+ * EXDataServer/EXDataServer.ini: ChatServerAddress = YOUR IP
+ * Data/MapServerInfo.dat: SYOURIP, it is important not to delete the initial S. Example: S192.168.1.1
+
+7 - If you performed the steps correctly, you can now start all the executables without receiving errors. The order of execution is not important, the necessary executables are:
+ * ChatServer/ChatServer.exe
+ * DataServer/DataServer.exe
+ * EXDataServer/EXDataServer.exe
+ * JoinServer/JoinServer.exe
+ * GameServer/GameServer.exe
+ * GameServerCS/GameServer.exe
+ * ConnectServer/ConnectServer.exe
+
+8 - Now that you have all the executables started and running, you must make sure that the following ports are open in the Windows firewall: 44405, 55901 and 55919. No other ports are necessary.
+
+9 - In the product delivery email, you will find the full client download links, the full client cannot be run without first downloading the custom main for each client. The download of the main is done from: https://www.mudevs.com/main.php
+Once the main has been downloaded, it must be extracted to the base client folder and the game can now be run.
+
+10 - That's all, if you followed the steps correctly, you can now enjoy our emulator.
+
+In case of doubt, you can access our official Discord: https://discord.gg/EQrPXbDp93 and consult the community, or open a ticket from your MUDevs user panel so that someone from the support team can respond.
+
+
+Thank you for choosing us, MUDevs.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeChannelSwitch Enabled="1">	
+	<ServerList>
+		<Info ServerCode ="19" Enabled ="0" Name="Game Server CS" />	
+	</ServerList>
+</FreeChannelSwitch>

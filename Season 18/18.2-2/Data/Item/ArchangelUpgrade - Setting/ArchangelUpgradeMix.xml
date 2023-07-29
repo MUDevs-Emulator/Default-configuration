@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == www.mudevs.com
+// == 2022 MuDevs (R)
+// ============================================================
+//	
+//  # ArchangelWeapon #
+//	OptionUpgradeType: Determines options generation after upgrade:
+//		~ 0: Full Option (original)
+//		~ 1: Custom Options (Use ItemOptionRate.txt)
+//  # ArchangelWeapon::Item #
+//	Index: Input item Index
+//	IndexResult: Result item category
+//	
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ For item category and index refer to Item.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+
+-->
+
+<ArchangelWeaponMix OptionUpgradeType="0" >
+		<Item Index="19" IndexResult="51" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Sword of Archangel ~>  Blessed Divine Arch Sword -->
+		<Item Index="60" IndexResult="61" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Archangel Absolute Claw ~> Blessed Arch's Absolute Claw -->
+		<Item Index="76" IndexResult="77" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Archangel Short Sword ~> Blessed Arch's Short Sword -->
+		<Item Index="113" IndexResult="114" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Archangel's Absolute Blade ~> Blessed Archangel's Absolute Blade -->
+		<Item Index="1037" IndexResult="1049" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Scepter of Archangel ~> Blessed Divine Arch Scepter -->
+		<Item Index="1058" IndexResult="1059" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Absolute Mace of Archangel ~> Blessed Divine Arch Mace -->
+		<Item Index="1562" IndexResult="1563" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Lance of Archangel ~> Blessed Divine Lance -->
+		<Item Index="2066" IndexResult="2078" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Crossbow of Archangel ~> Blessed Divine Arch Crossbow -->
+		<Item Index="2094" IndexResult="2095" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Archangel's Absolute Magic Gun ~> Absolute Magical Gun of the Blessed Archangel -->
+		<Item Index="2570" IndexResult="2609" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Staff of Archangel ~>  Blessed Divine Arch Staff -->
+		<Item Index="2596" IndexResult="2610" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Divine Stick of the Archangel ~> Blessed Divine Arch Stick -->
+		<Item Index="2653" IndexResult="2654" Option0="-1" Option1="-1" Option2="-1" Option3="-1" Option4="-1" Option5="-1" Option6="-1" /> <!-- Archangel's Absolute Orb ~> Blessed Archangel's Absolute Orb -->
+</ArchangelWeaponMix>

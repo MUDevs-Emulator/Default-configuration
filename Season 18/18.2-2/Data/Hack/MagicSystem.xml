@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MagicSystem Status="1">
+	<Info MagicNumber0="3" MagicNumber1="-1" MagicVal0="3" MagicVal1="0" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" />		
+	<Info MagicNumber0="14" MagicNumber1="-1" MagicVal0="3" MagicVal1="0" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" />	
+	<Info MagicNumber0="243" MagicNumber1="48" MagicVal0="3" MagicVal1="0"  MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" />	
+	<Info MagicNumber0="89" MagicNumber1="4" MagicVal0="3" MagicVal1="0"  MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" />	
+	<Info MagicNumber0="241" MagicNumber1="2" MagicVal0="3" MagicVal1="0"  MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" />	
+	<Info MagicNumber0="177" MagicNumber1="1" MagicVal0="3" MagicVal1="0" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" />	
+	<Info MagicNumber0="241" MagicNumber1="1" MagicVal0="1" MagicVal1="1" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="230" MagicVal0="1" MagicVal1="1" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="255" MagicVal0="1" MagicVal1="1" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="0" MagicVal0="1" MagicVal1="2" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="1" MagicVal0="1" MagicVal1="2" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="2" MagicVal0="1" MagicVal1="2" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="231" MagicNumber1="2" MagicVal0="3" MagicVal1="1" MagicCheck0="0" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="21" MagicVal0="1" MagicVal1="2" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="76" MagicNumber1="32" MagicVal0="3" MagicVal1="1" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="243" MagicNumber1="3" MagicVal0="1" MagicVal1="2" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" /> 	
+	<Info MagicNumber0="236" MagicNumber1="87" MagicVal0="3" MagicVal1="1" MagicCheck0="1" MagicCheck1="0" MagicCheck2="0" /> 	
+</MagicSystem>

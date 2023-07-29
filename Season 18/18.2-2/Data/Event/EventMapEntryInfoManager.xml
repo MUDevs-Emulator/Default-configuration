@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EventMapEntryInfoManager>
+	<EventInfo ID="0" >	<!-- Chaos Castle -->
+		<LevelInfo EntryLevel="0" MinLevel="50" MaxLevel="399" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 1" />
+		<LevelInfo EntryLevel="1" MinLevel="400" MaxLevel="599" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 2" />
+		<LevelInfo EntryLevel="2" MinLevel="600" MaxLevel="699" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 3" />
+		<LevelInfo EntryLevel="3" MinLevel="700" MaxLevel="799" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 4" />
+		<LevelInfo EntryLevel="4" MinLevel="800" MaxLevel="899" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 5" />
+		<LevelInfo EntryLevel="5" MinLevel="900" MaxLevel="999" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 6" />
+		<LevelInfo EntryLevel="6" MinLevel="1000" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Chaos Castle 7" />
+	</EventInfo>
+	<EventInfo ID="1">	<!-- Blood Castle -->
+		<LevelInfo EntryLevel="0" MinLevel="50" MaxLevel="399" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 1" />
+		<LevelInfo EntryLevel="1" MinLevel="400" MaxLevel="599" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 2" />
+		<LevelInfo EntryLevel="2" MinLevel="600" MaxLevel="699" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 3" />
+		<LevelInfo EntryLevel="3" MinLevel="700" MaxLevel="799" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 4" />
+		<LevelInfo EntryLevel="4" MinLevel="800" MaxLevel="899" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 5" />
+		<LevelInfo EntryLevel="5" MinLevel="900" MaxLevel="999" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 6" />
+		<LevelInfo EntryLevel="6" MinLevel="1000" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Blood Castle 7" />
+	</EventInfo>
+	<EventInfo ID="2">	<!-- Devil Square -->
+		<LevelInfo EntryLevel="0" MinLevel="50" MaxLevel="399" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 1" />
+		<LevelInfo EntryLevel="1" MinLevel="400" MaxLevel="599" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 2" />
+		<LevelInfo EntryLevel="2" MinLevel="600" MaxLevel="699" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 3" />
+		<LevelInfo EntryLevel="3" MinLevel="700" MaxLevel="799" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 4" />
+		<LevelInfo EntryLevel="4" MinLevel="800" MaxLevel="899" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 5" />
+		<LevelInfo EntryLevel="5" MinLevel="900" MaxLevel="999" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 6" />
+		<LevelInfo EntryLevel="6" MinLevel="1000" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Devil Square 7" />
+	</EventInfo>
+	<EventInfo ID="3">	<!-- Illusion Temple  -->
+		<LevelInfo EntryLevel="0" MinLevel="50" MaxLevel="399" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Illusion Temple 1" />
+		<LevelInfo EntryLevel="1" MinLevel="400" MaxLevel="599" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Illusion Temple 2" />
+		<LevelInfo EntryLevel="2" MinLevel="600" MaxLevel="799" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Illusion Temple 3" />
+		<LevelInfo EntryLevel="3" MinLevel="800" MaxLevel="999" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Illusion Temple 4" />
+		<LevelInfo EntryLevel="4" MinLevel="1000" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Illusion Temple 5" />
+	</EventInfo>
+	<EventInfo ID="4">	<!-- Double Goer -->
+		<LevelInfo EntryLevel="0" MinLevel="50" MaxLevel="399" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 1" />
+		<LevelInfo EntryLevel="1" MinLevel="400" MaxLevel="599" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 2" />
+		<LevelInfo EntryLevel="2" MinLevel="600" MaxLevel="699" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 3" />
+		<LevelInfo EntryLevel="3" MinLevel="700" MaxLevel="799" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 4" />
+		<LevelInfo EntryLevel="4" MinLevel="800" MaxLevel="899" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 5" />
+		<LevelInfo EntryLevel="5" MinLevel="900" MaxLevel="999" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 6" />
+		<LevelInfo EntryLevel="6" MinLevel="1000" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 7" />
+	</EventInfo>
+	<EventInfo ID="5">	<!-- Battle Boss -->
+		<LevelInfo EntryLevel="0" MinLevel="850" MaxLevel="1550" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1" Name="Double Goer 1" />
+	</EventInfo>
+</EventMapEntryInfoManager>

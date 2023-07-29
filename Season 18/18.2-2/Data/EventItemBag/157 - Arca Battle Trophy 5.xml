@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBag>
+	<BagConfig Name="Arca Battle Trophy 5" DropZen="0" ItemDropRate="10000" ItemDropCount="1" SetItemDropRate="0" ItemDropType="0" Fireworks="0"/>
+	<BagItems>
+		<Item Section="12" Type="288" MinLevel="0" MaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elemental Rune"/>
+		<Item Section="14" Type="467" MinLevel="0" MaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Guardian Enhanced Stone"/>
+		<Item Section="14" Type="468" MinLevel="0" MaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Elite Guardian Enhanced"/>
+		<Item Section="13" Type="468" MinLevel="0" MaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Golden Sentence"/>
+		<Item Section="14" Type="224" MinLevel="0" MaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Bless of Light (Greater)"/>
+		<Item Section="0" Type="41" MinLevel="0" MaxLevel="0" Durability="125" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Pandora Pick (Two-Handed)"/>
+		<Item Section="14" Type="342" MinLevel="0" MaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Steel of Heaven"/>
+		<Item Section="14" Type="469" MinLevel="0" MaxLevel="0" Durability="25" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Guardian Elite Opt Change Pcs"/>
+		<Item Section="14" Type="448" MinLevel="0" MaxLevel="0" Durability="1" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Ruud Box (3000)"/>
+		<Item Section="14" Type="341" MinLevel="0" MaxLevel="0" Durability="1" Skill="0" Luck="0" Option="0" Excellent="0" SetOption="0" SocketOption="0" SocketProbalty1="0" SocketProbalty2="0" SocketProbalty3="0" SocketProbalty4="0" SocketProbalty5="0" Name="Sealed Stone Shard"/>
+		
+	</BagItems>
+</ItemBag>

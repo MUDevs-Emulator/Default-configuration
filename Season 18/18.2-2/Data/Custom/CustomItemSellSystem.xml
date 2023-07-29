@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// CoinType:
+// 0 - WCoin
+// 1 - GP
+// 2 - ZEN
+// 3 - Ruud
+-->
+<ItemSellSystem Enabled="1">
+	<Item Cat="14" Index="13" levelMin="-1" levelMax="-1" CoinType="1" MinCoinValue="1" MaxCoinValue="20" colorType="0" msgID="100" />
+	<Item Cat="0" Index="75" levelMin="-1" levelMax="-1" ExcOption ="-1" SetOption="-1" CoinType="1" MinCoinValue="1" MaxCoinValue="20" colorType="13" msgID="4"  />
+</ItemSellSystem>

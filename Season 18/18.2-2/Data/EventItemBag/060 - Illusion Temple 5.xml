@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		<DropInfo Index="1" Section="5" SectionRate="10000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="300" RuudMax="500"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="7645" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Seal of the Phantasmal Steed"/>
+		<ItemEx Section="6" Index="6405" Level="0" Grade="1" Durability="1" Option0="12" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="0" Name="Errtel of Radiance"/>
+		<ItemEx Section="6" Index="6834" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="6" Duration="86400" Name="Talisman of Ascension II"/>
+		<ItemEx Section="6" Index="6822" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Brown Panda Transformation Ring"/>
+		<ItemEx Section="6" Index="6693" Level="0" Grade="0" Durability="0" Option0="1" Option1="3" Option2="0" Option3="0" Option4="11" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Horn of Fenrir (Red)"/>
+		<ItemEx Section="6" Index="6693" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="12" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Horn of Fenrir (Black)"/>
+		<ItemEx Section="6" Index="6693" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="13" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Horn of Fenrir (Blue)"/>
+		<ItemEx Section="6" Index="6693" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="15" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Horn of Fenrir (Gold)"/>
+		<ItemEx Section="6" Index="6624" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Wings of Authority"/>
+		<ItemEx Section="6" Index="6410" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Wings of Conqueror"/>
+		<ItemEx Section="6" Index="7653" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Ruud Box (500)"/>
+		<ItemEx Section="6" Index="7520" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="86400" Name="Ruud Box (1,000)"/>
+	</BagItemsEx>
+</ItemBag>

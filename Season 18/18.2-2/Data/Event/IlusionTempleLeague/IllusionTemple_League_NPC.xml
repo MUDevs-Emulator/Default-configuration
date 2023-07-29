@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<IllusionTempleLeague>
+<!-- Event Level 1 -->
+	<NPC Index="658" MapNumber="98"	Distance="0" StartX="169" StartY="84"  Dir="2" /> <!-- Cursed Statue -->
+	<NPC Index="659" MapNumber="98"	Distance="0" StartX="136" StartY="101" Dir="0" /> <!-- Captured Stone Statue (1) -->
+	<NPC Index="660" MapNumber="98"	Distance="0" StartX="151" StartY="118" Dir="0" /> <!-- Captured Stone Statue (2) -->
+	<NPC Index="661" MapNumber="98"	Distance="0" StartX="151" StartY="87"  Dir="0" /> <!-- Captured Stone Statue (3) -->
+	<NPC Index="662" MapNumber="98"	Distance="0" StartX="166" StartY="102" Dir="0" /> <!-- Captured Stone Statue (4) -->
+	<NPC Index="663" MapNumber="98"	Distance="0" StartX="173" StartY="66"  Dir="0" /> <!-- Captured Stone Statue (5) -->
+	<NPC Index="664" MapNumber="98"	Distance="0" StartX="187" StartY="81"  Dir="0" /> <!-- Captured Stone Statue (6) -->
+	<NPC Index="665" MapNumber="98"	Distance="0" StartX="187" StartY="51"  Dir="0" /> <!-- Captured Stone Statue (7) -->
+	<NPC Index="666" MapNumber="98"	Distance="0" StartX="203" StartY="67"  Dir="0" /> <!-- Captured Stone Statue (8) -->
+	<NPC Index="667" MapNumber="98"	Distance="0" StartX="133" StartY="121" Dir="0" /> <!-- Captured Stone Statue (9) -->
+	<NPC Index="668" MapNumber="98"	Distance="0" StartX="207" StartY="47"  Dir="0" /> <!-- Captured Stone Statue (10) -->
+<!-- Event Level 2 -->
+	<NPC Index="658" MapNumber="99"	Distance="0" StartX="169" StartY="84"  Dir="2" /> <!-- Cursed Statue -->
+	<NPC Index="659" MapNumber="99"	Distance="0" StartX="136" StartY="101" Dir="0" /> <!-- Captured Stone Statue (1) -->
+	<NPC Index="660" MapNumber="99"	Distance="0" StartX="151" StartY="118" Dir="0" /> <!-- Captured Stone Statue (2) -->
+	<NPC Index="661" MapNumber="99"	Distance="0" StartX="151" StartY="87"  Dir="0" /> <!-- Captured Stone Statue (3) -->
+	<NPC Index="662" MapNumber="99"	Distance="0" StartX="166" StartY="102" Dir="0" /> <!-- Captured Stone Statue (4) -->
+	<NPC Index="663" MapNumber="99"	Distance="0" StartX="173" StartY="66"  Dir="0" /> <!-- Captured Stone Statue (5) -->
+	<NPC Index="664" MapNumber="99"	Distance="0" StartX="187" StartY="81"  Dir="0" /> <!-- Captured Stone Statue (6) -->
+	<NPC Index="665" MapNumber="99"	Distance="0" StartX="187" StartY="51"  Dir="0" /> <!-- Captured Stone Statue (7) -->
+	<NPC Index="666" MapNumber="99"	Distance="0" StartX="203" StartY="67"  Dir="0" /> <!-- Captured Stone Statue (8) -->
+	<NPC Index="667" MapNumber="99"	Distance="0" StartX="133" StartY="121" Dir="0" /> <!-- Captured Stone Statue (9) -->
+	<NPC Index="668" MapNumber="99"	Distance="0" StartX="207" StartY="47"  Dir="0" /> <!-- Captured Stone Statue (10) -->
+</IllusionTempleLeague>				

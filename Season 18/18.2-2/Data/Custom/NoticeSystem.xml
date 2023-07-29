@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ItemGetNotice = <Msg ID="0" Text="[%s] in %s Picked up %s %s </FONT><BR>" />  <!-- PlayerName, MapName, Tag, ItemName -->
+<!-- MonsterKillNotice = <Msg ID="1" Text="%s Killed %s in %s (%d,%d)" />  <!-- KillerName, VictimName, MapName, X, Y -->
+<!-- MonsterSpawnNotice = <Msg ID="2" Text="%s has respawned in %s (%d,%d)" />  <!-- MonsterName, MapName, X, Y -->
+
+<!-- Type 1 = SYSTEM MSG -->
+<!-- Type 2 = GUILD MSG  -->
+<!-- Type 4 = GLOBAL MSG -->
+<NoticeSystem>
+<!--
+	Color List:	#FF0003 -> Red 
+				#FF00FF -> Purple 
+				#FFFF00 -> Yellow 
+				#00FF00 -> Green 
+				#0000FF -> Blue 
+				#FF8000 -> Orange 
+				#FFFFFF -> White 
+-->
+	<ItemGetNotice Enabled="0">
+		<!-- <Item Cat="0" Index="0" Level="0" IsExc="0" IsSet="0" Type="4" vSize="20" /> -->
+		<!-- <Item Cat="0" Index="5" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+		<!-- <Item Cat="12" Index="15" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+		<!-- <Item Cat="-1" Index="56" Level="0" IsExc="0" IsSet="0" Type="1" vSize="20" /> -->
+	</ItemGetNotice>
+	
+	<MonsterKillNotice Enabled="0">
+		<!-- <Monster ID="4" Type="4" vSize="20" /> -->
+	</MonsterKillNotice>
+	
+	<MonsterSpawnNotice Enabled="0">
+		<!-- <Monster ID="3" MapNum="-1" InvincibleBuffDuration="120" Type="4" vSize="20"/> -->
+	</MonsterSpawnNotice>
+</NoticeSystem>

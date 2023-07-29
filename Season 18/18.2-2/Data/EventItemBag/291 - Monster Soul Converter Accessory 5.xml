@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+0	"Garantido - Excellent Ring"
+1	"Aleatorio - Excellent Ring, Excellent Necklace, Earring of Wrath(Left) or (Right), Lapidary Stone, Cherry Blossom Rice Cake, [Bound]Bless of Light (Middle Grade)"
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="2" DropRate="10000" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="6" SectionRate="10000" MoneyAmount="10000" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		<DropInfo Index="1" Section="7" SectionRate="10000" MoneyAmount="10000" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+		<DropInfo Index="2" Section="5" SectionRate="10000" MoneyAmount="10000" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="400" RuudMax="1000"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<ItemEx Section="6" Index="6664" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Ice"/>
+		<ItemEx Section="6" Index="6665" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Poison"/>
+		<ItemEx Section="6" Index="6677" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Fire"/>
+		<ItemEx Section="6" Index="6678" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Earth"/>
+		<ItemEx Section="6" Index="6679" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Wind"/>
+		<ItemEx Section="6" Index="6680" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Magic"/>
+
+		<ItemEx Section="7" Index="6664" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Ice"/>
+		<ItemEx Section="7" Index="6665" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Poison"/>
+		<ItemEx Section="7" Index="6677" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Fire"/>
+		<ItemEx Section="7" Index="6678" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Earth"/>
+		<ItemEx Section="7" Index="6679" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Wind"/>
+		<ItemEx Section="7" Index="6680" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Ring of Magic"/>
+		
+		<ItemEx Section="7" Index="10279" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Jasper necklace"/>
+		<ItemEx Section="7" Index="10280" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Lapis lazuli necklace"/>
+		<ItemEx Section="7" Index="10281" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Battle Jasper Necklace"/>
+		<ItemEx Section="7" Index="10282" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Battle Lapis Lazuli Necklace"/>
+		
+		<ItemEx Section="7" Index="6668" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Lighting"/>
+		<ItemEx Section="7" Index="6669" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Fire"/>
+		<ItemEx Section="7" Index="6681" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Ice"/>
+		<ItemEx Section="7" Index="6682" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Wind"/>
+		<ItemEx Section="7" Index="6683" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Water"/>
+		<ItemEx Section="7" Index="6684" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Pendant of Ability"/>
+		<ItemEx Section="7" Index="6593" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Earring of Wrath(L)"/>
+		<ItemEx Section="7" Index="6601" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="1" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Earring of Wrath(R)"/>
+		<ItemEx Section="7" Index="7166" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Lapidary Stone"/>
+		<ItemEx Section="7" Index="7254" Level="0" Grade="0" Durability="0" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="[Boost]Cherry Blossom Rice Cake"/>
+		<ItemEx Section="7" Index="7540" Level="0" Grade="0" Durability="1" Option0="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="[Bound] Bless of Light (Middle Grade)"/>
+	</BagItemsEx>
+</ItemBag>

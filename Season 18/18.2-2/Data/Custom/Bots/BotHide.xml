@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- OMEGA BotHide: 03/Nov/2022
+	Class Codes
+	0,1,2,3				DW,SM,GM,SW
+	16,17,18,19			DK,BK,BM,DRK  
+	32,33,34,35			FE,ME,HE,NE
+	48,50,51			MG,DM,MK
+	64,66,67			DL,LE,EL
+	80,81,82,83			SU,BS,DS,SUMM_DS
+	96,98,99    		RF,FM,FB
+	112,114,115 		GL,ML,GSL
+	128,129,130,131		RW,RS,GR,MR
+	144,145,146,147		SL,SRS,SML,SLA
+	160,161,162,163		GC,GB,MGB,HGB
+	176,177,178,179		KM,LIM,SHW,LMW
+	192,193,194,195		LM,WM,AM,MM
+	208,209,210,211		IK2,IK3,IK3,IK4
+	-->
+<!-- ============================================================================================================================================== -->
+<BotHide Enabled="1" WarningTime="5" NotifyTime="0" EventTime="30" CloseTime="1" >
+	<Schedule>
+		<Time Index="00" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="12" Minute="0" Second="0"/>  <!-- BotHide DW - Elbeland -->
+		<Time Index="01" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="13" Minute="0" Second="0"/>  <!-- BotHide DK - Dungeon -->
+		<Time Index="02" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="14" Minute="0" Second="0"/>  <!-- BotHide FE - Atlans -->
+		<Time Index="03" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="15" Minute="0" Second="0"/>  <!-- BotHide MG - Lost Tower -->
+		<Time Index="04" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="16" Minute="0" Second="0"/>  <!-- BotHide DL - Stadium -->
+		<Time Index="05" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="17" Minute="0" Second="0"/>  <!-- BotHide SU - Kanturu -->
+		<Time Index="06" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="18" Minute="0" Second="0"/>  <!-- BotHide RF - Swamp of Calmness -->
+		<Time Index="07" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="19" Minute="0" Second="0"/>  <!-- BotHide GL - Raklion -->
+		<Time Index="08" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="20" Minute="0" Second="0"/>  <!-- BotHide RW - Karutan -->
+		<Time Index="09" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="21" Minute="0" Second="0"/>  <!-- BotHide SL - Urk Mountain -->
+		<Time Index="10" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="22" Minute="0" Second="0"/>  <!-- BotHide GC - Ferea -->
+		<Time Index="11" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="23" Minute="0" Second="0"/>  <!-- BotHide KM - Swamp of Darkness -->
+		<Time Index="12" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="00" Minute="0" Second="0"/>  <!-- BotHide LM - Scorched Canyon -->
+		<Time Index="13" Year="-1" Month="-1" Day="-1" DoW="-1" Hour="01" Minute="0" Second="0"/>  <!-- BotHide IK - Ignis Volcano -->
+	</Schedule>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Elbeland Schedule -->
+	<BotInfo Index="0" ID="0" Class="0" Name="BotHideDW" Map="51" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Dungeon -->
+	<BotInfo Index="1" ID="0" Class="19" Name="BotHideBK" Map="1" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	 <!-- Atlans -->
+	<BotInfo Index="2" ID="0" Class="35" Name="BotHideFE" Map="7" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	 <!-- Lost Tower -->
+	<BotInfo Index="3" ID="0" Class="51" Name="BotHideMG" Map="4" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	 <!-- Stadium -->
+		<BotInfo Index="4" ID="0" Class="67" Name="BotHideDL" Map="6" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	 <!-- Kanturu -->
+	<BotInfo Index="5" ID="0" Class="83" Name="BotHideSU" Map="37" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Swamp of Calmness -->
+	<BotInfo Index="6" ID="0" Class="99" Name="BotHideRF" Map="56" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Raklion -->
+	<BotInfo Index="7" ID="0" Class="115" Name="BotHideGL" Map="57" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Karutan -->
+	<BotInfo Index="8" ID="0" Class="131" Name="BotHideRW" Map="80" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Urk Mountain -->
+	<BotInfo Index="9" ID="0" Class="147" Name="BotHideSL" Map="100" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Ferea -->
+	<BotInfo Index="10" ID="0" Class="163" Name="BotHideGC" Map="112" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Swamp of Darkness -->
+	<BotInfo Index="11" ID="0" Class="179" Name="BotHideKM" Map="122" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Scorched Canyon -->
+	<BotInfo Index="12" ID="0" Class="195" Name="BotHideLM" Map="131" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+	<!-- Ignis Volcano -->
+	<BotInfo Index="13" ID="0" Class="208" Name="BotHideIK" Map="138" Dir="2" Gens="1" GensRank="3" OnlyVip="0" MaxLevel="1500" >
+		<BotSet>
+		<!-- Slots: 0=RWeapom 1=LWeapon 2=Helm 3=Armor 4=Pants 5=Gloves 6=Boots 7=Wings -->
+			<Item Slot="0" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="1" ItemSection="0" ItemType="0" ItemLevel="11" ItemOption="8" />
+			<Item Slot="2" ItemSection="7" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="3" ItemSection="8" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="4" ItemSection="9" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="5" ItemSection="10" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="6" ItemSection="11" ItemType="24" ItemLevel="11" ItemOption="8" />
+			<Item Slot="7" ItemSection="12" ItemType="266" ItemLevel="11" ItemOption="8" /> <!-- Wings of Conqueror-->
+		</BotSet>
+		<BotReward>
+			<Reward ItemSection="14" ItemType="13" Level="0" Option="0" Luck="0" Skill="0" Dur="20" Exe="0" Acc="0" Socket1="255" Socket2="255" Socket3="255" Socket4="255" Socket5="255" />
+		</BotReward>
+	</BotInfo>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+</BotHide>

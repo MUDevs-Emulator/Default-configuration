@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ### IllusionTempleLeague ###
+//	Enable: Deactivates or activated the event, 0/1
+//	MinUserInParty: Minimum players in every party participating to the event, party members MUST belong to same guild
+//	MinLevel: Minimum total level to enter the event
+//	MaxGuildEnter: Number of times specific guild can enter the event during eliminations stage
+//	MaxPlayerEnter: Number of times specific player can enter the event during eliminations stage
+//	DamageReduction: Damage reduction during the event, expressed in percentage, 1-100
+//
+// ### IllusionTempleLeague::Time ###
+//	StartIn: A time before scheduled event start the entry to the event is opened, minutes
+//	WaitingArea: A time to wait in event entry area before being teleport to actual event map, minutes
+//	Duration: Duration of the event (minutes)
+//	TownSpawn: A time to move to the town after event end, minutes
+//
+// ### IllusionTempleLeague::RankTeam ###
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Semi~finals match pairing configuration
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	One: Guild which acquired position one during eliminations will be placed on configured slot, 1-4
+//	Two: Guild which acquired position two during eliminations will be placed on configured slot, 1-4
+//	Three: Guild which acquired position three during eliminations will be placed on configured slot, 1-4
+//	Four: Guild which acquired position four during eliminations will be placed on configured slot, 1-4
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Default configuration pairs guild "One" with guild "Four" and guild "Two" with guild "Three"
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### IllusionTempleLeague::ElliminationDay ###
+//	One: Day of a month for first day of eliminations
+//	Two: Day of a month for second day of eliminations
+//	Three: Day of a month for third day of eliminations
+//	Four: Day of a month for fourth day of eliminations
+//	Five: Day of a month for fifth day of eliminations
+//	Six: Day of a month for sixth day of eliminations
+//	Seven: Day of a month for seventh day of eliminations
+//
+// ### IllusionTempleLeague::TournamentDay ###
+//	SemiFinal: Day of a month of semi~finals
+//	Final: Day of a month of final
+//	Reward: Day of a month of rewarding day
+//
+// ### IllusionTempleLeague::StageTypeSettings::Stage ###
+//	Type: Stage of the event the configuration applies to:
+//		~ 1: Eliminations
+//		~ 2: Semi~Final
+//		~ 3: Final
+//
+//	PlayDuration: Duration of the event play time, minutes
+//	SpawnMonster: Determines whether to spawn monsters during specific event stage, 0/1
+//	StatueSpawnRateReductionPerPoint: Statue spawn rate reduction for every match point (occupied stone), formula: SpawnSuccessRate = 100 - (OccupiedStones * StatueSpawnRateReductionPerPoint)
+//
+// ### IllusionTempleLeague::EventSchedule::Start ###
+//	Hour: Start hour of specific event stage, 0-23
+//	Minute: Start minute of specific event stage, 0-60
+//	Type: Stage of the event applies to
+//		~ 1: Eliminations
+//		~ 2: Semi~Final
+//		~ 3: Final
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ The Illusion Temple League is guild based event, each party participating the event must be formed out member of one guild. if final has been finished with a draw then status of it
+//~~ will not be saved to database, therefore the final can be repeated by configuring manually new day of the final and restarting the game server. The reward day must be moved forward then too
+//~~ The hierarchy of calculating final result is number of occupied stones, number of kills, sum of levels of party members
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<IllusionTempleLeague Enable="0" MinLevel="400">
+	<Time StartIn="5" WaitingArea="1" Duration="15" TownSpawn="1" />
+	<RankTeam One="1" Two="4" Three="3" Four="2" />
+	<ElliminationDay One="3" Two="4" Three="5" Four="6" Five="7" Six="8" Seven="9" />
+	<TournamentDay SemiFinal="11" Final="12" Reward="13" />
+ 
+	<EventSchedule>
+		<Start Hour="13" Minute="33"	Type="1" />	<!-- Test-->
+		<!--<Start Hour="12" Minute="0"	Type="1" /> -->
+		<Start Hour="13" Minute="0"	Type="1" />
+		<Start Hour="14" Minute="0"	Type="1" />
+		<Start Hour="15" Minute="0"	Type="1" />
+		<Start Hour="16" Minute="0"	Type="1" />
+		<Start Hour="17" Minute="0"	Type="1" />
+		<Start Hour="18" Minute="0"	Type="1" />
+		<Start Hour="19" Minute="0"	Type="1" />
+		<Start Hour="20" Minute="0"	Type="1" />
+		<Start Hour="21" Minute="0" Type="1" />
+		<Start Hour="22" Minute="0"	Type="1" />
+		<Start Hour="15" Minute="0"	Type="2" />
+		<Start Hour="15" Minute="0"	Type="3" />
+	</EventSchedule>
+</IllusionTempleLeague>

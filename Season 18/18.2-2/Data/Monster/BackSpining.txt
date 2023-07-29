@@ -1,0 +1,4 @@
+0
+//MonsterClass	Distance	Comment
+//58		0		//Tantalos
+end

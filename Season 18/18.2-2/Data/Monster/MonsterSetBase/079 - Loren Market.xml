@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="240" Range="0" PositionX="45" PositionY="75" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="77" PositionY="45" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="385" Range="0" PositionX="14" PositionY="67" Direction="1" Element="0" /> <!-- "Mirage" -->
+		<Config Class="545" Range="0" PositionX="43" PositionY="46" Direction="3" Element="0" /> <!-- "Christine the General Goods Mer" -->
+		<Config Class="546" Range="0" PositionX="60" PositionY="39" Direction="3" Element="0" /> <!-- "Jeweler Raul" -->
+		<Config Class="547" Range="0" PositionX="53" PositionY="72" Direction="3" Element="0" /> <!-- "Market Union Member Julia" -->
+		<Config Class="643" Range="0" PositionX="14" PositionY="59" Direction="2" Element="0" /> <!-- "Mait" -->
+		<Config Class="695" Range="0" PositionX="14" PositionY="56" Direction="2" Element="0" /> <!-- "Levine" -->
+		<Config Class="651" Range="0" PositionX="38" PositionY="64" Direction="3" Element="0" /> <!-- "Private Store Bulletin Board" -->
+		<Config Class="651" Range="0" PositionX="68" PositionY="73" Direction="1" Element="0" /> <!-- "Private Store Bulletin Board" -->
+		<Config Class="669" Range="0" PositionX="44" PositionY="62" Direction="1" Element="0" /> <!-- "Ellin" -->
+		<Config Class="238" Range="0" PositionX="217" PositionY="62" Direction="1" Element="0" /> <!-- "Chaos Goblin" -->
+		<Config Class="238" Range="0" PositionX="194" PositionY="95" Direction="1" Element="0" /> <!-- "Chaos Goblin" -->
+		<Config Class="238" Range="0" PositionX="226" PositionY="96" Direction="3" Element="0" /> <!-- "Chaos Goblin" -->
+		<Config Class="238" Range="0" PositionX="230" PositionY="30" Direction="1" Element="0" /> <!-- "Chaos Goblin" -->
+		<Config Class="240" Range="0" PositionX="197" PositionY="66" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="169" PositionY="51" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="230" PositionY="97" Direction="1" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="185" PositionY="89" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="188" PositionY="16" Direction="3" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="240" Range="0" PositionX="234" PositionY="23" Direction="5" Element="0" /> <!-- "Safety Guardian" -->
+		<Config Class="255" Range="0" PositionX="169" PositionY="53" Direction="3" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="255" Range="0" PositionX="194" PositionY="13" Direction="5" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="255" Range="0" PositionX="231" PositionY="23" Direction="5" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="255" Range="0" PositionX="208" PositionY="62" Direction="2" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="255" Range="0" PositionX="190" PositionY="95" Direction="1" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="255" Range="0" PositionX="226" PositionY="94" Direction="3" Element="0" /> <!-- "Lumen the Barmaid" -->
+		<Config Class="547" Range="0" PositionX="198" PositionY="49" Direction="3" Element="0" /> <!-- "Market Union Member Julia" -->
+		<Config Class="719" Range="0" PositionX="186" PositionY="93" Direction="2" Element="0" /> <!-- "Messenger of Archangel" -->
+		<Config Class="720" Range="0" PositionX="221" PositionY="95" Direction="1" Element="0" /> <!-- "Charon" -->
+		<Config Class="722" Range="0" PositionX="188" PositionY="21" Direction="3" Element="0" /> <!-- "Mirage" -->
+		<Config Class="723" Range="0" PositionX="168" PositionY="57" Direction="3" Element="0" /> <!-- "Lugard" -->
+		<Config Class="721" Range="0" PositionX="234" PositionY="30" Direction="1" Element="0" /> <!-- "Jerint the Assistant" -->
+		<Config Class="725" Range="0" PositionX="215" PositionY="56" Direction="3" Element="0" /> <!-- "Priest James" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

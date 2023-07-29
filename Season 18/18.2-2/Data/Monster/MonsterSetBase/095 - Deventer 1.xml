@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+		<Config Class="608" Range="30" BeginPosX="27" BeginPosY="52" EndPosX="33" EndPosY="60" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="31" BeginPosY="62" EndPosX="39" EndPosY="70" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="24" BeginPosY="20" EndPosX="30" EndPosY="25" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="28" BeginPosY="25" EndPosX="34" EndPosY="31" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="33" BeginPosY="14" EndPosX="42" EndPosY="22" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="55" BeginPosY="8" EndPosX="63" EndPosY="13" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="79" BeginPosY="22" EndPosX="91" EndPosY="30" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="83" BeginPosY="30" EndPosX="90" EndPosY="36" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="78" BeginPosY="97" EndPosX="86" EndPosY="104" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="72" BeginPosY="90" EndPosX="82" EndPosY="99" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="61" BeginPosY="12" EndPosX="67" EndPosY="18" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="47" BeginPosY="44" EndPosX="55" EndPosY="50" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="44" BeginPosY="29" EndPosX="53" EndPosY="36" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="56" BeginPosY="29" EndPosX="63" EndPosY="36" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="64" BeginPosY="37" EndPosX="71" EndPosY="44" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="49" BeginPosY="63" EndPosX="58" EndPosY="71" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="58" BeginPosY="76" EndPosX="65" EndPosY="86" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="117" BeginPosY="7" EndPosX="124" EndPosY="15" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="113" BeginPosY="15" EndPosX="121" EndPosY="21" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="135" BeginPosY="13" EndPosX="143" EndPosY="19" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="118" BeginPosY="27" EndPosX="126" EndPosY="36" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="82" BeginPosY="56" EndPosX="90" EndPosY="63" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="90" BeginPosY="59" EndPosX="98" EndPosY="66" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="113" BeginPosY="57" EndPosX="122" EndPosY="64" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="109" BeginPosY="44" EndPosX="118" EndPosY="52" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="118" BeginPosY="85" EndPosX="127" EndPosY="93" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="128" BeginPosY="90" EndPosX="133" EndPosY="95" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="123" BeginPosY="80" EndPosX="131" EndPosY="86" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="162" BeginPosY="100" EndPosX="167" EndPosY="105" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="167" BeginPosY="95" EndPosX="174" EndPosY="101" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="185" BeginPosY="92" EndPosX="191" EndPosY="98" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="191" BeginPosY="91" EndPosX="197" EndPosY="97" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="235" BeginPosY="77" EndPosX="243" EndPosY="84" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="230" BeginPosY="84" EndPosX="238" EndPosY="91" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="239" BeginPosY="37" EndPosX="245" EndPosY="45" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="231" BeginPosY="44" EndPosX="238" EndPosY="50" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="202" BeginPosY="13" EndPosX="209" EndPosY="19" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="174" BeginPosY="14" EndPosX="182" EndPosY="21" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="181" BeginPosY="18" EndPosX="189" EndPosY="26" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="146" BeginPosY="41" EndPosX="152" EndPosY="48" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="143" BeginPosY="64" EndPosX="152" EndPosY="70" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="152" BeginPosY="61" EndPosX="158" EndPosY="67" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="174" BeginPosY="44" EndPosX="180" EndPosY="53" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="180" BeginPosY="40" EndPosX="187" EndPosY="48" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="152" BeginPosY="46" EndPosX="158" EndPosY="54" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="164" BeginPosY="61" EndPosX="170" EndPosY="68" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="155" BeginPosY="22" EndPosX="164" EndPosY="28" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="184" BeginPosY="66" EndPosX="192" EndPosY="73" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="187" BeginPosY="73" EndPosX="195" EndPosY="80" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="207" BeginPosY="52" EndPosX="214" EndPosY="59" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="206" BeginPosY="35" EndPosX="213" EndPosY="42" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="210" BeginPosY="42" EndPosX="215" EndPosY="47" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="145" BeginPosY="90" EndPosX="152" EndPosY="96" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="138" BeginPosY="91" EndPosX="144" EndPosY="98" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="608" Range="30" BeginPosX="197" BeginPosY="25" EndPosX="203" EndPosY="31" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Devilfairy" -->
+		<Config Class="609" Range="30" BeginPosX="34" BeginPosY="21" EndPosX="41" EndPosY="29" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="34" BeginPosY="56" EndPosX="40" EndPosY="62" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="33" BeginPosY="50" EndPosX="39" EndPosY="57" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="49" BeginPosY="75" EndPosX="57" EndPosY="82" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="76" BeginPosY="92" EndPosX="84" EndPosY="101" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="90" BeginPosY="54" EndPosX="97" EndPosY="62" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="75" BeginPosY="28" EndPosX="83" EndPosY="37" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="57" BeginPosY="15" EndPosX="65" EndPosY="23" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="60" BeginPosY="49" EndPosX="65" EndPosY="54" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="59" BeginPosY="42" EndPosX="67" EndPosY="48" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="112" BeginPosY="8" EndPosX="121" EndPosY="15" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="113" BeginPosY="33" EndPosX="124" EndPosY="41" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="119" BeginPosY="47" EndPosX="128" EndPosY="55" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="118" BeginPosY="79" EndPosX="128" EndPosY="88" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="139" BeginPosY="83" EndPosX="147" EndPosY="91" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="167" BeginPosY="99" EndPosX="173" EndPosY="105" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="167" BeginPosY="81" EndPosX="177" EndPosY="88" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="155" BeginPosY="88" EndPosX="162" EndPosY="96" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="146" BeginPosY="47" EndPosX="154" EndPosY="53" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="147" BeginPosY="58" EndPosX="154" EndPosY="64" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="169" BeginPosY="46" EndPosX="176" EndPosY="53" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="181" BeginPosY="46" EndPosX="187" EndPosY="52" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="177" BeginPosY="20" EndPosX="185" EndPosY="27" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="204" BeginPosY="3" EndPosX="210" EndPosY="11" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="199" BeginPosY="8" EndPosX="206" EndPosY="16" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="212" BeginPosY="37" EndPosX="218" EndPosY="43" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="199" BeginPosY="32" EndPosX="205" EndPosY="39" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="195" BeginPosY="43" EndPosX="202" EndPosY="48" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="200" BeginPosY="53" EndPosX="210" EndPosY="64" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="201" BeginPosY="70" EndPosX="208" EndPosY="77" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="206" BeginPosY="70" EndPosX="212" EndPosY="81" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="230" BeginPosY="76" EndPosX="238" EndPosY="84" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="233" BeginPosY="49" EndPosX="241" EndPosY="55" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="212" BeginPosY="87" EndPosX="219" EndPosY="94" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="192" BeginPosY="94" EndPosX="200" EndPosY="102" Direction="-1" Quantity="1" Element="5" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="82" BeginPosY="83" EndPosX="90" EndPosY="89" Direction="-1" Quantity="1" Element="1" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="136" BeginPosY="22" EndPosX="147" EndPosY="29" Direction="-1" Quantity="1" Element="2" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="148" BeginPosY="14" EndPosX="155" EndPosY="23" Direction="-1" Quantity="1" Element="3" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="609" Range="30" BeginPosX="160" BeginPosY="53" EndPosX="169" EndPosY="62" Direction="-1" Quantity="1" Element="4" /> <!-- "Deventer Elemental Beast" -->
+		<Config Class="610" Range="30" BeginPosX="48" BeginPosY="48" EndPosX="55" EndPosY="55" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="68" BeginPosY="28" EndPosX="75" EndPosY="36" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="71" BeginPosY="83" EndPosX="80" EndPosY="92" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="112" BeginPosY="27" EndPosX="122" EndPosY="34" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="144" BeginPosY="17" EndPosX="152" EndPosY="27" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="161" BeginPosY="40" EndPosX="169" EndPosY="49" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="125" BeginPosY="22" EndPosX="133" EndPosY="30" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="108" BeginPosY="49" EndPosX="122" EndPosY="57" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="158" BeginPosY="98" EndPosX="168" EndPosY="107" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="222" BeginPosY="85" EndPosX="229" EndPosY="92" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="199" BeginPosY="73" EndPosX="208" EndPosY="81" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="209" BeginPosY="30" EndPosX="222" EndPosY="36" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="61" BeginPosY="81" EndPosX="68" EndPosY="91" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="43" BeginPosY="60" EndPosX="48" EndPosY="67" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="133" BeginPosY="48" EndPosX="145" EndPosY="54" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="116" BeginPosY="66" EndPosX="126" EndPosY="74" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="149" BeginPosY="99" EndPosX="155" EndPosY="103" Direction="-1" Quantity="1" Element="1" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="162" BeginPosY="70" EndPosX="167" EndPosY="75" Direction="-1" Quantity="1" Element="2" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="170" BeginPosY="54" EndPosX="180" EndPosY="61" Direction="-1" Quantity="1" Element="3" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="227" BeginPosY="48" EndPosX="236" EndPosY="56" Direction="-1" Quantity="1" Element="4" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="610" Range="30" BeginPosX="94" BeginPosY="51" EndPosX="104" EndPosY="59" Direction="-1" Quantity="1" Element="5" /> <!-- "Debenter Elemental Knight" -->
+		<Config Class="611" Range="30" BeginPosX="33" BeginPosY="2" EndPosX="245" EndPosY="110" Direction="-1" Quantity="1" Element="1" /> <!-- "Sellihoden" -->
+		<Config Class="612" Range="30" BeginPosX="39" BeginPosY="3" EndPosX="245" EndPosY="112" Direction="-1" Quantity="1" Element="2" /> <!-- "Ukanva" -->
+		<Config Class="613" Range="30" BeginPosX="46" BeginPosY="3" EndPosX="241" EndPosY="113" Direction="-1" Quantity="1" Element="3" /> <!-- "Silla" -->
+		<Config Class="614" Range="30" BeginPosX="51" BeginPosY="2" EndPosX="249" EndPosY="117" Direction="-1" Quantity="1" Element="4" /> <!-- "Normus" -->
+		<Config Class="615" Range="30" BeginPosX="42" BeginPosY="5" EndPosX="239" EndPosY="115" Direction="-1" Quantity="1" Element="5" /> <!-- "Muff" -->
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<MONSTER>
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

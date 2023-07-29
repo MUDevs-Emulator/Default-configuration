@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<WingExchange Enabled="1">
+	<ExchangeHeader>
+		<Info ID="0" ISection="20" IType="113" GainOptionCnt="100" />
+	</ExchangeHeader>
+	<ExchangeItemList>
+		<ExchangeHeaderItem ID="0">
+			<Info Slot="0" ISection="12" IType="414" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="1" ISection="12" IType="415" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="2" ISection="12" IType="416" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="3" ISection="12" IType="419" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="4" ISection="12" IType="417" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="5" ISection="12" IType="418" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="6" ISection="12" IType="420" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="7" ISection="12" IType="421" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="8" ISection="12" IType="469" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="9" ISection="12" IType="474" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="10" ISection="12" IType="490" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="11" ISection="12" IType="160" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="12" ISection="12" IType="152" ILevel="11" Unk1="1" Unk2="1" />
+			<Info Slot="13" ISection="12" IType="178" ILevel="11" Unk1="1" Unk2="1" />
+		</ExchangeHeaderItem>
+	</ExchangeItemList>
+	<ExchangeOptionList>
+		<ExchangeHeaderOption ID="0">
+			<Info Slot="0" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="-1" OptionLevel3="-1" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="16666" />
+			<Info Slot="1" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="-1" OptionLevel3="-1" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="11667" />
+			<Info Slot="2" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="-1" OptionLevel3="-1" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="11667" />
+			<Info Slot="3" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="-1" OptionLevel3="-1" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="10000" />
+			<Info Slot="4" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="0" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="75000" />
+			<Info Slot="5" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="1" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="7500" />
+			<Info Slot="6" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="2" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="5000" />
+			<Info Slot="7" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="4" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="5000" />
+			<Info Slot="8" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="20000" />
+			<Info Slot="9" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="7" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="50000" />
+			<Info Slot="10" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="8" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="37500" />
+			<Info Slot="11" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="9" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="25000" />
+			<Info Slot="12" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="10" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="25000" />
+			<Info Slot="13" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="0" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="30000" />
+			<Info Slot="14" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="1" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="3000" />
+			<Info Slot="15" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="2" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="2000" />
+			<Info Slot="16" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="4" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="2000" />
+			<Info Slot="17" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="8000" />
+			<Info Slot="18" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="7" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="20000" />
+			<Info Slot="19" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="8" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="15000" />
+			<Info Slot="20" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="9" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="10000" />
+			<Info Slot="21" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="10" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="10000" />
+			<Info Slot="22" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="0" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="30000" />
+			<Info Slot="23" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="1" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="3000" />
+			<Info Slot="24" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="2" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="2000" />
+			<Info Slot="25" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="4" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="2000" />
+			<Info Slot="26" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="8000" />
+			<Info Slot="27" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="7" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="20000" />
+			<Info Slot="28" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="8" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="15000" />
+			<Info Slot="29" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="9" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="10000" />
+			<Info Slot="30" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="10" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="10000" />
+			<Info Slot="31" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="0" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="45000" />
+			<Info Slot="32" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="1" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="4500" />
+			<Info Slot="33" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="2" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="3000" />
+			<Info Slot="34" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="4" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="3000" />
+			<Info Slot="35" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="12000" />
+			<Info Slot="36" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="7" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="30000" />
+			<Info Slot="37" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="8" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="22500" />
+			<Info Slot="38" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="9" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="15000" />
+			<Info Slot="39" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="10" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="0" OptionRate="15000" />
+			<Info Slot="40" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="0" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="7500" />
+			<Info Slot="41" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="1" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="750" />
+			<Info Slot="42" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="2" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="500" />
+			<Info Slot="43" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="4" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="500" />
+			<Info Slot="44" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2000" />
+			<Info Slot="45" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="7" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="46" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="8" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="3750" />
+			<Info Slot="47" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="9" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2500" />
+			<Info Slot="48" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="10" OptionLevel3="2" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2500" />
+			<Info Slot="49" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="0" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="15000" />
+			<Info Slot="50" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="1" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1500" />
+			<Info Slot="51" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="2" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="52" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="4" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="53" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="4000" />
+			<Info Slot="54" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="7" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="10000" />
+			<Info Slot="55" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="8" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="7500" />
+			<Info Slot="56" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="9" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="57" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="10" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="58" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="0" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="15000" />
+			<Info Slot="59" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="1" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1500" />
+			<Info Slot="60" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="2" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="61" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="4" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="62" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="4000" />
+			<Info Slot="63" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="7" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="10000" />
+			<Info Slot="64" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="8" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="7500" />
+			<Info Slot="65" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="9" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="66" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="3" Option3="10" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="67" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="0" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="7500" />
+			<Info Slot="68" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="1" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="750" />
+			<Info Slot="69" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="2" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="500" />
+			<Info Slot="70" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="4" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="500" />
+			<Info Slot="71" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2000" />
+			<Info Slot="72" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="7" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="5000" />
+			<Info Slot="73" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="8" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="3750" />
+			<Info Slot="74" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="9" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2500" />
+			<Info Slot="75" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="10" OptionLevel3="3" Option4="-1" OptionLevel4="-1" OptionUnk1="1" OptionRate="2500" />
+			<Info Slot="76" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="7" OptionLevel4="2" OptionUnk1="0" OptionRate="25338" />
+			<Info Slot="77" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="10" OptionLevel4="2" OptionUnk1="0" OptionRate="13333" />
+			<Info Slot="78" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="8" OptionLevel4="2" OptionUnk1="0" OptionRate="10000" />
+			<Info Slot="79" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="9" OptionLevel4="2" OptionUnk1="0" OptionRate="13333" />
+			<Info Slot="80" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="1" OptionLevel4="2" OptionUnk1="0" OptionRate="2000" />
+			<Info Slot="81" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="2" OptionLevel4="2" OptionUnk1="0" OptionRate="1333" />
+			<Info Slot="82" Option1="3" OptionLevel1="2" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="4" OptionLevel4="2" OptionUnk1="0" OptionRate="1333" />
+			<Info Slot="83" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="7" OptionLevel4="2" OptionUnk1="1" OptionRate="10133" />
+			<Info Slot="84" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="10" OptionLevel4="2" OptionUnk1="1" OptionRate="5333" />
+			<Info Slot="85" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="8" OptionLevel4="2" OptionUnk1="1" OptionRate="4000" />
+			<Info Slot="86" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="9" OptionLevel4="2" OptionUnk1="1" OptionRate="5333" />
+			<Info Slot="87" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="1" OptionLevel4="2" OptionUnk1="1" OptionRate="800" />
+			<Info Slot="88" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="2" OptionLevel4="2" OptionUnk1="1" OptionRate="533" />
+			<Info Slot="89" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="4" OptionLevel4="2" OptionUnk1="1" OptionRate="533" />
+			<Info Slot="90" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="7" OptionLevel4="2" OptionUnk1="1" OptionRate="10133" />
+			<Info Slot="91" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="10" OptionLevel4="2" OptionUnk1="1" OptionRate="5333" />
+			<Info Slot="92" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="8" OptionLevel4="2" OptionUnk1="1" OptionRate="4000" />
+			<Info Slot="93" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="9" OptionLevel4="2" OptionUnk1="1" OptionRate="5333" />
+			<Info Slot="94" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="1" OptionLevel4="2" OptionUnk1="1" OptionRate="800" />
+			<Info Slot="95" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="2" OptionLevel4="2" OptionUnk1="1" OptionRate="533" />
+			<Info Slot="96" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="4" OptionLevel4="2" OptionUnk1="1" OptionRate="533" />
+			<Info Slot="97" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="7" OptionLevel4="3" OptionUnk1="1" OptionRate="15200" />
+			<Info Slot="98" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="10" OptionLevel4="3" OptionUnk1="1" OptionRate="8000" />
+			<Info Slot="99" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="8" OptionLevel4="3" OptionUnk1="1" OptionRate="6000" />
+			<Info Slot="100" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="9" OptionLevel4="3" OptionUnk1="1" OptionRate="8000" />
+			<Info Slot="101" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="1" OptionLevel4="3" OptionUnk1="1" OptionRate="1200" />
+			<Info Slot="102" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="2" OptionLevel4="3" OptionUnk1="1" OptionRate="800" />
+			<Info Slot="103" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="2" Option4="4" OptionLevel4="3" OptionUnk1="1" OptionRate="800" />
+			<Info Slot="104" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="7" OptionLevel4="2" OptionUnk1="1" OptionRate="2533" />
+			<Info Slot="105" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="10" OptionLevel4="2" OptionUnk1="1" OptionRate="1333" />
+			<Info Slot="106" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="8" OptionLevel4="2" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="107" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="9" OptionLevel4="2" OptionUnk1="1" OptionRate="1333" />
+			<Info Slot="108" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="1" OptionLevel4="2" OptionUnk1="1" OptionRate="200" />
+			<Info Slot="109" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="2" OptionLevel4="2" OptionUnk1="1" OptionRate="133" />
+			<Info Slot="110" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="4" OptionLevel4="2" OptionUnk1="1" OptionRate="133" />
+			<Info Slot="111" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="7" OptionLevel4="3" OptionUnk1="1" OptionRate="5067" />
+			<Info Slot="112" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="10" OptionLevel4="3" OptionUnk1="1" OptionRate="2667" />
+			<Info Slot="113" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="8" OptionLevel4="3" OptionUnk1="1" OptionRate="2000" />
+			<Info Slot="114" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="9" OptionLevel4="3" OptionUnk1="1" OptionRate="2667" />
+			<Info Slot="115" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="1" OptionLevel4="3" OptionUnk1="1" OptionRate="400" />
+			<Info Slot="116" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="2" OptionLevel4="3" OptionUnk1="1" OptionRate="267" />
+			<Info Slot="117" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="2" Option3="5" OptionLevel3="3" Option4="4" OptionLevel4="3" OptionUnk1="1" OptionRate="267" />
+			<Info Slot="118" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="7" OptionLevel4="3" OptionUnk1="1" OptionRate="5067" />
+			<Info Slot="119" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="10" OptionLevel4="3" OptionUnk1="1" OptionRate="2667" />
+			<Info Slot="120" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="8" OptionLevel4="3" OptionUnk1="1" OptionRate="2000" />
+			<Info Slot="121" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="9" OptionLevel4="3" OptionUnk1="1" OptionRate="2667" />
+			<Info Slot="122" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="1" OptionLevel4="3" OptionUnk1="1" OptionRate="400" />
+			<Info Slot="123" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="2" OptionLevel4="3" OptionUnk1="1" OptionRate="267" />
+			<Info Slot="124" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="2" Option4="4" OptionLevel4="3" OptionUnk1="1" OptionRate="267" />
+			<Info Slot="125" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="7" OptionLevel4="3" OptionUnk1="1" OptionRate="2533" />
+			<Info Slot="126" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="10" OptionLevel4="3" OptionUnk1="1" OptionRate="1333" />
+			<Info Slot="127" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="8" OptionLevel4="3" OptionUnk1="1" OptionRate="1000" />
+			<Info Slot="128" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="9" OptionLevel4="3" OptionUnk1="1" OptionRate="1333" />
+			<Info Slot="129" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="1" OptionLevel4="3" OptionUnk1="1" OptionRate="200" />
+			<Info Slot="130" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="2" OptionLevel4="3" OptionUnk1="1" OptionRate="133" />
+			<Info Slot="131" Option1="3" OptionLevel1="3" Option2="6" OptionLevel2="3" Option3="5" OptionLevel3="3" Option4="4" OptionLevel4="3" OptionUnk1="1" OptionRate="133" />
+			
+		</ExchangeHeaderOption>
+	</ExchangeOptionList>
+	
+
+
+</WingExchange>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs Ex1722
+// == www.mudevs.com
+// == (C) 2021 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By OMEGA
+// ============================================================
+//
+//~~ 
+-->
+<!-- Elements: 1 = Fire / 2 = Water / 3 = Earth / 4 = Wind / 5 = Darkness / 6 = Randon -->
+
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+		<Config Class="838" Range="0" PositionX="040" PositionY="038" Direction="3" Element="0" /> <!-- "Elite John Flag" -->
+		<Config Class="838" Range="0" PositionX="018" PositionY="215" Direction="2" Element="0" /> <!-- "Elite John Flag" -->
+		<Config Class="838" Range="0" PositionX="124" PositionY="010" Direction="3" Element="0" /> <!-- "Elite John Flag" -->
+		<Config Class="838" Range="0" PositionX="225" PositionY="212" Direction="2" Element="0" /> <!-- "Elite John Flag" -->
+		<Config Class="838" Range="0" PositionX="235" PositionY="011" Direction="3" Element="0" /> <!-- "Elite John Flag" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<!-- Spots Fire  -->
+	<Config Class="905" Range="4" BeginPosX="107" BeginPosY="086" EndPosX="110" EndPosY="090" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="107" BeginPosY="086" EndPosX="110" EndPosY="090" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="107" BeginPosY="086" EndPosX="110" EndPosY="090" Direction="-1" Quantity="1" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="905" Range="4" BeginPosX="082" BeginPosY="109" EndPosX="084" EndPosY="115" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="082" BeginPosY="109" EndPosX="084" EndPosY="115" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="082" BeginPosY="109" EndPosX="084" EndPosY="115" Direction="-1" Quantity="1" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="905" Range="4" BeginPosX="051" BeginPosY="007" EndPosX="059" EndPosY="011" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="051" BeginPosY="007" EndPosX="059" EndPosY="011" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="051" BeginPosY="007" EndPosX="059" EndPosY="011" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="905" Range="4" BeginPosX="036" BeginPosY="067" EndPosX="041" EndPosY="070" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="036" BeginPosY="067" EndPosX="041" EndPosY="070" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="036" BeginPosY="067" EndPosX="041" EndPosY="070" Direction="-1" Quantity="1" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="905" Range="4" BeginPosX="020" BeginPosY="085" EndPosX="026" EndPosY="094" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="020" BeginPosY="085" EndPosX="026" EndPosY="094" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="020" BeginPosY="085" EndPosX="026" EndPosY="094" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="905" Range="4" BeginPosX="024" BeginPosY="119" EndPosX="028" EndPosY="123" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="024" BeginPosY="119" EndPosX="028" EndPosY="123" Direction="-1" Quantity="2" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="024" BeginPosY="119" EndPosX="028" EndPosY="123" Direction="-1" Quantity="1" Element="1" /> <!-- "Under Dreadfear" -->
+	
+	<Config Class="908" Range="4" BeginPosX="017" BeginPosY="034" EndPosX="022" EndPosY="045" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Persona (Elite)" -->
+	<Config Class="909" Range="4" BeginPosX="017" BeginPosY="034" EndPosX="022" EndPosY="045" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Twin Tale (Elite)" -->
+	<Config Class="910" Range="4" BeginPosX="017" BeginPosY="034" EndPosX="022" EndPosY="045" Direction="-1" Quantity="3" Element="1" /> <!-- "Under Dreadfear (Elite)" -->
+	
+	<!-- Spots Water -->
+	<Config Class="905" Range="4" BeginPosX="095" BeginPosY="163" EndPosX="102" EndPosY="166" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="095" BeginPosY="163" EndPosX="102" EndPosY="166" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="095" BeginPosY="163" EndPosX="102" EndPosY="166" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="053" BeginPosY="142" EndPosX="057" EndPosY="148" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="053" BeginPosY="142" EndPosX="057" EndPosY="148" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="053" BeginPosY="142" EndPosX="057" EndPosY="148" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="016" BeginPosY="184" EndPosX="019" EndPosY="192" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="016" BeginPosY="184" EndPosX="019" EndPosY="192" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="016" BeginPosY="184" EndPosX="019" EndPosY="192" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="050" BeginPosY="188" EndPosX="054" EndPosY="194" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="050" BeginPosY="188" EndPosX="054" EndPosY="194" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="050" BeginPosY="188" EndPosX="054" EndPosY="194" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="2" BeginPosX="019" BeginPosY="213" EndPosX="027" EndPosY="212" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="2" BeginPosX="019" BeginPosY="213" EndPosX="027" EndPosY="212" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="2" BeginPosX="019" BeginPosY="213" EndPosX="027" EndPosY="212" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="062" BeginPosY="236" EndPosX="071" EndPosY="240" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="062" BeginPosY="236" EndPosX="071" EndPosY="240" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="062" BeginPosY="236" EndPosX="071" EndPosY="240" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="098" BeginPosY="187" EndPosX="100" EndPosY="193" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="098" BeginPosY="187" EndPosX="100" EndPosY="193" Direction="-1" Quantity="2" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="098" BeginPosY="187" EndPosX="100" EndPosY="193" Direction="-1" Quantity="1" Element="2" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="908" Range="4" BeginPosX="018" BeginPosY="234" EndPosX="026" EndPosY="239" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Persona (Elite)" -->
+	<Config Class="909" Range="4" BeginPosX="018" BeginPosY="234" EndPosX="026" EndPosY="239" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Twin Tale (Elite)" -->
+	<Config Class="910" Range="4" BeginPosX="018" BeginPosY="234" EndPosX="026" EndPosY="239" Direction="-1" Quantity="3" Element="2" /> <!-- "Under Dreadfear (Elite)" -->
+	
+	<!-- Spots Earth -->
+	<Config Class="905" Range="4" BeginPosX="163" BeginPosY="093" EndPosX="166" EndPosY="099" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="163" BeginPosY="093" EndPosX="166" EndPosY="099" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="163" BeginPosY="093" EndPosX="166" EndPosY="099" Direction="-1" Quantity="1" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="193" BeginPosY="051" EndPosX="200" EndPosY="055" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="193" BeginPosY="051" EndPosX="200" EndPosY="055" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="193" BeginPosY="051" EndPosX="200" EndPosY="055" Direction="-1" Quantity="1" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="175" BeginPosY="003" EndPosX="184" EndPosY="007" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="175" BeginPosY="003" EndPosX="184" EndPosY="007" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="175" BeginPosY="003" EndPosX="184" EndPosY="007" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="152" BeginPosY="006" EndPosX="156" EndPosY="010" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="152" BeginPosY="006" EndPosX="156" EndPosY="010" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="152" BeginPosY="006" EndPosX="156" EndPosY="010" Direction="-1" Quantity="1" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="150" BeginPosY="050" EndPosX="158" EndPosY="056" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="150" BeginPosY="050" EndPosX="158" EndPosY="056" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="150" BeginPosY="050" EndPosX="158" EndPosY="056" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="113" BeginPosY="032" EndPosX="117" EndPosY="037" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="113" BeginPosY="032" EndPosX="117" EndPosY="037" Direction="-1" Quantity="2" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="113" BeginPosY="032" EndPosX="117" EndPosY="037" Direction="-1" Quantity="1" Element="3" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="908" Range="4" BeginPosX="098" BeginPosY="008" EndPosX="102" EndPosY="017" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Persona (Elite)" -->
+	<Config Class="909" Range="4" BeginPosX="098" BeginPosY="008" EndPosX="102" EndPosY="017" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Twin Tale (Elite)" -->
+	<Config Class="910" Range="4" BeginPosX="098" BeginPosY="008" EndPosX="102" EndPosY="017" Direction="-1" Quantity="3" Element="3" /> <!-- "Under Dreadfear (Elite)" -->
+	
+	<!-- Spots Wind -->
+	<Config Class="905" Range="4" BeginPosX="148" BeginPosY="225" EndPosX="152" EndPosY="238" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="148" BeginPosY="225" EndPosX="152" EndPosY="238" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="148" BeginPosY="225" EndPosX="152" EndPosY="238" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="123" BeginPosY="188" EndPosX="129" EndPosY="191" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="123" BeginPosY="188" EndPosX="129" EndPosY="191" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="123" BeginPosY="188" EndPosX="129" EndPosY="191" Direction="-1" Quantity="1" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="142" BeginPosY="154" EndPosX="148" EndPosY="157" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="142" BeginPosY="154" EndPosX="148" EndPosY="157" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="142" BeginPosY="154" EndPosX="148" EndPosY="157" Direction="-1" Quantity="1" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="161" BeginPosY="189" EndPosX="165" EndPosY="195" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="161" BeginPosY="189" EndPosX="165" EndPosY="195" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="161" BeginPosY="189" EndPosX="165" EndPosY="195" Direction="-1" Quantity="1" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="188" BeginPosY="189" EndPosX="193" EndPosY="195" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="188" BeginPosY="189" EndPosX="193" EndPosY="195" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="188" BeginPosY="189" EndPosX="193" EndPosY="195" Direction="-1" Quantity="1" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="905" Range="4" BeginPosX="178" BeginPosY="227" EndPosX="183" EndPosY="235" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="178" BeginPosY="227" EndPosX="183" EndPosY="235" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="178" BeginPosY="227" EndPosX="183" EndPosY="235" Direction="-1" Quantity="2" Element="4" /> <!-- "Under Dreadfear" -->	
+	
+	<Config Class="908" Range="4" BeginPosX="220" BeginPosY="240" EndPosX="236" EndPosY="240" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Persona (Elite)" -->
+	<Config Class="909" Range="4" BeginPosX="220" BeginPosY="240" EndPosX="236" EndPosY="240" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Twin Tale (Elite)" -->
+	<Config Class="910" Range="4" BeginPosX="220" BeginPosY="240" EndPosX="236" EndPosY="240" Direction="-1" Quantity="3" Element="4" /> <!-- "Under Dreadfear (Elite)" -->
+	
+	<!-- Spots Darkness -->	
+	<Config Class="905" Range="4" BeginPosX="227" BeginPosY="129" EndPosX="232" EndPosY="131" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="227" BeginPosY="129" EndPosX="232" EndPosY="131" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="227" BeginPosY="129" EndPosX="232" EndPosY="131" Direction="-1" Quantity="1" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="905" Range="4" BeginPosX="234" BeginPosY="167" EndPosX="241" EndPosY="173" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="234" BeginPosY="167" EndPosX="241" EndPosY="173" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="234" BeginPosY="167" EndPosX="241" EndPosY="173" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="905" Range="4" BeginPosX="245" BeginPosY="097" EndPosX="248" EndPosY="105" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="245" BeginPosY="097" EndPosX="248" EndPosY="105" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="245" BeginPosY="097" EndPosX="248" EndPosY="105" Direction="-1" Quantity="1" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="905" Range="4" BeginPosX="195" BeginPosY="095" EndPosX="199" EndPosY="100" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="195" BeginPosY="095" EndPosX="199" EndPosY="100" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="195" BeginPosY="095" EndPosX="199" EndPosY="100" Direction="-1" Quantity="1" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="905" Range="4" BeginPosX="161" BeginPosY="138" EndPosX="167" EndPosY="143" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="161" BeginPosY="138" EndPosX="167" EndPosY="143" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="161" BeginPosY="138" EndPosX="167" EndPosY="143" Direction="-1" Quantity="1" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="905" Range="4" BeginPosX="243" BeginPosY="077" EndPosX="248" EndPosY="084" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" BeginPosX="243" BeginPosY="077" EndPosX="248" EndPosY="084" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="907" Range="4" BeginPosX="243" BeginPosY="077" EndPosX="248" EndPosY="084" Direction="-1" Quantity="2" Element="5" /> <!-- "Under Dreadfear" -->		
+	
+	<Config Class="908" Range="4" BeginPosX="208" BeginPosY="009" EndPosX="213" EndPosY="018" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Persona (Elite)" -->
+	<Config Class="909" Range="4" BeginPosX="208" BeginPosY="009" EndPosX="213" EndPosY="018" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Twin Tale (Elite)" -->
+	<Config Class="910" Range="4" BeginPosX="208" BeginPosY="009" EndPosX="213" EndPosY="018" Direction="-1" Quantity="3" Element="5" /> <!-- "Under Dreadfear (Elite)" -->
+	
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+  	<MONSTER>
+	<!-- Fire-->
+	<Config Class="905" Range="4" PositionX="124" PositionY="105" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="106" PositionY="105" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="091" PositionY="096" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="091" PositionY="087" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="092" PositionY="075" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="092" PositionY="065" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="096" PositionY="053" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="098" PositionY="039" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="087" PositionY="041" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="083" PositionY="039" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="071" PositionY="040" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="067" PositionY="047" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="063" PositionY="054" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="056" PositionY="055" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="047" PositionY="050" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="043" PositionY="039" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="048" PositionY="030" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="054" PositionY="026" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="062" PositionY="027" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="066" PositionY="033" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="058" PositionY="069" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="058" PositionY="069" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="052" PositionY="079" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="055" PositionY="090" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="055" PositionY="090" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="052" PositionY="107" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="052" PositionY="107" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="046" PositionY="113" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="046" PositionY="113" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="063" PositionY="116" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="070" PositionY="116" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="072" PositionY="131" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="071" PositionY="103" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="080" PositionY="095" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="075" PositionY="083" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="065" PositionY="090" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="056" PositionY="216" Direction="-1" Element="1" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="065" PositionY="217" Direction="-1" Element="1" /> <!-- "Under Twin Tale" -->
+	<!-- Water-->
+	<Config Class="905" Range="4" PositionX="123" PositionY="147" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="107" PositionY="148" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="095" PositionY="143" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="088" PositionY="134" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="906" Range="4" PositionX="084" PositionY="143" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="071" PositionY="144" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="070" PositionY="155" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="081" PositionY="158" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="070" PositionY="159" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="060" PositionY="162" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="048" PositionY="160" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="038" PositionY="160" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="040" PositionY="149" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="036" PositionY="167" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="036" PositionY="167" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="037" PositionY="179" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="037" PositionY="179" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="037" PositionY="192" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="039" PositionY="203" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="038" PositionY="210" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="044" PositionY="217" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="068" PositionY="208" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="069" PositionY="199" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="068" PositionY="189" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="067" PositionY="178" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="067" PositionY="168" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="078" PositionY="194" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="083" PositionY="199" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="084" PositionY="187" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="906" Range="4" PositionX="076" PositionY="212" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="086" PositionY="213" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="090" PositionY="227" Direction="-1" Element="2" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="101" PositionY="227" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="084" PositionY="169" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="096" PositionY="176" Direction="-1" Element="2" /> <!-- "Under Persona" -->
+	<!-- Earth -->
+	<Config Class="905" Range="1" PositionX="151" PositionY="109" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="148" PositionY="093" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="147" PositionY="090" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="151" PositionY="083" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="156" PositionY="076" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="167" PositionY="079" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="906" Range="1" PositionX="182" PositionY="082" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="182" PositionY="066" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="172" PositionY="065" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="182" PositionY="037" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="182" PositionY="037" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="174" PositionY="055" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="182" PositionY="057" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="199" PositionY="036" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="166" PositionY="034" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="165" PositionY="022" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="192" PositionY="022" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="192" PositionY="022" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="152" PositionY="031" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="141" PositionY="031" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="135" PositionY="037" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="130" PositionY="025" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="134" PositionY="016" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="126" PositionY="009" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="134" PositionY="052" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="135" PositionY="061" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="119" PositionY="063" Direction="-1" Element="3" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="116" PositionY="053" Direction="-1" Element="3" /> <!-- "Under Twin Tale" -->
+	<!-- Wind -->
+	<Config Class="905" Range="4" PositionX="106" PositionY="227" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="111" PositionY="239" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="117" PositionY="236" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="129" PositionY="237" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="129" PositionY="227" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="118" PositionY="224" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="126" PositionY="210" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="118" PositionY="210" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="111" PositionY="195" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="112" PositionY="178" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="104" PositionY="176" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="138" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="138" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="147" PositionY="207" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="147" PositionY="207" Direction="-1" Element="4" /> <!-- "Under Persona" -->	
+	<Config Class="906" Range="4" PositionX="146" PositionY="197" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="145" PositionY="183" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="4" PositionX="140" PositionY="175" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="162" PositionY="173" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="162" PositionY="173" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="174" PositionY="175" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="177" PositionY="193" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="157" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="166" PositionY="210" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="176" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="183" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="196" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="198" PositionY="221" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="205" PositionY="222" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="203" PositionY="236" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="205" PositionY="209" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="222" PositionY="206" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="238" PositionY="204" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="233" PositionY="196" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="221" PositionY="190" Direction="-1" Element="4" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="213" PositionY="173" Direction="-1" Element="4" /> <!-- "Under Persona" -->
+	<!-- Darkness -->	
+	<Config Class="905" Range="4" PositionX="217" PositionY="158" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="216" PositionY="147" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="4" PositionX="216" PositionY="147" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="236" PositionY="148" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="906" Range="4" PositionX="242" PositionY="148" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="245" PositionY="136" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="247" PositionY="125" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="245" PositionY="116" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="233" PositionY="111" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="225" PositionY="097" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="4" PositionX="219" PositionY="103" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="225" PositionY="113" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="202" PositionY="112" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="183" PositionY="114" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="183" PositionY="121" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="184" PositionY="125" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="196" PositionY="124" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="195" PositionY="142" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="194" PositionY="157" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="184" PositionY="158" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="184" PositionY="169" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="184" PositionY="148" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="169" PositionY="124" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="165" PositionY="115" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="172" PositionY="113" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="182" PositionY="104" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="181" PositionY="096" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="183" PositionY="085" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="905" Range="1" PositionX="196" PositionY="085" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="210" PositionY="083" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="220" PositionY="081" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="229" PositionY="081" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="216" PositionY="073" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="227" PositionY="064" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="220" PositionY="050" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="218" PositionY="041" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="232" PositionY="041" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="232" PositionY="051" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="906" Range="1" PositionX="246" PositionY="055" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="156" PositionY="125" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	<Config Class="906" Range="1" PositionX="158" PositionY="116" Direction="-1" Element="5" /> <!-- "Under Twin Tale" -->
+	<Config Class="905" Range="1" PositionX="204" PositionY="036" Direction="-1" Element="5" /> <!-- "Under Persona" -->
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

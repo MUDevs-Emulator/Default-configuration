@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs
+// == www.mudevs.com
+// == (C) 2020 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By MuDevastation
+// ============================================================
+//
+//~~ 
+-->
+<!--
+20th anniversary  event
+20	68	"You can get a fixed-term wing that suits your level and job."	
+20	69	"You can get the Earring of Anger (left) item."
+20	70	"You can get the Earring of Anger (right) item."	
+20	71	"You can acquire ghost horse items."	
+20	72	"You can acquire the Blood Angel Helmet set item.<br>(In the case of a magic swordsman, obtain a armor item)"	
+20	73	"You can acquire Blood Angel Armor set items."	
+20	74	"You can acquire the Blood Angel Pants set item."	
+20	75	"You can acquire Blood Angel Boots or Gloves set items."	
+20	76	"You can acquire blood angel weapon items."	
+-->
+<ItemBag>
+	<BagConfigEx>
+		<Config Index="0" DropRate="10000" EqualAttributes="0"/>
+		<Config Index="1" DropRate="0" EqualAttributes="0"/>
+	</BagConfigEx>
+	<BagDropInfoEx>
+		<DropInfo Index="0" Section="06" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="1" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="07" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="1" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="08" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="1" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="09" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="1" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="10" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="11" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="1" RF="0" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="12" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="1" GL="0" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="13" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="1" RW="0" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="14" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="1" SL="0" GC="0"/>
+		<DropInfo Index="0" Section="15" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="1" GC="0"/>
+		<DropInfo Index="0" Section="16" SectionRate="10000" MoneyAmount="0" OptionValue="0" DW="0" DK="0" FE="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SL="0" GC="1"/>
+		<DropInfo Index="1" Section="05" SectionRate="00000" MoneyAmount="0" OptionValue="0" AccountLevel0="1" AccountLevel1="1" AccountLevel2="1" AccountLevel3="1" DW="1" DK="1" FE="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SL="1" GC="1" KM="1" LM="1" IK="1"/>
+	</BagDropInfoEx>
+	<BagRuudInfoEx>
+		<RuudInfo Section="5" RuudMin="0" RuudMax="0"/>
+	</BagRuudInfoEx>
+	<BagItemsEx>
+		<!-- Bloodangel Weapons -->
+		<ItemEx Section="06" Index="2601" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Staff SM"/>
+		<ItemEx Section="07" Index="0042" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Sword BK"/>
+		<ItemEx Section="08" Index="2076" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Bow ELF"/>
+		<ItemEx Section="09" Index="0044" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Magic Sword MG"/>
+		<ItemEx Section="10" Index="1046" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Scepter DL"/>
+		<ItemEx Section="11" Index="2602" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Stick SU"/>
+		<ItemEx Section="12" Index="0046" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Claws RF"/>
+		<ItemEx Section="13" Index="1555" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Lance GL"/>
+		<ItemEx Section="14" Index="1056" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Runic Mace RW"/>
+		<ItemEx Section="15" Index="0071" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Short Sword SL"/>
+		<ItemEx Section="16" Index="2096" Level="0" Grade="0" Durability="0" Option0="1" Option1="12" Option2="13" Option3="20" Option4="20" Option5="11" Option6="0" Attribute="0" ErrtelOptionLevel="0" Duration="0" Name="Bloodangel Magic Gun GC"/>
+			
+	</BagItemsEx>
+</ItemBag>

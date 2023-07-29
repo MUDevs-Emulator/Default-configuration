@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == MuDevs Ex1702
+// == www.mudevs.com
+// == (C) 2021 MuDevs (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == By Oliveira & OMEGA
+// ============================================================
+// Elements: 1 = Fire / 2 = Water / 3 = Earth / 4 = Wind / 5 = Darkness / 6 = Randon
+//~~ 
+-->
+
+<MonsterSetBase>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<NPC>
+	<Config Class="253" Range="0" PositionX="123" PositionY="029" Direction="2" Element="0" /> <!-- "Potion Girl Amy" -->
+	</NPC>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<SPOT>
+	<!-- Esquerda Inferior-->
+	<Config Class="894" Range="5" BeginPosX="066" BeginPosY="060" EndPosX="071" EndPosY="064" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" BeginPosX="066" BeginPosY="060" EndPosX="071" EndPosY="064" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" BeginPosX="039" BeginPosY="055" EndPosX="044" EndPosY="061" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" BeginPosX="039" BeginPosY="055" EndPosX="044" EndPosY="061" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" BeginPosX="077" BeginPosY="031" EndPosX="081" EndPosY="036" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="892" Range="5" BeginPosX="077" BeginPosY="031" EndPosX="081" EndPosY="036" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	
+	<Config Class="894" Range="5" BeginPosX="098" BeginPosY="006" EndPosX="100" EndPosY="013" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="894" Range="5" BeginPosX="098" BeginPosY="006" EndPosX="100" EndPosY="013" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	
+	<Config Class="892" Range="5" BeginPosX="059" BeginPosY="013" EndPosX="064" EndPosY="020" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="892" Range="5" BeginPosX="059" BeginPosY="013" EndPosX="064" EndPosY="020" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	
+	<Config Class="893" Range="5" BeginPosX="035" BeginPosY="008" EndPosX="041" EndPosY="013" Direction="-1" Quantity="3" Element="6" /> <!-- "Old Crimson Minus" -->
+	<!-- Centro -->
+	<Config Class="894" Range="5" BeginPosX="105" BeginPosY="095" EndPosX="110" EndPosY="097" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" BeginPosX="105" BeginPosY="095" EndPosX="110" EndPosY="097" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" BeginPosX="145" BeginPosY="093" EndPosX="150" EndPosY="097" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" BeginPosX="145" BeginPosY="093" EndPosX="150" EndPosY="097" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+
+	<Config Class="894" Range="5" BeginPosX="139" BeginPosY="130" EndPosX="144" EndPosY="134" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" BeginPosX="139" BeginPosY="130" EndPosX="144" EndPosY="134" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<!-- Direita Inferior -->
+	<Config Class="892" Range="5" BeginPosX="163" BeginPosY="011" EndPosX="167" EndPosY="017" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" BeginPosX="163" BeginPosY="011" EndPosX="167" EndPosY="017" Direction="-1" Quantity="1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" BeginPosX="186" BeginPosY="017" EndPosX="194" EndPosY="013" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" BeginPosX="186" BeginPosY="017" EndPosX="194" EndPosY="013" Direction="-1" Quantity="2" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	</SPOT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+  	<MONSTER>
+	
+	<Config Class="894" Range="5" PositionX="126" PositionY="060" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="126" PositionY="060" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="118" PositionY="056" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="118" PositionY="056" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="106" PositionY="052" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="106" PositionY="052" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="094" PositionY="051" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="094" PositionY="051" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+  
+  	<Config Class="894" Range="5" PositionX="081" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="081" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="063" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="056" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="056" PositionY="043" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="056" PositionY="043" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="061" PositionY="031" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="061" PositionY="031" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="071" PositionY="024" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="071" PositionY="024" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="077" PositionY="019" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="084" PositionY="017" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+    
+	<Config Class="892" Range="5" PositionX="090" PositionY="019" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="892" Range="5" PositionX="094" PositionY="031" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="892" Range="5" PositionX="052" PositionY="034" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="046" PositionY="034" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="031" PositionY="032" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="892" Range="5" PositionX="030" PositionY="036" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="023" PositionY="045" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="892" Range="5" PositionX="022" PositionY="048" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="015" PositionY="044" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="898" Range="5" PositionX="012" PositionY="068" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="012" PositionY="068" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="012" PositionY="068" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="055" PositionY="063" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="060" PositionY="076" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="067" PositionY="076" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="894" Range="5" PositionX="081" PositionY="080" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="081" PositionY="073" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<!-- Centro -->
+	<Config Class="894" Range="5" PositionX="095" PositionY="077" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="095" PositionY="077" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="095" PositionY="098" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="095" PositionY="098" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="108" PositionY="077" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="892" Range="5" PositionX="115" PositionY="078" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="892" Range="5" PositionX="131" PositionY="080" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="124" PositionY="081" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="894" Range="5" PositionX="134" PositionY="079" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="127" PositionY="093" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="127" PositionY="093" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="125" PositionY="105" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="125" PositionY="105" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="125" PositionY="105" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="892" Range="5" PositionX="126" PositionY="122" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="137" PositionY="121" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="141" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="141" PositionY="053" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="152" PositionY="045" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="152" PositionY="045" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="159" PositionY="037" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="159" PositionY="037" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<!-- Inferior Esquerdo -->
+	<Config Class="892" Range="5" PositionX="169" PositionY="031" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="175" PositionY="030" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="184" PositionY="030" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="189" PositionY="031" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="198" PositionY="029" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="204" PositionY="026" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="212" PositionY="024" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="212" PositionY="024" Direction="-1" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="893" Range="5" PositionX="222" PositionY="022" Direction="-1" Element="6" /> <!-- "Old Crimson Minus" -->
+	
+	<Config Class="898" Range="5" PositionX="237" PositionY="015" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="237" PositionY="015" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="237" PositionY="015" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="892" Range="5" PositionX="193" PositionY="039" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="193" PositionY="043" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="893" Range="5" PositionX="229" PositionY="028" Direction="-1" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="893" Range="5" PositionX="232" PositionY="040" Direction="-1" Element="6" /> <!-- "Old Crimson Minus" -->
+	<Config Class="893" Range="5" PositionX="230" PositionY="047" Direction="-1" Element="6" /> <!-- "Old Crimson Minus" -->
+	
+	<Config Class="898" Range="5" PositionX="231" PositionY="063" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="231" PositionY="063" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="231" PositionY="063" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="898" Range="5" PositionX="218" PositionY="041" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="218" PositionY="041" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="218" PositionY="041" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="182" PositionY="059" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="166" PositionY="057" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="892" Range="5" PositionX="166" PositionY="057" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="166" PositionY="057" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="197" PositionY="056" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="188" PositionY="072" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="892" Range="5" PositionX="188" PositionY="072" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="188" PositionY="072" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="175" PositionY="067" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="892" Range="5" PositionX="171" PositionY="072" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="167" PositionY="088" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="167" PositionY="088" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="165" PositionY="099" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="165" PositionY="099" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="168" PositionY="104" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="168" PositionY="104" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="168" PositionY="104" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="177" PositionY="111" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="893" Range="5" PositionX="185" PositionY="119" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="185" PositionY="119" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="189" PositionY="132" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="189" PositionY="132" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="216" PositionY="130" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="216" PositionY="130" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="201" PositionY="134" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="201" PositionY="134" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="209" PositionY="114" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="209" PositionY="114" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="212" PositionY="104" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="898" Range="5" PositionX="196" PositionY="105" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="196" PositionY="105" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="196" PositionY="105" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="213" PositionY="146" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="898" Range="5" PositionX="232" PositionY="144" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="232" PositionY="144" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="232" PositionY="144" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="232" PositionY="144" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="226" PositionY="124" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="224" PositionY="111" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="224" PositionY="111" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="224" PositionY="111" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="218" PositionY="158" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="218" PositionY="158" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="898" Range="5" PositionX="220" PositionY="190" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="220" PositionY="190" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="220" PositionY="190" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="220" PositionY="190" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="893" Range="5" PositionX="206" PositionY="163" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="206" PositionY="163" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="192" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="185" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="173" PositionY="169" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="162" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="162" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="143" PositionY="161" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="143" PositionY="161" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="137" PositionY="172" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="137" PositionY="172" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="135" PositionY="186" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="135" PositionY="186" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="134" PositionY="206" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="134" PositionY="206" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="121" PositionY="211" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="121" PositionY="211" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="121" PositionY="211" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="136" PositionY="218" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="134" PositionY="226" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="892" Range="5" PositionX="148" PositionY="213" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="894" Range="5" PositionX="148" PositionY="213" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="148" PositionY="213" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="124" PositionY="227" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="124" PositionY="227" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="103" PositionY="219" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="103" PositionY="219" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="108" PositionY="206" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="108" PositionY="206" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="116" PositionY="193" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="116" PositionY="193" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="124" PositionY="192" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="110" PositionY="183" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="892" Range="5" PositionX="104" PositionY="174" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="104" PositionY="174" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="104" PositionY="174" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="113" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="113" PositionY="165" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="126" PositionY="170" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="126" PositionY="170" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="126" PositionY="170" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="898" Range="5" PositionX="093" PositionY="195" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="093" PositionY="195" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="093" PositionY="195" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="093" PositionY="195" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="892" Range="5" PositionX="080" PositionY="225" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	<Config Class="893" Range="5" PositionX="080" PositionY="225" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="068" PositionY="225" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="068" PositionY="225" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="068" PositionY="225" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="898" Range="5" PositionX="052" PositionY="236" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="053" PositionY="238" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="055" PositionY="239" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="053" PositionY="238" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="051" PositionY="223" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="042" PositionY="219" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="894" Range="5" PositionX="039" PositionY="213" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="893" Range="5" PositionX="039" PositionY="213" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="898" Range="5" PositionX="018" PositionY="211" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="018" PositionY="211" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="018" PositionY="211" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="018" PositionY="211" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="893" Range="5" PositionX="040" PositionY="208" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="898" Range="5" PositionX="060" PositionY="206" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="060" PositionY="206" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="060" PositionY="206" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="060" PositionY="206" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="101" PositionY="141" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="101" PositionY="141" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="102" PositionY="126" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="102" PositionY="126" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="097" PositionY="113" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="097" PositionY="113" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="893" Range="5" PositionX="084" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="084" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="084" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="088" PositionY="147" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="088" PositionY="147" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="071" PositionY="146" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="071" PositionY="146" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	<Config Class="894" Range="5" PositionX="060" PositionY="144" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="893" Range="5" PositionX="065" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="065" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="065" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="893" Range="5" PositionX="050" PositionY="150" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="050" PositionY="150" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="038" PositionY="141" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="038" PositionY="141" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	
+	<Config Class="893" Range="5" PositionX="034" PositionY="167" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="034" PositionY="167" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="034" PositionY="167" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="894" Range="5" PositionX="039" PositionY="129" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="898" Range="5" PositionX="016" PositionY="133" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="016" PositionY="133" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="016" PositionY="133" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="016" PositionY="133" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="894" Range="5" PositionX="034" PositionY="118" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	
+	<Config Class="893" Range="5" PositionX="031" PositionY="108" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="893" Range="5" PositionX="031" PositionY="108" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+
+	<Config Class="898" Range="5" PositionX="013" PositionY="103" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="898" Range="5" PositionX="013" PositionY="103" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="013" PositionY="103" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="013" PositionY="103" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+
+	<Config Class="898" Range="5" PositionX="046" PositionY="110" Direction="-1" Element="6" /> <!-- "Crimson Lycan (Elite)" -->
+	<Config Class="899" Range="5" PositionX="046" PositionY="110" Direction="-1" Element="6" /> <!-- "Crimson Minos (Elite)" -->
+	<Config Class="900" Range="5" PositionX="046" PositionY="110" Direction="-1" Element="6" /> <!-- "Crimson Harpy (Elite)" -->
+	
+	<Config Class="893" Range="5" PositionX="116" PositionY="128" Direction="-1" Element="6" /> <!-- "Old Crimson Minos" -->
+	<Config Class="894" Range="5" PositionX="116" PositionY="128" Direction="-1" Element="6" /> <!-- "Old Crimson Harpy" -->
+	<Config Class="892" Range="5" PositionX="116" PositionY="128" Direction="-1" Element="6" /> <!-- "Old Crimson Lycan" -->
+	
+	
+	</MONSTER>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+	<EVENT>
+	</EVENT>
+<!-- ================================================================================================================================================================================================================================================================================= -->
+</MonsterSetBase>

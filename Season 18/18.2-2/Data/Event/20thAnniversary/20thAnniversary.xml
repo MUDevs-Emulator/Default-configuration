@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anniversary>
+	<QuestStartInfo>	
+		<Quest Index="00" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="1. Participation 20th anniversary of the audit event." />
+		<Quest Index="01" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="2. Participate in New Year's Monster Summon Event" />
+		<Quest Index="02" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="3. Participate in Bok Soon's event" />
+		<Quest Index="03" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="4. Participation in the Golden Legion event" />
+		<Quest Index="04" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="5. Participation in cherry blossom event" />
+		<Quest Index="05" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="6. Earring Reinforcement Mission" />
+		<Quest Index="06" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="7. Mission of granting the gem of harmony" />
+		<Quest Index="07" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="8. Dimensional Labyrinth Clear Mission" />
+		<Quest Index="08" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="9. Participate in lucky coin event" />
+		<Quest Index="09" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="10. Participate in the Happy Day event" />
+		<Quest Index="10" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="11. Participate in Roommy event" />
+		<Quest Index="11" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="12. Participate in playtime events" />
+		<Quest Index="12" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="13. Chuseok event" />
+		<Quest Index="13" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="14. Participate in fruit initialization event" />
+		<Quest Index="14" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="15. Participate in mastery item enhancement events" />
+		<Quest Index="15" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="16. Participation in new character development events (1)" />
+		<Quest Index="16" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="17. Participation in new character development events (2)" />
+		<Quest Index="17" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="18. Participate in Halloween Events" />
+		<Quest Index="18" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="19. Participation in the Maple leaf event" />
+		<Quest Index="19" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="20. Participation in the Christmas event" />
+		<Quest Index="20" StartDate="2023-01-01 08:00" EndDate="2023-12-31 08:00" MinLevel="400" MaxLevel="-1" Name="21. Participation in elemental item enhancement event" />
+	</QuestStartInfo>
+	<QuestObjetiveInfo>
+		<Objetive Index="0" Type="0" Count="1" Name="Access level 400 or higher character (%d/1)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="1" Type="1" Count="100" Name="New Year Monster Kill (%d/100)">
+			<Requeriment ID="0" QuestObjetive="884" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="885" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="886" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="887" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="2" Type="1" Count="100" Name="Bok Soon's Monster Kill (%d/100)">
+			<Requeriment ID="0" QuestObjetive="413" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="888" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="3" Type="1" Count="50" Name="Golden Goblin Monster Kill (%d/50)">
+			<Requeriment ID="0" QuestObjetive="652" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="4" Type="4" Count="5" Name="Red Cherry Branch (50) Exchange Count (%d/5)">
+			<Requeriment ID="0" QuestObjetive="41" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="5" Type="6" Count="3" Name="Earring Level Enhancement (%d/3)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="6" Type="7" Count="10" Name="Grants the Jewel of Harmony option (%d/10)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="7" Type="8" Count="1" Name="Dimensional Labyrinth Clear (%d/1)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="8" Type="9" Count="5" Name="lucky Coin Exchange (%d/5)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="9" Type="10" Count="1" Name="Use of lucky box (%d/1)">
+			<Requeriment ID="0" QuestObjetive="14" QuestSubObjetive="445" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="10" Type="11" Count="3" Name="Use a bundle of cards (%d/3)">
+			<Requeriment ID="0" QuestObjetive="14" QuestSubObjetive="216" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="11" Type="12" Count="20" Name="Accumulate 20 hours of playtime as a character of level 400 or higher (%d hours/accumulate 20 hours)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="12" Type="1" Count="100" Name="Boksooni Monster Kill (%d/100)">
+			<Requeriment ID="0" QuestObjetive="413" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="888" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="13" Type="13" Count="3" Name="Number of fruit items crafted (%d/3)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="14" Type="14" Count="1" Name="Successful in 'Equipment Enhancement' of Chaos Combination using mastery items of level +9 or higher (%d/1)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="15" Type="16" Count="1" Name="Connect to Kundun and Lemuria at Lv 400 or higher (%d/1)">
+			<Requeriment ID="0" QuestObjetive="11" QuestSubObjetive="400" />
+			<Requeriment ID="1" QuestObjetive="12" QuestSubObjetive="400" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="16" Type="16" Count="1" Name="Lv 770 or higher Kundun and Lemuria access (%d/1)">
+			<Requeriment ID="0" QuestObjetive="11" QuestSubObjetive="770" />
+			<Requeriment ID="1" QuestObjetive="12" QuestSubObjetive="770" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="17" Type="3" Count="10" Name="Number of uses of lucky pumpkin (%d/10)">
+			<Requeriment ID="0" QuestObjetive="14" QuestSubObjetive="45" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="18" Type="17" Count="5" Name="Number of maple leaf exchanges (%d/5)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="19" Type="18" Count="1" Name="One-time admission to Santa Village (%d/1)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+		<Objetive Index="20" Type="15" Count="1" Name="Successful in 'Equipment Enhancement' or 'Ertel Level Up' with a pentagram of level +9 or higher (%d/1)">
+			<Requeriment ID="0" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="1" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="2" QuestObjetive="-1" QuestSubObjetive="-1" />
+			<Requeriment ID="3" QuestObjetive="-1" QuestSubObjetive="-1" />
+		</Objetive>
+	</QuestObjetiveInfo>
+	<QuestBuffRewardInfo>
+		<Reward Level="0" EffectIndex="349" ExpPercent="5" />
+		<Reward Level="1" EffectIndex="350" ExpPercent="5" />
+		<Reward Level="2" EffectIndex="351" ExpPercent="5" />
+		<Reward Level="3" EffectIndex="352" ExpPercent="10" />
+		<Reward Level="4" EffectIndex="353" ExpPercent="10" />
+		<Reward Level="5" EffectIndex="354" ExpPercent="10" />
+		<Reward Level="6" EffectIndex="355" ExpPercent="15" />
+		<Reward Level="7" EffectIndex="356" ExpPercent="15" />
+		<Reward Level="8" EffectIndex="357" ExpPercent="15" />
+		<Reward Level="9" EffectIndex="358" ExpPercent="20" />
+		<Reward Level="10" EffectIndex="359" ExpPercent="20" />
+		<Reward Level="11" EffectIndex="360" ExpPercent="20" />
+		<Reward Level="12" EffectIndex="361" ExpPercent="20" />
+		<Reward Level="13" EffectIndex="362" ExpPercent="20" />
+		<Reward Level="14" EffectIndex="363" ExpPercent="20" />
+		<Reward Level="15" EffectIndex="364" ExpPercent="20" />
+	</QuestBuffRewardInfo>
+	<QuestRewardInfo ReceiveStartDate="2023-01-01 08:00" ReceiveEndDate="2024-01-01 08:00">
+		<Reward Level="3" ItemCat="20" ItemIndex="68" />
+		<Reward Level="5" ItemCat="20" ItemIndex="69" />
+		<Reward Level="7" ItemCat="20" ItemIndex="70" />
+		<Reward Level="9" ItemCat="20" ItemIndex="71" />
+		<Reward Level="11" ItemCat="20" ItemIndex="72" />
+		<Reward Level="12" ItemCat="20" ItemIndex="73" />
+		<Reward Level="13" ItemCat="20" ItemIndex="74" />
+		<Reward Level="14" ItemCat="20" ItemIndex="75" />
+		<Reward Level="15" ItemCat="20" ItemIndex="76" />
+	</QuestRewardInfo>
+</Anniversary>	
+

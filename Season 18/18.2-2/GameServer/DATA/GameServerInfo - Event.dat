@@ -1,0 +1,82 @@
+[GameServerInfo]
+;==================================================
+; Arca Battle Event Settings
+;==================================================
+ArcaBattleEvent = 1
+ArcaBattleGuildMinUser = 1
+
+;==================================================
+; Bonus Manager Settings
+;==================================================
+BonusManagerSwitch = 1
+
+;==================================================
+; Imperial Guardian Event Settings
+;==================================================
+ImperialGuardianEvent = 1
+ImperialGuardianReqLevel = 1000
+ImperialGuardianDifficultRate = 100
+
+;==================================================
+; Invasion Manager Settings
+;==================================================
+InvasionManagerSwitch = 1
+
+;==================================================
+; Kanturu Event Settings
+;==================================================
+KanturuEvent = 1
+
+;==================================================
+; Moss Merchant Event Settings
+;==================================================
+MossMerchantEvent = 1
+MossMerchantEventTime = 120
+
+;==================================================
+; Raklion Event Settings
+;==================================================
+RaklionEvent = 1
+
+;==================================================
+; Evolution Monster Event Settings
+;==================================================
+EvolutionMonsterEventOnOff = 1
+EvolutionMonsterEventType = 2
+EvoMonEventItemDropRate = 30
+
+;==================================================
+; Banner Event Settings
+;==================================================
+MapleLeafSwitch = 1
+20THAnniversarySwitch = 1
+MonsterEggSwitch = 0
+LunarNewYearSwitch = 0
+MerryChristmasSwitch = 0
+NewYearSwitch = 0
+CherryBlossomSwitch = 0
+ChickenSwitch = 0
+
+;==================================================
+; Blessing Box Event Settings
+;==================================================
+BlessingBoxSwitch = 0
+
+
+;==================================================
+; Play Event Time Event Settings
+;==================================================
+PlayTimeEventSwitch = 1
+PlayTimeEventMaxRound = 10
+PlayTimeEventMinLevel = 220
+PlayTimeEventPlayRoundHour = 20
+PlayTimeEventPlayMulHour = 1
+PlayTimeEventRewardType = 0
+
+;==================================================
+; Boss Battle Event Settings
+;==================================================
+BossBattleEventSwitch = 1
+BossBattleEventMinLevel = 800
+BossBattleMaxUser = 6
+
