@@ -399,5 +399,7 @@
 413       328     *           "S.Pass TempestMuun Multip. Inc"	   1      1      0      *       *        *        *        *
 414       329     *           "S.Pass[G] Master Soul Crystal" 	   1      1      0      *       *        *        *        *
 415       330     *           "S.Pass[P] Master Soul Crystal"  	   1      1      0      *       *        *        *        *
+418       331     6237        "Equip Ur"                           0      1      0      *       *        *        *        *
+419       332     6238        "Equip Ur (Rare)"                    0      1      0      *       *        *        *        *
 420       333     7534        "Mr.Pizza"	   	   	   		   	   0      1      0      1800    50       10       *        *
 end
