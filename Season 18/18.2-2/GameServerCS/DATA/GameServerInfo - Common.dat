@@ -119,8 +119,8 @@ AntihackOnTeleportDistanceY = 7
 ; Anti Hack Anti Speed Settings
 ;==================================================
 AntiSpeedEnable = 1
-AntihackBasicDelayTolerance = 100
-AntiHackSkillDelayTolerance = 40
+AntihackBasicDelayTolerance = 50
+AntiHackSkillDelayTolerance = 200
 
 ;==================================================
 ; Common Settings

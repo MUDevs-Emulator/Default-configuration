@@ -1,13 +1,13 @@
 //=====================================================================================================
-//GuardianOption S18.2
+//GuardianOption S18.2-2
 //=====================================================================================================
 0
 //Index		Name
-0		"Elemental Damage Increase +%d"
-1		"Elemental Defense Increase +%d"
-2		"(up to %d Lvl) Defense increase by %0.1f every 20 Lv"
-3		"(up to %d Lvl) Attack/Wizardry/Curse damage increase by 0.1f every 20 Lv"
-4		"A 3%% chance of health recovery by %d"
+0		"Increases Elemental DMG + %d"
+1		"Increases Elemental Defense + %d"
+2		"(Up to Lv. %d)Increases Defense by %0.1f for every 20 Levels"
+3		"(Up to Lv. %d)Increases Attack/Wizardry/Curse by %0.1f for every 20 Levels"
+4		"3%% chance to Recover %d HP on every successful attack"
 end
 //=====================================================================================================
 1
