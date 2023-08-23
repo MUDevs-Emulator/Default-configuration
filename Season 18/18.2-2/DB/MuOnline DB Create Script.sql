@@ -18801,3 +18801,68 @@ END
 
 GO
 
+
+ALTER TABLE dbo.Character ADD LastGateIndex [int] NOT NULL DEFAULT(-1);
+
+
+/****** Object:  Table [dbo].[ChaosCastleFinal_Ranking]    Script Date: 01/17/2022 16:36:23 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[ChaosCastleFinal_Ranking](
+	[mRank] [int] NOT NULL,
+	[mName] [varchar](10) NOT NULL,
+	[mCCFType] [tinyint] NOT NULL,
+	[mClass] [int] NOT NULL,
+	[mPoint] [int] NOT NULL,
+	[mDate] [smalldatetime] NOT NULL,
+ CONSTRAINT [NC_PK_ChaosCastleFinal_Ranking] PRIMARY KEY NONCLUSTERED 
+(
+	[mName] ASC,
+	[mCCFType] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+/****** Object:  Table [dbo].[ChaosCastleFinal_Scores]    Script Date: 01/17/2022 16:36:44 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[ChaosCastleFinal_Scores](
+	[mName] [varchar](10) NOT NULL,
+	[mCCFType] [tinyint] NOT NULL,
+	[mPoint] [int] NOT NULL,
+	[mDate] [smalldatetime] NOT NULL,
+	[mCharLevel] [smallint] NULL,
+	[mCharExperience] [bigint] NULL,
+	[mCharClass] [smallint] NULL,
+ CONSTRAINT [CL_PK_ChaosCastleFinal_Scores] PRIMARY KEY CLUSTERED 
+(
+	[mName] ASC,
+	[mCCFType] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+UPDATE MuCastle_DATA SET SIEGE_START_DATE=GETDATE(),SIEGE_END_DATE=GETDATE()+7

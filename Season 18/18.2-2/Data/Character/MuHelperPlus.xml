@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MUHelperPlus>
 	<HuntingGrounds>								
-		<Grounds Index="0" MoveReqIndex="49" Name="Debenter" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="1" MoveReqIndex="49" Name="Uruk Mountain" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="2" MoveReqIndex="49" Name="Nars" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="3" MoveReqIndex="50" Name="Ferea" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="4" MoveReqIndex="51" Name="Nixies Lake" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="5" MoveReqIndex="66" Name="Old Kethotum" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="6" MoveReqIndex="52" Name="Deep Dungeon 1" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="7" MoveReqIndex="53" Name="Deep Dungeon 2" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="8" MoveReqIndex="54" Name="Deep Dungeon 3" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="9" MoveReqIndex="55" Name="Deep Dungeon 4" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="10" MoveReqIndex="56" Name="Deep Dungeon 5" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="11" MoveReqIndex="57" Name="Swamp of Darkness" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="12" MoveReqIndex="58" Name="Cubera Mines" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="13" MoveReqIndex="58" Name="Cubera Mines(deserted)" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="14" MoveReqIndex="59" Name="Atlans Abyss 1" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="15" MoveReqIndex="60" Name="Atlans Abyss 2" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="16" MoveReqIndex="61" Name="Atlans Abyss 3" ElementStatus="1" MainPosition="0" />
-		<Grounds Index="17" MoveReqIndex="62" Name="Scorched Canyon(lower)" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="18" MoveReqIndex="62" Name="Scorched Canyon(upper)" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="19" MoveReqIndex="63" Name="Crimson Icarus" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="20" MoveReqIndex="64" Name="Arenil Temple" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="21" MoveReqIndex="65" Name="Gray Aida" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="22" MoveReqIndex="67" Name="Burning Kethotum" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="23" MoveReqIndex="68" Name="Kanturu Underground" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="24" MoveReqIndex="69" Name="Ignis Volcano" ElementStatus="1" MainPosition="1" />
-		<Grounds Index="25" MoveReqIndex="70" Name="Blood Tarkan" ElementStatus="1" MainPosition="1" />
+		<Grounds Index="0" MoveReqIndex="49" Name="Debenter" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="1" MoveReqIndex="49" Name="Uruk Mountain" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="2" MoveReqIndex="49" Name="Nars" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="3" MoveReqIndex="50" Name="Ferea" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="4" MoveReqIndex="51" Name="Nixies Lake" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="5" MoveReqIndex="66" Name="Old Kethotum" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="6" MoveReqIndex="52" Name="Deep Dungeon 1" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="7" MoveReqIndex="53" Name="Deep Dungeon 2" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="8" MoveReqIndex="54" Name="Deep Dungeon 3" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="9" MoveReqIndex="55" Name="Deep Dungeon 4" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="10" MoveReqIndex="56" Name="Deep Dungeon 5" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="11" MoveReqIndex="57" Name="Swamp of Darkness" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="12" MoveReqIndex="58" Name="Cubera Mines" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="13" MoveReqIndex="58" Name="Cubera Mines(deserted)" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="14" MoveReqIndex="59" Name="Atlans Abyss 1" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="15" MoveReqIndex="60" Name="Atlans Abyss 2" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="16" MoveReqIndex="61" Name="Atlans Abyss 3" ElementStatus="1" PositionStatus="0" />
+		<Grounds Index="17" MoveReqIndex="62" Name="Scorched Canyon(lower)" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="18" MoveReqIndex="62" Name="Scorched Canyon(upper)" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="19" MoveReqIndex="63" Name="Crimson Icarus" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="20" MoveReqIndex="64" Name="Arenil Temple" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="21" MoveReqIndex="65" Name="Gray Aida" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="22" MoveReqIndex="67" Name="Burning Kethotum" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="23" MoveReqIndex="68" Name="Kanturu Underground" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="24" MoveReqIndex="69" Name="Ignis Volcano" ElementStatus="1" PositionStatus="1" />
+		<Grounds Index="25" MoveReqIndex="70" Name="Blood Tarkan" ElementStatus="1" PositionStatus="1" />
 	</HuntingGrounds>
 	<HuntingZone>
 		<Info Index="000" GroundsIndex="00" MapIndex="095" HuntingZone="0" HuntingElement="1" StartX="180" StartY="087" EndX="206" EndY="107" BuffCordX="050" BuffCordY="080" HuntGroundEntX="198" HuntGroundEntY="075" HuntingCordX="190" HuntingCordY="098" ChannelSwitchCordX="020" ChannelSwitchCordY="104" MovementGate="436" SafetyGate="417" />
